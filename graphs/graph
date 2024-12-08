@@ -1,0 +1,12 @@
+digraph {
+	rankdir=RL
+	MajorClaim [label="MajorClaim(s)" shape=record style=rounded]
+	"Claim 1" [label="Claim 1" shape=record style=rounded]
+	"Claim 2" [label="Claim 2" shape=record style=rounded]
+	"Premise 1" [label="Premise 1" shape=record style=rounded]
+	"Premise 2" [label="Premise 2" shape=rounded style=rounded]
+	"Claim 1" -> MajorClaim [label=against color=red]
+	"Claim 2" -> MajorClaim [label=for color=green]
+	"Premise 1" -> "Claim 1" [label=attack color=red]
+	"Premise 2" -> "Claim 1" [label=support color=green]
+}

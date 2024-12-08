@@ -1,0 +1,13 @@
+digraph {
+	rankdir=LR
+	Template [label=Template shape=record style=rounded]
+	Text [label="Arg.-Txt." shape=record style=rounded]
+	LLM [label="Large Language Model" shape=record style=rounded]
+	Database [label=Database shape=record style=rounded]
+	Evaluation [label=Evaluation shape=record style=rounded]
+	Text -> Template [label=examples color=blue]
+	Template -> LLM [label=prompt color=blue]
+	LLM -> Database [label=response color=blue]
+	Database -> Evaluation [label="" color=blue]
+	Text -> Database [label="ground truth" color=blue]
+}
