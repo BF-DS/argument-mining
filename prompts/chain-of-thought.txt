@@ -1,20 +1,6 @@
 Extract the argumentative units “major claim”, “claim”, and “premise” as parts from a text. Also extract the argumentative relationships between the units. Claims can be “for” or “against” the major claims. Premises, on the other hand, can “support” or “attack” a claim. It is possible that there are several major claims. Provide a step-by-step solution. Return the argumentative units and relationships in the following structured way:
-# Argument Mining
-## Major Claims:
--MC1:
--MC2:
-...
-## Claims:
--C1:
--C2:
-...
-## Premises:
--P1:
--P2:
-...
-## Argumentative relations:
--C1 for MC
--C2 against MC
--P1 supports C1
--P2 attacks C2
+1. Extract the argumentative text parts.
+2. Extract the arguments components major claim, claim and premise.
+3. extract the argument relations.  
+4. Return the final answer as a JSON.
 ...
