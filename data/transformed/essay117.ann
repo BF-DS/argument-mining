@@ -1,0 +1,29 @@
+MC1	MajorClaim 1955 2016	technology alone can solve the world's environmental problems
+C1	Claim 459 558	if humans stop using technology and lead a simple way of life then only we can save the environment
+A1	Stance C1 Against
+P1	Premise 576 635	it is the luxuries people use which damages the environment
+P2	Premise 637 880	If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment
+C2	Claim 930 973	technology alone could save the environment
+A2	Stance C2 For
+P3	Premise 991 1062	now we have come so far ahead in technology that there is no going back
+P4	Premise 1064 1145	We cannot ask the people of the jet age to go back to the age of the bullock cart
+C3	Claim 1147 1234	There are a lot of advances going on technology which are helping the environment a lot
+A3	Stance C3 For
+P5	Premise 1236 1331	One prime example is finding solutions to water problems in developing countries such as Africa
+P6	Premise 1333 1509	By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource
+P7	Premise 1524 1592	Japan is working to build a working space solar power system by 2030
+P8	Premise 1594 1743	By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions
+P9	Premise 1745 1803	If successful, the impact on the world would be monumental
+P10	Premise 1805 1859	It would mean energy for schools, hospitals, and homes
+P11	Premise 1861 1904	It would mean another industrial revolution
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P6 Arg2:P5	
+R6	supports Arg1:P5 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P9 Arg2:C3	
+R10	supports Arg1:P10 Arg2:P9	
+R11	supports Arg1:P11 Arg2:P9	

@@ -1,0 +1,26 @@
+MC1	MajorClaim 323 384	"murdering" criminals is therefore immoral and hard to accept
+MC2	MajorClaim 1700 1725	it is absurd and inhumane
+C1	Claim 1605 1668	capital punishment presents an extreme warning to the community
+A1	Stance C1 Against
+C2	Claim 422 514	every human being has the right to live and no authority is empowered to deprive one of life
+A2	Stance C2 For
+P1	Premise 525 624	what criminals cause to the society, specifically to the victims, is indeed significantly offensive
+P2	Premise 626 675	they are humans and their lives need to be valued
+R1	attacks Arg1:P2 Arg2:P1	
+R2	attacks Arg1:P1 Arg2:C2	
+P3	Premise 690 742	execution does not resolve the consequences of crime
+P4	Premise 759 869	it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled
+R3	supports Arg1:P4 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+C3	Claim 881 1069	capital punishment is certainly not the only option to control the amount of crimes, life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives
+P5	Premise 1081 1288	in terms of punishment, living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away
+A3	Stance C3 For
+R5	supports Arg1:P5 Arg2:C3	
+C4	Claim 1290 1402	The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted
+A4	Stance C4 For
+P6	Premise 1463 1579	many people are executed for the crime they did not commit, which leads to a question of fairness in judicial system
+P7	Premise 1404 1455	Juries are also humans, they may lack of discretion
+R6	supports Arg1:P7 Arg2:P6	
+R7	supports Arg1:P6 Arg2:C4	
+C5	Claim 1740 1777	it can be replaced by a life sentence
+A5	Stance C5 For

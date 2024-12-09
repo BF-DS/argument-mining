@@ -1,0 +1,23 @@
+MC1	MajorClaim 1594 1686	qualification is still the fundamental determinant of an employee's competency of their jobs
+C1	Claim 1693 1885	the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others
+A1	Stance C1 Against
+C2	Claim 504 589	qualification should be the foremost measurement to determine the value of a employer
+A2	Stance C2 For
+P1	Premise 591 690	It is of importance that workers should be well educated and trained to perform duties of their job
+P2	Premise 706 826	people who work in professional fields such as medicals are required to have a university degree and years of experience
+P3	Premise 828 921	Social skills seem to be less important as they cannot contribute to the success of a surgery
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+P4	Premise 1361 1417	organization have been transformed to customers oriented
+P5	Premise 1419 1559	Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction
+C3	Claim 963 1049	the importance of social skills have been recognized by increasing number of employers
+A3	Stance C3 Against
+P6	Premise 1065 1136	people nowadays are required to work as a team in their jobs frequently
+P7	Premise 1138 1265	Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise
+P8	Premise 1267 1350	Better social skills allow them to resolve disagreements in a much more harmony way
+R4	supports Arg1:P4 Arg2:P5	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	

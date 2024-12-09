@@ -1,0 +1,90 @@
+{
+    "MajorClaims": {
+        "MC1": "I prefer to learn with a teacher rather than learn by myself",
+        "MC2": "I support this point that the learning with a teacher is better"
+    },
+    "Claims": {
+        "C1": "being without a teacher has shortcomings",
+        "C2": "learning with a teacher is that you can ask about problems related your studies",
+        "C3": "the learning with a teacher is more efficient than by myself"
+    },
+    "Premises": {
+        "P1": "if someone faced so complicated confusion in his study and his many endeavors on making out it were miscarried, this might be ended in disappointment",
+        "P2": "for one who depends on only himself in learning, his improvement of ability, with regard to cooperation and express his opinion, is unpromising",
+        "P3": "when we encounter difficulty in our study which we can not make out, that asking the difficulty from our teacher is propitious way for us to solve it instantly",
+        "P4": "professors and teachers have much experience and knowledge, and are so dextrous with letting students understand their study",
+        "P5": "They know something which are not incorporated in such materials as books and webpages",
+        "P6": "I, in my class, often communicate with my teacher to find a coordinated answer to a my faced problem, and my classmates are so accustomed to communicating with the teacher",
+        "P7": "We can accomplish our assignments with little help of a teacher within less time than do it by ourself",
+        "P8": "the teachers play important role in leading us to right direction",
+        "P9": "This gives us opportunity to rise our educational level to an exited degree",
+        "P10": "knowledge may be thereby better improved and strengthened"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

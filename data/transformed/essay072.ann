@@ -1,0 +1,24 @@
+MC1	MajorClaim 309 483	the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions
+C1	Claim 1524 1560	many activities can let humans relax
+A1	Stance C1 Against
+MC2	MajorClaim 1590 1706	the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally
+C2	Claim 510 570	exercise play a crucial role in ameliorating physical health
+A2	Stance C2 For
+P1	Premise 572 710	Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system
+P2	Premise 722 811	these sports can also strengthen muscles and lessen surplus adipose tissues in human body
+P3	Premise 813 917	The latter one is of particular importance because nowadays more and more people are suffer from obesity
+P4	Premise 919 1084	Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises
+P5	Premise 1305 1374	good exercises can often successfully alleviating one's heavy burdens
+C3	Claim 1386 1507	rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks
+A4	Stance C3 For
+P6	Premise 1235 1298	This hormone can delight one's mind, creating positive feelings
+P7	Premise 1139 1233	When people exercise, the neuron cells in the brain release a chemical compound named Dopamine
+C4	Claim 1086 1129	Sports activities can improve mental health
+A5	Stance C4 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P6 Arg2:P5	
+R6	supports Arg1:P7 Arg2:C4	
+R7	supports Arg1:P5 Arg2:C4	

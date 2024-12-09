@@ -1,0 +1,24 @@
+MC1	MajorClaim 201 413	high school should permit students to choose courses they want for several reasons which are freedom of choice, to have progress in students grades and knowledge as well as to help students explore their aptitude
+C1	Claim 450 512	students should have a right to choose what they want to study
+A1	Stance C1 For
+P1	Premise 514 604	Not allowing students their desired subjects to be chosen is a restriction of human rights
+P2	Premise 606 733	As children of independent country we should know our rights and opportunities we have in order to achieve our goals and dreams
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+P3	Premise 741 822	students should choose their classes to have progress in their studies and grades
+P4	Premise 830 951	we can avoid conflicts among students and teachers which can be enjoyable and productive for both instructor and students
+P5	Premise 966 1069	when I was taking art class everyone shared the same interests and it was easy to understand each other
+C2	Claim 1071 1145	Giving chance students to choose their interested fields of study is merit
+A3	Stance C2 For
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+P6	Premise 1261 1431	When schools can give such kind of opportunity the students are likely do their best and succeed in their future lives which is one of the point most people get education
+C3	Claim 1446 1498	this type of opportunities can raise future geniuses
+A2	Stance C3 For
+P7	Premise 1204 1259	he or she can explore in an area she/he has an aptitude
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+MC2	MajorClaim 1532 1636	I want my children to get knowledge they have desire to study in order to have distinguished achievement
+C4	Claim 1640 1704	it has advantage not only for him or her but for society as well
+A4	Stance C4 For

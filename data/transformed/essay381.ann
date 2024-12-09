@@ -1,0 +1,20 @@
+MC1	MajorClaim 287 357	this trend reflects and enhances the high level of violence in society
+C1	Claim 1533 1587	being armed with guns in the police force is necessary
+A1	Stance C1 Against
+MC2	MajorClaim 1589 1631	it will bring the higher level of violence
+C2	Claim 1064 1156	a society that its police force carries guns will be definitely seen as a highly violent one
+A2	Stance C2 For
+P1	Premise 498 642	we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself
+P2	Premise 657 820	criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs
+P3	Premise 828 906	citizens in that society can be shot by both police and offenders accidentally
+R1	supports Arg1:P2 Arg2:P3	
+P4	Premise 918 1051	while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P1 Arg2:C2	
+C3	Claim 1385 1485	Those are possibly the strongest evidences to determine a society suffering a high level of violence
+A3	Stance C3 For
+P5	Premise 1231 1372	people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson
+P6	Premise 1168 1222	police force carries guns only in high crime societies
+R6	supports Arg1:P5 Arg2:C3	
+R7	supports Arg1:P6 Arg2:P5	

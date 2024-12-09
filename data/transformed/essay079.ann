@@ -1,0 +1,29 @@
+MC1	MajorClaim 380 451	arts are supposed to be included in the government's investment as well
+P1	Premise 465 534	the government should give priority to public services and facilities
+C1	Claim 943 1056	public services and facilities should be given adequate attention by the authorities to maintain social stability
+A3	Stance C1 For
+P2	Premise 552 722	the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable
+P3	Premise 740 930	public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate
+R4	supports Arg1:P3 Arg2:C1	
+R5	supports Arg1:P2 Arg2:C1	
+C2	Claim 1087 1145	arts should by no means been disregarded by the government
+A4	Stance C2 For
+P4	Premise 1161 1200	arts can enrich people's cultural lives
+P5	Premise 1202 1302	Currently, people are increasingly occupied with their work and studies due to the stiff competition
+P6	Premise 1318 1429	they require various entertainment such as music, movies or books to them ease their minds and release pressure
+R6	supports Arg1:P5 Arg2:P6	
+P7	Premise 1431 1504	Without arts, people would be at risk of suffering psychological problems
+R7	supports Arg1:P6 Arg2:C2	
+R8	supports Arg1:P4 Arg2:C2	
+R9	supports Arg1:P7 Arg2:C2	
+MC2	MajorClaim 2004 2085	public services and facilities are an integral part of the government expenditure
+MC3	MajorClaim 2105 2207	the authorities should also respect the value of arts which are individually and socially advantageous
+C3	Claim 1545 1618	funding arts is beneficial to the local cultural and economic development
+A1	Stance C3 For
+P8	Premise 1620 1675	Cultural heritage constitutes an essential part of arts
+P9	Premise 1688 1893	preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry
+P10	Premise 1909 1950	arts serve cultural and economic purposes
+R10	supports Arg1:P8 Arg2:C3	
+R11	supports Arg1:P9 Arg2:C3	
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P10 Arg2:C3	

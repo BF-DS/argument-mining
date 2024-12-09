@@ -1,0 +1,38 @@
+MC1	MajorClaim 276 359	life in the old days brings more happiness to people than today for several reasons
+MC2	MajorClaim 1637 1710	People are put too much focus on making wealth and progress in technology
+C1	Claim 1569 1635	some people live in a pretty good condition, it is only a minority
+A1	Stance C1 Against
+P1	Premise 381 407	life is simple in the past
+C2	Claim 680 722	lives in the old days is easier than today
+A3	Stance C2 For
+P2	Premise 409 446	Nowadays, all humans compete together
+P3	Premise 454 485	world population getting higher
+P4	Premise 487 516	competition is getting fierce
+R1	supports Arg1:P3 Arg2:P4	
+P5	Premise 518 599	If you are not able to handle your jobs, then someone will replace you right away
+P6	Premise 601 667	People need to put much more effort to keep their living condition
+R4	supports Arg1:P4 Arg2:C2	
+R6	supports Arg1:P2 Arg2:C2	
+R7	supports Arg1:P5 Arg2:C2	
+R9	supports Arg1:P6 Arg2:C2	
+P7	Premise 732 772	the environment today is serious damaged
+P8	Premise 774 869	Looking out the windows, what I see isn't sky, trees or mountains, but is coldly high buildings
+P9	Premise 871 954	Everyday, I walk on hard roads, breath in polluted air, and live in a limited space
+P10	Premise 970 1062	it has been proved that living in this kind of condition will result in some mental diseases
+C3	Claim 1070 1138	the environment our grandparents live is more comfortable than today
+A5	Stance C3 For
+R11	supports Arg1:P7 Arg2:C3	
+R12	supports Arg1:P9 Arg2:C3	
+R13	supports Arg1:P10 Arg2:C3	
+R14	supports Arg1:P8 Arg2:C3	
+P11	Premise 1183 1320	Today, we are able to read the news all over the world, to chat with people through the Internet, or to travel around the world by planes
+P12	Premise 1331 1401	it also means that any thing happens in the world will affect our life
+C4	Claim 1140 1181	The third reason is that the pace of life
+A4	Stance C4 For
+P13	Premise 1403 1489	If we cannot react properly and immediately, then we will be in a vulnerable situation
+P14	Premise 1491 1540	We have no choice but have to live in a fast pace
+R16	attacks Arg1:P11 Arg2:C4	
+R18	attacks Arg1:P12 Arg2:P11	
+R19	supports Arg1:P13 Arg2:C4	
+R15	supports Arg1:P14 Arg2:C4	
+R2	supports Arg1:P1 Arg2:C2	

@@ -1,0 +1,34 @@
+C1	Claim 814 893	it's much easier to have some casual acquaintances than have some close friends
+A1	Stance C1 For
+MC1	MajorClaim 207 303	it's better to have one or two close friends than to have a large number of casual acquaintances
+P1	Premise 326 394	being a friend with someone is different from only being acquaintant
+P2	Premise 403 443	it's not easy to make friend with anyone
+P3	Premise 455 518	friends are people who have great compatibility with each other
+P4	Premise 520 707	After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways
+P5	Premise 709 755	Sometimes acquaintances are just acquaintances
+P6	Premise 757 808	We spend time together but we could never be friend
+C2	Claim 903 959	close friends can easily understand each others feelings
+A2	Stance C2 For
+P7	Premise 1004 1078	acquaintances probably not able to understand you better than your friends
+P8	Premise 1090 1145	they wouldn't even spare time to consider your feelings
+P9	Premise 1147 1213	Everyone play the role of acquaintance and friend at the same time
+P10	Premise 1215 1299	Being friendly is a good way to treat a acquaintance but way not enough for a friend
+P11	Premise 1301 1436	When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible
+P12	Premise 1438 1591	If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business
+P13	Premise 1607 1639	my friend will do the same to me
+C3	Claim 1656 1691	a friend is a person you care about
+A3	Stance C3 For
+MC2	MajorClaim 1701 1769	friends are the most important people in my life second to my family
+R1	supports Arg1:P5 Arg2:C1	
+R2	supports Arg1:P6 Arg2:C1	
+R3	supports Arg1:P1 Arg2:C1	
+R4	supports Arg1:P2 Arg2:P1	
+R5	supports Arg1:P3 Arg2:P1	
+R6	supports Arg1:P7 Arg2:C2	
+R7	supports Arg1:P8 Arg2:C2	
+R8	supports Arg1:P9 Arg2:C2	
+R9	supports Arg1:P10 Arg2:C2	
+R10	supports Arg1:P11 Arg2:C3	
+R11	supports Arg1:P12 Arg2:C3	
+R12	supports Arg1:P13 Arg2:C3	
+R13	supports Arg1:P4 Arg2:P1	

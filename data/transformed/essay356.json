@@ -1,0 +1,95 @@
+{
+    "MajorClaims": {
+        "MC1": "the prosperity of tourism can provide benefits for people on a global scale"
+    },
+    "Claims": {
+        "C1": "there are some inevitable problems",
+        "C2": "tourism can have a negative impact on the natural environment",
+        "C3": "flourishing tourism in a place can be very rewarding in terms of local economy",
+        "C4": "the increasing development of tourism is a boon to travelers as well"
+    },
+    "Premises": {
+        "P1": "they are outweighed by advantages and can be tackled if proper measures are taken",
+        "P2": "In order to meet the needs of tourists, local governments are likely to build more facilities and infrastructures around tourist attractions, which may result in the destruction of natural habitats",
+        "P3": "Tourism also creates more pollution and waste, including growing emission of greenhouse gases, dumped leftovers and overuse of water, power and other kind of energy in luxurious hotels",
+        "P4": "tourism puts great pressure on ecosystem and local resources, and it should not be encouraged",
+        "P5": "Holiday makers flocking to other countries are not only bound to spend on tickets of attractions, but also pay for food, accommodation, transportation and entertainment",
+        "P6": "Both local people and governments can make a large amount of money through these services, and more employment opportunities can be created as well",
+        "P7": "the revenue earned form tourism can be used in turn to reduce pollution and protect the environment",
+        "P8": "The provision of direct airlines makes it possible for them to travel conveniently and comfortably",
+        "P9": "With adequate local facilities and services available, they can spend more of their holidays having fun and relaxing",
+        "P10": "both locals and tourists can experience more cultures than ever before, and they can be more open-minded to eliminate preconceptions and deepen mutual understanding among nations"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

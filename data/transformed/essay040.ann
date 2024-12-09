@@ -1,0 +1,27 @@
+MC1	MajorClaim 1977 2064	having a part time job during your student time will offer students many clear benefits
+C1	Claim 2066 2210	By taking on an extra job, students can partly alleviate some their problematic matters such as working experience, confidence and accommodation
+A1	Stance C1 For
+P1	Premise 394 500	It is undoubtedly certain that students can gain their practical experience by getting involved extra jobs
+C2	Claim 856 993	having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation
+A3	Stance C2 For
+P2	Premise 751 844	students who get part time jobs have not only academic knowledge but also hands-on experience
+P3	Premise 622 736	that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities
+R1	supports Arg1:P3 Arg2:P2	
+P4	Premise 502 607	Part-time jobs furnish them with precious chance to practice what they are learning at their universities
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P4 Arg2:C2	
+R4	supports Arg1:P1 Arg2:C2	
+C3	Claim 1005 1098	students who take on a part time job are often more confident and independent than other ones
+A2	Stance C3 For
+P5	Premise 1100 1290	By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation, then students' confidence could be significantly gained
+P6	Premise 1298 1495	working conditions require students the independency in thinking, working, and solving problems, which is greatly helpful when the characteristic is applied to tackle subjects in their universities
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+C4	Claim 1505 1570	doing extra jobs helps student with money for their accommodation
+A4	Stance C4 For
+P7	Premise 1580 1683	high studying tuition, added with raising accommodation expenses are becoming a huge burden to students
+P8	Premise 1685 1799	With the money they earn from extra jobs, which normally is not much, those difficulties could be partially solved
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	
+C5	Claim 1811 1940	that helps students from being reliant on their families as well as is a well-prepared condition for their independent later life
+A5	Stance C5 For

@@ -1,0 +1,90 @@
+{
+    "MajorClaims": {
+        "MC1": "no matter how widely they are spoken, every language should be protected from being disappeared",
+        "MC2": "it will definitely impact seriously on many other aspects especially in the loss of our cultural heritages"
+    },
+    "Claims": {
+        "C1": "letting languages spoken by ethnic minorities be extinct seems to be very beneficial",
+        "C2": "in many aspects such as communication, trade, cooperation as well as transaction, it will be absolutely easier for the whole society to work together in one language only",
+        "C3": "saving regional languages could be seen as a waste of money",
+        "C4": "the government should try to preserve minority languages"
+    },
+    "Premises": {
+        "P1": "we need to consider that if the government expands the use scope of that languages, it can be really expensive",
+        "P2": "educational programmes will need to be given so as to keep young people learning and using them",
+        "P3": "some certain areas in the Southern Vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside Vietnamese",
+        "P4": "the local government has recently struggled with their costly investments on language teachers, facilities and appropriate materials",
+        "P5": "language can be seen as much more than just one method of communication",
+        "P6": "forming a language must be undergone thousands of years",
+        "P7": "it deserves to be respected and preserved",
+        "P8": "language is one of the essential factors creating the differences and unique cutures in the world",
+        "P9": "saving the use of that kinds of languages in this case generally is the most important element of the cultural diversity's preservation"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

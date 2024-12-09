@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "learning facts has more subsequent advantages for students' future lives",
+        "MC2": "learning facts is more beneficial for students in both social and individual life"
+    },
+    "Claims": {
+        "C1": "they would prepare to encounter their life out of school to solve their problems better",
+        "C2": "it would improve students' social behavior",
+        "C3": "when a student understands a fact and its consequences, he or she can encounter it more confidently",
+        "C4": "Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc"
+    },
+    "Premises": {
+        "P1": "when students learn facts more in school, they would be ready for facing problems in their own life after their graduations",
+        "P2": "more information about facts would make students more familiar with the real life other that only their concepts",
+        "P3": "if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life",
+        "P4": "If students only rely on concepts and ideas theorically, they would not realize human's mind very well",
+        "P5": "They should understand objects more that concepts to obtain the ability of analyzing matters well",
+        "P6": "It can prevent person to progress and thrive in every position",
+        "P7": "concerns and anxieties are very destructive in everybody's life",
+        "P8": "these way students are teached to control their fears and concerns in facing facts"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

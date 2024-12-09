@@ -1,0 +1,72 @@
+{
+    "MajorClaims": {
+        "MC1": "While many believe that petrol and diesel fuel should be charged with the highest taxation, I strongly disagree with this notion",
+        "MC2": "it disadvantages may outweigh its advantages with regard to economic and politic issues, making it advisable to seek another options to reduce the use of personal cars"
+    },
+    "Claims": {
+        "C1": "higher fuel and petrol cost has its own pros and cons",
+        "C2": "Taxation may have tackled the environmental issue simply by diverting people to public transportations such as trains, buses or ferries",
+        "C3": "people have to turn to cheaper alternatives, which might cause the abundance in goods and later on, economic crisis",
+        "C4": "countries that import oil will be more dependent on the exporters, both politically and financially"
+    },
+    "Premises": {
+        "P1": "if petrol and fuel taxation are raised, people might hesitate choosing a personal automobile",
+        "P2": "for those who have already afforded a car, there is a likelihood it is restraint from usage on long journeys or to crowded cities",
+        "P3": "the more costly petrol is, the higher the price of necessary product: rice, meat or even vegetable",
+        "P4": "taxation on flamable resources might backfire by conducing to inflation",
+        "P5": "Suppose that the those countries cut down on its oil support, other nations will have to pay more as well as release beneficial policies for them",
+        "P6": "America, for example, has recently drawn its intervention in Russian crisis only due to the influx of oil"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

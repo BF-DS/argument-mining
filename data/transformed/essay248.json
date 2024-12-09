@@ -1,0 +1,138 @@
+{
+    "MajorClaims": {
+        "MC1": "choosing the job that is similar to parents' jobs could benefit to one's career",
+        "MC2": "parents can lead their children to a more smooth career path"
+    },
+    "Claims": {
+        "C1": "one can get more support from his or her parents if they are in the same industry",
+        "C2": "they could thus support much more to their children, such as domain knowledge and industry-related information",
+        "C3": "They have a deep insight in it and could provide much support to their children",
+        "C4": "choosing a job similar to one's parents' is not always a correct decision"
+    },
+    "Premises": {
+        "P1": "as parents are involved in the same environmen",
+        "P2": "my father is a software programmer, and he indeed teaches me a lot in programming and some computer knowledge",
+        "P3": "Whenever I met a difficulty, I would reach him for consulting",
+        "P4": "he has many experiences",
+        "P5": "I could save enormous time in finding solution",
+        "P6": "This truly makes me more competitive than my colleagues",
+        "P7": "If I worked in the different field from my father, I would have faced much difficulty than I do now",
+        "P8": "they know which company has better welfare or provides better education",
+        "P9": "their friends in the same industry can even help to write recommendation letters to some certain companies",
+        "P10": "It is undoubted that a good recommendation letter is extraordinary important in this competitive society",
+        "P11": "When others are still struggling in preparing their resume, one with a good recommendation letter has already passed the first stage in the interviewing process",
+        "P12": "parents have worked in tens of years",
+        "P13": "they have accumulated a rich network in a certain industry",
+        "P14": "the condition of job market is completely different",
+        "P15": "when it comes to the trend, no one can predict it correctly",
+        "P16": "The condition of job market changes enormously fast like a flash",
+        "P17": "there is no way to predict any job can be popular for 30 years or more"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P13"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P15",
+            "Relation": "attacks",
+            "target": "C4"
+        },
+        {
+            "start": "P16",
+            "Relation": "supports",
+            "target": "P17"
+        },
+        {
+            "start": "P17",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

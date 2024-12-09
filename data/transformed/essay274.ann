@@ -1,0 +1,32 @@
+MC1	MajorClaim 415 455	you should focus on what you are good at
+MC2	MajorClaim 1777 1869	doing what you can already do well helps you make a big accomplishment and do it much better
+P1	Premise 530 629	the more time you spend on what you do well, the more likely to achieve something great you will be
+P2	Premise 645 819	Albert Einstein, one of the most competent physicians in history, devoted most of his life to develop theory in physics and finally established special and general relativity
+P3	Premise 830 866	he hardly cared about something else
+P4	Premise 868 958	It is said that, surprisingly, he never tried to distinguish a hand soup and a facial soup
+P5	Premise 986 1039	using two different soups properly was quite annoying
+C1	Claim 1073 1160	you will be more likely to accomplish your purpose by concentrating on what you do well
+A1	Stance C1 For
+P6	Premise 457 513	Focusing what you are good at helps you attain your goal
+R3	supports Arg1:P1 Arg2:C1	
+R4	supports Arg1:P2 Arg2:P1	
+R5	supports Arg1:P3 Arg2:P1	
+R6	supports Arg1:P4 Arg2:P1	
+R7	supports Arg1:P5 Arg2:P4	
+P7	Premise 1236 1324	When you're doing something well, you will feel more satisfied and more interested in it
+P8	Premise 1332 1369	you will motivate yourself to do more
+P9	Premise 1391 1449	I used to be good at math when I was in junior high school
+P10	Premise 1459 1522	I was really satisfied with the fact that I could do preferably
+P11	Premise 1524 1593	I became to absorb myself to try more advanced level of math problems
+R8	supports Arg1:P10 Arg2:P11	
+P12	Premise 1608 1700	I could not only get higher scores in math test but also solve the university-level problems
+R9	supports Arg1:P11 Arg2:P12	
+C2	Claim 1708 1763	by doing what you are good at, you will be better at it
+A4	Stance C2 For
+P13	Premise 1162 1234	If you keep doing what you already do well, you can be better good at it
+R12	supports Arg1:P12 Arg2:P9	
+R14	supports Arg1:P9 Arg2:C2	
+R15	supports Arg1:P7 Arg2:C2	
+R16	supports Arg1:P8 Arg2:C2	
+R10	supports Arg1:P13 Arg2:C2	
+R1	supports Arg1:P6 Arg2:C1	

@@ -1,0 +1,24 @@
+C1	Claim 1530 1577	there is some disadvantages of animals' profits
+A1	Stance C1 Against
+MC1	MajorClaim 1579 1639	the merits of animal experiments still outweigh the demerits
+MC2	MajorClaim 320 447	it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals
+C2	Claim 800 876	doing this various testing is a hazard of human's future and next generation
+A3	Stance C2 Against
+P1	Premise 540 581	animals are friendly and vital for people
+P2	Premise 591 703	if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well
+R1	supports Arg1:P2 Arg2:P1	
+P3	Premise 705 782	The animal experiments accelerate the vanishing of some categories of animals
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+P4	Premise 885 947	animal experiments have negative impact on the natural balance
+P5	Premise 949 1010	it is necessary to make sure that people can live a long life
+C3	Claim 1027 1219	it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying
+P6	Premise 1221 1300	The new foods or medicines are invented to promote the quantity of human's life
+P7	Premise 1307 1408	even if they are volunteers; they cannot take the place of animals to test the new foods or medicines
+P8	Premise 1423 1491	it also have potentially harm for human's health without any testing
+A4	Stance C3 For
+R4	supports Arg1:P6 Arg2:C3	
+R5	attacks Arg1:P5 Arg2:P4	
+R6	attacks Arg1:P4 Arg2:C3	
+R7	supports Arg1:P8 Arg2:C3	
+R8	supports Arg1:P7 Arg2:C3	

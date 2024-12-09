@@ -1,0 +1,26 @@
+MC1	MajorClaim 308 384	the popularity of mobile phones to the young generation is a bad development
+MC2	MajorClaim 1701 1802	the negative impacts brought about by mobile phones are harmful to a person’s education and character
+C1	Claim 400 524	many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones
+A1	Stance C1 For
+P1	Premise 526 673	Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities
+P2	Premise 686 825	internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works
+P3	Premise 827 905	In my college days, I was once addicted to a certain game on my cellular phone
+P4	Premise 907 992	I have spent most of my time trying to reach a higher level to show-off to my friends
+P5	Premise 994 1110	That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester
+R1	supports Arg1:P3 Arg2:P2	
+R2	supports Arg1:P4 Arg2:P2	
+R3	supports Arg1:P5 Arg2:P2	
+R4	supports Arg1:P1 Arg2:C1	
+R5	supports Arg1:P2 Arg2:C1	
+C2	Claim 1122 1203	juveniles who possess mobile phones have great tendencies to become materialistic
+A2	Stance C2 For
+P6	Premise 1205 1293	They would not only purchase a phone because of its functionality but also for its brand
+P7	Premise 1417 1493	they would need their parents to support them financially for what they want
+P8	Premise 1377 1413	most of these juveniles are students
+R6	supports Arg1:P8 Arg2:P7	
+P9	Premise 1495 1674	An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P6 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	
+P10	Premise 1307 1362	these do not come at a significant and inexpensive cost
+R10	supports Arg1:P10 Arg2:C2	

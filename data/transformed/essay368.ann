@@ -1,0 +1,16 @@
+MC1	MajorClaim 363 446	smoking should be made prohibited in public places such as bus and railway stations
+MC2	MajorClaim 1489 1546	it has been proven benefits people enjoy this arrangement
+P1	Premise 654 757	Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely
+P2	Premise 759 881	Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents
+P3	Premise 883 988	After enforcing restrictions the situation came to control and this act as benefit rendered to the public
+C1	Claim 576 652	non-smoking public would be undoubtedly benefited by enforcing such restrain
+A1	Stance C1 For
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+P4	Premise 1129 1275	further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health
+P5	Premise 1292 1419	smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems
+C2	Claim 1011 1113	introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing
+A3	Stance C2 For
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	

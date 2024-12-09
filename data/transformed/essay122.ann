@@ -1,0 +1,35 @@
+MC1	MajorClaim 305 382	new high school is a great addition to the educational system of my community
+MC2	MajorClaim 95 161	The new high school will bring a lot of advantages to my community
+C1	Claim 163 281	The high school of my district is pretty old and lacks in necessities for students, so they can't get enough education
+A1	Stance C1 For
+C2	Claim 1687 1772	The only disadvantage is the nosiness of competitions which students will participate
+A2	Stance C2 Against
+MC3	MajorClaim 1815 1878	the new high school will be a great addition for my environment
+P1	Premise 1791 1810	it isn't a big deal
+R1	supports Arg1:P1 Arg2:C2	
+C3	Claim 1484 1685	this new construction has a lot of advantages like new connections between students from different communities, also the new educational equipment will increase the students' enthusiasm toward studying
+A3	Stance C3 For
+C4	Claim 407 496	the new high school will bring a lots of opportunities for student concerned in education
+A4	Stance C4 For
+P2	Premise 498 616	Their old high school is pretty old and need in new educational materials, repairing of the place for sport activities
+P3	Premise 623 683	the laboratory of physics and chemistry was in bad condition
+P4	Premise 688 736	the students can't study well during the classes
+P5	Premise 738 804	They will study with new breath and great enthusiasm in new school
+R2	supports Arg1:P3 Arg2:P4	
+R3	supports Arg1:P4 Arg2:C4	
+R4	supports Arg1:P5 Arg2:C4	
+R5	supports Arg1:P2 Arg2:C4	
+C5	Claim 817 943	the new high school will be a place for new connections between the student of different communities and districts of the city
+A5	Stance C5 For
+P6	Premise 945 1077	After classes students and not only the students will get together in building of high school, participate in different competitions
+P7	Premise 1092 1216	during the football match the students of different high schools will come and after the competition they will keep in touch
+P8	Premise 1218 1275	This will increase the social connections of the students
+P9	Premise 1277 1335	The only disadvantage is the noisiness of the competitions
+P10	Premise 1337 1398	The people living in the neighborhood will be a bit perturbed
+P11	Premise 1412 1470	this isn't a important reason for ceasing the competitions
+R6	supports Arg1:P10 Arg2:P9	
+R7	attacks Arg1:P11 Arg2:P10	
+R8	attacks Arg1:P9 Arg2:C5	
+R9	supports Arg1:P6 Arg2:C5	
+R10	supports Arg1:P7 Arg2:C5	
+R11	supports Arg1:P8 Arg2:C5	

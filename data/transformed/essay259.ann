@@ -1,0 +1,24 @@
+MC1	MajorClaim 407 477	working at home is worse and less efficient than working in the office
+MC2	MajorClaim 1531 1616	working in the office is obviously better than working at home in terms of efficiency
+P1	Premise 648 815	Think about the big project that a group is working on, if any group member has new idea about the project, he/she can assemble his/her colleges right away and discuss
+P2	Premise 573 646	They can either get help from colleges or discuss about the work together
+P3	Premise 817 883	It's more efficient and straight-forward than talking in the phone
+P4	Premise 906 991	if one’s computer or Internet has any breakdown, he/she can call the MIS staff to fix
+C1	Claim 493 571	while working in the office, people can interact with their colleges instantly
+A2	Stance C1 For
+C2	Claim 1001 1088	working at home has many disadvantages that will no doubt lower the efficiency of works
+A3	Stance C2 For
+P5	Premise 1103 1153	people are easily distracted while working at home
+P6	Premise 1155 1250	It's hard to concentrate on work if people can grab the TV remote or some junk foods right away
+P7	Premise 1265 1371	while people are working at home, there will be no one supervising them, thus raises the chance of loafing
+P8	Premise 1383 1514	people who work at home are more likely to miss the important events happening in the office, like some announcements from the boss
+C3	Claim 1618 1778	It not only has the advantage of working with colleges but also it provides a real working atmosphere that can never be grasped if people choose to work at home
+A1	Stance C3 For
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+R4	supports Arg1:P4 Arg2:C1	
+R5	supports Arg1:P6 Arg2:P5	
+R6	supports Arg1:P5 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	

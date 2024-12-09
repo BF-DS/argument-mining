@@ -1,0 +1,25 @@
+MC1	MajorClaim 1531 1615	exams have a role to play in ensuring proper and objective assessment of achievement
+C1	Claim 1626 1776	exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system
+A1	Stance C1 Against
+C2	Claim 349 386	There are clearly advantages to exams
+A2	Stance C2 For
+P1	Premise 388 471	They help to ensure fairness by imposing the same conditions on all exam candidates
+P2	Premise 473 645	They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability
+C3	Claim 656 686	exams also have some drawbacks
+A3	Stance C3 Against
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+P3	Premise 688 791	Test-wise candidates can often perform well on exams without having good underlying knowledge or skills
+P4	Premise 806 884	some test-takers perform cannot achieve a satisfying result because of anxiety
+P5	Premise 900 1048	teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all
+R3	supports Arg1:P4 Arg2:P5	
+R4	supports Arg1:P5 Arg2:C3	
+R5	supports Arg1:P3 Arg2:C3	
+C4	Claim 1050 1112	A number of measures should be taken to address these concerns
+A4	Stance C4 Against
+P6	Premise 1133 1206	exams should match the content and activities of the learning environment
+P7	Premise 1208 1306	Exam task should be varied to give fair opportunities to candidates with different types of skills
+P8	Premise 1308 1492	Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability
+R6	supports Arg1:P6 Arg2:C4	
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	

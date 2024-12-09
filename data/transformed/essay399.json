@@ -1,0 +1,60 @@
+{
+    "MajorClaims": {
+        "MC1": "this is a worrying tread which has negative impact on children",
+        "MC2": "media should shift its focus from covering celebrities to elsewhere"
+    },
+    "Claims": {
+        "C1": "This gives children the idea that it is not necessary to study hard at school for a better career and earning a living",
+        "C2": "without proper parenting, children may perceive that this is the cool life people are supposed to be living",
+        "C3": "some celebrities, e.g. writers, passionate entrepreneurs are good examples to children"
+    },
+    "Premises": {
+        "P1": "The first impression of the celebrities seems that they are rich while not having to work hard",
+        "P2": "they will not value other people's hard work and take everything for granted",
+        "P3": "It is not uncommon to see on the media that some of them are committing to crimes or misbehaving such as being addicted to drugs or alcohols, having messy sex lives",
+        "P4": "not all celebrities are role models",
+        "P5": "they share fascinating stories or how to pursue their goal by doing something that has a meaning to them and may change the world"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

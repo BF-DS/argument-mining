@@ -1,0 +1,37 @@
+MC1	MajorClaim 301 394	the artists must be given freedom so that they will produce some really marvelous masterpiece
+MC2	MajorClaim 2217 2270	there should not be any restrictions on artists' work
+C1	Claim 2515 2594	there are many wonderful and beautiful Arts due to the freedom to express ideas
+A1	Stance C1 For
+MC3	MajorClaim 2624 2663	there should be no restrictions on them
+P1	Premise 2272 2353	Allowing them to think freely will give them an opportunity to express themselves
+P2	Premise 2357 2411	ideas can naturally flow when there are no limitations
+P3	Premise 2420 2488	even though freedom to express ideas can bring some negative effects
+R1	attacks Arg1:P3 Arg2:C1	
+R2	supports Arg1:P2 Arg2:P1	
+R3	supports Arg1:P1 Arg2:C1	
+C2	Claim 844 923	without any limitations, there will be more awe inspiring work from our artists
+A2	Stance C2 For
+P4	Premise 416 524	if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run
+P5	Premise 548 707	when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies
+P6	Premise 722 832	paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times
+R6	supports Arg1:P5 Arg2:C2	
+R7	supports Arg1:P6 Arg2:C2	
+P7	Premise 938 1070	it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation
+C3	Claim 1486 1570	human rights is violated if artists are not allowed to express their feelings freely
+A5	Stance C3 For
+P8	Premise 1072 1158	Today, many countries make numerous efforts to show that they are democratic countries
+P9	Premise 1160 1277	Arts is one of the ways that can be used to criticise social problems and government policies in a particular country
+P10	Premise 1307 1478	the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn
+R12	supports Arg1:P8 Arg2:C3	
+R13	supports Arg1:P9 Arg2:C3	
+R14	supports Arg1:P10 Arg2:C3	
+C4	Claim 1865 2019	In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society
+A6	Stance C4 Against
+P11	Premise 2049 2179	artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts
+P12	Premise 1665 1748	They might go deeper into certain aspects that can cause controversies in a country
+P13	Premise 1770 1863	Malaysia is a multiracial country whereby all the citizens live together in harmony and peace
+R16	supports Arg1:P13 Arg2:C4	
+R17	supports Arg1:P12 Arg2:C4	
+R18	supports Arg1:P11 Arg2:C4	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P7 Arg2:C3	

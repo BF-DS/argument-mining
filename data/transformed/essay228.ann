@@ -1,0 +1,30 @@
+MC1	MajorClaim 355 451	TV programs are among the popular topics in every day talk as well as a great time for gathering
+C1	Claim 465 529	Modern TV has smart system that let you be connected with people
+A1	Stance C1 For
+C2	Claim 548 582	watching TV take a lot of your day
+A2	Stance C2 Against
+P1	Premise 597 720	it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs
+R1	attacks Arg1:P1 Arg2:C2	
+C3	Claim 730 781	people like having meals while they are watching TV
+A3	Stance C3 For
+C4	Claim 783 858	Families usually tend to watch television either with each other or friends
+P2	Premise 872 962	my friends and I used to sit together and enjoy watching movies using VHS player at nights
+P3	Premise 964 1013	It was fun and a little bit similar to the cinema
+A4	Stance C4 For
+R2	supports Arg1:P2 Arg2:C4	
+R3	supports Arg1:P3 Arg2:C4	
+P4	Premise 1023 1058	TV can be one of communication ways
+P5	Premise 1070 1199	TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps
+P6	Premise 1213 1263	Teenagers can play games online with their friends
+C5	Claim 1275 1320	we can communicate with each other through TV
+A6	Stance C5 For
+R6	supports Arg1:P5 Arg2:C5	
+R8	supports Arg1:P6 Arg2:C5	
+MC2	MajorClaim 1544 1585	TV helps you to get connected with people
+C6	Claim 1334 1397	TV may take some of your time away from your family and friends
+A7	Stance C6 Against
+C7	Claim 1402 1470	it can also make family get together and help to get in conversation
+A8	Stance C7 For
+C8	Claim 1483 1520	it's one way of recent communications
+A9	Stance C8 For
+R4	supports Arg1:P4 Arg2:C5	

@@ -1,0 +1,90 @@
+{
+    "MajorClaims": {
+        "MC1": "these various advertisements get people to buy products that are unnecessary and only look good on television",
+        "MC2": "The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers"
+    },
+    "Claims": {
+        "C1": "it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product",
+        "C2": "it plays and important role economically"
+    },
+    "Premises": {
+        "P1": "To boost their sales and win over customers, companies pour a great amount of money into advertising",
+        "P2": "huge cooperation hire celebrities as the face of their product",
+        "P3": "By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly",
+        "P4": "youngsters, as the target consumers, love celebrities",
+        "P5": "having these products shows their status",
+        "P6": "the quality obviously is not relatively important",
+        "P7": "they aim to grab your attention",
+        "P8": "They introduce new products, and provide various choices, not to mention they are often visually enjoyable",
+        "P9": "advertisements can be falseful and exaggerated",
+        "P10": "Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition",
+        "P11": "Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P9",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P10"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

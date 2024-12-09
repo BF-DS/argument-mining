@@ -1,0 +1,22 @@
+MC1	MajorClaim 1616 1674	Government should decide for punishment case by case basis
+MC2	MajorClaim 374 479	it should taken into consideration the situation and conditions, that forces to a person to be a criminal
+C1	Claim 494 592	if there will be a fixed punishment for each type of crime then it will lead to increase the crime
+A1	Stance C1 For
+P1	Premise 601 720	the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime
+P2	Premise 732 767	laws and rules are there for people
+C2	Claim 778 821	it is necessary to have a look behind crime
+P3	Premise 941 1052	The person who committed crime first time and the professional criminals should not be imprisoned at same place
+A3	Stance C2 For
+C3	Claim 1071 1205	fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government
+P4	Premise 1207 1241	Everyone should be treated equally
+P5	Premise 1250 1464	sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal
+C4	Claim 1476 1601	fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other
+A6	Stance C4 Against
+P6	Premise 836 938	a women steals feed for her child should be treated same as a women, who steals for her drug addiction
+A2	Stance C3 Against
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P6 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P4 Arg2:C3	
+R6	supports Arg1:P5 Arg2:C4	

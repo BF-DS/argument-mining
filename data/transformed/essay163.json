@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "I prefer to live in a big city",
+        "MC2": "if I want to live a more convenient life with more access to modern facilities as well as with more exposure to various opportunities, and have my children receive a better education, a big city is the place to live in"
+    },
+    "Claims": {
+        "C1": "I have always wanted to find a job in a big company which locates in a prosperous city area",
+        "C2": "life in a big city will not be so dull as in a small town",
+        "C3": "living in big cities means more exposure to stimulation, like all kinds of information",
+        "C4": "There is also another obvious advantage of living in a big city considering the chance of receiving better education of our offspring"
+    },
+    "Premises": {
+        "P1": "I will absolutely choose a place to live that is not too far from my workplace",
+        "P2": "I can save plenty of money on transportation if I choose to live in the city",
+        "P3": "You can enjoy modern life and have more access to the advanced facilities",
+        "P4": "you can visit museums to learn history, and go to a more equipped library to enjoy reading, or you can go to a sports center for exercising",
+        "P5": "a small town may be less developed to satisfy all these kinds of needs",
+        "P6": "If one can efficiently acquire the information, then, there might come along more opportunities for him to achieve his goals",
+        "P7": "there are various advertisements here an there, whether on the leaflets or on the big screen showing things of all sorts in commercial zones",
+        "P8": "If one is seeking a job right in the city or planing somewhere to travel, or just wants to buy a product in a dependable store, he might refer to what he has seen or heard from the advertisements to make a relatively wise choice",
+        "P9": "Schools in big cities may receive more funds from whether the local comities or the government, which may make them more equipped with advanced teaching facilities and attract more excellent teachers",
+        "P10": "Our children thus will have a better chance of pursuing high-quality education which is very important for their future development"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P10"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

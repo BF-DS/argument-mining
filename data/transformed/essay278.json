@@ -1,0 +1,108 @@
+{
+    "MajorClaims": {
+        "MC1": "these activities have the same efficient role in students' lives",
+        "MC2": "sports and social activities should obtain analogous concern and money"
+    },
+    "Claims": {
+        "C1": "They bring a lot of advantages and benefits for students and also affect their future in a positive way",
+        "C2": "sports are necessary for students to acquire their energy and health",
+        "C3": "social activities have same rights to receive monetary support",
+        "C4": "they bring about students to be happier and to have more fun and entertainments"
+    },
+    "Premises": {
+        "P1": "I decided to go to gym to recuperate and it responded very well",
+        "P2": "After that exam, I felt depressed and exhausted",
+        "P3": "last month I had very difficult exam that I forced to study for one week back to back",
+        "P4": "besides the good body shape, sports have very vital effects on human's healthfulness",
+        "P5": "our body and moral health depend to physical activities directly",
+        "P6": "besides the academic knowledge, the awareness of social behavior is an important factor for human's life",
+        "P7": "students should be prepared to present in society after their graduation",
+        "P8": "social activities can help them to be familiar with other's mind and different environment",
+        "P9": "social groups and classes are significant factors to prepare students to contribute in discussion and encounter real social environment",
+        "P10": "If we follow just one wing of my life i.e., studying as a student, after some whiles it would be boring and we wouldn't have any motivation",
+        "P11": "Such activities can help us to pick up with other students and have more friends",
+        "P12": "more friends and new experience inspire the feeling of happiness and excitement in me"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

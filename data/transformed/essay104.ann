@@ -1,0 +1,28 @@
+MC1	MajorClaim 536 608	the Internet will pave way for a more accessible and convenient learning
+MC2	MajorClaim 2279 2354	I would like to reiterate the necessity of the Internet in learning process
+C1	Claim 630 751	the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils
+A1	Stance C1 For
+P1	Premise 753 902	Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace
+P2	Premise 913 978	the Internet has grown to become the largest virtual library ever
+P3	Premise 990 1068	with the use of the Internet, distance and time seem to be no more a hindrance
+P4	Premise 1070 1220	College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries
+P5	Premise 1242 1311	the Internet offers a more effective and practical method of studying
+P6	Premise 1313 1480	While virtual flowcharts and animations may simplify complicated scientific processes, Google and Wikipedia are always accessible for detailed responses to every query
+C2	Claim 1502 1569	the Internet will become an indispensable part in academic training
+A2	Stance C2 For
+P7	Premise 1748 1826	This fairy tale turns out to be true thanks to technical and internet advances
+P8	Premise 1619 1746	Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously
+C3	Claim 1851 1979	the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs
+A3	Stance C3 Against
+P9	Premise 2018 2126	these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself
+P10	Premise 2134 2240	what we are to do is a change in learners' attitude not an elimination of the Internet from academic study
+R1	supports Arg1:P1 Arg2:P2	
+R2	supports Arg1:P4 Arg2:P3	
+R3	supports Arg1:P6 Arg2:P5	
+R4	supports Arg1:P2 Arg2:C1	
+R5	supports Arg1:P3 Arg2:C1	
+R6	supports Arg1:P5 Arg2:C1	
+R7	supports Arg1:P8 Arg2:C2	
+R8	supports Arg1:P7 Arg2:C2	
+R9	supports Arg1:P9 Arg2:P10	
+R10	attacks Arg1:P10 Arg2:C3	

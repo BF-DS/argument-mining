@@ -1,0 +1,45 @@
+MC1	MajorClaim 423 474	students should be asked to evaluate their teachers
+MC2	MajorClaim 2085 2138	school should ask students to evaluate their teachers
+C1	Claim 2147 2187	teachers could improve their performance
+A1	Stance C1 For
+MC3	MajorClaim 2365 2426	there are benefits to ask students to evaluate their teachers
+C2	Claim 2199 2237	schools are also improve their quality
+A2	Stance C2 For
+P1	Premise 2246 2281	they have high performance teachers
+P2	Premise 2296 2342	students are easy to understand their subjects
+C3	Claim 976 1036	evaluating from students could improve teachers' performance
+A3	Stance C3 For
+P3	Premise 491 563	Evaluating teachers made by students could improve teachers' performance
+P4	Premise 578 710	evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product
+P5	Premise 712 819	Students might complain about their teachers spoke too fast that students could not catch up on information
+P6	Premise 835 963	teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give
+P7	Premise 1462 1552	school have teachers who are always improve their quality from evaluation made by students
+P8	Premise 1272 1348	in many cooperation such as Microsoft that could produce many great products
+P9	Premise 1357 1408	they have employees whose performance are very high
+P10	Premise 1410 1453	Schools could produce intellectual students
+P11	Premise 1114 1150	Teachers could augment their quality
+P12	Premise 1166 1256	When school gather teachers that have great performance, school are gaining higher quality
+C4	Claim 1052 1112	this evaluation from students could improve schools' quality
+A6	Stance C4 For
+P13	Premise 1729 1833	teachers are always adapt the way they teach in order to make students easy to understand their subjects
+P14	Premise 1835 1881	students could comprehend their subject easily
+P15	Premise 1896 2035	students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life
+C5	Claim 1563 1624	people who get the most advantage from evaluation is students
+P16	Premise 1626 1719	Students could study in class that have teachers who have experienced and greater performance
+A8	Stance C5 For
+R1	supports Arg1:P5 Arg2:P6	
+R2	supports Arg1:P6 Arg2:C3	
+R3	supports Arg1:P4 Arg2:C3	
+R4	supports Arg1:P3 Arg2:C3	
+R5	supports Arg1:P9 Arg2:P8	
+R6	supports Arg1:P7 Arg2:P10	
+R7	supports Arg1:P11 Arg2:C4	
+R8	supports Arg1:P12 Arg2:C4	
+R9	supports Arg1:P8 Arg2:C4	
+R10	supports Arg1:P10 Arg2:C4	
+R11	supports Arg1:P13 Arg2:P14	
+R12	supports Arg1:P16 Arg2:C5	
+R13	supports Arg1:P14 Arg2:C5	
+R14	supports Arg1:P15 Arg2:C5	
+R15	supports Arg1:P1 Arg2:C2	
+R16	supports Arg1:P2 Arg2:C2	

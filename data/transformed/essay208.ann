@@ -1,0 +1,26 @@
+C1	Claim 325 353	it will take some time on it
+A1	Stance C1 Against
+MC1	MajorClaim 355 415	high school students should take a course on basic economics
+C2	Claim 471 526	it can provide students a sense of direction in academy
+A2	Stance C2 For
+P1	Premise 528 653	Basic economic class can help the students touch the surface of this field, let them to know what this subject mainly discuss
+P2	Premise 655 745	That will help the students cultivate their own interest and a sense of career orientation
+P3	Premise 756 807	students may study harder for their economic dreams
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+P4	Premise 829 870	economy is always correlate with politics
+P5	Premise 872 1030	students can study specialized knowledge along with some Politian status, which may open their vision toward the nation and don't get limited in the textbooks
+P6	Premise 1041 1109	there is also an intimate connection between economy and enterprises
+C3	Claim 1111 1168	students can also gain knowledge more practical and vivid
+A4	Stance C3 For
+R4	supports Arg1:P6 Arg2:C3	
+R5	supports Arg1:P5 Arg2:P4	
+R6	supports Arg1:P4 Arg2:C3	
+C4	Claim 1183 1264	the basic economic course can also help with the students when they go to college
+A3	Stance C4 For
+P7	Premise 1266 1435	They may feel more readily to learn the knowledge in this field and save much time, with that they are able to study more efficiently and more deeply than other students
+P8	Premise 1437 1533	That as well would provide the students with more confidence and let them become more compatible
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	
+MC2	MajorClaim 1572 1623	I suggest the basic course of economic is necessary

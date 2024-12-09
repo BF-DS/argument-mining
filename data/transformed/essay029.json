@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "married women nowadays have right to take up jobs like men when employment discrimination based on gender have been erased significantly",
+        "MC2": "married women could go to work in order to enjoy the working life outside the home"
+    },
+    "Claims": {
+        "C1": "Working outside home will bring a lot of benefits to both married woman and their household",
+        "C2": "it is a normal practice for women to be helpmates in earning money",
+        "C3": "a well-organized home does not need the housewife's presence the whole day long",
+        "C4": "it is no doubt that they play roles as a mother and as a wife better",
+        "C5": "there are many supporting conditions that help women balance housework and work"
+    },
+    "Premises": {
+        "P1": "extra income that women earn will contribute to their family's expenses",
+        "P2": "By taking up a job, a wife can earn more money to support her family life",
+        "P3": "This is really necessary in cases of her husband's low salary and the difficulty of getting a good job at the present",
+        "P4": "working outside the house creates opportunities for married women to contact with the outer world, strengthen their character and show their capacity",
+        "P5": "These things in turn will make them more confident, independent",
+        "P6": "These women will set a good example for their children",
+        "P7": "Besides the gorvernment's policies on limited families and their husbands' sharing in the housework, many employers are willing to offer part-time jobs for women"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

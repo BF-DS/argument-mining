@@ -1,0 +1,29 @@
+MC1	MajorClaim 2182 2230	the good technology bringing to us is undeniable
+C1	Claim 2232 2343	Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it
+A1	Stance C1 For
+C2	Claim 953 1068	most members of our society can benefit from the consequences of technical advancements, especially the poor people
+A2	Stance C2 For
+P1	Premise 568 666	the progress of material technology leads to the sharp fall of price of a great number of products
+P2	Premise 668 814	About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one
+P3	Premise 816 945	Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies
+R1	supports Arg1:P2 Arg2:P1	
+R2	supports Arg1:P3 Arg2:P1	
+R3	supports Arg1:P1 Arg2:C2	
+P4	Premise 1612 1670	the Internet gives everyone access to the same information
+P5	Premise 1672 1732	this therefore leads to greater equality between individuals
+R4	supports Arg1:P4 Arg2:P5	
+P6	Premise 1251 1366	With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day
+C3	Claim 1080 1249	technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life
+P7	Premise 1386 1503	we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us
+P8	Premise 1515 1597	we can talk with our friends online, no matter where we are and how far between us
+A3	Stance C3 For
+R5	supports Arg1:P6 Arg2:C3	
+R6	supports Arg1:P7 Arg2:C3	
+R7	supports Arg1:P8 Arg2:C3	
+R8	supports Arg1:P5 Arg2:C3	
+C4	Claim 1824 1883	the gap between rich people and poor is widen by technology
+A4	Stance C4 Against
+P9	Premise 1893 2026	only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return
+P10	Premise 2050 2165	it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap
+R9	attacks Arg1:P10 Arg2:C4	
+R10	supports Arg1:P9 Arg2:C4	

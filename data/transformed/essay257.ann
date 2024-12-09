@@ -1,0 +1,45 @@
+MC1	MajorClaim 2023 2071	any great success need great work not great luck
+C1	Claim 2085 2120	luck is one factor in reaching goal
+A1	Stance C1 Against
+P1	Premise 2125 2193	its impact is extraneous and we must not reckon on luck in our plans
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 1012 1063	He do a lot of exercise in football field every day
+P3	Premise 1068 1109	it is not for which he is luckier than me
+R2	supports Arg1:P2 Arg2:P3	
+C2	Claim 449 507	famous people are usually diligent people not lucky people
+A2	Stance C2 For
+P4	Premise 509 589	Hard work make you a professional man/woman which are powerful in his or her job
+P5	Premise 599 664	when you work hard you decrease portion of chance in your success
+R3	supports Arg1:P5 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+P6	Premise 678 751	in football game it is said that penalty-kick need good chance to be goal
+P7	Premise 753 803	Statically the chance of being goal is fifty-fifty
+P8	Premise 805 886	But I think Ronaldo make a goal from a penalty-kick with more possibility than me
+P9	Premise 888 939	It is not for which Ronaldo is more fortune than me
+P10	Premise 941 1010	Definitely it is for which he have more practice and exercise than me
+R5	supports Arg1:P7 Arg2:P6	
+R6	attacks Arg1:P8 Arg2:P6	
+R7	attacks Arg1:P9 Arg2:P6	
+R8	supports Arg1:P10 Arg2:P9	
+R9	supports Arg1:P3 Arg2:P9	
+P11	Premise 1554 1616	it is wise advice which you have hard study to success on exam
+P12	Premise 1481 1540	If you pick up any choice by chance you would fail the exam
+R10	supports Arg1:P12 Arg2:P11	
+P13	Premise 1385 1479	You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky
+P14	Premise 1282 1383	you prepare for TOEFL or other multiple-choice test which has four option to choose in every question
+R11	supports Arg1:P13 Arg2:P11	
+R12	supports Arg1:P14 Arg2:P11	
+C3	Claim 1121 1171	we cannot always lean on our luck to be successful
+A4	Stance C3 For
+P15	Premise 1173 1264	I don't want to disavow the role of luck in success, but as you know it hardly accompany us
+R13	supports Arg1:P15 Arg2:C3	
+R14	supports Arg1:P11 Arg2:C3	
+C4	Claim 1726 1844	The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance
+A3	Stance C4 For
+P16	Premise 1627 1724	you have to work hard to learn and to get a lot of information before doing a project in good way
+P17	Premise 1846 1908	These plans is done by someone who is mastered in his/her work
+P18	Premise 1922 2001	such people do work hard and have great experiences because of their hard works
+R15	supports Arg1:P18 Arg2:C4	
+R16	supports Arg1:P17 Arg2:C4	
+R17	supports Arg1:P16 Arg2:C4	
+R18	supports Arg1:P6 Arg2:C2	

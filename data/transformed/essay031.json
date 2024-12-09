@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "alternative means of transportation and international laws in controlling automobiles should be introduced",
+        "MC2": "alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion"
+    },
+    "Claims": {
+        "C1": "some people claim the convenience of automobile",
+        "C2": "it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles",
+        "C3": "the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented",
+        "C4": "alternative forms of transportation and international laws to control automobiles ownership and use can work effectively"
+    },
+    "Premises": {
+        "P1": "an increase in the number of automobiles brings about environmental pollution",
+        "P2": "automobile exhaust and carbon dioxides emission have bad impacts on the air",
+        "P3": "the air gets to be polluted and it causes respiratory disease of the local inhabitants",
+        "P4": "an increase in the number of automobiles causes terrible traffic congestion",
+        "P5": "Once we get into the traffic jam, it forces us to waste our time for a while",
+        "P6": "traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents",
+        "P7": "alternative forms which emit less carbon dioxides and gasses than automobiles are ideal",
+        "P8": "rental bicycle system has been introduced in several European countries",
+        "P9": "This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee",
+        "P10": "bicycle expels neither carbon dioxides nor harmful gasses",
+        "P11": "it is a better form to protect environment than automobile",
+        "P12": "these attempts to reduce automobiles can ease traffic congestion and environmental pollution",
+        "P13": "the introduction of international laws can be also effective",
+        "P14": "there are some regulations to limit the use of automobiles by time and to allow the people possess one car only"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "P13"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P13"
+        }
+    ]
+}

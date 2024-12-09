@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "It is a completely right and extremely wise policy to focus on health education and preventative measures rather than treatment",
+        "MC2": "we should give more priority to health education and preventative measures than to treatment"
+    },
+    "Claims": {
+        "C1": "reasonable attentions should be paid to treatment so that our citizens are always looked after with best services",
+        "C2": "Health education causes long-term positive effects on our next generations",
+        "C3": "investing money to enhance the general health state is a totally right decision"
+    },
+    "Premises": {
+        "P1": "Preventative measures will help improve general health state of all citizens",
+        "P2": "thank to a full health education from their childhoods, children will have good habits of taking care of their own health and these habits may be kept in their adolescences",
+        "P3": "if a child is educated to have a hygienic lifestyle at a very young age, he also keeps it when older",
+        "P4": "health education will prepare for people especially children necessary knowledge to protect themselves from risks of diseases",
+        "P5": "Instead of afraid or panic, they may be calmer if unfortunately committing some normal diseases such as allergy or illness in seasonal changes",
+        "P6": "Many diseases which may be cured easily can turn to serious ones if we do not have right treatment",
+        "P7": "Health education will help people to have right choices of treatment to recover more quickly",
+        "P8": "vaccines will guarantee that pregnant women and their babies are protected from serious infectious diseases such as flu, smallpox, rubella so on",
+        "P9": "When huge injection campaigns are organized throughout our country, the community's health state will be improved remarkably",
+        "P10": "human resources play a key role in the development of a country",
+        "P11": "the cost of treatment is often much higher than that of prevention",
+        "P12": "the government can save a lot of money for our country's health budget"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P12"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

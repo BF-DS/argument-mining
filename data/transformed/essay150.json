@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "reading fiction is more enjoyable than watching movies",
+        "MC2": "reading fictions is more pleasant"
+    },
+    "Claims": {
+        "C1": "these books have more depth, are much easier to use, and more useful for language learners",
+        "C2": "fiction books pay more attention to details",
+        "C3": "reading a novel is more convenient",
+        "C4": "people enjoy watching TV"
+    },
+    "Premises": {
+        "P1": "we can know characters, places, and times of a novel very well during reading it",
+        "P2": "Most of the novels describe not only main characters but also other people in the novels, where each scene is happening",
+        "P3": "after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people",
+        "P4": "a movie just gives us a very small review of its stories and characters",
+        "P5": "Some novels have around 100 pages and readers cannot finish them in just one hour",
+        "P6": "Yet these people can continue to read their novels wherever they find free time such as in bus or trains",
+        "P7": "I have started to read a novel since last week",
+        "P8": "I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class",
+        "P9": "I cannot watch a complete movie",
+        "P10": "I can just sit in front of TV for 15 minutes and after that, I have to study",
+        "P11": "they can learn many things such as learning a language by watching movies",
+        "P12": "movies are not a good idea to learn a language for beginners",
+        "P13": "characters in movies speak very fast and unclear for language learners",
+        "P14": "For these learners it is better to start by reading some novels which are more comprehensible and enjoyable"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "attacks",
+            "target": "C4"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "P12"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "P12"
+        }
+    ]
+}

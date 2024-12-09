@@ -1,0 +1,29 @@
+MC1	MajorClaim 1633 1720	Consideration and communication, in my personal opinion, are the most important quality
+MC2	MajorClaim 315 374	the most important quality of roommates is being considered
+MC3	MajorClaim 393 465	communication is also another essential particularity of a good roommate
+P1	Premise 468 517	Consideration is always important in relationship
+P2	Premise 532 596	roommate turns down the music or television volume at night time
+P3	Premise 598 684	Sometimes we will not know what we have done until we have a taste of our own medicine
+P4	Premise 686 830	At all times, think about the other's feeling before doing any self-centered action would help to improve the roommate relationship tremendously
+C1	Claim 843 918	having a considered roommate is significantly imperative to our school life
+A2	Stance C1 For
+P5	Premise 920 1004	It will not only prevent conflicts but also to have a friend or even a family member
+R1	supports Arg1:P5 Arg2:C1	
+P6	Premise 1016 1063	communication is as well making a good roommate
+P7	Premise 1456 1549	Through communication, bonded are build and we could have better understanding of each others
+C2	Claim 1380 1411	communication is very important
+A4	Stance C2 For
+P8	Premise 1065 1147	People have different habit in daily life, such as tidy the blanket in the morning
+P9	Premise 1149 1237	One might think this is a piece of cake while other would consider it as immense project
+P10	Premise 1239 1367	If one requested to move out just because his roommate do not tidy up the blanket in the morning might be crying over split milk
+R13	supports Arg1:P8 Arg2:C2	
+R14	supports Arg1:P9 Arg2:C2	
+R16	supports Arg1:P10 Arg2:C2	
+R18	supports Arg1:P7 Arg2:C2	
+R2	supports Arg1:P2 Arg2:P1	
+R3	supports Arg1:P4 Arg2:C1	
+R4	supports Arg1:P3 Arg2:C1	
+R5	supports Arg1:P1 Arg2:C1	
+P11	Premise 1415 1454	it would clear up the misinterpretation
+R6	supports Arg1:P11 Arg2:C2	
+R7	supports Arg1:P6 Arg2:C2	

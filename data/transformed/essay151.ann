@@ -1,0 +1,28 @@
+MC1	MajorClaim 424 548	using single language through out the world is a positive change which is helping the world to become a better place to live
+MC2	MajorClaim 1817 1903	change is inevitable and that usage of one language across the world is a positive one
+C1	Claim 1971 2087	Communication in single language would improve the productivity of the world and brings everyone on to the same page
+A1	Stance C1 For
+C2	Claim 550 628	A world with fewer languages helps us interact with each other in a better way
+A2	Stance C2 For
+P1	Premise 630 700	Due to globalization, many people are traveling for professional trips
+P2	Premise 706 857	communicating in single language will reduce the problems of travelers in daily activities like ordering food in a restaurant or in going around places
+R1	supports Arg1:P1 Arg2:P2	
+P3	Premise 872 956	students who migrate for better education would not have to go through lot of stress
+P4	Premise 960 1151	they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages; this in turn makes it easy to adjust in new environment
+R2	supports Arg1:P4 Arg2:P3	
+P5	Premise 1153 1214	Single language also reduces misunderstandings between people
+P6	Premise 1232 1347	exchange of knowledge in different sectors of research like electronics, medical, astronomy etc would become easier
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+C3	Claim 1368 1422	few people are worried about the dying local languages
+A3	Stance C3 For
+P7	Premise 1424 1526	These languages are the basis for the origination and initial communication between different cultures
+R7	supports Arg1:P7 Arg2:C3	
+P8	Premise 1528 1556	They represent local culture
+R8	supports Arg1:P8 Arg2:P7	
+P9	Premise 1558 1632	As the usage of these languages decrease, culture also changes accordingly
+R9	supports Arg1:P9 Arg2:C3	
+P10	Premise 1643 1792	these languages are tightly coupled with history; all the olden day literature and scripts will be impossible to decipher if these languages are lost
+R10	supports Arg1:P10 Arg2:C3	

@@ -1,0 +1,26 @@
+MC1	MajorClaim 323 400	education is the single most important factor in the development of a country
+MC2	MajorClaim 1561 1635	education plays an important role in the socioeconomic status of a country
+C1	Claim 1637 1717	The more people in the country become educated, the better chance it can develop
+A1	Stance C1 For
+C2	Claim 873 950	these children remain uneducated and will have the same fate as their parents
+A2	Stance C2 For
+P1	Premise 402 479	In a developing country, not many can afford to send their children to school
+P2	Premise 481 612	There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities
+P3	Premise 614 685	They are not reachable by children who live in the mountains or islands
+P4	Premise 687 858	These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P4 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+P5	Premise 1065 1116	Basic education teaches one child to read and write
+P6	Premise 1118 1192	Supplementary education provides him with useful knowledge and information
+P7	Premise 1194 1305	A further specific education can teach an individual with skills enough to make a living and be self-sufficient
+P8	Premise 1307 1367	A well-informed man can act sensibly and make sound judgment
+P9	Premise 1386 1453	a skillful man contributes favorably and is valuable to the society
+C3	Claim 1469 1544	the benefits of education can make a man, a society and a developed country
+A3	Stance C3 For
+R5	supports Arg1:P8 Arg2:C3	
+R6	supports Arg1:P9 Arg2:C3	
+R7	supports Arg1:P6 Arg2:C3	
+R8	supports Arg1:P7 Arg2:C3	
+R9	supports Arg1:P5 Arg2:C3	

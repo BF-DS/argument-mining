@@ -1,0 +1,95 @@
+{
+    "MajorClaims": {
+        "MC1": "people should be polite to others in a such busy and crowded world"
+    },
+    "Claims": {
+        "C1": "a person with good manner will give others a fine personal impression",
+        "C2": "people will get respect from politeness within each other",
+        "C3": "the society needs a civilized environment and orders"
+    },
+    "Premises": {
+        "P1": "Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible",
+        "P2": "I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers",
+        "P3": "In opposite situation if I am being rude, I can not get along well with each other",
+        "P4": "I will be fired and have no other choice but lost my job",
+        "P5": "Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need",
+        "P6": "A successful corporation must have a relationship with respect and pleasure",
+        "P7": "There are many more facts have improved that people with politeness are easily to be succeed",
+        "P8": "from their behaviors, they made their partners or opponents to find their own individual dignity",
+        "P9": "a degree of social civilization depend on its people's qualities",
+        "P10": "In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners",
+        "P11": "Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

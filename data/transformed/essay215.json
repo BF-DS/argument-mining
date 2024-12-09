@@ -1,0 +1,126 @@
+{
+    "MajorClaims": {
+        "MC1": "Having one's own hobbies and doing physical activities can bring us a lot of benefits",
+        "MC2": "it is good for us to have hobbies and do physical activities which are different from our work"
+    },
+    "Claims": {
+        "C1": "it may take us a lot of times to develop our personal hobbies",
+        "C2": "having hobbies and doing physical activities is the best way to keep fit",
+        "C3": "having hobbies and doing sports can refresh our mind",
+        "C4": "we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured"
+    },
+    "Premises": {
+        "P1": "doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness",
+        "P2": "doing some sport and hobbies can prevent us from becoming too fat or short-sighted",
+        "P3": "Looking at the computer screen all day long can make us daze",
+        "P4": "My neighbor Tom once was a computer engineer in a big company",
+        "P5": "He ate fast food everyday and never went out to exercise",
+        "P6": "When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight",
+        "P7": "He started to jog every morning",
+        "P8": "After a moth, he is thinner and finds a girlfriend",
+        "P9": "doing something for a long time can be boring",
+        "P10": "at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class",
+        "P11": "Humans are not robots; we can't keep working for twenty-four hours",
+        "P12": "Doing sports or hobbies for a short time can recharge our batteries",
+        "P13": "Playing musical instrument is a good way, I can play classical guitar",
+        "P14": "When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves",
+        "P15": "It makes me feel better and gives me the confidence"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

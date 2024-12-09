@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "I would prefer to work for myself, and have my own business",
+        "MC2": "people that have their own business are more comfortable"
+    },
+    "Claims": {
+        "C1": "working for the other have some advantages",
+        "C2": "They have more opportunities, profits, and authorities",
+        "C3": "there are a large number of opportunities in privat works that you cannot find them when you work for the others",
+        "C4": "when people work for themselves they make more profit for themselves, but in the other jobs you make profits for the other such as your manager",
+        "C5": "there are some authorities in privat jobs that workers are always looking for them while they are working for the others"
+    },
+    "Premises": {
+        "P1": "In your job you can be boss of yourself; however, in the other jobs someone else are your boss",
+        "P2": "You always have to be responsible for your task, and it make a stressful situation that I never like it",
+        "P3": "nowadays most of them pick up this profit without sharing a small sum of it with their workers, and from my point of view it is unfair",
+        "P4": "When you work for yourself you can punch in and punch out whenever you want",
+        "P5": "Sometimes some occasions happen to people for example a disease, sticking in a traffic jam and sometime going on a vacation",
+        "P6": "For all of them we have to ask for a permission, and most of the time we are not allowed"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

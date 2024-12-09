@@ -1,0 +1,32 @@
+MC1	MajorClaim 403 460	in this occasion the government is not granted to hand in
+MC2	MajorClaim 1871 1963	government cannot take steps to make the salary between modern artists and other job similar
+C1	Claim 1972 1996	art price is about taste
+A1	Stance C1 For
+P1	Premise 532 660	the modern artists who implement their creative thinking onto high value creation are paid with immense sum by the art collector
+P2	Premise 668 781	the high sum which modern artists receive is related to the quality instead of the quantity and their rare talent
+P3	Premise 796 893	a 15 centimeter Buddha temple made by hand is granted times in comparison with factory production
+P4	Premise 914 1048	modern artists also devote themselves find a unique concept in which ordinary people cannot do, such making impossible become possible
+P5	Premise 1050 1194	Pieter Padang, Minion creator, has brilliant idea to alter part of song lyric "I swear" become "underwear" when the Minion sing in Despicable Me
+P6	Premise 1196 1230	He granted huge sums for such idea
+R1	supports Arg1:P5 Arg2:P4	
+R2	supports Arg1:P6 Arg2:P4	
+R3	supports Arg1:P3 Arg2:P2	
+C2	Claim 462 513	Proficiency brings perfectness in terms of art work
+A2	Stance C2 For
+R4	supports Arg1:P1 Arg2:C2	
+R5	supports Arg1:P2 Arg2:C2	
+R6	supports Arg1:P4 Arg2:C2	
+P7	Premise 1479 1530	the musician re-plays the song without any creation
+P8	Premise 1384 1470	a musician playing "I swear" several times receives different earnings that Padang got
+C3	Claim 1542 1607	government cannot equalize the price of creation of modern artist
+A3	Stance C3 For
+P9	Premise 1616 1657	there is no certain parameter to value it
+P10	Premise 1659 1683	art value is about taste
+R7	supports Arg1:P10 Arg2:P9	
+R8	supports Arg1:P9 Arg2:C3	
+P11	Premise 1251 1369	labor working in the merchandise factory receive coin of dollar even they make a hundred of 15 cm Buddha temples a day
+R9	supports Arg1:P11 Arg2:C3	
+R10	supports Arg1:P7 Arg2:P8	
+R11	supports Arg1:P8 Arg2:C3	
+C4	Claim 1702 1856	the huge sums of modern artists receives related to their struggle in the field of art, while the term of struggle might different with other field of job
+A4	Stance C4 For

@@ -1,0 +1,22 @@
+MC1	MajorClaim 314 398	both government and common people should have the responsibility for the environment
+P1	Premise 639 902	air pollution and water quality has concerned many countries, and the government is able to implement some policies and invest money to reduce air pollution, while companies also can enhance their technologies to curb emission of contaminated water and substances
+C1	Claim 462 624	solving some environmental problems needs large budgets and various technologies, and the government and corporations have the ability to deal with these problems
+A1	Stance C1 For
+R1	supports Arg1:P1 Arg2:C1	
+P2	Premise 913 961	individuals are unable to cope with these things
+R2	supports Arg1:P2 Arg2:C1	
+C2	Claim 1182 1261	we should convey corresponding policies and knowledge to the public and society
+A2	Stance C2 For
+P3	Premise 1069 1164	It is necessary for every citizen to have the awareness and knowledge of environment protection
+P4	Premise 972 1067	the government and firms could have significant influences on environmental awareness of people
+P5	Premise 1267 1435	the government controls many influential media, such as TV stations and newspapers, which can provide plenty of environmental knowledge and related policies to citizens
+R3	supports Arg1:P4 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+P6	Premise 1626 1745	many people driving private cars could cause air pollution, and overusing plastic packages would affect the environment
+C3	Claim 1456 1610	it is possible for ordinary people to participate in some actions of environment protection, and they also can benefit from the improvement of environment
+A3	Stance C3 For
+P7	Premise 1747 1889	If people can gradually change some lifestyles in these daily activities, this will have many significant impacts on environmental improvement
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+MC2	MajorClaim 1906 2063	the government and corporations should take more responsibility for addressing environmental issues, but every citizen also can contribute to the environment

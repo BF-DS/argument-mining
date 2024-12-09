@@ -1,0 +1,31 @@
+MC1	MajorClaim 1843 1944	they have other critical obligations to take, in order to make our society function in an ordered way
+P1	Premise 340 439	it is the most important source of government's revenue, which is mainly used to serve all citizens
+P2	Premise 454 548	a large proportion of the tax is spent on national defence and in maintaining social stability
+P3	Premise 558 611	every one can work and live in a peaceful environment
+P4	Premise 613 736	The tax is also used to pay the salaries of workers working in public service sectors, such as teachers and police officers
+P5	Premise 747 791	these workers do not produce profit directly
+P6	Premise 793 848	what they do is for the well-being of the whole society
+C1	Claim 271 335	all people who are able to work should pay tax to the government
+A1	Stance C1 For
+C2	Claim 878 956	citizens have other important responsibilities to fulfil apart from paying tax
+A2	Stance C2 For
+P7	Premise 970 1066	there are impoverished or disabled people in every society, needing help and support from others
+P8	Premise 1084 1147	the government can provide some fund to ease their difficulties
+P9	Premise 1153 1199	such financial help is usually far from enough
+P10	Premise 1215 1336	aids from more capable or wealthier citizens are particularly crucial, which are a great complement to government support
+P11	Premise 1338 1448	Another responsibility all citizens should take is to maintain social stability together with the police force
+P12	Premise 1450 1550	There are criminals in every society, and the number of policemen the government can hire is limited
+P13	Premise 1555 1736	it is quite necessary for the local residents to take actions and ensure the safety of the communities, by doing things like reporting suspicious activities to the police department
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:P3	
+R3	supports Arg1:P3 Arg2:C1	
+R4	supports Arg1:P4 Arg2:C1	
+R5	attacks Arg1:P5 Arg2:P4	
+R6	attacks Arg1:P6 Arg2:P5	
+R7	supports Arg1:P7 Arg2:C2	
+R8	attacks Arg1:P8 Arg2:P7	
+R9	attacks Arg1:P9 Arg2:P8	
+R10	supports Arg1:P10 Arg2:C2	
+R11	supports Arg1:P12 Arg2:P13	
+R12	supports Arg1:P13 Arg2:C2	
+R13	supports Arg1:P11 Arg2:C2	

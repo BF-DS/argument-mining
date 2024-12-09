@@ -1,0 +1,20 @@
+MC1	MajorClaim 347 414	I find myself aligned with opponents of the usages of nuclear power
+MC2	MajorClaim 1593 1699	nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages
+C1	Claim 532 611	pursuit of nuclear technology one way or the other leads towards atomic weapons
+A1	Stance C1 For
+P1	Premise 613 667	Last century has witnessed the horrors of such weapons
+P2	Premise 669 774	If each country pursues the fusion and fission process some of them may try to mold it for military usage
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+C2	Claim 821 891	even civil usages of atomic power pose a dire threat of radio activity
+A2	Stance C2 For
+P3	Premise 905 1061	recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area
+P4	Premise 1063 1161	This unfortunate event proves that no matter how much careful we are such accidents are inevitable
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+C3	Claim 1316 1422	Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it
+A3	Stance C3 For
+P5	Premise 1183 1314	while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power
+P6	Premise 1424 1520	This waste is many times more lethal to our environment than any of the other hazardous material
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	

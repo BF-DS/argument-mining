@@ -1,0 +1,30 @@
+MC1	MajorClaim 332 386	computers brought convenience and easiness to our life
+C1	Claim 393 479	they enabled easier access to information and increased qualities of the communication
+A1	Stance C1 For
+P1	Premise 1018 1127	with the use of computers we spend less time in search for information, and can get it from different sources
+P2	Premise 555 686	Through computers we can collect appropriate data very quickly, store it in the hard disc as long as we want and use it when needed
+P3	Premise 688 846	Search engines such as google, yandex with many features relevant to the characteristics of the information needed enable search of information in few minutes
+P4	Premise 848 1009	Social networks such as facebook, twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments
+C2	Claim 489 553	computers through internet made our access to information easier
+A3	Stance C2 For
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+P5	Premise 1138 1229	in a globalized world that we live computers made communications faster, visual and cheaper
+P6	Premise 1231 1336	With the use of email our messages can be delivered to any person in any part of the world in few minutes
+P7	Premise 1351 1367	it is convenient
+P8	Premise 1376 1572	you do not need to mile to the post office, but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends, family members in any part of the world
+R8	supports Arg1:P8 Arg2:P7	
+P9	Premise 1574 1647	Internet facilities such as msn, skype made visual communication possible
+P10	Premise 1662 1807	via skype people not just communicate with their family members and friends, but also make interviews for employment, enrolment into universities
+R9	supports Arg1:P10 Arg2:P9	
+C3	Claim 1820 1871	communication has become cheaper, faster and visual
+A5	Stance C3 For
+R12	supports Arg1:P7 Arg2:C3	
+R13	supports Arg1:P6 Arg2:C3	
+R15	supports Arg1:P9 Arg2:C3	
+MC2	MajorClaim 1898 1949	computers have made life easier and more convenient
+C4	Claim 1967 2102	it broadened the sources of information and made access more quick, a long with the improving quality of the communication in many ways
+A6	Stance C4 For
+R1	supports Arg1:P1 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C3	

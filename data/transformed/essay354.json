@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "modern people are facing up to a new health problems and ailments than before",
+        "MC2": "people are facing up with many recently appeared illnesses"
+    },
+    "Claims": {
+        "C1": "it is because of sedentary lifestlyle",
+        "C2": "sedentary lifestyle lead to many serious health problems",
+        "C3": "people are experiencing serious medical problems"
+    },
+    "Premises": {
+        "P1": "The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology",
+        "P2": "they had more outdoor activities",
+        "P3": "In earlier times, for instance, even the types of entertainment tools were not in large numbers and all of them required physical presence",
+        "P4": "Nowadays people, especially inhabitants of cities, are spending most of their time on sitting in front of TV or other tools",
+        "P5": "the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses",
+        "P6": "Many people, for example, are suffering from allergy because of these gasses",
+        "P7": "foods with a low quality such as fast foods, junk foods and any genetically modified ones are influencing to our health very negatively",
+        "P8": "life becoming more stressful due to some recent problems such as traffic gam, traffic accidents and others"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

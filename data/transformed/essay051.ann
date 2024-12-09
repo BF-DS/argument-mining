@@ -1,0 +1,42 @@
+MC1	MajorClaim 232 295	universities should invest in libraries more than anywhere else
+MC2	MajorClaim 1763 1791	libraries are more important
+C1	Claim 1793 1882	They are critical part of universities and a good university has to have a modern library
+A1	Stance C1 For
+P1	Premise 312 367	a library is vital and strategical part of a university
+C2	Claim 369 444	All professors and students need to have a modern and well-equipped library
+A3	Stance C2 For
+R1	supports Arg1:P1 Arg2:C2	
+P2	Premise 454 513	after internet, library plays an important role in research
+R2	supports Arg1:P2 Arg2:C2	
+P3	Premise 524 542	sport is important
+C3	Claim 544 593	it does not have the same priority of library has
+A2	Stance C3 Against
+P4	Premise 607 658	only small part of students attend sport activities
+R3	supports Arg1:P4 Arg2:C3	
+R4	attacks Arg1:P3 Arg2:C3	
+P5	Premise 673 776	in my university number of students who use the library is much more than students do sports activities
+R5	supports Arg1:P5 Arg2:C3	
+P6	Premise 889 932	universities support is vital for libraries
+P7	Premise 824 880	Most libraries are free not for students also for public
+P8	Premise 786 822	usually libraries do not have income
+R6	supports Arg1:P7 Arg2:P6	
+R7	supports Arg1:P8 Arg2:P6	
+C4	Claim 1143 1286	there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income
+A5	Stance C4 For
+R8	supports Arg1:P6 Arg2:C4	
+P9	Premise 938 973	sport activities have a good income
+P10	Premise 982 1059	every sport has different matches and for each match they have a lot sponsors
+P11	Premise 1067 1128	they have this chance to sell their important matches tickets
+R9	supports Arg1:P11 Arg2:P9	
+R10	supports Arg1:P10 Arg2:P9	
+R11	supports Arg1:P9 Arg2:C4	
+C5	Claim 1308 1353	investing in libraries has a long-time result
+A4	Stance C5 For
+P12	Premise 1368 1435	a library can buy a lot of new books or they can buy more computers
+P13	Premise 1437 1515	Most of the library facilities are stable and you can use them for a long time
+P14	Premise 1526 1570	in the far future, they become more valuable
+P15	Premise 1591 1712	most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time
+R12	supports Arg1:P12 Arg2:C5	
+R13	supports Arg1:P13 Arg2:C5	
+R14	supports Arg1:P14 Arg2:C5	
+R15	supports Arg1:P15 Arg2:C5	

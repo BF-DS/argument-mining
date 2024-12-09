@@ -1,0 +1,26 @@
+MC1	MajorClaim 189 291	it is the responsibility of these disadvantaged citizens, rather than the government, to help them out
+C1	Claim 1454 1517	the government should provide help for the disadvantaged people
+A1	Stance C1 Against
+MC2	MajorClaim 1519 1633	direct financial support may not be a wise option and people should rely on themselves to get out of the adversity
+C2	Claim 293 362	Government money should be spent on publicly beneficial programs only
+A2	Stance C2 For
+P1	Premise 364 409	Tax revenue is collected from those who works
+P2	Premise 411 509	Spending them on helping those not make contribution to society would not sound fair to tax payers
+P3	Premise 520 625	there are other pressing demands on the government expenditure, such as health care service and education
+P4	Premise 630 678	addressing unemployment should have low priority
+R1	supports Arg1:P3 Arg2:P4	
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P1 Arg2:C2	
+C3	Claim 706 790	to survive in this competitive world, one has to work hard and equip themselves well
+A3	Stance C3 For
+P5	Premise 792 907	If they could get free financial help from the government, they might end up with out any motivation to work at all
+R5	supports Arg1:P5 Arg2:C3	
+P6	Premise 1315 1402	it is beneficial to the society as a whole when the jobless can make contribution again
+C4	Claim 920 989	this does not mean we should leave alone those who do need assistance
+A5	Stance C4 For
+P7	Premise 991 1128	They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support
+P8	Premise 1144 1302	the government ought to set up free vocational trainings or to provide interest-free bank loans for them, so that they can have the chance to get back to work
+R6	supports Arg1:P7 Arg2:C4	
+R7	supports Arg1:P8 Arg2:C4	
+R8	supports Arg1:P6 Arg2:C4	

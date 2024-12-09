@@ -1,0 +1,25 @@
+MC1	MajorClaim 1591 1678	human being should behave as a guardian to animals rather than as their lord or masters
+C1	Claim 1680 1735	Animal rights are meant to set limits on human behavior
+A1	Stance C1 For
+C2	Claim 474 598	Human being has driven many animals for their personal use such as, cows and other milch animals for yielding milk from them
+A2	Stance C2 For
+P1	Premise 600 717	Likewise, other animals such as, horses, cattles and donkeys for farming, agriculture and as a mode of transportation
+P2	Premise 719 877	Many people keep pets like dogs and cats, trained them as service dogs and snuffing dogs which are very helpful to police force and even to some blind peoples
+P3	Premise 879 924	They are kept for security purposes in houses
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+C3	Claim 945 1004	many farmers and owners exploit animals beyond their limits
+A3	Stance C3 For
+P4	Premise 1020 1111	cows are often injected by Oxytocin, a hormone which is used to forcibly increase lactation
+P5	Premise 1113 1175	This in turn, causes lots of discomfort and pain to the cattle
+C4	Claim 1190 1309	thousand of animals undergo painful suffering or death as a result of scientific research of drugs and various products
+A4	Stance C4 For
+P6	Premise 1311 1381	Another example of this is cage farming which is against animal rights
+P7	Premise 1383 1513	Many other practices like, equestrian sport where horses run miles and miles and beaten up by jockeys to make them run more faster
+P8	Premise 1515 1568	And above all pleasure hunting of defenseless animals
+R7	supports Arg1:P4 Arg2:C3	
+R8	supports Arg1:P5 Arg2:C3	
+R4	supports Arg1:P6 Arg2:C3	
+R5	supports Arg1:P7 Arg2:C3	
+R6	supports Arg1:P8 Arg2:C3	

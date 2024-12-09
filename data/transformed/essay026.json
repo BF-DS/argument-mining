@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "it is obvious that prepared food can bring about some negative influence result from utilizing the artificial ingredients, ignoring the nutrition of food and modifying people's eating habits",
+        "MC2": "it is not a good thing"
+    },
+    "Claims": {
+        "C1": "it can effectively save time which is considered as money in our modern society",
+        "C2": "easy-to-cook foods sometimes could be dangerous for human's health",
+        "C3": "Not cooking fresh food will also lead to the lack of nutrition",
+        "C4": "the invention of prepared foods definitely satisfies the demand of some people who are busy in their work",
+        "C5": "The more prepared food we eat the more cooking skills we lose"
+    },
+    "Premises": {
+        "P1": "to make their food easier to prepare and taste delicious, almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people",
+        "P2": "ingredients being added have caused dire consequences",
+        "P3": "there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases",
+        "P4": "Whereas some research has apparently demonstrated that prepared food is unable to support enough nutrients we need, especially for children who are growing up",
+        "P5": "At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes",
+        "P6": "rare people have been aware that this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

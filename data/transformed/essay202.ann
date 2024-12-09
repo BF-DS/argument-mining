@@ -1,0 +1,41 @@
+C1	Claim 2103 2146	the co-workers should believe in fellowship
+P1	Premise 2148 2241	This helps them to enjoy their work life while building up very strong personal relationships
+P2	Premise 2254 2290	you spend most of your day at office
+P3	Premise 2292 2356	If you have a good company in office, it is certainly a blessing	
+MC1	MajorClaim 446 566	a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship
+P4	Premise 568 621	The co-workers should be cooperative with one another
+C2	Claim 1500 1539	The co-workers need to trust each other
+A3	Stance C2 For
+P5	Premise 623 679	If they do not cooperate, there will be lots of disputes
+P6	Premise 1541 1573	They should not act on suspicion
+P7	Premise 744 854	he always left office sharp on time without giving any consideration whether the work has been finished or not
+P8	Premise 681 732	I once had a co-worker who was too family conscious
+P9	Premise 856 992	Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person
+P10	Premise 1003 1081	one day I wanted to be off early because I had to take my mother to the doctor
+P11	Premise 1083 1208	When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse
+P12	Premise 1210 1377	From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility
+C3	Claim 1400 1498	if the co-workers do not corporate with each other that would be devastating in a work environment
+A4	Stance C3 For
+P13	Premise 1575 1630	This is a very important aspect in the work environment
+P14	Premise 1632 1750	I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me
+P15	Premise 1752 1868	To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him
+P16	Premise 1878 1992	I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me
+P17	Premise 1994 2091	But this mistrust continued and created very unpleasant situations for everybody in my department
+A2	Stance C1 For
+R1	supports Arg1:P8 Arg2:P7	
+R2	supports Arg1:P4 Arg2:C3	
+R3	supports Arg1:P5 Arg2:C3	
+R4	supports Arg1:P7 Arg2:C3	
+R5	supports Arg1:P9 Arg2:C3	
+R6	supports Arg1:P10 Arg2:C3	
+R7	supports Arg1:P11 Arg2:C3	
+R8	supports Arg1:P12 Arg2:C3	
+R9	supports Arg1:P6 Arg2:C2	
+R10	supports Arg1:P13 Arg2:C2	
+R11	supports Arg1:P14 Arg2:C2	
+R12	supports Arg1:P15 Arg2:C2	
+R13	supports Arg1:P16 Arg2:C2	
+R14	supports Arg1:P17 Arg2:C2	
+R15	supports Arg1:P1 Arg2:C1	
+R16	supports Arg1:P2 Arg2:C1	
+R17	supports Arg1:P3 Arg2:C1	

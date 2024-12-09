@@ -1,0 +1,40 @@
+MC1	MajorClaim 34 90	public museums and art galleries will still be necessary
+C1	Claim 104 158	we can see the art works and historical objects online
+A1	Stance C1 Against
+P1	Premise 239 282	the Internet really brings them convenience
+P2	Premise 401 450	pictures online are only limited to a screen size
+P3	Premise 465 562	the exhibits in museums or galleries are all life size and visitors can get a more direct felling
+MC2	MajorClaim 1578 1617	we still need museums and art galleries
+C2	Claim 1622 1755	computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects
+A2	Stance C2 Against
+P4	Premise 577 636	only when we see the real mummy, can we experience mystique
+C3	Claim 160 230	Most people nowadays prefer to use the Internet to search for art work
+A3	Stance C3 Against
+P5	Premise 284 342	We can browse the art work from all over the world at home
+P6	Premise 353 394	people may not get a spiritual experience
+R1	supports Arg1:P2 Arg2:P6	
+R2	supports Arg1:P1 Arg2:C3	
+R3	supports Arg1:P5 Arg2:C3	
+R4	supports Arg1:P4 Arg2:P3	
+R5	attacks Arg1:P3 Arg2:C3	
+R6	attacks Arg1:P6 Arg2:C3	
+C4	Claim 638 781	In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing
+A4	Stance C4 For
+P7	Premise 796 903	at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus
+P8	Premise 905 1006	at Museum of Art in New York, you can look at 17th century instruments while listening to their music
+P9	Premise 1008 1095	While if you "visit" the museum online, you may not able to get this kind of experience
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	
+R9	supports Arg1:P9 Arg2:C4	
+C5	Claim 1097 1183	Seeing an art work on computer screen is not the same as you watch it by your own eyes
+A5	Stance C5 For
+P10	Premise 1199 1302	you can't see the texture of the artwork which is very important to study the skills used by the artist
+P11	Premise 1317 1387	not all the details of the artwork can be shown on the computer screen
+P12	Premise 1389 1414	Some details might be dim
+P13	Premise 1421 1474	the resolution ratio of the screen is not high enough
+R10	supports Arg1:P13 Arg2:P12	
+P14	Premise 1476 1551	These may influence the comprehension of the art work or historical objects
+R11	supports Arg1:P10 Arg2:C5	
+R12	supports Arg1:P11 Arg2:C5	
+R13	supports Arg1:P12 Arg2:C5	
+R14	supports Arg1:P14 Arg2:C5	

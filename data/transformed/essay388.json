@@ -1,0 +1,72 @@
+{
+    "MajorClaims": {
+        "MC1": "criminal minds that breed violence not stringent gun control",
+        "MC2": "there is a poor relationship between polices carrying guns and an increasing violence rate"
+    },
+    "Claims": {
+        "C1": "criminal mind seems to be more related to violence",
+        "C2": "if there is gun control somehow crime has to decrease",
+        "C3": "stringent gun control does not decrease violence and crime",
+        "C4": "if a government wants to control crime in a community, it is important to manage their people's actions rather than gun used in violent crimes"
+    },
+    "Premises": {
+        "P1": "fewer guns available mean less crime",
+        "P2": "this is not as simple as it sounds",
+        "P3": "most gun violence is committed with guns obtained illegally",
+        "P4": "People who are intent to commit crime and control cities through gang violence and other means will find a way to continue to use guns, regardless of gun control",
+        "P5": "the root of violence is criminal mind not the weapon itself",
+        "P6": "there will be law non-abiding people anywhere in the world, either polices or common citizens"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

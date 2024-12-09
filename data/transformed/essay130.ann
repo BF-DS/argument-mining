@@ -1,0 +1,25 @@
+MC1	MajorClaim 400 547	through proper management and regulation, a booming tourist industry is an excellent source of economic growth and wealth for rural and urban areas
+MC2	MajorClaim 2168 2242	the tourism sector is desirable for its important socioeconomic advantages
+MC3	MajorClaim 2259 2355	it is evident that under suitable administration, the benefits of tourism outweigh its drawbacks
+C1	Claim 549 657	The most obvious merit is that tourism can vastly boost economic development in a particular state or region
+A1	Stance C1 For
+P1	Premise 659 858	This takes place, not only through direct expenditure from tourists, but also because it provides direct and indirect jobs to the community, including retail, agriculture, and in the service industry
+P2	Premise 860 1022	The increasing tax and the expansion of local markets for accommodation, luxury goods amongst others are also a result of a solid, well-regulated tourism programs
+P3	Premise 1037 1199	tourism provides a considerable number of direct and indirect jobs to the community, including retail, hotels, transport, agriculture, and in the service industry
+P4	Premise 1201 1361	This increase of job opportunities allows more people to make significant contribution to society through the purchasing of commodities by their growing incomes
+P5	Premise 1376 1463	this gives energy to the economic cycle, generating local economic prosperity in return
+R1	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P2 Arg2:C1	
+R5	supports Arg1:P3 Arg2:C1	
+R7	supports Arg1:P4 Arg2:C1	
+C2	Claim 1465 1562	Some people may oppose these, citing the environmental and cultural destruction caused by tourism
+A3	Stance C2 Against
+P6	Premise 1573 1693	compared to the tourism industry, other alternatives, like resource extraction and manufacture, are far worse destroyers
+P7	Premise 1709 1817	paper mills pour hundreds and thousands of tons of contamination into rivers, causing severe water pollution
+R10	attacks Arg1:P6 Arg2:C2	
+R11	supports Arg1:P7 Arg2:P6	
+P8	Premise 1838 1995	the dramatic majority of tourist, particularly those who tend to spending a wealth of time and money locating and visiting rustic villages, are well educated
+R12	attacks Arg1:P8 Arg2:C2	
+P9	Premise 1997 2107	It is illogical to believe that these rational folks will not conduct themselves decently if required to do so
+R13	attacks Arg1:P9 Arg2:C2	
+R2	supports Arg1:P5 Arg2:C1	

@@ -1,0 +1,38 @@
+MC1	MajorClaim 365 471	zoos provide social interaction, education, and develop qualities such as animal respect and understanding
+MC2	MajorClaim 2755 2775	zoos are very useful
+C1	Claim 2479 2585	in some of them the animals are not very well taken care of and they do not have good and clean facilities
+A1	Stance C1 Against
+P1	Premise 2587 2649	This is mostly true but does not relate to the purpose of zoos
+R1	attacks Arg1:P1 Arg2:C1	
+C2	Claim 876 1037	The zoo is a great reason for spending time with the family, it is a great activity that can be enjoyed every family member, from little children to grandparents
+A2	Stance C2 For
+P2	Premise 473 592	When people visit the zoo, they normally do it in a group, with their families, or as a part of a school group activity
+P3	Premise 594 780	In the zoo they interact with each other and are able to relax and look at the animals, play with some of them, comment on their appearance and behavior, and laugh at their funny customs
+P4	Premise 782 874	Nowadays families do not spend as much time together as they used to a couple of decades ago
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+P5	Premise 1040 1151	Animals, the different species, their habitats and behaviors are a subject of study at schools and universities
+C3	Claim 1808 1885	Visiting the zoo would help the students understand what they learn at school
+A4	Stance C3 For
+P6	Premise 1153 1278	We can learn a lot from books and lectures, but there is an even better way to learn, that is visuals and personal experience
+P7	Premise 1280 1441	If you visit the zoo, you get to watch the animals, their customs, what they eat and how they eat it, as well as which characteristics the different species have
+P8	Premise 1443 1557	In the zoo you can see an animal and their different variations, the male and the female or the baby and the adult
+P9	Premise 1559 1735	It offers a great opportunity to observe their reactions to different situations, such as weather, specie and genre interaction, defense behavior, or protection of their babies
+P10	Premise 1747 1806	it will also help identify which animals could be dangerous
+R5	supports Arg1:P10 Arg2:C3	
+R6	supports Arg1:P9 Arg2:C3	
+R7	supports Arg1:P8 Arg2:C3	
+R8	supports Arg1:P7 Arg2:C3	
+R9	supports Arg1:P6 Arg2:C3	
+R10	supports Arg1:P5 Arg2:C3	
+C4	Claim 1897 1983	a visit to the zoo will help increasing someone's respect and appreciation for animals
+A3	Stance C4 For
+P11	Premise 2263 2427	Being able to see the animals in real life and learning facts about them would help by making people aware of the importance of animals and the respect they deserve
+P12	Premise 1985 2071	It is a lot easier to appreciate something after you have seen it, and learned from it
+P13	Premise 2073 2206	This is especially true for people living in the city, where the only animals they normally interact with are pets like cats and dogs
+P14	Premise 2208 2261	In the present there is a lack of respect for animals
+R12	supports Arg1:P12 Arg2:C4	
+R13	supports Arg1:P13 Arg2:C4	
+R14	supports Arg1:P14 Arg2:C4	
+R11	supports Arg1:P11 Arg2:C4	

@@ -1,0 +1,20 @@
+MC1	MajorClaim 257 315	other prefer to be surrounded by a large number of friends
+MC2	MajorClaim 1873 1944	spending time with a large number of friends can add more to one's life
+C1	Claim 384 498	staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences
+A1	Stance C1 For
+P1	Premise 514 759	among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before
+C2	Claim 1121 1244	a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded
+A2	Stance C2 For
+P2	Premise 1259 1475	if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages
+C3	Claim 1477 1614	When you have just few close friends, on one hand you develop a more intimate relationship with them and you feel you can trust them more
+A3	Stance C3 Against
+P3	Premise 1638 1733	they often will give you viewpoints not so different from yours, adding less to your experience
+C4	Claim 773 897	while differences give the opportunity to learn, they can also mean that sometimes it can be difficult to reach an agreement
+A4	Stance C4 Against
+P4	Premise 899 1011	This would not happen or at least would happen rarely if one decides to spend time with one or two close friends
+P5	Premise 1022 1096	in this case it is more likely that interests and preferences are the same
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P4 Arg2:C4	
+R3	supports Arg1:P5 Arg2:C4	
+R4	supports Arg1:P2 Arg2:C2	
+R5	attacks Arg1:P3 Arg2:C3	

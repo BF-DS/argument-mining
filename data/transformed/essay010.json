@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "governments spend more money on buses, trains, and subways investment",
+        "MC2": "public transportation systems even have more important advantages"
+    },
+    "Claims": {
+        "C1": "they help alleviate traffic congestion and decrease the amount of carbon released into the air",
+        "C2": "the policy that concentrates money on developing public transportation brings an advantageous impact on earth",
+        "C3": "This is sure to lead to more carbon emitted into the atmosphere, which can cause skin cancer and destroy the natural environment",
+        "C4": "governments have to turn people' attention on public vehicles to reduce cars and motorbikes",
+        "C5": "high-quality roads and highways make it easier to move around",
+        "C6": "They not only ease traffic jam but also protect the atmosphere"
+    },
+    "Premises": {
+        "P1": "Such public vehicles are used to serve a large number of people in society",
+        "P2": "if there are more good buses, trains, or subways, people are inclined to use less private vehicles, which decreases the amount of carbon released",
+        "P3": "carbon emission cut is significantly essential for protecting the atmosphere",
+        "P4": "the more cars and motorbikes are on roads, the more seriously the ozone layer is damaged",
+        "P5": "If governments use more money to improve roads, there is a strong likelihood that more people drive their private cars work",
+        "P6": "there are a great number of vehicles flowing on roads",
+        "P7": "It is quiet clear that traffic congestion is a serious problem in many big cities",
+        "P8": "There is the possibility that improving roads and highways does not seem to reach the major cause of traffic congestion",
+        "P9": "the policy would play a pivotal part in relieving traffic jam"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C6",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

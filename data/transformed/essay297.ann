@@ -1,0 +1,32 @@
+MC1	MajorClaim 277 331	online classes should never replace classroom learning
+MC2	MajorClaim 2063 2140	the classroom learning is the best way to provide education for these reasons
+P1	Premise 462 525	In the classroom environment you can learn from your classmates
+P2	Premise 535 652	if you see any of your classmates who is performing better, it will force you for making your performance more better
+R1	supports Arg1:P2 Arg2:P1	
+P3	Premise 667 858	When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects
+P4	Premise 868 896	I got 1st rank in final exam
+C1	Claim 377 460	classroom learning is the best way to provide education comparing to online classes
+A1	Stance C1 For
+R2	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+R4	supports Arg1:P4 Arg2:C1	
+C2	Claim 969 1015	It makes you perfect in time management skills
+A2	Stance C2 For
+P5	Premise 906 967	in classroom learning you have to complete study work on time
+P6	Premise 1026 1104	you can learn by participating in group studies how to communicate with others
+P7	Premise 1106 1217	It makes you communication and of course your group skills better, which can help you in your future and career
+R5	supports Arg1:P7 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P5 Arg2:C2	
+C3	Claim 1522 1539	you learn quickly
+A3	Stance C3 For
+P8	Premise 1226 1390	professors play vital role in classroom learning, most of them are specialists is their subjects, and they help you by giving valuable information and useful skills
+P9	Premise 1392 1510	You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts
+R8	supports Arg1:P9 Arg2:C3	
+R9	supports Arg1:P8 Arg2:C3	
+P10	Premise 1585 1833	For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster
+R10	supports Arg1:P10 Arg2:C3	
+C4	Claim 1856 1930	online classes have some advantages so they could be used as supplementary
+A4	Stance C4 Against
+P11	Premise 1936 1995	they could not be substitute of existing classroom learning
+R11	attacks Arg1:P11 Arg2:C4	

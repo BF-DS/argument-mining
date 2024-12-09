@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "I do not think these disadvantages will outweigh the advantages brought by cell phones",
+        "MC2": "The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible"
+    },
+    "Claims": {
+        "C1": "it has a number of problems that should be well handled",
+        "C2": "almost everything that changed our lifestyle a lot will also cause some social problems",
+        "C3": "some harmful effects on our health are lethal",
+        "C4": "There is panic among people that their conversation can be intercepted by the third party",
+        "C5": "the mobile phone has become a dispensable multifunctional tools in people's daily life"
+    },
+    "Premises": {
+        "P1": "Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive",
+        "P2": "some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other",
+        "P3": "it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented",
+        "P4": "It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed",
+        "P5": "This possibility exists all the time",
+        "P6": "a more efficient and reliable system can also be invented to guarantee the private information of users",
+        "P7": "Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "attacks",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

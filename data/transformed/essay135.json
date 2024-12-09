@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "international aid should be prioritised",
+        "MC2": "people from unfortunate countries need more international assistance while helping citizens in the home country is also necessary"
+    },
+    "Claims": {
+        "C1": "International aid is critical",
+        "C2": "it is reasonable to lend a hand to our fellow citizens"
+    },
+    "Premises": {
+        "P1": "Many people, for example in some African countries, are living below the basic standards",
+        "P2": "They lack food, water or clothes which keep them warm, not to mention the education needs",
+        "P3": "What is worse, people who live in countries that are confronted with wars or natural disasters are facing even more severe issues such as security, homelessness or the pain of losing best friends or family members",
+        "P4": "those people are in desperate need of international support",
+        "P5": "there is a high demand that the money should be spent in the place where it is collected",
+        "P6": "charity organisations are mainly funded by the home country",
+        "P7": "even within the most developed countries, there are still poor people who lack their basic needs",
+        "P8": "By solving the problems in the home country, it is beneficial for social stability and steady economic growth",
+        "P9": "people from other countries may be facing much more serious problems"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        }
+    ]
+}

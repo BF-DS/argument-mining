@@ -1,0 +1,26 @@
+MC1	MajorClaim 530 575	being present at classes seems a wiser option
+C1	Claim 618 818	being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college
+P1	Premise 826 880	they can help each other for learning materials better
+P2	Premise 891 1007	if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+A1	Stance C1 For
+C2	Claim 1084 1156	by the help of teachers, students can understand ideas faster and easier
+A2	Stance C2 For
+P3	Premise 1163 1273	teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points
+P4	Premise 1275 1464	In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+P5	Premise 1551 1672	they have to obey class’s disciplines and they practice to be more perseverance in the process of doing their assignments
+P6	Premise 1683 1821	the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times
+P7	Premise 1841 1921	they may miss some important parts in virtue of the chaotic and incoherent study
+R5	supports Arg1:P6 Arg2:P7	
+C3	Claim 1492 1544	appearing in class makes students more conscientious
+A3	Stance C3 For
+R6	supports Arg1:P5 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+MC2	MajorClaim 1985 2064	communicating and studying with peer group is a good way for learning materials
+C4	Claim 2076 2216	teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it
+A4	Stance C4 For
+C5	Claim 2224 2356	attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success
+A5	Stance C5 For

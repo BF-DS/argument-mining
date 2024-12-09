@@ -1,0 +1,26 @@
+MC1	MajorClaim 1868 1940	it is better that children are not be allowed to play the computer games
+MC2	MajorClaim 112 165	children should not be allowed to play computer games
+C1	Claim 172 215	playing computer games is a a waste of time
+A1	Stance C1 For
+P1	Premise 407 665	An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week, while 90% excellent students expressed that they did not touch computer games during the most of the days
+P2	Premise 667 840	Recent research by Scientist also reveals that the youngs are more likely to be attacted by and lose themselves in these computer games, because of their low control ability
+C2	Claim 283 405	a large number of students are obsessed in on-line computer games and as a result their performance in school are declined
+A2	Stance C2 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+C3	Claim 917 961	time on this activity is really time wasting
+A3	Stance C3 For
+P3	Premise 851 905	children could learn nothing from these computer games
+R3	supports Arg1:P3 Arg2:C3	
+P4	Premise 969 1068	all these games are developed for commercial purpose and in order to catch the eyes of the children
+P5	Premise 1070 1158	majority of the games use war, violence, bloody, or sexual subjects to lure the students
+R4	supports Arg1:P4 Arg2:P5	
+P6	Premise 1169 1258	those subjects are not suitable for the students and will bring bad effects to the youths
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+P7	Premise 1615 1840	It is not uncommon that the teenages are found sleepless for several days playing on-line games at public internet bar, and there are also some media reports regarding the sudden death case of the teenages in the internet bar
+P8	Premise 1446 1613	majority of the students failed in front of the computer games playing and they use their time for studying, sleeping and physical exerice to play these computer games
+C4	Claim 1273 1411	there are a few students paying considerable time on the computer games playing finally choose computer games related jobs as their career
+A4	Stance C4 Against
+R7	attacks Arg1:P8 Arg2:C4	
+R8	attacks Arg1:P7 Arg2:C4	

@@ -1,0 +1,77 @@
+{
+    "MajorClaims": {
+        "MC1": "I disagree with the opinion that children who are brought up in less well-of families are, likely, more successful in the future life"
+    },
+    "Claims": {
+        "C1": "children from poorer families are prone to have bad habits such as: crime, thievery and thuggery",
+        "C2": "wealthy families can afford better health services and costly medicines, which will be very beneficial for the health of a child",
+        "C3": "people who are born in well-off families have access to good education, which will have a positive impact on their later life",
+        "C4": "children from rich families have better skills on how to use money"
+    },
+    "Premises": {
+        "P1": "these people will not have an access to a good education",
+        "P2": "they can be proselytized into bad isms",
+        "P3": "most of the terroristic groups try to attract uneducated people",
+        "P4": "the person with better education has a wider outlook, which will allow no brainwash",
+        "P5": "people with lower level of education have more proneness to be attracted in such isms",
+        "P6": "they use it a lot of times",
+        "P7": "many good medicines cost vast amounts of money, which cannot be afforded by poorer families"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C1"
+        }
+    ]
+}

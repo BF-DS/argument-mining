@@ -1,0 +1,34 @@
+MC1	MajorClaim 325 384	advertising is the major reason for high sales of a product
+MC2	MajorClaim 1701 1769	high sales are obviously a reflection of the powerful advertisements
+C1	Claim 118 207	The most effective way to convince consumers to purchase a product is through advertising
+A1	Stance C1 For
+P1	Premise 218 248	it is not sufficient in itself
+P2	Premise 250 308	The product also should satisfy the needs of the consumers
+C2	Claim 479 569	advertisers push the limits of creativity to dispose the consumers to purchase the product
+A2	Stance C2 For
+C3	Claim 1097 1167	Advertisement is the most effective way to create a well-known product
+A3	Stance C3 For
+C4	Claim 1569 1601	They make the product preferable
+A4	Stance C4 For
+P3	Premise 407 466	We are mainly introduced to products through advertisements
+P4	Premise 571 714	When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases
+P5	Premise 716 795	Recently, there is a very creative advertisements of a soft drink product on TV
+P6	Premise 797 909	The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot
+P7	Premise 932 984	the number of that product being sold will increases
+P8	Premise 993 1095	the more an advertisement of a product takes place in mass media, the more popular the product becomes
+P9	Premise 1169 1295	Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product
+P10	Premise 1297 1398	When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is
+P11	Premise 1409 1454	it also has to be affordable for the consumer
+P12	Premise 1479 1567	advertisements have undeniable affects on the society about the product being advertised
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P5 Arg2:P7	
+R5	supports Arg1:P6 Arg2:P7	
+R6	supports Arg1:P4 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P9 Arg2:C3	
+R10	supports Arg1:P12 Arg2:C4	
+R11	attacks Arg1:P11 Arg2:P10	
+R12	supports Arg1:P10 Arg2:C4	

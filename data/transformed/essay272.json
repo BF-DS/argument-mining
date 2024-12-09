@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "I personally disagree with this notion that these types of communication, telephones and email, made people less personal",
+        "MC2": "telephones and email do not make communication between people less personal"
+    },
+    "Claims": {
+        "C1": "Communication between people by using telephones and email made my life easier",
+        "C2": "telephones and email help people, who live far away from other people, to connect each other",
+        "C3": "using telephones and email could express some important words better than face-to-face communication",
+        "C4": "Telephones and email make me feel personal"
+    },
+    "Premises": {
+        "P1": "Unlike email, send message by using mail service could be lost and could be sent to wrong address",
+        "P2": "I can using telephones and email to talk or write directly to people I want to connect with",
+        "P3": "I can make a phone call or write email to my parents whenever I want",
+        "P4": "It is not possible to have conversation in person with my parents, who live in my country",
+        "P5": "Telephones and email made me feel close to my parents",
+        "P6": "sometime when I argue with my friends, I cannot express my self to my friends at that moment",
+        "P7": "when I have a time to realize what had happened, I could explain the real thought that I want to express without emotion",
+        "P8": "these types of communications make me feel personal",
+        "P9": "I could directly connect with people that I love",
+        "P10": "I could express my personal thought through telephones and email"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

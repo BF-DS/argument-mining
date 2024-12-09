@@ -1,0 +1,32 @@
+MC1	MajorClaim 301 444	it is much more gratifying to stay side by side and cheer up the team at the stadium rather than just to stay at home and watch the match alone
+MC2	MajorClaim 1668 1724	watching the match live at the stadium is more enjoyable
+C1	Claim 1595 1662	watch a football match on television it is comfortable and pleasing
+A1	Stance C1 Against
+C2	Claim 1726 1770	It can be unforgettable moments in your life
+A2	Stance C2 For
+C3	Claim 1101 1159	watching a live football game is an exceptional experience
+A3	Stance C3 For
+C4	Claim 453 503	attending a live football match is very fulfilling
+A4	Stance C4 For
+P1	Premise 505 645	Before the match starts, thousands of fans gathering outside of the stadium with team flags, colorful outfits, sound of trumpets and rattles
+P2	Premise 661 739	As the game kicks off, the atmosphere inside the stadium is even more exciting
+P3	Premise 741 943	You are watching football stars play the game with your own eyes and sharing your feelings with about 40,000 people at the stadium, such an excitement you can never have when you are watching it at home
+P4	Premise 945 1038	Everybody yells and sings together, the stadium is like bursted out whenever a goal is scored
+P5	Premise 1040 1091	See, you will be bored if you are watching it alone
+R1	supports Arg1:P1 Arg2:C4	
+R2	supports Arg1:P2 Arg2:C4	
+R3	supports Arg1:P3 Arg2:C4	
+R4	supports Arg1:P4 Arg2:C4	
+R5	supports Arg1:P5 Arg2:C4	
+P6	Premise 1255 1314	The tickets to get in the stadium may be a little expensive
+P7	Premise 1320 1377	you will gain much more entertainment value from the game
+R6	attacks Arg1:P7 Arg2:P6	
+R7	attacks Arg1:P6 Arg2:C3	
+P8	Premise 1379 1426	You can cherish your experience for a long time
+P9	Premise 1441 1474	it can be an exclusive experience
+P10	Premise 1476 1578	If it is a crucial win to acclaim a trophy, you will be "on site" to witness and celebrate the victory
+R8	supports Arg1:P8 Arg2:C3	
+P11	Premise 1161 1253	You can watch it at home, but "easy come, easy go", you will quickly forget it, like a movie
+R9	supports Arg1:P11 Arg2:C3	
+R10	supports Arg1:P9 Arg2:C3	
+R11	supports Arg1:P10 Arg2:C3	

@@ -1,0 +1,46 @@
+P1	Premise 396 454	if all the story end up in the same way, it will be boring
+MC1	MajorClaim 315 387	if the good people always get an happy ending, I don’t think it’s proper
+P2	Premise 456 530	If good people always win, we can guess the ending of the movies or dramas
+C1	Claim 924 992	we can’t always let good people be rewarded in movies or TV programs
+A2	Stance C1 For
+P3	Premise 532 573	Then we will feel less interested in them
+P4	Premise 575 697	But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story
+P5	Premise 712 798	Hollywood stories usually have a happy ending like a hero beats a crime and get a girl
+P6	Premise 800 858	But now many people, including me, have been tired with it
+P7	Premise 860 919	I don’t want to see the same kind of ending again and again
+R1	supports Arg1:P7 Arg2:C1	
+R2	supports Arg1:P6 Arg2:C1	
+R3	supports Arg1:P5 Arg2:C1	
+R4	supports Arg1:P4 Arg2:C1	
+R5	supports Arg1:P1 Arg2:C1	
+R6	supports Arg1:P2 Arg2:C1	
+R7	supports Arg1:P3 Arg2:C1	
+C2	Claim 1138 1258	if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world
+P8	Premise 1260 1299	They will be misleading by those movies
+P9	Premise 1305 1357	they may act like good people in order to get reward
+P10	Premise 1359 1466	Once they find the good people are not always get rewarded, they may feel upset and not to be a good person
+P11	Premise 1481 1547	the good people do good things no matter the ending is good or not
+P12	Premise 1552 1623	we should tell this to the young children to avoid the misunderstanding
+R8	supports Arg1:P11 Arg2:P12	
+P13	Premise 994 1060	Even in the real world, good people can get a bad ending sometimes
+P14	Premise 1074 1133	it happen more often in the real world than in those movies
+R9	supports Arg1:P14 Arg2:C2	
+R10	supports Arg1:P8 Arg2:C2	
+R11	supports Arg1:P13 Arg2:C2	
+R12	supports Arg1:P9 Arg2:C2	
+R13	supports Arg1:P10 Arg2:C2	
+R14	supports Arg1:P12 Arg2:C2	
+A1	Stance C2 For
+P15	Premise 1634 1674	those good endings sometimes are helpful
+P16	Premise 1676 1723	Some people may be encouraged to do good things
+R15	supports Arg1:P16 Arg2:P15	
+P17	Premise 1742 1779	this kind of behavior won’t last long
+P18	Premise 1789 1824	someday they will realize the truth
+C3	Claim 1839 1885	we should show people the truth in the stories
+A4	Stance C3 For
+P19	Premise 1891 1957	if they can, they will be good people no matter how the story ends
+R16	supports Arg1:P19 Arg2:C3	
+R17	attacks Arg1:P15 Arg2:C3	
+R18	supports Arg1:P18 Arg2:P17	
+R19	attacks Arg1:P17 Arg2:P15	
+MC2	MajorClaim 1996 2098	movies and TV programs should present different stories in which good people get reward or get nothing

@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "life in the old days brings more happiness to people than today for several reasons",
+        "MC2": "People are put too much focus on making wealth and progress in technology"
+    },
+    "Claims": {
+        "C1": "some people live in a pretty good condition, it is only a minority",
+        "C2": "lives in the old days is easier than today",
+        "C3": "the environment our grandparents live is more comfortable than today",
+        "C4": "The third reason is that the pace of life"
+    },
+    "Premises": {
+        "P1": "life is simple in the past",
+        "P2": "Nowadays, all humans compete together",
+        "P3": "world population getting higher",
+        "P4": "competition is getting fierce",
+        "P5": "If you are not able to handle your jobs, then someone will replace you right away",
+        "P6": "People need to put much more effort to keep their living condition",
+        "P7": "the environment today is serious damaged",
+        "P8": "Looking out the windows, what I see isn't sky, trees or mountains, but is coldly high buildings",
+        "P9": "Everyday, I walk on hard roads, breath in polluted air, and live in a limited space",
+        "P10": "it has been proved that living in this kind of condition will result in some mental diseases",
+        "P11": "Today, we are able to read the news all over the world, to chat with people through the Internet, or to travel around the world by planes",
+        "P12": "it also means that any thing happens in the world will affect our life",
+        "P13": "If we cannot react properly and immediately, then we will be in a vulnerable situation",
+        "P14": "We have no choice but have to live in a fast pace"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P11",
+            "Relation": "attacks",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "attacks",
+            "target": "P11"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

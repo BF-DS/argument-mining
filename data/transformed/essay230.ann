@@ -1,0 +1,24 @@
+MC1	MajorClaim 468 559	it is the best way for teenage children to take a part-time job to prepare their adult life
+C1	Claim 721 773	it is an oppertunity to learn how to deal with money
+A1	Stance C1 For
+P1	Premise 798 878	when I was 16, I found a job during summer vacation and earned some money by own
+P2	Premise 880 943	At the beginning of the semester, I was told to buy a text book
+P3	Premise 960 1012	I spent most of my salary hanging out with my friend
+P4	Premise 1025 1144	I finally realized that I should learn to make a plan before I spend my money, and that did influence me in my life now
+R1	supports Arg1:P1 Arg2:P4	
+R2	supports Arg1:P2 Arg2:P4	
+R3	supports Arg1:P3 Arg2:P4	
+R4	supports Arg1:P4 Arg2:C1	
+P5	Premise 595 713	when children get a job, they are able to earn money by themselves, instead of getting pocket money from their parents
+R5	supports Arg1:P5 Arg2:C1	
+C2	Claim 1156 1248	by taking a part-time job, they certainly have to be responsible for anything they have done
+A2	Stance C2 For
+P6	Premise 1264 1387	if a student get a job in a company but he is frequently late for work, the company may reduce his payment or even fire him
+P7	Premise 1389 1473	To compare with the school life, they might suffer only a small punishment at school
+P8	Premise 1475 1581	Under the circumstances, he will learn that he has to obey the rule and take responsibility for their work
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	
+C3	Claim 1598 1699	to help their children to adapt adult life, parents should let them experience it as much as they can
+A3	Stance C3 For
+MC2	MajorClaim 1733 1834	to encourage children taking a part-time job is a good choice for them to get prepared for adult life

@@ -1,0 +1,22 @@
+C1	Claim 283 362	learners can obtain more useful knowledge from teachers than from other sources
+A1	Stance C1 Against
+MC1	MajorClaim 386 519	both alternative sources and traditional teaching methods from educators are equally important in children's acquisition of knowledge
+C2	Claim 1313 1357	technologies are vital in students' learning
+A2	Stance C2 For
+P1	Premise 543 660	the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge
+P2	Premise 662 846	Computers can be programmed to provide an endless numbers of questions in diverse range of fields, and as the students answer these questions, the facts has been learned and reinforced
+P3	Premise 848 990	A case in point is the reading and listening parts of TOEFL iBT exams, as candidates have to answer many questions in a limited period of time
+P4	Premise 1002 1165	when students have some academic problems, they can post those to some websites and receive correct answers from unknown people in faraway places without any costs
+P5	Premise 1176 1305	in the past, conducting a research require long hours of searching in library shelves, now all can be done at a click of a button
+C3	Claim 1709 1759	formal education approaches are also indispensable
+A3	Stance C3 For
+P6	Premise 1378 1506	schools and university are places in which students gather to be educated and learn from each others as well as formal educators
+P7	Premise 1508 1696	At schools, students' development has been orchestrated stage by stage, step by step by experienced teachers, and their acquisition of knowledge is guided and backed up in a systematic way
+MC2	MajorClaim 1813 1926	alternative sources information and traditional education systems are equally important in children's development
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P7 Arg2:C3	
+R7	supports Arg1:P6 Arg2:C3	

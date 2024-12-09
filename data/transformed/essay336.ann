@@ -1,0 +1,17 @@
+MC1	MajorClaim 1501 1591	parents should be more worried about their children's attitudes to the 'cult of celebrity'
+C1	Claim 799 849	children may see that this behavior is inexcusable
+A1	Stance C1 Against
+P1	Premise 686 786	celebrities who received attention for overuse of drugs or alcohol are likely to get public disgrace
+P2	Premise 575 668	Celebrity scandals and gossips can quickly reach the public which perceive it very negatively
+C2	Claim 870 998	too much news coverage to famous people seems to have a negative influence on the choice of children of their future professions
+A2	Stance C2 For
+P3	Premise 1000 1151	As recent surveys showed, inspired by the fame and wealth, children now prefer more to become an actor/actress or a sports star than it was in the past
+P4	Premise 1153 1332	Many schools for preparation of so-called stars and various advertisements about famous people may mislead with the fact that this profession is highly required and easy reachable
+P5	Premise 1334 1484	This may confuse children who should not choose their future job because of the influence of the mass media, but from the basis of their own interests
+R1	supports Arg1:P3 Arg2:C2	
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P5 Arg2:C2	
+P6	Premise 461 573	Fame is a great responsibility for public people as their admirers are very sensitive to any acts of their idols
+R4	supports Arg1:P1 Arg2:C1	
+R5	supports Arg1:P2 Arg2:C1	
+R6	supports Arg1:P6 Arg2:C1	

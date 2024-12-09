@@ -1,0 +1,144 @@
+{
+    "MajorClaims": {
+        "MC1": "government should pay attention on basic needs of people first",
+        "MC2": "government should spend money on basic people needs"
+    },
+    "Claims": {
+        "C1": "government should invest to create more jobs",
+        "C2": "government should invest in alternative energy such as using solar energy instead of coal energy",
+        "C3": "government should create campaign to fill love to family",
+        "C4": "These three issues are the most important basic needs of people in my opinion that government should pay attention on to improve quality life of people"
+    },
+    "Premises": {
+        "P1": "When people have jobs, they did not have to steal money",
+        "P2": "criminal rate were drop",
+        "P3": "people have a good quality life",
+        "P4": "quality of life were dropping and this make people unhappy",
+        "P5": "There were increasing in criminal rate in many cities",
+        "P6": "When people did not have money, They had to rob other people",
+        "P7": "after great economic recession, many people in many countries were unemployed",
+        "P8": "industrial in many countries still emit high intense of carbon dioxide, which caused of greenhouse effect",
+        "P9": "Greenhouse effect causes of climate change",
+        "P10": "These impact on every living creature in the world",
+        "P11": "government take care of this issue by declare regulate to control emission of carbon dioxide",
+        "P12": "If we lived in good environment, our life would be better",
+        "P13": "environment is also important issue that everyone depend on it",
+        "P14": "setting event once a week to gather everyone in family to spend time with each other",
+        "P15": "When family understand each other, it mean society and a nation will not have much trouble",
+        "P16": "family is a root of society",
+        "P17": "If everyone in family did not have time to spend with each other, that family could have problems, If family had problems, it mean society could have problems",
+        "P18": "When society had problems, it could impact to a nation"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P16",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P17",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P18",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

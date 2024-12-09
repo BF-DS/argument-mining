@@ -1,0 +1,48 @@
+{
+    "MajorClaims": {
+        "MC1": "there should not be any room for partiality in terms of gender while allocating seats for students in every university courses",
+        "MC2": "every student either male or female should be given fairly equal opportunity to purse their education in all university subjects, provided they should meet the required qualifications rather than putting limitations based on their gender"
+    },
+    "Claims": {
+        "C1": "judging student's skills and abilities should only be based on their academic qualifications and talents rather than gender in particular",
+        "C2": "female students are highly interested in learning courses such as mechanical engineering which demands physical activities in their lab workshops, unlike previous generation females"
+    },
+    "Premises": {
+        "P1": "both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education",
+        "P2": "In India, for example, female students are more often likely to grab more number of top scorer positions in every year higher secondary school examinations",
+        "P3": "due to increasing exposure on current affairs and knowledge on cutting-edge technological developments, female graduates are more willing to take huge responsibilities in their workplace, despite its intensive stress and pressure",
+        "P4": "Chanda Kochhar, who is the CEO of India's second largest bank called ICICI bank and prominently awarded as the country's most powerful female head in business sector"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

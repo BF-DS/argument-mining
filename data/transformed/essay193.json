@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "Using public transportation has a lot of advantages for the modern society facing a lot of problems: the environmental population, the isolation in life, the depletion of natural resources",
+        "MC2": "The development of public transportation is the most essential thing for a developed society"
+    },
+    "Claims": {
+        "C1": "The use of public transportation is the best way to conserve natural resources gradually run out",
+        "C2": "The use of public transportation helps in reducing the air pollution",
+        "C3": "The use of public transportation make us live more sociable",
+        "C4": "Public transportation keeps society from the depletion of natural resources, the air pollution, the loss of a sense of community"
+    },
+    "Premises": {
+        "P1": "Cars depend on oil and gasoline to move",
+        "P2": "If people use too many private cars, the oil and gasoline nonrenewable will run out quickly",
+        "P3": "Instead of using many private cars, people can use public transportation, such as bus, train, subway, each one can get far more people and less oil and gasoline are used up per person",
+        "P4": "Cars use oil and gasoline and send out gas such as carbon dioxide, heat and so on",
+        "P5": "They cause pollution and make the Earth warmer",
+        "P6": "The more cars are driven, the more pollution will be put into air",
+        "P7": "If we use the public transportation, less cars will be used and less pollution will be emitted",
+        "P8": "The atmosphere, surrounding us, will be protected and help us more healthy",
+        "P9": "When we drive a private car, we are alone or only our family members that we already know and lost the opportunity to make friends with others or to see that we are a part of this society",
+        "P10": "When using public transportation, we have a chance to meet more people and more chances to discovery new aspects of life"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

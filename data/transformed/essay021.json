@@ -1,0 +1,108 @@
+{
+    "MajorClaims": {
+        "MC1": "advertising is the major reason for high sales of a product",
+        "MC2": "high sales are obviously a reflection of the powerful advertisements"
+    },
+    "Claims": {
+        "C1": "The most effective way to convince consumers to purchase a product is through advertising",
+        "C2": "advertisers push the limits of creativity to dispose the consumers to purchase the product",
+        "C3": "Advertisement is the most effective way to create a well-known product",
+        "C4": "They make the product preferable"
+    },
+    "Premises": {
+        "P1": "it is not sufficient in itself",
+        "P2": "The product also should satisfy the needs of the consumers",
+        "P3": "We are mainly introduced to products through advertisements",
+        "P4": "When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases",
+        "P5": "Recently, there is a very creative advertisements of a soft drink product on TV",
+        "P6": "The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot",
+        "P7": "the number of that product being sold will increases",
+        "P8": "the more an advertisement of a product takes place in mass media, the more popular the product becomes",
+        "P9": "Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product",
+        "P10": "When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is",
+        "P11": "it also has to be affordable for the consumer",
+        "P12": "advertisements have undeniable affects on the society about the product being advertised"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "attacks",
+            "target": "P10"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

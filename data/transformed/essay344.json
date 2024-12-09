@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "in this occasion the government is not granted to hand in",
+        "MC2": "government cannot take steps to make the salary between modern artists and other job similar"
+    },
+    "Claims": {
+        "C1": "art price is about taste",
+        "C2": "Proficiency brings perfectness in terms of art work",
+        "C3": "government cannot equalize the price of creation of modern artist",
+        "C4": "the huge sums of modern artists receives related to their struggle in the field of art, while the term of struggle might different with other field of job"
+    },
+    "Premises": {
+        "P1": "the modern artists who implement their creative thinking onto high value creation are paid with immense sum by the art collector",
+        "P2": "the high sum which modern artists receive is related to the quality instead of the quantity and their rare talent",
+        "P3": "a 15 centimeter Buddha temple made by hand is granted times in comparison with factory production",
+        "P4": "modern artists also devote themselves find a unique concept in which ordinary people cannot do, such making impossible become possible",
+        "P5": "Pieter Padang, Minion creator, has brilliant idea to alter part of song lyric \"I swear\" become \"underwear\" when the Minion sing in Despicable Me",
+        "P6": "He granted huge sums for such idea",
+        "P7": "the musician re-plays the song without any creation",
+        "P8": "a musician playing \"I swear\" several times receives different earnings that Padang got",
+        "P9": "there is no certain parameter to value it",
+        "P10": "art value is about taste",
+        "P11": "labor working in the merchandise factory receive coin of dollar even they make a hundred of 15 cm Buddha temples a day"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

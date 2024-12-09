@@ -1,0 +1,44 @@
+MC1	MajorClaim 389 486	I completely disagree with this statement that we should replace normal course with online course
+C1	Claim 115 155	it should not replace classroom learning
+A1	Stance C1 For
+P1	Premise 157 218	Learning in classroom could provide more information to study
+P2	Premise 229 373	learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+P3	Premise 675 735	in classroom have many equipment to demonstrate real example
+P4	Premise 750 820	in biology class, learning anatomy by operating fog have many benefits
+P5	Premise 822 887	Learner could learn how to use tools and see actual organs of fog
+P6	Premise 907 974	online class just only study in textbook not learnin real situation
+C2	Claim 546 665	learning in classroom could provide more information and make students more comprehend in subjects that they had learnt
+A2	Stance C2 For
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+C3	Claim 986 1046	online class could not provide knowledge about social skills
+A3	Stance C3 For
+P7	Premise 1245 1300	This important skill cannot be gotten in online classes
+P8	Premise 1062 1137	In a classroom, teacher could give assignment to student to work as a group
+P9	Premise 1139 1243	This could help students to learn how to deal with people, how to collaborate with people in their group
+R8	supports Arg1:P8 Arg2:C3	
+R10	supports Arg1:P9 Arg2:C3	
+P10	Premise 1375 1450	in school can provide exercise class which train student to move their body
+P11	Premise 1452 1519	Classroom have specialist trainer to teach students to it right way
+P12	Premise 1521 1582	If student do it by themselves, they might be hurt themselves
+P13	Premise 1584 1656	This make students have healthier life which online class cannot provide
+C4	Claim 1310 1366	learning in classroom, student could have healthier life
+A6	Stance C4 For
+R13	supports Arg1:P10 Arg2:C4	
+MC2	MajorClaim 1674 1763	I personally disagree this this notion that we should replace classroom with online class
+C5	Claim 2039 2097	having classroom could provide abundant skills to students
+A7	Stance C5 For
+P14	Premise 1774 1867	classroom could provide real actual example to make students more understand in their subject
+P15	Premise 1878 1943	classroom courses are also provide students to learn social skill
+P16	Premise 1955 2031	classroom could provide exercise class to set students to have a good health
+R19	supports Arg1:P16 Arg2:C5	
+R20	supports Arg1:P15 Arg2:C5	
+R21	supports Arg1:P14 Arg2:C5	
+R7	supports Arg1:P7 Arg2:C3	
+R9	supports Arg1:P11 Arg2:C4	
+R11	supports Arg1:P12 Arg2:C4	
+R12	supports Arg1:P13 Arg2:C4	

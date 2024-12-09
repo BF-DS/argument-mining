@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "I prefer to live in bigger cities than in small ones",
+        "MC2": "I prefer to live in a big city"
+    },
+    "Claims": {
+        "C1": "living in a dynamic environment can turn into a very rich experience that sharpens one's personality and open one's eyes on the real world",
+        "C2": "the facilitates and services it contains which support and improve the quality of its inhabitants' lives, hospitals, advanced medical facilities can satisfy one's need of medical safety",
+        "C3": "Cultural events such as exhibitions and theatre plays can enrich one's and widen his horizons, things which aren't offered by small towns",
+        "C4": "big cities offer more opportunities for one's career advancements and a more chances of higher income that small towns does",
+        "C5": "I would love to spend some days in countryside to recharge my soul and relieve myself from daily stress"
+    },
+    "Premises": {
+        "P1": "Life in big cities cities gives one new challenges every day, let it be deciding which restaurant to go to or deciding which company to work for",
+        "P2": "For me, this lifestyles is very attractive and is considered a huge advantage of big cities compared with the constant, slow paced life styles of small towns",
+        "P3": "higher income can be the basis of a happier, healthier life",
+        "P4": "economic power of a country is driven by it's big cities and the majority of wealth and finance is centered and controlled in big cities"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        }
+    ]
+}

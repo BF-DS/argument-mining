@@ -1,0 +1,40 @@
+MC1	MajorClaim 2059 2101	dependence on computers is not a bad thing
+C1	Claim 1996 2047	computers have provided security and sophistication
+A1	Stance C1 For
+MC2	MajorClaim 244 342	The whole world is dependent on computers, without which, the world will go back hundreds of years
+C2	Claim 801 945	Computers provide speed, increase efficiency, accuracy, precision, help to increase productivity and other countless benefits are provided by it
+A2	Stance C2 For
+C3	Claim 957 1002	future prospects of computers are very bright
+A3	Stance C3 For
+C4	Claim 1344 1385	Computers have made humans over-dependent
+A4	Stance C4 Against
+P1	Premise 344 394	In the modern world, computers are used everywhere
+P2	Premise 396 470	Right from flying planes to sending a small document, computers are needed
+P3	Premise 472 539	They are used in space programs, wars, hospitals, schools and so on
+P4	Premise 541 612	Computers have made human life more easy, convenient and lightning fast
+P5	Premise 627 724	in earlier days, if one had to send a message to someone in other country, it used to take months
+P6	Premise 730 799	today, it can be sent in few minutes by typing a email and few clicks
+P7	Premise 1004 1085	From a computer as big as a room, it has now been minimized to the size of a palm
+P8	Premise 1087 1165	Nanotechnology is working to make computers to the order of microscopic levels
+P9	Premise 1167 1256	Research on making computerized drone soldiers (unmanned computer controlled) is going on
+P10	Premise 1258 1303	There is no end to the evolution of computers
+P11	Premise 1387 1541	Virus programs, privacy breach, leak of confidential documents, cyber attacks, identity theft, frauds etc. are some of its demerits, from a countless list
+P12	Premise 1543 1588	Computers expose children to vulgar materials
+P13	Premise 1590 1738	They have even invaded mental health of humans, for example, FAD (Facebook Addiction Disorder - excessive use of social networking website Facebook)
+P14	Premise 1740 1847	Computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives
+P15	Premise 1849 1947	The recent case of Wikileaks, leaking confidential data is an example of how computers are harmful
+R1	supports Arg1:P5 Arg2:P4	
+R2	supports Arg1:P6 Arg2:P4	
+R3	supports Arg1:P1 Arg2:C2	
+R4	supports Arg1:P2 Arg2:C2	
+R5	supports Arg1:P3 Arg2:C2	
+R6	supports Arg1:P4 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P9 Arg2:C3	
+R10	supports Arg1:P10 Arg2:C3	
+R11	supports Arg1:P11 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C4	
+R13	supports Arg1:P13 Arg2:C4	
+R14	supports Arg1:P14 Arg2:C4	
+R15	supports Arg1:P15 Arg2:C4	

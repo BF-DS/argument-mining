@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "TV programs are among the popular topics in every day talk as well as a great time for gathering",
+        "MC2": "TV helps you to get connected with people"
+    },
+    "Claims": {
+        "C1": "Modern TV has smart system that let you be connected with people",
+        "C2": "watching TV take a lot of your day",
+        "C3": "people like having meals while they are watching TV",
+        "C4": "Families usually tend to watch television either with each other or friends",
+        "C5": "we can communicate with each other through TV",
+        "C6": "TV may take some of your time away from your family and friends",
+        "C7": "it can also make family get together and help to get in conversation",
+        "C8": "it's one way of recent communications"
+    },
+    "Premises": {
+        "P1": "it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs",
+        "P2": "my friends and I used to sit together and enjoy watching movies using VHS player at nights",
+        "P3": "It was fun and a little bit similar to the cinema",
+        "P4": "TV can be one of communication ways",
+        "P5": "TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps",
+        "P6": "Teenagers can play games online with their friends"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "C6",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C7",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C8",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

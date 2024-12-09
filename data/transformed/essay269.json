@@ -1,0 +1,83 @@
+{
+    "MajorClaims": {
+        "MC1": "I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school"
+    },
+    "Claims": {
+        "C1": "Relating well to people can bring plenty of merits to future job",
+        "C2": "make a good relationship with them",
+        "C3": "if a low-level employee desire to enhance his position, it's fairly important to have a good relationship with their boss",
+        "C4": "good specify knowledge is more crucial for future job"
+    },
+    "Premises": {
+        "P1": "friends is a treasure with respect to either our daylife or our career",
+        "P2": "Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions",
+        "P3": "If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them",
+        "P4": "no matter who you are a top-level managers of a company or a low-level employee of that company, relating well to people is also a importent issue",
+        "P5": "only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position",
+        "P6": "Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job",
+        "P7": "majority of people would choose the former",
+        "P8": "it has more chance than the latter in terms of getting good jobs in the future"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

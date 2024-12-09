@@ -1,0 +1,126 @@
+{
+    "MajorClaims": {
+        "MC1": "it is very important to live life at a slower pace",
+        "MC2": "living a slower life is advantageous for your health, your happiness and even the quality of your work"
+    },
+    "Claims": {
+        "C1": "living in a hurry comes along with several disadvantages",
+        "C2": "living your life on the fast lane is very stressful and can affect your health",
+        "C3": "living your life at a slower pace increases your happiness",
+        "C4": "you might make mistakes, you would not have done with more patience"
+    },
+    "Premises": {
+        "P1": "If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle",
+        "P2": "Many hardworking people have diseases, like the burn-out syndrome",
+        "P3": "their bodies cannot hold the pace",
+        "P4": "my father had a a breakdown several years ago due to his stressful job",
+        "P5": "After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine",
+        "P6": "If you are always facing excessive stress you cannot care for your beloved's",
+        "P7": "If you do not hurry yourself you can take more time for your family and friends",
+        "P8": "Caring for your social environment will increase your happiness and also reduce your stress level",
+        "P9": "a friend of mine lives at a slow pace and is really satisfied about it",
+        "P10": "he can enjoy his family and cultivate his friendships",
+        "P11": "When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes",
+        "P12": "Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities",
+        "P13": "quality takes time",
+        "P14": "I once wrote an essay in a hurry and got a bad grade",
+        "P15": "I made few mistakes I could have avoided"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "P14"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

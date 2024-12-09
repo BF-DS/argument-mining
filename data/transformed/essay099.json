@@ -1,0 +1,89 @@
+{
+    "MajorClaims": {
+        "MC1": "I would agree to idea of taking a break before starting higher education"
+    },
+    "Claims": {
+        "C1": "Students who take break, gain lot of benefits by traveling around the places or by working",
+        "C2": "Experience gained through traveling to different places, meeting different people and even at job goes long way",
+        "C3": "Taking a break not just has benefits but it also comes with some negative impacts"
+    },
+    "Premises": {
+        "P1": "They tend to contribute more due to their real world experiences which makes them more mature",
+        "P2": "It not only enhances the confidence of a student but also makes them independent",
+        "P3": "Student's who works tend to gather better financial resources which they can rely on during their university studies",
+        "P4": "This experience also makes them aware of what they would like to make of their life",
+        "P5": "They develop broader view and can make a better choice of their future studies or courses",
+        "P6": "They might even find it difficult to adapt to education environment",
+        "P7": "There is also a risk of student never going back to university or higher education",
+        "P8": "Probably some might take some short term courses instead of proper and complete university education, which will help them to get a better job and salaries",
+        "P9": "This might only help them in a short run as it is a known fact that to make a reasonable career in longer runs, one needs a proper and higher qualification",
+        "P10": "Once student's starts earning, they might not like to go back to studies where they would lose their financial independence"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

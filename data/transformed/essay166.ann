@@ -1,0 +1,38 @@
+MC1	MajorClaim 270 302	I would prefer to live in a city
+C1	Claim 203 260	I am eager to get a good job and explore different places
+A1	Stance C1 For
+C2	Claim 511 572	a big city can offer me many more vacancies than a small town
+A2	Stance C2 For
+P1	Premise 304 345	Big city life provides many opportunities
+P2	Premise 361 424	it will be easier for me to find an engineering job in the city
+P3	Premise 426 498	Electrical engineering deals with problems concerning electricity supply
+P4	Premise 650 727	There are numerous bars, cafes and restaurants where I can go with my friends
+P5	Premise 729 799	Multinational cities have restaurants with different national cuisines
+P6	Premise 801 905	I am fond of Italian food, and if there is an Italian restaurant in the city, I will definitely visit it
+C3	Claim 574 648	At the weekends, there is a great number of things to do in the metropolis
+A3	Stance C3 For
+R1	supports Arg1:P4 Arg2:C3	
+R2	supports Arg1:P5 Arg2:C3	
+R3	supports Arg1:P6 Arg2:C3	
+R4	supports Arg1:P1 Arg2:C2	
+R5	supports Arg1:P2 Arg2:C2	
+R6	supports Arg1:P3 Arg2:C2	
+C4	Claim 1050 1109	Cultural life of a metropolis is always an entertaining one
+A4	Stance C4 For
+P7	Premise 907 969	A night club is an interesting place to visit for young people
+P8	Premise 971 1048	There a person can listen to music, make new friends or enjoy a a drink alone
+R7	supports Arg1:P8 Arg2:C4	
+R8	supports Arg1:P7 Arg2:C4	
+P9	Premise 1111 1249	I am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings, sculptures or artifacts
+P10	Premise 1251 1355	On special dates, city offers free exhibitions which are available for everyone who is interested in art
+R9	supports Arg1:P9 Arg2:C4	
+R10	supports Arg1:P10 Arg2:C4	
+C5	Claim 1370 1431	cities have better medical facilities than in the countryside
+A5	Stance C5 For
+P11	Premise 1433 1517	This can at least assure me that if I feel bad, city can provide a high quality help
+R11	supports Arg1:P11 Arg2:C5	
+C6	Claim 1535 1589	while small towns have picturesque nature and pure air
+A6	Stance C6 Against
+C7	Claim 1591 1666	big cities offer countless amount of opportunities and entertainment places
+A7	Stance C7 For
+MC2	MajorClaim 1698 1734	I would choose to live in a big city

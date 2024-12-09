@@ -1,0 +1,138 @@
+{
+    "MajorClaims": {
+        "MC1": "children should learn music and art in a young age",
+        "MC2": "young age is the perfect time for children to learn music and art"
+    },
+    "Claims": {
+        "C1": "they do contribute several merits to them",
+        "C2": "Music and art can accompany a spirit as long as they are given the chance to enter his/her life",
+        "C3": "it's very suitable for children to develop senses of music and art when they are young",
+        "C4": "even if children are not going to be great musicians or artists, learning music and art is still worthy",
+        "C5": "parents shouldn't put so much stress on children",
+        "C6": "they are indeed valuable to people not only in their young stage, but in every stage"
+    },
+    "Premises": {
+        "P1": "they are given more freedom and their imagination has not yet been killed due to reality circumstances",
+        "P2": "Children are privileged to have these abilities",
+        "P3": "Children absorb things quickly and they bear exact the ability needed in music and art-imagination",
+        "P4": "Music and art are not like math or language which has more strict rules",
+        "P5": "They are more abstract, requiring creativity and imagination to be enriched",
+        "P6": "Even if their performances are just some simple drawings and melodies, music and art still bring out children's joy of flying in imagination",
+        "P7": "music and art are life-long cultivation worthy of investing",
+        "P8": "They teach us how to appreciate beauty and express feelings in a creative way",
+        "P9": "They are essential to our spiritual life",
+        "P10": "it can nourish your temper and serve as a leisure",
+        "P11": "learning too many skills seems to be a burden for them",
+        "P12": "it depends on how you value these learning activities to be like",
+        "P13": "If parents push their 5 years old child to play piano 8 hours a day just like a professional performer, that might be too much",
+        "P14": "In a child stage, music and art are more like an open door to introduce the art world than training area to acquire specific skills",
+        "P15": "it will not be such pressure on children"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C6",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P12",
+            "Relation": "attacks",
+            "target": "C5"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "P12"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "P15"
+        },
+        {
+            "start": "P15",
+            "Relation": "attacks",
+            "target": "C5"
+        }
+    ]
+}

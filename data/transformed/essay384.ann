@@ -1,0 +1,20 @@
+MC1	MajorClaim 306 491	governments should definitely reduce violent components to the minimum in kidvids, while such contents remain in the TV shows that for mature minds to watch would be entirely reasonable
+MC2	MajorClaim 1800 1908	violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency
+P1	Premise 506 615	reducing the proportion of violent content in TV shows could, to some degree, decrease the overall crime rate
+P2	Premise 676 774	governments must first prohibit any types of violent content in all children’s television programs
+P3	Premise 776 874	As a result of mental immaturity, most youngsters are incapable of distinguishing right from wrong
+P4	Premise 902 1046	by watching these violent TV programs and videos, juveniles will become very aggressive and offensive and have a great tendency to commit crimes
+C1	Claim 1059 1216	it would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal TV Shows and movies
+A1	Stance C1 For
+R3	supports Arg1:P1 Arg2:C1	
+R6	supports Arg1:P3 Arg2:C1	
+R7	supports Arg1:P4 Arg2:C1	
+P5	Premise 1420 1500	adults watch horror video or war movies for relaxing themselves after a busy day
+P6	Premise 1502 1581	For whom, such media sources are mere materials of relaxation and entertainment
+P7	Premise 1583 1761	Considering that these mature minds are capable of being responsible for their own behaviors, they certainly have the right to watch TV shows or movies that are appealing to them
+C2	Claim 1232 1406	it would certainly be a violation of adults’ civil liberties, if governments implement such a restricted regulation on these TV shows or movies that only for mature audiences
+A3	Stance C2 Against
+R8	supports Arg1:P5 Arg2:C2	
+R9	supports Arg1:P6 Arg2:C2	
+R10	supports Arg1:P7 Arg2:C2	
+R1	supports Arg1:P2 Arg2:C1	

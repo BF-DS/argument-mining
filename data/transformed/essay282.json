@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways",
+        "MC2": "listening to music, exercising, and doing meditation are the most activities that people could do to escape from stress"
+    },
+    "Claims": {
+        "C1": "listening to music is a great way to relax",
+        "C2": "another way that is perfectly work for everyone to reduce the stress is exercise",
+        "C3": "meditation also one of the ways to reduce the stress",
+        "C4": "It is are easy and usable",
+        "C5": "And everyone should find the time to do more and more to feel better physically and in everyone mind"
+    },
+    "Premises": {
+        "P1": "I always listen music from my mp3 player",
+        "P2": "I could enjoy listening music without thinking of people around me",
+        "P3": "I feel happy when I listen music",
+        "P4": "after work, I always do exercise, and jogging is my favorite sport",
+        "P5": "I feel that after working out, I am easily to fall asleep",
+        "P6": "Exercising not only reduce my stress but also make me get a good health",
+        "P7": "Meditation is easy way to relax",
+        "P8": "it is not require any equipment, and it take few minutes",
+        "P9": "A way to do meditation is that I just sit down, close my eyes, and count my breath",
+        "P10": "These could relieve me from stress"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

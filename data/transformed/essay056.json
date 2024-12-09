@@ -1,0 +1,90 @@
+{
+    "MajorClaims": {
+        "MC1": "it's a reasonable loss in globalization",
+        "MC2": "I'm totally convinced that the prevalent usage of English brings benefits to people and countries all around"
+    },
+    "Claims": {
+        "C1": "No one can deny the huge benefits of the trend that English is being accepted universally",
+        "C2": "the culture heritage and nation identity vanish"
+    },
+    "Premises": {
+        "P1": "communication between countries and cultures become convenient",
+        "P2": "In my country, English is a required course from elementary school",
+        "P3": "studying abroad is easy and becomes hot among youngsters",
+        "P4": "language obstacle is no longer a problem, which results in mutual understanding and trust between their mother land and the host country",
+        "P5": "enhances relationship and promotes international business",
+        "P6": "researchers, especially those who work on high-tech, would have wider range of references if they are good at English",
+        "P7": "Taking IT industry for an example, top technical science is published in English",
+        "P8": "It's neither to get a translated version of these articles, nor to always have a translator besides",
+        "P9": "they have no choice but choosing English as a second language",
+        "P10": "English is making lesser-known languages disappear ever year",
+        "P11": "this is really short-sighted, ignoring the rapid development of native economy and society"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P11",
+            "Relation": "attacks",
+            "target": "C2"
+        }
+    ]
+}

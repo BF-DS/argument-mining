@@ -1,0 +1,20 @@
+MC1	MajorClaim 91 191	it is time for the government to take action to control the proliferation of violent scenes in media
+MC2	MajorClaim 1378 1490	What the government should do immediately is to strengthen censorship to control the amount of violence in media
+C1	Claim 1308 1376	our society is occupied with the violent scenes and plots at present
+A1	Stance C1 For
+C2	Claim 299 549	This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes
+A2	Stance C2 For
+C3	Claim 890 1012	excessive violence would offer misleading information to the public and exert detrimental influence to the society as well
+A3	Stance C3 For
+P1	Premise 553 607	they regard the violence as reasonable and justifiable
+P2	Premise 628 730	media, such as TV or film, is considered as the correct information source regulated by the government
+P3	Premise 732 800	It should be reporting and reflecting true phenomenon in the society
+P4	Premise 802 879	Violence, as one of the facts in the real world, certainly has to be reported
+P5	Premise 1014 1164	It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy
+P6	Premise 1166 1286	In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P3 Arg2:P4	
+R3	supports Arg1:P2 Arg2:P4	
+R4	attacks Arg1:P4 Arg2:C3	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	

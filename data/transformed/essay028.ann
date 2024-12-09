@@ -1,0 +1,26 @@
+MC1	MajorClaim 475 635	Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers
+MC2	MajorClaim 1722 1754	modern society needs advertising
+C1	Claim 1756 1818	Ads will keep us well informed about new products and services
+A1	Stance C1 For
+C2	Claim 1857 1943	advertising cigarettes and alcohol will definitely affect our children in negative way
+A2	Stance C2 Against
+C3	Claim 678 769	advertising alcohol, cigarettes, goods and services with adult content should be prohibited
+A3	Stance C3 Against
+P1	Premise 778 837	these kind of ads will have negative effect to our children
+P2	Premise 839 942	Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis
+P3	Premise 957 1095	some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries
+R1	supports Arg1:P1 Arg2:C3	
+R2	supports Arg1:P2 Arg2:C3	
+R3	supports Arg1:P3 Arg2:C3	
+C4	Claim 1115 1207	by advertising companies, businesses, firms and individuals promote their goods and services
+A4	Stance C4 For
+P4	Premise 1209 1305	Thanks to ads we learn about new products, we can compare them and choose what’s the best for us
+R4	supports Arg1:P4 Arg2:C4	
+C5	Claim 1307 1393	These days, not only many businesses, but also governments have to rely on advertising
+A5	Stance C5 For
+P5	Premise 1408 1466	tourism makes up one-third of the Czech Republic's economy
+P6	Premise 1468 1595	In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers
+P7	Premise 1597 1692	Only well planned and well targeted advertising will bring more foreign tourists to the country
+R5	supports Arg1:P5 Arg2:C5	
+R6	supports Arg1:P6 Arg2:C5	
+R7	supports Arg1:P7 Arg2:C5	

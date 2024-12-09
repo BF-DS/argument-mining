@@ -1,0 +1,32 @@
+MC1	MajorClaim 337 381	student have to be forced to study at school
+MC2	MajorClaim 1541 1572	students should study at school
+C1	Claim 1586 1643	there are some advantages of leaving school to find a job
+A1	Stance C1 Against
+P1	Premise 1645 1711	studying at school is always the best choice for children's future
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 1713 1820	There are many ways that can train children to learn independent and social skills instead of getting a job
+R2	attacks Arg1:P2 Arg2:C1	
+C2	Claim 837 914	they have more opprotunities to find a job and to be successful in the future
+A2	Stance C2 For
+P3	Premise 941 1027	employer always prefer to hire an employee of high degree who have professional skills
+R3	supports Arg1:P3 Arg2:C2	
+P4	Premise 397 508	schools offer to students a good environment with experienced professors and high quality programs for studying
+P5	Premise 680 734	schools provide lots of academic knowledge to students
+P6	Premise 736 824	Students may learn professional skills, expand their understandings and gain experiences
+P7	Premise 510 663	It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things
+R4	supports Arg1:P7 Arg2:P4	
+R5	supports Arg1:P6 Arg2:P5	
+R6	supports Arg1:P4 Arg2:C2	
+R7	supports Arg1:P5 Arg2:C2	
+C3	Claim 1094 1151	children should interrupt their school work and get a job
+A3	Stance C3 Against
+P8	Premise 1153 1195	Whether children can learn a lot at school
+P9	Premise 1197 1271	there are many subjects that will be of little value to them in the future
+R8	attacks Arg1:P8 Arg2:P9	
+R9	supports Arg1:P9 Arg2:C3	
+P10	Premise 1286 1339	children can learn social skills when they have a job
+P11	Premise 1341 1405	They can get more experiences that can not be obtained at school
+P12	Premise 1407 1515	Working helps children be more independent and teach them to esteem and manage the money that they've earned
+R10	supports Arg1:P10 Arg2:C3	
+R11	supports Arg1:P12 Arg2:C3	
+R12	supports Arg1:P11 Arg2:C3	

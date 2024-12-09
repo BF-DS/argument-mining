@@ -1,0 +1,89 @@
+{
+    "MajorClaims": {
+        "MC1": "learning about life through personal experience seems more appropriate"
+    },
+    "Claims": {
+        "C1": "the way of learning life through listening to the advice of family and friends is more realistic than the latter",
+        "C2": "finding out life through personal experience can help you become more independent and mature",
+        "C3": "experiencing the real life by myself, I could learn more than just obey the advice"
+    },
+    "Premises": {
+        "P1": "Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life",
+        "P2": "And friends, people who are the same generation with you, they are understand your favorite and ability enough to tell you which is suitable for you, which is not",
+        "P3": "By listening to your family and friends advice, you can definitely avoid many unexpected things",
+        "P4": "there are so many grate things that you can missed if you don't experience it by yourself",
+        "P5": "a friend told you not to try skydiving because it was so dangerous",
+        "P6": "If you did as he told, you could fail to see how wonderful it is to be fall freely",
+        "P7": "family and friends accidentally harm you by giving you advice all the time",
+        "P8": "You will grow to be dependent and reliant",
+        "P9": "free yourself and do what you desire without notice about consequences is the way that success people would like to choose",
+        "P10": "growth is a long process that experience is indispensable"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

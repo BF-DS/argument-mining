@@ -1,0 +1,24 @@
+MC1	MajorClaim 431 470	international aid should be prioritised
+MC2	MajorClaim 1593 1722	people from unfortunate countries need more international assistance while helping citizens in the home country is also necessary
+C1	Claim 472 501	International aid is critical
+A1	Stance C1 For
+P1	Premise 580 668	Many people, for example in some African countries, are living below the basic standards
+P2	Premise 670 759	They lack food, water or clothes which keep them warm, not to mention the education needs
+P3	Premise 761 974	What is worse, people who live in countries that are confronted with wars or natural disasters are facing even more severe issues such as security, homelessness or the pain of losing best friends or family members
+P4	Premise 993 1052	those people are in desperate need of international support
+R1	supports Arg1:P1 Arg2:C1	
+R4	supports Arg1:P2 Arg2:C1	
+R5	supports Arg1:P3 Arg2:C1	
+P5	Premise 1255 1343	there is a high demand that the money should be spent in the place where it is collected
+P6	Premise 1190 1249	charity organisations are mainly funded by the home country
+R8	supports Arg1:P6 Arg2:P5	
+P7	Premise 1369 1465	even within the most developed countries, there are still poor people who lack their basic needs
+P8	Premise 1467 1576	By solving the problems in the home country, it is beneficial for social stability and steady economic growth
+C2	Claim 1123 1177	it is reasonable to lend a hand to our fellow citizens
+A4	Stance C2 For
+R9	supports Arg1:P5 Arg2:C2	
+R10	supports Arg1:P7 Arg2:C2	
+R11	supports Arg1:P8 Arg2:C2	
+P9	Premise 510 578	people from other countries may be facing much more serious problems
+R2	supports Arg1:P9 Arg2:C1	
+R3	supports Arg1:P4 Arg2:C1	

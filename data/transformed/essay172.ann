@@ -1,0 +1,42 @@
+MC1	MajorClaim 309 406	I would prefer to live in an apartment in the community rather than in the university dormitories
+MC2	MajorClaim 2142 2222	the advantages of living in an apartment outshine those of living in a dormitory
+C1	Claim 415 472	an apartment provides a lot more freedom than a dormitory
+A1	Stance C1 For
+P1	Premise 474 565	While in a dormitory you have to obey preset rules, in the apartment you set your own rules
+P2	Premise 567 638	You are free to have visits at any time or to be left alone if you want
+P3	Premise 640 672	An apartment offers more privacy
+P4	Premise 681 757	you can choose to have your own room instead of sharing with another student
+P5	Premise 795 848	you also get more space than you would in a dormitory	
+C2	Claim 914 944	an apartment is more expensive
+A2	Stance C2 Against
+P6	Premise 975 1070	you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper
+P7	Premise 1072 1162	Transportation is another issue, you have to go to and return from the university everyday
+P8	Premise 1164 1245	You could choose to use public transportation, a cheaper option, or to have a car	
+P9	Premise 1247 1330	The car is an expensive option, but also offers freedom of schedule and destination
+C3	Claim 1340 1390	the studying conditions are better in an apartment
+A3	Stance C3 For
+P10	Premise 1399 1479	you don't have all the noise and distractions that you often have in dormitories
+P11	Premise 1481 1605	A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times
+P12	Premise 1701 1740	you would be able to concentrate better
+P13	Premise 1613 1654	in an apartment you don't have a roommate
+P14	Premise 1656 1683	you won't have this problem
+P15	Premise 1763 1874	you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night
+P16	Premise 1876 1902	You set your own schedules
+P17	Premise 1923 2067	living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them	
+R1	supports Arg1:P4 Arg2:P3	
+R2	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P2 Arg2:C1	
+R4	supports Arg1:P3 Arg2:C1	
+R5	supports Arg1:P5 Arg2:C1	
+R6	attacks Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	
+R10	supports Arg1:P13 Arg2:P14	
+R11	supports Arg1:P14 Arg2:P12	
+R12	supports Arg1:P12 Arg2:C3	
+R13	supports Arg1:P11 Arg2:C3	
+R14	supports Arg1:P10 Arg2:C3	
+R15	supports Arg1:P15 Arg2:C3	
+R16	supports Arg1:P16 Arg2:C3	
+R17	attacks Arg1:P17 Arg2:C3	

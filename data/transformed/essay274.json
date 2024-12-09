@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "you should focus on what you are good at",
+        "MC2": "doing what you can already do well helps you make a big accomplishment and do it much better"
+    },
+    "Claims": {
+        "C1": "you will be more likely to accomplish your purpose by concentrating on what you do well",
+        "C2": "by doing what you are good at, you will be better at it"
+    },
+    "Premises": {
+        "P1": "the more time you spend on what you do well, the more likely to achieve something great you will be",
+        "P2": "Albert Einstein, one of the most competent physicians in history, devoted most of his life to develop theory in physics and finally established special and general relativity",
+        "P3": "he hardly cared about something else",
+        "P4": "It is said that, surprisingly, he never tried to distinguish a hand soup and a facial soup",
+        "P5": "using two different soups properly was quite annoying",
+        "P6": "Focusing what you are good at helps you attain your goal",
+        "P7": "When you're doing something well, you will feel more satisfied and more interested in it",
+        "P8": "you will motivate yourself to do more",
+        "P9": "I used to be good at math when I was in junior high school",
+        "P10": "I was really satisfied with the fact that I could do preferably",
+        "P11": "I became to absorb myself to try more advanced level of math problems",
+        "P12": "I could not only get higher scores in math test but also solve the university-level problems",
+        "P13": "If you keep doing what you already do well, you can be better good at it"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P12"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C1"
+        }
+    ]
+}

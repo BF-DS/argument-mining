@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "violence in movies has negative effects on youngsters mostly on their behaviors, emotions & study",
+        "MC2": "growing of violence in films have definitely negative effects on youngsters mostly on their study, emotions and behaviors"
+    },
+    "Claims": {
+        "C1": "unexpectedly the violent behavior has effected on child\u2019s behaviors",
+        "C2": "if these scenes are in TV, they would probably have their negative effects on the viewer who could be a child",
+        "C3": "the study of a youngster would affected terribly"
+    },
+    "Premises": {
+        "P1": "In this case, the child would imitate the actor's behaviors in order to look like to him",
+        "P2": "Imagine an actor who is a child\u2019s favorite is doing violent roles",
+        "P3": "Nowadays children are more involved in TV programs",
+        "P4": "children behaviors are the most concerning matter which parents are always trying to do their best",
+        "P5": "killing is worse",
+        "P6": "dying is always a disappointing happening",
+        "P7": "human beings are very sensitive, especially of youngsters",
+        "P8": "it is obvious that he wouldn\u2019t be able to concentrate on his study perfectly",
+        "P9": "he is thinking about the movie or whatever has happened in it",
+        "P10": "he has to study for the exam",
+        "P11": "a child watches a frightening movie",
+        "P12": "the study of youngsters shall always been controlled"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

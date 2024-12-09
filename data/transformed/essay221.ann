@@ -1,0 +1,42 @@
+MC1	MajorClaim 260 298	the zoo is invaluable for human beings
+C1	Claim 300 331	It is very crucial for learning
+A1	Stance C1 For
+C2	Claim 333 367	It helps animals out of extinction
+A2	Stance C2 For
+C3	Claim 375 410	it is a interesting travel location
+A3	Stance C3 For
+C4	Claim 426 460	the zoo gives humans new knowledge
+A4	Stance C4 For
+P1	Premise 583 633	the zoo is the important place for innate learning
+P2	Premise 635 706	The zoo also let students have a chance to learning biology practically
+P3	Premise 708 764	They are able to observe animals' behaviors and features
+P4	Premise 776 842	practical learning help students relax from a boring lecture class
+P5	Premise 853 934	researchers need the zoo to pick up some examples of animals for their researches
+P6	Premise 943 976	it has diverse species of animals
+C5	Claim 988 1068	the zoo preserves a large number of rare animals and provides them safe habitats
+A5	Stance C5 For
+P7	Premise 1070 1117	In the zoo, there is not so harmful as a forest
+P8	Premise 1119 1179	They, fed by zookeepers, do not need to find food themselves
+P9	Premise 1194 1263	we can do artificial insemenation to maintain nearly extinct wildlife
+P10	Premise 1285 1384	because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction
+P11	Premise 1386 1451	There are a lot of tourists who seek to see those animals closely
+P12	Premise 1453 1559	If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money
+C6	Claim 1622 1654	It benefits to a certain country
+A7	Stance C6 For
+P13	Premise 1561 1620	That also make money flow, and then economics become better
+C7	Claim 1672 1784	the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives
+A8	Stance C7 For
+MC2	MajorClaim 1808 1842	the zoo is so useful for the earth
+R1	supports Arg1:P6 Arg2:P5	
+R2	supports Arg1:P1 Arg2:C4	
+R3	supports Arg1:P2 Arg2:C4	
+R4	supports Arg1:P3 Arg2:C4	
+R5	supports Arg1:P4 Arg2:C4	
+R6	supports Arg1:P5 Arg2:C4	
+R7	supports Arg1:P7 Arg2:C5	
+R8	supports Arg1:P8 Arg2:C5	
+R9	supports Arg1:P9 Arg2:C5	
+R10	supports Arg1:P10 Arg2:C6	
+R11	supports Arg1:P11 Arg2:C6	
+R12	supports Arg1:P12 Arg2:C6	
+R13	supports Arg1:P13 Arg2:C6	

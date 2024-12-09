@@ -1,0 +1,36 @@
+MC1	MajorClaim 1780 1840	traditional learning still has many benefits to the students
+C1	Claim 347 382	online classes have many advantages
+A1	Stance C1 Against
+MC2	MajorClaim 392 429	I prefer traditional learning classes
+C2	Claim 458 560	the participant with the others like classmates or professors is still an important factor in studying
+A2	Stance C2 For
+P1	Premise 562 636	Working in group leads to more discussion and more opinion among the class
+P2	Premise 652 753	the discussion class results in expanded children vision and their respect to others roommate's ideas
+P3	Premise 755 850	Unlike the distance learning that children have few opportunities to discuss with their friends
+C3	Claim 860 918	classroom learning provides other activities than studying
+A3	Stance C3 For
+P4	Premise 920 1058	During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library
+P5	Premise 1060 1117	These activities lead to more interact with their friends
+P6	Premise 1119 1170	Connection with friends improves their IQ abilities
+P7	Premise 1185 1234	they have a chance to learn about their societies
+P8	Premise 1242 1297	the online course keeps the children at their home only
+C4	Claim 1307 1399	in school, there are professors that guided you during you had a problem or needed an advice
+A4	Stance C4 For
+P9	Premise 1401 1443	The professor provides good answers to you
+P10	Premise 1445 1528	They do not mind helping you, and they never leave you alone when you got a problem
+P11	Premise 1543 1623	in distance learning, these aspects of the professor had reduced their important
+P12	Premise 1625 1670	The professor has been assigned to teach only
+P13	Premise 1682 1763	there will be a long response from the teachers when children ask them a question
+R1	supports Arg1:P1 Arg2:P2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C3	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P9 Arg2:C4	
+R10	supports Arg1:P10 Arg2:C4	
+R11	supports Arg1:P11 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C4	
+R13	supports Arg1:P13 Arg2:C4	

@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "this great invention in the 21st century causes many problems in our society",
+        "MC2": "it also gives rise to many social problems such as children's social skills and their mental health"
+    },
+    "Claims": {
+        "C1": "mobile phones make our communication faster",
+        "C2": "it is harmful for us to use mobile phones frequently",
+        "C3": "the growing number of mobiles games will impact their mental development",
+        "C4": "mobile phones have shortened the distance of communication"
+    },
+    "Premises": {
+        "P1": "as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills",
+        "P2": "continuous use of mobile phones may also damage children's eyesight and physical posture",
+        "P3": "spending too much time on mobiles phones many exert an adverse effect on our social skills",
+        "P4": "there many game applications available online and many of them are quite aggressive in nature",
+        "P5": "In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors",
+        "P6": "frequent conflicts may occur during communication",
+        "P7": "as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge",
+        "P8": "Mobile phones , such as smart phones, has made our communication easy and convenience"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        }
+    ]
+}

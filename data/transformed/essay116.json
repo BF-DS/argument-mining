@@ -1,0 +1,83 @@
+{
+    "MajorClaims": {
+        "MC1": "governments should help and encourage artists to continue their work"
+    },
+    "Claims": {
+        "C1": "art is a very valuable object for every country and the talent in this area cannot be discovered everywhere",
+        "C2": "the governments should help arts",
+        "C3": "culture and history of a country can be reserved and assured by art",
+        "C4": "talent in art is extremely precious and should not be wasted"
+    },
+    "Premises": {
+        "P1": "art helps to improve the quality of our lives as well as attracting tourists",
+        "P2": "monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists",
+        "P3": "some countries depend on tourism as their main source of revenue",
+        "P4": "their work crafts are very necessary to boost the tourist industry",
+        "P5": "sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation",
+        "P6": "Young people are also able to get more knowledge about their country's history and culture by observing various work crafts",
+        "P7": "not many people are blessed in the talent of paintings and work crafts",
+        "P8": "this type of talent has to be valued as other types of talents such as talent in science or literature"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

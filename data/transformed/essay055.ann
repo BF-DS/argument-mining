@@ -1,0 +1,23 @@
+MC1	MajorClaim 2002 2055	I do support the view of learning all school subjects
+C1	Claim 1827 1989	concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents, while its shortfalls are so vital to students' future
+A1	Stance C1 For
+C2	Claim 475 546	The benefits of teaching students different units are easily recognized
+A2	Stance C2 For
+P1	Premise 568 691	with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future
+P2	Premise 693 777	Teenagers are still too young and immature to decide what they are going to dedicate
+P3	Premise 779 926	In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes
+P4	Premise 937 1080	still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done
+P5	Premise 1091 1177	most students regard the extra knowledge useless and impractical for their future jobs
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	attacks Arg1:P4 Arg2:C2	
+R5	attacks Arg1:P5 Arg2:C2	
+C3	Claim 1235 1353	this education model can cultivate more talents who specialized in different areas and increase studying effectiveness
+A3	Stance C3 Against
+P6	Premise 1380 1476	students can devote more time and efforts in one subject and reduce pressure from other subjects
+P7	Premise 1564 1725	under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study
+R7	attacks Arg1:P7 Arg2:C3	
+P8	Premise 1737 1803	the dullness of course may deeply influence their passion on study
+R8	attacks Arg1:P8 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	

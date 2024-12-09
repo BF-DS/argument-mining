@@ -1,0 +1,109 @@
+{
+    "MajorClaims": {
+        "MC1": "new high school is a great addition to the educational system of my community",
+        "MC2": "The new high school will bring a lot of advantages to my community",
+        "MC3": "the new high school will be a great addition for my environment"
+    },
+    "Claims": {
+        "C1": "The high school of my district is pretty old and lacks in necessities for students, so they can't get enough education",
+        "C2": "The only disadvantage is the nosiness of competitions which students will participate",
+        "C3": "this new construction has a lot of advantages like new connections between students from different communities, also the new educational equipment will increase the students' enthusiasm toward studying",
+        "C4": "the new high school will bring a lots of opportunities for student concerned in education",
+        "C5": "the new high school will be a place for new connections between the student of different communities and districts of the city"
+    },
+    "Premises": {
+        "P1": "it isn't a big deal",
+        "P2": "Their old high school is pretty old and need in new educational materials, repairing of the place for sport activities",
+        "P3": "the laboratory of physics and chemistry was in bad condition",
+        "P4": "the students can't study well during the classes",
+        "P5": "They will study with new breath and great enthusiasm in new school",
+        "P6": "After classes students and not only the students will get together in building of high school, participate in different competitions",
+        "P7": "during the football match the students of different high schools will come and after the competition they will keep in touch",
+        "P8": "This will increase the social connections of the students",
+        "P9": "The only disadvantage is the noisiness of the competitions",
+        "P10": "The people living in the neighborhood will be a bit perturbed",
+        "P11": "this isn't a important reason for ceasing the competitions"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P11",
+            "Relation": "attacks",
+            "target": "P10"
+        },
+        {
+            "start": "P9",
+            "Relation": "attacks",
+            "target": "C5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

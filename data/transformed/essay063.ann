@@ -1,0 +1,34 @@
+MC1	MajorClaim 271 323	people are likely to spend less time in cooking food
+MC2	MajorClaim 2788 2831	people will spend less time in cooking food
+C1	Claim 1119 1205	it is certain that spending less time on cooking will be the main trend in near future
+A1	Stance C1 For
+P1	Premise 717 829	people nowadays just spend one hour to prepare a meal instead of two, even three hours like in the last 10 years
+P2	Premise 468 702	with the development of science and technology, more advanced kitchen facilities, such as the modern microwaves or the advanced pressure cookers, have been created and invented to help people prepare and cook food in a very short time
+R1	supports Arg1:P2 Arg2:P1	
+P3	Premise 841 1016	in recent years, there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework
+P4	Premise 1018 1111	And this figure still continuously go up along with the improvement of science and technology
+R2	supports Arg1:P4 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+R4	supports Arg1:P1 Arg2:C1	
+P5	Premise 1646 1700	they find hard to have time to prepare and cook a meal
+P6	Premise 1401 1638	89% of people have come to think that, since they have been put in the situation which is filled with competitions and pressures, they have to use a lot of time to work hard, to update themselves, to acquire all kinds of skills and so on
+R5	supports Arg1:P6 Arg2:P5	
+C2	Claim 1230 1286	most of young people prefer to have meals at restaurants
+A2	Stance C2 For
+P7	Premise 1702 1822	Even they have some spare time, they prefer to go out with friends to relax and relieve the pressure from work and study
+R6	supports Arg1:P5 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+P8	Premise 2478 2576	it is quite easy to have a nutritious meal with guaranteed quality, but do not waste a lot of time
+C3	Claim 1851 1955	investing much time in cooking food will guarantee nutrition as well as quality of food for their family
+P9	Premise 1994 2102	as a matter of fact, using technology or advanced facilities do not make food lose its nutrition and quality
+P10	Premise 2245 2281	health and life of eaters is assured
+P11	Premise 2104 2238	Even, with the help of ozone machines, bacterias, mold spores, or pesticide in vegetables, fruits and foods will be killed and removed
+R8	supports Arg1:P11 Arg2:P10	
+P12	Premise 2292 2462	along with the high living standard, requirements of quality products in almost restaurants, nowadays, are under severe control and supervision by appropriate authorities
+R9	supports Arg1:P9 Arg2:P8	
+R10	supports Arg1:P12 Arg2:P8	
+R11	supports Arg1:P10 Arg2:P8	
+A4	Stance C3 Against
+R12	attacks Arg1:P8 Arg2:C3	
+P13	Premise 1295 1369	they want to invest more time in their work or study to improve themselves
+R13	supports Arg1:P13 Arg2:C2	

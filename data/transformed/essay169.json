@@ -1,0 +1,168 @@
+{
+    "MajorClaims": {
+        "MC1": "Professors could combine doing research and preparing good courses in a dynamic way",
+        "MC2": "professors should spend more time on preparing courses than research"
+    },
+    "Claims": {
+        "C1": "Only by developing students, can we have a better academic field",
+        "C2": "the research takes up too much teaching time",
+        "C3": "professors could teach students through research and projects",
+        "C4": "professor should concern about preparing class",
+        "C5": "professors should pay more attention on how to teach students rather than conduct research",
+        "C6": "spending more time to nurture excellent students is more consequential to professors, rather than research"
+    },
+    "Premises": {
+        "P1": "conducting research is helpful for professors and students to some extent",
+        "P2": "the precondition of doing research is growing students\u2019 solid theory fundamental",
+        "P3": "research could bring funding and latest achievements in the field",
+        "P4": "professors should assist students to acquire knowledge",
+        "P5": "The professors\u2019 duty is to nurture students, and prepare excellent courses",
+        "P6": "If professors spend a lot of time on research, he will cut the time on preparing courses is reduced, which may decrease the quality of classes",
+        "P7": "The reason why people enter a university is that they want to learn cutting-edged technologies",
+        "P8": "professors should provide well-preparation courses to convey the state-of-art knowledge for college and university students",
+        "P9": "if professors are busy in doing research, ignoring preparing appropriate courses for students, it would ruin the reputation of universities",
+        "P10": "Students are unsatisfied with the unprepared course, and the enrollment of universities may decline",
+        "P11": "Many students would not choose these kinds of universities to study",
+        "P12": "hardly can professors find assistants to help with projects",
+        "P13": "Some students enjoy taking part in some research",
+        "P14": "Through to use the equipment and invent their own work, they may get more experience in the process of research",
+        "P15": "electronic students always invent new machines such as robots, MP3 and remote control car",
+        "P16": "They can manage the electric theory in practical skills",
+        "P17": "And some students will be rewarded by investing new inventions",
+        "P18": "only under specific circumstance, when students master all of the systematic knowledge, can they accomplish research",
+        "P19": "This is requires professors provide high quality courses",
+        "P20": "It is adverse to the whole academic field"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C6",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P3",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P20",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P20"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "P14"
+        },
+        {
+            "start": "P16",
+            "Relation": "supports",
+            "target": "P14"
+        },
+        {
+            "start": "P17",
+            "Relation": "supports",
+            "target": "P14"
+        },
+        {
+            "start": "P18",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P19",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P2",
+            "Relation": "attacks",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C1"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "it is the best way for teenage children to take a part-time job to prepare their adult life",
+        "MC2": "to encourage children taking a part-time job is a good choice for them to get prepared for adult life"
+    },
+    "Claims": {
+        "C1": "it is an oppertunity to learn how to deal with money",
+        "C2": "by taking a part-time job, they certainly have to be responsible for anything they have done",
+        "C3": "to help their children to adapt adult life, parents should let them experience it as much as they can"
+    },
+    "Premises": {
+        "P1": "when I was 16, I found a job during summer vacation and earned some money by own",
+        "P2": "At the beginning of the semester, I was told to buy a text book",
+        "P3": "I spent most of my salary hanging out with my friend",
+        "P4": "I finally realized that I should learn to make a plan before I spend my money, and that did influence me in my life now",
+        "P5": "when children get a job, they are able to earn money by themselves, instead of getting pocket money from their parents",
+        "P6": "if a student get a job in a company but he is frequently late for work, the company may reduce his payment or even fire him",
+        "P7": "To compare with the school life, they might suffer only a small punishment at school",
+        "P8": "Under the circumstances, he will learn that he has to obey the rule and take responsibility for their work"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

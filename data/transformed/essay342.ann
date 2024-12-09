@@ -1,0 +1,23 @@
+MC1	MajorClaim 1859 1992	schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community
+C1	Claim 1626 1713	competitive child would have more motivation and perspective that leads them to success
+A1	Stance C1 Against
+P1	Premise 1719 1829	it would not help them much once they enter to society or company which required more about skill of team work
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 960 1042	it might be hard for a competitive person to deal or manage in a team work project
+C2	Claim 405 655	A strong competition sense helps children having urge to learn or to practice for being the best among peers, and this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system
+A2	Stance C2 Against
+P3	Premise 669 769	a competitive child is usually more motivated to pursue a goal or to face difficulties independently
+R2	supports Arg1:P3 Arg2:C2	
+P4	Premise 775 861	it is also risky that children are becoming too competitive to cooperating with others
+R3	attacks Arg1:P4 Arg2:P3	
+P5	Premise 863 945	Being competitive leads them to success, but could also restrict them in many ways
+R4	supports Arg1:P2 Arg2:P5	
+R5	attacks Arg1:P5 Arg2:C2	
+P6	Premise 1168 1354	Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team
+C3	Claim 1063 1166	cooperation is also an essential quality for children, no matter in school activities or in communities
+A4	Stance C3 For
+P7	Premise 1367 1442	in society, there is hardly anyone who could has big achievement by oneself
+P8	Premise 1457 1596	famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things
+R6	supports Arg1:P8 Arg2:P7	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P6 Arg2:C3	

@@ -1,0 +1,32 @@
+MC1	MajorClaim 215 326	both the ability to relate well to people and studying hard in school are important for success in a future job
+C1	Claim 1812 1845	each of them has its own benefits
+A1	Stance C1 For
+MC2	MajorClaim 1771 1803	we should notice to both of them
+C2	Claim 856 922	studying hard in school is an important factor to succeed in a job
+A2	Stance C2 For
+P1	Premise 562 658	If we study them hard, we will have the chance of doing our job better and quicker in the future
+P2	Premise 350 421	We need to know and learn about the theoritical basis of our future job
+P3	Premise 451 560	In school, we are able to identify skills required for our future job and work on mastering and learning them
+P4	Premise 673 838	if someone wants to become a good industrial engineer, he should study his technical courses very well so that he will be able to utilize them well in his future job	
+C3	Claim 1541 1597	relating well to people is also another important factor
+A3	Stance C3 For
+P5	Premise 924 1003	One of the other factors for success in a future job is effective commuincation
+P6	Premise 1005 1071	By relating well to people, we are likely to have a lot of friends
+P7	Premise 1086 1130	we will have a wide network of communication
+P8	Premise 1132 1169	Commuincation can bring many benefits
+P9	Premise 1184 1283	if you need help with getting a job, by commuincating with people offering jobs whom you treat well
+P10	Premise 1298 1349	they respect you as well, you can achieve your goal
+P11	Premise 1355 1535	if you are a salesman in a store or any other place, by relating well to your customers, you will increase the chance of their coming back again and becoming your regular customers
+P12	Premise 423 449	This can be done in school
+R1	supports Arg1:P4 Arg2:C2	
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P12 Arg2:C2	
+R5	supports Arg1:P2 Arg2:C2	
+R6	supports Arg1:P6 Arg2:P7	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P9 Arg2:P10	
+R9	supports Arg1:P10 Arg2:C3	
+R10	supports Arg1:P11 Arg2:C3	
+R11	supports Arg1:P5 Arg2:C3	
+R12	supports Arg1:P8 Arg2:C3	

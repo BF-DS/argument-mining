@@ -1,0 +1,54 @@
+MC1	MajorClaim 2528 2611	Professors could combine doing research and preparing good courses in a dynamic way
+C1	Claim 2462 2526	Only by developing students, can we have a better academic field
+A1	Stance C1 For
+P1	Premise 2296 2369	conducting research is helpful for professors and students to some extent
+P2	Premise 2380 2460	the precondition of doing research is growing students’ solid theory fundamental
+C2	Claim 213 257	the research takes up too much teaching time
+A2	Stance C2 For
+P3	Premise 146 211	research could bring funding and latest achievements in the field
+MC2	MajorClaim 285 353	professors should spend more time on preparing courses than research
+P4	Premise 387 441	professors should assist students to acquire knowledge
+C3	Claim 1582 1643	professors could teach students through research and projects
+A3	Stance C3 Against
+C4	Claim 2234 2280	professor should concern about preparing class
+A4	Stance C4 For
+C5	Claim 908 998	professors should pay more attention on how to teach students rather than conduct research
+A5	Stance C5 For
+P5	Premise 443 517	The professors’ duty is to nurture students, and prepare excellent courses
+P6	Premise 519 661	If professors spend a lot of time on research, he will cut the time on preparing courses is reduced, which may decrease the quality of classes
+P7	Premise 663 757	The reason why people enter a university is that they want to learn cutting-edged technologies
+P8	Premise 772 895	professors should provide well-preparation courses to convey the state-of-art knowledge for college and university students
+P9	Premise 1019 1158	if professors are busy in doing research, ignoring preparing appropriate courses for students, it would ruin the reputation of universities
+P10	Premise 1160 1259	Students are unsatisfied with the unprepared course, and the enrollment of universities may decline
+P11	Premise 1261 1328	Many students would not choose these kinds of universities to study
+P12	Premise 1343 1402	hardly can professors find assistants to help with projects
+C6	Claim 1460 1566	spending more time to nurture excellent students is more consequential to professors, rather than research
+A6	Stance C6 For
+P13	Premise 1645 1693	Some students enjoy taking part in some research
+P14	Premise 1695 1806	Through to use the equipment and invent their own work, they may get more experience in the process of research
+P15	Premise 1822 1911	electronic students always invent new machines such as robots, MP3 and remote control car
+P16	Premise 1913 1968	They can manage the electric theory in practical skills
+P17	Premise 1970 2032	And some students will be rewarded by investing new inventions
+P18	Premise 2043 2159	only under specific circumstance, when students master all of the systematic knowledge, can they accomplish research
+P19	Premise 2161 2217	This is requires professors provide high quality courses
+R1	supports Arg1:P8 Arg2:C5	
+R2	supports Arg1:P7 Arg2:C5	
+R3	supports Arg1:P6 Arg2:C5	
+R4	supports Arg1:P4 Arg2:C5	
+R5	supports Arg1:P5 Arg2:C5	
+R6	attacks Arg1:P3 Arg2:C2	
+R8	supports Arg1:P10 Arg2:C6	
+R9	supports Arg1:P11 Arg2:C6	
+R10	supports Arg1:P9 Arg2:C6	
+P20	Premise 1404 1445	It is adverse to the whole academic field
+R11	supports Arg1:P20 Arg2:C6	
+R7	supports Arg1:P12 Arg2:P20	
+R12	supports Arg1:P13 Arg2:C3	
+R13	supports Arg1:P14 Arg2:C3	
+R14	supports Arg1:P15 Arg2:P14	
+R15	supports Arg1:P16 Arg2:P14	
+R16	supports Arg1:P17 Arg2:P14	
+R17	supports Arg1:P18 Arg2:C4	
+R18	supports Arg1:P19 Arg2:C4	
+R19	attacks Arg1:P2 Arg2:P1	
+R20	attacks Arg1:P1 Arg2:C1	

@@ -1,0 +1,25 @@
+MC1	MajorClaim 1480 1530	it still has its bad side, especially for children
+C1	Claim 1416 1478	it is undeniable that computer is a crucial part of human life
+A1	Stance C1 Against
+C2	Claim 311 373	using computer constantly has bad influence on children's eyes
+A2	Stance C2 For
+P1	Premise 375 521	When they concentrate on computer for too long, their eyes will get tired, which is the main reason for some eyes problems, typically shortsighted
+R1	supports Arg1:P1 Arg2:C2	
+P2	Premise 533 617	children who play games too much on computer can seriously lack communicating skills
+C3	Claim 694 795	people who are addicted to games, especially online games, can eventually bear dangerous consequences
+P3	Premise 811 886	several teenagers play games without rest, which leads to health depression
+P4	Premise 888 973	a typical example is the death of Korean gamer, who had a non-stop playing for 3 days
+C4	Claim 984 1093	even people who are not interested in online game can still be negatively affected by using computer too much
+A4	Stance C4 For
+P5	Premise 1095 1239	Some social surveys have shown that a few children use computer for studying purpose, most of them are attracted by facebook, blog, etc. instead
+P6	Premise 1262 1299	they will have a bad result in school
+P7	Premise 1308 1390	when they can not live without internet, they will have no time for their studying
+R5	supports Arg1:P7 Arg2:P6	
+R6	supports Arg1:P6 Arg2:P5	
+R7	supports Arg1:P5 Arg2:C4	
+A3	Stance C3 For
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P4 Arg2:P3	
+P8	Premise 619 663	they will know little about the outside life
+R2	supports Arg1:P8 Arg2:P2	
+R8	supports Arg1:P2 Arg2:C3	

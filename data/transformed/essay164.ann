@@ -1,0 +1,30 @@
+MC1	MajorClaim 246 327	providing professional training can be effective in encouraging further good work
+C1	Claim 645 756	we can unleash uncomfortable in training classes by making new friends, joking in class, enjoying new knowledge
+A1	Stance C1 For
+P1	Premise 386 482	training time can provide employee interesting time outside working office to refresh their mind
+P2	Premise 493 632	in company we always have to deal with so many stressful situations such as negotiating with difficult customer, complaining from boss, etc
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+P3	Premise 955 1020	they will think about develop long term career with their company
+P4	Premise 1041 1156	employees will be very proud of themselves when they are provided training while others don't have this opportunity
+C2	Claim 768 825	employees fell that they are valuable if they are trained
+A2	Stance C2 For
+P5	Premise 841 939	the employees know that their company is investing on them for future development of their company
+R3	supports Arg1:P5 Arg2:P3	
+R4	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P4 Arg2:C2	
+C3	Claim 1168 1235	providing training will make employees happy with their current job
+A3	Stance C3 For
+P6	Premise 1244 1302	it help them improve their professional business knowledge
+R6	supports Arg1:P6 Arg2:C3	
+P7	Premise 1304 1386	Having professional training help employees gain more confidence in their business
+P8	Premise 1406 1455	they will finish their jobs with excellent result
+P9	Premise 1468 1540	excellent working result will make them very happy as well as their boss
+R7	supports Arg1:P7 Arg2:P8	
+R8	supports Arg1:P8 Arg2:C3	
+C4	Claim 1557 1634	providing professional training as a reward for good work has many advantages
+P10	Premise 1636 1724	Training can help employees refresh their mind as well as make them happy, focus on work
+MC2	MajorClaim 1801 1859	training can be effective in encouraging further good work
+A6	Stance C4 For
+R12	supports Arg1:P10 Arg2:C4	
+R9	supports Arg1:P9 Arg2:C3	

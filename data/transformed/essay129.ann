@@ -1,0 +1,29 @@
+MC1	MajorClaim 426 469	I prefer to live in a higher pace condition
+MC2	MajorClaim 2031 2064	living in a higher pace is better
+C1	Claim 2073 2147	the advantages of this are qualitatively greater than that of the opposite
+A1	Stance C1 For
+MC3	MajorClaim 2165 2194	I prefer to live in high pace
+P1	Premise 535 672	we need to save time for accomplishing some important tasks, and a fitting example of which can be found in my experience of missing exam
+C2	Claim 938 970	we have to be eager in our lives
+A3	Stance C2 For
+P2	Premise 674 734	I just failed to participate in the university entrance exam
+P3	Premise 743 898	I thought I had enough time for eating breakfast and transporting to the testing place; while I was stocked in a traffic jam and then missed the first test
+P4	Premise 1052 1115	keeping in high pace condition can prevent me from getting lazy
+P5	Premise 1117 1224	If I can avoid being a sluggish person, I can have a higher probability of fulfilling my dream successfully
+P6	Premise 1240 1373	I had spent more time on practicing playing piano so that I won a piano competition, defeating those spending less time on practicing
+C3	Claim 1428 1464	keeping our pace higher is important
+A4	Stance C3 For
+C4	Claim 1542 1587	with a slower pace can enjoy their lives more
+A2	Stance C4 Against
+P7	Premise 1596 1682	it is not necessary for them to notice the time control or acquire the fame of succeed
+P8	Premise 1769 1867	I do not think that those people with slower pace losing the piano competition can be really happy
+P9	Premise 1882 1972	it is really joyful for me that I can immerse in the joy of the victory and accomplishment
+R1	supports Arg1:P3 Arg2:P2	
+R2	supports Arg1:P2 Arg2:P1	
+R3	supports Arg1:P1 Arg2:C2	
+R4	supports Arg1:P6 Arg2:P5	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P4 Arg2:C3	
+R7	attacks Arg1:P9 Arg2:P8	
+R8	attacks Arg1:P8 Arg2:C4	
+R9	supports Arg1:P7 Arg2:C4	

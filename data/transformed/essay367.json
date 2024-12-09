@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "there are many institutions that accept the same average number of male and female students in many kinds of course",
+        "MC2": "the needs for having developed-skills and gaining degree certificate in order to build someone's career are totally needed to implement and applied for any gender"
+    },
+    "Claims": {
+        "C1": "female students are indicated having the same potential and capability as men",
+        "C2": "the issue stimulates the stakeholders from many places to think what kind of preparations they should take for stabilising the economic growth and the quality life of people",
+        "C3": "giving equal education for both men and women is a must",
+        "C4": "act for distributing education needs are absolutely important to compete the future challenges"
+    },
+    "Premises": {
+        "P1": "women can also do the men's works",
+        "P2": "The proportion of women is rising year by year in many parts of the world recently",
+        "P3": "women tend to work in various fields which in the past normally done by men such as being engineers, and dealing with machines",
+        "P4": "These days, it is so hard for young people to get a proper job when they have not degree certificate from Universities",
+        "P5": "learning from human's history, education provides someone to widen his or her knowledge and experience for facing the real situation of workplace through subject taught in college"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

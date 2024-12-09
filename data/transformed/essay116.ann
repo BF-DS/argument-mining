@@ -1,0 +1,25 @@
+MC1	MajorClaim 1747 1815	governments should help and encourage artists to continue their work
+C1	Claim 1627 1734	art is a very valuable object for every country and the talent in this area cannot be discovered everywhere
+A1	Stance C1 For
+P1	Premise 517 593	art helps to improve the quality of our lives as well as attracting tourists
+P2	Premise 608 772	monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists
+P3	Premise 783 847	some countries depend on tourism as their main source of revenue
+C2	Claim 855 887	the governments should help arts
+A3	Stance C2 For
+P4	Premise 896 962	their work crafts are very necessary to boost the tourist industry
+R1	supports Arg1:P4 Arg2:C2	
+R2	supports Arg1:P3 Arg2:C2	
+R3	supports Arg1:P2 Arg2:P1	
+R4	supports Arg1:P1 Arg2:C2	
+C3	Claim 1114 1181	culture and history of a country can be reserved and assured by art
+A2	Stance C3 For
+P5	Premise 977 1101	sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation
+R5	supports Arg1:P5 Arg2:C3	
+P6	Premise 1183 1306	Young people are also able to get more knowledge about their country's history and culture by observing various work crafts
+R6	supports Arg1:P6 Arg2:C3	
+C4	Claim 1363 1423	talent in art is extremely precious and should not be wasted
+A4	Stance C4 For
+P7	Premise 1433 1503	not many people are blessed in the talent of paintings and work crafts
+P8	Premise 1512 1614	this type of talent has to be valued as other types of talents such as talent in science or literature
+R7	supports Arg1:P7 Arg2:P8	
+R8	supports Arg1:P8 Arg2:C4	

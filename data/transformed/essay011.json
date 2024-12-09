@@ -1,0 +1,114 @@
+{
+    "MajorClaims": {
+        "MC1": "the physical education part should not be outweighed",
+        "MC2": "the more attention is withdrawn to a problem of physical education, the more influence we can get on academic success of students"
+    },
+    "Claims": {
+        "C1": "Physical exercises help to create healthy nation, assist to learning through direct observation and finally aid to financial development of a country",
+        "C2": "if the entire nation, from their school ages begin going for sports and try doing that everyday, eventually it may help to build healthy nation",
+        "C3": "when we practice outdoors and indoors sports, many aspects are getting clearer",
+        "C4": "financial sustainability of a region mostly depends on how healthy the population is",
+        "C5": "putting physical activities in early steps of human development would finally lead to mentally healthy society"
+    },
+    "Premises": {
+        "P1": "healthy body is basis for healthy soul",
+        "P2": "There is a direct linkage between people's health and the frequency of doing physical exercises",
+        "P3": "The more we practice, the better we feel",
+        "P4": "there is a fact that one can improve health conditions with everyday physical activity: gradually, step by step we change physical condition to better",
+        "P5": "when a person goes jogging everyday, eventually he can understand his own body through direct observation",
+        "P6": "the school basketball team gains more knowledge on how to succeed in some particular kind of throwing the ball into hoot practicing rather than learning theoretically",
+        "P7": "almost all natural science discoveries were made by direct observation, which is a part of physical education",
+        "P8": "the money invested into physical education program can save allocations into healthcare",
+        "P9": "the nation is comparatively healthy",
+        "P10": "physically healthy people can contribute more both into economical and social development",
+        "P11": "the better a person feels, the better his brain works",
+        "P12": "it ends up with financially competitive country"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

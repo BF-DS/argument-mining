@@ -1,0 +1,26 @@
+MC1	MajorClaim 521 634	a balance between personal and professional life should be created by restricting maximum number of working hours
+C1	Claim 398 504	people working for extended hours have been found having adverse effects on their health and personal life
+A1	Stance C1 For
+MC2	MajorClaim 1847 2073	I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies
+C2	Claim 2075 2207	This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person
+A2	Stance C2 For
+P1	Premise 775 949	By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick
+P2	Premise 961 1042	they become extensively addicted to their work and become workaholic type persons
+P3	Premise 1044 1223	The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life
+C3	Claim 691 773	people; who prefer working longer hours, do not find time to focus on their health
+A3	Stance C3 For
+R1	supports Arg1:P1 Arg2:C3	
+R2	supports Arg1:P2 Arg2:C3	
+R3	supports Arg1:P3 Arg2:C3	
+P4	Premise 1362 1402	they usually remain busy in their office
+P5	Premise 1406 1462	they do not find leisure time for such social activities
+R4	supports Arg1:P4 Arg2:P5	
+P6	Premise 1478 1573	I would take my boss's example; he has been working for extended hours in office for many years
+P7	Premise 1575 1723	Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries
+P8	Premise 1725 1827	He started regretting afterwards and now trying to manage his work but it seems to be too late for him
+C4	Claim 1235 1357	these workaholic people do not spend time for the contribution of society by actively participating in any social campaign
+A4	Stance C4 For
+R5	supports Arg1:P5 Arg2:C4	
+R6	supports Arg1:P6 Arg2:C4	
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	

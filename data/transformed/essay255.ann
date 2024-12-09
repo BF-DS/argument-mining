@@ -1,0 +1,28 @@
+MC1	MajorClaim 501 551	there will be a decrease in cars use in the future
+MC2	MajorClaim 2294 2346	the car use will definitely decrease in twenty years
+P1	Premise 619 657	the public transportation has improved
+C1	Claim 659 707	it is much convenience to take a subway or a bus
+A1	Stance C1 For
+P2	Premise 722 827	I live in a city which always have a jam in the morning and doesn't have enough parking lots for the cars
+P3	Premise 833 935	with the stations increased people are willing to take a public transportation than drive on their own
+C2	Claim 1017 1130	with the risen of the aware to the environment, people will think more about whether to drive on their own or not
+A2	Stance C2 For
+P4	Premise 946 1011	a driving car can make a lot of different pollutions to the world
+P5	Premise 1145 1314	instead of driving each one's car, if we put forty people in a bus, it will solve the traffic jam by decrease the cars use and also reduce the air pollution for the city
+C3	Claim 1542 1572	a personal car uses is in need
+A3	Stance C3 Against
+P6	Premise 1581 1627	a public transportation can't meet every place
+P7	Premise 1640 1729	it may be true when you want to go to some countryside or some other inconvenience places
+P8	Premise 1740 1933	no matter you are going to somewhere for a trip or you just simply live in some suburbs and so on, it always have some other ways that you can do, you can ride a bike, or even walk on your feet
+P9	Premise 1935 2008	It not only helps you to reduce the car use, but also good to your health
+P10	Premise 2023 2053	this won't be a problem at all
+R1	supports Arg1:P2 Arg2:P3	
+R2	supports Arg1:P3 Arg2:C1	
+R3	supports Arg1:P1 Arg2:C1	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P9 Arg2:P8	
+R9	supports Arg1:P8 Arg2:C3	
+R10	attacks Arg1:P10 Arg2:P6	

@@ -1,0 +1,21 @@
+P1	Premise 1406 1460	it will yield more negative results than positive ones
+MC1	MajorClaim 1473 1529	it should be made available for a wide range of learners
+C1	Claim 1344 1389	university restriction has both pros and cons
+A2	Stance C1 Against
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 485 631	such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills
+P3	Premise 664 693	one deserves what he has done
+C2	Claim 375 468	outstanding academic students are eligible for university due to their intellectual advantage
+A1	Stance C2 For
+P4	Premise 695 779	University is like a gift presented to those who have gone to great length to attain
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+C3	Claim 916 1041	it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively
+P5	Premise 790 903	university is not just about academic studies but also a place to nurture artistic talent and develop soft skills
+A3	Stance C3 For
+R5	supports Arg1:P5 Arg2:C3	
+C4	Claim 1058 1160	there is a tendency for social vices to rise if university is to be restricted to only the best people
+A4	Stance C4 For
+P6	Premise 1162 1327	Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones
+R6	supports Arg1:P6 Arg2:C4	

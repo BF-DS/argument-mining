@@ -1,0 +1,29 @@
+C1	Claim 542 611	a person with good manner will give others a fine personal impression
+A1	Stance C1 For
+P1	Premise 613 758	Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible
+P2	Premise 773 939	I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers
+P3	Premise 941 1023	In opposite situation if I am being rude, I can not get along well with each other
+P4	Premise 1034 1090	I will be fired and have no other choice but lost my job
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P4 Arg2:C1	
+R4	supports Arg1:P3 Arg2:C1	
+C2	Claim 1102 1159	people will get respect from politeness within each other
+A2	Stance C2 For
+P5	Premise 1161 1299	Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need
+P6	Premise 1301 1376	A successful corporation must have a relationship with respect and pleasure
+P7	Premise 1378 1470	There are many more facts have improved that people with politeness are easily to be succeed
+P8	Premise 1480 1576	from their behaviors, they made their partners or opponents to find their own individual dignity
+R5	supports Arg1:P8 Arg2:P7	
+R6	supports Arg1:P5 Arg2:C2	
+R7	supports Arg1:P6 Arg2:C2	
+MC1	MajorClaim 1985 2051	people should be polite to others in a such busy and crowded world
+C3	Claim 1587 1639	the society needs a civilized environment and orders
+A3	Stance C3 For
+P9	Premise 1645 1709	a degree of social civilization depend on its people's qualities
+P10	Premise 1711 1852	In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners
+P11	Premise 1854 1956	Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate
+R8	supports Arg1:P9 Arg2:C3	
+R9	supports Arg1:P10 Arg2:C3	
+R10	supports Arg1:P11 Arg2:C3	
+R11	supports Arg1:P7 Arg2:C2	

@@ -1,0 +1,20 @@
+MC1	MajorClaim 322 437	there are many institutions that accept the same average number of male and female students in many kinds of course
+C1	Claim 980 1057	female students are indicated having the same potential and capability as men
+A1	Stance C1 For
+P1	Premise 934 967	women can also do the men's works
+P2	Premise 478 560	The proportion of women is rising year by year in many parts of the world recently
+C2	Claim 577 750	the issue stimulates the stakeholders from many places to think what kind of preparations they should take for stabilising the economic growth and the quality life of people
+P3	Premise 772 898	women tend to work in various fields which in the past normally done by men such as being engineers, and dealing with machines
+R1	supports Arg1:P3 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+A2	Stance C2 For
+R3	supports Arg1:P2 Arg2:C2	
+P4	Premise 1168 1286	These days, it is so hard for young people to get a proper job when they have not degree certificate from Universities
+C3	Claim 1500 1555	giving equal education for both men and women is a must
+A3	Stance C3 For
+P5	Premise 1292 1471	learning from human's history, education provides someone to widen his or her knowledge and experience for facing the real situation of workplace through subject taught in college
+R4	supports Arg1:P5 Arg2:C3	
+R5	supports Arg1:P4 Arg2:C3	
+C4	Claim 1781 1875	act for distributing education needs are absolutely important to compete the future challenges
+MC2	MajorClaim 1572 1734	the needs for having developed-skills and gaining degree certificate in order to build someone's career are totally needed to implement and applied for any gender
+A4	Stance C4 For

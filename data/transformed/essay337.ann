@@ -1,0 +1,26 @@
+MC1	MajorClaim 392 440	this great invention causes many social problems
+C1	Claim 462 535	spending too much time on phones may exert adverse effects on social life
+A1	Stance C1 For
+P1	Premise 557 695	as people increasingly tend to focus and relay on phones, they may lose their interest on daily activities like meeting with their friends
+P2	Premise 704 766	distraction may be developed during study or social activities
+P3	Premise 778 870	continuous use of mobile phone may damage both eyesight and physical posture of the children
+R1	supports Arg1:P1 Arg2:P2	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+P4	Premise 1128 1271	many games involve children helping their character to kill or shoot, which many lead to increased aggressive feelings, thoughts and behaviours
+P5	Premise 1005 1112	In those games, children are rewarded for being more violent, and this violence is repeated again and again
+P6	Premise 885 1003	there are many types of games available in the phone and many of them are very aggressive in nature such as "Iron man"
+C2	Claim 1284 1330	the hardship of communication may be developed
+A2	Stance C2 For
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+P7	Premise 1528 1701	as lots of chatting apps available online such as "Weichat", people tend to send instant messages free of charge by using their phones rather than face to face communication
+C3	Claim 1714 1771	mobile phones have shortened the distance of communicatio
+A3	Stance C3 Against
+P8	Premise 1404 1512	With rapid development of the internet, people are able to enjoy quick electronic communication via internet
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+C4	Claim 1891 1940	mobile phones brings convenience of communication
+A4	Stance C4 Against
+MC2	MajorClaim 1942 1986	they also contribute to some social problems

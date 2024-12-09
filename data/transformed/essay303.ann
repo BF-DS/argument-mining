@@ -1,0 +1,40 @@
+MC1	MajorClaim 420 470	it is very important to live life at a slower pace
+C1	Claim 480 536	living in a hurry comes along with several disadvantages
+A1	Stance C1 For
+P1	Premise 625 739	If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle
+P2	Premise 741 806	Many hardworking people have diseases, like the burn-out syndrome
+P3	Premise 816 849	their bodies cannot hold the pace
+R1	supports Arg1:P3 Arg2:P2	
+P4	Premise 865 935	my father had a a breakdown several years ago due to his stressful job
+P5	Premise 937 1047	After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine
+C2	Claim 545 623	living your life on the fast lane is very stressful and can affect your health
+A2	Stance C2 For
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+P6	Premise 1122 1198	If you are always facing excessive stress you cannot care for your beloved's
+P7	Premise 1200 1279	If you do not hurry yourself you can take more time for your family and friends
+C3	Claim 1062 1120	living your life at a slower pace increases your happiness
+A3	Stance C3 For
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+P8	Premise 1281 1378	Caring for your social environment will increase your happiness and also reduce your stress level
+P9	Premise 1393 1463	a friend of mine lives at a slow pace and is really satisfied about it
+P10	Premise 1473 1526	he can enjoy his family and cultivate his friendships
+R9	supports Arg1:P10 Arg2:P9	
+R10	supports Arg1:P9 Arg2:C3	
+P11	Premise 1557 1678	When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes
+P12	Premise 1680 1771	Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities
+C4	Claim 1785 1852	you might make mistakes, you would not have done with more patience
+R8	supports Arg1:P8 Arg2:C3	
+A4	Stance C4 For
+P13	Premise 1537 1555	quality takes time
+P14	Premise 1869 1921	I once wrote an essay in a hurry and got a bad grade
+P15	Premise 1931 1971	I made few mistakes I could have avoided
+R11	supports Arg1:P15 Arg2:P14	
+R12	supports Arg1:P11 Arg2:C4	
+R13	supports Arg1:P12 Arg2:C4	
+R14	supports Arg1:P13 Arg2:C4	
+R15	supports Arg1:P14 Arg2:C4	
+MC2	MajorClaim 2037 2139	living a slower life is advantageous for your health, your happiness and even the quality of your work

@@ -1,0 +1,32 @@
+MC1	MajorClaim 249 312	Television has destroyed communication among friends and family
+C1	Claim 314 449	Some People spend a lot of time watching television, others even eat watching television, and some others make of this media a priority
+A1	Stance C1 For
+C2	Claim 1807 1882	television is a great tool to learn, entertain and inform what is happening
+A2	Stance C2 Against
+MC2	MajorClaim 1901 2072	television has destroyed communication among friends and family as soon as television become a priority, spend a lot of time watching it and eat in front of the television
+P1	Premise 866 929	she is used to his habit that she prefers to write him an email
+P2	Premise 760 860	Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials
+R1	supports Arg1:P2 Arg2:P1	
+P3	Premise 518 603	Instead of spend time with family and friends, they like to seat on a chair for hours
+P4	Premise 931 1034	Time with the family is gold, some people have to realize that and take quality of time to talk to them
+P5	Premise 605 758	I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours
+C3	Claim 465 516	some people spend a lot of time watching television
+A3	Stance C3 For
+R2	supports Arg1:P3 Arg2:C3	
+R3	supports Arg1:P5 Arg2:C3	
+R4	supports Arg1:P4 Arg2:C3	
+R5	supports Arg1:P1 Arg2:C3	
+P6	Premise 1170 1283	This is the time, when if they have children, they can share everything about school, a project and even concerns
+P7	Premise 1291 1372	when there is a dinner with friends, some people do not have a fluid conversation
+P8	Premise 1381 1420	the television is again in between them
+P9	Premise 1422 1538	When family or friends gather together to have a good time eating and talking, this is not the reality in some cases
+C4	Claim 1036 1168	Another way television has destroyed communication is when some people cannot even seat at the table and have dinner with the family
+A4	Stance C4 For
+R6	supports Arg1:P6 Arg2:C4	
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:P7	
+R9	supports Arg1:P9 Arg2:C4	
+C5	Claim 1549 1591	some people make the television a priority
+A5	Stance C5 For
+P10	Premise 1593 1731	I remember a friend told me one day that because she was watching a telenovela I could not go to her house a certain time during the night
+R10	supports Arg1:P10 Arg2:C5	

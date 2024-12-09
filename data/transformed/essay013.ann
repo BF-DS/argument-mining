@@ -1,0 +1,38 @@
+MC1	MajorClaim 564 608	technology makes children even more creative
+C1	Claim 497 550	technology may have some negative effects on children
+A1	Stance C1 Against
+C2	Claim 1828 1876	technology may have negative effects on children
+A2	Stance C2 Against
+P1	Premise 1878 1929	Technology has made life too easy for most children
+P2	Premise 1931 2038	In comfortable conditions, children may be satisfied with the world around them and refuse to make a change
+P3	Premise 617 666	technology inspires children to create new things
+P4	Premise 1290 1327	technology widen children's knowledge
+P5	Premise 722 864	when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works
+P6	Premise 668 717	Children are curious about everything around them
+R1	supports Arg1:P6 Arg2:P5	
+P7	Premise 879 994	Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked
+P8	Premise 996 1073	After he had figured out all the stuff, he then began to promote the computer
+P9	Premise 1075 1159	In the end, he successfully invented a computer that was easy to use and lightweight
+C3	Claim 1172 1280	instead of interfering children's creativity, technology actually encourages children to learn and to create
+A5	Stance C3 For
+R3	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P7 Arg2:C3	
+R7	supports Arg1:P8 Arg2:C3	
+R8	supports Arg1:P9 Arg2:C3	
+P10	Premise 1329 1400	In the past, children were only able to see things from one perspective
+P11	Premise 1558 1640	they will be able to learn about different cultures and different ways of thinking
+P12	Premise 1411 1545	with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends
+R11	supports Arg1:P12 Arg2:P11	
+P13	Premise 1642 1677	Knowledge is the base of creativity
+C4	Claim 1679 1814	The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things
+A6	Stance C4 For
+R12	supports Arg1:P13 Arg2:C4	
+R13	supports Arg1:P11 Arg2:C4	
+R14	supports Arg1:P10 Arg2:C4	
+R15	supports Arg1:P4 Arg2:C4	
+R16	supports Arg1:P1 Arg2:C2	
+R17	supports Arg1:P2 Arg2:C2	
+MC2	MajorClaim 2161 2239	They kept researching new technology and became successful at a very young age
+P14	Premise 2053 2159	with the development of technology, increasingly more young people become obsessed with high-tech products
+R18	attacks Arg1:P14 Arg2:C2	
+R2	supports Arg1:P3 Arg2:C3	

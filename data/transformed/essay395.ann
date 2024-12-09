@@ -1,0 +1,24 @@
+MC1	MajorClaim 267 303	these taxes are absolutely essential
+C1	Claim 314 435	by paying taxes for public school, affluent people effectively contribute to narrowing down the gap between rich and poor
+A1	Stance C1 For
+P1	Premise 453 541	many poor families are not able to afford tuition fees for their kids to attend a course
+P2	Premise 543 729	With the the tax amount for which they pay, the rich may help a vast number of students from families with poverty background to continue their studies, and earn a better quality of life
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+P3	Premise 863 925	this reduction would cause a difficulty to the tax calculation
+P4	Premise 938 1038	the government would have to recruit a greater workforce in order to handle this sophisticated issue
+R3	supports Arg1:P3 Arg2:P4	
+P5	Premise 1053 1237	the government would also pay the salary for the excessive officials, and this would result in insufficient investments in other crucial public sectors such as education or health care
+C2	Claim 741 850	the tax reduction for parents of children studying in private schools would lead to a waste of public capital
+A2	Stance C2 For
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+MC2	MajorClaim 1662 1791	taxes paying for state schools are necessary to be compulsory for all members of society no matter where their children enroll in
+C3	Claim 1304 1341	such tax payments are unfair for them
+A3	Stance C3 Against
+P6	Premise 1363 1432	it is irrational to require them to pay for the taxes they do not use
+P7	Premise 1448 1561	we also pay for the public services that we even do not experience a chance to employ like police or fire brigade
+P8	Premise 1563 1628	We certainly do not hope for a reduction for these sorts of taxes
+R6	supports Arg1:P6 Arg2:C3	
+R7	attacks Arg1:P7 Arg2:C3	
+R8	attacks Arg1:P8 Arg2:C3	

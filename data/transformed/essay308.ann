@@ -1,0 +1,38 @@
+MC1	MajorClaim 214 280	I prefer to spend my entire live in one place which is my hometown
+C1	Claim 282 406	In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful
+A1	Stance C1 For
+P1	Premise 740 789	Nowhere else can give me some people like in here
+P2	Premise 454 592	In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun
+P3	Premise 594 672	Every people in my town have known each others, and we have good relationships
+C2	Claim 674 738	If anyone needs help, his neighbor will help as much as possible
+A2	Stance C2 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+P4	Premise 854 888	We have large streets but few cars
+P5	Premise 893 923	we can move easily to anywhere
+R4	supports Arg1:P4 Arg2:P5	
+P6	Premise 925 980	Last week, I went to the city center to meet my friends
+P7	Premise 982 1020	The traffic in the city was too crowed
+P8	Premise 1022 1073	I have to wait for an hour to go to my friend house
+P9	Premise 819 852	I love the traffic system in here
+C3	Claim 791 810	I want to live here
+A3	Stance C3 For
+R5	supports Arg1:P9 Arg2:C3	
+R7	supports Arg1:P6 Arg2:P9	
+R8	supports Arg1:P7 Arg2:P9	
+R9	supports Arg1:P8 Arg2:P9	
+P10	Premise 1112 1269	I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town
+P11	Premise 1271 1297	There were a lot of people
+P12	Premise 1301 1336	the environment can't be keep clean
+R10	supports Arg1:P11 Arg2:P12	
+C4	Claim 1075 1110	I also love the environment in here
+A4	Stance C4 For
+R11	supports Arg1:P10 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C4	
+MC2	MajorClaim 1374 1433	staying in one place is better than moving number of places
+C5	Claim 1435 1490	Moving some places can give to you a lot of experiences
+A5	Stance C5 Against
+P13	Premise 1495 1619	living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment
+R13	attacks Arg1:P13 Arg2:C5	
+R6	supports Arg1:P5 Arg2:P9	

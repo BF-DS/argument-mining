@@ -1,0 +1,30 @@
+MC1	MajorClaim 97 212	international tourism not only causes tension but also leads to understanding between people from different culture
+C1	Claim 222 309	most people will be trying to understand each other after they have conflict or debates
+A1	Stance C1 For
+MC2	MajorClaim 1500 1599	international tourism leads to both tension and understanding between people from different culture
+C2	Claim 1348 1483	people are looking for the solution such as understanding each other while they encounter the conflicts caused by international tourism
+A2	Stance C2 For
+P1	Premise 482 538	those local residents have to clean the place frequently
+P2	Premise 409 469	some people leave the rubbish after visiting the attractions
+P3	Premise 622 700	tourists may offend the local people due to their different culture background
+P4	Premise 715 737	Indians don't eat beef
+P5	Premise 744 761	they worship cows
+P6	Premise 769 864	if tourists want to respect the tradition, they will not order any beef in the local restaurant
+C3	Claim 334 398	some behaviors of the tourists are not welcome in the local area
+A3	Stance C3 For
+P7	Premise 1033 1132	tourists are given the brochures about the local traditions and customs before they visit the place
+P8	Premise 1245 1335	the possibility of the conflicts is reduced because the understanding between both parties
+P9	Premise 1147 1237	the tour guide are willing to help tourists to understand the culture from other countries
+C4	Claim 886 1017	in order to avoid the conflicts between foreigners and locals, people are trying to understand different culture and find solutions
+P10	Premise 547 610	the new batch of tourists will have a tidy and neat environment
+A5	Stance C4 For
+R1	supports Arg1:P5 Arg2:P4	
+R2	supports Arg1:P4 Arg2:P3	
+R3	supports Arg1:P2 Arg2:P1	
+R5	supports Arg1:P3 Arg2:C3	
+R6	supports Arg1:P6 Arg2:P3	
+R4	supports Arg1:P1 Arg2:P10	
+R7	supports Arg1:P10 Arg2:C3	
+R8	supports Arg1:P7 Arg2:C4	
+R9	supports Arg1:P9 Arg2:P8	
+R10	supports Arg1:P8 Arg2:C4	

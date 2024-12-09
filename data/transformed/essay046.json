@@ -1,0 +1,53 @@
+{
+    "MajorClaims": {
+        "MC1": "the main function of a university remains as the provision of knowledge and access to resources"
+    },
+    "Claims": {
+        "C1": "A university, in common sense, is a medium for conveying or providing access to knowledge",
+        "C2": "a university should provide access to information, rather than offer selected courses that are suitable for employers' taste"
+    },
+    "Premises": {
+        "P1": "students are the ones universities should really cater for, not the employers",
+        "P2": "High school graduates choose to further educate themselves in universities because of all different reasons: a degree that's more widely accepted, gain knowledge and insight into an industry, or simply deepen their research interests in a certain field",
+        "P3": "students are the ones here to seek knowledge",
+        "P4": "universities are regarded as institutions where abundant educational resources gather",
+        "P5": "It is, therefore, not necessary for a certain course or type of training to be offered to the students by a university, but instead, these must be made available when needed"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

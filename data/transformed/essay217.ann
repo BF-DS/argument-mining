@@ -1,0 +1,27 @@
+MC1	MajorClaim 2037 2107	learning about life through personal experience seems more appropriate
+C1	Claim 447 559	the way of learning life through listening to the advice of family and friends is more realistic than the latter
+A1	Stance C1 Against
+P1	Premise 561 693	Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life
+P2	Premise 695 857	And friends, people who are the same generation with you, they are understand your favorite and ability enough to tell you which is suitable for you, which is not
+P3	Premise 859 954	By listening to your family and friends advice, you can definitely avoid many unexpected things
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+C2	Claim 975 1067	finding out life through personal experience can help you become more independent and mature
+A2	Stance C2 For
+P4	Premise 1084 1173	there are so many grate things that you can missed if you don't experience it by yourself
+P5	Premise 1188 1254	a friend told you not to try skydiving because it was so dangerous
+P6	Premise 1256 1338	If you did as he told, you could fail to see how wonderful it is to be fall freely
+P7	Premise 1353 1427	family and friends accidentally harm you by giving you advice all the time
+P8	Premise 1429 1470	You will grow to be dependent and reliant
+P9	Premise 1485 1607	free yourself and do what you desire without notice about consequences is the way that success people would like to choose
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	
+P10	Premise 1689 1746	growth is a long process that experience is indispensable
+C3	Claim 1763 1845	experiencing the real life by myself, I could learn more than just obey the advice
+A4	Stance C3 For
+R10	supports Arg1:P10 Arg2:C3	

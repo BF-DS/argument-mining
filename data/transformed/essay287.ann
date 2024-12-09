@@ -1,0 +1,25 @@
+MC1	MajorClaim 376 433	Going to another place to learn language is better choice
+MC2	MajorClaim 1430 1517	learning language from foreign country is better than learning language in home country
+C1	Claim 1526 1583	I have to improve myself to communicate with other people
+A1	Stance C1 For
+C2	Claim 1594 1676	in foreign country I could have a chance to speak foreign language with my friends
+MC3	MajorClaim 1678 1766	Learning foreign language form another country is better choice for me to study language
+P1	Premise 610 714	everyone around me speaks foreign language, and then I have to improve myself to communicate with people
+P2	Premise 716 810	If I could not communicate with other people, I could not even buy food to sacrifice my hunger
+P3	Premise 812 926	This environment makes me want to develop myself to be able to communicate with people that speak foreign language
+C3	Claim 493 595	going to another country to learn language is a good environment to stimulate people to learn language
+A3	Stance C3 For
+C4	Claim 938 1035	having friend that speaks another language is help people to professional in that language faster
+A4	Stance C4 For
+P4	Premise 1051 1176	English school in outside my home country, there are many people that come from different places and from different languages
+P5	Premise 1178 1249	The only language that I could talk to make friends is English language
+P6	Premise 1257 1322	I could talk with my friend without worrying about speaking wrong
+P7	Premise 1324 1387	This reason makes me have a progress in foreign language faster
+A5	Stance C2 For
+R1	supports Arg1:P1 Arg2:C3	
+R2	supports Arg1:P2 Arg2:C3	
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P4 Arg2:C4	
+R5	supports Arg1:P5 Arg2:C4	
+R6	supports Arg1:P6 Arg2:C4	
+R7	supports Arg1:P7 Arg2:C4	

@@ -1,0 +1,95 @@
+{
+    "MajorClaims": {
+        "MC1": "the good technology bringing to us is undeniable"
+    },
+    "Claims": {
+        "C1": "Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it",
+        "C2": "most members of our society can benefit from the consequences of technical advancements, especially the poor people",
+        "C3": "technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life",
+        "C4": "the gap between rich people and poor is widen by technology"
+    },
+    "Premises": {
+        "P1": "the progress of material technology leads to the sharp fall of price of a great number of products",
+        "P2": "About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one",
+        "P3": "Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies",
+        "P4": "the Internet gives everyone access to the same information",
+        "P5": "this therefore leads to greater equality between individuals",
+        "P6": "With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day",
+        "P7": "we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us",
+        "P8": "we can talk with our friends online, no matter where we are and how far between us",
+        "P9": "only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return",
+        "P10": "it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "attacks",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

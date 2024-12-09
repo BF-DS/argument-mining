@@ -1,0 +1,36 @@
+MC1	MajorClaim 1961 2063	the advantages of upgrading the roads which I mentioned above are totally convincing and indispensable
+MC2	MajorClaim 250 326	the most possible solution to these problems is improving roads and highways
+C1	Claim 381 479	we all know that upgrading public transportation will surely aggravate the pollution and accidents
+A1	Stance C1 For
+C2	Claim 987 1084	investing in roads and highways can broaden the area and allow more public transportation to work
+A2	Stance C2 For
+P1	Premise 481 606	The buses, cars and trains regularly emit a noxious gas which causes lots of fatal diseases such as lung cancer and pneumonia
+P2	Premise 618 676	the sound emanates from the engines can worsen our hearing
+P3	Premise 696 743	there are many accidents happening on the roads
+P4	Premise 758 835	in my country, buses are attributed to the cause of skyrocketing of accidents
+P5	Premise 848 975	Vietnam has approximately twelve thousand people die of accidents which is equivalent to the death toll of the tsunami in Japan
+R1	supports Arg1:P4 Arg2:P3	
+R2	supports Arg1:P5 Arg2:P3	
+R3	supports Arg1:P2 Arg2:C1	
+R4	supports Arg1:P1 Arg2:C1	
+R5	supports Arg1:P3 Arg2:C1	
+P6	Premise 1086 1162	Not only buses but also other personal vehicles can move easily on the roads
+P7	Premise 1178 1270	I always leave school at the time that everybody rushes into the roads and hastily goes home
+P8	Premise 1272 1361	It is extremely troublesome for me to escape from the crowd on the roads in only one hour
+P9	Premise 1376 1473	if the roads are enlarged, everyone can go home in short time and there are hardly any collisions
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	
+C3	Claim 1496 1565	spending on renovating the highways and roads can improve the quality
+A3	Stance C3 For
+P10	Premise 1567 1639	All of us are afraid of moving on the rough roads with lots of portholes
+P11	Premise 1641 1732	Those bad conditions result in many terrible accidents and make several people feel worried
+P12	Premise 1734 1787	We should not accuse the drivers of causing accidents
+P13	Premise 1796 1851	a part of the responsibility belongs to the authorities
+R10	supports Arg1:P13 Arg2:P12	
+R11	supports Arg1:P10 Arg2:C3	
+R12	supports Arg1:P11 Arg2:C3	
+R13	supports Arg1:P12 Arg2:C3	
+P14	Premise 1853 1944	What's more, a smooth surface makes the transportation and movement become safer and easier
+R14	supports Arg1:P14 Arg2:C3	

@@ -1,0 +1,77 @@
+{
+    "MajorClaims": {
+        "MC1": "qualification is still the fundamental determinant of an employee's competency of their jobs"
+    },
+    "Claims": {
+        "C1": "the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others",
+        "C2": "qualification should be the foremost measurement to determine the value of a employer",
+        "C3": "the importance of social skills have been recognized by increasing number of employers"
+    },
+    "Premises": {
+        "P1": "It is of importance that workers should be well educated and trained to perform duties of their job",
+        "P2": "people who work in professional fields such as medicals are required to have a university degree and years of experience",
+        "P3": "Social skills seem to be less important as they cannot contribute to the success of a surgery",
+        "P4": "organization have been transformed to customers oriented",
+        "P5": "Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction",
+        "P6": "people nowadays are required to work as a team in their jobs frequently",
+        "P7": "Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise",
+        "P8": "Better social skills allow them to resolve disagreements in a much more harmony way"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

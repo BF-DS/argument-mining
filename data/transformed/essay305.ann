@@ -1,0 +1,44 @@
+C1	Claim 294 383	it is university level of education, students have enough maturity to choose their choice
+A1	Stance C1 For
+MC1	MajorClaim 418 470	going to classes should be optional for the students
+P1	Premise 551 659	some lecturers in our university read the same text in the reference books for that particular course module
+P2	Premise 670 741	they didn't explain the contents in order to understand by the students
+C2	Claim 816 877	they have enough ability to read and understand the text book
+A2	Stance C2 For
+P3	Premise 777 814	the university students have grown up
+R1	supports Arg1:P3 Arg2:C2	
+C3	Claim 889 977	with the modern technology, students can collect more information from different sources
+A3	Stance C3 For
+P4	Premise 992 1130	from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently
+R2	supports Arg1:P4 Arg2:C3	
+C4	Claim 1141 1209	some lecturers deliver lectures very informative and interesting way
+P5	Premise 1211 1332	When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time
+C5	Claim 487 535	going to classes are sometimes waste of the time
+A5	Stance C5 For
+R3	supports Arg1:P1 Arg2:C5	
+R4	supports Arg1:P2 Arg2:C5	
+P6	Premise 743 767	It was waste of the time
+A4	Stance C4 Against
+R8	supports Arg1:P5 Arg2:C4	
+C6	Claim 1665 1820	rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth
+A7	Stance C6 For
+P7	Premise 1413 1523	most of the university students are working students in order to manage the expenses during the education time
+P8	Premise 1525 1565	Students need to work as part time basis
+C7	Claim 1574 1645	they have to schedule the lectures time, studying time and working time
+R9	supports Arg1:P8 Arg2:C7	
+P9	Premise 1832 1912	they can meet other university students and build up the relationships with them
+P10	Premise 1348 1402	mostly university has taken whole day for the lectures
+R10	supports Arg1:P7 Arg2:C7	
+A8	Stance C7 For
+R11	supports Arg1:P10 Arg2:C7	
+R12	supports Arg1:P9 Arg2:C6	
+MC2	MajorClaim 2242 2335	if the students choose the classes as optional, it would provide more benefits than drawbacks
+C8	Claim 1939 1996	few brilliant lecturers deliver more informative lectures
+A9	Stance C8 Against
+P11	Premise 1998 2070	some are boring the students in the class and wasting the students' time
+R13	attacks Arg1:P11 Arg2:C8	
+C9	Claim 2072 2149	When the students go to university, they have matured mentally and physically
+A10	Stance C9 For
+C10	Claim 2151 2208	They have enough knowledge to choose what they need to do
+A11	Stance C10 For
+R5	supports Arg1:P6 Arg2:C5	

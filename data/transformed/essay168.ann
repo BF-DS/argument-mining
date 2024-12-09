@@ -1,0 +1,37 @@
+MC1	MajorClaim 1558 1620	There will have many disadvantages if the workers work at home
+C1	Claim 1622 1739	Mitigating process, no interaction and pressure are these things people should examine when they want to work at home
+A1	Stance C1 For
+C2	Claim 603 672	Doing all jobs at home don't make employees attempt to work like this
+A2	Stance C2 For
+P1	Premise 377 460	Each office has its rules that keep workers do their job as effectively as possible
+P2	Premise 462 531	The directors manage employers and give them the deadline of projects
+P3	Premise 533 601	Then again, the workers must try their best to finish the time limit
+R1	supports Arg1:P3 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P1 Arg2:C2	
+P4	Premise 353 375	Pressure is motivation
+R4	supports Arg1:P4 Arg2:C2	
+P5	Premise 770 897	Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job
+P6	Premise 899 983	The dos and don't at office play important role to prevent these things from workers
+P7	Premise 999 1054	doing all jobs alone makes employees fall asleep easily
+P8	Premise 1069 1098	the project cannot being done
+P9	Premise 1100 1147	The best condition might not be good for people
+C3	Claim 675 768	Computers and modems bring works to home but these still have many things distract their mind
+A3	Stance C3 For
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:P8	
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P9 Arg2:C3	
+C4	Claim 1150 1206	Interaction has been an advantage for workers at offices
+A4	Stance C4 For
+P10	Premise 1208 1274	Discussing and debating Projects together increase working ability
+P11	Premise 1283 1363	all we know that the target can be reached fast thanks to working of many people
+R10	supports Arg1:P11 Arg2:P10	
+P12	Premise 1374 1437	interaction help employees improve their communicational skills
+P13	Premise 1450 1504	they will have more and more friends and relationships
+R11	supports Arg1:P12 Arg2:P13	
+P14	Premise 1506 1556	Interaction is a factor increasing working quality
+R12	supports Arg1:P14 Arg2:C4	
+R13	supports Arg1:P10 Arg2:C4	
+R14	supports Arg1:P13 Arg2:C4	

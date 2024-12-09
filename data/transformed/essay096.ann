@@ -1,0 +1,30 @@
+MC1	MajorClaim 301 392	the juries should at least know something about the criminals before coming to a conclusion
+MC2	MajorClaim 2045 2186	the current way of the juries judging the case should be transformed and they should know the facts about the criminals they are dealing with
+C1	Claim 2228 2319	they will be able to give a better and reliable as well as a fair judgment to the convicted
+A1	Stance C1 For
+C2	Claim 550 661	it would be easier for the juries to make a decision if they know about the past information about the criminal
+A2	Stance C2 For
+P1	Premise 680 791	knowing their background very well will enable the juries to analyze the crime before coming up with a judgment
+P2	Premise 807 883	take a person who has not murdered anyone but is suddenly found to be guilty
+P3	Premise 885 1035	The juries will be able to know weather the individual committed the crime intentionally or due to circumstances by knowing the facts about the person
+P4	Premise 1043 1097	punishment can be given in accordance to the condition
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:P1	
+R3	supports Arg1:P3 Arg2:P1	
+R4	supports Arg1:P4 Arg2:C2	
+P5	Premise 1245 1421	exposing them to the past records of the criminal can give them more room to think rationally and finally put the pieces together in order to produce a more meaningful decision
+P6	Premise 1436 1549	the juries will have a sense of relief that they have come up with better conclusion based on plenty of evidences
+C3	Claim 1566 1611	the convicted will also receive a fair action
+P7	Premise 1165 1237	juries are a group of people who have no or less knowledge regarding law
+P8	Premise 1116 1144	a fair trial can be achieved
+A4	Stance C3 For
+R6	supports Arg1:P7 Arg2:P5	
+R8	supports Arg1:P5 Arg2:C3	
+R10	supports Arg1:P6 Arg2:C3	
+C4	Claim 1635 1765	when the background of the convicted is 'dug' deeper and is revealed to mass of anonymous people, his privacy is being jeopardized
+A5	Stance C4 Against
+P9	Premise 1767 1843	If finally he is proven innocent, he may feel embarrassed to face the public
+P10	Premise 1869 2007	the crimes done by criminals should be brought to light and the public should be aware of it so that they will not become a victim as well
+R11	supports Arg1:P9 Arg2:C4	
+R12	attacks Arg1:P10 Arg2:C4	
+R5	supports Arg1:P8 Arg2:C3	

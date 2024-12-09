@@ -1,0 +1,28 @@
+MC1	MajorClaim 209 317	I disagree with the idea that unimportant subjects such as music and sports should be got rid of the program
+C1	Claim 344 415	students only need to study academic subjects like mathematics, physics
+A2	Stance C1 Against
+P1	Premise 424 472	these subject are necessary for students' future
+R1	supports Arg1:P1 Arg2:C1	
+P2	Premise 497 599	when labor market now has high competition; students have to meet requirements regard of qualification
+R2	supports Arg1:P2 Arg2:C1	
+P3	Premise 614 650	the unemployment rate is always high
+P4	Premise 661 741	parents want children to study these subjects which can help students have a job
+R3	supports Arg1:P3 Arg2:P4	
+R4	supports Arg1:P4 Arg2:C1	
+P5	Premise 808 867	there are many things much more important than having a job
+P6	Premise 878 942	studying music, art or sports is also very important to students
+P7	Premise 944 1043	This enables students to develop their potentials through discovering the natural world around them
+R5	supports Arg1:P7 Arg2:P6	
+P8	Premise 1055 1177	to get a job in labor market, not only do students require hard skills but also soft skills such as teamwork, presentation
+P9	Premise 1193 1300	through taking part in a sport, students can understand team spirit and learn lessons about teamwork skills
+C2	Claim 1313 1362	these subjects might fulfil the students' ability
+A5	Stance C2 For
+P10	Premise 1373 1506	children's future do not depend heavily on the academic subjects they study in school, it is the result of their efforts and capacity
+R7	supports Arg1:P5 Arg2:C2	
+R8	supports Arg1:P6 Arg2:C2	
+R6	supports Arg1:P8 Arg2:C2	
+R9	supports Arg1:P9 Arg2:P8	
+R10	supports Arg1:P10 Arg2:C2	
+C3	Claim 1532 1595	the academic subjects play a primary role in nurturing children
+A1	Stance C3 Against
+MC2	MajorClaim 1616 1666	the effects of learning music, sports are profound

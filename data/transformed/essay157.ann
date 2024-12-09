@@ -1,0 +1,24 @@
+MC1	MajorClaim 166 186	information is power
+C1	Claim 329 403	by using different sources of information we can guarantee its reliability
+P1	Premise 405 541	Some people may disinform you on purpose, that's why it is rather unwise to make conclusions before you are confident of the information
+P2	Premise 556 714	Russian news announced that the war between Osetia and Georgia had been initiated by Georgia, however, european news announced that it was initiated by Russia
+P3	Premise 716 833	After a while the situation became clear, but before that a lot of people had already condemned the actions of Russia
+A1	Stance C1 For
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+MC2	MajorClaim 1662 1804	it is very important to be confident of the information, which you use, especially when your conclusion or decision may have a great influence
+C2	Claim 1096 1184	you have to look through different sources before you manage to find some reliable facts
+A2	Stance C2 For
+P4	Premise 1186 1225	It is possible to make a wrong decision
+P5	Premise 1234 1333	you have just used someone's personal opinion as a source of information, but it was actually wrong
+P6	Premise 1348 1499	several years ago in Moscow salt became two times more expensive only in one week, because people thought that soon there would be no salt in the shops
+P7	Premise 1501 1627	The gossip-based information dramatically influenced the prices and only after official announcement the "salt-panic" was over
+P8	Premise 845 930	it is very important to know facts about some events or problem, not only estimations
+P9	Premise 940 995	it can help you to make your own conclusion or estimate
+R4	supports Arg1:P9 Arg2:P8	
+R5	supports Arg1:P8 Arg2:C2	
+R6	supports Arg1:P4 Arg2:C2	
+R7	supports Arg1:P5 Arg2:C2	
+R8	supports Arg1:P6 Arg2:C2	
+R9	supports Arg1:P7 Arg2:C2	

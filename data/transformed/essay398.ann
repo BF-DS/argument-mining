@@ -1,0 +1,31 @@
+C1	Claim 254 318	many different characters exist between male and female students
+A1	Stance C1 For
+MC1	MajorClaim 1751 1951	it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject
+P1	Premise 409 541	Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases
+P2	Premise 557 645	there are more male scientists and engineers in comparison with females around the world
+P3	Premise 647 767	Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts
+P4	Premise 778 897	girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter
+P5	Premise 915 1035	girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect
+C2	Claim 333 407	boys and girls have the diversity in psychological modes and individuality
+A3	Stance C2 For
+P6	Premise 1260 1343	a girl, who is interested in literature, is arranged into an engineering department
+C3	Claim 1050 1163	it can have a negative affect on these students to require them to choose a subject in equal proportion of gender
+A4	Stance C3 For
+P7	Premise 1169 1245	that does not conform to students' personality traits and mental development
+C4	Claim 1484 1589	universities should encourage more girls to choose science subjects and more boys to study the humanities
+A5	Stance C4 For
+P8	Premise 1595 1648	this could avoid imbalance of gender in some subjects
+P9	Premise 1650 1734	It would affect students' mental health to study in the environment of single gender
+P10	Premise 1349 1388	she is unlikely to focus on her subject
+P11	Premise 1394 1463	this also can block the girl's future development and career prospect
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P8 Arg2:C4	
+R7	supports Arg1:P9 Arg2:C4	
+R8	supports Arg1:P7 Arg2:C3	
+R9	supports Arg1:P6 Arg2:C3	
+R10	supports Arg1:P10 Arg2:C3	
+R11	supports Arg1:P11 Arg2:C3	

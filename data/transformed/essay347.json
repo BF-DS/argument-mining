@@ -1,0 +1,95 @@
+{
+    "MajorClaims": {
+        "MC1": "buying habit is people's choice to make, not entirely affected by advertisements"
+    },
+    "Claims": {
+        "C1": "people will be swayed by the advertising and buy things they do not need it for their life",
+        "C2": "it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need",
+        "C3": "A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society",
+        "C4": "the advertisement is not the only cause for people to buy",
+        "C5": "children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not"
+    },
+    "Premises": {
+        "P1": "in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs",
+        "P2": "for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising",
+        "P3": "there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it",
+        "P4": "products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought",
+        "P5": "sometimes it depends on one's needs and ability of consumption",
+        "P6": "buying habit is a very personal things for individuals",
+        "P7": "It is unlikely to buy things impulsively for adults who have concern of arranging disposable income",
+        "P8": "Most of them have to allocate the money if they doing other purchase",
+        "P9": "they do not have financial pressure from life and ability to define what is necessary"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

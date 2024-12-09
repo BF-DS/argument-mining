@@ -1,0 +1,38 @@
+C1	Claim 1865 1914	technologies allowed us to have a convenient life
+A1	Stance C1 Against
+MC1	MajorClaim 1916 1991	it has made our lives more chaotic according to the reasons mentioned above
+MC2	MajorClaim 505 549	technologies made our lives more complicated
+P1	Premise 666 704	it takes time for people to adapt them
+P2	Premise 712 793	we are informed with devices that are produced with new features nearly every day
+P3	Premise 795 821	many people often get lost
+R1	supports Arg1:P2 Arg2:P3	
+P4	Premise 837 887	I use new Iphone which I personally think is great
+P5	Premise 898 999	even though I used it for couple months, I still do not know how to use all the features proficiently
+P6	Premise 1011 1074	I tried to go through all the instructions but, soon, I gave up
+P7	Premise 1083 1159	I found out that it is time-consuming and there are too many things to learn
+R2	supports Arg1:P7 Arg2:P6	
+C2	Claim 622 655	new technologies are always great
+A2	Stance C2 Against
+R3	attacks Arg1:P1 Arg2:C2	
+R4	attacks Arg1:P3 Arg2:C2	
+R5	supports Arg1:P6 Arg2:P5	
+R6	supports Arg1:P4 Arg2:P5	
+R7	attacks Arg1:P5 Arg2:C2	
+P8	Premise 1270 1316	they created their own language to communicate
+P9	Premise 1213 1268	people used computers or cellphones to chat with others
+R8	supports Arg1:P9 Arg2:P8	
+P10	Premise 1326 1372	people try to type as fast as they are talking
+P11	Premise 1374 1425	they use a lot of abbreviations and broken language
+R9	supports Arg1:P10 Arg2:P11	
+P12	Premise 1427 1484	This has gotten worse with twitter, myspace, and facebook
+P13	Premise 1486 1617	What are even worse, young people who are still in the early ages are exposed to them and impeded by the newly developed inventions
+P14	Premise 1631 1762	my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of
+P15	Premise 1764 1854	I have tried to correct him for couple times but he just thinks that I am too conservative
+C3	Claim 1168 1200	technology destroys the language
+A3	Stance C3 For
+R10	supports Arg1:P8 Arg2:C3	
+R11	supports Arg1:P11 Arg2:C3	
+R12	supports Arg1:P12 Arg2:C3	
+R13	supports Arg1:P13 Arg2:C3	
+R14	supports Arg1:P14 Arg2:C3	
+R15	supports Arg1:P15 Arg2:C3	

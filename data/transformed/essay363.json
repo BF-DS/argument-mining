@@ -1,0 +1,89 @@
+{
+    "MajorClaims": {
+        "MC1": "using machines is advantageous"
+    },
+    "Claims": {
+        "C1": "machines make work easy and smooth",
+        "C2": "The negative effects on health can be put on the back seat",
+        "C3": "the usage of machines is harmful for health of humans",
+        "C4": "using machines makes daily tasks less time consuming and less cumbersome"
+    },
+    "Premises": {
+        "P1": "there are many other ways to exercise and stay healthy",
+        "P2": "machines decrease the work done by people",
+        "P3": "in many institutions staircases are replaced by lifts now a days",
+        "P4": "People opt for elevators instead of climbing one or two flight of stairs",
+        "P5": "It is confirmed in a number of researches that daily usage of elevators in workplaces promotes obesity",
+        "P6": "this example clearly shows the linkage between using machines and adverse health effects",
+        "P7": "The work of chopping, blending, grating, kneading has become so easy that people can not imagine their lives without this simple machine at their homes",
+        "P8": "usage of machines makes work easier and less time is consumed for doing similar amount of work",
+        "P9": "Take the example of use of food processors in kitchens"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

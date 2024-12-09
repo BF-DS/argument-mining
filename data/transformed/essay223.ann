@@ -1,0 +1,42 @@
+MC1	MajorClaim 262 320	television has more positive effects than negative effects
+C1	Claim 1518 1558	the television can have violent programs
+A1	Stance C1 Against
+P1	Premise 1569 1662	if children can use Tv programs wisely, there are more positive effects than negative effects
+R1	attacks Arg1:P1 Arg2:C1	
+MC2	MajorClaim 1784 1871	I strongly disagree with the statement that television has negative effects on children
+P2	Premise 1674 1763	it has useful and educational programs and quite helpful to relieve stresses for children
+C2	Claim 378 424	television has useful and educational programs
+A2	Stance C2 For
+P3	Premise 426 519	Not only the up-to-date news, but also there are many programs which has educational purposes
+P4	Premise 521 603	If children can use those programs wisely, they can learn many information from it
+P5	Premise 618 654	in Korea, there's program called EBS
+P6	Premise 656 695	It is targeted for children to teenager
+P7	Premise 697 738	We can study subjects through EBS lecture
+P8	Premise 746 819	there are many documentary films such as the life of a great man in Korea
+P9	Premise 821 923	Using those education programs let people get a lot of inspirations instead of having negative effects
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	
+C3	Claim 939 976	Tv is helpful to relieve our stresses
+A3	Stance C3 For
+P10	Premise 1030 1075	Many children have a lot of stresses recently
+P11	Premise 1083 1121	they have so much pressure about study
+R10	supports Arg1:P11 Arg2:P10	
+P12	Premise 1123 1198	When they are watching sports programs, it's easy to relieve those stresses
+R11	supports Arg1:P10 Arg2:C3	
+R12	supports Arg1:P12 Arg2:C3	
+P13	Premise 1215 1252	I got too much stress from the school
+P14	Premise 1258 1280	I was quite aggressive
+R13	supports Arg1:P13 Arg2:P14	
+P15	Premise 1291 1366	After I watch the soccer match between Korea and Japan, the stress was gone
+P16	Premise 1377 1449	this soccer match helped me to continue my academic career in the school
+P17	Premise 1457 1490	it helped me to relieve my stress
+R14	supports Arg1:P17 Arg2:P16	
+R15	supports Arg1:P15 Arg2:C3	
+R16	supports Arg1:P14 Arg2:C3	
+R17	supports Arg1:P16 Arg2:C3	
+R2	attacks Arg1:P2 Arg2:C1	

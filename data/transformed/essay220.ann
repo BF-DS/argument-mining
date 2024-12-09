@@ -1,0 +1,38 @@
+MC1	MajorClaim 211 308	staying with the parents for longer time does more benefits than disadvantages to the young adult
+MC2	MajorClaim 1924 1970	staying longer with parents is a better choice
+C1	Claim 1818 1915	living with parents longer brings about memories with parents, less cost, and advice from parents
+A1	Stance C1 For
+P1	Premise 469 526	the young adult can have more experience with his parents
+C2	Claim 879 916	undergoing with parents is worthwhile
+A3	Stance C2 For
+P2	Premise 528 611	The young adult has to try to create memories with his dad and mom in the early age
+P3	Premise 613 682	When having a job, it is of low possibilities to work in his hometown
+P4	Premise 684 805	If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together
+P5	Premise 807 863	All memories become priceless treasure as time passes by
+P6	Premise 1064 1140	he may have to rent a house and the rental would become a burden for parents
+P7	Premise 1152 1208	another daily expense is also the considerable outgoings
+P8	Premise 1210 1292	Spending much money may not result in what the parents expect their children to be
+C3	Claim 1305 1372	the parents can save money, if their children live with them longer
+P9	Premise 931 976	living at home costs less than living outside
+P10	Premise 978 1051	Learning to be independent means that the young adult needs to leave home
+P11	Premise 1410 1463	the young adult needs father and mother's suggestions
+P12	Premise 1465 1533	When in dilemma, the parents can comfort him and give him a big hand
+P13	Premise 1535 1642	They are the people who are most familiar with him can give a suitable advice and lead him to the right way
+P14	Premise 1644 1721	If the parents do not help him immediately, he would have to suffer more pain
+C4	Claim 1730 1805	taking advice from parents, the young adult can go through obstacles easily
+A2	Stance C4 For
+A4	Stance C3 For
+R1	supports Arg1:P5 Arg2:C2	
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P2 Arg2:C2	
+R5	supports Arg1:P1 Arg2:C2	
+R6	supports Arg1:P10 Arg2:P6	
+R7	supports Arg1:P9 Arg2:C3	
+R8	supports Arg1:P6 Arg2:C3	
+R9	supports Arg1:P7 Arg2:C3	
+R10	supports Arg1:P8 Arg2:C3	
+R11	supports Arg1:P14 Arg2:C4	
+R12	supports Arg1:P13 Arg2:C4	
+R13	supports Arg1:P12 Arg2:C4	
+R14	supports Arg1:P11 Arg2:C4	

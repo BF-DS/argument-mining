@@ -1,0 +1,16 @@
+MC1	MajorClaim 478 545	higher school students should be made aware of the money management
+MC2	MajorClaim 1791 1898	students understanding the money management techniques will have more positive effects than negative impact
+P1	Premise 648 930	when secondary school students attain the age of undergoing graduation, students ought to stay in hostels or with friends and away from family, during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence
+P2	Premise 945 1183	while I was a kid my father used to maintain expense log for the month, I was asked to do the same for my keep track of my pocket money expenses, during my future course of life this became a practice and helped me in planning my expenses
+C1	Claim 570 633	teenage students need to understand the money management basics
+A1	Stance C1 For
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+P3	Premise 1198 1414	if financial management is taught at an early age, students will have better sense of understanding of their family financial background and status, students coming up with unrealistic whims and fancies are minimized
+P4	Premise 1429 1526	buying a gaming console may not be a big deal for a student from an affluent financial background
+P5	Premise 1537 1631	for a student coming from middle class buying a gaming console may not be the need of the hour
+C2	Claim 1640 1766	having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently
+A3	Stance C2 For
+R3	supports Arg1:P5 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P3 Arg2:C2	

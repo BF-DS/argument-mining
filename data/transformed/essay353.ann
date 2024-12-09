@@ -1,0 +1,23 @@
+MC1	MajorClaim 1322 1455	I disagree with the opinion that children who are brought up in less well-of families are, likely, more successful in the future life
+P1	Premise 422 478	these people will not have an access to a good education
+P2	Premise 493 531	they can be proselytized into bad isms
+P3	Premise 546 609	most of the terroristic groups try to attract uneducated people
+P4	Premise 619 702	the person with better education has a wider outlook, which will allow no brainwash
+R1	supports Arg1:P4 Arg2:P3	
+P5	Premise 719 804	people with lower level of education have more proneness to be attracted in such isms
+C1	Claim 314 410	children from poorer families are prone to have bad habits such as: crime, thievery and thuggery
+A2	Stance C1 For
+R3	supports Arg1:P1 Arg2:P2	
+R4	supports Arg1:P3 Arg2:C1	
+R6	supports Arg1:P2 Arg2:C1	
+P6	Premise 1033 1059	they use it a lot of times
+C2	Claim 1070 1198	wealthy families can afford better health services and costly medicines, which will be very beneficial for the health of a child
+P7	Premise 1214 1305	many good medicines cost vast amounts of money, which cannot be afforded by poorer families
+R8	supports Arg1:P7 Arg2:C2	
+C3	Claim 820 945	people who are born in well-off families have access to good education, which will have a positive impact on their later life
+A3	Stance C3 For
+C4	Claim 957 1023	children from rich families have better skills on how to use money
+A4	Stance C4 For
+R9	supports Arg1:P6 Arg2:C4	
+A5	Stance C2 For
+R2	supports Arg1:P5 Arg2:C1	

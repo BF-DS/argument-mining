@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "teenagers need more attention and help in comparison with the higher ages",
+        "MC2": "it is a good idea to ask parents and adult relatives to give a piece of advice"
+    },
+    "Claims": {
+        "C1": "they are the best advisor for their children",
+        "C2": "parents and adults relatives are the best friends and consular for the teenagers"
+    },
+    "Premises": {
+        "P1": "parents and other adult relatives are more experienced towards children",
+        "P2": "if children listen to their advices they can prevent happening worst things",
+        "P3": "They have experienced a large numbers of stuffs during their life",
+        "P4": "they can save value things in their life such as time and money, and enjoy they life with the best way",
+        "P5": "unfortunately nowadays there are some individuals who cheat the others for gaining more power and money",
+        "P6": "They cheat young ages",
+        "P7": "they believe they are immature and they can trap them easily"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

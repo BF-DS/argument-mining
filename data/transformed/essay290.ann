@@ -1,0 +1,24 @@
+MC1	MajorClaim 321 368	I personally prefer to work for a large company
+MC2	MajorClaim 1596 1664	I would rather prefer working in a large company than in a small one
+C1	Claim 1666 1862	I have different reasons to hold that, such as having a better chance to find work, having a better salary and having the opportunity to travel around the world to attend international conferences
+A1	Stance C1 For
+P1	Premise 798 839	Large company equals more job opportunity
+C2	Claim 397 486	to find a job in a large company is way more easier than to find a job in a small company
+P2	Premise 488 639	Large companies always look for new skilled employees to fill in their need of distributing, managing and selling their products in different countries
+P3	Premise 654 780	if a large company decides to open a branch in a foreign country, they would need more employees in that country to work there
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+C3	Claim 862 921	a large company can give better salaries than a smaller one
+A2	Stance C3 For
+P4	Premise 923 1013	The fact that a company is a large one, this means that it's having a considerable success
+P5	Premise 1031 1098	this means that the company can give more salaries to its employees
+P6	Premise 1114 1238	common sense would tell us that a famous and international known company won't give the same salary as a small local company
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P4 Arg2:C3	
+C4	Claim 1283 1487	large companies have an international reputation, as they organize international conferences, meetings and workshops which will give me the opportunity to travel in different countries and meet new people
+A4	Stance C4 For
+P7	Premise 1489 1552	As well as learning new skills in my field from these workshops
+R9	supports Arg1:P7 Arg2:C4	
+R4	supports Arg1:P5 Arg2:C3	
+A3	Stance C2 For

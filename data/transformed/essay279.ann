@@ -1,0 +1,30 @@
+C1	Claim 370 474	the internet gives daily necessary information, people can gain knowledge and they can explore the world
+A1	Stance C1 For
+MC1	MajorClaim 270 321	the internet provides a lot of valuable information
+MC2	MajorClaim 1690 1757	people are satisfied with the internet and sometimes even thanks it
+C2	Claim 1766 1829	it helps us in studying, doing business and exploring the world
+A2	Stance C2 For
+C3	Claim 1831 1908	With valuable information it provides, people can enjoy their lives much more
+A3	Stance C3 For
+P1	Premise 578 700	Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people
+P2	Premise 715 851	a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet
+C4	Claim 490 576	everybody would like to know what is going on around the world in their everyday lives
+A4	Stance C4 For
+R1	supports Arg1:P1 Arg2:C4	
+R2	supports Arg1:P2 Arg2:C4	
+P3	Premise 961 1098	Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge
+P4	Premise 1100 1176	Not only students but also everyone could get more information and knowledge
+P5	Premise 1192 1275	people who have problems with their health can search for more information about it
+C5	Claim 866 959	people can gain more knowledge by using the internet, the most useful technology in the world
+A5	Stance C5 For
+R3	supports Arg1:P3 Arg2:C5	
+R4	supports Arg1:P4 Arg2:C5	
+R5	supports Arg1:P5 Arg2:P4	
+P6	Premise 1381 1483	people who have no time or have financial problems could travel around the world by using the internet
+P7	Premise 1485 1551	They can see lots of picture and videos of many interesting places
+P8	Premise 1563 1675	people can learn other countries's culture and tradition which makes them have more knowledge about that nations
+C6	Claim 1297 1363	The internet makes the world becomes smaller which is a good thing
+A6	Stance C6 For
+R6	supports Arg1:P6 Arg2:C6	
+R7	supports Arg1:P7 Arg2:C6	
+R8	supports Arg1:P8 Arg2:C6	

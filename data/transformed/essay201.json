@@ -1,0 +1,95 @@
+{
+    "MajorClaims": {
+        "MC1": "I still hold the environment protection for long-term interest"
+    },
+    "Claims": {
+        "C1": "supporting art will benefit the human beings and the company in short-term interest",
+        "C2": "conservation is more urgent now than at any time in history",
+        "C3": "supporting environment protection will benefit the company eventually",
+        "C4": "conservation leads us to a higher standard of living"
+    },
+    "Premises": {
+        "P1": "an increasing amount of people pay more attention to conservation",
+        "P2": "sponsoring conservation is a more efficient method of advertising",
+        "P3": "Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society",
+        "P4": "According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered",
+        "P5": "rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries",
+        "P6": "If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms",
+        "P7": "the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will",
+        "P8": "art is one of the best ways of entertaining human beings",
+        "P9": "with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs",
+        "P10": "Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "attacks",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "attacks",
+            "target": "P8"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "future developments in IT will put the users at their own expense",
+        "MC2": "there have to be some alterations before IT has more serious impact on each individual's life"
+    },
+    "Claims": {
+        "C1": "its effect on the users' independence and prositution should not be out of concern",
+        "C2": "IT seems to have turned its users to its slaves",
+        "C3": "rarely do people go out of their comfot zone, provided with snack and air conditioner, to assemble with others in flesh"
+    },
+    "Premises": {
+        "P1": "In the past, there used to be World Wide Web or e-mail, but the cyber world now varies form games, online TV shows to means of communication, and probably still keeps going",
+        "P2": "Such irrisistible temptations drift people from the real world to the unreal ones, resulting in their dependence on technical equipment",
+        "P3": "the lack of soft skills attained form outdoor activities will agitate the IT addict",
+        "P4": "staying inside with computer and mobile phone will always be the first alternative",
+        "P5": "The existence of Skype, Viber or Yahoo has notably reduced even the longest distance into one click",
+        "P6": "their action will make a beeline for obesity, short-sighted, diabetes and other heart-related problems"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

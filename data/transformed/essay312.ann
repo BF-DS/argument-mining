@@ -1,0 +1,48 @@
+MC1	MajorClaim 358 481	Money should spend on facilities in school or update resources, which are beneficial to school rather than just instructors
+C1	Claim 277 305	The professors are essential
+A1	Stance C1 Against
+P1	Premise 316 356	the schools are established for students
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 609 699	the most efficient way to improve the education is to guide the students to learn actively
+P3	Premise 701 798	By renewing some facilities in school so students will spend more time at school doing assignment
+P4	Premise 800 859	A comfortable environment can attract people to stay longer
+P5	Premise 867 940	students spend more time on school to make a good circulation of learning
+R2	supports Arg1:P4 Arg2:P5	
+P6	Premise 958 1024	students have a better environment to working on their assignments
+P7	Premise 1028 1073	the quality of their assignments will improve
+R3	supports Arg1:P6 Arg2:P7	
+P8	Premise 1081 1143	the competition between peers enhances and forms a circulation
+R4	supports Arg1:P5 Arg2:P3	
+R5	supports Arg1:P7 Arg2:P8	
+R6	supports Arg1:P8 Arg2:P3	
+P9	Premise 1145 1217	In my school, the classrooms in my university are old and kind of shabby
+P10	Premise 1227 1312	I prefer spending money in a coffee shop to staying at school to finish my assignment
+P11	Premise 1314 1347	It's unpleasant to stay at school
+P12	Premise 1358 1445	coffee shops are not always quiet, so my classmates and I often finish our work roughly
+C2	Claim 530 599	the school should put more emphasis on students instead of professors
+A2	Stance C2 For
+R7	supports Arg1:P2 Arg2:C2	
+R8	supports Arg1:P3 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	
+R10	supports Arg1:P11 Arg2:C2	
+R11	supports Arg1:P10 Arg2:C2	
+R12	supports Arg1:P12 Arg2:C2	
+C3	Claim 1526 1612	To improve education, spending more money to raise professors' salary is inappropriate
+A3	Stance C3 For
+P13	Premise 1456 1524	the ultimate purpose is to change, to motivate students to be better
+R13	supports Arg1:P13 Arg2:C3	
+P14	Premise 1777 1857	High-salary instructors don't teach students harder because they earn more money
+R14	supports Arg1:P14 Arg2:C3	
+P15	Premise 1859 1902	There won't be any effect if school does so
+R15	supports Arg1:P15 Arg2:C3	
+P16	Premise 1904 1965	There was news about raising professors' salary in my country
+P17	Premise 1967 2031	This event provoked a demonstration composing of students mostly
+P18	Premise 2033 2103	The proposal of the demonstration was eliminating the raising salaries
+P19	Premise 2121 2202	if the policy of raising salary was supported, the demonstration would not happen
+R16	supports Arg1:P16 Arg2:P19	
+R17	supports Arg1:P17 Arg2:P19	
+R18	supports Arg1:P18 Arg2:P19	
+R19	supports Arg1:P19 Arg2:C3	
+MC2	MajorClaim 2365 2409	I against providing more money to professors
+C4	Claim 2239 2340	Students' tuition is not only for the professors but also for their quality of learning at university
+A5	Stance C4 For

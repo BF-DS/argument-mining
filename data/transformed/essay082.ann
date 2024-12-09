@@ -1,0 +1,19 @@
+C1	Claim 1845 1886	more good comes from advertising than bad
+MC1	MajorClaim 1894 1968	the idea that advertising is a positive part of life can be more supported
+A1	Stance C1 For
+C2	Claim 673 774	Advertisements are, therefore, very important for many businesses to increase sales and hence profits
+A2	Stance C2 For
+P1	Premise 540 671	advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more
+C3	Claim 782 836	to consumers, advertising can bring them many benefits
+P2	Premise 851 956	customers of telecommunication services will have an idea about the current offers of different companies
+P3	Premise 967 1069	they can compare them and then have a better decision in choosing their internet or mobile phone plans
+C4	Claim 1304 1512	a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people
+A3	Stance C4 Against
+P4	Premise 1524 1641	advertising can be very expensive and not every advertising campaign can be done successfully and brings good results
+C5	Claim 1654 1719	advertising is believed by many, a financial burden to businesses
+A4	Stance C5 Against
+A5	Stance C3 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:P3	
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P4 Arg2:C5	

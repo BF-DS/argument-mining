@@ -1,0 +1,19 @@
+MC1	MajorClaim 331 388	advertisement bring more benefits than harms to our lives
+P1	Premise 706 845	some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits
+P2	Premise 873 968	not all customers are satisfied with what they bought under the introduction from advertisement
+C1	Claim 573 691	all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods
+A1	Stance C1 Against
+P3	Premise 424 550	most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell
+R1	supports Arg1:P3 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P2 Arg2:C1	
+P4	Premise 1330 1465	Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising
+P5	Premise 1467 1563	No wonder why this drinking title becomes more and more familiar with customers around the world
+P6	Premise 1585 1722	online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing
+C2	Claim 1201 1328	advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers
+A2	Stance C2 Against
+C3	Claim 990 1189	it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands
+A3	Stance C3 Against
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	

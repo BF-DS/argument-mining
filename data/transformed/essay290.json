@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "I personally prefer to work for a large company",
+        "MC2": "I would rather prefer working in a large company than in a small one"
+    },
+    "Claims": {
+        "C1": "I have different reasons to hold that, such as having a better chance to find work, having a better salary and having the opportunity to travel around the world to attend international conferences",
+        "C2": "to find a job in a large company is way more easier than to find a job in a small company",
+        "C3": "a large company can give better salaries than a smaller one",
+        "C4": "large companies have an international reputation, as they organize international conferences, meetings and workshops which will give me the opportunity to travel in different countries and meet new people"
+    },
+    "Premises": {
+        "P1": "Large company equals more job opportunity",
+        "P2": "Large companies always look for new skilled employees to fill in their need of distributing, managing and selling their products in different countries",
+        "P3": "if a large company decides to open a branch in a foreign country, they would need more employees in that country to work there",
+        "P4": "The fact that a company is a large one, this means that it's having a considerable success",
+        "P5": "this means that the company can give more salaries to its employees",
+        "P6": "common sense would tell us that a famous and international known company won't give the same salary as a small local company",
+        "P7": "As well as learning new skills in my field from these workshops"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

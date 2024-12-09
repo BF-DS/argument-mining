@@ -1,0 +1,34 @@
+MC1	MajorClaim 398 463	human needs for farmland, housing and industry are more important
+C1	Claim 2121 2163	protecting endangered animals is necessary
+A1	Stance C1 Against
+MC2	MajorClaim 2179 2244	human needs for farmland, housing and industry are more important
+P1	Premise 520 602	land used for farmland, housing and industry can benefit more to the whole society
+P2	Premise 626 815	the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy
+P3	Premise 825 855	they produce plenty of profits
+R1	supports Arg1:P3 Arg2:P2	
+P4	Premise 871 943	the society will be stable and harmony due to more farmland and industry
+P5	Premise 976 1096	more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate
+R2	supports Arg1:P5 Arg2:P4	
+C2	Claim 1103 1166	the needs for farmland, housing and industry are more important
+A3	Stance C2 For
+R4	supports Arg1:P4 Arg2:C2	
+C3	Claim 1176 1264	farmland, housing and industry can satisfy the desire of human that living a better life
+A4	Stance C3 For
+P6	Premise 1296 1413	farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live
+P7	Premise 1415 1484	Especially in some poor areas, survival is the most significant thing
+P8	Premise 1499 1614	highly developed agriculture and industry can improve our living conditions which allow us have a good quality life
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+C4	Claim 1741 1789	it can do good to protect the endangered animals
+A5	Stance C4 For
+P9	Premise 1660 1739	farmland, housing and industry will occupy the land used for endangered animals
+R9	attacks Arg1:P9 Arg2:C4	
+P10	Premise 1823 1882	agriculture and industry make a contribution to the economy
+P11	Premise 1914 1982	we can have more advanced methods to take care of endangered animals
+P12	Premise 1997 2107	we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct
+R10	supports Arg1:P11 Arg2:C4	
+R11	supports Arg1:P12 Arg2:P11	
+R3	supports Arg1:P1 Arg2:C2	
+R5	supports Arg1:P2 Arg2:C2	
+R12	supports Arg1:P10 Arg2:C4	

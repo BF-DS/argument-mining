@@ -1,0 +1,32 @@
+MC1	MajorClaim 83 129	childhood is the happiest period of one's life
+C1	Claim 131 350	It's not only the lack of responsibilities and daily struggle that make childhood the happiest time of our lives, but also factors like learning lots of new things every day and freedom to imagine and say what you think
+A1	Stance C1 For
+C2	Claim 615 715	during our childhood, though responsibilies exist, we are much more free to do what we would like to
+A2	Stance C2 For
+P1	Premise 717 864	Being late for school or laughing at a place where you aren't supposed to do not have consequences as serious as that would be if you were an adult
+R1	supports Arg1:P1 Arg2:C2	
+P2	Premise 352 449	Starting with our adulthood, we are strictly bounded with our responsibilities in our daily lives
+P3	Premise 451 539	We are told at what hour we shall wake up, how we shall dress up and how we shall behave
+P4	Premise 541 609	Every action we make are watched closely and judged by the community
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P2 Arg2:C2	
+C3	Claim 1227 1294	childhood is the period of time in which a person is surprised most
+A3	Stance C3 For
+P5	Premise 1123 1214	There are lots of new facts you can learn, stories you can listen to and things you can see
+P6	Premise 867 1002	Another great thing about being a child is possibility learning new and interesting things about the world you live in every single day
+P7	Premise 1004 1121	Being a child means that you are new in this world and every single thing around you is there to be discovered by you
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P7 Arg2:C3	
+R7	supports Arg1:P6 Arg2:C3	
+P8	Premise 1396 1558	Children are not judged about the things they say as much as the adults, and freedom to express yourself is a very important for developing a colorful imagination
+P9	Premise 1560 1627	In adulthood, people are forced to express themselves in boundaries
+P10	Premise 1639 1696	they are in no way free to think or use their imagination
+R8	supports Arg1:P9 Arg2:P10	
+C4	Claim 1296 1394	Using your imagination and saying what you think freely is another great thing about being a child
+A4	Stance C4 For
+R9	supports Arg1:P8 Arg2:C4	
+R10	supports Arg1:P10 Arg2:C4	
+MC2	MajorClaim 1698 1764	Childhood, in several aspects, is the happiest period of our lives
+C5	Claim 1766 1886	It's not only because of the nature of childhood and children, but also the way our lives are changed when we are adults
+A5	Stance C5 For

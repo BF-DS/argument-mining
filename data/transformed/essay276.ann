@@ -1,0 +1,35 @@
+MC1	MajorClaim 1581 1620	dancing is an important part of culture
+C1	Claim 1629 1671	dancing are represent to believe of people
+A1	Stance C1 For
+P1	Premise 1682 1736	dancing could show how civilization of that culture is
+P2	Premise 1748 1790	people use dancing to entertain themselves
+C2	Claim 1795 1832	dancing is important in every culture
+A2	Stance C2 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+C3	Claim 714 751	dancing are the part of people belief
+A3	Stance C3 For
+P3	Premise 489 600	some culture people believe that they dance in order to sacrifice to their god so they will be get a happy life
+P4	Premise 602 698	Or some part of the world that are in arid area believe that if they danced, the rain would come
+P5	Premise 386 474	dancing are significant part of culture that could show to something that people believe
+R5	supports Arg1:P3 Arg2:C3	
+R6	supports Arg1:P4 Arg2:C3	
+C4	Claim 763 816	dancing can represent to civilization of that culture
+A5	Stance C4 For
+P6	Premise 832 988	I have seen many western movies that when a kingdom have visitor from another kingdom, king or queen would dance to show a splendid of their kingdom culture
+P7	Premise 990 1070	The way of movement, the way that they costume and also a music while they dance
+P8	Premise 1072 1115	All this is a civilization of their culture
+R7	supports Arg1:P6 Arg2:C4	
+R8	supports Arg1:P7 Arg2:C4	
+R9	supports Arg1:P8 Arg2:C4	
+C5	Claim 1191 1218	dancing is one of that ways
+A6	Stance C5 For
+P9	Premise 1126 1185	many culture, people have many ways to entertain themselves
+P10	Premise 1220 1271	Both people who see and dance also have a good time
+P11	Premise 1286 1443	many event, such as christmas, last christmas I went to mall to buy gifts, and I was entertained by group of people in santa custom dancing in christmas song
+P12	Premise 1445 1530	I felt that people around me happy and group of santas also happy to see people happy
+R10	supports Arg1:P11 Arg2:C5	
+R11	supports Arg1:P10 Arg2:C5	
+R12	supports Arg1:P12 Arg2:C5	
+R13	supports Arg1:P9 Arg2:C5	
+R3	supports Arg1:P5 Arg2:C3	

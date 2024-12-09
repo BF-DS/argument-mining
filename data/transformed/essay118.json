@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "their salary at a lower level would be more appropriate compared with other peoples in scientific or social, economic fields",
+        "MC2": "professional athletes and singers are overpaid in terms of their contributions"
+    },
+    "Claims": {
+        "C1": "athletes and singers deserve their current salary",
+        "C2": "their privilege of salary seems groundless, while the main work forces receive modest salaries which only enable them to afford bare necessities"
+    },
+    "Premises": {
+        "P1": "they have an exceptional ability that other people do not own",
+        "P2": "hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship",
+        "P3": "They also point out that these people have to undergo painstaking and industrious training, let alone participate in a great number of contests to be recognized and prove themselves",
+        "P4": "there are many singers and athletes, few of whom could rise to fame and victory ultimately",
+        "P5": "Overcoming all these obstacles, they should be paid a great deal of money for their extraordinary efforts",
+        "P6": "singers and athletes, in fact, contribute insignificantly to the development of the society",
+        "P7": "It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms",
+        "P8": "While scientists invent machines serving daily lives, doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation, singers and athletes do not play a helpful part in improving the material life",
+        "P9": "They commit themselves to promoting relaxation and enjoyment for the audience",
+        "P10": "their contribution is less important than those from doctors or scientists, albeit necessary"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

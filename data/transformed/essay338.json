@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "the merits of email and messaging have reduced amount of ours time to communicate to",
+        "MC2": "using of these soft devices have cut much of time people need to see with their relatives"
+    },
+    "Claims": {
+        "C1": "we need to make sure for the real gathering with our colleague",
+        "C2": "it is had some demerits on their social lives",
+        "C3": "some people become geek, as too much of using email and messaging, without direct contacts",
+        "C4": "there are other ways like social media that they could to use it for meeting theirs buddies such as Twitter and Facebook, also make the communication become feasible and limitless of time"
+    },
+    "Premises": {
+        "P1": "they do not do much social live interactions with others",
+        "P2": "It caused they were swept away by virtual atmosphere",
+        "P3": "people have had own minded to keep connection with their friends as a good relationship, meet them and talk by face to face directly",
+        "P4": "using of these facilities has influenced netizens to keep themselves becoming unsociable",
+        "P5": "they constantly use these kinds of electronic letter for making fellowship or just continuing theirs what they already had"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "MajorClaims": {
+        "MC1": "there are other equally vital aspects that need to be considered in this regard",
+        "MC2": "I disagree with the idea that salary outweighs any other motivators"
+    },
+    "Claims": {
+        "C1": "the salary is very pivotal factor",
+        "C2": "there are other even more important aspects such as: friendly co-workers, working conditions and professional achievements",
+        "C3": "in order for people to cover their daily and general needs they need money as well",
+        "C4": "career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary"
+    },
+    "Premises": {
+        "P1": "People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary",
+        "P2": "aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life",
+        "P3": "most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach",
+        "P4": "people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

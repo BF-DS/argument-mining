@@ -1,0 +1,72 @@
+{
+    "MajorClaims": {
+        "MC1": "they are important somehow, but not essential",
+        "MC2": "These meetings are in none case here to interact with international affairs"
+    },
+    "Claims": {
+        "C1": "an international sports event is a very good thing to gather people, let them dream, being proud of their nationality and forget problems, but just for a while",
+        "C2": "these sports events are not essential in other issues such as politics or other international affairs",
+        "C3": "world sport events provide positive waves for number of people"
+    },
+    "Premises": {
+        "P1": "if the general atmosphere during the show is peaceful and fraternal, the reality is different",
+        "P2": "After the Olympics games are finished, everything came back to normal and all the game competition is forgotten by the majority",
+        "P3": "recently, Putin was pleased to open the last winter Olympic games and gather international countries, but actually it has been just facade and Putin didn't listen international warning after he conquered the Crimea",
+        "P4": "The main purpose of such competitions is to enjoy and share emotions between supporters though their favorite team",
+        "P5": "These emotions are shared locally in our village or city, nationally in our own country but even internationally too",
+        "P6": "these events gather people and their nationalist pride feeling is increased",
+        "P7": "the football world cup taking place every four years is a very followed event during which everyone is having fun"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

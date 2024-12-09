@@ -1,0 +1,108 @@
+{
+    "MajorClaims": {
+        "MC1": "problems posed by machines should draws more attentions as well",
+        "MC2": "we cannot ignore its negative effects"
+    },
+    "Claims": {
+        "C1": "we cannot deny machines are play a vital role in people living and working",
+        "C2": "although using machines have many benefits",
+        "C3": "machines can bring many benefits",
+        "C4": "the disadvantages of machines that bring to us should not be neglected by people"
+    },
+    "Premises": {
+        "P1": "Not like human, machines do not need rest, which means they can work as long as employers want and consistently produce high quality products without any mistakes",
+        "P2": "using machines can save company's money",
+        "P3": "machines never ask for salary, over-time pay or pension",
+        "P4": "employers do not need to spend money on employee's welfare",
+        "P5": "The company only needs some technicians to make sure machines are working on the right track or replace some part when machines are not working",
+        "P6": "machines are more effective than human",
+        "P7": "because of extensive of using machines, many people loss their job",
+        "P8": "Especially in large population countries, high unemployment rate may cause crime and social instability",
+        "P9": "using of machines are also pose serious pollution and energy dissipation",
+        "P10": "nowadays people prefer to use dish-washing machine to wash dishes and plates rather than hand washing",
+        "P11": "they did not know that compared with hand washing dish-washing machine consume at least 2 times water and electricity to wash these tableware",
+        "P12": "if thousands of families use dish-washing machines, how many water and how much electricity will be wasted"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P10"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P10"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

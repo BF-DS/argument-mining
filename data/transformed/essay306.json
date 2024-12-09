@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "the convenience it brings is more",
+        "MC2": "the convenience it brings in people's are significant"
+    },
+    "Claims": {
+        "C1": "technology may make people's life complicated in some aspects",
+        "C2": "when it comes to the field of transportation, there is no doubt that the technology in automobile has made people's life simpler",
+        "C3": "technology also makes teaching simpler",
+        "C4": "technology may make people's life more complicated",
+        "C5": "technology may make people's life complicated in some cases"
+    },
+    "Premises": {
+        "P1": "With a private car, you can reach the destination in another city just sitting in the vehicle",
+        "P2": "if you would like to have a trip across the ocean, a plane can carry you there in only a few hours, which is hard to imagine in the ancient times",
+        "P3": "In the past, teachers have to write what they want to convey to students on the chalkboard, resulting in a great waste of time and the fatigue of teachers",
+        "P4": "With the advent of iPads in e-learning, paper books become unnecessary, so does the blackboards",
+        "P5": "all the knowledge and information are stored in the iPads, with a single click, and they would appear right before your eyes at once",
+        "P6": "the cell phone, which used to be simply a tool to deliver messages to your contacts in a distance, now are playing a role more than just a phone in social communications",
+        "P7": "folks have to check their Facebooks, Twitters, and Forums accounts every minute, which add too much pressure to them",
+        "P8": "games on their phone exert a tremendous fascination on teenagers, leading to a large problem that they got addicted to their phones",
+        "P9": "making their life more complicated and tired"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

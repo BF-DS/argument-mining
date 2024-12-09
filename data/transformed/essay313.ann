@@ -1,0 +1,42 @@
+MC1	MajorClaim 354 394	pets should be treated like human beings
+P1	Premise 602 655	they listen to us, more than some people will ever do
+P2	Premise 574 593	We can talk to them
+R1	supports Arg1:P1 Arg2:P2	
+P3	Premise 720 816	When I was 14 years old, my uncle passed away and I felt like everything was no longer important
+P4	Premise 818 855	Talking to my friends was frustrating
+P5	Premise 864 900	none of them have ever felt that way
+R2	supports Arg1:P5 Arg2:P4	
+P6	Premise 908 947	I was all alone at home for a long time
+P7	Premise 949 1037	my dog was near me and it seemed to me that only him could understand my deeply feelings
+P8	Premise 1057 1090	pets aren't able to speak with us
+P9	Premise 1092 1124	we can nonetheless count on them
+R3	attacks Arg1:P9 Arg2:P8	
+R4	attacks Arg1:P8 Arg2:P1	
+R5	supports Arg1:P3 Arg2:P1	
+R6	supports Arg1:P4 Arg2:P1	
+R7	supports Arg1:P6 Arg2:P7	
+R8	supports Arg1:P7 Arg2:P1	
+C1	Claim 425 481	pets are our friends as well as certain human beings are
+A1	Stance C1 For
+P10	Premise 483 572	Similarly to friends, indeed, they are always with us and they are there if we feel alone
+R9	supports Arg1:P10 Arg2:C1	
+R10	supports Arg1:P2 Arg2:C1	
+P11	Premise 1190 1251	nowadays the pet therapy is becoming more popular than before
+P12	Premise 1253 1339	Researchers have discovered that pets can bring benefits in a huge amount of illnesses
+P13	Premise 1341 1393	There are dogs who lead blind people around the city
+P14	Premise 1470 1517	pets are important for depressed people as well
+P15	Premise 1408 1455	without them they could not go around all alone
+R11	supports Arg1:P13 Arg2:P15	
+P16	Premise 1526 1562	their presence make them feel better
+R12	supports Arg1:P16 Arg2:P14	
+P17	Premise 1574 1681	there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs
+C2	Claim 1136 1175	pets are useful for a variety of things
+A2	Stance C2 For
+R13	supports Arg1:P11 Arg2:C2	
+R14	supports Arg1:P12 Arg2:C2	
+R15	supports Arg1:P15 Arg2:C2	
+R16	supports Arg1:P14 Arg2:C2	
+R17	supports Arg1:P17 Arg2:C2	
+MC2	MajorClaim 1724 1770	pets deserve to be treated like family members
+C3	Claim 1822 1884	they are our friends and they can be useful in many situations
+A3	Stance C3 For

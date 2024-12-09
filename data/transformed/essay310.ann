@@ -1,0 +1,42 @@
+C1	Claim 357 517	Trying to learn skills, working in two places in a week and gaining more tasks are the reasons which take into account as the most important causes of my choice
+A1	Stance C1 For
+MC1	MajorClaim 227 281	Working fast yet risky has a place near the ideal goal
+MC2	MajorClaim 1955 1996	people should work faster even more risky
+C2	Claim 1998 2135	Gaining more skills by study, having more than one job, and handling more tasks are the benefits of it which overweighs its disadvantages
+A2	Stance C2 For
+P1	Premise 596 722	Attending in some classes which try to increase the skills of employees can be considered as an absolutely effective parameter
+P2	Premise 724 827	If people learn how should increase their speed at work by studying, they can stares in their workplace
+P3	Premise 842 883	I have a friend who was working so slowly
+P4	Premise 885 945	He has been threatened by his boss who was going to fire him
+P5	Premise 947 1036	My friend went to a course where he learned how should work rapidly and now he is working
+C3	Claim 534 594	if persons work rapidly, they will have more chance to study
+A3	Stance C3 For
+P6	Premise 1151 1218	If they work just in one organization they cannot earn enough money
+P7	Premise 1220 1267	This fact pushes them to work faster and faster
+P8	Premise 1290 1335	applying to study abroad needs a lot of money
+P9	Premise 1337 1389	I am working in two organization to gain more salary
+R6	supports Arg1:P8 Arg2:P9	
+C4	Claim 1056 1108	people prone to work in two or three firms in a week
+P10	Premise 1117 1149	the expenses have been increased
+A5	Stance C4 For
+P11	Premise 1391 1423	The more money, the more chances
+P12	Premise 1501 1634	If you show in your workplace that you are the one who can work more than other even carelessly, your boss will assign you more tasks
+P13	Premise 1636 1729	If you do them fast too, the first acknowledgement of your boss encourages you to work harder
+P14	Premise 1731 1799	It turns you to a person who has skill of working without hesitation
+P15	Premise 1801 1893	Even if we ignore this result, by the same token, you can get higher position and more money
+C5	Claim 1445 1499	people who work slowly can no longer handle more tasks
+A4	Stance C5 For
+R1	supports Arg1:P3 Arg2:P2	
+R2	supports Arg1:P4 Arg2:P2	
+R3	supports Arg1:P5 Arg2:P2	
+R4	supports Arg1:P2 Arg2:C3	
+R5	supports Arg1:P1 Arg2:C3	
+R7	supports Arg1:P10 Arg2:C4	
+R8	supports Arg1:P7 Arg2:C4	
+R9	supports Arg1:P6 Arg2:C4	
+R10	supports Arg1:P11 Arg2:C4	
+R11	supports Arg1:P9 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C5	
+R13	supports Arg1:P13 Arg2:C5	
+R14	supports Arg1:P14 Arg2:C5	
+R15	supports Arg1:P15 Arg2:C5	

@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "providing professional training can be effective in encouraging further good work",
+        "MC2": "training can be effective in encouraging further good work"
+    },
+    "Claims": {
+        "C1": "we can unleash uncomfortable in training classes by making new friends, joking in class, enjoying new knowledge",
+        "C2": "employees fell that they are valuable if they are trained",
+        "C3": "providing training will make employees happy with their current job",
+        "C4": "providing professional training as a reward for good work has many advantages"
+    },
+    "Premises": {
+        "P1": "training time can provide employee interesting time outside working office to refresh their mind",
+        "P2": "in company we always have to deal with so many stressful situations such as negotiating with difficult customer, complaining from boss, etc",
+        "P3": "they will think about develop long term career with their company",
+        "P4": "employees will be very proud of themselves when they are provided training while others don't have this opportunity",
+        "P5": "the employees know that their company is investing on them for future development of their company",
+        "P6": "it help them improve their professional business knowledge",
+        "P7": "Having professional training help employees gain more confidence in their business",
+        "P8": "they will finish their jobs with excellent result",
+        "P9": "excellent working result will make them very happy as well as their boss",
+        "P10": "Training can help employees refresh their mind as well as make them happy, focus on work"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+MC1	MajorClaim 2039 2079	schools should not remove these subjects
+C1	Claim 1939 2026	non-academic subjects are as essential as academic subjects for a student’s development
+A1	Stance C1 For
+P1	Premise 354 434	from the health point of view, schools should not only deliver academic subjects
+P2	Premise 436 551	If physical education is removed from the syllabus, there will be considerable negative effects on students’ health
+P3	Premise 567 814	after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes
+C2	Claim 816 962	Removing physical classes from school education will not only be harmful to young people’s health, it will also decrease their learning capability
+C3	Claim 1349 1428	school education should not only focus on the academic development of a student
+A3	Stance C3 For
+P4	Premise 1432 1512	it is much more crucial to teach them how to be independent and live a good life
+P5	Premise 1145 1341	Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit
+P6	Premise 977 1055	schools are responsible for developing their students into well-rounded people
+P7	Premise 1057 1143	It is more important for a person to success in life than to success only academically
+C4	Claim 1541 1614	students can learn practical skills after school hours from their parents
+A4	Stance C4 Against
+P8	Premise 1640 1661	it is not a good idea
+P9	Premise 1670 1796	most young people would rather watch TV or play computer games after school instead of learning life skills from their parents
+P10	Premise 1808 1898	parents are usually too busy with their daily jobs to teach their children the life skills
+MC2	MajorClaim 256 337	non-academic subjects should be completely removed, I strongly disagree with that
+A5	Stance C2 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P6 Arg2:C3	
+R5	supports Arg1:P7 Arg2:C3	
+R6	supports Arg1:P5 Arg2:C3	
+R7	supports Arg1:P4 Arg2:C3	
+R8	attacks Arg1:P8 Arg2:C4	
+R9	supports Arg1:P9 Arg2:P8	
+R10	attacks Arg1:P10 Arg2:C4	

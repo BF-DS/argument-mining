@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "parents and educators should attach more importance to traditional games",
+        "MC2": "traditional games should be, by no means, ignored by parents and teachers with the advent of modern games"
+    },
+    "Claims": {
+        "C1": "Only through traditional games can children be ensured a positive and healthy skills learning process",
+        "C2": "modern games may be, to some extent, beneficial for children to foster some skills, such as computer skills or the capacity to keep up with the latest trend",
+        "C3": "traditional games are still indispensible in children's learning process, even much more essential than modern games, especially in modern society",
+        "C4": "it is the educational functions traditional games hold that keep them alive today"
+    },
+    "Premises": {
+        "P1": "children have to be proficient at computers and the Internet if they want to join online games, which, in fact, helps children acquire a particularly powerful skill at work in future",
+        "P2": "children have the chance to experience the state-of-the-art technology, raising their awareness of innovation rather than stay conservative",
+        "P3": "One primary merit of traditional games is that they foster children's communication skills",
+        "P4": "Unlike most modern games which focus on the interactions between children and machines, traditional games provide a relaxing and enjoyable atmosphere where children can chat, laugh and cooperate face to face",
+        "P5": "communicating with a variety of people will not be an issue for these children any more",
+        "P6": "these traditional games were elaborately devised by educators and have been proven effective in improving children's skills on different aspects in previous teaching practices",
+        "P7": "modern games are developed by game companies for the purpose of profits",
+        "P8": "there is a risk that children may be exposed to unhealthy contents, such as violence or pornography, arranged in the games by such companies to secure financial survival"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

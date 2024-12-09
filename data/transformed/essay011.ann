@@ -1,0 +1,36 @@
+MC1	MajorClaim 147 199	the physical education part should not be outweighed
+C1	Claim 201 350	Physical exercises help to create healthy nation, assist to learning through direct observation and finally aid to financial development of a country
+A1	Stance C1 For
+MC2	MajorClaim 2111 2240	the more attention is withdrawn to a problem of physical education, the more influence we can get on academic success of students
+C2	Claim 795 938	if the entire nation, from their school ages begin going for sports and try doing that everyday, eventually it may help to build healthy nation
+A3	Stance C2 For
+P1	Premise 446 484	healthy body is basis for healthy soul
+P2	Premise 486 581	There is a direct linkage between people's health and the frequency of doing physical exercises
+P3	Premise 583 623	The more we practice, the better we feel
+P4	Premise 639 789	there is a fact that one can improve health conditions with everyday physical activity: gradually, step by step we change physical condition to better
+R1	supports Arg1:P4 Arg2:C2	
+R2	supports Arg1:P3 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P1 Arg2:C2	
+C3	Claim 949 1027	when we practice outdoors and indoors sports, many aspects are getting clearer
+A4	Stance C3 For
+P5	Premise 1042 1147	when a person goes jogging everyday, eventually he can understand his own body through direct observation
+P6	Premise 1156 1322	the school basketball team gains more knowledge on how to succeed in some particular kind of throwing the ball into hoot practicing rather than learning theoretically
+P7	Premise 1337 1446	almost all natural science discoveries were made by direct observation, which is a part of physical education
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+C4	Claim 1470 1554	financial sustainability of a region mostly depends on how healthy the population is
+A5	Stance C4 For
+P8	Premise 1570 1657	the money invested into physical education program can save allocations into healthcare
+P9	Premise 1665 1700	the nation is comparatively healthy
+P10	Premise 1719 1808	physically healthy people can contribute more both into economical and social development
+P11	Premise 1831 1884	the better a person feels, the better his brain works
+C5	Claim 1897 2007	putting physical activities in early steps of human development would finally lead to mentally healthy society
+P12	Premise 2018 2065	it ends up with financially competitive country
+R9	supports Arg1:P9 Arg2:P8	
+A2	Stance C5 For
+R8	supports Arg1:P8 Arg2:C4	
+R10	supports Arg1:P11 Arg2:C5	
+R11	supports Arg1:P10 Arg2:C5	
+R12	supports Arg1:P12 Arg2:C5	

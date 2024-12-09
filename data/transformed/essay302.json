@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "saving some part of your earnings is essential",
+        "MC2": "there is no other choice than saving money for some time"
+    },
+    "Claims": {
+        "C1": "you can not predict future developments, neither in your professional nor your personal life, furthermore with savings you can fulfill some of your dreams",
+        "C2": "The global economic conditions in these days are tough and there are many unpredictable factors that make it necessary to have some money on your bank account",
+        "C3": "It is possible that in the future you have some unavoidable expenses that you could not afford without savings",
+        "C4": "Working hard and saving money for later on investments is a great way of getting a satisfying feeling and to reward yourself for something you have accomplished"
+    },
+    "Premises": {
+        "P1": "they had to move back in with their families and they lost their independence",
+        "P2": "They could not afford the rent",
+        "P3": "I remember some friends who lost their jobs recently due to the economic crisis in Europe",
+        "P4": "there are several uncertainties about your professional future",
+        "P5": "you can not be sure about the development in your personal life",
+        "P6": "Back in university I remember a friend of mine who had just little savings and he had to deal with a major repair of his car",
+        "P7": "He could not afford the maintenance",
+        "P8": "he had to sell it",
+        "P9": "with savings you can afford some luxurious goods and fulfill your dreams",
+        "P10": "I made a month-long backpack trip through Southeast Asia last summer with my girlfriend",
+        "P11": "Without our savings we could not have pursued our long-time dream"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

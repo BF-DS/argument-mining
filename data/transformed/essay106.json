@@ -1,0 +1,60 @@
+{
+    "MajorClaims": {
+        "MC1": "the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation",
+        "MC2": "the move will do more good by looking at the quality of health and image of a nation in long run"
+    },
+    "Claims": {
+        "C1": "the number of fatality can be significantly reduced if a total ban on public smoking is implemented",
+        "C2": "the image of a healthy nation can be promoted when government restricts public smoking by imposing stern penalty to the offender"
+    },
+    "Premises": {
+        "P1": "it is well known and clinically proven that smoking is extremely hazardous to the smoker and others who have been exposed to the fume over a period of time",
+        "P2": "Recent death statistic released by the Malaysian Ministry of Health shows that the top killer was lung related diseases caused by smoking",
+        "P3": "A large proportion of death involved second hand smoker particularly young children and pregnant women who were vulnerable to these lethal diseases",
+        "P4": "This example shows the benefit of restricting public smoking to a country as a whole",
+        "P5": "the Brunei government had recently enforced a law against smoking in public areas such as caf\u00e9s, hospital and shopping street",
+        "P6": "This step has curbed down the numbers of smokers in the country and as a result, Brunei remains a place known for its tranquility and cleanliness"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

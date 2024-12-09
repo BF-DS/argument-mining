@@ -1,0 +1,22 @@
+MC1	MajorClaim 350 429	this investment in field of the arts would be in the best interest of a society
+MC2	MajorClaim 1681 1796	it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways
+C1	Claim 1596 1670	not only could investing in art be considered as wasting money at any kind
+A1	Stance C1 Against
+P1	Premise 796 959	There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts
+C2	Claim 977 1043	the arts play a pivotal role in all-round development of a society
+A3	Stance C2 For
+P2	Premise 1045 1178	No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration
+P3	Premise 1180 1313	Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways
+R1	supports Arg1:P2 Arg2:C2	
+R2	supports Arg1:P3 Arg2:C2	
+C3	Claim 1328 1429	investing in art could bring employment opportunities and could end in return of capital occasionally
+A4	Stance C3 For
+P4	Premise 1431 1582	The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions
+R3	supports Arg1:P4 Arg2:C3	
+C4	Claim 468 591	governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way
+P5	Premise 605 717	no one should suffer from any sort of deficiency in field of health, education, transportation and communication
+P6	Premise 728 794	these could only help individuals with their physical requirements
+A5	Stance C4 Against
+R4	supports Arg1:P5 Arg2:C4	
+R5	attacks Arg1:P6 Arg2:P5	
+R6	attacks Arg1:P1 Arg2:C4	

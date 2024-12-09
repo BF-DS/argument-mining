@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "I prefer to study individually",
+        "MC2": "I agree with the idea of studying a lone"
+    },
+    "Claims": {
+        "C1": "it helps me to concentrate more, and it helps me to build my personality",
+        "C2": "it helps me to focus more and establish my personality",
+        "C3": "Studying alone helps us to focus more in our lessons",
+        "C4": "we are building our personalities when we study alone"
+    },
+    "Premises": {
+        "P1": "I am a type of person who cannot comprehend my subjects unless I am alone",
+        "P2": "I can prepare my schedules, guidelines, exercises and go over them all",
+        "P3": "we have a lot of subjects which require us to sit and study alone such as math, reading, and drawing",
+        "P4": "I can take advantage of every minute without wasting by studying alone",
+        "P5": "answering our homework alone encourages us to be more responsible and independent",
+        "P6": "it motivates us to be accurate in our work in the future",
+        "P7": "when I fix my study plan with a specific time and finish it on time, it improves my ability in the future to become more precise and careful"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

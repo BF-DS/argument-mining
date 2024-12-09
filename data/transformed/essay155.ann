@@ -1,0 +1,38 @@
+MC1	MajorClaim 421 498	smoking should not be permitted, especially in public places like restaurants
+C1	Claim 507 557	it will make the non-smokers breathe uncomfortably
+A1	Stance C1 For
+C2	Claim 655 738	Smoking in restaurants will absolutely disturb other people in enjoying their meals
+A2	Stance C2 For
+P1	Premise 573 653	restaurants are places where people come and pay some money to enjoy their meals
+P2	Premise 740 819	They will not be able to enjoy their meals while breathing in smoke around them
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+C3	Claim 1001 1062	Smoking in restaurants can give a bad example to the children
+A3	Stance C3 For
+P3	Premise 832 899	restaurants are places that people usually come with their families
+P4	Premise 913 999	there will be children, grandparents, as well as pregnant women inside the restaurants
+P5	Premise 1064 1120	Children have a high potential to imitate what adults do
+P6	Premise 1129 1178	they have really high curiosity towards something
+R4	supports Arg1:P6 Arg2:P5	
+C4	Claim 1180 1299	Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs
+A4	Stance C4 For
+P7	Premise 1301 1381	The most dangerous people that would be affected by smoke are the pregnant women
+P8	Premise 1390 1476	they will breathe in the contaminated air and it will disrupt the growth of the babies
+R5	supports Arg1:P8 Arg2:P7	
+R6	supports Arg1:P7 Arg2:C4	
+R7	supports Arg1:P3 Arg2:C3	
+R8	supports Arg1:P4 Arg2:C3	
+R9	supports Arg1:P5 Arg2:C3	
+C5	Claim 1745 1777	it is unfair for passive smokers
+A5	Stance C5 For
+P9	Premise 1786 1853	they do not smoke but they have same health risks as the active one
+R10	supports Arg1:P9 Arg2:C5	
+P10	Premise 1498 1545	passive smokers will have a lot of health risks
+P11	Premise 1547 1620	When they are around the active smokers, they will inhale hazardous smoke
+P12	Premise 1622 1722	Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers
+R11	supports Arg1:P12 Arg2:C5	
+R12	supports Arg1:P11 Arg2:C5	
+R13	supports Arg1:P10 Arg2:C5	
+MC2	MajorClaim 1870 1916	smoking should not be permitted in restaurants
+C6	Claim 1925 1972	there will be a lot of people get disadvantaged
+A6	Stance C6 For

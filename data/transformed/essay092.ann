@@ -1,0 +1,22 @@
+MC1	MajorClaim 433 530	fashion trends have a more essential role to play in people's lives than personal dressing styles
+MC2	MajorClaim 1876 2032	people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes
+C1	Claim 2053 2161	creative design talents can value their own dressing ideas, developing their own fashion styles as they like
+A1	Stance C1 Against
+C2	Claim 548 741	following fashion trends enables people to keep up with the world's latest transformations, which is of vital importance if we consider the fact that people are living in a global village today
+A2	Stance C2 For
+P1	Premise 743 983	When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world
+P2	Premise 998 1151	if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds
+P3	Premise 1166 1196	they might fall behind shortly
+R1	supports Arg1:P2 Arg2:P3	
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+P4	Premise 1211 1356	people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information
+C3	Claim 1358 1501	Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles
+P5	Premise 1539 1615	following fashion trends constantly may undermine individuals' personalities
+P6	Premise 1617 1775	Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes
+C4	Claim 1791 1822	the world would look monotonous
+A5	Stance C4 Against
+R5	supports Arg1:P6 Arg2:C4	
+R6	supports Arg1:P5 Arg2:C4	
+A3	Stance C3 For
+R4	supports Arg1:P4 Arg2:C3	

@@ -1,0 +1,21 @@
+MC1	MajorClaim 378 508	the advantages of building a factory will outweigh its disadvantages, if we tackle the environmental problems brought by factories
+C1	Claim 524 608	a large factory can stimulate local economic growth and reduce the unemployment rate
+A1	Stance C1 For
+P1	Premise 610 712	To manufacture goods, there must be the demand of laborers, from which the local residents can benefit
+P2	Premise 728 858	the factory is not isolated, other industries and business will be quickly established, resulting in economic growth of local area
+P3	Premise 873 960	the estate industry will be boosted in order to satisfy the workers' accommodation need
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:P2	
+P4	Premise 1002 1168	It is true that some area are suffering the dire consequences caused by overdeveloping the industry, such as water pollution, overcrowded traffic and medical problems
+P5	Premise 1184 1368	in some industrial cities, a large proportion of the workers are suffering various breathing problems, such as asthma which can be caused by waste ashes and certain chemical substances
+C2	Claim 962 1000	The main disadvantage is contamination
+A2	Stance C2 Against
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:P4	
+C3	Claim 1484 1587	how to improve the disadvantages of building a factory would be more important than whether to build it
+A3	Stance C3 For
+P6	Premise 1379 1471	it is inevitable that there will be more factories built with the development of our society
+P7	Premise 1597 1700	most problems can be avoidable if the factories put in real and great effort to manage their waste well
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	

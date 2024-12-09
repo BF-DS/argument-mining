@@ -1,0 +1,44 @@
+MC1	MajorClaim 270 363	I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating
+C1	Claim 386 430	e-mail has been a great way of communication
+A1	Stance C1 For
+P1	Premise 432 474	You can talk to others from thousands mile
+P2	Premise 490 610	if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact
+P3	Premise 612 686	We will never have to worry if our mails will be sent to the right address
+P4	Premise 688 742	If the address is wrong, then you will know right away
+P5	Premise 754 801	e-mail doesn't take too much time: just a click
+P6	Premise 1165 1212	e-mail will be a good tool to help me speak out
+C2	Claim 816 860	writing e-mail helps people express honestly
+P7	Premise 885 937	the face-to-face conversations make them feel stupid
+P8	Premise 939 1005	Sometimes, their ideas are not expressed as exactly as they expect
+P9	Premise 1021 1152	I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do
+P10	Premise 1214 1302	She will just read my e-mail instead of listening to my voice which can make her annoyed
+P11	Premise 1304 1387	I don't have to worry about any other thing can make my opinion become unpersuasive
+C3	Claim 1855 1919	E-mail helps me arrange my idea perfectly and make it persuasive
+A3	Stance C3 For
+P12	Premise 1409 1442	every communication needs fluency
+P13	Premise 1446 1518	people can understand each other exactly and remember it for a long time
+P14	Premise 1520 1615	Voice email or face-to-face conversations sometimes make reserve people feel not very confident
+P15	Premise 1630 1708	when I face my parents, I can't speak out every idea and express consecutively
+P16	Premise 1710 1798	They may stop me, speak something against it and that makes me forget what I want to say
+P17	Premise 1800 1853	Anyone can meet this problem once in any conversation
+MC2	MajorClaim 1997 2047	e-mail is the greatest way for major people to use
+C4	Claim 2049 2079	Its convenience saves our time
+A4	Stance C4 For
+A2	Stance C2 For
+R1	supports Arg1:P4 Arg2:P3	
+R2	supports Arg1:P2 Arg2:P1	
+R3	supports Arg1:P1 Arg2:C1	
+R4	supports Arg1:P3 Arg2:C1	
+R5	supports Arg1:P5 Arg2:C1	
+R6	supports Arg1:P7 Arg2:C2	
+R7	supports Arg1:P6 Arg2:C2	
+R8	supports Arg1:P8 Arg2:P7	
+R9	supports Arg1:P9 Arg2:P6	
+R10	supports Arg1:P10 Arg2:P6	
+R11	supports Arg1:P11 Arg2:P6	
+R12	supports Arg1:P12 Arg2:P13	
+R13	supports Arg1:P15 Arg2:P14	
+R14	supports Arg1:P16 Arg2:P14	
+R15	supports Arg1:P17 Arg2:P14	
+R16	supports Arg1:P14 Arg2:C3	
+R17	supports Arg1:P13 Arg2:C3	

@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "news media not only brings people entertainment, but also polishes up people' knowledge",
+        "MC2": "the development of news media has been making great inroads into the lives of all people"
+    },
+    "Claims": {
+        "C1": "the progress of news media is an advantageous development",
+        "C2": "the popularity of news media is beneficial to human beings",
+        "C3": "news media help people broaden their knowledge"
+    },
+    "Premises": {
+        "P1": "It relaxes people with plentiful entertainment news",
+        "P2": "It enriches people's knowledge with worldwide information",
+        "P3": "It also positively affects the way people live in many other aspects",
+        "P4": "today entertainment is easier for people to enjoy than ever before",
+        "P5": "The fact is that such news media as televisions, radios, or newspapers are bringing many news on entertainment sector from all over the world to everybody",
+        "P6": "People can sit in front of their televisions and watch whatever they want, from musical concerts to live football match",
+        "P7": "This is a convenient way of relaxation after hard work",
+        "P8": "there is a strong likelihood that today people are able to know the world better",
+        "P9": "It is clearly seen that mass media provide people with a variety of global news on all fields, including political situation, economic change, global warming, and so forth",
+        "P10": "This is particularly essential when the globalization process has been permeating into all areas of society",
+        "P11": "the fast growth of news media is helpful for people worldwide"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

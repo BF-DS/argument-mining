@@ -1,0 +1,72 @@
+{
+    "MajorClaims": {
+        "MC1": "universities should provide free of cost education to the interested scholars",
+        "MC2": "universities have to look over the issues face by most of the scholars; their message should be spread education, not making money, and motivate those scholars who want to get education"
+    },
+    "Claims": {
+        "C1": "now-a-days universities with good name charge high fees and this leads one to think about affordability",
+        "C2": "the issue of affordability has become crucial to the students",
+        "C3": "The idea of free of charge education inspires those scholars who really want to put their efforts and get a degree from best universities"
+    },
+    "Premises": {
+        "P1": "many of the interested scholars failed to get the admission in good universities",
+        "P2": "they have to think about work along with the studies, and this left them with only one choice, which is work",
+        "P3": "University is more likely to become a money making business",
+        "P4": "In today\u2019s world education is getting expensive, and people are tending to apply for self-finance education in order to get the admission",
+        "P5": "the scholars are facing a lot of difficulties apart from their high requirements of previous education, they has a lot to face the other difficulties and burden while getting admission such as accommodation, food, traveling, clothing, etc",
+        "P6": "it is hard to get manage two things at a time for instance, working and studying is not an easy job for the scholars, they need to concentrate on their studies",
+        "P7": "MPhils and PhDs scholars are probably engage in the research work, which takes their full concentration and surveys"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

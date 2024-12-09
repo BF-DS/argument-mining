@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "its better that people learn foreign language in their own country",
+        "MC2": "it is better for people to learn a foreign language in their own country"
+    },
+    "Claims": {
+        "C1": "It is cost effective and there is a pool of opportunities available now to accomplish the same",
+        "C2": "with the advent of globalization, one can easily find a teacher in their own country",
+        "C3": "it is not possible for everyone to visit a foreign country to learn a foreign language",
+        "C4": "it is very easy to learn a foreign in our own country",
+        "C5": "technology has also played a great role in reducing the separation between learning a foreign languge in our own country"
+    },
+    "Premises": {
+        "P1": "In the earlier periods, it was not easy to find a teacher to learn a foreign languge",
+        "P2": "in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc",
+        "P3": "it requires large amount of money and legal formalities",
+        "P4": "Students can choose any language from the set of languages available at a university",
+        "P5": "colleges and universities have introduced foreign language course as a part of their curriculum",
+        "P6": "highly qualified foreign language teachers are easily accessible in various schools and colleges",
+        "P7": "A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

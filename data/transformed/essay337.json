@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "this great invention causes many social problems",
+        "MC2": "they also contribute to some social problems"
+    },
+    "Claims": {
+        "C1": "spending too much time on phones may exert adverse effects on social life",
+        "C2": "the hardship of communication may be developed",
+        "C3": "mobile phones have shortened the distance of communicatio",
+        "C4": "mobile phones brings convenience of communication"
+    },
+    "Premises": {
+        "P1": "as people increasingly tend to focus and relay on phones, they may lose their interest on daily activities like meeting with their friends",
+        "P2": "distraction may be developed during study or social activities",
+        "P3": "continuous use of mobile phone may damage both eyesight and physical posture of the children",
+        "P4": "many games involve children helping their character to kill or shoot, which many lead to increased aggressive feelings, thoughts and behaviours",
+        "P5": "In those games, children are rewarded for being more violent, and this violence is repeated again and again",
+        "P6": "there are many types of games available in the phone and many of them are very aggressive in nature such as \"Iron man\"",
+        "P7": "as lots of chatting apps available online such as \"Weichat\", people tend to send instant messages free of charge by using their phones rather than face to face communication",
+        "P8": "With rapid development of the internet, people are able to enjoy quick electronic communication via internet"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        }
+    ]
+}

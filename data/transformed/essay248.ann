@@ -1,0 +1,44 @@
+MC1	MajorClaim 283 362	choosing the job that is similar to parents' jobs could benefit to one's career
+MC2	MajorClaim 2281 2341	parents can lead their children to a more smooth career path
+C1	Claim 2188 2269	one can get more support from his or her parents if they are in the same industry
+A1	Stance C1 For
+P1	Premise 379 425	as parents are involved in the same environmen
+P2	Premise 553 662	my father is a software programmer, and he indeed teaches me a lot in programming and some computer knowledge
+P3	Premise 664 725	Whenever I met a difficulty, I would reach him for consulting
+P4	Premise 735 758	he has many experiences
+P5	Premise 760 806	I could save enormous time in finding solution
+R1	supports Arg1:P4 Arg2:P5	
+P6	Premise 808 863	This truly makes me more competitive than my colleagues
+P7	Premise 865 964	If I worked in the different field from my father, I would have faced much difficulty than I do now
+C2	Claim 428 538	they could thus support much more to their children, such as domain knowledge and industry-related information
+A2	Stance C2 For
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+P8	Premise 1179 1250	they know which company has better welfare or provides better education
+P9	Premise 1262 1368	their friends in the same industry can even help to write recommendation letters to some certain companies
+P10	Premise 1370 1474	It is undoubted that a good recommendation letter is extraordinary important in this competitive society
+P11	Premise 1476 1636	When others are still struggling in preparing their resume, one with a good recommendation letter has already passed the first stage in the interviewing process
+P12	Premise 986 1022	parents have worked in tens of years
+P13	Premise 1024 1082	they have accumulated a rich network in a certain industry
+R8	supports Arg1:P12 Arg2:P13	
+C3	Claim 1084 1163	They have a deep insight in it and could provide much support to their children
+A3	Stance C3 For
+R9	supports Arg1:P13 Arg2:C3	
+R10	supports Arg1:P8 Arg2:C3	
+R11	supports Arg1:P9 Arg2:C3	
+R12	supports Arg1:P10 Arg2:P9	
+R13	supports Arg1:P11 Arg2:P9	
+C4	Claim 1745 1818	choosing a job similar to one's parents' is not always a correct decision
+A4	Stance C4 Against
+P14	Premise 1681 1732	the condition of job market is completely different
+R14	supports Arg1:P14 Arg2:C4	
+P15	Premise 1866 1925	when it comes to the trend, no one can predict it correctly
+R15	attacks Arg1:P15 Arg2:C4	
+P16	Premise 1927 1991	The condition of job market changes enormously fast like a flash
+P17	Premise 2001 2071	there is no way to predict any job can be popular for 30 years or more
+R16	supports Arg1:P16 Arg2:P17	
+R17	supports Arg1:P17 Arg2:C4	

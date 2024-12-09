@@ -1,0 +1,132 @@
+{
+    "MajorClaims": {
+        "MC1": "universities should invest in libraries more than anywhere else",
+        "MC2": "libraries are more important"
+    },
+    "Claims": {
+        "C1": "They are critical part of universities and a good university has to have a modern library",
+        "C2": "All professors and students need to have a modern and well-equipped library",
+        "C3": "it does not have the same priority of library has",
+        "C4": "there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income",
+        "C5": "investing in libraries has a long-time result"
+    },
+    "Premises": {
+        "P1": "a library is vital and strategical part of a university",
+        "P2": "after internet, library plays an important role in research",
+        "P3": "sport is important",
+        "P4": "only small part of students attend sport activities",
+        "P5": "in my university number of students who use the library is much more than students do sports activities",
+        "P6": "universities support is vital for libraries",
+        "P7": "Most libraries are free not for students also for public",
+        "P8": "usually libraries do not have income",
+        "P9": "sport activities have a good income",
+        "P10": "every sport has different matches and for each match they have a lot sponsors",
+        "P11": "they have this chance to sell their important matches tickets",
+        "P12": "a library can buy a lot of new books or they can buy more computers",
+        "P13": "Most of the library facilities are stable and you can use them for a long time",
+        "P14": "in the far future, they become more valuable",
+        "P15": "most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

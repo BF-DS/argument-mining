@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "It seems to me that students should start learning that as they start school",
+        "MC2": "children should start learning a foreign language in the beginning of the education"
+    },
+    "Claims": {
+        "C1": "Learning that not only help them to improve their minds and memories, but can extend their visions about the other countries",
+        "C2": "it is easy to distinguish between a child having two languages and a child having just his native language while comparing their ability to communicate, understanding other studies, etc",
+        "C3": "this time is the best time to learn any language",
+        "C4": "they would be able to develop their personalities and sense of reliance"
+    },
+    "Premises": {
+        "P1": "They can easily understand the language structure and memorize the vocabularies",
+        "P2": "the ability of Learning in the childhood period is more powerful than other periods of life",
+        "P3": "students in the beginning of their education can learn faster and easier in compare to a young one to understand a foreign language",
+        "P4": "the persistence of learning a knowledge in the childhood is more than other period of lives",
+        "P5": "They would be able to understand other cultures and costumes",
+        "P6": "It can give them a sense of power to communicate better with peers in other parts of the World",
+        "P7": "Having knowledge about other countries and their languages lead to extend the child's vision",
+        "P8": "Learning a foreign language helps students tremendously to comprehend what happens in the around World"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

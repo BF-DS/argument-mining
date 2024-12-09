@@ -1,0 +1,24 @@
+MC1	MajorClaim 378 487	I agree only to certain degree that in today's world, image serves as a more effective means of communication
+MC2	MajorClaim 1697 1809	both images and words go hand in hand and one cannot wholly emphasise on only one aspect, either images or words
+C1	Claim 1105 1200	it is undeniable that images in the absence of words can obviously claim the attraction of many
+A1	Stance C1 For
+C2	Claim 498 541	pictures can influence the way people think
+A2	Stance C2 For
+P1	Premise 556 661	nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking
+P2	Premise 676 799	statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit
+R1	supports Arg1:P1 Arg2:P2	
+P3	Premise 816 1007	the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan
+P4	Premise 1026 1097	images are also widely used in newspapers, magazines and advertisements
+R2	supports Arg1:P4 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+R4	supports Arg1:P2 Arg2:C2	
+C3	Claim 1236 1307	written words are also vital in order to spread across certain messages
+A3	Stance C3 For
+P5	Premise 1309 1405	With only pictures, everyone is left to their own interpretation on how they perceive the images
+P6	Premise 1420 1499	this is different when words are used to explain what the illustration is about
+P7	Premise 1514 1571	the primary way of educating students is also by this way
+P8	Premise 1573 1682	Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	

@@ -1,0 +1,90 @@
+{
+    "MajorClaims": {
+        "MC1": "the importance of traditions should be valued and paid attention to",
+        "MC2": "protection of tradition is not only important for the entire society currently, but also contributes to the next generation"
+    },
+    "Claims": {
+        "C1": "Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit",
+        "C2": "protecting traditions consume too much financial budget compared with the incoming it takes",
+        "C3": "the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them"
+    },
+    "Premises": {
+        "P1": "technology takes convenience to humankind",
+        "P2": "it also contributes to unhealthy behaviors of life, like sedentary lifestyle",
+        "P3": "traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance",
+        "P4": "traditional skills rely little on fossil energy",
+        "P5": "it is more environmentally-friendly, which should be promoted to reduce the threat of climate change",
+        "P6": "those tradition-related things convey traditional culture and values",
+        "P7": "These are important foundation of modern civilization",
+        "P8": "Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems",
+        "P9": "this kind of business bring limited contribution to government finance",
+        "P10": "the expense is trivial compared with the potential value of traditions"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "attacks",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C1"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P10",
+            "Relation": "attacks",
+            "target": "P9"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

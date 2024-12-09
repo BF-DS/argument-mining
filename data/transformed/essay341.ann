@@ -1,0 +1,28 @@
+MC1	MajorClaim 338 405	the importance of traditions should be valued and paid attention to
+P1	Premise 560 601	technology takes convenience to humankind
+P2	Premise 603 679	it also contributes to unhealthy behaviors of life, like sedentary lifestyle
+C1	Claim 407 549	Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit
+A1	Stance C1 For
+P3	Premise 690 805	traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance
+P4	Premise 839 886	traditional skills rely little on fossil energy
+P5	Premise 888 988	it is more environmentally-friendly, which should be promoted to reduce the threat of climate change
+P6	Premise 1002 1070	those tradition-related things convey traditional culture and values
+P7	Premise 1072 1125	These are important foundation of modern civilization
+P8	Premise 1127 1258	Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems
+C2	Claim 1320 1411	protecting traditions consume too much financial budget compared with the incoming it takes
+A2	Stance C2 Against
+P9	Premise 1434 1504	this kind of business bring limited contribution to government finance
+P10	Premise 1535 1605	the expense is trivial compared with the potential value of traditions
+C3	Claim 1617 1799	the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them
+A3	Stance C3 For
+MC2	MajorClaim 1813 1936	protection of tradition is not only important for the entire society currently, but also contributes to the next generation
+R1	attacks Arg1:P2 Arg2:P1	
+R2	attacks Arg1:P1 Arg2:C1	
+R3	supports Arg1:P7 Arg2:P6	
+R4	supports Arg1:P4 Arg2:P5	
+R5	supports Arg1:P3 Arg2:C1	
+R6	supports Arg1:P5 Arg2:C1	
+R7	supports Arg1:P6 Arg2:C1	
+R8	supports Arg1:P8 Arg2:C1	
+R9	attacks Arg1:P10 Arg2:P9	
+R10	supports Arg1:P9 Arg2:C2	

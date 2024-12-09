@@ -1,0 +1,54 @@
+{
+    "MajorClaims": {
+        "MC1": "smoking should be made prohibited in public places such as bus and railway stations",
+        "MC2": "it has been proven benefits people enjoy this arrangement"
+    },
+    "Claims": {
+        "C1": "non-smoking public would be undoubtedly benefited by enforcing such restrain",
+        "C2": "introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing"
+    },
+    "Premises": {
+        "P1": "Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely",
+        "P2": "Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents",
+        "P3": "After enforcing restrictions the situation came to control and this act as benefit rendered to the public",
+        "P4": "further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health",
+        "P5": "smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "MajorClaims": {
+        "MC1": "human activities are having a bad effect upon our planet",
+        "MC2": "human activity are gradually destroy the Earth"
+    },
+    "Claims": {
+        "C1": "human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species",
+        "C2": "People are corrupting their ecosphere",
+        "C3": "people are draining the Earth's natural resources",
+        "C4": "people are endangering other species' live",
+        "C5": "it is polluting the Earth environment, depleting the resource and imperiling other species' lives"
+    },
+    "Premises": {
+        "P1": "In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies",
+        "P2": "These wastes including household waste and industrial waste are so big that a \"new\" continent is now being formed in the sea from garbage",
+        "P3": "the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change",
+        "P4": "These resources such as oil, coal are vital for human activity",
+        "P5": "nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people",
+        "P6": "Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted",
+        "P7": "At that time, human activity will be seriously affected due to the dependence on these resources",
+        "P8": "Hunting has been a fundamental activity of human for having food",
+        "P9": "Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct",
+        "P10": "people, suffering from the population pressure, are expanding their living area",
+        "P11": "the living area of other species narrowed",
+        "P12": "This narrowing of living region is pushing many creatures to the brink of extinction"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

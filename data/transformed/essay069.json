@@ -1,0 +1,72 @@
+{
+    "MajorClaims": {
+        "MC1": "This, contrary to some ideas, is a positive progress in human society",
+        "MC2": "in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles"
+    },
+    "Claims": {
+        "C1": "Women nowadays are much more active, they may be successful businessmen, they join the political world, they become scientists and so on",
+        "C2": "the revolution in females' right has brought about many benefits not only to themselves but society as well",
+        "C3": "such changes do lead to some negative results like an upward trend in divorce rate"
+    },
+    "Premises": {
+        "P1": "the \"weaker\" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men, not to mention they even perform better in some fields",
+        "P2": "Gone are the days when women could do nothing rather than stick to boring house work and take care of children",
+        "P3": "the fairness between males and females is inevitable in such a developed society",
+        "P4": "The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money",
+        "P5": "women have the outstanding instinct to take up some careers like healthcare or human resource management due to their patience and elaboration",
+        "P6": "women find it difficult to balance their work and their traditional role as the wives",
+        "P7": "children might enjoy less care from parents as they are both busy with their work"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

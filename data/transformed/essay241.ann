@@ -1,0 +1,28 @@
+MC1	MajorClaim 119 177	life in a city is much better than life in the countryside
+C1	Claim 188 237	in the city there is much better education system
+A1	Stance C1 For
+P1	Premise 256 375	the schools and the universities have well equipped classes and the famous professors would like to work in such places
+C2	Claim 405 463	city provides more work opportunities than the countryside
+A2	Stance C2 For
+P2	Premise 465 522	There are not only more jobs, but they are also well-paid
+P3	Premise 534 568	living in a city is more expensive
+P4	Premise 574 592	incomes are higher
+C3	Claim 608 702	in the urban areas there are also more citizens what means, that the culture diversity is huge
+A3	Stance C3 For
+P5	Premise 704 825	Meeting and knowing new people's tradition is an unforgettable experience, which could influence on one's previous habits
+P6	Premise 840 886	the city has well-organised lines of transport
+P7	Premise 888 950	The buses and trains are more frequent than in the countryside
+C4	Claim 955 993	the city provides better communication
+C5	Claim 1004 1077	in the countryside there are many places to rest, because of its location
+A5	Stance C5 Against
+P8	Premise 1089 1167	peaceful and close to the nature areas could help to avoid worries and sadness
+MC2	MajorClaim 1207 1249	living in the city is much better nowadays
+A7	Stance C4 For
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C2	
+R3	attacks Arg1:P4 Arg2:P3	
+R4	attacks Arg1:P3 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P7 Arg2:C4	
+R7	supports Arg1:P6 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C5	

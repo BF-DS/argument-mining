@@ -1,0 +1,72 @@
+{
+    "MajorClaims": {
+        "MC1": "computer can influence society, and people's lives have already been controlled by device",
+        "MC2": "in era technology like this age, computer becomes important thing in human life"
+    },
+    "Claims": {
+        "C1": "people cannot pass the day without stay in front of computer or using it",
+        "C2": "this modern device has been a major hindrance to some people",
+        "C3": "using computer can make people easier to complete their work"
+    },
+    "Premises": {
+        "P1": "This situation becomes lifestyle habits, and nowadays human activities are influenced by computer use",
+        "P2": "they spend almost nine hours a day dealing with computers as to produce efficient time in working",
+        "P3": "A study conducted by Mediabank shows that majority of Australian adults do not socialize with their families and friends as much as they used to",
+        "P4": "the idea that computers could be a help has been neglected",
+        "P5": "This is due to using computer more efficient and, many workers cannot do more in work without computer",
+        "P6": "Communication by feature-computer such as email and internet help busy businessmen to make deal with relation even in different country",
+        "P7": "Businessmen, for example, use computer device to presentation or communication with their colleagues"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

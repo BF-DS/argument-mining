@@ -1,0 +1,20 @@
+MC1	MajorClaim 299 341	cheap flight can make many serious problem
+C1	Claim 365 473	cheap air fares have broadened travel possibilities for many people, particularly for the lower income group
+A1	Stance C1 Against
+P1	Premise 475 554	These days, millions of people can travel around the world for work or pleasure
+P2	Premise 556 679	They can develop their careers, broad their knowledge, and interact with many other people from varied cultural backgrounds
+P3	Premise 691 805	travels also help to promote the tourist industry development, boost the economy and job markets of many countries
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P3 Arg2:C1	
+C2	Claim 826 893	growing of cheap flights really have negative impact on environment
+A2	Stance C2 For
+P4	Premise 907 1033	more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it
+P5	Premise 1044 1095	the biggest concern is the effect on global warming
+P6	Premise 1097 1191	Burning plane fuel can releases carbon dioxid into environment that cause the Earth to heat up
+P7	Premise 1202 1328	while many efforts are being made to reduce CO2 emissions from cars and factories, nothing is being done to reins the airlines
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+MC2	MajorClaim 1365 1419	the drawbacks of cheap air fares outweigh the benefits

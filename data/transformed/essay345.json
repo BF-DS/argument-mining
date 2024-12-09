@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "a balance between personal and professional life should be created by restricting maximum number of working hours",
+        "MC2": "I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies"
+    },
+    "Claims": {
+        "C1": "people working for extended hours have been found having adverse effects on their health and personal life",
+        "C2": "This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person",
+        "C3": "people; who prefer working longer hours, do not find time to focus on their health",
+        "C4": "these workaholic people do not spend time for the contribution of society by actively participating in any social campaign"
+    },
+    "Premises": {
+        "P1": "By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick",
+        "P2": "they become extensively addicted to their work and become workaholic type persons",
+        "P3": "The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life",
+        "P4": "they usually remain busy in their office",
+        "P5": "they do not find leisure time for such social activities",
+        "P6": "I would take my boss's example; he has been working for extended hours in office for many years",
+        "P7": "Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries",
+        "P8": "He started regretting afterwards and now trying to manage his work but it seems to be too late for him"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

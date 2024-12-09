@@ -1,0 +1,26 @@
+MC1	MajorClaim 198 259	a single modern culture is being created by modern technology
+MC2	MajorClaim 1726 1826	new technology has affected cultures of the world, and we can see many similarities in many cultures
+C1	Claim 1837 1917	new technology has influences on educational system, jobs and foods in the world
+A1	Stance C1 For
+C2	Claim 296 370	most of the countries have the same educational system based on technology
+A2	Stance C2 For
+P1	Premise 372 570	Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint
+P2	Premise 585 726	students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+P3	Premise 939 1086	many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries
+P4	Premise 1112 1186	jobs that are related to technology are in demand in most of the countries
+R3	supports Arg1:P3 Arg2:P4	
+C3	Claim 738 803	new technology has created some similar jobs all around the world
+A3	Stance C3 For
+P5	Premise 805 924	Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field
+R4	supports Arg1:P5 Arg2:C3	
+R5	supports Arg1:P4 Arg2:C3	
+C4	Claim 1217 1328	there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them
+A4	Stance C4 Against
+P6	Premise 1382 1516	many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures
+R6	attacks Arg1:P6 Arg2:C4	
+P7	Premise 1527 1586	cooks can find many new food recipes easily on the Internet
+P8	Premise 1601 1713	two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad
+R7	attacks Arg1:P7 Arg2:C4	
+R8	attacks Arg1:P8 Arg2:C4	

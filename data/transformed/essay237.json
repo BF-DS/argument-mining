@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "in general television and movies influence our behavior in bad ways more than in good ways",
+        "MC2": "most of the time they influence people\u2019s behavior in bad ways"
+    },
+    "Claims": {
+        "C1": "They make people to eat more rubbish food, spend less time with their friends and family, and be someone that are not themselves",
+        "C2": "There are a lot of people eating foods or snacks when they are watching television",
+        "C3": "Television and movies also make people to spend more time on their couch than with their family and friends, especially children",
+        "C4": "These advertisements build ideal images that make people to feel bad about themselves and want to be more like these images",
+        "C5": "television and movies are entertaining"
+    },
+    "Premises": {
+        "P1": "Most of the foods they eat are fat foods like chips or pizzas",
+        "P2": "It is not rocket science to know that these foods are not good for people\u2019s health",
+        "P3": "Many companies know about this behavior and use advertisements on television to make people buy more of these foods",
+        "P4": "In turn, people will consume these rubbish foods more and we have to deal with a lot of fat diseases",
+        "P5": "They communicate less with their parents",
+        "P6": "a lot of their time is used watching television and movies",
+        "P7": "When people are watching television or movies together, they also talk less to each other, compare to when playing social games, such as parlor games, together",
+        "P8": "they spend a lot of money to buy a lot of beauty products or go to gym to get better appearance or body",
+        "P9": "When people see beautiful women and men on the advertisements, they think that they are ugly",
+        "P10": "When a cool hero characters in a movie smokes and yet a lot of people like him, then people who idolize him may also begin to smoke although they don\u2019t prefer it"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        }
+    ]
+}

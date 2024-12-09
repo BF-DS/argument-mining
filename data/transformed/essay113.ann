@@ -1,0 +1,30 @@
+MC1	MajorClaim 1915 2027	richer nations should take more responsibility for helping the poorer nations in all health, education and trade
+C1	Claim 2029 2156	Improvements in these areas will create a better life for residents in poorer nations which they can use to grow their homeland
+A1	Stance C1 For
+MC2	MajorClaim 171 257	Poorer nations need help from richer nations in these areas to develop their countries
+C2	Claim 638 766	richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals
+A2	Stance C2 For
+P1	Premise 268 382	in the area of health, poorer nations normally have less quantity of doctors and nurses compared to richer nations
+P2	Premise 384 521	High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident
+P3	Premise 539 613	poorer nations are lack of hospitals to fulfill the demand of the patients
+R1	supports Arg1:P3 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P1 Arg2:C2	
+C3	Claim 1102 1210	richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries
+A3	Stance C3 For
+C4	Claim 1223 1332	for the issue of education fee, richer countries should offer scholarships and loan to the qualified students
+A4	Stance C4 For
+P4	Premise 778 936	in the area of education, it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions
+P5	Premise 952 1050	education for these countries normally is not free so only certain group of students can afford it
+R4	supports Arg1:P4 Arg2:C3	
+R5	supports Arg1:P5 Arg2:C4	
+C5	Claim 1342 1462	in the area of trade, no one can deny that poorer countries are lagging behind richer countries due to shortage of money
+A5	Stance C5 For
+P6	Premise 1464 1570	Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure
+P7	Premise 1585 1660	residents in rural areas still depend on their own farm for food production
+P8	Premise 1686 1771	richer nations can provide financial service to poorer countries to encourage trading
+P9	Premise 1773 1898	The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading
+R6	supports Arg1:P6 Arg2:C5	
+R7	supports Arg1:P7 Arg2:C5	
+R8	supports Arg1:P8 Arg2:C5	
+R9	supports Arg1:P9 Arg2:C5	

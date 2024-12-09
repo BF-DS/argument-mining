@@ -1,0 +1,34 @@
+MC1	MajorClaim 252 358	popular sports events can help reduce international tensions remarkably and promote national prides safely
+MC2	MajorClaim 2130 2293	international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely
+C1	Claim 498 586	they can improve their results, break records and bring victories to their own countries
+A1	Stance C1 For
+C2	Claim 752 892	sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations
+A2	Stance C2 For
+C3	Claim 2034 2113	sport events help to wake up love and responsibilities strongly in each citizen
+A3	Stance C3 For
+P1	Premise 380 489	sports events are good chances for excellent athletes to meet and learn valuable experiences from one another
+P2	Premise 596 666	a large number of people will gather in the host city for sport events
+P3	Premise 668 736	there are many good opportunities for discovering different cultures
+P4	Premise 894 1105	After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations
+P5	Premise 1117 1220	sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators
+P6	Premise 1222 1304	Seeing national flags be honored may be the most emotional moments to each athlete
+P7	Premise 1306 1424	The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country
+P8	Premise 1426 1540	When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness
+P9	Premise 1556 1677	when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets
+P10	Premise 1679 1796	People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President
+P11	Premise 1798 1840	The eager atmosphere lasted many next days
+P12	Premise 1851 1946	some hooligans were so excited that they took part in motor racing or using fireworks illegally
+P13	Premise 1957 2001	the hooligans only took a minority of people
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:P3	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+R11	attacks Arg1:P13 Arg2:P12	
+R9	attacks Arg1:P12 Arg2:P8	
+R10	supports Arg1:P9 Arg2:P8	
+R12	supports Arg1:P10 Arg2:P8	
+R13	supports Arg1:P11 Arg2:P8	

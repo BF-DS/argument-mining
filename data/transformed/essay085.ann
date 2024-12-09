@@ -1,0 +1,36 @@
+MC1	MajorClaim 504 638	CCTV cameras should be installed in every premise to combat the ever increasing theft rate and to protect the workers at the workplace
+MC2	MajorClaim 2404 2479	CCTV cameras are essential and therefore must be installed in every premise
+C1	Claim 2481 2560	This is chiefly to shield oneself from being harmed by any intruders or robbers
+A1	Stance C1 For
+P1	Premise 2574 2622	privacies are lost with the use of these cameras
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 2637 2683	safety should be put first in order to be safe
+R2	attacks Arg1:P2 Arg2:P1	
+C2	Claim 1229 1300	CCTVs must be put in all workplace so that crime rates can be minimized
+A2	Stance C2 For
+P3	Premise 649 728	by having CCTV cameras at workplace, crimes such as robbery can be trimmed down
+P4	Premise 746 877	when a shop is attacked by thieves, the clips taken by these cameras serve as a source of evidence to help the thieves to be traced
+P5	Premise 907 1080	in Malaysia, policemen used the videos captured by the CCTV cameras to trace and successfully catch a group of robbers who broke into a Seven Eleven shop during the midnight
+P6	Premise 1097 1204	as the employees know that they are under constant surveillance, they will less likely steal from the shops
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P5 Arg2:C2	
+R8	supports Arg1:P4 Arg2:C2	
+P7	Premise 1511 1588	the installation of CCTV cameras may help the employees escape this situation
+C3	Claim 1805 1899	these cameras can help to provide some form of protection to the workers against the customers
+A4	Stance C3 For
+P8	Premise 1597 1663	the customers know very well that their conversations are recorded
+R10	supports Arg1:P8 Arg2:P7	
+P9	Premise 1315 1400	at some offices, employees are often required to handle angry or frustrated customers
+P10	Premise 1412 1502	face-to-face interactions with an annoyed customer can put the employee in physical danger
+R11	supports Arg1:P10 Arg2:P7	
+R12	supports Arg1:P7 Arg2:C3	
+R13	supports Arg1:P9 Arg2:C3	
+C4	Claim 1983 2096	Those opposing the CCTV systems feel that their privacies are invaded with the constant monitoring of the cameras
+A5	Stance C4 Against
+P11	Premise 2107 2251	one must realize that safety is of paramount importance compared to privacy and prevention is always better than suffering from the consequences
+P12	Premise 2259 2389	opponents of this system should try to comprehend the situation and take actions to prevent themselves from being victims of crime
+R14	supports Arg1:P11 Arg2:C4	
+R15	supports Arg1:P12 Arg2:C4	
+P13	Premise 1694 1793	the videotapes can used to determine what actually took place and further actions can be then taken
+R16	supports Arg1:P13 Arg2:C3	
+R3	supports Arg1:P3 Arg2:C2	

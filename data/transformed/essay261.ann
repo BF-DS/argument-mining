@@ -1,0 +1,34 @@
+MC1	MajorClaim 633 678	the art and music should be required to study
+C1	Claim 349 443	the art and music, from my point of view, are also essential for younger student's future life
+A1	Stance C1 For
+P1	Premise 452 587	those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays
+R1	supports Arg1:P1 Arg2:C1	
+P2	Premise 776 966	It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures
+P3	Premise 993 1140	learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures
+P4	Premise 1156 1295	students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played
+R2	supports Arg1:P4 Arg2:P3	
+C2	Claim 694 774	art and music would broaden student's horizon and therefore make them thoughtful
+A2	Stance C2 For
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+P5	Premise 1413 1624	with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself
+P6	Premise 1626 1751	Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life
+P7	Premise 1753 1970	When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for
+P8	Premise 1988 2080	they would totally involve in the ocean of art and their stressful nervous would be relieved
+P9	Premise 2094 2157	this sense towards art is built on the initial study on the art
+C3	Claim 1311 1400	studying art and music is also the appropriate outlets of stress and superb ways to relax
+A3	Stance C3 For
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P7 Arg2:P6	
+R7	supports Arg1:P8 Arg2:P6	
+R8	supports Arg1:P9 Arg2:P6	
+R9	supports Arg1:P6 Arg2:C3	
+P10	Premise 2171 2251	the study of art and music is supposed to rely on younger student's own interest
+C4	Claim 2328 2492	the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure
+A5	Stance C4 For
+P11	Premise 2253 2320	The education of art and music would not work if students resist it
+R10	supports Arg1:P11 Arg2:C4	
+R11	supports Arg1:P10 Arg2:C4	
+MC2	MajorClaim 2659 2733	younger students' art and music education should not take the second place
+C5	Claim 2509 2657	in the modern society, since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure
+A4	Stance C5 For

@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "smoking should not be permitted, especially in public places like restaurants",
+        "MC2": "smoking should not be permitted in restaurants"
+    },
+    "Claims": {
+        "C1": "it will make the non-smokers breathe uncomfortably",
+        "C2": "Smoking in restaurants will absolutely disturb other people in enjoying their meals",
+        "C3": "Smoking in restaurants can give a bad example to the children",
+        "C4": "Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs",
+        "C5": "it is unfair for passive smokers",
+        "C6": "there will be a lot of people get disadvantaged"
+    },
+    "Premises": {
+        "P1": "restaurants are places where people come and pay some money to enjoy their meals",
+        "P2": "They will not be able to enjoy their meals while breathing in smoke around them",
+        "P3": "restaurants are places that people usually come with their families",
+        "P4": "there will be children, grandparents, as well as pregnant women inside the restaurants",
+        "P5": "Children have a high potential to imitate what adults do",
+        "P6": "they have really high curiosity towards something",
+        "P7": "The most dangerous people that would be affected by smoke are the pregnant women",
+        "P8": "they will breathe in the contaminated air and it will disrupt the growth of the babies",
+        "P9": "they do not smoke but they have same health risks as the active one",
+        "P10": "passive smokers will have a lot of health risks",
+        "P11": "When they are around the active smokers, they will inhale hazardous smoke",
+        "P12": "Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "C6",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

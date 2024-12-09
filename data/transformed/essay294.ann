@@ -1,0 +1,44 @@
+MC1	MajorClaim 299 352	professors should be encouraged to mainly do research
+MC2	MajorClaim 2030 2106	it is natural to support the professors spending more time on doing research
+C1	Claim 2108 2224	While extending the way of their own development, the outcomes of the researches will also benefit the whole society
+A1	Stance C1 For
+P1	Premise 554 649	by doing research, professors could catch up with the latest development of modern technologies
+P2	Premise 479 539	The research projects provide communication with the outside
+P3	Premise 368 429	doing research is a method of self-improvement for professors
+P4	Premise 431 477	Universities are relatively fenced environment
+P5	Premise 651 748	I still remembered that my professor took part in several research projects when I was in college
+P6	Premise 750 805	He was often invited to do speech in other universities
+P7	Premise 816 903	my university is not in the high-ranking list, he gained a reputation by those projects
+C2	Claim 905 965	The research projects like windows opened to the wider world
+A2	Stance C2 For
+R1	supports Arg1:P4 Arg2:C2	
+R2	supports Arg1:P5 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P7 Arg2:C2	
+R5	supports Arg1:P1 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P3 Arg2:C2	
+P8	Premise 1141 1219	you could not find another place with so much talent people gathering together
+P9	Premise 1235 1313	there is really no reason to discourage professors from using those advantages
+P10	Premise 1065 1133	It is very common to see state-of-the-art laboratories in the campus
+R8	supports Arg1:P8 Arg2:P9	
+P11	Premise 1315 1420	We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin
+P12	Premise 1422 1480	Universities positively contribute the professors' success
+C3	Claim 977 1063	professors should fully use the research-friendly environment provided by universities
+A3	Stance C3 For
+R9	supports Arg1:P10 Arg2:C3	
+R10	supports Arg1:P9 Arg2:C3	
+R11	supports Arg1:P11 Arg2:C3	
+R12	supports Arg1:P12 Arg2:C3	
+C4	Claim 1503 1557	doing research could also improve the teaching quality
+A4	Stance C4 For
+P13	Premise 1559 1675	With the help of research projects, professors could lead their students into the practical world from the classroom
+P14	Premise 1677 1746	They can easily teach students how to imply the knowledge in practice
+P15	Premise 1748 1845	I still remembered the experience of being an assistant in one of my professor's research project
+P16	Premise 1847 1944	By participating in it, I had opportunities to use theories on textbooks in real life experiments
+P17	Premise 1946 2008	The research project provides a more efficient way of teaching
+R14	supports Arg1:P13 Arg2:C4	
+R15	supports Arg1:P14 Arg2:C4	
+R16	supports Arg1:P15 Arg2:C4	
+R17	supports Arg1:P16 Arg2:C4	
+R13	supports Arg1:P17 Arg2:C4	

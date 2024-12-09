@@ -1,0 +1,36 @@
+MC1	MajorClaim 327 406	it is good for a teenager to do a part time job while he/she is still a student
+MC2	MajorClaim 2017 2056	part time job will be good for students
+C1	Claim 1863 1904	it can destruct students from their study
+A1	Stance C1 Against
+P1	Premise 1918 1994	i did part time job in my high school and it did not hurt my academic result
+R1	attacks Arg1:P1 Arg2:C1	
+P2	Premise 546 639	Students can learn about time management, money management and convince people by their words
+P3	Premise 654 727	when I was in my high school I worked as a sales-man in a shop for a year
+P4	Premise 785 820	i had to manage my time efficiently
+P5	Premise 729 772	As i had to spend some of my time in my job
+R2	supports Arg1:P5 Arg2:P4	
+P6	Premise 822 883	I had to manage my boss as well as had to prepare my homework
+P7	Premise 885 969	This taught me how to manage time efficiently and do any job quickly and effectively
+P8	Premise 981 1005	I learn money management
+P9	Premise 1007 1089	When my boss was out of the shop, i had to manage the accounts section of the shop
+R3	supports Arg1:P9 Arg2:P8	
+P10	Premise 1091 1141	From this i learned, how to manage money correctly
+P11	Premise 1143 1228	This experience taught me, doing part time job can help students to learn many things
+C2	Claim 460 544	students can learn lots of things from part time job, before starting their real job
+A2	Stance C2 For
+R4	supports Arg1:P2 Arg2:C2	
+R5	supports Arg1:P4 Arg2:P3	
+R6	supports Arg1:P6 Arg2:P3	
+R7	supports Arg1:P7 Arg2:P4	
+R8	supports Arg1:P8 Arg2:P3	
+R9	supports Arg1:P10 Arg2:P3	
+R10	supports Arg1:P11 Arg2:P3	
+R11	supports Arg1:P3 Arg2:C2	
+C3	Claim 1253 1326	from part time jobs students can earn money, which can help their parents
+A3	Stance C3 For
+P12	Premise 1674 1761	part time job can help students earn money and which can help their parents financially
+P13	Premise 1499 1564	By tutoring them, i earned some money and bought me books with it
+P14	Premise 1576 1656	after taking that part time job i stopped taking my pocket money form my parents
+R12	supports Arg1:P13 Arg2:C3	
+R13	supports Arg1:P14 Arg2:C3	
+R14	supports Arg1:P12 Arg2:C3	

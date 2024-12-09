@@ -1,0 +1,24 @@
+MC1	MajorClaim 76 153	modern people are facing up to a new health problems and ailments than before
+MC2	MajorClaim 1490 1548	people are facing up with many recently appeared illnesses
+C1	Claim 178 215	it is because of sedentary lifestlyle
+A1	Stance C1 For
+C2	Claim 389 445	sedentary lifestyle lead to many serious health problems
+A2	Stance C2 For
+P1	Premise 447 572	The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology
+P2	Premise 729 761	they had more outdoor activities
+P3	Premise 574 712	In earlier times, for instance, even the types of entertainment tools were not in large numbers and all of them required physical presence
+R1	supports Arg1:P3 Arg2:P2	
+P4	Premise 763 886	Nowadays people, especially inhabitants of cities, are spending most of their time on sitting in front of TV or other tools
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+C3	Claim 934 982	people are experiencing serious medical problems
+A3	Stance C3 For
+P5	Premise 993 1103	the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses
+R5	supports Arg1:P5 Arg2:C3	
+P6	Premise 1105 1181	Many people, for example, are suffering from allergy because of these gasses
+R6	supports Arg1:P6 Arg2:P5	
+P7	Premise 1193 1328	foods with a low quality such as fast foods, junk foods and any genetically modified ones are influencing to our health very negatively
+P8	Premise 1339 1445	life becoming more stressful due to some recent problems such as traffic gam, traffic accidents and others
+R7	supports Arg1:P7 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	

@@ -1,0 +1,60 @@
+{
+    "MajorClaims": {
+        "MC1": "mass media deal too much with superficial things",
+        "MC2": "television, magazines and newspapers pay too much attention of peoples' private lives for all the reasons mentioned above, namely to increase audience or readership and to give exciting and shocking news to a society which feed upon gutter press and Tabloid TV"
+    },
+    "Claims": {
+        "C1": "television and newspapers focus on famous peoples' lives in order to increase their audience or readership",
+        "C2": "we live in a society where the most important thing is appearance and gossip"
+    },
+    "Premises": {
+        "P1": "Gutter press and Tabloid TV are more and more replacing quality papers or documentaries programs",
+        "P2": "Thanks to the Internet, we can go online and have access to information from all over the world",
+        "P3": "mass media don't need any more to keep informed people but their goal is to have enough readers or TV audience",
+        "P4": "Nowadays, unscrupulous paparazzi constantly follow celebrities just to take a photo while they are eating or training",
+        "P5": "Newspapers often receive accusations of checkbook journalism; this means that magazines pay people a lot of money for stories or photos",
+        "P6": "there are Reality TV, television programs in which people are put into artificial environments and situations, for example like \"Big Brother\""
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

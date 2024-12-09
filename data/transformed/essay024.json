@@ -1,0 +1,83 @@
+{
+    "MajorClaims": {
+        "MC1": "it still has its bad side, especially for children"
+    },
+    "Claims": {
+        "C1": "it is undeniable that computer is a crucial part of human life",
+        "C2": "using computer constantly has bad influence on children's eyes",
+        "C3": "people who are addicted to games, especially online games, can eventually bear dangerous consequences",
+        "C4": "even people who are not interested in online game can still be negatively affected by using computer too much"
+    },
+    "Premises": {
+        "P1": "When they concentrate on computer for too long, their eyes will get tired, which is the main reason for some eyes problems, typically shortsighted",
+        "P2": "children who play games too much on computer can seriously lack communicating skills",
+        "P3": "several teenagers play games without rest, which leads to health depression",
+        "P4": "a typical example is the death of Korean gamer, who had a non-stop playing for 3 days",
+        "P5": "Some social surveys have shown that a few children use computer for studying purpose, most of them are attracted by facebook, blog, etc. instead",
+        "P6": "they will have a bad result in school",
+        "P7": "when they can not live without internet, they will have no time for their studying",
+        "P8": "they will know little about the outside life"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

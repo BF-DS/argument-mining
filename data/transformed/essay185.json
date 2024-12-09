@@ -1,0 +1,114 @@
+{
+    "MajorClaims": {
+        "MC1": "new forms of energy cannot soon replace fossil fuels such as gases, oil, and coal",
+        "MC2": "there is no way those new forms of energy will replace fossil fuels soon"
+    },
+    "Claims": {
+        "C1": "due to the limitation of technology renewable resources are relatively expensive",
+        "C2": "these new forms of energy may not be as clean and green as we think",
+        "C3": "contemporarily fossil fuels cause serious environmental conundrums such as acid rain, deduction of ozone layer and global warming"
+    },
+    "Premises": {
+        "P1": "Researches in renewable energy cost a huge amount of money which developing countries cannot afford",
+        "P2": "fossil fuels are abundant and inexpensive in many areas",
+        "P3": "it is estimated that China has the largest deposit of coal in the world and the government does not want to invest too much money on new forms of energy, say expensive solar batteries and wind farms",
+        "P4": "the plan of renewable resources of energy may face challenges in that not every country can afford the reforming",
+        "P5": "utility companies claim that renewable energy is environmentally friendly",
+        "P6": "Latest studies have shown that these renewable resources of energy are problematic as well and they are very likely to pose long-term environmental hazards",
+        "P7": "the dams built for hydroelectricity influence the water flows of the rivers and sometimes cause drought in areas in front of the dams",
+        "P8": "This damages the habitats of many valuable fish and wading birds",
+        "P9": "the accumulation of heavy metal in the silt on the bottom of the rivers behind the dams is extremely difficult and expensive to clean up; leaving problems for the following generations",
+        "P10": "renewable resources are not as reliable as we think",
+        "P11": "these problems can be solved by improving efficiency of the mechanism and reducing emissions",
+        "P12": "we can use chemicals to desulfurize the emissions from plants and vehicles to avoid acid rain",
+        "P13": "These improving methods are often cheaper and simpler compared to the high-tech of renewable energy",
+        "P14": "With these solutions fossil fuels seem more sustainable"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P11",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P13",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P14",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

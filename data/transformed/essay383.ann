@@ -1,0 +1,15 @@
+MC1	MajorClaim 1547 1612	technology has a great contribution to our lives and civilization
+C1	Claim 1614 1693	We can not neglect profound impact of great technological process on human life
+A1	Stance C1 For
+C2	Claim 510 598	thanks to modern technology invented recently, human life has been improved dramatically
+A2	Stance C2 For
+P1	Premise 600 777	Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities
+R1	supports Arg1:P1 Arg2:C2	
+P2	Premise 789 925	applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives
+R2	supports Arg1:P2 Arg2:C2	
+C3	Claim 1053 1157	technological products have devastated the natural environment indirectly through its production process
+A3	Stance C3 Against
+P3	Premise 1175 1323	exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously
+C4	Claim 1345 1507	technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements
+A4	Stance C4 Against
+R3	supports Arg1:P3 Arg2:C3	

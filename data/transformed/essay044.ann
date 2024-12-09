@@ -1,0 +1,21 @@
+MC1	MajorClaim 1340 1425	it would be a better implication by the government to promote other sources of energy
+C1	Claim 1427 1525	This can make use of the available natural resources which in turn would reduce the global warming
+A1	Stance C1 For
+C2	Claim 834 935	it would be a good implication by the government to generate electricity from other available sources
+A2	Stance C2 For
+P1	Premise 346 387	the major source of energy today is water
+P2	Premise 398 500	there is a lot of water shortage to generate electricity many countries still rely only on this source
+P3	Premise 502 576	To generate such a vast energy the fundamental resources are falling short
+P4	Premise 584 672	during summer there will be a lot of power cut in the developing countries such as India
+R2	supports Arg1:P3 Arg2:P4	
+P5	Premise 674 821	If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity
+R3	supports Arg1:P1 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C2	
+C3	Claim 947 1089	the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming
+A3	Stance C3 For
+P6	Premise 1104 1201	the use of a solar cooker instead of an electric cooker would certainly reduce the global warming
+P7	Premise 1220 1325	the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+R1	supports Arg1:P2 Arg2:C2	

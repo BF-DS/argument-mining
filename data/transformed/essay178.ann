@@ -1,0 +1,28 @@
+MC1	MajorClaim 94 161	it is a good idea to build a large shopping center in our community
+P1	Premise 213 323	the establishment of a large shopping center will provide the residents a more convenient place to go shopping
+P2	Premise 353 562	Queens Center Mall, a shopping mall located in Queens borough of New York City, provides a wide vairtey of stores, products and services, from clothing to electronics and restaurants, that consumers can choose
+P3	Premise 590 640	it is one of the most productive malls in New York
+P4	Premise 655 751	I could find virtually every brand or store, including Macy's and JCPenney, when I visited there
+C1	Claim 779 870	a large shopping mall provides a location for residents to pursue during their leisure time
+A2	Stance C1 For
+R5	supports Arg1:P2 Arg2:C1	
+R6	supports Arg1:P3 Arg2:C1	
+R7	supports Arg1:P4 Arg2:C1	
+C2	Claim 885 948	it not only provides a place to shop but also offer people jobs
+A3	Stance C2 For
+P5	Premise 950 1053	There may be a great number of job vacancies in the need of opening the new stores in the shopping mall
+R8	supports Arg1:P5 Arg2:C2	
+P6	Premise 1055 1147	It could be an opportunity for people who are looking for a part-time job or a full time job
+P7	Premise 1149 1249	Some students and retirees may work there in order to whiling away their free time and earning money
+R9	supports Arg1:P6 Arg2:C2	
+R10	supports Arg1:P7 Arg2:C2	
+C3	Claim 1259 1371	it is more likely for us to buy goods in lower price in the shopping center, and save our time on the other hand
+A4	Stance C3 For
+P8	Premise 1373 1482	There may be a competition between the new shopping center and other existing stores to attract the customers
+P9	Premise 1497 1604	with sales promotion, it is easy for consumers to compare the price of the same merchandise before they buy
+P10	Premise 1619 1740	the residents do not have a problem spending time on commute in the hope of setting up a shopping center near their homes
+R11	supports Arg1:P8 Arg2:C3	
+R12	supports Arg1:P9 Arg2:C3	
+R13	supports Arg1:P10 Arg2:C3	
+MC2	MajorClaim 1775 1878	I advocate building a big shopping center in my neighborhood, which will be beneficial to our community
+R1	supports Arg1:P1 Arg2:C1	

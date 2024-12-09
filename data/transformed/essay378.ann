@@ -1,0 +1,24 @@
+MC1	MajorClaim 359 430	the teacher is the best option for children's education in some aspects
+MC2	MajorClaim 1680 1726	teachers are the best for children's education
+C1	Claim 1728 1921	Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world
+A1	Stance C1 For
+P1	Premise 542 673	to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge
+P2	Premise 684 813	in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics
+C2	Claim 453 526	school teachers are more qualified than parents in the field of education
+A2	Stance C2 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+C3	Claim 828 929	teaching staff are professional and experienced in terms of promoting children's communication skills
+A3	Stance C3 For
+P3	Premise 944 1174	after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills
+P4	Premise 1189 1340	parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P4 Arg2:C3	
+C4	Claim 1616 1663	it was impossible for them to be a good teacher
+A4	Stance C4 For
+P5	Premise 1363 1447	compared with teachers, parents do not have enough time to spend with their children
+P6	Premise 1449 1541	Nowadays we are facing a global economic crisis and it is necessary for both parents to work
+P7	Premise 1549 1608	there is only limited time for them to teach their children
+R5	supports Arg1:P6 Arg2:P7	
+R6	supports Arg1:P7 Arg2:C4	
+R7	supports Arg1:P5 Arg2:C4	

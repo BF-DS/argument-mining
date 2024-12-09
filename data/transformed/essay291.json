@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "college and university should be available for all students who want to pursue their goal",
+        "MC2": "Studying in college and university is a great opportunity that all students should have"
+    },
+    "Claims": {
+        "C1": "Students can have opportunity to learn, to practice, to gain more knowledge for their career and for their future",
+        "C2": "college and university should consider students to study with them only if they are good students",
+        "C3": "mediocre students should have opportunity to be trained in college and university"
+    },
+    "Premises": {
+        "P1": "studying in advance education take a huge of money",
+        "P2": "College and university do not want people who not qualify for to waste their money in these expensive courses and waste their time",
+        "P3": "only good students have potentials to success programs more that those who are not considered as good students",
+        "P4": "mediocre students are not have a chance to gain these advance knowledge from college and university",
+        "P5": "moderate students should have a chance to try",
+        "P6": "Everyone that has strongly ambition could pursue and success their goal even they are not classified as a good student because people can change",
+        "P7": "With a good environment in college or university is encouraging students to study harder for a good future",
+        "P8": "all students should have equal opportunity to study in higher education",
+        "P9": "higher education take a lot of money and a lot of time"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "attacks",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "attacks",
+            "target": "P9"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

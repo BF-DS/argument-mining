@@ -1,0 +1,132 @@
+{
+    "MajorClaims": {
+        "MC1": "Working fast yet risky has a place near the ideal goal",
+        "MC2": "people should work faster even more risky"
+    },
+    "Claims": {
+        "C1": "Trying to learn skills, working in two places in a week and gaining more tasks are the reasons which take into account as the most important causes of my choice",
+        "C2": "Gaining more skills by study, having more than one job, and handling more tasks are the benefits of it which overweighs its disadvantages",
+        "C3": "if persons work rapidly, they will have more chance to study",
+        "C4": "people prone to work in two or three firms in a week",
+        "C5": "people who work slowly can no longer handle more tasks"
+    },
+    "Premises": {
+        "P1": "Attending in some classes which try to increase the skills of employees can be considered as an absolutely effective parameter",
+        "P2": "If people learn how should increase their speed at work by studying, they can stares in their workplace",
+        "P3": "I have a friend who was working so slowly",
+        "P4": "He has been threatened by his boss who was going to fire him",
+        "P5": "My friend went to a course where he learned how should work rapidly and now he is working",
+        "P6": "If they work just in one organization they cannot earn enough money",
+        "P7": "This fact pushes them to work faster and faster",
+        "P8": "applying to study abroad needs a lot of money",
+        "P9": "I am working in two organization to gain more salary",
+        "P10": "the expenses have been increased",
+        "P11": "The more money, the more chances",
+        "P12": "If you show in your workplace that you are the one who can work more than other even carelessly, your boss will assign you more tasks",
+        "P13": "If you do them fast too, the first acknowledgement of your boss encourages you to work harder",
+        "P14": "It turns you to a person who has skill of working without hesitation",
+        "P15": "Even if we ignore this result, by the same token, you can get higher position and more money"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

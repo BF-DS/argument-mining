@@ -1,0 +1,90 @@
+{
+    "MajorClaims": {
+        "MC1": "childhood is the happiest time of a person's life",
+        "MC2": "childhood is, indeed, the most happiest moments in a person's life"
+    },
+    "Claims": {
+        "C1": "in childhood most people are happier than in adulthood",
+        "C2": "people are most creative when they were children",
+        "C3": "school memories are one of the best memories in a person's life"
+    },
+    "Premises": {
+        "P1": "They do not have to worry about bills, jobs, how would their life be in the future",
+        "P2": "They just worry about two things: to have fun, learn and be happy",
+        "P3": "A child's daily life is school, playing and sleeping",
+        "P4": "when I was young I just came home from school and then I would took my bike or soccer ball and go out and play with my friends in my neighborhood",
+        "P5": "I did not have to worry about costs and other things, I just had fun and learned",
+        "P6": "children imagine new things and games just to have fun and be happy",
+        "P7": "childhood is the period where people go to school and learn",
+        "P8": "There you learn, to find your first love, to make new long-lasting friendships and of-course you will have a lot of fun",
+        "P9": "my father's best moments in his life are in his school years",
+        "P10": "he is still in-touch with some of his classmates and sometimes they get together and share their childhood memories"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P8"
+        }
+    ]
+}

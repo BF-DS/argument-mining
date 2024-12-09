@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "computers have an important and inevitable role in economic, business, and other part of societies",
+        "MC2": "advantages of computers outweigh disadvantages"
+    },
+    "Claims": {
+        "C1": "they make the way of living easier by doing our routine duties",
+        "C2": "People benefit more from coming computers into their lives",
+        "C3": "A large number of industries fire many forces because of doing their works by new technologies and computers",
+        "C4": "excessive use of computers has brought many difficulties",
+        "C5": "Computers have an important role in social and personal life"
+    },
+    "Premises": {
+        "P1": "computers can do most difficult tasks which leads to make life easier",
+        "P2": "by using computers in many industries human's role has been reduced",
+        "P3": "Nowadays, computer can control and perform some routine activities in industries, which were early done by human",
+        "P4": "Many industries use computers to command to robots in order to do many regular tasks, which were carried out by human early",
+        "P5": "many processes of production of cars are carrying out by robots, which are controlled by computers",
+        "P6": "car companies use computers to simulate and analyze car accident by computers",
+        "P7": "Despite many advantages, by coming computers many jobs has been vanished",
+        "P8": "Computers have opened up a network connection among people",
+        "P9": "This technology makes easier for people to send and receive personal message",
+        "P10": "Teenagers and adolescents spend free time in front of computers",
+        "P11": "People can use computers to extract their essential information easily",
+        "P12": "The results show that teenagers who are addicted to computer games show more violent and stressful behaviors",
+        "P13": "People who have type by computers may suffer from such disease related to knees"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

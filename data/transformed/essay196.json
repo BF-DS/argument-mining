@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "One of these several ways of learning that I prefer is doing things by my self rather than learning by reading about things or learning by listening to people talking about",
+        "MC2": "learning by doing things is the best way and the best method to learn things"
+    },
+    "Claims": {
+        "C1": "learning by doing things develops our maturity",
+        "C2": "learning by doing things is more exciting than learning by reading about things or listening to people talking about",
+        "C3": "we become motivated to learn other things by doing them"
+    },
+    "Premises": {
+        "P1": "When you do things by your self, you learn to depend on yourself",
+        "P2": "You will not be in need to refer to books or persons",
+        "P3": "The fact of doing things by ourselves can help us to get some experiences that would strong our maturity",
+        "P4": "if some one wants to learn how to be a leader, they have to experience this by being in a real situation of leading a team or a group, or even a situation",
+        "P5": "We can not be leaders by reading books or by listening to person talking about leading",
+        "P6": "There are a lot of things in life that should be learnt by doing them",
+        "P7": "Reading about things or listening to people talking about can rarely submit the same sensation or the same excitement to some one who wants to learn about the same thing",
+        "P8": "People who want to learn how to swim have to go to the beach or to the swimpool and laid themselves in the water to feel and know what is swimming",
+        "P9": "Nor listening to people or reading about can teach them swimming",
+        "P10": "we find more motivation to continuing on learning by doing things",
+        "P11": "With the time, Reading about things or listening to people talking about could become more and more boring",
+        "P12": "Learning by doing things gives us more and more pleasure especially if we success in learning perfectly this things"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

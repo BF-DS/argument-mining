@@ -1,0 +1,36 @@
+MC1	MajorClaim 493 544	successful people still do things they already know
+MC2	MajorClaim 2391 2448	doing what we already known can still leads us to succeed
+C1	Claim 2457 2528	the advantages of this are relatively greater than that of the opposite
+A1	Stance C1 For
+P1	Premise 608 674	to be successful, we all try to reduce the risk we might encounter
+P2	Premise 676 762	The lower the factors making us fail we have, the higher probability to success we own
+P3	Premise 764 865	Consider a circumstance in which one person is rich because he knows a lot of knowledge of investment
+P4	Premise 867 999	He can focus on certain companies which he thinks is worth it to invest, and then just waits for the not so high but constant income
+P5	Premise 1001 1122	He does not have to invest some dangerous companies to get higher profit which might lead him to bankrupt in a short time
+C2	Claim 1165 1226	successful people do not have to try new things or take risks
+A3	Stance C2 For
+R1	supports Arg1:P5 Arg2:C2	
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P2 Arg2:C2	
+R5	supports Arg1:P1 Arg2:C2	
+C3	Claim 1836 1891	it is not necessary for successful people to take risks
+A2	Stance C3 For
+P6	Premise 1277 1352	it depends on the capability of one to decide whether he can succeed or not
+P7	Premise 1364 1450	a successful person should be able to dismantle the hurdles prohibiting him to success
+P8	Premise 1466 1562	the sports stars do not have to take some drugs to win a game or show their extraordinary skills
+P9	Premise 1564 1661	The same reason why they succeed is that they all have the predominated abilities in sports realm
+P10	Premise 1676 1780	those athletes try to have distinctive performance by taking risks of taking drugs are failed to succeed
+R6	supports Arg1:P10 Arg2:C3	
+R7	supports Arg1:P9 Arg2:C3	
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P7 Arg2:C3	
+R10	supports Arg1:P6 Arg2:C3	
+C4	Claim 1973 2027	doing something new is necessary for people to success
+A4	Stance C4 Against
+P11	Premise 2036 2123	they can become different from others, which is also a widely accepted idea for success
+P12	Premise 2242 2297	Try something new can indeed make people become special
+R11	supports Arg1:P11 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C4	
+P13	Premise 2299 2332	while it does not mean successful
+R13	attacks Arg1:P13 Arg2:P12	

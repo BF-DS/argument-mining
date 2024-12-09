@@ -1,0 +1,36 @@
+MC1	MajorClaim 174 209	studying abroad has many advantages
+MC2	MajorClaim 1667 1759	studying abroad does not only have advantages, but also can change us in a very positive way
+C1	Claim 211 293	Students gain a lot out of the experience personally, academically, and culturally
+A1	Stance C1 For
+C2	Claim 309 407	students who study outside their countries can get a lot of experience living in a foreign country
+A2	Stance C2 For
+C3	Claim 779 892	the new academic experience that the students can obtain at the institution where they are pursuing their studies
+A3	Stance C3 For
+C4	Claim 1092 1147	Most important is the cultural aspect of the experience
+A4	Stance C4 For
+P1	Premise 409 507	Living in a new country requires a great amount of flexibility and adaptability in one's character
+P2	Premise 522 577	students might face many challenges in the host country
+P3	Premise 590 660	they should be able to deal with the obstacles that they may encounter
+P4	Premise 662 746	Overcoming problems teaches the students how to be more mature and self-independence
+P5	Premise 907 962	they will get exposed to a different educational system
+P6	Premise 964 1090	They will meet new professors and new classmates which makes the academic experience different from that in their home country
+P7	Premise 1149 1242	While living in a foreign country, students can learn a lot about the culture of that country
+P8	Premise 1257 1302	they can meet different people of the country
+P9	Premise 1304 1393	They can learn about their way of thinking, their customs and traditions, and way of life
+P10	Premise 1395 1442	Learning about others' cultures is so important
+P11	Premise 1444 1520	It contributes in building a new understanding in us of how we see the world
+P12	Premise 1522 1595	It makes us more open, and willing to accept different ideas and thoughts
+P13	Premise 1602 1649	it educates us about the world we are living in
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:P3	
+R3	supports Arg1:P4 Arg2:P3	
+R4	supports Arg1:P3 Arg2:C2	
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	
+R9	supports Arg1:P9 Arg2:C4	
+R10	supports Arg1:P10 Arg2:C4	
+R11	supports Arg1:P11 Arg2:P10	
+R12	supports Arg1:P12 Arg2:P10	
+R13	supports Arg1:P13 Arg2:P10	

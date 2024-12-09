@@ -1,0 +1,65 @@
+{
+    "MajorClaims": {
+        "MC1": "the idea that advertising is a positive part of life can be more supported"
+    },
+    "Claims": {
+        "C1": "more good comes from advertising than bad",
+        "C2": "Advertisements are, therefore, very important for many businesses to increase sales and hence profits",
+        "C3": "to consumers, advertising can bring them many benefits",
+        "C4": "a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people",
+        "C5": "advertising is believed by many, a financial burden to businesses"
+    },
+    "Premises": {
+        "P1": "advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more",
+        "P2": "customers of telecommunication services will have an idea about the current offers of different companies",
+        "P3": "they can compare them and then have a better decision in choosing their internet or mobile phone plans",
+        "P4": "advertising can be very expensive and not every advertising campaign can be done successfully and brings good results"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

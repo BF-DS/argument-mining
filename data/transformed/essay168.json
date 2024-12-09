@@ -1,0 +1,119 @@
+{
+    "MajorClaims": {
+        "MC1": "There will have many disadvantages if the workers work at home"
+    },
+    "Claims": {
+        "C1": "Mitigating process, no interaction and pressure are these things people should examine when they want to work at home",
+        "C2": "Doing all jobs at home don't make employees attempt to work like this",
+        "C3": "Computers and modems bring works to home but these still have many things distract their mind",
+        "C4": "Interaction has been an advantage for workers at offices"
+    },
+    "Premises": {
+        "P1": "Each office has its rules that keep workers do their job as effectively as possible",
+        "P2": "The directors manage employers and give them the deadline of projects",
+        "P3": "Then again, the workers must try their best to finish the time limit",
+        "P4": "Pressure is motivation",
+        "P5": "Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job",
+        "P6": "The dos and don't at office play important role to prevent these things from workers",
+        "P7": "doing all jobs alone makes employees fall asleep easily",
+        "P8": "the project cannot being done",
+        "P9": "The best condition might not be good for people",
+        "P10": "Discussing and debating Projects together increase working ability",
+        "P11": "all we know that the target can be reached fast thanks to working of many people",
+        "P12": "interaction help employees improve their communicational skills",
+        "P13": "they will have more and more friends and relationships",
+        "P14": "Interaction is a factor increasing working quality"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P10"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "P13"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

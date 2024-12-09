@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "I prefer to spend my entire live in one place which is my hometown",
+        "MC2": "staying in one place is better than moving number of places"
+    },
+    "Claims": {
+        "C1": "In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful",
+        "C2": "If anyone needs help, his neighbor will help as much as possible",
+        "C3": "I want to live here",
+        "C4": "I also love the environment in here",
+        "C5": "Moving some places can give to you a lot of experiences"
+    },
+    "Premises": {
+        "P1": "Nowhere else can give me some people like in here",
+        "P2": "In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun",
+        "P3": "Every people in my town have known each others, and we have good relationships",
+        "P4": "We have large streets but few cars",
+        "P5": "we can move easily to anywhere",
+        "P6": "Last week, I went to the city center to meet my friends",
+        "P7": "The traffic in the city was too crowed",
+        "P8": "I have to wait for an hour to go to my friend house",
+        "P9": "I love the traffic system in here",
+        "P10": "I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town",
+        "P11": "There were a lot of people",
+        "P12": "the environment can't be keep clean",
+        "P13": "living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P12"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P13",
+            "Relation": "attacks",
+            "target": "C5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P9"
+        }
+    ]
+}

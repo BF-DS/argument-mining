@@ -1,0 +1,50 @@
+MC1	MajorClaim 202 251	I myself prefer to spend my leisure time outdoors
+C1	Claim 281 323	it is good for health and keep my body fit
+A1	Stance C1 For
+C2	Claim 331 415	outdoor activities enable me to socialize with other people and enjoy natural beauty
+A2	Stance C2 For
+C3	Claim 497 574	doing outdoor activities such as soccer and baseball is good for one's health
+A3	Stance C3 For
+P1	Premise 590 651	last year, I spent my summer time playing soccer and baseball
+P2	Premise 653 717	Playing baseball provided my upper body for hitting and throwing
+P3	Premise 719 828	Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games
+P4	Premise 844 885	practicing these sports helped me greatly
+P5	Premise 923 996	playing these sports is to keep my body fit, make me ultimately refreshed
+P6	Premise 998 1060	After that summer, my body is stronger and endurance is better
+R1	supports Arg1:P2 Arg2:C3	
+R2	supports Arg1:P1 Arg2:C3	
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P5 Arg2:C3	
+R5	supports Arg1:P4 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+C4	Claim 1063 1167	Outdoor activities not only improves my health but also gives me chances to communicate with more people
+A4	Stance C4 For
+P7	Premise 1169 1211	When I was ten years old, I was a shy girl
+P8	Premise 1213 1251	My mother took me to The National Camp
+P9	Premise 1253 1290	At first, I just ate and played alone
+P10	Premise 1292 1437	But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively
+P11	Premise 1439 1511	On the next day, we played together and she introduced me to her friends
+P12	Premise 1513 1641	Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp
+P13	Premise 1643 1741	If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today
+R7	supports Arg1:P7 Arg2:C4	
+R8	supports Arg1:P9 Arg2:C4	
+R9	supports Arg1:P10 Arg2:C4	
+R10	supports Arg1:P8 Arg2:C4	
+R11	supports Arg1:P11 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C4	
+R13	supports Arg1:P13 Arg2:C4	
+C5	Claim 1754 1872	you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking
+A5	Stance C5 For
+P14	Premise 1874 1967	If you spend your spare time at home or something like that, you can't enjoy beautiful nature
+R14	supports Arg1:P14 Arg2:C5	
+C6	Claim 1969 2107	Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings
+A6	Stance C6 For
+C7	Claim 2121 2146	indoor activities are fun
+A7	Stance C7 Against
+P15	Premise 2148 2267	There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy
+R15	supports Arg1:P15 Arg2:C7	
+P16	Premise 2320 2397	this advantage cannot outweigh the attractions coming from outdoor activities
+C8	Claim 2278 2318	I can also have fun in indoor activities
+A8	Stance C8 Against
+MC2	MajorClaim 2499 2558	I myself choose outdoor activities to spend my leisure time
+R16	attacks Arg1:P16 Arg2:C8	

@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "communicating by e-mails or voice mails is better",
+        "MC2": "I would prefer to answer it by means of internet or voice mail"
+    },
+    "Claims": {
+        "C1": "communicating by e-mail is easy",
+        "C2": "you can write an e-mail at any time of the day",
+        "C3": "when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself",
+        "C4": "there is no chance to disturb people by sending them an e-mail"
+    },
+    "Premises": {
+        "P1": "In this case it is not so difficult to write an e-mail or to leave a voice mail",
+        "P2": "even shy people feel themselves more confident",
+        "P3": "Many people have problems with calling a person that they are not acquainted with",
+        "P4": "I might not have time to call a person or to meet with him or her in an appropriate time",
+        "P5": "for me it is better to leave a voice mail",
+        "P6": "I get home at about midnight and I still need to answer some questions and to solve some routine problems",
+        "P7": "I work and study at the university and I don't have spare time during the day",
+        "P8": "you can change the word order or you can choose more appropriate style to sound more polite",
+        "P9": "When you speak face-to-face you are not as able to control every word as you are when you write an e-mail",
+        "P10": "You should not worry about interrupting an important conversation or some other business"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

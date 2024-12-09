@@ -1,0 +1,26 @@
+MC1	MajorClaim 248 324	It seems to me that students should start learning that as they start school
+C1	Claim 326 450	Learning that not only help them to improve their minds and memories, but can extend their visions about the other countries
+A1	Stance C1 For
+MC2	MajorClaim 1787 1870	children should start learning a foreign language in the beginning of the education
+C2	Claim 1583 1768	it is easy to distinguish between a child having two languages and a child having just his native language while comparing their ability to communicate, understanding other studies, etc
+A2	Stance C2 For
+P1	Premise 694 773	They can easily understand the language structure and memorize the vocabularies
+P2	Premise 460 551	the ability of Learning in the childhood period is more powerful than other periods of life
+P3	Premise 561 692	students in the beginning of their education can learn faster and easier in compare to a young one to understand a foreign language
+R1	supports Arg1:P3 Arg2:P2	
+P4	Premise 811 902	the persistence of learning a knowledge in the childhood is more than other period of lives
+C3	Claim 1060 1108	this time is the best time to learn any language
+A4	Stance C3 For
+R2	supports Arg1:P2 Arg2:C3	
+R3	supports Arg1:P1 Arg2:C3	
+R4	supports Arg1:P4 Arg2:C3	
+P5	Premise 1227 1287	They would be able to understand other cultures and costumes
+P6	Premise 1299 1393	It can give them a sense of power to communicate better with peers in other parts of the World
+P7	Premise 1395 1487	Having knowledge about other countries and their languages lead to extend the child's vision
+C4	Claim 1500 1571	they would be able to develop their personalities and sense of reliance
+A3	Stance C4 For
+P8	Premise 1123 1225	Learning a foreign language helps students tremendously to comprehend what happens in the around World
+R5	supports Arg1:P7 Arg2:C4	
+R6	supports Arg1:P6 Arg2:C4	
+R7	supports Arg1:P5 Arg2:C4	
+R8	supports Arg1:P8 Arg2:C4	

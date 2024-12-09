@@ -1,0 +1,29 @@
+MC1	MajorClaim 299 365	the right age for a person to retire should be around 60 years old
+MC2	MajorClaim 379 478	strongly agree that age should be set as a criterion for people to retire at the aforementioned age
+P1	Premise 550 659	if senior workers dominate the working sector, there will be lesser job opportunities for the fresh graduates
+C1	Claim 674 773	most of them will be forced to take up careers which are poles apart from what they had studied for
+R1	supports Arg1:P1 Arg2:C1	
+P2	Premise 803 1060	a medical graduate might find it very disheartened when he had to spend around five precious years studying medicine and at the end of the day, he will have to take up another profession rather than doctor due to the insufficient job opportunities available
+P3	Premise 1078 1247	due to the lack of genuine passion on the work which was not of their option, there is a greater possibility for their performance standard to dwindle at their workplace
+C2	Claim 1803 1892	it would indeed be better if at an older age, opportunities are given to the younger ones
+A2	Stance C2 For
+P4	Premise 1266 1309	not all elderly workers are physically well
+P5	Premise 1311 1485	Beyond that age, a large proportion of them have an elevated chance of contracting a multitude of health problems such as stress related diseases and cardiovascular illnesses
+P6	Premise 1507 1594	the stressful life that an aged teacher goes through will definitely take a toll on him
+P7	Premise 1610 1677	they will not be able to give their best in whatever they are doing
+P8	Premise 1688 1795	the academic institution will have to pay for his medical bills, resulting in more loss for the institution
+R4	supports Arg1:P6 Arg2:P7	
+R7	supports Arg1:P4 Arg2:C2	
+MC3	MajorClaim 2370 2434	it is indeed evident that age limit should be set for retirement
+C3	Claim 1906 1988	the expertise of the senior workers who had retired should never be underestimated
+A3	Stance C3 Against
+P9	Premise 1990 2152	Their invaluable experiences and knowledge in their respective fields such as engineering, medicine, and law can certainly be beneficial to the younger generation
+P10	Premise 2161 2353	it is highly recommended that the retiree come over to the companies or hospitals to have regular sessions with the present staffs to bridge the gap between them and to pass on their knowledge
+R9	supports Arg1:P9 Arg2:P10	
+R10	supports Arg1:P10 Arg2:C3	
+A4	Stance C1 For
+R2	supports Arg1:P2 Arg2:C1	
+R3	supports Arg1:P7 Arg2:C2	
+R6	supports Arg1:P5 Arg2:C2	
+R5	supports Arg1:P8 Arg2:C2	
+R8	supports Arg1:P3 Arg2:C1	

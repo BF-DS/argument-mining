@@ -1,0 +1,132 @@
+{
+    "MajorClaims": {
+        "MC1": "cars have improved modern life",
+        "MC2": "Travelling, social life and employment are highly dependent on the flexibility of a person and there is nothing in the world that makes more flexible than an own car"
+    },
+    "Claims": {
+        "C1": "cars cause a lot of pollution",
+        "C2": "Many people are now able to maintain relationships over great distances",
+        "C3": "cars increase the chance of employment",
+        "C4": "people who own a vehicle have greater access to more places and will see more of the world"
+    },
+    "Premises": {
+        "P1": "they provide flexibility, which is important in nearly all areas of life",
+        "P2": "they can visit each other regularly by using their vehicle",
+        "P3": "my car has always been a great help to see my childhood friends very often although I lived in another city",
+        "P4": "I was also able to establish a relationship with a man living 89 kilometers away",
+        "P5": "Thanks to my car we could see each other at the weekends and are still a happy couple today",
+        "P6": "Without my automobile we would probably not have been able to develop a relationship",
+        "P7": "people are now able to overcome long distances in a short amount of time, which leads to numerous advantages",
+        "P8": "people are able to drive to work and can work further away from home",
+        "P9": "they are more flexible",
+        "P10": "My father for example has always been working all around Germany and because of that earned more money",
+        "P11": "He used his car to drive to the other end of the country, worked there during the week and came home for the weekend",
+        "P12": "If he had no car, he wouldn't be able to see his family at the weekends so for him his automobile is a great benefit - not only in financial but also in social terms",
+        "P13": "the automobile allows people to travel more often and thus get to know the world",
+        "P14": "If people do not own cars they are likely to stay in their hometown or village most of their life",
+        "P15": "They are mainly using public transport and are thus limited in accessing certain areas",
+        "P16": "There are still places in nearly every country in the world that cannot be reached by public transportation and can only be visited by car"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P16",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

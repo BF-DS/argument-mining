@@ -1,0 +1,27 @@
+MC1	MajorClaim 1557 1629	I would agree to idea of taking a break before starting higher education
+C1	Claim 1631 1721	Students who take break, gain lot of benefits by traveling around the places or by working
+A1	Stance C1 For
+P1	Premise 1723 1816	They tend to contribute more due to their real world experiences which makes them more mature
+R1	supports Arg1:P1 Arg2:C1	
+C2	Claim 375 486	Experience gained through traveling to different places, meeting different people and even at job goes long way
+A2	Stance C2 For
+P2	Premise 488 568	It not only enhances the confidence of a student but also makes them independent
+P3	Premise 570 686	Student's who works tend to gather better financial resources which they can rely on during their university studies
+P4	Premise 688 771	This experience also makes them aware of what they would like to make of their life
+P5	Premise 773 862	They develop broader view and can make a better choice of their future studies or courses
+P6	Premise 1072 1139	They might even find it difficult to adapt to education environment
+P7	Premise 1141 1223	There is also a risk of student never going back to university or higher education
+P8	Premise 1225 1380	Probably some might take some short term courses instead of proper and complete university education, which will help them to get a better job and salaries
+P9	Premise 1382 1537	This might only help them in a short run as it is a known fact that to make a reasonable career in longer runs, one needs a proper and higher qualification
+P10	Premise 947 1070	Once student's starts earning, they might not like to go back to studies where they would lose their financial independence
+C3	Claim 864 945	Taking a break not just has benefits but it also comes with some negative impacts
+A3	Stance C3 Against
+R2	supports Arg1:P10 Arg2:C3	
+R3	supports Arg1:P6 Arg2:C3	
+R4	supports Arg1:P7 Arg2:C3	
+R5	supports Arg1:P8 Arg2:C3	
+R6	supports Arg1:P9 Arg2:C3	
+R7	supports Arg1:P2 Arg2:C2	
+R8	supports Arg1:P3 Arg2:C2	
+R9	supports Arg1:P4 Arg2:C2	
+R10	supports Arg1:P5 Arg2:C2	

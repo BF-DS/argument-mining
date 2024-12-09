@@ -1,0 +1,102 @@
+{
+    "MajorClaims": {
+        "MC1": "every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation",
+        "MC2": "challenges for this generation are more complicated and diverse than the past generation, whether in career or in self-identification"
+    },
+    "Claims": {
+        "C1": "it is no doubt that until the next generation, there will be whole new challenges waiting for the next youngsters",
+        "C2": "under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging",
+        "C3": "young people in this generation are exposed to more creative ideas and rather think individually",
+        "C4": "this generation is encountering the self-recognition issue which could not be experienced by the previous generation"
+    },
+    "Premises": {
+        "P1": "In the past, focusing on one skill was enough to deal with the problems",
+        "P2": "every industry was rather small in size and simple to manage",
+        "P3": "as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges",
+        "P4": "now there are more chances to do business with people around the world",
+        "P5": "besides one's own profession, language ability is essential as well",
+        "P6": "financial crimes are rampant in the 21st century",
+        "P7": "surging up demands for those who excel at both laws and financial management",
+        "P8": "The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them",
+        "P9": "They are eager for finding who they are and what they really want",
+        "P10": "It is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them",
+        "P11": "They have to make decisions between so many possibilities and they are responsible for taking the consequences"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

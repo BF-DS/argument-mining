@@ -1,0 +1,25 @@
+MC1	MajorClaim 1824 1969	the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings
+C1	Claim 1694 1807	tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact
+A1	Stance C1 For
+P1	Premise 466 586	places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet
+P2	Premise 588 673	Not until the investment of some companies do chains of hotels and services spring up
+P3	Premise 675 801	It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents
+P4	Premise 818 928	tourism helps divert the local economy to its right direction, which exploit the best out of its own potential
+C2	Claim 366 453	tourism plays an indispensable role in nurturing the economy in a way it is meant to be
+A3	Stance C2 For
+R2	supports Arg1:P1 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P3 Arg2:C2	
+P5	Premise 952 986	environmental damage is inevitable
+P6	Premise 1024 1171	In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration
+P7	Premise 1202 1353	a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild
+P8	Premise 1355 1560	Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures
+C3	Claim 1579 1670	tourism should not be alledged to be notorous for its detriment to the ecological diversity
+A4	Stance C3 For
+P9	Premise 988 1022	it is not tourism to be blamed for
+R8	attacks Arg1:P9 Arg2:P5	
+R9	attacks Arg1:P5 Arg2:C3	
+R10	supports Arg1:P6 Arg2:C3	
+R11	supports Arg1:P7 Arg2:C3	
+R12	supports Arg1:P8 Arg2:C3	
+R1	supports Arg1:P4 Arg2:C2	

@@ -1,0 +1,108 @@
+{
+    "MajorClaims": {
+        "MC1": "experience makes us more skilled, improves our decision making and makes us more compatible for life",
+        "MC2": "every experience in life whether it is good or bad always gives us something to learn and keep for life"
+    },
+    "Claims": {
+        "C1": "those challenges of their initial life teach them important survival lessons which help them for whole life",
+        "C2": "All inventions and experiments are based on many unfortunate observations",
+        "C3": "Our difficult experiences also make us robust and strong unknowingly",
+        "C4": "Good experiences give us good memories and bad ones teach us lessons for life"
+    },
+    "Premises": {
+        "P1": "Every day comes with new challenges for them like walking",
+        "P2": "when they tried to learn walking, they stumble and hurt themselves many times",
+        "P3": "they slowly tune their technique and learned to walk",
+        "P4": "No known scientist has success in first attempt",
+        "P5": "Scientists try and test many specimens before they get they want",
+        "P6": "Thomas Edison tested around 10000 bulbs before inventing Light bulb",
+        "P7": "all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through",
+        "P8": "first time I was away from parent and staying with people I had not known",
+        "P9": "I had felt very fragile and emotionally distracted, but then slowly I started adjusting with roommates and built connection with them",
+        "P10": "I also became more casual and social with others, this experience increased my communication skill and social speaking skills",
+        "P11": "When I moved to college hostel after school, first few days were very unsettling for me",
+        "P12": "We might be facing a toughest time of life at the time, but when we think back about those moments later in life, we feel more confident about our decisions and about ourselves"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P11"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "MajorClaims": {
+        "MC1": "people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves"
+    },
+    "Claims": {
+        "C1": "people are focusing on doing several jobs or gaining further qualification to secure their economic condition",
+        "C2": "The best way to ensure a flexible earning is getting more jobs"
+    },
+    "Premises": {
+        "P1": "with the recent recession, almost all the countries all over the world are seeing significant economic downfall",
+        "P2": "This overwhelming crisis is prompting delayering and reduction of workers",
+        "P3": "A full time job with a steady income was enough for a potential employee to support himself and his family",
+        "P4": "corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors",
+        "P5": "many people's jobs are now at high stake",
+        "P6": "robots, automation and softwares are taking over manual human workers professions such as clerks, interpreters, security services, retails and specially in manufacturing companies",
+        "P7": "North American economists have published reports after scrutinizing the recent American economic situation that, technology is eliminating more jobs than creating one",
+        "P8": "the arrival of technology has also been playing a major role promoting further unemployment"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+MC1	MajorClaim 291 347	human activities are having a bad effect upon our planet
+C1	Claim 353 469	human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species
+A1	Stance C1 For
+C2	Claim 471 508	People are corrupting their ecosphere
+A2	Stance C2 For
+P1	Premise 510 622	In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies
+P2	Premise 624 761	These wastes including household waste and industrial waste are so big that a "new" continent is now being formed in the sea from garbage
+P3	Premise 776 918	the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+C3	Claim 929 978	people are draining the Earth's natural resources
+A3	Stance C3 For
+P4	Premise 980 1042	These resources such as oil, coal are vital for human activity
+P5	Premise 1054 1178	nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people
+R4	supports Arg1:P4 Arg2:P5	
+R5	supports Arg1:P5 Arg2:C3	
+P6	Premise 1180 1334	Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted
+P7	Premise 1336 1432	At that time, human activity will be seriously affected due to the dependence on these resources
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+C4	Claim 1440 1482	people are endangering other species' live
+A4	Stance C4 For
+P8	Premise 1484 1548	Hunting has been a fundamental activity of human for having food
+P9	Premise 1550 1742	Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct
+P10	Premise 1754 1833	people, suffering from the population pressure, are expanding their living area
+P11	Premise 1849 1890	the living area of other species narrowed
+R8	supports Arg1:P10 Arg2:P11	
+P12	Premise 1892 1976	This narrowing of living region is pushing many creatures to the brink of extinction
+R9	supports Arg1:P12 Arg2:P11	
+R10	supports Arg1:P11 Arg2:C4	
+R11	supports Arg1:P8 Arg2:C4	
+R12	supports Arg1:P9 Arg2:C4	
+MC2	MajorClaim 2035 2081	human activity are gradually destroy the Earth
+C5	Claim 2088 2185	it is polluting the Earth environment, depleting the resource and imperiling other species' lives
+A5	Stance C5 For

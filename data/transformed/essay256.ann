@@ -1,0 +1,28 @@
+MC1	MajorClaim 518 595	students should always attend class no matter what the outcome of the exam is
+C1	Claim 605 705	in terms of learning, attending class is more effective than simply studying alone to pass the exams
+A1	Stance C1 For
+P1	Premise 707 819	Classes are designed diligently for the students and professors absolutely bear more knowledge than the students
+P2	Premise 821 964	Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+MC2	MajorClaim 2014 2131	students can learn more thoroughly as well as showing respect for professors and themselves through attending classes
+C2	Claim 2133 2167	It's an essential learning process
+A3	Stance C2 For
+C3	Claim 1221 1291	class attendances are regarded as critical as examination performances
+A2	Stance C3 For
+P3	Premise 1293 1385	Those who even achieve high scores on exams could fail if they didn't show up in the classes
+P4	Premise 1144 1203	Many professors grade their students with class attendances
+P5	Premise 1028 1142	Attending class is the most persuasive way for the students to show respect to the professor as well as themselves
+P6	Premise 975 1026	it's students' basic responsibility to attend class
+R3	supports Arg1:P5 Arg2:C3	
+R4	supports Arg1:P6 Arg2:C3	
+R5	supports Arg1:P4 Arg2:C3	
+R6	supports Arg1:P3 Arg2:C3	
+P7	Premise 1635 1676	this is a rather immodest way of thinking
+P8	Premise 1693 1830	professors can always give students more than students themselves could because of the experiences and their qualifications as professors
+P9	Premise 1841 1996	even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates
+C4	Claim 1416 1539	if students already understand the contents on the class enough to pass the exams or they can study the course on their own
+A4	Stance C4 Against
+R7	attacks Arg1:P7 Arg2:C4	
+R8	attacks Arg1:P8 Arg2:C4	
+R9	attacks Arg1:P9 Arg2:C4	

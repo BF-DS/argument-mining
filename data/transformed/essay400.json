@@ -1,0 +1,60 @@
+{
+    "MajorClaims": {
+        "MC1": "governments should devote a greater portion of their health budgets to health education and means for precautions",
+        "MC2": "a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being"
+    },
+    "Claims": {
+        "C1": "society should be educated and became aware of health issues",
+        "C2": "governments should allocate more budget on prevention from illness and providing health education is the welfare of the society"
+    },
+    "Premises": {
+        "P1": "decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients",
+        "P2": "the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients",
+        "P3": "The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system",
+        "P4": "there is nothing more important than health in a human's life and the happiness and welfare come with health",
+        "P5": "a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives",
+        "P6": "the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

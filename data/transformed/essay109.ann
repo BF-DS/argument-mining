@@ -1,0 +1,20 @@
+MC1	MajorClaim 1679 1807	the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information
+MC2	MajorClaim 331 455	it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures
+C1	Claim 457 562	One of the strong arguments in favour of tighter media control is to limit the violent and sexual content
+A1	Stance C1 For
+P1	Premise 564 617	They have a serious impact on people in their puberty
+P2	Premise 632 761	an internet cartoon comedy called happy tree is extremely brutal, where the characters usually have their heads or limbs tear off
+C2	Claim 797 952	television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture
+P3	Premise 954 1049	A few years ago there was a Japanese game show which involved throwing cream cakes to the loser
+P4	Premise 1051 1099	This is actually very environmentally unfriendly
+R1	supports Arg1:P3 Arg2:C2	
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P2 Arg2:P1	
+R4	supports Arg1:P1 Arg2:C1	
+C3	Claim 1183 1316	the government should disclose the information to the media in a timely manner, especially for disasters and outbreak of new diseases
+A2	Stance C3 Against
+P5	Premise 1318 1470	Taking the SARS in 2003 as an example, the Chinese government limited the amount of information for public access which therefore causes numerous deaths
+P6	Premise 1481 1567	another perspective on this is to prevent the citizen from unnecessary fear and unrest
+R6	attacks Arg1:P6 Arg2:C3	
+R7	supports Arg1:P5 Arg2:C3	
+A3	Stance C2 For

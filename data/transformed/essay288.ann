@@ -1,0 +1,40 @@
+MC1	MajorClaim 1915 1999	the transportation is an elementary factor which directly affects to people’s living
+MC2	MajorClaim 370 446	the thing that I really want to change is to have more public transportation
+C1	Claim 454 497	I’m facing the traffic congestion every day
+A1	Stance C1 For
+P1	Premise 655 698	people will have more ways to go to a place
+P2	Premise 706 774	now buses are only a kind of public transportation in this community
+P3	Premise 776 819	It makes people in this area have no choice
+R1	supports Arg1:P2 Arg2:P3	
+P4	Premise 821 869	They must take only a bus to go to another place
+P5	Premise 871 954	If a subway and a sky train are available here, it will be more convenience to them
+P6	Premise 969 1046	people can estimate time from taking a subway train due to the train schedule
+P7	Premise 1048 1098	On the contrary they cannot do so in case of a bus
+C2	Claim 1106 1173	this improvement will decrease a bad traffic on the road indirectly
+A3	Stance C2 For
+C3	Claim 546 646	it should have more alternatives to use public transportation, such as a subway train or a sky train
+A4	Stance C3 For
+R2	supports Arg1:P3 Arg2:C3	
+R3	supports Arg1:P4 Arg2:P3	
+R4	supports Arg1:P5 Arg2:C3	
+R5	supports Arg1:P1 Arg2:C3	
+R6	supports Arg1:P6 Arg2:P5	
+R7	supports Arg1:P7 Arg2:P5	
+C4	Claim 1507 1576	They should increase more routes to make people transport more easily
+A2	Stance C4 For
+P8	Premise 1486 1505	it is waste of time
+P9	Premise 1186 1239	the buses provide merely two routes in this community
+P10	Premise 1241 1273	It is absolutely a major problem
+P11	Premise 1288 1473	if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus
+R8	supports Arg1:P11 Arg2:P8	
+R9	supports Arg1:P8 Arg2:C4	
+R10	supports Arg1:P9 Arg2:C4	
+R11	supports Arg1:P10 Arg2:C4	
+P12	Premise 1586 1682	having more kinds of public transportation can dwindle the number of people using their own cars
+C5	Claim 1821 1864	The necessary energy will slowly be used up
+P13	Premise 1872 1902	people use less their own cars
+A6	Stance C5 For
+R12	supports Arg1:P13 Arg2:C5	
+P14	Premise 1733 1819	people can save their expenses form gasoline, which nowadays is getting more expensive
+R13	supports Arg1:P12 Arg2:C5	
+R14	supports Arg1:P14 Arg2:C5	

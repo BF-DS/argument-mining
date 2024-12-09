@@ -1,0 +1,46 @@
+MC1	MajorClaim 290 350	living environment is more important than job for most of us
+C1	Claim 364 390	job can bring us happiness
+A1	Stance C1 Against
+P1	Premise 392 451	People can receive a sense of values and respected from job
+P2	Premise 453 538	If people receive respect from others, they will feel achievement and self-confidence
+C2	Claim 553 580	job can provide money to us
+A2	Stance C2 Against
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+C3	Claim 592 658	people should concern more about their living environment than job
+A3	Stance C3 For
+P3	Premise 667 723	for most of us, job is only a tool to maintain our lives
+P4	Premise 725 769	Few people can feel happiness from their job
+P5	Premise 778 826	they have to continue to work more than 30 years
+P6	Premise 841 971	Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day
+P7	Premise 973 1037	These labor works cannot provide workers with a lot of happiness
+P8	Premise 1046 1097	they feel tired and frustrated after long hour work
+R3	supports Arg1:P8 Arg2:P7	
+R4	supports Arg1:P5 Arg2:P4	
+R5	supports Arg1:P3 Arg2:C3	
+R6	supports Arg1:P6 Arg2:P4	
+R7	supports Arg1:P7 Arg2:P4	
+R8	supports Arg1:P4 Arg2:C3	
+C4	Claim 1108 1221	beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people
+A4	Stance C4 For
+P9	Premise 1223 1313	Without beautiful environment, people are not able to feel happiness and will fell anxiety
+P10	Premise 1315 1409	Nowadays, the fast development of economy is gradually destroying our environment very quickly
+P11	Premise 1411 1474	Factories released a huge amount of wasters into river and soil
+P12	Premise 1476 1539	In order to build city and factory, people destroy huge forests
+P13	Premise 1541 1617	In China, some residents who live in nearby some toxic factories became sick
+P14	Premise 1626 1713	these factories release a lot of toxic water and wasters into environment around people
+R9	supports Arg1:P14 Arg2:P13	
+P15	Premise 1727 1823	local residents benefits from an increasing number of jobs which are provided by those factories
+P16	Premise 1825 1872	they cannot feel happiness from high-paying job
+P17	Premise 1885 1934	most of them suffer from cancer or other diseases
+R10	supports Arg1:P17 Arg2:P16	
+R11	attacks Arg1:P16 Arg2:P15	
+R12	supports Arg1:P9 Arg2:C4	
+R13	supports Arg1:P10 Arg2:C4	
+R14	supports Arg1:P11 Arg2:C4	
+R15	supports Arg1:P12 Arg2:C4	
+R16	attacks Arg1:P15 Arg2:C4	
+MC2	MajorClaim 1951 2034	it is far better to protect our living environment rather than focus on job or work
+C5	Claim 2041 2075	the goal people is for good livers
+A5	Stance C5 For
+R17	supports Arg1:P13 Arg2:C4	

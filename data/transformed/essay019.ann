@@ -1,0 +1,33 @@
+MC1	MajorClaim 1624 1689	for the young adults it will be better to live with their parents
+C1	Claim 246 318	their lives are going to be more difficult, when they are away from home
+A1	Stance C1 For
+P1	Premise 320 356	They will have to pay a lot of bills
+P2	Premise 366 525	they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like
+R1	supports Arg1:P1 Arg2:C1	
+R2	supports Arg1:P2 Arg2:C1	
+C2	Claim 1731 1831	They will not need to worry about financial problems or if they will get on well with their roommate
+A2	Stance C2 For
+C3	Claim 528 596	Living in their own houses will save the young adults a lot of money
+A3	Stance C3 For
+P3	Premise 598 710	If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal
+P4	Premise 712 791	If the young adults still study they will have to combine studying with working
+P5	Premise 801 847	they will not have money to pay for everything
+P6	Premise 849 920	There will not be such worries when young adults live in their own home
+P7	Premise 930 961	parents will take care for them
+P8	Premise 973 1051	parents will give their children money in order they to focus only on studying
+R3	supports Arg1:P7 Arg2:P6	
+R4	supports Arg1:P5 Arg2:P4	
+R5	supports Arg1:P3 Arg2:C3	
+R6	supports Arg1:P8 Arg2:C3	
+R7	supports Arg1:P6 Arg2:C3	
+R8	supports Arg1:P4 Arg2:C3	
+C4	Claim 1053 1149	Another problem that the young adults may encounter is to find a co-tenant, who they do not like
+A4	Stance C4 For
+P9	Premise 1151 1323	His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses
+P10	Premise 1325 1393	Living with such a person may be a huge problem for the young adults
+P11	Premise 1395 1506	When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice
+P12	Premise 1521 1593	they are most likely to quarrel every day, instead of to help each other
+R9	supports Arg1:P9 Arg2:C4	
+R10	supports Arg1:P10 Arg2:C4	
+R11	supports Arg1:P11 Arg2:C4	
+R12	supports Arg1:P12 Arg2:C4	

@@ -1,0 +1,120 @@
+{
+    "MajorClaims": {
+        "MC1": "it is unwise to smoke in a restaurant as well as other public places, and relevant state laws should be codified to strictly prohibit it",
+        "MC2": "smoking should be prohibited in restaurants as well as other public places, and that we should support states laws to ban it"
+    },
+    "Claims": {
+        "C1": "smoking in a restaurant is a harmful and disrespectable behavior",
+        "C2": "smoking not only damages the restaurant's environment, but also imposes a potential threat on others' health",
+        "C3": "smoking in restaurants should be strictly banned",
+        "C4": "the disgusting smoke will severely affect their appetite, or, in other words, spoil their meals and make them an unpleasant experience",
+        "C5": "smoking does no good to the smoker himself"
+    },
+    "Premises": {
+        "P1": "It spoils the smoker's reputation and threats other people's health",
+        "P2": "the second-hand smoke, which comes from the smoker's mouth, puts an even greater threat on surrounding people's health than the smoker himself",
+        "P3": "it makes the restaurant a polluted place which threatens every customer's health",
+        "P4": "if there is only one person smoking in a restaurant, all others will smoke unconsciously and their health is under attacked",
+        "P5": "some burned substance in a cigarette can easily deteriorate a person's respiratory system after he/she inhales it",
+        "P6": "it is too strong to assert that smoking should be prohibited everywhere in the society, one smoking in a restaurant is considered to enjoy his time with the ignorance of others' health",
+        "P7": "The smoke exhaled from the smoker often makes other people feel uncomfortable or disgusted, thus affecting their mood in having their meals",
+        "P8": "This, on the other hand, can indirectly decrease the restaurants' popularity",
+        "P9": "fewer people are willing to consume there due to their unpleasant experiences",
+        "P10": "Not only does it aggravate his health, making him more subject to respiratory diseases, but also it damages his public image and reputation",
+        "P11": "most people see smoking in restaurants as an impolite human behavior",
+        "P12": "This is especially true when the smoker is a popular political figure or an entertainmening celebrity",
+        "P13": "the public are likely to believe that the smoker lacks basic civility and should not be encouraged to be a public leader"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "P12"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

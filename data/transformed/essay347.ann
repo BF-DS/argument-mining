@@ -1,0 +1,29 @@
+P1	Premise 313 591	in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs
+C1	Claim 208 298	people will be swayed by the advertising and buy things they do not need it for their life
+MC1	MajorClaim 1691 1771	buying habit is people's choice to make, not entirely affected by advertisements
+A1	Stance C1 Against
+C2	Claim 1893 2074	it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need
+A2	Stance C2 For
+P2	Premise 1777 1888	for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising
+R1	supports Arg1:P2 Arg2:C2	
+P3	Premise 892 1045	there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it
+C3	Claim 756 886	A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society
+A3	Stance C3 Against
+P4	Premise 606 754	products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought
+R2	supports Arg1:P4 Arg2:C3	
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P1 Arg2:C1	
+C4	Claim 1112 1169	the advertisement is not the only cause for people to buy
+A4	Stance C4 For
+P5	Premise 1171 1233	sometimes it depends on one's needs and ability of consumption
+P6	Premise 1056 1110	buying habit is a very personal things for individuals
+R5	supports Arg1:P6 Arg2:C4	
+R6	supports Arg1:P5 Arg2:C4	
+P7	Premise 1235 1334	It is unlikely to buy things impulsively for adults who have concern of arranging disposable income
+P8	Premise 1336 1404	Most of them have to allocate the money if they doing other purchase
+C5	Claim 1425 1573	children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not
+A5	Stance C5 Against
+P9	Premise 1581 1666	they do not have financial pressure from life and ability to define what is necessary
+R7	supports Arg1:P9 Arg2:C5	
+R8	supports Arg1:P7 Arg2:C4	
+R9	supports Arg1:P8 Arg2:C4	

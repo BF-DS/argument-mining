@@ -1,0 +1,17 @@
+MC1	MajorClaim 1432 1541	type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone
+C1	Claim 794 873	my productivity boosts when style of work is appropriate with my type of temper
+A1	Stance C1 For
+P1	Premise 481 600	Being by nature introvert, I have to spend much time and efforts on adjusting to surroundings and especially new people
+P2	Premise 602 781	Once, when I was working on presentation with strangers, I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+P3	Premise 1026 1148	I must not divide tasks and duties between team members, share responsibility and benefits, and spend time on teambuilding
+P4	Premise 1150 1225	These advantages are especially important in situations of shortage of time
+P5	Premise 1227 1309	About a year ago I was lucky to become a participant of student brainstorming game
+P6	Premise 1311 1392	To my rivals' surprise, being the only member of my own "team" I gained a victory
+C2	Claim 897 1008	working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork
+A2	Stance C2 For
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P5 Arg2:C2	
+R5	supports Arg1:P4 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	

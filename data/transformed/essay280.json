@@ -1,0 +1,108 @@
+{
+    "MajorClaims": {
+        "MC1": "studying many subjects is better that one",
+        "MC2": "learning several subjects in universities is better than specialize in one subject"
+    },
+    "Claims": {
+        "C1": "students can study in subjects that they interested in, they can gain knowledge more than one field and they will have more chance to choose their future",
+        "C2": "it makes students have more chance to gain knowledge to use in their lives and opportunity to choose their own future",
+        "C3": "requiring students to study in many subjects is good for them",
+        "C4": "people who know a wide range of is better than people who know just one",
+        "C5": "students who graduated with a variety of courses during university and lots of experience are definitely have more opportunity to choose their future or career"
+    },
+    "Premises": {
+        "P1": "when students finished their high schools, they are confused about subjects that they are going to choose to study in universities",
+        "P2": "they interested in many subjects and they want to try them all",
+        "P3": "pupil who want to study science are also like to learn music",
+        "P4": "they all can share opinion and knowledge to one another",
+        "P5": "Students can gain more knowledge in every different subjects thy study",
+        "P6": "university students who study business are also know history of the world",
+        "P7": "students not only gain knowledge but they also have more experience",
+        "P8": "they will meet new friends and teachers",
+        "P9": "graduates can work in various kind of works which they can select a job they prefer",
+        "P10": "students will choose a career that they want including the job with high salary include",
+        "P11": "bachelors can earn lots of money by working in other fields due to their knowledge"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "P7"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P5"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "P9"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C5"
+        }
+    ]
+}

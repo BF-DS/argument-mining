@@ -1,0 +1,115 @@
+{
+    "MajorClaims": {
+        "MC1": "the artists must be given freedom so that they will produce some really marvelous masterpiece",
+        "MC2": "there should not be any restrictions on artists' work",
+        "MC3": "there should be no restrictions on them"
+    },
+    "Claims": {
+        "C1": "there are many wonderful and beautiful Arts due to the freedom to express ideas",
+        "C2": "without any limitations, there will be more awe inspiring work from our artists",
+        "C3": "human rights is violated if artists are not allowed to express their feelings freely",
+        "C4": "In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society"
+    },
+    "Premises": {
+        "P1": "Allowing them to think freely will give them an opportunity to express themselves",
+        "P2": "ideas can naturally flow when there are no limitations",
+        "P3": "even though freedom to express ideas can bring some negative effects",
+        "P4": "if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run",
+        "P5": "when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies",
+        "P6": "paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times",
+        "P7": "it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation",
+        "P8": "Today, many countries make numerous efforts to show that they are democratic countries",
+        "P9": "Arts is one of the ways that can be used to criticise social problems and government policies in a particular country",
+        "P10": "the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn",
+        "P11": "artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts",
+        "P12": "They might go deeper into certain aspects that can cause controversies in a country",
+        "P13": "Malaysia is a multiracial country whereby all the citizens live together in harmony and peace"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "attacks",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

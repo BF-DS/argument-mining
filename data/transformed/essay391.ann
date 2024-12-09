@@ -1,0 +1,26 @@
+MC1	MajorClaim 272 348	this great invention in the 21st century causes many problems in our society
+C1	Claim 1818 1861	mobile phones make our communication faster
+A1	Stance C1 Against
+MC2	MajorClaim 1863 1962	it also gives rise to many social problems such as children's social skills and their mental health
+P1	Premise 475 722	as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills
+P2	Premise 734 822	continuous use of mobile phones may also damage children's eyesight and physical posture
+C2	Claim 837 889	it is harmful for us to use mobile phones frequently
+A2	Stance C2 For
+P3	Premise 370 460	spending too much time on mobiles phones many exert an adverse effect on our social skills
+R1	supports Arg1:P1 Arg2:P3	
+R2	supports Arg1:P3 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+P4	Premise 992 1085	there many game applications available online and many of them are quite aggressive in nature
+P5	Premise 1087 1299	In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors
+P6	Premise 1315 1364	frequent conflicts may occur during communication
+C3	Claim 904 976	the growing number of mobiles games will impact their mental development
+A3	Stance C3 For
+R4	supports Arg1:P4 Arg2:C3	
+R5	supports Arg1:P5 Arg2:P6	
+R6	supports Arg1:P6 Arg2:C3	
+P7	Premise 1536 1729	as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge
+C4	Claim 1737 1795	mobile phones have shortened the distance of communication
+A4	Stance C4 Against
+P8	Premise 1429 1514	Mobile phones , such as smart phones, has made our communication easy and convenience
+R8	supports Arg1:P8 Arg2:C4	
+R7	supports Arg1:P7 Arg2:P8	

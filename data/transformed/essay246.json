@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "every fast and not well thought decision is a wasted one",
+        "MC2": "a hurried decision is almost never a good one"
+    },
+    "Claims": {
+        "C1": "making quick decisions leads to probable bad results",
+        "C2": "making a rushed decision could also mean that the person is missing out on a potential opportunity",
+        "C3": "hasty decisions, not only goes to waste, but also, could affect the entire life of the person"
+    },
+    "Premises": {
+        "P1": "making a quick decision means that it's not very thought out, and that it hasn't been checked from all its aspects",
+        "P2": "if someone decided to quit his job without really thinking about the alternative, or a plan B, he could end up being unemployed, because of his speedy decision",
+        "P3": "if this person had waited and thought his decision through he wouldn't have missed out on the job opening in the same firm, but at a different position",
+        "P4": "he wouldn't have been unemployed",
+        "P5": "To put it differently, is that after this person has quit his job and became unemployed, he can no longer pay his bills nor buy what he needs for his everyday needs",
+        "P6": "his life had taken a turn to the worst"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P6"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

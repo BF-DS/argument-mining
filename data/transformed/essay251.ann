@@ -1,0 +1,42 @@
+MC1	MajorClaim 310 382	people who can't accept others' criticism can't succeed in group working
+P1	Premise 871 948	the work belongs to every member, not a personal show for specific one member
+P2	Premise 760 862	It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism
+R1	supports Arg1:P1 Arg2:P2	
+P3	Premise 950 1001	It's every member's duty to respect other's opinion
+C1	Claim 432 472	the core of group working is "consensus"
+A1	Stance C1 For
+P4	Premise 474 520	It's the idea that everyone’s opinion accounts
+P5	Premise 522 674	In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement
+R2	supports Arg1:P4 Arg2:C1	
+R3	supports Arg1:P2 Arg2:C1	
+R4	supports Arg1:P3 Arg2:C1	
+R5	supports Arg1:P5 Arg2:C1	
+P6	Premise 1173 1199	Criticism definitely hurts
+P7	Premise 1208 1268	it points out your drawbacks and forces you to confront them
+R6	supports Arg1:P7 Arg2:P6	
+P8	Premise 1279 1367	criticism can help you detect those drawbacks and fix them if you are willing to take it
+C2	Claim 1091 1171	Even if you are not working in a group, you still need to take others' criticism
+A2	Stance C2 For
+P9	Premise 1011 1089	taking criticism is a virtue as you take someone's opinion that is against you
+R7	supports Arg1:P9 Arg2:C2	
+R8	attacks Arg1:P6 Arg2:C2	
+P10	Premise 1369 1459	Those who don't even take a word of criticism will eventually lose chances to get improved
+R9	attacks Arg1:P8 Arg2:P6	
+P11	Premise 1477 1606	if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works
+P12	Premise 1608 1668	As one Chinese idiom goes: "The good medicine tastes bitter“
+P13	Premise 1670 1723	Criticism might be the most powerful solution to heal
+R10	supports Arg1:P10 Arg2:C2	
+R11	supports Arg1:P11 Arg2:C2	
+R12	supports Arg1:P12 Arg2:C2	
+R13	supports Arg1:P13 Arg2:C2	
+C3	Claim 1966 2015	even if you are right, criticism is still helpful
+A3	Stance C3 For
+P14	Premise 2024 2139	in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work
+P15	Premise 2141 2209	Taking criticism doesn't necessary mean that you have to take it all
+P16	Premise 2211 2249	You should have your own judgments too
+P17	Premise 2251 2305	And it's kind of art to make the best use of criticism
+R14	supports Arg1:P14 Arg2:C3	
+R15	supports Arg1:P15 Arg2:C3	
+R16	supports Arg1:P16 Arg2:C3	
+R17	supports Arg1:P17 Arg2:C3	
+MC2	MajorClaim 2322 2419	criticism is essential especially in group working but in other occasions we still need criticism

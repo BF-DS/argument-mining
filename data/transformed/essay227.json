@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "spending the budget for space exploration is an important activity to save living of humanity in the future",
+        "MC2": "spending budget for space exploring is not the waste budget"
+    },
+    "Claims": {
+        "C1": "it may helps to save civilization of humanity",
+        "C2": "it is very significant to find a new place for living in other planets",
+        "C3": "space exploration will use as a military power for many countries"
+    },
+    "Premises": {
+        "P1": "Many governments believe that space exploration is an activity that wastes the budget",
+        "P2": "the essential challenge of humanity in the future would be the discovery of a new place for the living",
+        "P3": "In during history, our planet is threatening by many of other planets or stars and it is an enormous danger for living of humanity",
+        "P4": "In 20th century, although human being succeeded to achieve out of space by means of new technologies such as rockets, but finding a new place for living in another planet is impossible until now",
+        "P5": "In the future, many countries will try to prevent attach of other countries by using and invention new missiles",
+        "P6": "Both countries tried to send man to the moon and show their power to each other",
+        "P7": "In the past, the space race happened between the United Stated and the Soviet Union",
+        "P8": "Space exploration has used as a tools for military power in the cold war"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P2",
+            "Relation": "attacks",
+            "target": "P1"
+        },
+        {
+            "start": "P1",
+            "Relation": "attacks",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C3"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "MajorClaims": {
+        "MC1": "it is the responsibility of these disadvantaged citizens, rather than the government, to help them out",
+        "MC2": "direct financial support may not be a wise option and people should rely on themselves to get out of the adversity"
+    },
+    "Claims": {
+        "C1": "the government should provide help for the disadvantaged people",
+        "C2": "Government money should be spent on publicly beneficial programs only",
+        "C3": "to survive in this competitive world, one has to work hard and equip themselves well",
+        "C4": "this does not mean we should leave alone those who do need assistance"
+    },
+    "Premises": {
+        "P1": "Tax revenue is collected from those who works",
+        "P2": "Spending them on helping those not make contribution to society would not sound fair to tax payers",
+        "P3": "there are other pressing demands on the government expenditure, such as health care service and education",
+        "P4": "addressing unemployment should have low priority",
+        "P5": "If they could get free financial help from the government, they might end up with out any motivation to work at all",
+        "P6": "it is beneficial to the society as a whole when the jobless can make contribution again",
+        "P7": "They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support",
+        "P8": "the government ought to set up free vocational trainings or to provide interest-free bank loans for them, so that they can have the chance to get back to work"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

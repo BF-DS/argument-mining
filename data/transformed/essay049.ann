@@ -1,0 +1,22 @@
+C1	Claim 364 405	there are valid arguments to the contrary
+A1	Stance C1 Against
+MC1	MajorClaim 428 550	the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication
+MC2	MajorClaim 1794 1896	modern communication technologies will benefit more people in the future as the pace of life increases
+C2	Claim 1132 1214	these new forms of communication do bring a great deal of convenience to humankind
+A2	Stance C2 For
+P1	Premise 567 718	mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business
+P2	Premise 720 841	With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds
+P3	Premise 856 966	it is generally felt that the access to these tools of communication is available in every corner of the world
+P4	Premise 968 1105	With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine
+R1	supports Arg1:P4 Arg2:C2	
+R2	supports Arg1:P3 Arg2:C2	
+R3	supports Arg1:P2 Arg2:C2	
+R4	supports Arg1:P1 Arg2:C2	
+C3	Claim 1658 1755	people who live in poverty are less likely to be benefited from modern communication technologies
+P5	Premise 1281 1331	the more privileged are able to enjoy the benefits
+P6	Premise 1361 1472	the wide spread use of these efficient and effective ways of communication costs a considerable amount of money
+P7	Premise 1474 1642	Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services
+R5	supports Arg1:P5 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	supports Arg1:P7 Arg2:C3	
+A3	Stance C3 Against

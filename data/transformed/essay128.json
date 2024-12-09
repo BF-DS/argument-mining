@@ -1,0 +1,78 @@
+{
+    "MajorClaims": {
+        "MC1": "high school should permit students to choose courses they want for several reasons which are freedom of choice, to have progress in students grades and knowledge as well as to help students explore their aptitude",
+        "MC2": "I want my children to get knowledge they have desire to study in order to have distinguished achievement"
+    },
+    "Claims": {
+        "C1": "students should have a right to choose what they want to study",
+        "C2": "Giving chance students to choose their interested fields of study is merit",
+        "C3": "this type of opportunities can raise future geniuses",
+        "C4": "it has advantage not only for him or her but for society as well"
+    },
+    "Premises": {
+        "P1": "Not allowing students their desired subjects to be chosen is a restriction of human rights",
+        "P2": "As children of independent country we should know our rights and opportunities we have in order to achieve our goals and dreams",
+        "P3": "students should choose their classes to have progress in their studies and grades",
+        "P4": "we can avoid conflicts among students and teachers which can be enjoyable and productive for both instructor and students",
+        "P5": "when I was taking art class everyone shared the same interests and it was easy to understand each other",
+        "P6": "When schools can give such kind of opportunity the students are likely do their best and succeed in their future lives which is one of the point most people get education",
+        "P7": "he or she can explore in an area she/he has an aptitude"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        }
+    ]
+}

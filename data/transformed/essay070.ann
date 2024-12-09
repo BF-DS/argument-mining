@@ -1,0 +1,24 @@
+MC1	MajorClaim 371 441	it is insufficient to increase the petrol price only to solve problems
+MC2	MajorClaim 1959 2043	addressing pollution and traffic issues only by increasing oil price is not adequate
+P1	Premise 670 762	whether it can work out for alleviating traffic and pollution pressure ought to be evaluated
+P2	Premise 528 659	price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area
+C1	Claim 900 952	it seems not easy to increase petrol price instantly
+A2	Stance C1 For
+P3	Premise 777 884	governments have a macro-economic perspective to control price in various areas according to social demands
+P4	Premise 973 1110	pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution
+P5	Premise 1125 1252	the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours
+R1	attacks Arg1:P2 Arg2:C1	
+R2	attacks Arg1:P1 Arg2:P2	
+R3	supports Arg1:P3 Arg2:C1	
+R4	supports Arg1:P4 Arg2:C1	
+R5	supports Arg1:P5 Arg2:C1	
+C2	Claim 1277 1371	several other solutions can be introduced to assist in reducing pollution and traffic problems
+A1	Stance C2 For
+P6	Premise 1384 1550	authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars
+P7	Premise 1565 1695	temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season
+P8	Premise 1702 1766	with supervisory institutions built to find and address problems
+P9	Premise 1779 1942	cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P7 Arg2:C2	
+R8	supports Arg1:P8 Arg2:C2	
+R9	supports Arg1:P9 Arg2:C2	

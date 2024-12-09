@@ -1,0 +1,15 @@
+MC1	MajorClaim 1300 1428	IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly
+C1	Claim 1213 1270	All this inventions will try to take control of the Earth
+A1	Stance C1 For
+P1	Premise 1080 1211	Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them
+P2	Premise 919 1025	before centeries, there were not washing machines, which clean your clothes, while a person do another job
+C2	Claim 695 756	nowadays technology is entering into our society really quick
+A2	Stance C2 Against
+P3	Premise 761 904	scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc
+C3	Claim 472 515	connecting people by email is easy and fast
+A3	Stance C3 Against
+C4	Claim 530 635	World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds
+A4	Stance C4 Against
+R1	supports Arg1:P3 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P1 Arg2:C1	

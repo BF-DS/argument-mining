@@ -1,0 +1,32 @@
+MC1	MajorClaim 483 524	a person should keep trying for his goals
+MC2	MajorClaim 1631 1653	one should not give up
+C1	Claim 1698 1962	Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life
+A1	Stance C1 For
+P1	Premise 603 686	I realized the true potential of my body and mind as I decided to train myself hard
+P2	Premise 688 810	Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running
+C2	Claim 536 588	committing to our goal helps creating personal worth
+A2	Stance C2 For
+P3	Premise 881 975	I remembered how I was suffered in the first round when I was last person who touched the line
+P4	Premise 986 1058	I did not give up, and believed that I would be better in the next round
+P5	Premise 1067 1095	I knew how to improve myself
+P6	Premise 1097 1225	I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger
+C3	Claim 823 879	one who learns the great difficulty will become stronger
+A3	Stance C3 For
+C4	Claim 1366 1406	the responsibility is worthy of carrying
+P7	Premise 1408 1517	When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself
+P8	Premise 1519 1555	He can feel the sweetness of triumph
+P9	Premise 1564 1596	he did not stop pursing his goal
+P10	Premise 1252 1349	we, as an average people, might feel that the responsibility to our goal is too heavy to carry on
+C5	Claim 1658 1696	the true reward is to have the dignity
+A5	Stance C5 For
+A4	Stance C4 For
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P5 Arg2:P4	
+R4	supports Arg1:P3 Arg2:C3	
+R5	supports Arg1:P4 Arg2:C3	
+R6	supports Arg1:P6 Arg2:C3	
+R7	attacks Arg1:P10 Arg2:C4	
+R8	supports Arg1:P7 Arg2:C4	
+R9	supports Arg1:P9 Arg2:P8	
+R10	supports Arg1:P8 Arg2:C4	

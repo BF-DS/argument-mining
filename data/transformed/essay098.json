@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "the benefits of children engagement in paid work outweigh its drawbacks",
+        "MC2": "if children take part in some kind of paid work with their parents' permission, they can learn lively lessons and become mature and responsible"
+    },
+    "Claims": {
+        "C1": "they are likely to understand their parents' hardship, to respect values of money and to form a good habit of saving",
+        "C2": "when children take jobs, they tend to be more responsibl",
+        "C3": "children will be more material, neglect their study for earning money or be exploited by the employers"
+    },
+    "Premises": {
+        "P1": "children can learn about the hardship of earning money",
+        "P2": "When they take some kind of paid work such as looking after babies, doing housework and keeping shops, they will have some life experience and skills which make them mature and can deal with many different situations in real life",
+        "P3": "whether they can earn money or not will depend on their effectiveness and attitudes in working",
+        "P4": "To keep their jobs, children will have to try their best to finish their duties",
+        "P5": "if a child works as a shop assistant, he will have to keep an eye on good and products, calculate prices correctly and take responsibilities for any lost",
+        "P6": "if children get good care and instructions from their parents, they can take advantages of the work to learn valuable things and avoid going in a wrong way"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "attacks",
+            "target": "C3"
+        }
+    ]
+}

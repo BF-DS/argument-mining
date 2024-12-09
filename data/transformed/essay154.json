@@ -1,0 +1,156 @@
+{
+    "MajorClaims": {
+        "MC1": "I prefer to live with a roommate",
+        "MC2": "I prefer to live with a roommate, and I always will"
+    },
+    "Claims": {
+        "C1": "it saves me money, enables me to socialize, and allows me to get help",
+        "C2": "many people decide to live alone for various reasons",
+        "C3": "it offers me many advantages, such as less spending, more socializing, and more help",
+        "C4": "Living with a roommate saves me a lot of money",
+        "C5": "living with a roommate also enables me to socialize more easily",
+        "C6": "living with a roommate allows me to get help"
+    },
+    "Premises": {
+        "P1": "If you have roommates, you can split the rent and utilities among them",
+        "P2": "you can get more for less",
+        "P3": "last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly",
+        "P4": "I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills",
+        "P5": "It is always easier to socialize when you have a lot of people around you",
+        "P6": "You can invite your roommates' friends over to your room and have fun together",
+        "P7": "one night, my roommate, Millan, brought his friends along",
+        "P8": "Even though his friends and I were total strangers to each other, we quickly got to know each other",
+        "P9": "We soon found out that everyone loved playing video games",
+        "P10": "We played a video game called 'Halo' together all night, and became good friends",
+        "P11": "Living with a roommate made socializing much easier for me",
+        "P12": "It often is the case that your roommates have the skills or knowledge you need",
+        "P13": "When you run into a problem, you can ask your roommates if they can help",
+        "P14": "Some of them may have something to offer",
+        "P15": "when my computer mysteriously broke down, I dialed up the manufacturer and asked for help",
+        "P16": "They failed to give me any useful solutions",
+        "P17": "To my surprise, one of my roommates noticed my problems and offered to help",
+        "P18": "He was very good with computers, and he managed to fix the problem quickly"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C5",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C6",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C5"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P16",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P17",
+            "Relation": "supports",
+            "target": "C6"
+        },
+        {
+            "start": "P18",
+            "Relation": "supports",
+            "target": "C6"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+MC1	MajorClaim 32 99	I prefer the serious movies which are simple, touching and powerful
+C1	Claim 130 180	most serious movies have a wide variety of content
+A1	Stance C1 For
+P1	Premise 182 229	Entertaining movies are created to amuse people
+P2	Premise 240 290	most entertaining movies are empty and nonsensical
+P3	Premise 292 384	Compared with the entertainment film, the serious film may be more worthwhile and meaningful
+C2	Claim 877 986	the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves
+A3	Stance C2 For
+P4	Premise 578 721	"Click" is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses
+P5	Premise 723 869	The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are
+R1	supports Arg1:P5 Arg2:C2	
+R2	supports Arg1:P4 Arg2:C2	
+R3	supports Arg1:P1 Arg2:C1	
+R4	supports Arg1:P2 Arg2:C1	
+P6	Premise 386 472	Serious movies usually designed to express one or more thinking about love, humaneness
+P7	Premise 484 530	it may point out the dark sides of the society
+R5	supports Arg1:P3 Arg2:C1	
+R6	supports Arg1:P6 Arg2:C1	
+R7	supports Arg1:P7 Arg2:C1	
+P8	Premise 998 1076	some of serious movies try to make you think about the dark sides of the world
+P9	Premise 1078 1191	"Blood diamond", an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict
+P10	Premise 1193 1265	After watching the movie, we may learn a lesson between jewels and death
+P11	Premise 1267 1371	Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality
+C3	Claim 1386 1448	serious movie tell you how to see the world in a different way
+A4	Stance C3 For
+R12	supports Arg1:P9 Arg2:C3	
+R13	supports Arg1:P11 Arg2:C3	
+MC2	MajorClaim 1473 1570	I prefer to see those serious movies which make people have deep thoughts toward their real lives
+R8	supports Arg1:P8 Arg2:C3	
+R9	supports Arg1:P10 Arg2:C3	

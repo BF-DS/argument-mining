@@ -1,0 +1,96 @@
+{
+    "MajorClaims": {
+        "MC1": "international tourism not only causes tension but also leads to understanding between people from different culture",
+        "MC2": "international tourism leads to both tension and understanding between people from different culture"
+    },
+    "Claims": {
+        "C1": "most people will be trying to understand each other after they have conflict or debates",
+        "C2": "people are looking for the solution such as understanding each other while they encounter the conflicts caused by international tourism",
+        "C3": "some behaviors of the tourists are not welcome in the local area",
+        "C4": "in order to avoid the conflicts between foreigners and locals, people are trying to understand different culture and find solutions"
+    },
+    "Premises": {
+        "P1": "those local residents have to clean the place frequently",
+        "P2": "some people leave the rubbish after visiting the attractions",
+        "P3": "tourists may offend the local people due to their different culture background",
+        "P4": "Indians don't eat beef",
+        "P5": "they worship cows",
+        "P6": "if tourists want to respect the tradition, they will not order any beef in the local restaurant",
+        "P7": "tourists are given the brochures about the local traditions and customs before they visit the place",
+        "P8": "the possibility of the conflicts is reduced because the understanding between both parties",
+        "P9": "the tour guide are willing to help tourists to understand the culture from other countries",
+        "P10": "the new batch of tourists will have a tidy and neat environment"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C4",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "P4"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "P1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "P3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "P10"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C4"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "P8"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C4"
+        }
+    ]
+}

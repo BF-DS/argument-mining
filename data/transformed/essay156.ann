@@ -1,0 +1,32 @@
+MC1	MajorClaim 250 347	violence in movies has negative effects on youngsters mostly on their behaviors, emotions & study
+MC2	MajorClaim 1494 1615	growing of violence in films have definitely negative effects on youngsters mostly on their study, emotions and behaviors
+C1	Claim 684 751	unexpectedly the violent behavior has effected on child’s behaviors
+A1	Stance C1 For
+P1	Premise 588 676	In this case, the child would imitate the actor's behaviors in order to look like to him
+P2	Premise 521 586	Imagine an actor who is a child’s favorite is doing violent roles
+P3	Premise 469 519	Nowadays children are more involved in TV programs
+P4	Premise 369 467	children behaviors are the most concerning matter which parents are always trying to do their best
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+R3	supports Arg1:P4 Arg2:C1	
+R4	supports Arg1:P3 Arg2:C1	
+C2	Claim 922 1031	if these scenes are in TV, they would probably have their negative effects on the viewer who could be a child
+A2	Stance C2 For
+P5	Premise 893 909	killing is worse
+P6	Premise 837 878	dying is always a disappointing happening
+P7	Premise 764 821	human beings are very sensitive, especially of youngsters
+R5	supports Arg1:P7 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P5 Arg2:C2	
+C3	Claim 1404 1452	the study of a youngster would affected terribly
+P8	Premise 1319 1395	it is obvious that he wouldn’t be able to concentrate on his study perfectly
+P9	Premise 1256 1317	he is thinking about the movie or whatever has happened in it
+R8	supports Arg1:P9 Arg2:P8	
+P10	Premise 1199 1227	he has to study for the exam
+P11	Premise 1143 1178	a child watches a frightening movie
+P12	Premise 1076 1128	the study of youngsters shall always been controlled
+R9	supports Arg1:P8 Arg2:C3	
+R10	supports Arg1:P10 Arg2:C3	
+R11	supports Arg1:P11 Arg2:C3	
+R12	supports Arg1:P12 Arg2:C3	
+A3	Stance C3 For

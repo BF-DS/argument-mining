@@ -1,0 +1,66 @@
+{
+    "MajorClaims": {
+        "MC1": "cheap flight can make many serious problem",
+        "MC2": "the drawbacks of cheap air fares outweigh the benefits"
+    },
+    "Claims": {
+        "C1": "cheap air fares have broadened travel possibilities for many people, particularly for the lower income group",
+        "C2": "growing of cheap flights really have negative impact on environment"
+    },
+    "Premises": {
+        "P1": "These days, millions of people can travel around the world for work or pleasure",
+        "P2": "They can develop their careers, broad their knowledge, and interact with many other people from varied cultural backgrounds",
+        "P3": "travels also help to promote the tourist industry development, boost the economy and job markets of many countries",
+        "P4": "more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it",
+        "P5": "the biggest concern is the effect on global warming",
+        "P6": "Burning plane fuel can releases carbon dioxid into environment that cause the Earth to heat up",
+        "P7": "while many efforts are being made to reduce CO2 emissions from cars and factories, nothing is being done to reins the airlines"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "Against",
+            "target": "MC"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C1"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

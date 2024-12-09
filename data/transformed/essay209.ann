@@ -1,0 +1,18 @@
+MC1	MajorClaim 1406 1460	it will yield more negative results than positive ones
+MC2	MajorClaim 1473 1529	it should be made available for a wide range of learners
+C1	Claim 916 1041	it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively
+A1	Stance C1 For
+P1	Premise 790 903	university is not just about academic studies but also a place to nurture artistic talent and develop soft skills
+C2	Claim 1058 1160	there is a tendency for social vices to rise if university is to be restricted to only the best people
+A2	Stance C2 For
+P2	Premise 1162 1327	Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones
+R1	supports Arg1:P2 Arg2:C2	
+R2	supports Arg1:P1 Arg2:C1	
+C3	Claim 375 468	outstanding academic students are eligible for university due to their intellectual advantage
+A3	Stance C3 For
+P3	Premise 485 631	such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills
+P4	Premise 642 693	it is undeniable that one deserves what he has done
+P5	Premise 695 779	University is like a gift presented to those who have gone to great length to attain
+R3	supports Arg1:P3 Arg2:C3	
+R4	supports Arg1:P4 Arg2:C3	
+R5	supports Arg1:P5 Arg2:C3	

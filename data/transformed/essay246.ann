@@ -1,0 +1,20 @@
+MC1	MajorClaim 47 103	every fast and not well thought decision is a wasted one
+MC2	MajorClaim 1237 1282	a hurried decision is almost never a good one
+C1	Claim 323 375	making quick decisions leads to probable bad results
+A1	Stance C1 For
+P1	Premise 193 307	making a quick decision means that it's not very thought out, and that it hasn't been checked from all its aspects
+P2	Premise 390 549	if someone decided to quit his job without really thinking about the alternative, or a plan B, he could end up being unemployed, because of his speedy decision
+R1	supports Arg1:P2 Arg2:C1	
+R2	supports Arg1:P1 Arg2:C1	
+C2	Claim 564 662	making a rushed decision could also mean that the person is missing out on a potential opportunity
+A2	Stance C2 For
+P3	Premise 681 832	if this person had waited and thought his decision through he wouldn't have missed out on the job opening in the same firm, but at a different position
+P4	Premise 841 873	he wouldn't have been unemployed
+R3	supports Arg1:P3 Arg2:P4	
+R4	supports Arg1:P4 Arg2:C2	
+C3	Claim 896 989	hasty decisions, not only goes to waste, but also, could affect the entire life of the person
+A3	Stance C3 For
+P5	Premise 991 1155	To put it differently, is that after this person has quit his job and became unemployed, he can no longer pay his bills nor buy what he needs for his everyday needs
+P6	Premise 1163 1201	his life had taken a turn to the worst
+R5	supports Arg1:P5 Arg2:P6	
+R6	supports Arg1:P6 Arg2:C3	

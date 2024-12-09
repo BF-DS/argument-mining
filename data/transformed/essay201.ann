@@ -1,0 +1,29 @@
+C1	Claim 1920 2003	supporting art will benefit the human beings and the company in short-term interest
+A1	Stance C1 Against
+MC1	MajorClaim 2005 2067	I still hold the environment protection for long-term interest
+C2	Claim 271 330	conservation is more urgent now than at any time in history
+A2	Stance C2 For
+C3	Claim 1037 1106	supporting environment protection will benefit the company eventually
+A3	Stance C3 For
+C4	Claim 1492 1544	conservation leads us to a higher standard of living
+A4	Stance C4 For
+P1	Premise 1118 1183	an increasing amount of people pay more attention to conservation
+P2	Premise 1196 1261	sponsoring conservation is a more efficient method of advertising
+R1	supports Arg1:P1 Arg2:P2	
+R2	supports Arg1:P2 Arg2:C3	
+P3	Premise 1263 1481	Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society
+R3	supports Arg1:P3 Arg2:P2	
+P4	Premise 332 553	According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered
+P5	Premise 568 684	rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries
+P6	Premise 686 910	If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms
+R4	supports Arg1:P5 Arg2:P6	
+P7	Premise 922 1022	the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will
+R5	supports Arg1:P7 Arg2:C2	
+R6	supports Arg1:P6 Arg2:C2	
+R7	supports Arg1:P4 Arg2:C2	
+P8	Premise 1561 1617	art is one of the best ways of entertaining human beings
+R8	attacks Arg1:P8 Arg2:C4	
+P9	Premise 1624 1741	with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs
+R9	attacks Arg1:P9 Arg2:P8	
+P10	Premise 1743 1898	Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art
+R10	supports Arg1:P10 Arg2:C4	

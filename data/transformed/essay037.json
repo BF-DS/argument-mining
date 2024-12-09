@@ -1,0 +1,126 @@
+{
+    "MajorClaims": {
+        "MC1": "international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way",
+        "MC2": "It will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way"
+    },
+    "Claims": {
+        "C1": "International sporting events will draw the international concern",
+        "C2": "It really help to alleviate the tension",
+        "C3": "an international sporting event also helps fans release patriotic emotions in a safe way"
+    },
+    "Premises": {
+        "P1": "it is useful to ease tensions between nations",
+        "P2": "People can understand more about a country",
+        "P3": "An international sporting event is normal held in a country with huge interest from fans all over the world",
+        "P4": "For the time of occasions, people regardless of nationality, origin and religion will live together",
+        "P5": "in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking",
+        "P6": "The world suspected North Korea of the aggressive action",
+        "P7": "due to this event North Korea showed a friendship and enthuasism",
+        "P8": "It is rare times when people can learn about this country",
+        "P9": "When they garther together to encourage their team, they will show their patriotic emotions",
+        "P10": "Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport",
+        "P11": "all fans know that a sport event will attract the attention of whole the world and a lot of public media",
+        "P12": "They will try to create a beautiful image about their land and people",
+        "P13": "In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country",
+        "P14": "foreigners came here always received the support of friendly volunteers who were young students",
+        "P15": "They were welcomed by each Chinese hospitality, beauty in each cities",
+        "P16": "Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world"
+    },
+    "ArgumentativeRelations": [
+        {
+            "start": "C1",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "C2",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P8",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P7",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P6",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P5",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P2",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P4",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "P3",
+            "Relation": "supports",
+            "target": "C2"
+        },
+        {
+            "start": "C3",
+            "Relation": "For",
+            "target": "MC"
+        },
+        {
+            "start": "P16",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P15",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P14",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P13",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P12",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P11",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P10",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P9",
+            "Relation": "supports",
+            "target": "C3"
+        },
+        {
+            "start": "P1",
+            "Relation": "supports",
+            "target": "C2"
+        }
+    ]
+}

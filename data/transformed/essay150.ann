@@ -1,0 +1,38 @@
+MC1	MajorClaim 144 198	reading fiction is more enjoyable than watching movies
+MC2	MajorClaim 1729 1762	reading fictions is more pleasant
+C1	Claim 1771 1861	these books have more depth, are much easier to use, and more useful for language learners
+A1	Stance C1 For
+C2	Claim 235 278	fiction books pay more attention to details
+A2	Stance C2 For
+P1	Premise 289 369	we can know characters, places, and times of a novel very well during reading it
+P2	Premise 371 490	Most of the novels describe not only main characters but also other people in the novels, where each scene is happening
+P3	Premise 505 646	after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people
+P4	Premise 657 728	a movie just gives us a very small review of its stories and characters
+R1	supports Arg1:P1 Arg2:C2	
+R2	supports Arg1:P2 Arg2:C2	
+R3	supports Arg1:P3 Arg2:C2	
+R4	supports Arg1:P4 Arg2:C2	
+C3	Claim 740 774	reading a novel is more convenient
+A3	Stance C3 For
+P5	Premise 776 857	Some novels have around 100 pages and readers cannot finish them in just one hour
+P6	Premise 859 963	Yet these people can continue to read their novels wherever they find free time such as in bus or trains
+P7	Premise 978 1024	I have started to read a novel since last week
+P8	Premise 1026 1141	I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class
+P9	Premise 1156 1187	I cannot watch a complete movie
+P10	Premise 1196 1272	I can just sit in front of TV for 15 minutes and after that, I have to study
+R5	supports Arg1:P10 Arg2:P9	
+R6	supports Arg1:P5 Arg2:C3	
+R7	supports Arg1:P6 Arg2:C3	
+R8	supports Arg1:P7 Arg2:C3	
+R9	supports Arg1:P8 Arg2:C3	
+R10	supports Arg1:P9 Arg2:C3	
+C4	Claim 1303 1327	people enjoy watching TV
+A4	Stance C4 Against
+P11	Premise 1343 1416	they can learn many things such as learning a language by watching movies
+R11	supports Arg1:P11 Arg2:C4	
+P12	Premise 1470 1530	movies are not a good idea to learn a language for beginners
+R12	attacks Arg1:P12 Arg2:C4	
+P13	Premise 1537 1607	characters in movies speak very fast and unclear for language learners
+R13	supports Arg1:P13 Arg2:P12	
+P14	Premise 1609 1716	For these learners it is better to start by reading some novels which are more comprehensible and enjoyable
+R14	supports Arg1:P14 Arg2:P12	
