@@ -1,13 +1,23 @@
 digraph {
 	rankdir=LR
+	subgraph cluster_orig_data {
+		style=dashed
+		orig_data_txt [label="Original Text Files" shape=record style=rounded]
+		orig_data_ann [label="Original Annotations" shape=record style=rounded]
+		label="Original Data"
+	}
+	transformed_data_ann [label="Transformed Annotations" shape=record style=rounded]
+	transformed_data_JSON [label="Transformed JSON Files" shape=record style=rounded]
 	Template [label=Template shape=record style=rounded]
-	Text [label="Arg.-Txt." shape=record style=rounded]
 	LLM [label="Large Language Model" shape=record style=rounded]
 	Database [label=Database shape=record style=rounded]
 	Evaluation [label=Evaluation shape=record style=rounded]
-	Text -> Template [label=examples color=blue]
+	orig_data_ann -> transformed_data_ann [label="change labels" color=blue]
+	transformed_data_ann -> transformed_data_JSON [label=convert color=blue]
+	transformed_data_JSON -> Template [label="output examples" color=blue]
+	orig_data_txt -> Template [label="input examples" color=blue]
 	Template -> LLM [label=prompt color=blue]
 	LLM -> Database [label=response color=blue]
 	Database -> Evaluation [label="" color=blue]
-	Text -> Database [label="ground truth" color=blue]
+	orig_data_txt -> Database [label="ground truth" color=blue]
 }

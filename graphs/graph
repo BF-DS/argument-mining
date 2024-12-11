@@ -9,4 +9,6 @@ digraph {
 	"Claim 2" -> MajorClaim [label=for color=green]
 	"Premise 1" -> "Claim 1" [label=attack color=red]
 	"Premise 2" -> "Claim 1" [label=support color=green]
+	"Premise 1" -> "Premise 2" [label=attack color=red]
+	"Premise 2" -> "Premise 1" [label=support color=green]
 }
