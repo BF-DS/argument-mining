@@ -1,0 +1,1090 @@
+You will be given a text. Extract the argumentative units “major claim”, “claim”, and “premise” as parts from the text. Also extract the argumentative relationships between the units. Claims can be “for” or “against” the major claims. Premises, on the other hand, can “support” or “attack” a claim or another premise. It is possible that there are several major claims. Return only the argumentative units and relationships between them. Return as a JSON object.
+
+# Example 1
+## Input:
+Should students be required to attend classes?
+
+The issue at hand is whether it should be obligatory for university students to attend classes. This is an interesting question because it affects a great amount of students worldwide. Nonetheless there are various different policies regarding this topic. An important aspect might be whether one desires to optimize the learned knowledge or the amount of valuable experiences for the students. However, to my mind students should be free not to attend classes because it improves the quality of student life as well as their learning motivation and teaches important life skills.
+Firstly, a liberal policy is very feasible. Checking for attendance requires a lot of bureaucracy. Especially for larger classes it is impossible to check for everybody to attend. So an optional attendance saves time and money.
+Secondly, some students might learn better at home on their own, for instance, by reading the textbook. This problem occurs especially if the lecturer is lethargic. By letting students choose not to attend class you give them the opportunity to escape bad teaching. Thus they are able to save precious study time and dive into the course syllabus independently.
+In addition, being free to stay away from classes improves flexibility and therefore quality of student life. Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning. With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency. Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas.
+Finally, psychology knows two types of motivation. There is intrinsic motivation which comes from your own mindset. And there is extrinsic motivation which comes from the praise and laud of other people. Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being. However, in order to gain intrinsic motivation students need to become aware of their strengths and aims. By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves. These are crucial skills for the duration of their study and their whole life time.
+To conclude, it is clear that going to classes should be optional for students. I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "students should be free not to attend classes",
+    "MC2": "it is clear that going to classes should be optional for students"
+  },
+  "Claims": {
+    "C1": "it improves the quality of student life as well as their learning motivation and teaches important life skills",
+    "C2": "I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards",
+    "C3": "some students might learn better at home on their own, for instance, by reading the textbook",
+    "C4": "being free to stay away from classes improves flexibility and therefore quality of student life",
+    "C5": "By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves"
+  },
+  "Premises": {
+    "P1": "This problem occurs especially if the lecturer is lethargic",
+    "P2": "By letting students choose not to attend class you give them the opportunity to escape bad teaching",
+    "P3": "they are able to save precious study time and dive into the course syllabus independently",
+    "P4": "Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning",
+    "P5": "With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency",
+    "P6": "Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas",
+    "P7": "Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being",
+    "P8": "These are crucial skills for the duration of their study and their whole life time",
+    "P9": "in order to gain intrinsic motivation students need to become aware of their strengths and aims"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
+}
+# Example 2
+## Input:
+High sales reflect power of advertising and not the real need
+
+Nowadays, we can see advertisements everywhere, from television set to posters on the streets. Some people believe that these various advertisements get people to buy products that are unnecessary and only look good on television. I tend to agree with this view.
+To boost their sales and win over customers, companies pour a great amount of money into advertising. Most of the time, it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product. By which I mean, huge cooperation hire celebrities as the face of their product. By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly since youngsters, as the target consumers, love celebrities. Since having these products shows their status, the quality obviously is not relatively important.
+However, despite the fact that advertisements can be falseful and exaggerated, it is also true that it plays and important role economically. They introduce new products, and provide various choices, not to mention they are often visually enjoyable, since they aim to grab your attention. Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition. Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective.
+The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers. No matter how appealing the advertisements are, we should be able to make the decision on our own.
+
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "these various advertisements get people to buy products that are unnecessary and only look good on television",
+    "MC2": "The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers"
+  },
+  "Claims": {
+    "C1": "it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product",
+    "C2": "it plays and important role economically"
+  },
+  "Premises": {
+    "P1": "To boost their sales and win over customers, companies pour a great amount of money into advertising",
+    "P2": "huge cooperation hire celebrities as the face of their product",
+    "P3": "By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly",
+    "P4": "youngsters, as the target consumers, love celebrities",
+    "P5": "having these products shows their status",
+    "P6": "the quality obviously is not relatively important",
+    "P7": "they aim to grab your attention",
+    "P8": "They introduce new products, and provide various choices, not to mention they are often visually enjoyable",
+    "P9": "advertisements can be falseful and exaggerated",
+    "P10": "Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition",
+    "P11": "Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
+}
+# Example 3
+## Input:
+Capital punishment - necessary or not
+
+Crime is always punishable. Retribution is the method for countering criminals. Some countries have stringent rules, like capital punishment, while other have a lot of flexibility in the judicial system. However, strict laws, like capital punishment, are essential in a society.
+Capital punishment is given only in the "rarest of the rare" cases. Its first and foremost objective is safety of other human beings. When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment. Thus, capital punishment protects the society from hardcore criminals.
+Moreover, capital punishment curbs the inspiration and prospects of other hateful crimes. When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes. Thus, the rate of crime and violence is effectively decreased.
+Importantly, capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals. Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment.
+However, the jury giving the verdict are also humans. They have the life of a person at their discretion. They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals. The jury must therefore, take into account the circumstances of committing a crime. For example, if an individual murders someone for self-defense, then such a crime is not heinous. Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment.
+Capital punishment is essential to control violence in the society. I firmly believe that psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment. Capital punishment helps to safeguard human rights in a strict and effective manner. However, it should be considered as the last option by the jury and all circumstances must be taken into account before pronouncing the final verdict.
+
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "strict laws, like capital punishment, are essential in a society",
+    "MC2": "Capital punishment is essential to control violence in the society",
+    "MC3": "psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment"
+  },
+  "Claims": {
+    "C1": "Capital punishment helps to safeguard human rights in a strict and effective manner",
+    "C2": "capital punishment protects the society from hardcore criminals",
+    "C3": "the rate of crime and violence is effectively decreased",
+    "C4": "Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment",
+    "C5": "They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals"
+  },
+  "Premises": {
+    "P1": "When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment",
+    "P2": "Capital punishment is given only in the \"rarest of the rare\" cases",
+    "P3": "Its first and foremost objective is safety of other human beings",
+    "P4": "capital punishment curbs the inspiration and prospects of other hateful crimes",
+    "P5": "When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes",
+    "P6": "capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals",
+    "P7": "the jury giving the verdict are also humans",
+    "P8": "They have the life of a person at their discretion",
+    "P9": "The jury must therefore, take into account the circumstances of committing a crime",
+    "P10": "if an individual murders someone for self-defense, then such a crime is not heinous",
+    "P11": "Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
+}
+# Example 4
+## Input:
+Every experience always gives us something to learn and keep for life
+
+I agree with the statement that our life seems tough at the time but those difficult experiences of life become important lessons for the future. My opinion based on the reasons that Every tough experience makes us more skilled, improves our decision making and makes us more compatible for life.
+The best example of it is how babies learn about basics survival habits during their childhood. Every day comes with new challenges for them like walking, eating, etc., but those challenges of their initial life teach them important survival lessons which help them for whole life. For example, when they tried to learn walking, they stumble and hurt themselves many times. But they slowly tune their technique and learned to walk.
+All inventions and experiments are based on many unfortunate observations. No known scientist has success in first attempt. Scientists try and test many specimens before they get they want. It was said that Thomas Edison tested around 10000 bulbs before inventing Light bulb. So, all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through.
+Our difficult experiences also make us robust and strong unknowingly. We might be facing a toughest time of life at the time, but when we think back about those moments later in life, we feel more confident about our decisions and about ourselves. When I moved to college hostel after school, first few days were very unsettling for me because first time I was away from parent and staying with people I had not known. I had felt very fragile and emotionally distracted, but then slowly I started adjusting with roommates and built connection with them. I also became more casual and social with others, this experience increased my communication skill and social speaking skills. 
+Therefore, to conclude my opinion on this statement, I want to mentioned that every experience in life whether it is good or bad always gives us something to learn and keep for life. Good experiences give us good memories and bad ones teach us lessons for life.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "experience makes us more skilled, improves our decision making and makes us more compatible for life",
+    "MC2": "every experience in life whether it is good or bad always gives us something to learn and keep for life"
+  },
+  "Claims": {
+    "C1": "those challenges of their initial life teach them important survival lessons which help them for whole life",
+    "C2": "All inventions and experiments are based on many unfortunate observations",
+    "C3": "Our difficult experiences also make us robust and strong unknowingly",
+    "C4": "Good experiences give us good memories and bad ones teach us lessons for life"
+  },
+  "Premises": {
+    "P1": "Every day comes with new challenges for them like walking",
+    "P2": "when they tried to learn walking, they stumble and hurt themselves many times",
+    "P3": "they slowly tune their technique and learned to walk",
+    "P4": "No known scientist has success in first attempt",
+    "P5": "Scientists try and test many specimens before they get they want",
+    "P6": "Thomas Edison tested around 10000 bulbs before inventing Light bulb",
+    "P7": "all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through",
+    "P8": "first time I was away from parent and staying with people I had not known",
+    "P9": "I had felt very fragile and emotionally distracted, but then slowly I started adjusting with roommates and built connection with them",
+    "P10": "I also became more casual and social with others, this experience increased my communication skill and social speaking skills",
+    "P11": "When I moved to college hostel after school, first few days were very unsettling for me",
+    "P12": "We might be facing a toughest time of life at the time, but when we think back about those moments later in life, we feel more confident about our decisions and about ourselves"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P11"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
+}
+# Example 5
+## Input:
+Successful people try new things and take risks
+
+I have my own reasons why I agree with the statement that successful people try new things and take risks. There are many viewpoints regarding what the main characteristics of successful people are. In my opinion, one of the main reasons for supporting this statement is that successful people can learn important and very valuable points from trying new things. The other reason is that great success requires taking great risks.
+There are always interesting and useful experiences that successful people can learn them only by trying new things. For example, if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places. By selling goods or other commodities you will face different people with different behaviors and personalities and as a result you will learn how to behave people in different situations and jobs in the future. These experiences can only be obtained by trying new things and can’t be always found in books. 
+I do believe that great success requires taking great risks. If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money. If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies. The more you take risks, the greater your successes will be. If you don’t take any risks, you will have an ordinary life with average successes. That’s why it is important to take risks.
+In sum, I believe that success and trying new things and taking risks go hand in hand and to achieve success you should consider them.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "success and trying new things and taking risks go hand in hand and to achieve success you should consider them"
+  },
+  "Claims": {
+    "C1": "successful people can learn important and very valuable points from trying new things",
+    "C2": "great success requires taking great risks",
+    "C3": "These experiences can only be obtained by trying new things and can\u2019t be always found in books",
+    "C4": "it is important to take risks"
+  },
+  "Premises": {
+    "P1": "if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places",
+    "P2": "By selling goods or other commodities you will face different people with different behaviors and personalities",
+    "P3": "you will learn how to behave people in different situations and jobs in the future",
+    "P4": "There are always interesting and useful experiences that successful people can learn them only by trying new things",
+    "P5": "If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money",
+    "P6": "If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies",
+    "P7": "The more you take risks, the greater your successes will be",
+    "P8": "If you don\u2019t take any risks, you will have an ordinary life with average successes",
+    "P9": "great success requires taking great risks"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 6
+## Input:
+Your job has more effect on your happiness than your living environment does
+
+With the development of the economy, people become more and more rich. They start to pay attention to mental requirement like happiness. While I accept that job can offer happiness to some people, I believe that living environment is more important than job for most of us.
+Admittedly, job can bring us happiness. People can receive a sense of values and respected from job. If people receive respect from others, they will feel achievement and self-confidence. In addition, job can provide money to us. 
+However, people should concern more about their living environment than job. First, for most of us, job is only a tool to maintain our lives. Few people can feel happiness from their job because they have to continue to work more than 30 years. For example, Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day. These labor works cannot provide workers with a lot of happiness because they feel tired and frustrated after long hour work. 
+Second, beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people. Without beautiful environment, people are not able to feel happiness and will fell anxiety. Nowadays, the fast development of economy is gradually destroying our environment very quickly. Factories released a huge amount of wasters into river and soil. In order to build city and factory, people destroy huge forests. In China, some residents who live in nearby some toxic factories became sick because these factories release a lot of toxic water and wasters into environment around people. Even though local residents benefits from an increasing number of jobs which are provided by those factories, they cannot feel happiness from high-paying job yet because most of them suffer from cancer or other diseases.
+In conclusion, it is far better to protect our living environment rather than focus on job or work since the goal people is for good livers.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "living environment is more important than job for most of us",
+    "MC2": "it is far better to protect our living environment rather than focus on job or work"
+  },
+  "Claims": {
+    "C1": "job can bring us happiness",
+    "C2": "job can provide money to us",
+    "C3": "people should concern more about their living environment than job",
+    "C4": "beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people",
+    "C5": "the goal people is for good livers"
+  },
+  "Premises": {
+    "P1": "People can receive a sense of values and respected from job",
+    "P2": "If people receive respect from others, they will feel achievement and self-confidence",
+    "P3": "for most of us, job is only a tool to maintain our lives",
+    "P4": "Few people can feel happiness from their job",
+    "P5": "they have to continue to work more than 30 years",
+    "P6": "Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day",
+    "P7": "These labor works cannot provide workers with a lot of happiness",
+    "P8": "they feel tired and frustrated after long hour work",
+    "P9": "Without beautiful environment, people are not able to feel happiness and will fell anxiety",
+    "P10": "Nowadays, the fast development of economy is gradually destroying our environment very quickly",
+    "P11": "Factories released a huge amount of wasters into river and soil",
+    "P12": "In order to build city and factory, people destroy huge forests",
+    "P13": "In China, some residents who live in nearby some toxic factories became sick",
+    "P14": "these factories release a lot of toxic water and wasters into environment around people",
+    "P15": "local residents benefits from an increasing number of jobs which are provided by those factories",
+    "P16": "they cannot feel happiness from high-paying job",
+    "P17": "most of them suffer from cancer or other diseases"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "P13"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "supports",
+      "Target": "P16"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "attacks",
+      "Target": "P15"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 7
+## Input:
+Gossip-based information
+
+Nowadays information plays an important role in our world. It has become a product, which can be sold, bought, or stolen. Some people say: "information is power". That's why it is so important to be well-informed. I consider the statement above to be right for several reasons.
+The first reason is that by using different sources of information we can guarantee its reliability. Some people may disinform you on purpose, that's why it is rather unwise to make conclusions before you are confident of the information. For example, Russian news announced that the war between Osetia and Georgia had been initiated by Georgia, however, european news announced that it was initiated by Russia. After a while the situation became clear, but before that a lot of people had already condemned the actions of Russia.
+Secondly, it is very important to know facts about some events or problem, not only estimations, because it can help you to make your own conclusion or estimate. Sometimes it can be really difficult to find out the facts, especially in the internet, that's why you have to look through different sources before you manage to find some reliable facts. It is possible to make a wrong decision because you have just used someone's personal opinion as a source of information, but it was actually wrong. For example, several years ago in Moscow salt became two times more expensive only in one week, because people thought that soon there would be no salt in the shops. The gossip-based information dramatically influenced the prices and only after official announcement the "salt-panic" was over. 
+To conclude, I want to say that it is very important to be confident of the information, which you use, especially when your conclusion or decision may have a great influence.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "information is power",
+    "MC2": "it is very important to be confident of the information, which you use, especially when your conclusion or decision may have a great influence"
+  },
+  "Claims": {
+    "C1": "by using different sources of information we can guarantee its reliability",
+    "C2": "you have to look through different sources before you manage to find some reliable facts"
+  },
+  "Premises": {
+    "P1": "Some people may disinform you on purpose, that's why it is rather unwise to make conclusions before you are confident of the information",
+    "P2": "Russian news announced that the war between Osetia and Georgia had been initiated by Georgia, however, european news announced that it was initiated by Russia",
+    "P3": "After a while the situation became clear, but before that a lot of people had already condemned the actions of Russia",
+    "P4": "It is possible to make a wrong decision",
+    "P5": "you have just used someone's personal opinion as a source of information, but it was actually wrong",
+    "P6": "several years ago in Moscow salt became two times more expensive only in one week, because people thought that soon there would be no salt in the shops",
+    "P7": "The gossip-based information dramatically influenced the prices and only after official announcement the \"salt-panic\" was over",
+    "P8": "it is very important to know facts about some events or problem, not only estimations",
+    "P9": "it can help you to make your own conclusion or estimate"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
+}
+# Example 8
+## Input:
+Discuss both harms and good of advertising and give your opinion
+
+On these days, with the assistance of advertisement, people easily purchase the best products with detailed information and instruction for their requirement. Although some people claim that the advantages of advertising are outweigh the advantages, I believe that advertisement bring more benefits than harms to our lives.
+On the one hand, it is clear that most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell. In addition to this, all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods. For example, some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits. However, the fact is that not all customers are satisfied with what they bought under the introduction from advertisement. 
+On the other hand, it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands. Moreover, advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers. Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising. No wonder why this drinking title becomes more and more familiar with customers around the world. Last but not least, online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing.
+To sum up, everything has its own gains and losses and advertisement is not an exception. From my point of view, advertising will be better if producers and advertisers are more honest in producing advertisements to give people the general view on one product.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "advertisement bring more benefits than harms to our lives"
+  },
+  "Claims": {
+    "C1": "all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods",
+    "C2": "advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers",
+    "C3": "it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands"
+  },
+  "Premises": {
+    "P1": "some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits",
+    "P2": "not all customers are satisfied with what they bought under the introduction from advertisement",
+    "P3": "most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell",
+    "P4": "Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising",
+    "P5": "No wonder why this drinking title becomes more and more familiar with customers around the world",
+    "P6": "online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
+}
+# Example 9
+## Input:
+Advertising impact on people's choice of consumption
+
+Nowdays, people's choice of consumption is heavily affected by various of advertising on television, street, magazine etc. This argument may be true that people will be swayed by the advertising and buy things they do not need it for their life. For example, in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs.
+In addition, products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought. A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society. And there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it.
+However, buying habit is a very personal things for individuals, the advertisement is not the only cause for people to buy, sometimes it depends on one's needs and ability of consumption. It is unlikely to buy things impulsively for adults who have concern of arranging disposable income. Most of them have to allocate the money if they doing other purchase. On the other hand, children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not, since they do not have financial pressure from life and ability to define what is necessary.
+In my opinion, I think buying habit is people's choice to make, not entirely affected by advertisements. But for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising. So it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "buying habit is people's choice to make, not entirely affected by advertisements"
+  },
+  "Claims": {
+    "C1": "people will be swayed by the advertising and buy things they do not need it for their life",
+    "C2": "it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need",
+    "C3": "A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society",
+    "C4": "the advertisement is not the only cause for people to buy",
+    "C5": "children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not"
+  },
+  "Premises": {
+    "P1": "in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs",
+    "P2": "for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising",
+    "P3": "there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it",
+    "P4": "products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought",
+    "P5": "sometimes it depends on one's needs and ability of consumption",
+    "P6": "buying habit is a very personal things for individuals",
+    "P7": "It is unlikely to buy things impulsively for adults who have concern of arranging disposable income",
+    "P8": "Most of them have to allocate the money if they doing other purchase",
+    "P9": "they do not have financial pressure from life and ability to define what is necessary"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 10
+## Input:
+University education is needed for success
+
+In today's modern and competitive society, it is undeniable that we must equip ourselves with plenty of knowledge and skills in order to shine and to be successful in life. Many opine that the aforementioned aspects are mostly obtained through learning in academic institutions. I do agree to that opinion to a certain degree. Nevertheless, I feel that one can also shine without even having to attend universities.
+First and foremost, it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer. Without proper training and knowledge, it would be impossible for them to perform their best in their careers. Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners. This can benefit them in future when they intend to open up their own companies or hospitals.
+Looking from another perspective, there are also a significant number of people who are very successful in their fields without going to university. Take for instance those who start their own business. These people depend solely on hard work and luck. Interestingly, for some of them it proved to be a profitable job. To cite an example, Michael Dell who is the founder and the CEO of Dell left college at 19. Initially, he started his computer company in his college dorm room. Eventually, he used his earnings as well as his family's loan in order to progress to be who he is now.
+In addition, people with natural talents are also most likely to excel in their life. This is especially true in sectors like entertainment and sports. The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph. To illustrate this further, David Archuleta who was once a nobody has now taken up a large space in hearts of many. Hence, it is evident that individuals born with talents have also a high chance to be successful.
+To wrap it all up, it is indeed true that university education is pivotal in a person's life in order for one to prosper. However, it would be wrong to say that one's success completely depends on the education he or she receives at the institutions. Natural talent and hard work also contribute to their progress.
+
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "one can also shine without even having to attend universities",
+    "MC2": "it would be wrong to say that one's success completely depends on the education he or she receives at the institutions"
+  },
+  "Claims": {
+    "C1": "it is indeed true that university education is pivotal in a person's life in order for one to prosper",
+    "C2": "it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer",
+    "C3": "there are also a significant number of people who are very successful in their fields without going to university",
+    "C4": "individuals born with talents have also a high chance to be successful"
+  },
+  "Premises": {
+    "P1": "Without proper training and knowledge, it would be impossible for them to perform their best in their careers",
+    "P2": "Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners",
+    "P3": "This can benefit them in future when they intend to open up their own companies or hospitals",
+    "P4": "Take for instance those who start their own business",
+    "P5": "These people depend solely on hard work and luck",
+    "P6": "for some of them it proved to be a profitable job",
+    "P7": "Michael Dell who is the founder and the CEO of Dell left college at 19",
+    "P8": "he started his computer company in his college dorm room",
+    "P9": "he used his earnings as well as his family's loan in order to progress to be who he is now",
+    "P10": "people with natural talents are also most likely to excel in their life",
+    "P11": "This is especially true in sectors like entertainment and sports",
+    "P12": "The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph",
+    "P13": "David Archuleta who was once a nobody has now taken up a large space in hearts of many"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
