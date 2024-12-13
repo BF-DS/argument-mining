@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs",
-        "MC2": "governments should attach heavier weight to other social issues such as education and housing needs"
+  "MajorClaims": {
+    "MC1": "government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs",
+    "MC2": "governments should attach heavier weight to other social issues such as education and housing needs"
+  },
+  "Claims": {
+    "C1": "art could play an active role in improving the quality of people's lives",
+    "C2": "those are the most essential ways enable to make people a decent life",
+    "C3": "Art is not the key determination of quality of life, but education is",
+    "C4": "art, to some extent, serve a valuable function about enriching one's daily lives"
+  },
+  "Premises": {
+    "P1": "In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",
+    "P2": "knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system",
+    "P3": "it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work",
+    "P4": "it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room",
+    "P5": "By comparison to these issues, the pursuit of art seems unimportant at all"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "art could play an active role in improving the quality of people's lives",
-        "C2": "those are the most essential ways enable to make people a decent life",
-        "C3": "Art is not the key determination of quality of life, but education is",
-        "C4": "art, to some extent, serve a valuable function about enriching one's daily lives"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",
-        "P2": "knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system",
-        "P3": "it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work",
-        "P4": "it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room",
-        "P5": "By comparison to these issues, the pursuit of art seems unimportant at all"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

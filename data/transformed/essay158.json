@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "all of the old building which contribute to our sense of culture should be conserved",
-        "MC2": "we should restore those building"
+  "MajorClaims": {
+    "MC1": "all of the old building which contribute to our sense of culture should be conserved",
+    "MC2": "we should restore those building"
+  },
+  "Claims": {
+    "C1": "old buildings process the most outstanding feature of areas which contain them",
+    "C2": "governments can construct more accommodation instead of preserving old buildings",
+    "C3": "managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation",
+    "C4": "Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there",
+    "C5": "Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work"
+  },
+  "Premises": {
+    "P1": "the preservation is very expensive because all components of old buildings have historical values",
+    "P2": "As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing",
+    "P3": "Old buildings are an essential part of history",
+    "P4": "Tourist often decide to discover the culture of a country when they visit through those old buildings",
+    "P5": "the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "old buildings process the most outstanding feature of areas which contain them",
-        "C2": "governments can construct more accommodation instead of preserving old buildings",
-        "C3": "managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation",
-        "C4": "Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there",
-        "C5": "Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the preservation is very expensive because all components of old buildings have historical values",
-        "P2": "As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing",
-        "P3": "Old buildings are an essential part of history",
-        "P4": "Tourist often decide to discover the culture of a country when they visit through those old buildings",
-        "P5": "the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

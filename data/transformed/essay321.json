@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "I would prefer to have my own job",
-        "MC2": "I would like to run my own business to control my own time, and to earn more money based on my noble ideas"
+  "MajorClaims": {
+    "MC1": "I would prefer to have my own job",
+    "MC2": "I would like to run my own business to control my own time, and to earn more money based on my noble ideas"
+  },
+  "Claims": {
+    "C1": "time is the more valuable thing, which I have in my life",
+    "C2": "I never have been rich in my life",
+    "C3": "many people are not eager to work for themselves"
+  },
+  "Premises": {
+    "P1": "By having my own business, I can manage my own time",
+    "P2": "could work whenever I want, or I do not need to give reasons to my boss for a delay",
+    "P3": "I can arrange time to travel when I would like",
+    "P4": "I can work long hours for earning more money",
+    "P5": "the most important reason for me to be self-employed is the sense of free",
+    "P6": "If I work for other people, I have to give my ideas to employers cheaply",
+    "P7": "my salary is not dramatically changed",
+    "P8": "I can earn more money based on my creativity and personal ideas",
+    "P9": "earning money is the fundamental reason that why people work",
+    "P10": "The amount of money is always the most important criterion for everyone to choose a job"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "time is the more valuable thing, which I have in my life",
-        "C2": "I never have been rich in my life",
-        "C3": "many people are not eager to work for themselves"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "By having my own business, I can manage my own time",
-        "P2": "could work whenever I want, or I do not need to give reasons to my boss for a delay",
-        "P3": "I can arrange time to travel when I would like",
-        "P4": "I can work long hours for earning more money",
-        "P5": "the most important reason for me to be self-employed is the sense of free",
-        "P6": "If I work for other people, I have to give my ideas to employers cheaply",
-        "P7": "my salary is not dramatically changed",
-        "P8": "I can earn more money based on my creativity and personal ideas",
-        "P9": "earning money is the fundamental reason that why people work",
-        "P10": "The amount of money is always the most important criterion for everyone to choose a job"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

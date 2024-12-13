@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "successful people still do things they already know",
-        "MC2": "doing what we already known can still leads us to succeed"
+  "MajorClaims": {
+    "MC1": "successful people still do things they already know",
+    "MC2": "doing what we already known can still leads us to succeed"
+  },
+  "Claims": {
+    "C1": "the advantages of this are relatively greater than that of the opposite",
+    "C2": "successful people do not have to try new things or take risks",
+    "C3": "it is not necessary for successful people to take risks",
+    "C4": "doing something new is necessary for people to success"
+  },
+  "Premises": {
+    "P1": "to be successful, we all try to reduce the risk we might encounter",
+    "P2": "The lower the factors making us fail we have, the higher probability to success we own",
+    "P3": "Consider a circumstance in which one person is rich because he knows a lot of knowledge of investment",
+    "P4": "He can focus on certain companies which he thinks is worth it to invest, and then just waits for the not so high but constant income",
+    "P5": "He does not have to invest some dangerous companies to get higher profit which might lead him to bankrupt in a short time",
+    "P6": "it depends on the capability of one to decide whether he can succeed or not",
+    "P7": "a successful person should be able to dismantle the hurdles prohibiting him to success",
+    "P8": "the sports stars do not have to take some drugs to win a game or show their extraordinary skills",
+    "P9": "The same reason why they succeed is that they all have the predominated abilities in sports realm",
+    "P10": "those athletes try to have distinctive performance by taking risks of taking drugs are failed to succeed",
+    "P11": "they can become different from others, which is also a widely accepted idea for success",
+    "P12": "Try something new can indeed make people become special",
+    "P13": "while it does not mean successful"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the advantages of this are relatively greater than that of the opposite",
-        "C2": "successful people do not have to try new things or take risks",
-        "C3": "it is not necessary for successful people to take risks",
-        "C4": "doing something new is necessary for people to success"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "to be successful, we all try to reduce the risk we might encounter",
-        "P2": "The lower the factors making us fail we have, the higher probability to success we own",
-        "P3": "Consider a circumstance in which one person is rich because he knows a lot of knowledge of investment",
-        "P4": "He can focus on certain companies which he thinks is worth it to invest, and then just waits for the not so high but constant income",
-        "P5": "He does not have to invest some dangerous companies to get higher profit which might lead him to bankrupt in a short time",
-        "P6": "it depends on the capability of one to decide whether he can succeed or not",
-        "P7": "a successful person should be able to dismantle the hurdles prohibiting him to success",
-        "P8": "the sports stars do not have to take some drugs to win a game or show their extraordinary skills",
-        "P9": "The same reason why they succeed is that they all have the predominated abilities in sports realm",
-        "P10": "those athletes try to have distinctive performance by taking risks of taking drugs are failed to succeed",
-        "P11": "they can become different from others, which is also a widely accepted idea for success",
-        "P12": "Try something new can indeed make people become special",
-        "P13": "while it does not mean successful"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "attacks",
-            "target": "P12"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "attacks",
+      "Target": "P12"
+    }
+  ]
 }

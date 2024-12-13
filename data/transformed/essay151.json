@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "using single language through out the world is a positive change which is helping the world to become a better place to live",
-        "MC2": "change is inevitable and that usage of one language across the world is a positive one"
+  "MajorClaims": {
+    "MC1": "using single language through out the world is a positive change which is helping the world to become a better place to live",
+    "MC2": "change is inevitable and that usage of one language across the world is a positive one"
+  },
+  "Claims": {
+    "C1": "Communication in single language would improve the productivity of the world and brings everyone on to the same page",
+    "C2": "A world with fewer languages helps us interact with each other in a better way",
+    "C3": "few people are worried about the dying local languages"
+  },
+  "Premises": {
+    "P1": "Due to globalization, many people are traveling for professional trips",
+    "P2": "communicating in single language will reduce the problems of travelers in daily activities like ordering food in a restaurant or in going around places",
+    "P3": "students who migrate for better education would not have to go through lot of stress",
+    "P4": "they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages; this in turn makes it easy to adjust in new environment",
+    "P5": "Single language also reduces misunderstandings between people",
+    "P6": "exchange of knowledge in different sectors of research like electronics, medical, astronomy etc would become easier",
+    "P7": "These languages are the basis for the origination and initial communication between different cultures",
+    "P8": "They represent local culture",
+    "P9": "As the usage of these languages decrease, culture also changes accordingly",
+    "P10": "these languages are tightly coupled with history; all the olden day literature and scripts will be impossible to decipher if these languages are lost"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Communication in single language would improve the productivity of the world and brings everyone on to the same page",
-        "C2": "A world with fewer languages helps us interact with each other in a better way",
-        "C3": "few people are worried about the dying local languages"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Due to globalization, many people are traveling for professional trips",
-        "P2": "communicating in single language will reduce the problems of travelers in daily activities like ordering food in a restaurant or in going around places",
-        "P3": "students who migrate for better education would not have to go through lot of stress",
-        "P4": "they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages; this in turn makes it easy to adjust in new environment",
-        "P5": "Single language also reduces misunderstandings between people",
-        "P6": "exchange of knowledge in different sectors of research like electronics, medical, astronomy etc would become easier",
-        "P7": "These languages are the basis for the origination and initial communication between different cultures",
-        "P8": "They represent local culture",
-        "P9": "As the usage of these languages decrease, culture also changes accordingly",
-        "P10": "these languages are tightly coupled with history; all the olden day literature and scripts will be impossible to decipher if these languages are lost"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "it is much more gratifying to stay side by side and cheer up the team at the stadium rather than just to stay at home and watch the match alone",
-        "MC2": "watching the match live at the stadium is more enjoyable"
+  "MajorClaims": {
+    "MC1": "it is much more gratifying to stay side by side and cheer up the team at the stadium rather than just to stay at home and watch the match alone",
+    "MC2": "watching the match live at the stadium is more enjoyable"
+  },
+  "Claims": {
+    "C1": "watch a football match on television it is comfortable and pleasing",
+    "C2": "It can be unforgettable moments in your life",
+    "C3": "watching a live football game is an exceptional experience",
+    "C4": "attending a live football match is very fulfilling"
+  },
+  "Premises": {
+    "P1": "Before the match starts, thousands of fans gathering outside of the stadium with team flags, colorful outfits, sound of trumpets and rattles",
+    "P2": "As the game kicks off, the atmosphere inside the stadium is even more exciting",
+    "P3": "You are watching football stars play the game with your own eyes and sharing your feelings with about 40,000 people at the stadium, such an excitement you can never have when you are watching it at home",
+    "P4": "Everybody yells and sings together, the stadium is like bursted out whenever a goal is scored",
+    "P5": "See, you will be bored if you are watching it alone",
+    "P6": "The tickets to get in the stadium may be a little expensive",
+    "P7": "you will gain much more entertainment value from the game",
+    "P8": "You can cherish your experience for a long time",
+    "P9": "it can be an exclusive experience",
+    "P10": "If it is a crucial win to acclaim a trophy, you will be \"on site\" to witness and celebrate the victory",
+    "P11": "You can watch it at home, but \"easy come, easy go\", you will quickly forget it, like a movie"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "watch a football match on television it is comfortable and pleasing",
-        "C2": "It can be unforgettable moments in your life",
-        "C3": "watching a live football game is an exceptional experience",
-        "C4": "attending a live football match is very fulfilling"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Before the match starts, thousands of fans gathering outside of the stadium with team flags, colorful outfits, sound of trumpets and rattles",
-        "P2": "As the game kicks off, the atmosphere inside the stadium is even more exciting",
-        "P3": "You are watching football stars play the game with your own eyes and sharing your feelings with about 40,000 people at the stadium, such an excitement you can never have when you are watching it at home",
-        "P4": "Everybody yells and sings together, the stadium is like bursted out whenever a goal is scored",
-        "P5": "See, you will be bored if you are watching it alone",
-        "P6": "The tickets to get in the stadium may be a little expensive",
-        "P7": "you will gain much more entertainment value from the game",
-        "P8": "You can cherish your experience for a long time",
-        "P9": "it can be an exclusive experience",
-        "P10": "If it is a crucial win to acclaim a trophy, you will be \"on site\" to witness and celebrate the victory",
-        "P11": "You can watch it at home, but \"easy come, easy go\", you will quickly forget it, like a movie"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

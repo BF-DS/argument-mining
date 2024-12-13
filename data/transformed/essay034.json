@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "student have to be forced to study at school",
-        "MC2": "students should study at school"
+  "MajorClaims": {
+    "MC1": "student have to be forced to study at school",
+    "MC2": "students should study at school"
+  },
+  "Claims": {
+    "C1": "there are some advantages of leaving school to find a job",
+    "C2": "they have more opprotunities to find a job and to be successful in the future",
+    "C3": "children should interrupt their school work and get a job"
+  },
+  "Premises": {
+    "P1": "studying at school is always the best choice for children's future",
+    "P2": "There are many ways that can train children to learn independent and social skills instead of getting a job",
+    "P3": "employer always prefer to hire an employee of high degree who have professional skills",
+    "P4": "schools offer to students a good environment with experienced professors and high quality programs for studying",
+    "P5": "schools provide lots of academic knowledge to students",
+    "P6": "Students may learn professional skills, expand their understandings and gain experiences",
+    "P7": "It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things",
+    "P8": "Whether children can learn a lot at school",
+    "P9": "there are many subjects that will be of little value to them in the future",
+    "P10": "children can learn social skills when they have a job",
+    "P11": "They can get more experiences that can not be obtained at school",
+    "P12": "Working helps children be more independent and teach them to esteem and manage the money that they've earned"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "there are some advantages of leaving school to find a job",
-        "C2": "they have more opprotunities to find a job and to be successful in the future",
-        "C3": "children should interrupt their school work and get a job"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "studying at school is always the best choice for children's future",
-        "P2": "There are many ways that can train children to learn independent and social skills instead of getting a job",
-        "P3": "employer always prefer to hire an employee of high degree who have professional skills",
-        "P4": "schools offer to students a good environment with experienced professors and high quality programs for studying",
-        "P5": "schools provide lots of academic knowledge to students",
-        "P6": "Students may learn professional skills, expand their understandings and gain experiences",
-        "P7": "It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things",
-        "P8": "Whether children can learn a lot at school",
-        "P9": "there are many subjects that will be of little value to them in the future",
-        "P10": "children can learn social skills when they have a job",
-        "P11": "They can get more experiences that can not be obtained at school",
-        "P12": "Working helps children be more independent and teach them to esteem and manage the money that they've earned"
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "P9"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

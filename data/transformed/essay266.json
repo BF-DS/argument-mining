@@ -1,96 +1,96 @@
 {
-    "MajorClaims": {
-        "MC1": "the advertising is not the main cause of unhealthy eating habits",
-        "MC2": "advertising is not the primary reason of unhealthy eating habits"
+  "MajorClaims": {
+    "MC1": "the advertising is not the main cause of unhealthy eating habits",
+    "MC2": "advertising is not the primary reason of unhealthy eating habits"
+  },
+  "Claims": {
+    "C1": "advertising might lead to healthier eating customs due to the growing awareness of living under a better lifestyle",
+    "C2": "advertising is not entirely decisive on personal eating habit",
+    "C3": "advertising may even bring healthier eating habits to the people",
+    "C4": "There are the build-up of the concept about healthy eating habits and self-control that really matter"
+  },
+  "Premises": {
+    "P1": "The key to forming a healthy eating pattern lies in people's concept of wholesome diets and self-control",
+    "P2": "advertising always makes the products so tempting, regardless of whether they might bring negative effects on the human body",
+    "P3": "advertising is not the only information source for people",
+    "P4": "People can still acquire different viewpoints about foods from other sources, like news or magazines",
+    "P5": "As long as people are clear about how to maintain a healthy body and they persistently keep track of their eating habits, they can successfully prevent themselves from those temptations",
+    "P6": "It will be not persuasive if people just blame the advertising sector of a fast-food company for making them so fat and not reassess their own behaviors",
+    "P7": "in the era when people are becoming conscious of a healthier lifestyle, some companies are actually aiming at this rising trend and start to promote healthy foods",
+    "P8": "Think about the recently popular organic foods that are claimed to grow in an environment without pesticide and those crude foods in which less salt or less sugar are added",
+    "P9": "These are the main traits that advertising is hitting on and the overall results are good",
+    "P10": "the advertising industry bolsters people's awareness of having a healthy lifestyle"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "advertising might lead to healthier eating customs due to the growing awareness of living under a better lifestyle",
-        "C2": "advertising is not entirely decisive on personal eating habit",
-        "C3": "advertising may even bring healthier eating habits to the people",
-        "C4": "There are the build-up of the concept about healthy eating habits and self-control that really matter"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "The key to forming a healthy eating pattern lies in people's concept of wholesome diets and self-control",
-        "P2": "advertising always makes the products so tempting, regardless of whether they might bring negative effects on the human body",
-        "P3": "advertising is not the only information source for people",
-        "P4": "People can still acquire different viewpoints about foods from other sources, like news or magazines",
-        "P5": "As long as people are clear about how to maintain a healthy body and they persistently keep track of their eating habits, they can successfully prevent themselves from those temptations",
-        "P6": "It will be not persuasive if people just blame the advertising sector of a fast-food company for making them so fat and not reassess their own behaviors",
-        "P7": "in the era when people are becoming conscious of a healthier lifestyle, some companies are actually aiming at this rising trend and start to promote healthy foods",
-        "P8": "Think about the recently popular organic foods that are claimed to grow in an environment without pesticide and those crude foods in which less salt or less sugar are added",
-        "P9": "These are the main traits that advertising is hitting on and the overall results are good",
-        "P10": "the advertising industry bolsters people's awareness of having a healthy lifestyle"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

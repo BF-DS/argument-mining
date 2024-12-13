@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "Government should decide for punishment case by case basis",
-        "MC2": "it should taken into consideration the situation and conditions, that forces to a person to be a criminal"
+  "MajorClaims": {
+    "MC1": "Government should decide for punishment case by case basis",
+    "MC2": "it should taken into consideration the situation and conditions, that forces to a person to be a criminal"
+  },
+  "Claims": {
+    "C1": "if there will be a fixed punishment for each type of crime then it will lead to increase the crime",
+    "C2": "it is necessary to have a look behind crime",
+    "C3": "fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government",
+    "C4": "fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other"
+  },
+  "Premises": {
+    "P1": "the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime",
+    "P2": "laws and rules are there for people",
+    "P3": "The person who committed crime first time and the professional criminals should not be imprisoned at same place",
+    "P4": "Everyone should be treated equally",
+    "P5": "sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",
+    "P6": "a women steals feed for her child should be treated same as a women, who steals for her drug addiction"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "if there will be a fixed punishment for each type of crime then it will lead to increase the crime",
-        "C2": "it is necessary to have a look behind crime",
-        "C3": "fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government",
-        "C4": "fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime",
-        "P2": "laws and rules are there for people",
-        "P3": "The person who committed crime first time and the professional criminals should not be imprisoned at same place",
-        "P4": "Everyone should be treated equally",
-        "P5": "sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",
-        "P6": "a women steals feed for her child should be treated same as a women, who steals for her drug addiction"
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

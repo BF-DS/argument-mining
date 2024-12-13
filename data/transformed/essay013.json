@@ -1,120 +1,120 @@
 {
-    "MajorClaims": {
-        "MC1": "technology makes children even more creative",
-        "MC2": "They kept researching new technology and became successful at a very young age"
+  "MajorClaims": {
+    "MC1": "technology makes children even more creative",
+    "MC2": "They kept researching new technology and became successful at a very young age"
+  },
+  "Claims": {
+    "C1": "technology may have some negative effects on children",
+    "C2": "technology may have negative effects on children",
+    "C3": "instead of interfering children's creativity, technology actually encourages children to learn and to create",
+    "C4": "The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things"
+  },
+  "Premises": {
+    "P1": "Technology has made life too easy for most children",
+    "P2": "In comfortable conditions, children may be satisfied with the world around them and refuse to make a change",
+    "P3": "technology inspires children to create new things",
+    "P4": "technology widen children's knowledge",
+    "P5": "when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works",
+    "P6": "Children are curious about everything around them",
+    "P7": "Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked",
+    "P8": "After he had figured out all the stuff, he then began to promote the computer",
+    "P9": "In the end, he successfully invented a computer that was easy to use and lightweight",
+    "P10": "In the past, children were only able to see things from one perspective",
+    "P11": "they will be able to learn about different cultures and different ways of thinking",
+    "P12": "with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends",
+    "P13": "Knowledge is the base of creativity",
+    "P14": "with the development of technology, increasingly more young people become obsessed with high-tech products"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "technology may have some negative effects on children",
-        "C2": "technology may have negative effects on children",
-        "C3": "instead of interfering children's creativity, technology actually encourages children to learn and to create",
-        "C4": "The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Technology has made life too easy for most children",
-        "P2": "In comfortable conditions, children may be satisfied with the world around them and refuse to make a change",
-        "P3": "technology inspires children to create new things",
-        "P4": "technology widen children's knowledge",
-        "P5": "when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works",
-        "P6": "Children are curious about everything around them",
-        "P7": "Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked",
-        "P8": "After he had figured out all the stuff, he then began to promote the computer",
-        "P9": "In the end, he successfully invented a computer that was easy to use and lightweight",
-        "P10": "In the past, children were only able to see things from one perspective",
-        "P11": "they will be able to learn about different cultures and different ways of thinking",
-        "P12": "with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends",
-        "P13": "Knowledge is the base of creativity",
-        "P14": "with the development of technology, increasingly more young people become obsessed with high-tech products"
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P11"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P14",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P11"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

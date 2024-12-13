@@ -1,156 +1,156 @@
 {
-    "MajorClaims": {
-        "MC1": "I myself prefer to spend my leisure time outdoors",
-        "MC2": "I myself choose outdoor activities to spend my leisure time"
+  "MajorClaims": {
+    "MC1": "I myself prefer to spend my leisure time outdoors",
+    "MC2": "I myself choose outdoor activities to spend my leisure time"
+  },
+  "Claims": {
+    "C1": "it is good for health and keep my body fit",
+    "C2": "outdoor activities enable me to socialize with other people and enjoy natural beauty",
+    "C3": "doing outdoor activities such as soccer and baseball is good for one's health",
+    "C4": "Outdoor activities not only improves my health but also gives me chances to communicate with more people",
+    "C5": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking",
+    "C6": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings",
+    "C7": "indoor activities are fun",
+    "C8": "I can also have fun in indoor activities"
+  },
+  "Premises": {
+    "P1": "last year, I spent my summer time playing soccer and baseball",
+    "P2": "Playing baseball provided my upper body for hitting and throwing",
+    "P3": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games",
+    "P4": "practicing these sports helped me greatly",
+    "P5": "playing these sports is to keep my body fit, make me ultimately refreshed",
+    "P6": "After that summer, my body is stronger and endurance is better",
+    "P7": "When I was ten years old, I was a shy girl",
+    "P8": "My mother took me to The National Camp",
+    "P9": "At first, I just ate and played alone",
+    "P10": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively",
+    "P11": "On the next day, we played together and she introduced me to her friends",
+    "P12": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp",
+    "P13": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today",
+    "P14": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature",
+    "P15": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy",
+    "P16": "this advantage cannot outweigh the attractions coming from outdoor activities"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it is good for health and keep my body fit",
-        "C2": "outdoor activities enable me to socialize with other people and enjoy natural beauty",
-        "C3": "doing outdoor activities such as soccer and baseball is good for one's health",
-        "C4": "Outdoor activities not only improves my health but also gives me chances to communicate with more people",
-        "C5": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking",
-        "C6": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings",
-        "C7": "indoor activities are fun",
-        "C8": "I can also have fun in indoor activities"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "last year, I spent my summer time playing soccer and baseball",
-        "P2": "Playing baseball provided my upper body for hitting and throwing",
-        "P3": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games",
-        "P4": "practicing these sports helped me greatly",
-        "P5": "playing these sports is to keep my body fit, make me ultimately refreshed",
-        "P6": "After that summer, my body is stronger and endurance is better",
-        "P7": "When I was ten years old, I was a shy girl",
-        "P8": "My mother took me to The National Camp",
-        "P9": "At first, I just ate and played alone",
-        "P10": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively",
-        "P11": "On the next day, we played together and she introduced me to her friends",
-        "P12": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp",
-        "P13": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today",
-        "P14": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature",
-        "P15": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy",
-        "P16": "this advantage cannot outweigh the attractions coming from outdoor activities"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C7",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "C8",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P16",
-            "Relation": "attacks",
-            "target": "C8"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "C8",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "attacks",
+      "Target": "C8"
+    }
+  ]
 }

@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "\"murdering\" criminals is therefore immoral and hard to accept",
-        "MC2": "it is absurd and inhumane"
+  "MajorClaims": {
+    "MC1": "\"murdering\" criminals is therefore immoral and hard to accept",
+    "MC2": "it is absurd and inhumane"
+  },
+  "Claims": {
+    "C1": "capital punishment presents an extreme warning to the community",
+    "C2": "every human being has the right to live and no authority is empowered to deprive one of life",
+    "C3": "capital punishment is certainly not the only option to control the amount of crimes, life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives",
+    "C4": "The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted",
+    "C5": "it can be replaced by a life sentence"
+  },
+  "Premises": {
+    "P1": "what criminals cause to the society, specifically to the victims, is indeed significantly offensive",
+    "P2": "they are humans and their lives need to be valued",
+    "P3": "execution does not resolve the consequences of crime",
+    "P4": "it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled",
+    "P5": "in terms of punishment, living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away",
+    "P6": "many people are executed for the crime they did not commit, which leads to a question of fairness in judicial system",
+    "P7": "Juries are also humans, they may lack of discretion"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "capital punishment presents an extreme warning to the community",
-        "C2": "every human being has the right to live and no authority is empowered to deprive one of life",
-        "C3": "capital punishment is certainly not the only option to control the amount of crimes, life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives",
-        "C4": "The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted",
-        "C5": "it can be replaced by a life sentence"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "what criminals cause to the society, specifically to the victims, is indeed significantly offensive",
-        "P2": "they are humans and their lives need to be valued",
-        "P3": "execution does not resolve the consequences of crime",
-        "P4": "it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled",
-        "P5": "in terms of punishment, living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away",
-        "P6": "many people are executed for the crime they did not commit, which leads to a question of fairness in judicial system",
-        "P7": "Juries are also humans, they may lack of discretion"
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "P1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

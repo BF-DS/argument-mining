@@ -1,120 +1,120 @@
 {
-    "MajorClaims": {
-        "MC1": "individuals should pay their college tuition",
-        "MC2": "the individual should finance his or her education"
+  "MajorClaims": {
+    "MC1": "individuals should pay their college tuition",
+    "MC2": "the individual should finance his or her education"
+  },
+  "Claims": {
+    "C1": "it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education",
+    "C2": "it would cause too much cost from taxpayers and the governmen",
+    "C3": "making college education free would cost too much",
+    "C4": "those people should make the financial investment in their own choice; not the government",
+    "C5": "there are many ways to fund a college education",
+    "C6": "it is a personal choice"
+  },
+  "Premises": {
+    "P1": "it would affect all taxpayers whether or not they benefit from the use of the funds",
+    "P2": "It would divert public funds from other needs such as law enforcement, infrastructure and so forth",
+    "P3": "There are many other needs which should come first, such as providing health care to all American, or improving public schools",
+    "P4": "it would cause to raise our taxes again and again to fund college education",
+    "P5": "it is a personal choice to go to a college",
+    "P6": "Not everyone wants to go to a college",
+    "P7": "People who want to make more money, and live a better life than other people decide to take a college education",
+    "P8": "People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds",
+    "P9": "the government already helps pay college expense through indirect means",
+    "P10": "They often provide services such as fire departments, medical assistance, and police protection for the schools and their students",
+    "P11": "They also provide funds for academic research",
+    "P12": "While the money is not given to individual students, these contributions are not trivial"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education",
-        "C2": "it would cause too much cost from taxpayers and the governmen",
-        "C3": "making college education free would cost too much",
-        "C4": "those people should make the financial investment in their own choice; not the government",
-        "C5": "there are many ways to fund a college education",
-        "C6": "it is a personal choice"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "it would affect all taxpayers whether or not they benefit from the use of the funds",
-        "P2": "It would divert public funds from other needs such as law enforcement, infrastructure and so forth",
-        "P3": "There are many other needs which should come first, such as providing health care to all American, or improving public schools",
-        "P4": "it would cause to raise our taxes again and again to fund college education",
-        "P5": "it is a personal choice to go to a college",
-        "P6": "Not everyone wants to go to a college",
-        "P7": "People who want to make more money, and live a better life than other people decide to take a college education",
-        "P8": "People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds",
-        "P9": "the government already helps pay college expense through indirect means",
-        "P10": "They often provide services such as fire departments, medical assistance, and police protection for the schools and their students",
-        "P11": "They also provide funds for academic research",
-        "P12": "While the money is not given to individual students, these contributions are not trivial"
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

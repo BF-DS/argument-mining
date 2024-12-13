@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "we must help animals live safely and comfortably in their own environment",
-        "MC2": "we have to assit animals and provide them the best quality of life possible"
+  "MajorClaims": {
+    "MC1": "we must help animals live safely and comfortably in their own environment",
+    "MC2": "we have to assit animals and provide them the best quality of life possible"
+  },
+  "Claims": {
+    "C1": "Scientific facts showed the damage that zoos can inflict on animals",
+    "C2": "many zoos do not meet the standards of care required for them",
+    "C3": "Many scientific studies have revealed the detriment that zoos have caused to animals",
+    "C4": "various zoos do not have the proper implements or policies that assure the quality of animal care"
+  },
+  "Premises": {
+    "P1": "like we, human beings, animals are delivered to this world with genetic instincts",
+    "P2": "When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts",
+    "P3": "when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate",
+    "P4": "I was shocked by the cruelty which animals were treated",
+    "P5": "I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo",
+    "P6": "They beat them up",
+    "P7": "they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Scientific facts showed the damage that zoos can inflict on animals",
-        "C2": "many zoos do not meet the standards of care required for them",
-        "C3": "Many scientific studies have revealed the detriment that zoos have caused to animals",
-        "C4": "various zoos do not have the proper implements or policies that assure the quality of animal care"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "like we, human beings, animals are delivered to this world with genetic instincts",
-        "P2": "When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts",
-        "P3": "when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate",
-        "P4": "I was shocked by the cruelty which animals were treated",
-        "P5": "I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo",
-        "P6": "They beat them up",
-        "P7": "they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    }
+  ]
 }

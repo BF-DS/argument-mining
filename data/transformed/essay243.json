@@ -1,138 +1,138 @@
 {
-    "MajorClaims": {
-        "MC1": "I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating",
-        "MC2": "e-mail is the greatest way for major people to use"
+  "MajorClaims": {
+    "MC1": "I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating",
+    "MC2": "e-mail is the greatest way for major people to use"
+  },
+  "Claims": {
+    "C1": "e-mail has been a great way of communication",
+    "C2": "writing e-mail helps people express honestly",
+    "C3": "E-mail helps me arrange my idea perfectly and make it persuasive",
+    "C4": "Its convenience saves our time"
+  },
+  "Premises": {
+    "P1": "You can talk to others from thousands mile",
+    "P2": "if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact",
+    "P3": "We will never have to worry if our mails will be sent to the right address",
+    "P4": "If the address is wrong, then you will know right away",
+    "P5": "e-mail doesn't take too much time: just a click",
+    "P6": "e-mail will be a good tool to help me speak out",
+    "P7": "the face-to-face conversations make them feel stupid",
+    "P8": "Sometimes, their ideas are not expressed as exactly as they expect",
+    "P9": "I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do",
+    "P10": "She will just read my e-mail instead of listening to my voice which can make her annoyed",
+    "P11": "I don't have to worry about any other thing can make my opinion become unpersuasive",
+    "P12": "every communication needs fluency",
+    "P13": "people can understand each other exactly and remember it for a long time",
+    "P14": "Voice email or face-to-face conversations sometimes make reserve people feel not very confident",
+    "P15": "when I face my parents, I can't speak out every idea and express consecutively",
+    "P16": "They may stop me, speak something against it and that makes me forget what I want to say",
+    "P17": "Anyone can meet this problem once in any conversation"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "e-mail has been a great way of communication",
-        "C2": "writing e-mail helps people express honestly",
-        "C3": "E-mail helps me arrange my idea perfectly and make it persuasive",
-        "C4": "Its convenience saves our time"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "You can talk to others from thousands mile",
-        "P2": "if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact",
-        "P3": "We will never have to worry if our mails will be sent to the right address",
-        "P4": "If the address is wrong, then you will know right away",
-        "P5": "e-mail doesn't take too much time: just a click",
-        "P6": "e-mail will be a good tool to help me speak out",
-        "P7": "the face-to-face conversations make them feel stupid",
-        "P8": "Sometimes, their ideas are not expressed as exactly as they expect",
-        "P9": "I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do",
-        "P10": "She will just read my e-mail instead of listening to my voice which can make her annoyed",
-        "P11": "I don't have to worry about any other thing can make my opinion become unpersuasive",
-        "P12": "every communication needs fluency",
-        "P13": "people can understand each other exactly and remember it for a long time",
-        "P14": "Voice email or face-to-face conversations sometimes make reserve people feel not very confident",
-        "P15": "when I face my parents, I can't speak out every idea and express consecutively",
-        "P16": "They may stop me, speak something against it and that makes me forget what I want to say",
-        "P17": "Anyone can meet this problem once in any conversation"
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P13"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "P17",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P13"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

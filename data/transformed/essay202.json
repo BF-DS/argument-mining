@@ -1,131 +1,131 @@
 {
-    "MajorClaims": {
-        "MC1": "a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship"
+  "MajorClaims": {
+    "MC1": "a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship"
+  },
+  "Claims": {
+    "C1": "the co-workers should believe in fellowship",
+    "C2": "The co-workers need to trust each other",
+    "C3": "if the co-workers do not corporate with each other that would be devastating in a work environment"
+  },
+  "Premises": {
+    "P1": "This helps them to enjoy their work life while building up very strong personal relationships",
+    "P2": "you spend most of your day at office",
+    "P3": "If you have a good company in office, it is certainly a blessing",
+    "P4": "The co-workers should be cooperative with one another",
+    "P5": "If they do not cooperate, there will be lots of disputes",
+    "P6": "They should not act on suspicion",
+    "P7": "he always left office sharp on time without giving any consideration whether the work has been finished or not",
+    "P8": "I once had a co-worker who was too family conscious",
+    "P9": "Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person",
+    "P10": "one day I wanted to be off early because I had to take my mother to the doctor",
+    "P11": "When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse",
+    "P12": "From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility",
+    "P13": "This is a very important aspect in the work environment",
+    "P14": "I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me",
+    "P15": "To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him",
+    "P16": "I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me",
+    "P17": "But this mistrust continued and created very unpleasant situations for everybody in my department"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the co-workers should believe in fellowship",
-        "C2": "The co-workers need to trust each other",
-        "C3": "if the co-workers do not corporate with each other that would be devastating in a work environment"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "This helps them to enjoy their work life while building up very strong personal relationships",
-        "P2": "you spend most of your day at office",
-        "P3": "If you have a good company in office, it is certainly a blessing",
-        "P4": "The co-workers should be cooperative with one another",
-        "P5": "If they do not cooperate, there will be lots of disputes",
-        "P6": "They should not act on suspicion",
-        "P7": "he always left office sharp on time without giving any consideration whether the work has been finished or not",
-        "P8": "I once had a co-worker who was too family conscious",
-        "P9": "Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person",
-        "P10": "one day I wanted to be off early because I had to take my mother to the doctor",
-        "P11": "When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse",
-        "P12": "From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility",
-        "P13": "This is a very important aspect in the work environment",
-        "P14": "I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me",
-        "P15": "To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him",
-        "P16": "I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me",
-        "P17": "But this mistrust continued and created very unpleasant situations for everybody in my department"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P17",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

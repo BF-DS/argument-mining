@@ -1,101 +1,101 @@
 {
-    "MajorClaims": {
-        "MC1": "they have other critical obligations to take, in order to make our society function in an ordered way"
+  "MajorClaims": {
+    "MC1": "they have other critical obligations to take, in order to make our society function in an ordered way"
+  },
+  "Claims": {
+    "C1": "all people who are able to work should pay tax to the government",
+    "C2": "citizens have other important responsibilities to fulfil apart from paying tax"
+  },
+  "Premises": {
+    "P1": "it is the most important source of government's revenue, which is mainly used to serve all citizens",
+    "P2": "a large proportion of the tax is spent on national defence and in maintaining social stability",
+    "P3": "every one can work and live in a peaceful environment",
+    "P4": "The tax is also used to pay the salaries of workers working in public service sectors, such as teachers and police officers",
+    "P5": "these workers do not produce profit directly",
+    "P6": "what they do is for the well-being of the whole society",
+    "P7": "there are impoverished or disabled people in every society, needing help and support from others",
+    "P8": "the government can provide some fund to ease their difficulties",
+    "P9": "such financial help is usually far from enough",
+    "P10": "aids from more capable or wealthier citizens are particularly crucial, which are a great complement to government support",
+    "P11": "Another responsibility all citizens should take is to maintain social stability together with the police force",
+    "P12": "There are criminals in every society, and the number of policemen the government can hire is limited",
+    "P13": "it is quite necessary for the local residents to take actions and ensure the safety of the communities, by doing things like reporting suspicious activities to the police department"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "all people who are able to work should pay tax to the government",
-        "C2": "citizens have other important responsibilities to fulfil apart from paying tax"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "it is the most important source of government's revenue, which is mainly used to serve all citizens",
-        "P2": "a large proportion of the tax is spent on national defence and in maintaining social stability",
-        "P3": "every one can work and live in a peaceful environment",
-        "P4": "The tax is also used to pay the salaries of workers working in public service sectors, such as teachers and police officers",
-        "P5": "these workers do not produce profit directly",
-        "P6": "what they do is for the well-being of the whole society",
-        "P7": "there are impoverished or disabled people in every society, needing help and support from others",
-        "P8": "the government can provide some fund to ease their difficulties",
-        "P9": "such financial help is usually far from enough",
-        "P10": "aids from more capable or wealthier citizens are particularly crucial, which are a great complement to government support",
-        "P11": "Another responsibility all citizens should take is to maintain social stability together with the police force",
-        "P12": "There are criminals in every society, and the number of policemen the government can hire is limited",
-        "P13": "it is quite necessary for the local residents to take actions and ensure the safety of the communities, by doing things like reporting suspicious activities to the police department"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "P4"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "P5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P13"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P13"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

@@ -1,138 +1,138 @@
 {
-    "MajorClaims": {
-        "MC1": "professors should be encouraged to mainly do research",
-        "MC2": "it is natural to support the professors spending more time on doing research"
+  "MajorClaims": {
+    "MC1": "professors should be encouraged to mainly do research",
+    "MC2": "it is natural to support the professors spending more time on doing research"
+  },
+  "Claims": {
+    "C1": "While extending the way of their own development, the outcomes of the researches will also benefit the whole society",
+    "C2": "The research projects like windows opened to the wider world",
+    "C3": "professors should fully use the research-friendly environment provided by universities",
+    "C4": "doing research could also improve the teaching quality"
+  },
+  "Premises": {
+    "P1": "by doing research, professors could catch up with the latest development of modern technologies",
+    "P2": "The research projects provide communication with the outside",
+    "P3": "doing research is a method of self-improvement for professors",
+    "P4": "Universities are relatively fenced environment",
+    "P5": "I still remembered that my professor took part in several research projects when I was in college",
+    "P6": "He was often invited to do speech in other universities",
+    "P7": "my university is not in the high-ranking list, he gained a reputation by those projects",
+    "P8": "you could not find another place with so much talent people gathering together",
+    "P9": "there is really no reason to discourage professors from using those advantages",
+    "P10": "It is very common to see state-of-the-art laboratories in the campus",
+    "P11": "We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin",
+    "P12": "Universities positively contribute the professors' success",
+    "P13": "With the help of research projects, professors could lead their students into the practical world from the classroom",
+    "P14": "They can easily teach students how to imply the knowledge in practice",
+    "P15": "I still remembered the experience of being an assistant in one of my professor's research project",
+    "P16": "By participating in it, I had opportunities to use theories on textbooks in real life experiments",
+    "P17": "The research project provides a more efficient way of teaching"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "While extending the way of their own development, the outcomes of the researches will also benefit the whole society",
-        "C2": "The research projects like windows opened to the wider world",
-        "C3": "professors should fully use the research-friendly environment provided by universities",
-        "C4": "doing research could also improve the teaching quality"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "by doing research, professors could catch up with the latest development of modern technologies",
-        "P2": "The research projects provide communication with the outside",
-        "P3": "doing research is a method of self-improvement for professors",
-        "P4": "Universities are relatively fenced environment",
-        "P5": "I still remembered that my professor took part in several research projects when I was in college",
-        "P6": "He was often invited to do speech in other universities",
-        "P7": "my university is not in the high-ranking list, he gained a reputation by those projects",
-        "P8": "you could not find another place with so much talent people gathering together",
-        "P9": "there is really no reason to discourage professors from using those advantages",
-        "P10": "It is very common to see state-of-the-art laboratories in the campus",
-        "P11": "We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin",
-        "P12": "Universities positively contribute the professors' success",
-        "P13": "With the help of research projects, professors could lead their students into the practical world from the classroom",
-        "P14": "They can easily teach students how to imply the knowledge in practice",
-        "P15": "I still remembered the experience of being an assistant in one of my professor's research project",
-        "P16": "By participating in it, I had opportunities to use theories on textbooks in real life experiments",
-        "P17": "The research project provides a more efficient way of teaching"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P17",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

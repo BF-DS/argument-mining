@@ -1,59 +1,59 @@
 {
-    "MajorClaims": {
-        "MC1": "type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone"
+  "MajorClaims": {
+    "MC1": "type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone"
+  },
+  "Claims": {
+    "C1": "my productivity boosts when style of work is appropriate with my type of temper",
+    "C2": "working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork"
+  },
+  "Premises": {
+    "P1": "Being by nature introvert, I have to spend much time and efforts on adjusting to surroundings and especially new people",
+    "P2": "Once, when I was working on presentation with strangers, I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people",
+    "P3": "I must not divide tasks and duties between team members, share responsibility and benefits, and spend time on teambuilding",
+    "P4": "These advantages are especially important in situations of shortage of time",
+    "P5": "About a year ago I was lucky to become a participant of student brainstorming game",
+    "P6": "To my rivals' surprise, being the only member of my own \"team\" I gained a victory"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "my productivity boosts when style of work is appropriate with my type of temper",
-        "C2": "working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "Being by nature introvert, I have to spend much time and efforts on adjusting to surroundings and especially new people",
-        "P2": "Once, when I was working on presentation with strangers, I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people",
-        "P3": "I must not divide tasks and duties between team members, share responsibility and benefits, and spend time on teambuilding",
-        "P4": "These advantages are especially important in situations of shortage of time",
-        "P5": "About a year ago I was lucky to become a participant of student brainstorming game",
-        "P6": "To my rivals' surprise, being the only member of my own \"team\" I gained a victory"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create",
-        "MC2": "they should be encouraged to express their innovative ideas"
+  "MajorClaims": {
+    "MC1": "freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create",
+    "MC2": "they should be encouraged to express their innovative ideas"
+  },
+  "Claims": {
+    "C1": "this world needs them to make itself colourful",
+    "C2": "One of the major concerns against freeing artists' creation derives from the fear of social misleading which would destabilize the society",
+    "C3": "restrictions on exposure to adolescents should apply"
+  },
+  "Premises": {
+    "P1": "the audiences have their own judgement and are not likely to be misled or influenced by some art work",
+    "P2": "art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning",
+    "P3": "If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value",
+    "P4": "the notion of being afraid of social misleading is unjustified",
+    "P5": "some of the art work may contain negative implications such as insanity, violence, eroticism etc",
+    "P6": "adolescents are not mature enough to avoid being led astray by these contents",
+    "P7": "in the case of adults being the audience, there's really nothing to hide \u2013 these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "this world needs them to make itself colourful",
-        "C2": "One of the major concerns against freeing artists' creation derives from the fear of social misleading which would destabilize the society",
-        "C3": "restrictions on exposure to adolescents should apply"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the audiences have their own judgement and are not likely to be misled or influenced by some art work",
-        "P2": "art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning",
-        "P3": "If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value",
-        "P4": "the notion of being afraid of social misleading is unjustified",
-        "P5": "some of the art work may contain negative implications such as insanity, violence, eroticism etc",
-        "P6": "adolescents are not mature enough to avoid being led astray by these contents",
-        "P7": "in the case of adults being the audience, there's really nothing to hide \u2013 these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

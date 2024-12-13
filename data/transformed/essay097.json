@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "popular sports events can help reduce international tensions remarkably and promote national prides safely",
-        "MC2": "international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely"
+  "MajorClaims": {
+    "MC1": "popular sports events can help reduce international tensions remarkably and promote national prides safely",
+    "MC2": "international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely"
+  },
+  "Claims": {
+    "C1": "they can improve their results, break records and bring victories to their own countries",
+    "C2": "sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations",
+    "C3": "sport events help to wake up love and responsibilities strongly in each citizen"
+  },
+  "Premises": {
+    "P1": "sports events are good chances for excellent athletes to meet and learn valuable experiences from one another",
+    "P2": "a large number of people will gather in the host city for sport events",
+    "P3": "there are many good opportunities for discovering different cultures",
+    "P4": "After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations",
+    "P5": "sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators",
+    "P6": "Seeing national flags be honored may be the most emotional moments to each athlete",
+    "P7": "The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country",
+    "P8": "When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness",
+    "P9": "when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets",
+    "P10": "People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President",
+    "P11": "The eager atmosphere lasted many next days",
+    "P12": "some hooligans were so excited that they took part in motor racing or using fireworks illegally",
+    "P13": "the hooligans only took a minority of people"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "they can improve their results, break records and bring victories to their own countries",
-        "C2": "sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations",
-        "C3": "sport events help to wake up love and responsibilities strongly in each citizen"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "sports events are good chances for excellent athletes to meet and learn valuable experiences from one another",
-        "P2": "a large number of people will gather in the host city for sport events",
-        "P3": "there are many good opportunities for discovering different cultures",
-        "P4": "After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations",
-        "P5": "sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators",
-        "P6": "Seeing national flags be honored may be the most emotional moments to each athlete",
-        "P7": "The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country",
-        "P8": "When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness",
-        "P9": "when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets",
-        "P10": "People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President",
-        "P11": "The eager atmosphere lasted many next days",
-        "P12": "some hooligans were so excited that they took part in motor racing or using fireworks illegally",
-        "P13": "the hooligans only took a minority of people"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "attacks",
-            "target": "P12"
-        },
-        {
-            "start": "P12",
-            "Relation": "attacks",
-            "target": "P8"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P8"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "attacks",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "attacks",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P8"
+    }
+  ]
 }

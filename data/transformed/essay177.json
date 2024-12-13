@@ -1,120 +1,120 @@
 {
-    "MajorClaims": {
-        "MC1": "I don't think that technology can replace teachers and classroom",
-        "MC2": "distance education can't replace traditional school"
+  "MajorClaims": {
+    "MC1": "I don't think that technology can replace teachers and classroom",
+    "MC2": "distance education can't replace traditional school"
+  },
+  "Claims": {
+    "C1": "Studying at home by using technology is convenient",
+    "C2": "Students may raise questions and they may have problems of understanding some specific topics or subjects",
+    "C3": "Students may find that it is hard to study without being kept under supervision",
+    "C4": "there is an advantage of traditional school - socialization- establishes relationship with classmates"
+  },
+  "Premises": {
+    "P1": "The biggest advantage is that your classroom and instructor are available 24 hours a day",
+    "P2": "you could make your own schedule for completing the requirements of the course",
+    "P3": "You can study any time you want",
+    "P4": "if you aren't extremely dedicated or have good time management skills, it may be very difficult to complete a course at home",
+    "P5": "it may be a predicament when you face some problems in learning without any help",
+    "P6": "attending an education course at home requires persistence and patience",
+    "P7": "when you don't have an instructor there to guide you, it is up to you to make sure that you understand and complete all course requirements",
+    "P8": "If you are the type that gets easily distracted, a distance-learning program may not be for you",
+    "P9": "studying at home is very different from traditional learning",
+    "P10": "Unlike traditional classes, distance education courses don't take place in a classroom, where you are surrounded by your teachers and classmates",
+    "P11": "We can learn a lot from programs at home",
+    "P12": "our computers or televisions can't teach us how to get along with people",
+    "P13": "students may learn how to cooperate with classmates from teamwork",
+    "P14": "Studying alone at home might deprive us of these significant and valuable opportunities"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Studying at home by using technology is convenient",
-        "C2": "Students may raise questions and they may have problems of understanding some specific topics or subjects",
-        "C3": "Students may find that it is hard to study without being kept under supervision",
-        "C4": "there is an advantage of traditional school - socialization- establishes relationship with classmates"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "The biggest advantage is that your classroom and instructor are available 24 hours a day",
-        "P2": "you could make your own schedule for completing the requirements of the course",
-        "P3": "You can study any time you want",
-        "P4": "if you aren't extremely dedicated or have good time management skills, it may be very difficult to complete a course at home",
-        "P5": "it may be a predicament when you face some problems in learning without any help",
-        "P6": "attending an education course at home requires persistence and patience",
-        "P7": "when you don't have an instructor there to guide you, it is up to you to make sure that you understand and complete all course requirements",
-        "P8": "If you are the type that gets easily distracted, a distance-learning program may not be for you",
-        "P9": "studying at home is very different from traditional learning",
-        "P10": "Unlike traditional classes, distance education courses don't take place in a classroom, where you are surrounded by your teachers and classmates",
-        "P11": "We can learn a lot from programs at home",
-        "P12": "our computers or televisions can't teach us how to get along with people",
-        "P13": "students may learn how to cooperate with classmates from teamwork",
-        "P14": "Studying alone at home might deprive us of these significant and valuable opportunities"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "attacks",
-            "target": "P11"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "attacks",
+      "Target": "P11"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

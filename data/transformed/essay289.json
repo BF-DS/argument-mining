@@ -1,139 +1,139 @@
 {
-    "MajorClaims": {
-        "MC1": "students should be asked to evaluate their teachers",
-        "MC2": "school should ask students to evaluate their teachers",
-        "MC3": "there are benefits to ask students to evaluate their teachers"
+  "MajorClaims": {
+    "MC1": "students should be asked to evaluate their teachers",
+    "MC2": "school should ask students to evaluate their teachers",
+    "MC3": "there are benefits to ask students to evaluate their teachers"
+  },
+  "Claims": {
+    "C1": "teachers could improve their performance",
+    "C2": "schools are also improve their quality",
+    "C3": "evaluating from students could improve teachers' performance",
+    "C4": "this evaluation from students could improve schools' quality",
+    "C5": "people who get the most advantage from evaluation is students"
+  },
+  "Premises": {
+    "P1": "they have high performance teachers",
+    "P2": "students are easy to understand their subjects",
+    "P3": "Evaluating teachers made by students could improve teachers' performance",
+    "P4": "evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product",
+    "P5": "Students might complain about their teachers spoke too fast that students could not catch up on information",
+    "P6": "teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give",
+    "P7": "school have teachers who are always improve their quality from evaluation made by students",
+    "P8": "in many cooperation such as Microsoft that could produce many great products",
+    "P9": "they have employees whose performance are very high",
+    "P10": "Schools could produce intellectual students",
+    "P11": "Teachers could augment their quality",
+    "P12": "When school gather teachers that have great performance, school are gaining higher quality",
+    "P13": "teachers are always adapt the way they teach in order to make students easy to understand their subjects",
+    "P14": "students could comprehend their subject easily",
+    "P15": "students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life",
+    "P16": "Students could study in class that have teachers who have experienced and greater performance"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "teachers could improve their performance",
-        "C2": "schools are also improve their quality",
-        "C3": "evaluating from students could improve teachers' performance",
-        "C4": "this evaluation from students could improve schools' quality",
-        "C5": "people who get the most advantage from evaluation is students"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "they have high performance teachers",
-        "P2": "students are easy to understand their subjects",
-        "P3": "Evaluating teachers made by students could improve teachers' performance",
-        "P4": "evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product",
-        "P5": "Students might complain about their teachers spoke too fast that students could not catch up on information",
-        "P6": "teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give",
-        "P7": "school have teachers who are always improve their quality from evaluation made by students",
-        "P8": "in many cooperation such as Microsoft that could produce many great products",
-        "P9": "they have employees whose performance are very high",
-        "P10": "Schools could produce intellectual students",
-        "P11": "Teachers could augment their quality",
-        "P12": "When school gather teachers that have great performance, school are gaining higher quality",
-        "P13": "teachers are always adapt the way they teach in order to make students easy to understand their subjects",
-        "P14": "students could comprehend their subject easily",
-        "P15": "students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life",
-        "P16": "Students could study in class that have teachers who have experienced and greater performance"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

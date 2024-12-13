@@ -1,83 +1,83 @@
 {
-    "MajorClaims": {
-        "MC1": "it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company"
+  "MajorClaims": {
+    "MC1": "it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company"
+  },
+  "Claims": {
+    "C1": "workers over 50 have proven themselves subordinate to the following generation in all aspects",
+    "C2": "old workers are not a patch on the younger ones for their unchanged paradigm",
+    "C3": "knowledge is worth mentioning as a key factor to help young workers outrank the elderly",
+    "C4": "their unresponsiveness can be attributed to their attitude towards life"
+  },
+  "Premises": {
+    "P1": "The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view",
+    "P2": "The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity",
+    "P3": "most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability",
+    "P4": "Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages",
+    "P5": "Not to undermine old workers, but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace",
+    "P6": "that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology",
+    "P7": "This, by all means, is outweigh by youngsters' adventurousness and bravery",
+    "P8": "Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "workers over 50 have proven themselves subordinate to the following generation in all aspects",
-        "C2": "old workers are not a patch on the younger ones for their unchanged paradigm",
-        "C3": "knowledge is worth mentioning as a key factor to help young workers outrank the elderly",
-        "C4": "their unresponsiveness can be attributed to their attitude towards life"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view",
-        "P2": "The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity",
-        "P3": "most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability",
-        "P4": "Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages",
-        "P5": "Not to undermine old workers, but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace",
-        "P6": "that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology",
-        "P7": "This, by all means, is outweigh by youngsters' adventurousness and bravery",
-        "P8": "Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

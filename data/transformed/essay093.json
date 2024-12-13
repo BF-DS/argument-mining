@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "as the privileged minority, wealthy nations have every reason to share their fortune with the poor",
-        "MC2": "wealthy nations' offering in need is not only a moral deed, but also a worthwhile one which will one day pay off in other ways"
+  "MajorClaims": {
+    "MC1": "as the privileged minority, wealthy nations have every reason to share their fortune with the poor",
+    "MC2": "wealthy nations' offering in need is not only a moral deed, but also a worthwhile one which will one day pay off in other ways"
+  },
+  "Claims": {
+    "C1": "Only those who sympathize with their fellowman can prosper in the long run",
+    "C2": "it is inhumane to watch one's fellowman struggle against famine and poverty without doing anything to help, especially when the onlooker takes no effort to do so",
+    "C3": "such aid could also create a win-win situation"
+  },
+  "Premises": {
+    "P1": "Compassion, a virtue preached in almost all religions from Buddhism to Mohammedanism, is what distinguishes us human beings from animals",
+    "P2": "Underdeveloped nations no doubt receive direct benefits through such deeds",
+    "P3": "For developed nations, new medical problems may very well arise from the work in underdeveloped nations",
+    "P4": "related research is conducted accordingly to conquer the problem, promoting the development of the pharmaceutical industry",
+    "P5": "The potential market in those poor countries, most of which has a huge population, is also a thing worth mentioning",
+    "P6": "By building a good relationship with them, wealthy nations can not only broaden their global market, but also facilitate future international commerce",
+    "P7": "The underdeveloped nations, in return, may export local agricultural products, mineral products with discount to the former, boosting each other's economy"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Only those who sympathize with their fellowman can prosper in the long run",
-        "C2": "it is inhumane to watch one's fellowman struggle against famine and poverty without doing anything to help, especially when the onlooker takes no effort to do so",
-        "C3": "such aid could also create a win-win situation"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Compassion, a virtue preached in almost all religions from Buddhism to Mohammedanism, is what distinguishes us human beings from animals",
-        "P2": "Underdeveloped nations no doubt receive direct benefits through such deeds",
-        "P3": "For developed nations, new medical problems may very well arise from the work in underdeveloped nations",
-        "P4": "related research is conducted accordingly to conquer the problem, promoting the development of the pharmaceutical industry",
-        "P5": "The potential market in those poor countries, most of which has a huge population, is also a thing worth mentioning",
-        "P6": "By building a good relationship with them, wealthy nations can not only broaden their global market, but also facilitate future international commerce",
-        "P7": "The underdeveloped nations, in return, may export local agricultural products, mineral products with discount to the former, boosting each other's economy"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

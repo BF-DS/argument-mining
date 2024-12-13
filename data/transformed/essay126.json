@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "it's better to have one or two close friends than to have a large number of casual acquaintances",
-        "MC2": "friends are the most important people in my life second to my family"
+  "MajorClaims": {
+    "MC1": "it's better to have one or two close friends than to have a large number of casual acquaintances",
+    "MC2": "friends are the most important people in my life second to my family"
+  },
+  "Claims": {
+    "C1": "it's much easier to have some casual acquaintances than have some close friends",
+    "C2": "close friends can easily understand each others feelings",
+    "C3": "a friend is a person you care about"
+  },
+  "Premises": {
+    "P1": "being a friend with someone is different from only being acquaintant",
+    "P2": "it's not easy to make friend with anyone",
+    "P3": "friends are people who have great compatibility with each other",
+    "P4": "After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways",
+    "P5": "Sometimes acquaintances are just acquaintances",
+    "P6": "We spend time together but we could never be friend",
+    "P7": "acquaintances probably not able to understand you better than your friends",
+    "P8": "they wouldn't even spare time to consider your feelings",
+    "P9": "Everyone play the role of acquaintance and friend at the same time",
+    "P10": "Being friendly is a good way to treat a acquaintance but way not enough for a friend",
+    "P11": "When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible",
+    "P12": "If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business",
+    "P13": "my friend will do the same to me"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it's much easier to have some casual acquaintances than have some close friends",
-        "C2": "close friends can easily understand each others feelings",
-        "C3": "a friend is a person you care about"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "being a friend with someone is different from only being acquaintant",
-        "P2": "it's not easy to make friend with anyone",
-        "P3": "friends are people who have great compatibility with each other",
-        "P4": "After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways",
-        "P5": "Sometimes acquaintances are just acquaintances",
-        "P6": "We spend time together but we could never be friend",
-        "P7": "acquaintances probably not able to understand you better than your friends",
-        "P8": "they wouldn't even spare time to consider your feelings",
-        "P9": "Everyone play the role of acquaintance and friend at the same time",
-        "P10": "Being friendly is a good way to treat a acquaintance but way not enough for a friend",
-        "P11": "When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible",
-        "P12": "If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business",
-        "P13": "my friend will do the same to me"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P1"
-        }
-    ]
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P1"
+    }
+  ]
 }

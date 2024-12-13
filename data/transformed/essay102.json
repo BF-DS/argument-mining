@@ -1,126 +1,126 @@
 {
-    "MajorClaims": {
-        "MC1": "public museums and art galleries will still be necessary",
-        "MC2": "we still need museums and art galleries"
+  "MajorClaims": {
+    "MC1": "public museums and art galleries will still be necessary",
+    "MC2": "we still need museums and art galleries"
+  },
+  "Claims": {
+    "C1": "we can see the art works and historical objects online",
+    "C2": "computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects",
+    "C3": "Most people nowadays prefer to use the Internet to search for art work",
+    "C4": "In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing",
+    "C5": "Seeing an art work on computer screen is not the same as you watch it by your own eyes"
+  },
+  "Premises": {
+    "P1": "the Internet really brings them convenience",
+    "P2": "pictures online are only limited to a screen size",
+    "P3": "the exhibits in museums or galleries are all life size and visitors can get a more direct felling",
+    "P4": "only when we see the real mummy, can we experience mystique",
+    "P5": "We can browse the art work from all over the world at home",
+    "P6": "people may not get a spiritual experience",
+    "P7": "at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus",
+    "P8": "at Museum of Art in New York, you can look at 17th century instruments while listening to their music",
+    "P9": "While if you \"visit\" the museum online, you may not able to get this kind of experience",
+    "P10": "you can't see the texture of the artwork which is very important to study the skills used by the artist",
+    "P11": "not all the details of the artwork can be shown on the computer screen",
+    "P12": "Some details might be dim",
+    "P13": "the resolution ratio of the screen is not high enough",
+    "P14": "These may influence the comprehension of the art work or historical objects"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "we can see the art works and historical objects online",
-        "C2": "computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects",
-        "C3": "Most people nowadays prefer to use the Internet to search for art work",
-        "C4": "In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing",
-        "C5": "Seeing an art work on computer screen is not the same as you watch it by your own eyes"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the Internet really brings them convenience",
-        "P2": "pictures online are only limited to a screen size",
-        "P3": "the exhibits in museums or galleries are all life size and visitors can get a more direct felling",
-        "P4": "only when we see the real mummy, can we experience mystique",
-        "P5": "We can browse the art work from all over the world at home",
-        "P6": "people may not get a spiritual experience",
-        "P7": "at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus",
-        "P8": "at Museum of Art in New York, you can look at 17th century instruments while listening to their music",
-        "P9": "While if you \"visit\" the museum online, you may not able to get this kind of experience",
-        "P10": "you can't see the texture of the artwork which is very important to study the skills used by the artist",
-        "P11": "not all the details of the artwork can be shown on the computer screen",
-        "P12": "Some details might be dim",
-        "P13": "the resolution ratio of the screen is not high enough",
-        "P14": "These may influence the comprehension of the art work or historical objects"
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

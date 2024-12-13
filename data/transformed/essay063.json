@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "people are likely to spend less time in cooking food",
-        "MC2": "people will spend less time in cooking food"
+  "MajorClaims": {
+    "MC1": "people are likely to spend less time in cooking food",
+    "MC2": "people will spend less time in cooking food"
+  },
+  "Claims": {
+    "C1": "it is certain that spending less time on cooking will be the main trend in near future",
+    "C2": "most of young people prefer to have meals at restaurants",
+    "C3": "investing much time in cooking food will guarantee nutrition as well as quality of food for their family"
+  },
+  "Premises": {
+    "P1": "people nowadays just spend one hour to prepare a meal instead of two, even three hours like in the last 10 years",
+    "P2": "with the development of science and technology, more advanced kitchen facilities, such as the modern microwaves or the advanced pressure cookers, have been created and invented to help people prepare and cook food in a very short time",
+    "P3": "in recent years, there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework",
+    "P4": "And this figure still continuously go up along with the improvement of science and technology",
+    "P5": "they find hard to have time to prepare and cook a meal",
+    "P6": "89% of people have come to think that, since they have been put in the situation which is filled with competitions and pressures, they have to use a lot of time to work hard, to update themselves, to acquire all kinds of skills and so on",
+    "P7": "Even they have some spare time, they prefer to go out with friends to relax and relieve the pressure from work and study",
+    "P8": "it is quite easy to have a nutritious meal with guaranteed quality, but do not waste a lot of time",
+    "P9": "as a matter of fact, using technology or advanced facilities do not make food lose its nutrition and quality",
+    "P10": "health and life of eaters is assured",
+    "P11": "Even, with the help of ozone machines, bacterias, mold spores, or pesticide in vegetables, fruits and foods will be killed and removed",
+    "P12": "along with the high living standard, requirements of quality products in almost restaurants, nowadays, are under severe control and supervision by appropriate authorities",
+    "P13": "they want to invest more time in their work or study to improve themselves"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it is certain that spending less time on cooking will be the main trend in near future",
-        "C2": "most of young people prefer to have meals at restaurants",
-        "C3": "investing much time in cooking food will guarantee nutrition as well as quality of food for their family"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Premises": {
-        "P1": "people nowadays just spend one hour to prepare a meal instead of two, even three hours like in the last 10 years",
-        "P2": "with the development of science and technology, more advanced kitchen facilities, such as the modern microwaves or the advanced pressure cookers, have been created and invented to help people prepare and cook food in a very short time",
-        "P3": "in recent years, there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework",
-        "P4": "And this figure still continuously go up along with the improvement of science and technology",
-        "P5": "they find hard to have time to prepare and cook a meal",
-        "P6": "89% of people have come to think that, since they have been put in the situation which is filled with competitions and pressures, they have to use a lot of time to work hard, to update themselves, to acquire all kinds of skills and so on",
-        "P7": "Even they have some spare time, they prefer to go out with friends to relax and relieve the pressure from work and study",
-        "P8": "it is quite easy to have a nutritious meal with guaranteed quality, but do not waste a lot of time",
-        "P9": "as a matter of fact, using technology or advanced facilities do not make food lose its nutrition and quality",
-        "P10": "health and life of eaters is assured",
-        "P11": "Even, with the help of ozone machines, bacterias, mold spores, or pesticide in vegetables, fruits and foods will be killed and removed",
-        "P12": "along with the high living standard, requirements of quality products in almost restaurants, nowadays, are under severe control and supervision by appropriate authorities",
-        "P13": "they want to invest more time in their work or study to improve themselves"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

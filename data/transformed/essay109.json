@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",
-        "MC2": "it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures"
+  "MajorClaims": {
+    "MC1": "the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",
+    "MC2": "it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures"
+  },
+  "Claims": {
+    "C1": "One of the strong arguments in favour of tighter media control is to limit the violent and sexual content",
+    "C2": "television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture",
+    "C3": "the government should disclose the information to the media in a timely manner, especially for disasters and outbreak of new diseases"
+  },
+  "Premises": {
+    "P1": "They have a serious impact on people in their puberty",
+    "P2": "an internet cartoon comedy called happy tree is extremely brutal, where the characters usually have their heads or limbs tear off",
+    "P3": "A few years ago there was a Japanese game show which involved throwing cream cakes to the loser",
+    "P4": "This is actually very environmentally unfriendly",
+    "P5": "Taking the SARS in 2003 as an example, the Chinese government limited the amount of information for public access which therefore causes numerous deaths",
+    "P6": "another perspective on this is to prevent the citizen from unnecessary fear and unrest"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "One of the strong arguments in favour of tighter media control is to limit the violent and sexual content",
-        "C2": "television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture",
-        "C3": "the government should disclose the information to the media in a timely manner, especially for disasters and outbreak of new diseases"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "Premises": {
-        "P1": "They have a serious impact on people in their puberty",
-        "P2": "an internet cartoon comedy called happy tree is extremely brutal, where the characters usually have their heads or limbs tear off",
-        "P3": "A few years ago there was a Japanese game show which involved throwing cream cakes to the loser",
-        "P4": "This is actually very environmentally unfriendly",
-        "P5": "Taking the SARS in 2003 as an example, the Chinese government limited the amount of information for public access which therefore causes numerous deaths",
-        "P6": "another perspective on this is to prevent the citizen from unnecessary fear and unrest"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

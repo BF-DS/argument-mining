@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "traditional learning still has many benefits to the students",
-        "MC2": "I prefer traditional learning classes"
+  "MajorClaims": {
+    "MC1": "traditional learning still has many benefits to the students",
+    "MC2": "I prefer traditional learning classes"
+  },
+  "Claims": {
+    "C1": "online classes have many advantages",
+    "C2": "the participant with the others like classmates or professors is still an important factor in studying",
+    "C3": "classroom learning provides other activities than studying",
+    "C4": "in school, there are professors that guided you during you had a problem or needed an advice"
+  },
+  "Premises": {
+    "P1": "Working in group leads to more discussion and more opinion among the class",
+    "P2": "the discussion class results in expanded children vision and their respect to others roommate's ideas",
+    "P3": "Unlike the distance learning that children have few opportunities to discuss with their friends",
+    "P4": "During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library",
+    "P5": "These activities lead to more interact with their friends",
+    "P6": "Connection with friends improves their IQ abilities",
+    "P7": "they have a chance to learn about their societies",
+    "P8": "the online course keeps the children at their home only",
+    "P9": "The professor provides good answers to you",
+    "P10": "They do not mind helping you, and they never leave you alone when you got a problem",
+    "P11": "in distance learning, these aspects of the professor had reduced their important",
+    "P12": "The professor has been assigned to teach only",
+    "P13": "there will be a long response from the teachers when children ask them a question"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "online classes have many advantages",
-        "C2": "the participant with the others like classmates or professors is still an important factor in studying",
-        "C3": "classroom learning provides other activities than studying",
-        "C4": "in school, there are professors that guided you during you had a problem or needed an advice"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Working in group leads to more discussion and more opinion among the class",
-        "P2": "the discussion class results in expanded children vision and their respect to others roommate's ideas",
-        "P3": "Unlike the distance learning that children have few opportunities to discuss with their friends",
-        "P4": "During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library",
-        "P5": "These activities lead to more interact with their friends",
-        "P6": "Connection with friends improves their IQ abilities",
-        "P7": "they have a chance to learn about their societies",
-        "P8": "the online course keeps the children at their home only",
-        "P9": "The professor provides good answers to you",
-        "P10": "They do not mind helping you, and they never leave you alone when you got a problem",
-        "P11": "in distance learning, these aspects of the professor had reduced their important",
-        "P12": "The professor has been assigned to teach only",
-        "P13": "there will be a long response from the teachers when children ask them a question"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

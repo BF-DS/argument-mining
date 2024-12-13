@@ -1,113 +1,113 @@
 {
-    "MajorClaims": {
-        "MC1": "universities must open choice for everyone to select his subject"
+  "MajorClaims": {
+    "MC1": "universities must open choice for everyone to select his subject"
+  },
+  "Claims": {
+    "C1": "we must give them opportunity to achieve their goal",
+    "C2": "Universities should accept equal numbers of students of both genders",
+    "C3": "universities follow the requirement of job providers and decide subject suitable for particular gender"
+  },
+  "Premises": {
+    "P1": "Our youth has become very confident towards his career",
+    "P2": "They are not ready to be bound in certain limitations",
+    "P3": "Female candidates also do not care about any restriction posed by the society and the employer",
+    "P4": "women have proved themselves in every field whether it is indoor or outdoor",
+    "P5": "nowadays women are working in home as well as in the sky",
+    "P6": "They are acting as a good housewife and they are flying planes also",
+    "P7": "university authority must not be biased on ground of the gender discrimination",
+    "P8": "They must consider the academic record of the student as main criteria of admission",
+    "P9": "the current job market affects the decision of universities",
+    "P10": "Every university designs its courses according to the need of employers",
+    "P11": "The job selection criteria are pre decided",
+    "P12": "employers need male candidates for the heavy work such as repairing and installation of heavy machine",
+    "P13": "They prefer male staff for night shifts",
+    "P14": "They want female candidates for soft natured work like counseling, teaching, designing etc"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "we must give them opportunity to achieve their goal",
-        "C2": "Universities should accept equal numbers of students of both genders",
-        "C3": "universities follow the requirement of job providers and decide subject suitable for particular gender"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "Our youth has become very confident towards his career",
-        "P2": "They are not ready to be bound in certain limitations",
-        "P3": "Female candidates also do not care about any restriction posed by the society and the employer",
-        "P4": "women have proved themselves in every field whether it is indoor or outdoor",
-        "P5": "nowadays women are working in home as well as in the sky",
-        "P6": "They are acting as a good housewife and they are flying planes also",
-        "P7": "university authority must not be biased on ground of the gender discrimination",
-        "P8": "They must consider the academic record of the student as main criteria of admission",
-        "P9": "the current job market affects the decision of universities",
-        "P10": "Every university designs its courses according to the need of employers",
-        "P11": "The job selection criteria are pre decided",
-        "P12": "employers need male candidates for the heavy work such as repairing and installation of heavy machine",
-        "P13": "They prefer male staff for night shifts",
-        "P14": "They want female candidates for soft natured work like counseling, teaching, designing etc"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P11"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P11"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

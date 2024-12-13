@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "it is insufficient to increase the petrol price only to solve problems",
-        "MC2": "addressing pollution and traffic issues only by increasing oil price is not adequate"
+  "MajorClaims": {
+    "MC1": "it is insufficient to increase the petrol price only to solve problems",
+    "MC2": "addressing pollution and traffic issues only by increasing oil price is not adequate"
+  },
+  "Claims": {
+    "C1": "it seems not easy to increase petrol price instantly",
+    "C2": "several other solutions can be introduced to assist in reducing pollution and traffic problems"
+  },
+  "Premises": {
+    "P1": "whether it can work out for alleviating traffic and pollution pressure ought to be evaluated",
+    "P2": "price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area",
+    "P3": "governments have a macro-economic perspective to control price in various areas according to social demands",
+    "P4": "pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution",
+    "P5": "the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours",
+    "P6": "authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars",
+    "P7": "temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season",
+    "P8": "with supervisory institutions built to find and address problems",
+    "P9": "cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it seems not easy to increase petrol price instantly",
-        "C2": "several other solutions can be introduced to assist in reducing pollution and traffic problems"
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "whether it can work out for alleviating traffic and pollution pressure ought to be evaluated",
-        "P2": "price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area",
-        "P3": "governments have a macro-economic perspective to control price in various areas according to social demands",
-        "P4": "pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution",
-        "P5": "the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours",
-        "P6": "authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars",
-        "P7": "temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season",
-        "P8": "with supervisory institutions built to find and address problems",
-        "P9": "cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "P2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "P2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

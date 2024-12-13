@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "it should be better to leave this type of type of training for a certain group of good, knowledgeable learners",
-        "MC2": "everyone should have a compulsory education level up to high school, but the above divisions should be only the realm of the best students"
+  "MajorClaims": {
+    "MC1": "it should be better to leave this type of type of training for a certain group of good, knowledgeable learners",
+    "MC2": "everyone should have a compulsory education level up to high school, but the above divisions should be only the realm of the best students"
+  },
+  "Claims": {
+    "C1": "This will improve the quality of both universities and students, thus placing people in positions which suit them most",
+    "C2": "focusing only on talented students is a better option",
+    "C3": "university should only accept good students"
+  },
+  "Premises": {
+    "P1": "it helps academic institutions maintain their high education quality",
+    "P2": "Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge",
+    "P3": "some students may be capable in high schools, but the pressure of higher education is tough even for talented ones",
+    "P4": "That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions",
+    "P5": "they need to somehow lower the materials so that it is practical for everyone",
+    "P6": "it gives better human resources for sophisticated purposes",
+    "P7": "this may lead to 'social division', when someone with high education refuses to do the called 'low jobs'",
+    "P8": "it gives no harm to the whole community",
+    "P9": "Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions",
+    "P10": "limiting the number of people who can be admitted by universities is a good choice",
+    "P11": "it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves",
+    "P12": "this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "This will improve the quality of both universities and students, thus placing people in positions which suit them most",
-        "C2": "focusing only on talented students is a better option",
-        "C3": "university should only accept good students"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "it helps academic institutions maintain their high education quality",
-        "P2": "Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge",
-        "P3": "some students may be capable in high schools, but the pressure of higher education is tough even for talented ones",
-        "P4": "That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions",
-        "P5": "they need to somehow lower the materials so that it is practical for everyone",
-        "P6": "it gives better human resources for sophisticated purposes",
-        "P7": "this may lead to 'social division', when someone with high education refuses to do the called 'low jobs'",
-        "P8": "it gives no harm to the whole community",
-        "P9": "Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions",
-        "P10": "limiting the number of people who can be admitted by universities is a good choice",
-        "P11": "it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves",
-        "P12": "this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "P7"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P10"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P10"
+    }
+  ]
 }

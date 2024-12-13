@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "students can acquire more benefits from the remote education",
-        "MC2": "distance-learning outweighs the conventional way not only with its efficiency, convenience and economic value, but also with the self-regulated education that pupils can study on their own purpose"
+  "MajorClaims": {
+    "MC1": "students can acquire more benefits from the remote education",
+    "MC2": "distance-learning outweighs the conventional way not only with its efficiency, convenience and economic value, but also with the self-regulated education that pupils can study on their own purpose"
+  },
+  "Claims": {
+    "C1": "traditional education has some merits like feedbacks and inspirations that cannot be replaced in the near future",
+    "C2": "studying at home save the pupils enormous time and considerable expense",
+    "C3": "long-distance education provides students the opportunity to access the immense knowledge resources and a variety of teaching approaches",
+    "C4": "traditional education has its advantages in face-to-face communication, mental inspiration and physical educations"
+  },
+  "Premises": {
+    "P1": "Students who use distance-learning programs can cut down their commuting time, tuition fees, textbook fees and so forth just by an internet connection",
+    "P2": "This especially makes a significant difference for the children who live in the far-off countryside and the children whose families are living below the poverty-line",
+    "P3": "he can control the learning progress and make satisfactory achievement on this course",
+    "P4": "A student can even select a specific online course based on his own preference and time schedule",
+    "P5": "Pupils can obtain materials for their curricula just by one mouse click, such as science reports, study posts, documentary records, etc",
+    "P6": "These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities",
+    "P7": "with the improvements in streaming and sensor technologies, remote education can eliminate the obstacles of distance and body contacts"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "traditional education has some merits like feedbacks and inspirations that cannot be replaced in the near future",
-        "C2": "studying at home save the pupils enormous time and considerable expense",
-        "C3": "long-distance education provides students the opportunity to access the immense knowledge resources and a variety of teaching approaches",
-        "C4": "traditional education has its advantages in face-to-face communication, mental inspiration and physical educations"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Students who use distance-learning programs can cut down their commuting time, tuition fees, textbook fees and so forth just by an internet connection",
-        "P2": "This especially makes a significant difference for the children who live in the far-off countryside and the children whose families are living below the poverty-line",
-        "P3": "he can control the learning progress and make satisfactory achievement on this course",
-        "P4": "A student can even select a specific online course based on his own preference and time schedule",
-        "P5": "Pupils can obtain materials for their curricula just by one mouse click, such as science reports, study posts, documentary records, etc",
-        "P6": "These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities",
-        "P7": "with the improvements in streaming and sensor technologies, remote education can eliminate the obstacles of distance and body contacts"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

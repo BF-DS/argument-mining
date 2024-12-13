@@ -1,121 +1,121 @@
 {
-    "MajorClaims": {
-        "MC1": "businesses had better not employ the workers for the whole of their life",
-        "MC2": "the employer should not hire the staff for a whole life",
-        "MC3": "brilliant bosses are conscious of the need for giving opportunities to diverse employees"
+  "MajorClaims": {
+    "MC1": "businesses had better not employ the workers for the whole of their life",
+    "MC2": "the employer should not hire the staff for a whole life",
+    "MC3": "brilliant bosses are conscious of the need for giving opportunities to diverse employees"
+  },
+  "Claims": {
+    "C1": "various ideas and creativity from different people are indispensable for a company to flourish",
+    "C2": "the staff soon gets boring with their stable job in such a long time",
+    "C3": "the businesses ought to recruit many workers so as to tackle this aching issue"
+  },
+  "Premises": {
+    "P1": "The invaluable experience of senior employees can pass down to the young apprentices who get used to new job, but regularly give out creative and novel ideas",
+    "P2": "the rapid development in every field nowadays requires precise updates and access to new knowledge",
+    "P3": "the youngsters are capable of meeting those standards",
+    "P4": "they have activeness, inventiveness and enterprise which allow them to complete their jobs perfectly",
+    "P5": "These vital factors can decide whether the company can thrive or not",
+    "P6": "At a certain time, they may presume that a securing job is the most important and necessary",
+    "P7": "they need to earn money to manage their life",
+    "P8": "the bulk of them realize that high promotion and competition can assist them to improve their skills and horizons",
+    "P9": "Many people enjoy challenging them",
+    "P10": "they don not want to be monotonous and passive ones",
+    "P11": "The same-old-same-old environment soon makes them depressed",
+    "P12": "this situation will have an adverse impact on the enterprise",
+    "P13": "the economic crisis and financial recession result in a tremendous increase in unemployment",
+    "P14": "It enables the jobless to better their life and earn a living",
+    "P15": "the factories and companies will have abundant human sources to ensure the pace of manufacture and also devising lots of unique ideas"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "various ideas and creativity from different people are indispensable for a company to flourish",
-        "C2": "the staff soon gets boring with their stable job in such a long time",
-        "C3": "the businesses ought to recruit many workers so as to tackle this aching issue"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
     },
-    "Premises": {
-        "P1": "The invaluable experience of senior employees can pass down to the young apprentices who get used to new job, but regularly give out creative and novel ideas",
-        "P2": "the rapid development in every field nowadays requires precise updates and access to new knowledge",
-        "P3": "the youngsters are capable of meeting those standards",
-        "P4": "they have activeness, inventiveness and enterprise which allow them to complete their jobs perfectly",
-        "P5": "These vital factors can decide whether the company can thrive or not",
-        "P6": "At a certain time, they may presume that a securing job is the most important and necessary",
-        "P7": "they need to earn money to manage their life",
-        "P8": "the bulk of them realize that high promotion and competition can assist them to improve their skills and horizons",
-        "P9": "Many people enjoy challenging them",
-        "P10": "they don not want to be monotonous and passive ones",
-        "P11": "The same-old-same-old environment soon makes them depressed",
-        "P12": "this situation will have an adverse impact on the enterprise",
-        "P13": "the economic crisis and financial recession result in a tremendous increase in unemployment",
-        "P14": "It enables the jobless to better their life and earn a living",
-        "P15": "the factories and companies will have abundant human sources to ensure the pace of manufacture and also devising lots of unique ideas"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

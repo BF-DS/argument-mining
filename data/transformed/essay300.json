@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "i discern that several small breaks will help students to be active in their academics",
-        "MC2": "schools should consider giving several small vocations to the students during the year"
+  "MajorClaims": {
+    "MC1": "i discern that several small breaks will help students to be active in their academics",
+    "MC2": "schools should consider giving several small vocations to the students during the year"
+  },
+  "Claims": {
+    "C1": "Vacations are not only required by students but also by professionals and housekeepers",
+    "C2": "several vacations throughout the year will keep stress level of students low",
+    "C3": "students learning capability increase after having refreshing vacation"
+  },
+  "Premises": {
+    "P1": "it not only provide break to them from their regular commitment but also allows them to spend some time on themselves, heel stressful mind and boost desire of resuming to the regular schedule",
+    "P2": "Many educational bodies schedule its small vacations after term exams so that student's get relief form exam pressure",
+    "P3": "research done by universities proves that student's performance improves if they get regular breaks from their learning, preparation and examination schedule",
+    "P4": "Many colleges in foreign countries provide vacations to students after each semester that facilitate student to entertain themselves as well as prepare for their next semester",
+    "P5": "several holidays aid these students to not only amuse themselves but also arrange fund and materials such as books and references material for their upcoming course",
+    "P6": "in my school we used to get several vacations after our quarterly exams",
+    "P7": "During those vacations i used to analyze my performance in latest examination and used to go through those question or concept again to avoid making same mistakes",
+    "P8": "I also used to spend my time on developing some recreational activity or learning some sports or game",
+    "P9": "During my all vacations, I used to miss my school due to which I used to restart my session with great enthusiasm of learning and scoring good marks in new quarter"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Vacations are not only required by students but also by professionals and housekeepers",
-        "C2": "several vacations throughout the year will keep stress level of students low",
-        "C3": "students learning capability increase after having refreshing vacation"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "it not only provide break to them from their regular commitment but also allows them to spend some time on themselves, heel stressful mind and boost desire of resuming to the regular schedule",
-        "P2": "Many educational bodies schedule its small vacations after term exams so that student's get relief form exam pressure",
-        "P3": "research done by universities proves that student's performance improves if they get regular breaks from their learning, preparation and examination schedule",
-        "P4": "Many colleges in foreign countries provide vacations to students after each semester that facilitate student to entertain themselves as well as prepare for their next semester",
-        "P5": "several holidays aid these students to not only amuse themselves but also arrange fund and materials such as books and references material for their upcoming course",
-        "P6": "in my school we used to get several vacations after our quarterly exams",
-        "P7": "During those vacations i used to analyze my performance in latest examination and used to go through those question or concept again to avoid making same mistakes",
-        "P8": "I also used to spend my time on developing some recreational activity or learning some sports or game",
-        "P9": "During my all vacations, I used to miss my school due to which I used to restart my session with great enthusiasm of learning and scoring good marks in new quarter"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

@@ -1,89 +1,89 @@
 {
-    "MajorClaims": {
-        "MC1": "more good come from zoos than bad"
+  "MajorClaims": {
+    "MC1": "more good come from zoos than bad"
+  },
+  "Claims": {
+    "C1": "both of the arguments have strong supports",
+    "C2": "keeping animals in captivity is wrong",
+    "C3": "zoos provide the public with good entertainment and also help to ensure the balance of the ecology"
+  },
+  "Premises": {
+    "P1": "animals should be considered non-human persons and they should have the right of having freedom",
+    "P2": "This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures",
+    "P3": "many zoos, especially the ones in developing countries, do not provide care and attention which their animals require",
+    "P4": "The animals are often undernourished and do not have sufficient quality and quantity of medical treatment",
+    "P5": "sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe",
+    "P6": "Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world",
+    "P7": "Zoos provide educational information about the lives of different animals to the public",
+    "P8": "zoos play an important role in reserving many breeds of animal and preventing them from being missing from life",
+    "P9": "in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters",
+    "P10": "zoos are needed to keep the nature balanced"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "both of the arguments have strong supports",
-        "C2": "keeping animals in captivity is wrong",
-        "C3": "zoos provide the public with good entertainment and also help to ensure the balance of the ecology"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "animals should be considered non-human persons and they should have the right of having freedom",
-        "P2": "This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures",
-        "P3": "many zoos, especially the ones in developing countries, do not provide care and attention which their animals require",
-        "P4": "The animals are often undernourished and do not have sufficient quality and quantity of medical treatment",
-        "P5": "sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe",
-        "P6": "Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world",
-        "P7": "Zoos provide educational information about the lives of different animals to the public",
-        "P8": "zoos play an important role in reserving many breeds of animal and preventing them from being missing from life",
-        "P9": "in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters",
-        "P10": "zoos are needed to keep the nature balanced"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

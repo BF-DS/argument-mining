@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "a single modern culture is being created by modern technology",
-        "MC2": "new technology has affected cultures of the world, and we can see many similarities in many cultures"
+  "MajorClaims": {
+    "MC1": "a single modern culture is being created by modern technology",
+    "MC2": "new technology has affected cultures of the world, and we can see many similarities in many cultures"
+  },
+  "Claims": {
+    "C1": "new technology has influences on educational system, jobs and foods in the world",
+    "C2": "most of the countries have the same educational system based on technology",
+    "C3": "new technology has created some similar jobs all around the world",
+    "C4": "there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them"
+  },
+  "Premises": {
+    "P1": "Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint",
+    "P2": "students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students",
+    "P3": "many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries",
+    "P4": "jobs that are related to technology are in demand in most of the countries",
+    "P5": "Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field",
+    "P6": "many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures",
+    "P7": "cooks can find many new food recipes easily on the Internet",
+    "P8": "two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "new technology has influences on educational system, jobs and foods in the world",
-        "C2": "most of the countries have the same educational system based on technology",
-        "C3": "new technology has created some similar jobs all around the world",
-        "C4": "there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint",
-        "P2": "students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students",
-        "P3": "many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries",
-        "P4": "jobs that are related to technology are in demand in most of the countries",
-        "P5": "Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field",
-        "P6": "many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures",
-        "P7": "cooks can find many new food recipes easily on the Internet",
-        "P8": "two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

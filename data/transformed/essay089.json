@@ -1,96 +1,96 @@
 {
-    "MajorClaims": {
-        "MC1": "human needs should be considered more",
-        "MC2": "nowadays humans need farmland, housing and industry"
+  "MajorClaims": {
+    "MC1": "human needs should be considered more",
+    "MC2": "nowadays humans need farmland, housing and industry"
+  },
+  "Claims": {
+    "C1": "endangered animals are important",
+    "C2": "increasing population are more important than saving land for endangered animals",
+    "C3": "they do not need so much land that people need",
+    "C4": "farmlands are vital for human life",
+    "C5": "they need land to build their houses on it",
+    "C6": "some lands should be assigned to industry"
+  },
+  "Premises": {
+    "P1": "day by day population is increasing",
+    "P2": "human needs for food is increasing as well",
+    "P3": "the population of endangered animals are less than people's population",
+    "P4": "We need farmland to grow crops such as wheat and corn, and there is no doubt that without food people cannot alive for more than some weeks",
+    "P5": "people need shelters to protect themselves from mother nature such as wind and flood and wild animals",
+    "P6": "Dwelling is one of the most important human needs after food which is undeniable",
+    "P7": "human need some crucial things to continue their life, and most of them are industrial such as medicine",
+    "P8": "Todays life has some difficulty which become comfortable with the help of industry"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "endangered animals are important",
-        "C2": "increasing population are more important than saving land for endangered animals",
-        "C3": "they do not need so much land that people need",
-        "C4": "farmlands are vital for human life",
-        "C5": "they need land to build their houses on it",
-        "C6": "some lands should be assigned to industry"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "day by day population is increasing",
-        "P2": "human needs for food is increasing as well",
-        "P3": "the population of endangered animals are less than people's population",
-        "P4": "We need farmland to grow crops such as wheat and corn, and there is no doubt that without food people cannot alive for more than some weeks",
-        "P5": "people need shelters to protect themselves from mother nature such as wind and flood and wild animals",
-        "P6": "Dwelling is one of the most important human needs after food which is undeniable",
-        "P7": "human need some crucial things to continue their life, and most of them are industrial such as medicine",
-        "P8": "Todays life has some difficulty which become comfortable with the help of industry"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C6"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C6"
+    }
+  ]
 }

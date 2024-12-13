@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "creative artists must be given the freedom to express their ideas without any restrictions",
-        "MC2": "artists should be given the freedom of expression"
+  "MajorClaims": {
+    "MC1": "creative artists must be given the freedom to express their ideas without any restrictions",
+    "MC2": "artists should be given the freedom of expression"
+  },
+  "Claims": {
+    "C1": "Creativity originates in a free mind",
+    "C2": "Creative works help to create social awareness by giving a social message",
+    "C3": "innovative works makes people realize things in a peaceful way and peep into their own conscience",
+    "C4": "Like the media, artists should also be given the freedom to express their ideas freely",
+    "C5": "Mind can not work when it is chained in boundaries",
+    "C6": "Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws",
+    "C7": "Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose"
+  },
+  "Premises": {
+    "P1": "Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message",
+    "P2": "Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras",
+    "P3": "It helps to raise issues and criticize the wrong doings of the governments",
+    "P4": "Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue",
+    "P5": "This type of approach is a hurdle in promoting creative minds",
+    "P6": "creativity also gives aesthetic charm",
+    "P7": "Frank Zappa once said, \"Mind is like a parachute, it doesn't work if its not open\u201c",
+    "P8": "Restrictions would just curb the innovative ideas of the artists and would limit their brains",
+    "P9": "artists should also know not to hurt the sentiments of the people",
+    "P10": "Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Creativity originates in a free mind",
-        "C2": "Creative works help to create social awareness by giving a social message",
-        "C3": "innovative works makes people realize things in a peaceful way and peep into their own conscience",
-        "C4": "Like the media, artists should also be given the freedom to express their ideas freely",
-        "C5": "Mind can not work when it is chained in boundaries",
-        "C6": "Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws",
-        "C7": "Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message",
-        "P2": "Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras",
-        "P3": "It helps to raise issues and criticize the wrong doings of the governments",
-        "P4": "Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue",
-        "P5": "This type of approach is a hurdle in promoting creative minds",
-        "P6": "creativity also gives aesthetic charm",
-        "P7": "Frank Zappa once said, \"Mind is like a parachute, it doesn't work if its not open\u201c",
-        "P8": "Restrictions would just curb the innovative ideas of the artists and would limit their brains",
-        "P9": "artists should also know not to hurt the sentiments of the people",
-        "P10": "Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C7",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C7"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C7"
+    }
+  ]
 }

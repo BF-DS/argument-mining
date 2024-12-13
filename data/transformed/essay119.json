@@ -1,65 +1,65 @@
 {
-    "MajorClaims": {
-        "MC1": "at no time will the unique role of human teachers be replaced"
+  "MajorClaims": {
+    "MC1": "at no time will the unique role of human teachers be replaced"
+  },
+  "Claims": {
+    "C1": "Internet can be a useful tool for education",
+    "C2": "the global online network is the inexhaustible source of information, which definitely exceeds the fund of knowledge that any veteran teacher can accumulate",
+    "C3": "information from those sources is subject to question",
+    "C4": "it cannot give as an in-depth explanation as a human teacher can"
+  },
+  "Premises": {
+    "P1": "Internet and computer also offer a more comprehensive access to knowledge, ranging from visual to aural stimuli, which make learning an ever enjoyable experience, especially for children",
+    "P2": "Much information as the Internet may provide, most of the sources are unjustified by experts",
+    "P3": "the computer can show whether an answer to a particular question is right or wrong",
+    "P4": "Through face-to-face communication, teachers can also pinpoint the weaknesses of each student and therefore, adjusting and tailoring his or her teaching methodology to meet the levels or the demands of those students",
+    "P5": "This is where the computer proves to be incompetent"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Internet can be a useful tool for education",
-        "C2": "the global online network is the inexhaustible source of information, which definitely exceeds the fund of knowledge that any veteran teacher can accumulate",
-        "C3": "information from those sources is subject to question",
-        "C4": "it cannot give as an in-depth explanation as a human teacher can"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Internet and computer also offer a more comprehensive access to knowledge, ranging from visual to aural stimuli, which make learning an ever enjoyable experience, especially for children",
-        "P2": "Much information as the Internet may provide, most of the sources are unjustified by experts",
-        "P3": "the computer can show whether an answer to a particular question is right or wrong",
-        "P4": "Through face-to-face communication, teachers can also pinpoint the weaknesses of each student and therefore, adjusting and tailoring his or her teaching methodology to meet the levels or the demands of those students",
-        "P5": "This is where the computer proves to be incompetent"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

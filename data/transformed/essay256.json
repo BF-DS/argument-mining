@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "students should always attend class no matter what the outcome of the exam is",
-        "MC2": "students can learn more thoroughly as well as showing respect for professors and themselves through attending classes"
+  "MajorClaims": {
+    "MC1": "students should always attend class no matter what the outcome of the exam is",
+    "MC2": "students can learn more thoroughly as well as showing respect for professors and themselves through attending classes"
+  },
+  "Claims": {
+    "C1": "in terms of learning, attending class is more effective than simply studying alone to pass the exams",
+    "C2": "It's an essential learning process",
+    "C3": "class attendances are regarded as critical as examination performances",
+    "C4": "if students already understand the contents on the class enough to pass the exams or they can study the course on their own"
+  },
+  "Premises": {
+    "P1": "Classes are designed diligently for the students and professors absolutely bear more knowledge than the students",
+    "P2": "Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements",
+    "P3": "Those who even achieve high scores on exams could fail if they didn't show up in the classes",
+    "P4": "Many professors grade their students with class attendances",
+    "P5": "Attending class is the most persuasive way for the students to show respect to the professor as well as themselves",
+    "P6": "it's students' basic responsibility to attend class",
+    "P7": "this is a rather immodest way of thinking",
+    "P8": "professors can always give students more than students themselves could because of the experiences and their qualifications as professors",
+    "P9": "even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "in terms of learning, attending class is more effective than simply studying alone to pass the exams",
-        "C2": "It's an essential learning process",
-        "C3": "class attendances are regarded as critical as examination performances",
-        "C4": "if students already understand the contents on the class enough to pass the exams or they can study the course on their own"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "Classes are designed diligently for the students and professors absolutely bear more knowledge than the students",
-        "P2": "Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements",
-        "P3": "Those who even achieve high scores on exams could fail if they didn't show up in the classes",
-        "P4": "Many professors grade their students with class attendances",
-        "P5": "Attending class is the most persuasive way for the students to show respect to the professor as well as themselves",
-        "P6": "it's students' basic responsibility to attend class",
-        "P7": "this is a rather immodest way of thinking",
-        "P8": "professors can always give students more than students themselves could because of the experiences and their qualifications as professors",
-        "P9": "even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

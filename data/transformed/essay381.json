@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "this trend reflects and enhances the high level of violence in society",
-        "MC2": "it will bring the higher level of violence"
+  "MajorClaims": {
+    "MC1": "this trend reflects and enhances the high level of violence in society",
+    "MC2": "it will bring the higher level of violence"
+  },
+  "Claims": {
+    "C1": "being armed with guns in the police force is necessary",
+    "C2": "a society that its police force carries guns will be definitely seen as a highly violent one",
+    "C3": "Those are possibly the strongest evidences to determine a society suffering a high level of violence"
+  },
+  "Premises": {
+    "P1": "we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",
+    "P2": "criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs",
+    "P3": "citizens in that society can be shot by both police and offenders accidentally",
+    "P4": "while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns",
+    "P5": "people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson",
+    "P6": "police force carries guns only in high crime societies"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "being armed with guns in the police force is necessary",
-        "C2": "a society that its police force carries guns will be definitely seen as a highly violent one",
-        "C3": "Those are possibly the strongest evidences to determine a society suffering a high level of violence"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",
-        "P2": "criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs",
-        "P3": "citizens in that society can be shot by both police and offenders accidentally",
-        "P4": "while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns",
-        "P5": "people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson",
-        "P6": "police force carries guns only in high crime societies"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    }
+  ]
 }

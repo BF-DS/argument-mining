@@ -1,89 +1,89 @@
 {
-    "MajorClaims": {
-        "MC1": "technology has helped us to have more comfortable life"
+  "MajorClaims": {
+    "MC1": "technology has helped us to have more comfortable life"
+  },
+  "Claims": {
+    "C1": "email can be count as one of the most beneficial results of modern technology",
+    "C2": "with the advent of internet and online paying systems, you can do many thing at your home easily",
+    "C3": "You can see its effects on transportation, communication, medicine and so forth",
+    "C4": "Another technological innovations which help people around the world is related to medical equipments"
+  },
+  "Premises": {
+    "P1": "Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered",
+    "P2": "nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not",
+    "P3": "Another important aspect on technology is transferring money",
+    "P4": "Today, students can apply for foreign universities much easier than before",
+    "P5": "Not only with the help of sending email, but also using credit cards to pay all necessary fees online",
+    "P6": "But now, biomedical engineers can make artificial heart valves which works well and doctors can implant them easily",
+    "P7": "In the past time doctors used pig heart's valve to implant, but the patient could not be alive more than 3 years after the replacement",
+    "P8": "one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries",
+    "P9": "Biomedical engineers could make a significant effect on increasing life expectancy the world"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "email can be count as one of the most beneficial results of modern technology",
-        "C2": "with the advent of internet and online paying systems, you can do many thing at your home easily",
-        "C3": "You can see its effects on transportation, communication, medicine and so forth",
-        "C4": "Another technological innovations which help people around the world is related to medical equipments"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered",
-        "P2": "nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not",
-        "P3": "Another important aspect on technology is transferring money",
-        "P4": "Today, students can apply for foreign universities much easier than before",
-        "P5": "Not only with the help of sending email, but also using credit cards to pay all necessary fees online",
-        "P6": "But now, biomedical engineers can make artificial heart valves which works well and doctors can implant them easily",
-        "P7": "In the past time doctors used pig heart's valve to implant, but the patient could not be alive more than 3 years after the replacement",
-        "P8": "one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries",
-        "P9": "Biomedical engineers could make a significant effect on increasing life expectancy the world"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

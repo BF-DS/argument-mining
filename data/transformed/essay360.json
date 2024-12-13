@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "other celebrities do lead young people in the right direction",
-        "MC2": "this is not necessarily the case for those celebrities who are ambitious in their jobs"
+  "MajorClaims": {
+    "MC1": "other celebrities do lead young people in the right direction",
+    "MC2": "this is not necessarily the case for those celebrities who are ambitious in their jobs"
+  },
+  "Claims": {
+    "C1": "some celebrities misguide young people by showing their external wealth and appearance",
+    "C2": "the attention of young people may become focused on chasing the dream of celebrity status",
+    "C3": "other celebrities do set up role models to young people because of their visible accomplishments"
+  },
+  "Premises": {
+    "P1": "some celebrities tend to show off their images in front of the public",
+    "P2": "some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention",
+    "P3": "If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work",
+    "P4": "celebrities such as sports player whose performance and professional skills can be directly seen by their fans",
+    "P5": "people understand that the great deal of efforts on training is directly linked to their results",
+    "P6": "this kind of self-made celebrity can inspire children to develop their talents through application and perseverance",
+    "P7": "other celebrities such as musician also have achieved great success in their career",
+    "P8": "Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation",
+    "P9": "His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "some celebrities misguide young people by showing their external wealth and appearance",
-        "C2": "the attention of young people may become focused on chasing the dream of celebrity status",
-        "C3": "other celebrities do set up role models to young people because of their visible accomplishments"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "some celebrities tend to show off their images in front of the public",
-        "P2": "some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention",
-        "P3": "If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work",
-        "P4": "celebrities such as sports player whose performance and professional skills can be directly seen by their fans",
-        "P5": "people understand that the great deal of efforts on training is directly linked to their results",
-        "P6": "this kind of self-made celebrity can inspire children to develop their talents through application and perseverance",
-        "P7": "other celebrities such as musician also have achieved great success in their career",
-        "P8": "Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation",
-        "P9": "His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

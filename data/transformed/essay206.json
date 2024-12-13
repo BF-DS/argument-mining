@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "I would prefer to live in a small town",
-        "MC2": "I prefer to live in a small town"
+  "MajorClaims": {
+    "MC1": "I would prefer to live in a small town",
+    "MC2": "I prefer to live in a small town"
+  },
+  "Claims": {
+    "C1": "I think a small town has some advantages, such as good weather, a healthy life and better facilities",
+    "C2": "it has some advantages such as less stress, because of better weather conditions and also, better relationship within a town",
+    "C3": "it is obvious that living in small towns is healthier than in big cities",
+    "C4": "another advantage of small towns is living costs"
+  },
+  "Premises": {
+    "P1": "In small town people know each other and have better deal together than big cities",
+    "P2": "on big cities people feel alone and depress more than small cities",
+    "P3": "people in small town have more happiness and friendship and less illness and stress",
+    "P4": "the first advantage of living in a small town is a healthy life that we can obtain due to many items",
+    "P5": "One of the conditions that helps us to be healthy is good weather and less population that exist in a small town",
+    "P6": "in a small town there are less crowded and less traffic",
+    "P7": "Living in a place with less pollution such as air pollution or sound pollution helps us to have a healthier life and one of the main consequences is less stress and more happiness",
+    "P8": "in a small town foods and materials we need are healthier than in big cities and there are fresh foods and fruits",
+    "P9": "Living cost is one of the important concerns in every society and then, in a small town living cost is fewer than in big cities",
+    "P10": "in a small town we can live in big houses with good landscapes",
+    "P11": "because of less crowded spaces we have more facilities and more services",
+    "P12": "Transportation cost is less than in big cities and we have less traffic",
+    "P13": "we can save time and money"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "I think a small town has some advantages, such as good weather, a healthy life and better facilities",
-        "C2": "it has some advantages such as less stress, because of better weather conditions and also, better relationship within a town",
-        "C3": "it is obvious that living in small towns is healthier than in big cities",
-        "C4": "another advantage of small towns is living costs"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "In small town people know each other and have better deal together than big cities",
-        "P2": "on big cities people feel alone and depress more than small cities",
-        "P3": "people in small town have more happiness and friendship and less illness and stress",
-        "P4": "the first advantage of living in a small town is a healthy life that we can obtain due to many items",
-        "P5": "One of the conditions that helps us to be healthy is good weather and less population that exist in a small town",
-        "P6": "in a small town there are less crowded and less traffic",
-        "P7": "Living in a place with less pollution such as air pollution or sound pollution helps us to have a healthier life and one of the main consequences is less stress and more happiness",
-        "P8": "in a small town foods and materials we need are healthier than in big cities and there are fresh foods and fruits",
-        "P9": "Living cost is one of the important concerns in every society and then, in a small town living cost is fewer than in big cities",
-        "P10": "in a small town we can live in big houses with good landscapes",
-        "P11": "because of less crowded spaces we have more facilities and more services",
-        "P12": "Transportation cost is less than in big cities and we have less traffic",
-        "P13": "we can save time and money"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P13"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P13"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

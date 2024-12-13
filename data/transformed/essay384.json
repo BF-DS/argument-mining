@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "governments should definitely reduce violent components to the minimum in kidvids, while such contents remain in the TV shows that for mature minds to watch would be entirely reasonable",
-        "MC2": "violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency"
+  "MajorClaims": {
+    "MC1": "governments should definitely reduce violent components to the minimum in kidvids, while such contents remain in the TV shows that for mature minds to watch would be entirely reasonable",
+    "MC2": "violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency"
+  },
+  "Claims": {
+    "C1": "it would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal TV Shows and movies",
+    "C2": "it would certainly be a violation of adults\u2019 civil liberties, if governments implement such a restricted regulation on these TV shows or movies that only for mature audiences"
+  },
+  "Premises": {
+    "P1": "reducing the proportion of violent content in TV shows could, to some degree, decrease the overall crime rate",
+    "P2": "governments must first prohibit any types of violent content in all children\u2019s television programs",
+    "P3": "As a result of mental immaturity, most youngsters are incapable of distinguishing right from wrong",
+    "P4": "by watching these violent TV programs and videos, juveniles will become very aggressive and offensive and have a great tendency to commit crimes",
+    "P5": "adults watch horror video or war movies for relaxing themselves after a busy day",
+    "P6": "For whom, such media sources are mere materials of relaxation and entertainment",
+    "P7": "Considering that these mature minds are capable of being responsible for their own behaviors, they certainly have the right to watch TV shows or movies that are appealing to them"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal TV Shows and movies",
-        "C2": "it would certainly be a violation of adults\u2019 civil liberties, if governments implement such a restricted regulation on these TV shows or movies that only for mature audiences"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "reducing the proportion of violent content in TV shows could, to some degree, decrease the overall crime rate",
-        "P2": "governments must first prohibit any types of violent content in all children\u2019s television programs",
-        "P3": "As a result of mental immaturity, most youngsters are incapable of distinguishing right from wrong",
-        "P4": "by watching these violent TV programs and videos, juveniles will become very aggressive and offensive and have a great tendency to commit crimes",
-        "P5": "adults watch horror video or war movies for relaxing themselves after a busy day",
-        "P6": "For whom, such media sources are mere materials of relaxation and entertainment",
-        "P7": "Considering that these mature minds are capable of being responsible for their own behaviors, they certainly have the right to watch TV shows or movies that are appealing to them"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

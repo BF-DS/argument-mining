@@ -1,126 +1,126 @@
 {
-    "MajorClaims": {
-        "MC1": "it is necessary for us to be extraordinarily cautious",
-        "MC2": "it might not be the most beneficial move to our society"
+  "MajorClaims": {
+    "MC1": "it is necessary for us to be extraordinarily cautious",
+    "MC2": "it might not be the most beneficial move to our society"
+  },
+  "Claims": {
+    "C1": "rough work is intolerable when we want to stay competitive",
+    "C2": "we need to catch up with the pace of the world",
+    "C3": "fast pace may be the wise move to correspond with today's world",
+    "C4": "even when the world operates in fast pace, it still requires accuracy",
+    "C5": "Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients",
+    "C6": "Some work cannot tolerate any mistakes at all"
+  },
+  "Premises": {
+    "P1": "Even simple issues in our daily life like homework require accuracy",
+    "P2": "If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline",
+    "P3": "it only fulfills the work itself which is rather worthless",
+    "P4": "It is our capability of work that we should improve rather than holding the belief in completing it",
+    "P5": "it may take time to keep up with the others if w need to review our work multiple times",
+    "P6": "with consistent work soon enough we'll be able to bring up our speed in completion of work",
+    "P7": "We soon will be out of the picture even when we kept up with the pace",
+    "P8": "when the problem reveals itself we'll have to go back and fix the mistakes we have made",
+    "P9": "This might be even more costly and time consuming than a neat completion of work at the start",
+    "P10": "other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality",
+    "P11": "A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars",
+    "P12": "even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems",
+    "P13": "in official missions like the work done by NASA, a tiny mistake can be catastrophic"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "rough work is intolerable when we want to stay competitive",
-        "C2": "we need to catch up with the pace of the world",
-        "C3": "fast pace may be the wise move to correspond with today's world",
-        "C4": "even when the world operates in fast pace, it still requires accuracy",
-        "C5": "Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients",
-        "C6": "Some work cannot tolerate any mistakes at all"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Even simple issues in our daily life like homework require accuracy",
-        "P2": "If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline",
-        "P3": "it only fulfills the work itself which is rather worthless",
-        "P4": "It is our capability of work that we should improve rather than holding the belief in completing it",
-        "P5": "it may take time to keep up with the others if w need to review our work multiple times",
-        "P6": "with consistent work soon enough we'll be able to bring up our speed in completion of work",
-        "P7": "We soon will be out of the picture even when we kept up with the pace",
-        "P8": "when the problem reveals itself we'll have to go back and fix the mistakes we have made",
-        "P9": "This might be even more costly and time consuming than a neat completion of work at the start",
-        "P10": "other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality",
-        "P11": "A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars",
-        "P12": "even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems",
-        "P13": "in official missions like the work done by NASA, a tiny mistake can be catastrophic"
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P13"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P13"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P13"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P13"
+    }
+  ]
 }

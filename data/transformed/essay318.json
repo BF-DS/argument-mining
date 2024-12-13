@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "no additional payment should be charged on them",
-        "MC2": "charging drivers for another fee for this could be unreasonable and irrational"
+  "MajorClaims": {
+    "MC1": "no additional payment should be charged on them",
+    "MC2": "charging drivers for another fee for this could be unreasonable and irrational"
+  },
+  "Claims": {
+    "C1": "\"rush hours\" are usually not the direct consequence of drivers",
+    "C2": "charging them extra fee might seems to be out of the jurisdiction",
+    "C3": "Charging drivers one more fee makes no sense and is ridiculous",
+    "C4": "charging drivers fees regardless of the causes of the problems could be ridiculous and even unlawful",
+    "C5": "Rather than passively forcing drivers to pay another fee, government should instead, be more active on advocating the use of more efficient and environmental-friendly energy or planning out more reasonable and convenient layout that allow people to reach their destinations with less oil"
+  },
+  "Premises": {
+    "P1": "Capitalism enfranchised people's right to own properties, and consequently, their rights to use them",
+    "P2": "Driving cars during the rush hours might is bound to polluting cities's environment, but laws protect drivers to do so",
+    "P3": "traffic jam is a natural phenomenon that nobody is able to shun or ban",
+    "P4": "it is out of drivers' control",
+    "P5": "Wars are notorious, but you can't blame the soldiers who are justing fight for their countries",
+    "P6": "Buying a car spends hundreds of thousand; paying for all sorts of fee takes another several-these are all ready too much for most of the families to bear",
+    "P7": "charging them too much fee adds a lot to their burden and is actually jeopardizing their rights",
+    "P8": "Majority of the families buy cars simply for a safer and easier conveyance",
+    "P9": "Sometimes traffic jam occur only due to the malfunction of a traffic light, or unreasonable organization of roadways",
+    "P10": "the one who should be charged for a fine is the city planner, not drivers"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "\"rush hours\" are usually not the direct consequence of drivers",
-        "C2": "charging them extra fee might seems to be out of the jurisdiction",
-        "C3": "Charging drivers one more fee makes no sense and is ridiculous",
-        "C4": "charging drivers fees regardless of the causes of the problems could be ridiculous and even unlawful",
-        "C5": "Rather than passively forcing drivers to pay another fee, government should instead, be more active on advocating the use of more efficient and environmental-friendly energy or planning out more reasonable and convenient layout that allow people to reach their destinations with less oil"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Capitalism enfranchised people's right to own properties, and consequently, their rights to use them",
-        "P2": "Driving cars during the rush hours might is bound to polluting cities's environment, but laws protect drivers to do so",
-        "P3": "traffic jam is a natural phenomenon that nobody is able to shun or ban",
-        "P4": "it is out of drivers' control",
-        "P5": "Wars are notorious, but you can't blame the soldiers who are justing fight for their countries",
-        "P6": "Buying a car spends hundreds of thousand; paying for all sorts of fee takes another several-these are all ready too much for most of the families to bear",
-        "P7": "charging them too much fee adds a lot to their burden and is actually jeopardizing their rights",
-        "P8": "Majority of the families buy cars simply for a safer and easier conveyance",
-        "P9": "Sometimes traffic jam occur only due to the malfunction of a traffic light, or unreasonable organization of roadways",
-        "P10": "the one who should be charged for a fine is the city planner, not drivers"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

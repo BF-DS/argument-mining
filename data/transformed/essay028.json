@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers",
-        "MC2": "modern society needs advertising"
+  "MajorClaims": {
+    "MC1": "Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers",
+    "MC2": "modern society needs advertising"
+  },
+  "Claims": {
+    "C1": "Ads will keep us well informed about new products and services",
+    "C2": "advertising cigarettes and alcohol will definitely affect our children in negative way",
+    "C3": "advertising alcohol, cigarettes, goods and services with adult content should be prohibited",
+    "C4": "by advertising companies, businesses, firms and individuals promote their goods and services",
+    "C5": "These days, not only many businesses, but also governments have to rely on advertising"
+  },
+  "Premises": {
+    "P1": "these kind of ads will have negative effect to our children",
+    "P2": "Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis",
+    "P3": "some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries",
+    "P4": "Thanks to ads we learn about new products, we can compare them and choose what\u2019s the best for us",
+    "P5": "tourism makes up one-third of the Czech Republic's economy",
+    "P6": "In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers",
+    "P7": "Only well planned and well targeted advertising will bring more foreign tourists to the country"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Ads will keep us well informed about new products and services",
-        "C2": "advertising cigarettes and alcohol will definitely affect our children in negative way",
-        "C3": "advertising alcohol, cigarettes, goods and services with adult content should be prohibited",
-        "C4": "by advertising companies, businesses, firms and individuals promote their goods and services",
-        "C5": "These days, not only many businesses, but also governments have to rely on advertising"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "these kind of ads will have negative effect to our children",
-        "P2": "Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis",
-        "P3": "some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries",
-        "P4": "Thanks to ads we learn about new products, we can compare them and choose what\u2019s the best for us",
-        "P5": "tourism makes up one-third of the Czech Republic's economy",
-        "P6": "In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers",
-        "P7": "Only well planned and well targeted advertising will bring more foreign tourists to the country"
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

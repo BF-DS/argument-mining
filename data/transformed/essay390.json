@@ -1,71 +1,71 @@
 {
-    "MajorClaims": {
-        "MC1": "celebrities nowadays give more good influence on young people than they were previously"
+  "MajorClaims": {
+    "MC1": "celebrities nowadays give more good influence on young people than they were previously"
+  },
+  "Claims": {
+    "C1": "people without talents cannot be famous in this changing world and to be accredited they need to contribute positively to young generation",
+    "C2": "it is not easy to influence young people these days when they are well equipped of life skills",
+    "C3": "people use their money to become an inspiration are definitely not a good mirror for young people",
+    "C4": "only money and glamour look are not enough for a person to be recognized anymore, it is importance that they have to have achievements in order to be a muse to youngsters"
+  },
+  "Premises": {
+    "P1": "They are mostly being educated at very early ages by family or schools as to distinguish what is benefit for them",
+    "P2": "the young generation these days is very conscious toward positive lifestyles",
+    "P3": "We definitely do not want our children to spend money on luxurious custom or lifestyle just to be similar to someone, especially when these people are not symbols of any talent but showing off",
+    "P4": "not many people can exist in the celebrities' world without any talents or achievements",
+    "P5": "We are giving chances to many teenagers to show their intelligence in different talent shows, for example; The Voice, X Factor or Next Top Models etc",
+    "P6": "to become a star and an inspiration for people, a person need to have real talent to compete with other candidates"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "people without talents cannot be famous in this changing world and to be accredited they need to contribute positively to young generation",
-        "C2": "it is not easy to influence young people these days when they are well equipped of life skills",
-        "C3": "people use their money to become an inspiration are definitely not a good mirror for young people",
-        "C4": "only money and glamour look are not enough for a person to be recognized anymore, it is importance that they have to have achievements in order to be a muse to youngsters"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "They are mostly being educated at very early ages by family or schools as to distinguish what is benefit for them",
-        "P2": "the young generation these days is very conscious toward positive lifestyles",
-        "P3": "We definitely do not want our children to spend money on luxurious custom or lifestyle just to be similar to someone, especially when these people are not symbols of any talent but showing off",
-        "P4": "not many people can exist in the celebrities' world without any talents or achievements",
-        "P5": "We are giving chances to many teenagers to show their intelligence in different talent shows, for example; The Voice, X Factor or Next Top Models etc",
-        "P6": "to become a star and an inspiration for people, a person need to have real talent to compete with other candidates"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

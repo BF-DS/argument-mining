@@ -1,144 +1,144 @@
 {
-    "MajorClaims": {
-        "MC1": "it is one's hard work that helps him reach his target",
-        "MC2": "I strongly believe in hard working that would not easily disappoint you as luck sometimes does"
+  "MajorClaims": {
+    "MC1": "it is one's hard work that helps him reach his target",
+    "MC2": "I strongly believe in hard working that would not easily disappoint you as luck sometimes does"
+  },
+  "Claims": {
+    "C1": "I do not see any rational in believing in luck to reach one's goals",
+    "C2": "depending on luck for everything is not good",
+    "C3": "if you depend only on luck for all your accomplishments, you are taking a great risk",
+    "C4": "all my accomplishments were backed by my hard work, not my luck",
+    "C5": "those who believe in hard work are clear about their goals and know about their final destination",
+    "C6": "if you work hard, luck too might shine on you and take you some more steps further ahead from your actual target"
+  },
+  "Premises": {
+    "P1": "it is good to be lucky",
+    "P2": "Luck is something intangible and no one can guarantee that it would ever come your way",
+    "P3": "If it doesn't work, it would be a great disappointment",
+    "P4": "I never did encounter any disappointments of missing my goals",
+    "P5": "if you strive hard to achieve what you want, then your hard work would take you at least closer to your final goal",
+    "P6": "They carefully organize the process of achieving their targets and continue to evaluate their progress until they reach the final goal",
+    "P7": "If you believe in luck, you would be clueless about where you are heading",
+    "P8": "a friend of mine, who had severe financial constraints, had the habit of buying lottery tickets thinking that one day he would win a lottery",
+    "P9": "He was living in an illusion that he can solve his financial issues with this lottery",
+    "P10": "up to this day his luck has not appeared and problems have got further worsened",
+    "P11": "my boss worked tirelessly for his promotion",
+    "P12": "He looked at every aspect that he needed to qualify for the promotion",
+    "P13": "He realized that having a master's degree would be a great credential for him to outperform his competitors",
+    "P14": "he had many commitments at home and work, he somehow managed to complete this degree before he was eligible to apply",
+    "P15": "At the end he was not only able to get the promotion amidst a stiff competition but also got nominated for a foreign scholarship",
+    "P16": "he had more credentials than other officers in his capacity"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "I do not see any rational in believing in luck to reach one's goals",
-        "C2": "depending on luck for everything is not good",
-        "C3": "if you depend only on luck for all your accomplishments, you are taking a great risk",
-        "C4": "all my accomplishments were backed by my hard work, not my luck",
-        "C5": "those who believe in hard work are clear about their goals and know about their final destination",
-        "C6": "if you work hard, luck too might shine on you and take you some more steps further ahead from your actual target"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "it is good to be lucky",
-        "P2": "Luck is something intangible and no one can guarantee that it would ever come your way",
-        "P3": "If it doesn't work, it would be a great disappointment",
-        "P4": "I never did encounter any disappointments of missing my goals",
-        "P5": "if you strive hard to achieve what you want, then your hard work would take you at least closer to your final goal",
-        "P6": "They carefully organize the process of achieving their targets and continue to evaluate their progress until they reach the final goal",
-        "P7": "If you believe in luck, you would be clueless about where you are heading",
-        "P8": "a friend of mine, who had severe financial constraints, had the habit of buying lottery tickets thinking that one day he would win a lottery",
-        "P9": "He was living in an illusion that he can solve his financial issues with this lottery",
-        "P10": "up to this day his luck has not appeared and problems have got further worsened",
-        "P11": "my boss worked tirelessly for his promotion",
-        "P12": "He looked at every aspect that he needed to qualify for the promotion",
-        "P13": "He realized that having a master's degree would be a great credential for him to outperform his competitors",
-        "P14": "he had many commitments at home and work, he somehow managed to complete this degree before he was eligible to apply",
-        "P15": "At the end he was not only able to get the promotion amidst a stiff competition but also got nominated for a foreign scholarship",
-        "P16": "he had more credentials than other officers in his capacity"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "P15"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C6"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "P15"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C6"
+    }
+  ]
 }

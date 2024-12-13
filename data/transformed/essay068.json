@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "it is time for the government to take action to control the proliferation of violent scenes in media",
-        "MC2": "What the government should do immediately is to strengthen censorship to control the amount of violence in media"
+  "MajorClaims": {
+    "MC1": "it is time for the government to take action to control the proliferation of violent scenes in media",
+    "MC2": "What the government should do immediately is to strengthen censorship to control the amount of violence in media"
+  },
+  "Claims": {
+    "C1": "our society is occupied with the violent scenes and plots at present",
+    "C2": "This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes",
+    "C3": "excessive violence would offer misleading information to the public and exert detrimental influence to the society as well"
+  },
+  "Premises": {
+    "P1": "they regard the violence as reasonable and justifiable",
+    "P2": "media, such as TV or film, is considered as the correct information source regulated by the government",
+    "P3": "It should be reporting and reflecting true phenomenon in the society",
+    "P4": "Violence, as one of the facts in the real world, certainly has to be reported",
+    "P5": "It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy",
+    "P6": "In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "our society is occupied with the violent scenes and plots at present",
-        "C2": "This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes",
-        "C3": "excessive violence would offer misleading information to the public and exert detrimental influence to the society as well"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "they regard the violence as reasonable and justifiable",
-        "P2": "media, such as TV or film, is considered as the correct information source regulated by the government",
-        "P3": "It should be reporting and reflecting true phenomenon in the society",
-        "P4": "Violence, as one of the facts in the real world, certainly has to be reported",
-        "P5": "It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy",
-        "P6": "In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

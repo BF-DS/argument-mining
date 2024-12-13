@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "It\u2019s certainly better for children to grow up in a big city",
-        "MC2": "they will grow up in a good neighborhood of a big city and they will be very happy about it"
+  "MajorClaims": {
+    "MC1": "It\u2019s certainly better for children to grow up in a big city",
+    "MC2": "they will grow up in a good neighborhood of a big city and they will be very happy about it"
+  },
+  "Claims": {
+    "C1": "I hold this belief because of two main reasons, academic and social reasons",
+    "C2": "Growing up in the countryside is not such a good experience",
+    "C3": "if a child grows up in a big city they will be all day at home at the computer or at the video-game",
+    "C4": "In a big city you have more qualified teachers and a better access to technology"
+  },
+  "Premises": {
+    "P1": "you won\u2019t know a lot of people, there are gossips everywhere, and your life will be really limited",
+    "P2": "this is not true if you live in a neighborhood with other people about your age as I did",
+    "P3": "My friends and I used to play soccer, bike, climb trees and do a lot of other stuff every day",
+    "P4": "We did play video-games, but that wasn't our main activity",
+    "P5": "In a big city there are more kinds of people and more things to do",
+    "P6": "He said that he had to study a lot to pass the test to enter the university",
+    "P7": "I have a friend that grew up in the countryside"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "I hold this belief because of two main reasons, academic and social reasons",
-        "C2": "Growing up in the countryside is not such a good experience",
-        "C3": "if a child grows up in a big city they will be all day at home at the computer or at the video-game",
-        "C4": "In a big city you have more qualified teachers and a better access to technology"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "you won\u2019t know a lot of people, there are gossips everywhere, and your life will be really limited",
-        "P2": "this is not true if you live in a neighborhood with other people about your age as I did",
-        "P3": "My friends and I used to play soccer, bike, climb trees and do a lot of other stuff every day",
-        "P4": "We did play video-games, but that wasn't our main activity",
-        "P5": "In a big city there are more kinds of people and more things to do",
-        "P6": "He said that he had to study a lot to pass the test to enter the university",
-        "P7": "I have a friend that grew up in the countryside"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

@@ -1,77 +1,77 @@
 {
-    "MajorClaims": {
-        "MC1": "newspapers have lost their competitive advantage to sustain their prolonged existence"
+  "MajorClaims": {
+    "MC1": "newspapers have lost their competitive advantage to sustain their prolonged existence"
+  },
+  "Claims": {
+    "C1": "the print media has failed to keep its important role in the provision of information",
+    "C2": "the number of people reading newspapers may continue falling sharply, possibly leading to the close-downs of many in the coming time",
+    "C3": "newspapers' production will have to face environmentalists on its way to be alive"
+  },
+  "Premises": {
+    "P1": "to obtain information, using the internet is quicker and more convenient than reading newspapers",
+    "P2": "Contrary to the past when people had to wait long hours to take a daily newspaper, nowadays, they can acquire latest news updated every second through their mobile phones or computers connected to the internet, everywhere and at anytime",
+    "P3": "As can be seen, these devices and machines are very common in all parts of the world, making it easier for people to read a number of things that newspapers can not provide in only some pages",
+    "P4": "from the economic aspect, buying newspapers appears to be a waste of money when the internet becomes available for every one",
+    "P5": "the internet service is being provided at a low cost or even free in many countries",
+    "P6": "The answer, perhaps, is that hardly would rational people do so",
+    "P7": "when taking environment into consideration, people must conceive that the more newspapers are published, the more trees are cut down",
+    "P8": "This is simply the contributor to the deforestation which is happening all over the world today"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the print media has failed to keep its important role in the provision of information",
-        "C2": "the number of people reading newspapers may continue falling sharply, possibly leading to the close-downs of many in the coming time",
-        "C3": "newspapers' production will have to face environmentalists on its way to be alive"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "to obtain information, using the internet is quicker and more convenient than reading newspapers",
-        "P2": "Contrary to the past when people had to wait long hours to take a daily newspaper, nowadays, they can acquire latest news updated every second through their mobile phones or computers connected to the internet, everywhere and at anytime",
-        "P3": "As can be seen, these devices and machines are very common in all parts of the world, making it easier for people to read a number of things that newspapers can not provide in only some pages",
-        "P4": "from the economic aspect, buying newspapers appears to be a waste of money when the internet becomes available for every one",
-        "P5": "the internet service is being provided at a low cost or even free in many countries",
-        "P6": "The answer, perhaps, is that hardly would rational people do so",
-        "P7": "when taking environment into consideration, people must conceive that the more newspapers are published, the more trees are cut down",
-        "P8": "This is simply the contributor to the deforestation which is happening all over the world today"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

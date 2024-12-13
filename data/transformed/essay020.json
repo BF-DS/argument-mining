@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "more responsibilities should put on private individuals and companies such as paying to clean up air pollution",
-        "MC2": "both companies and private individuals should take the main part to clean up the air pollution"
+  "MajorClaims": {
+    "MC1": "more responsibilities should put on private individuals and companies such as paying to clean up air pollution",
+    "MC2": "both companies and private individuals should take the main part to clean up the air pollution"
+  },
+  "Claims": {
+    "C1": "governments are responsible to provide a healthy environment for their inhabitants and they should be responsible from cleaning up the air pollution",
+    "C2": "If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause",
+    "C3": "by charging private individuals for causing air pollution, that will at least contribute to reduce the amount of the pollution",
+    "C4": "governments should restrict the use of products that cause air pollution for both individuals and companies",
+    "C5": "Governments also should use an amount of money from their budgets to clean up the air, instead of putting all the responsibility to companies and private individuals"
+  },
+  "Premises": {
+    "P1": "in most industrialized countries, there is a number of companies that holds heavy factories in their constitutions",
+    "P2": "The waste products and harmful gases produced by these factories cause a significant amount of air pollution",
+    "P3": "While these companies make a huge amount of money from their businesses, most of them are not considering to take precautions to reduce the amount of air pollution",
+    "P4": "private individuals cause air pollution in several ways such as inessential use of cars and house heating",
+    "P5": "As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes",
+    "P6": "some expensive vehicles cause a huge amount of pollution"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "governments are responsible to provide a healthy environment for their inhabitants and they should be responsible from cleaning up the air pollution",
-        "C2": "If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause",
-        "C3": "by charging private individuals for causing air pollution, that will at least contribute to reduce the amount of the pollution",
-        "C4": "governments should restrict the use of products that cause air pollution for both individuals and companies",
-        "C5": "Governments also should use an amount of money from their budgets to clean up the air, instead of putting all the responsibility to companies and private individuals"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "in most industrialized countries, there is a number of companies that holds heavy factories in their constitutions",
-        "P2": "The waste products and harmful gases produced by these factories cause a significant amount of air pollution",
-        "P3": "While these companies make a huge amount of money from their businesses, most of them are not considering to take precautions to reduce the amount of air pollution",
-        "P4": "private individuals cause air pollution in several ways such as inessential use of cars and house heating",
-        "P5": "As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes",
-        "P6": "some expensive vehicles cause a huge amount of pollution"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

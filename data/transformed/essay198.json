@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "governments should certainly spend money on the public transportation system",
-        "MC2": "spending money on improving public transportation is necessary"
+  "MajorClaims": {
+    "MC1": "governments should certainly spend money on the public transportation system",
+    "MC2": "spending money on improving public transportation is necessary"
+  },
+  "Claims": {
+    "C1": "it would deal with problems that the rising number of private cars is creating",
+    "C2": "the using of public transportation reduces the amount of resources using on transportation",
+    "C3": "public transportation helps to solve the air pollution problems",
+    "C4": "there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting",
+    "C5": "it is the key to protect our world, creating a healthy and safe environment for people to live in"
+  },
+  "Premises": {
+    "P1": "the more cars we use means that the faster gasoline in this world is used up",
+    "P2": "Cars depend on gasoline, which is a non-renewable resource",
+    "P3": "if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower",
+    "P4": "this definitely helps to reserve our invaluable natural resource, gasoline",
+    "P5": "public transports use much less gasoline to carry people than private cars",
+    "P6": "It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes",
+    "P7": "using public transportation is much safer than private transportation",
+    "P8": "According to National Safety Council, riding the bus is over 170 times safer than private care"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it would deal with problems that the rising number of private cars is creating",
-        "C2": "the using of public transportation reduces the amount of resources using on transportation",
-        "C3": "public transportation helps to solve the air pollution problems",
-        "C4": "there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting",
-        "C5": "it is the key to protect our world, creating a healthy and safe environment for people to live in"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the more cars we use means that the faster gasoline in this world is used up",
-        "P2": "Cars depend on gasoline, which is a non-renewable resource",
-        "P3": "if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower",
-        "P4": "this definitely helps to reserve our invaluable natural resource, gasoline",
-        "P5": "public transports use much less gasoline to carry people than private cars",
-        "P6": "It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes",
-        "P7": "using public transportation is much safer than private transportation",
-        "P8": "According to National Safety Council, riding the bus is over 170 times safer than private care"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

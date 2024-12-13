@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "human needs for farmland, housing and industry are more important",
-        "MC2": "human needs for farmland, housing and industry are more important"
+  "MajorClaims": {
+    "MC1": "human needs for farmland, housing and industry are more important",
+    "MC2": "human needs for farmland, housing and industry are more important"
+  },
+  "Claims": {
+    "C1": "protecting endangered animals is necessary",
+    "C2": "the needs for farmland, housing and industry are more important",
+    "C3": "farmland, housing and industry can satisfy the desire of human that living a better life",
+    "C4": "it can do good to protect the endangered animals"
+  },
+  "Premises": {
+    "P1": "land used for farmland, housing and industry can benefit more to the whole society",
+    "P2": "the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy",
+    "P3": "they produce plenty of profits",
+    "P4": "the society will be stable and harmony due to more farmland and industry",
+    "P5": "more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate",
+    "P6": "farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live",
+    "P7": "Especially in some poor areas, survival is the most significant thing",
+    "P8": "highly developed agriculture and industry can improve our living conditions which allow us have a good quality life",
+    "P9": "farmland, housing and industry will occupy the land used for endangered animals",
+    "P10": "agriculture and industry make a contribution to the economy",
+    "P11": "we can have more advanced methods to take care of endangered animals",
+    "P12": "we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "protecting endangered animals is necessary",
-        "C2": "the needs for farmland, housing and industry are more important",
-        "C3": "farmland, housing and industry can satisfy the desire of human that living a better life",
-        "C4": "it can do good to protect the endangered animals"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "Premises": {
-        "P1": "land used for farmland, housing and industry can benefit more to the whole society",
-        "P2": "the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy",
-        "P3": "they produce plenty of profits",
-        "P4": "the society will be stable and harmony due to more farmland and industry",
-        "P5": "more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate",
-        "P6": "farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live",
-        "P7": "Especially in some poor areas, survival is the most significant thing",
-        "P8": "highly developed agriculture and industry can improve our living conditions which allow us have a good quality life",
-        "P9": "farmland, housing and industry will occupy the land used for endangered animals",
-        "P10": "agriculture and industry make a contribution to the economy",
-        "P11": "we can have more advanced methods to take care of endangered animals",
-        "P12": "we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P11"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P11"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

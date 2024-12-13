@@ -1,83 +1,83 @@
 {
-    "MajorClaims": {
-        "MC1": "the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings"
+  "MajorClaims": {
+    "MC1": "the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings"
+  },
+  "Claims": {
+    "C1": "tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact",
+    "C2": "tourism plays an indispensable role in nurturing the economy in a way it is meant to be",
+    "C3": "tourism should not be alledged to be notorous for its detriment to the ecological diversity"
+  },
+  "Premises": {
+    "P1": "places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet",
+    "P2": "Not until the investment of some companies do chains of hotels and services spring up",
+    "P3": "It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents",
+    "P4": "tourism helps divert the local economy to its right direction, which exploit the best out of its own potential",
+    "P5": "environmental damage is inevitable",
+    "P6": "In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration",
+    "P7": "a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild",
+    "P8": "Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures",
+    "P9": "it is not tourism to be blamed for"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact",
-        "C2": "tourism plays an indispensable role in nurturing the economy in a way it is meant to be",
-        "C3": "tourism should not be alledged to be notorous for its detriment to the ecological diversity"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet",
-        "P2": "Not until the investment of some companies do chains of hotels and services spring up",
-        "P3": "It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents",
-        "P4": "tourism helps divert the local economy to its right direction, which exploit the best out of its own potential",
-        "P5": "environmental damage is inevitable",
-        "P6": "In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration",
-        "P7": "a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild",
-        "P8": "Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures",
-        "P9": "it is not tourism to be blamed for"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

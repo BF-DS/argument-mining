@@ -1,120 +1,120 @@
 {
-    "MajorClaims": {
-        "MC1": "staying with the parents for longer time does more benefits than disadvantages to the young adult",
-        "MC2": "staying longer with parents is a better choice"
+  "MajorClaims": {
+    "MC1": "staying with the parents for longer time does more benefits than disadvantages to the young adult",
+    "MC2": "staying longer with parents is a better choice"
+  },
+  "Claims": {
+    "C1": "living with parents longer brings about memories with parents, less cost, and advice from parents",
+    "C2": "undergoing with parents is worthwhile",
+    "C3": "the parents can save money, if their children live with them longer",
+    "C4": "taking advice from parents, the young adult can go through obstacles easily"
+  },
+  "Premises": {
+    "P1": "the young adult can have more experience with his parents",
+    "P2": "The young adult has to try to create memories with his dad and mom in the early age",
+    "P3": "When having a job, it is of low possibilities to work in his hometown",
+    "P4": "If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together",
+    "P5": "All memories become priceless treasure as time passes by",
+    "P6": "he may have to rent a house and the rental would become a burden for parents",
+    "P7": "another daily expense is also the considerable outgoings",
+    "P8": "Spending much money may not result in what the parents expect their children to be",
+    "P9": "living at home costs less than living outside",
+    "P10": "Learning to be independent means that the young adult needs to leave home",
+    "P11": "the young adult needs father and mother's suggestions",
+    "P12": "When in dilemma, the parents can comfort him and give him a big hand",
+    "P13": "They are the people who are most familiar with him can give a suitable advice and lead him to the right way",
+    "P14": "If the parents do not help him immediately, he would have to suffer more pain"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "living with parents longer brings about memories with parents, less cost, and advice from parents",
-        "C2": "undergoing with parents is worthwhile",
-        "C3": "the parents can save money, if their children live with them longer",
-        "C4": "taking advice from parents, the young adult can go through obstacles easily"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the young adult can have more experience with his parents",
-        "P2": "The young adult has to try to create memories with his dad and mom in the early age",
-        "P3": "When having a job, it is of low possibilities to work in his hometown",
-        "P4": "If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together",
-        "P5": "All memories become priceless treasure as time passes by",
-        "P6": "he may have to rent a house and the rental would become a burden for parents",
-        "P7": "another daily expense is also the considerable outgoings",
-        "P8": "Spending much money may not result in what the parents expect their children to be",
-        "P9": "living at home costs less than living outside",
-        "P10": "Learning to be independent means that the young adult needs to leave home",
-        "P11": "the young adult needs father and mother's suggestions",
-        "P12": "When in dilemma, the parents can comfort him and give him a big hand",
-        "P13": "They are the people who are most familiar with him can give a suitable advice and lead him to the right way",
-        "P14": "If the parents do not help him immediately, he would have to suffer more pain"
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "big cities can be a good place for bringing up children",
-        "MC2": "Today's children needs somethings to entertain them, and occupy their leisure time in the best way"
+  "MajorClaims": {
+    "MC1": "big cities can be a good place for bringing up children",
+    "MC2": "Today's children needs somethings to entertain them, and occupy their leisure time in the best way"
+  },
+  "Claims": {
+    "C1": "it is a good idea for children to past their first earlier life in the cities",
+    "C2": "Children who live in cities have a lot of entertainment",
+    "C3": "they can learn a lot of things by watching television and surfing through the net",
+    "C4": "they can exchange their knowledge, they can learn different cultures",
+    "C5": "countrysides have some advantages such as fresh air, peace, and etc"
+  },
+  "Premises": {
+    "P1": "education is better in big cities in comparison with countrysides",
+    "P2": "in my country the best schools, universities and institutes are located in cities, and todays education is one of the most important parts of our children's life",
+    "P3": "it is acknowledged that a large number of creational facilities are built in cities",
+    "P4": "playgrounds, parks, science museums, cinemas etc",
+    "P5": "in countrysides we hardly ever see creational facilities",
+    "P6": "Children who live in countrysides most of the time pass their free time in farms",
+    "P7": "in big cities children access to media easily",
+    "P8": "Via internet they can have connection with the other children all around the world"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it is a good idea for children to past their first earlier life in the cities",
-        "C2": "Children who live in cities have a lot of entertainment",
-        "C3": "they can learn a lot of things by watching television and surfing through the net",
-        "C4": "they can exchange their knowledge, they can learn different cultures",
-        "C5": "countrysides have some advantages such as fresh air, peace, and etc"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "education is better in big cities in comparison with countrysides",
-        "P2": "in my country the best schools, universities and institutes are located in cities, and todays education is one of the most important parts of our children's life",
-        "P3": "it is acknowledged that a large number of creational facilities are built in cities",
-        "P4": "playgrounds, parks, science museums, cinemas etc",
-        "P5": "in countrysides we hardly ever see creational facilities",
-        "P6": "Children who live in countrysides most of the time pass their free time in farms",
-        "P7": "in big cities children access to media easily",
-        "P8": "Via internet they can have connection with the other children all around the world"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

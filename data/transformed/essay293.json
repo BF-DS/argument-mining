@@ -1,126 +1,126 @@
 {
-    "MajorClaims": {
-        "MC1": "wok in person is preferred",
-        "MC2": "I prefer the project members to work in person rather them by email"
+  "MajorClaims": {
+    "MC1": "wok in person is preferred",
+    "MC2": "I prefer the project members to work in person rather them by email"
+  },
+  "Claims": {
+    "C1": "this means help to achieve a good communication",
+    "C2": "discussion face to face in a meeting is much better than by emails",
+    "C3": "less misunderstanding leads to less conflicts and fights, and enhance the communication amongst the team members",
+    "C4": "emails are not convenient for the work but it is better than none",
+    "C5": "work in person will be more efficient",
+    "C6": "we should realize that in a project, there are numerous coordination works are required, if each opinion is communicated via email, there will be hundreds or thousands of emails there that we know this is not a good experience"
+  },
+  "Premises": {
+    "P1": "team members may have different views and they need to reach a union opinion efficiently",
+    "P2": "An experiment conducted by the Beijing University asked two groups of people to discuss the budget of an activity",
+    "P3": "The first group was asked to discuss in person, while the second group was asked to discuss by email",
+    "P4": "the 1st group used 30 minutes to reach the agreement on the budget, while it takes 30 hours for the later one",
+    "P5": "The similar experiment done by other scientist show the same result that people can reach an agreement quickly if they could talk to each other",
+    "P6": "there will be less conflicts or fight amongst the team members",
+    "P7": "Writing an email for an informal matter will make that matter looks official",
+    "P8": "people who receives the email may feel nervous or maybe feel offended by the words in writing",
+    "P9": "their response will not be recorded and they will not misunderstand the informal discussion to an official claim",
+    "P10": "if the same words are expressed in talking, the counterparty will feel more relaxed",
+    "P11": "work in person can indirectly improve the quality and the efficiency of the project",
+    "P12": "sometimes we have to use emails if the team members are not located in the same place",
+    "P13": "it is a classroom or campus projects, there is few possibility that the project members are located in different areas"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "this means help to achieve a good communication",
-        "C2": "discussion face to face in a meeting is much better than by emails",
-        "C3": "less misunderstanding leads to less conflicts and fights, and enhance the communication amongst the team members",
-        "C4": "emails are not convenient for the work but it is better than none",
-        "C5": "work in person will be more efficient",
-        "C6": "we should realize that in a project, there are numerous coordination works are required, if each opinion is communicated via email, there will be hundreds or thousands of emails there that we know this is not a good experience"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "team members may have different views and they need to reach a union opinion efficiently",
-        "P2": "An experiment conducted by the Beijing University asked two groups of people to discuss the budget of an activity",
-        "P3": "The first group was asked to discuss in person, while the second group was asked to discuss by email",
-        "P4": "the 1st group used 30 minutes to reach the agreement on the budget, while it takes 30 hours for the later one",
-        "P5": "The similar experiment done by other scientist show the same result that people can reach an agreement quickly if they could talk to each other",
-        "P6": "there will be less conflicts or fight amongst the team members",
-        "P7": "Writing an email for an informal matter will make that matter looks official",
-        "P8": "people who receives the email may feel nervous or maybe feel offended by the words in writing",
-        "P9": "their response will not be recorded and they will not misunderstand the informal discussion to an official claim",
-        "P10": "if the same words are expressed in talking, the counterparty will feel more relaxed",
-        "P11": "work in person can indirectly improve the quality and the efficiency of the project",
-        "P12": "sometimes we have to use emails if the team members are not located in the same place",
-        "P13": "it is a classroom or campus projects, there is few possibility that the project members are located in different areas"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P11"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P11"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

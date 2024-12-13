@@ -1,59 +1,59 @@
 {
-    "MajorClaims": {
-        "MC1": "students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say"
+  "MajorClaims": {
+    "MC1": "students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say"
+  },
+  "Claims": {
+    "C1": "students can learn invaluable experiences through the period of time working for the institutions they are assigned to",
+    "C2": "companies save time and resources for searching new staffs and organizing an orientation"
+  },
+  "Premises": {
+    "P1": "students might have little idea of the real challenges or the true situation when they enter the workforce after graduation",
+    "P2": "In most school curriculums, the courses are theoretical and often by instructors speaking to students sitting in the classroom",
+    "P3": "the internship, although without pay, can give them the experiences that money cannot buy",
+    "P4": "As for the companies, the unpaid interns can no doubt save some money",
+    "P5": "they can start looking for potential employees and begin the training",
+    "P6": "the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination, which can be essentially helpful when they are making a new advertisement or slogan"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "students can learn invaluable experiences through the period of time working for the institutions they are assigned to",
-        "C2": "companies save time and resources for searching new staffs and organizing an orientation"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Premises": {
-        "P1": "students might have little idea of the real challenges or the true situation when they enter the workforce after graduation",
-        "P2": "In most school curriculums, the courses are theoretical and often by instructors speaking to students sitting in the classroom",
-        "P3": "the internship, although without pay, can give them the experiences that money cannot buy",
-        "P4": "As for the companies, the unpaid interns can no doubt save some money",
-        "P5": "they can start looking for potential employees and begin the training",
-        "P6": "the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination, which can be essentially helpful when they are making a new advertisement or slogan"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

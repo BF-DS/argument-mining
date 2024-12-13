@@ -1,60 +1,60 @@
 {
-    "MajorClaims": {
-        "MC1": "it has contributed to the economic development as well as preserved the culture and environment of the tourist destinations",
-        "MC2": "international tourism has both triggered economic development and maintained cultural and environment values of the tourist countries"
+  "MajorClaims": {
+    "MC1": "it has contributed to the economic development as well as preserved the culture and environment of the tourist destinations",
+    "MC2": "international tourism has both triggered economic development and maintained cultural and environment values of the tourist countries"
+  },
+  "Claims": {
+    "C1": "tourism has clearly improved lives in the tourist country",
+    "C2": "tourism has survived many non-tangible cultural values and beauty scenes"
+  },
+  "Premises": {
+    "P1": "international tourism promotes many aspects of the destination country\u2019s economy in order to serve various demands of tourists",
+    "P2": "Take Cambodia for example, a large number of visitors coming to visit the Angkowat ancient temple need services like restaurants, hotels, souvenir shops and other stores",
+    "P3": "These demands trigger related business in the surrounding settings which in turn create many jobs for local people improve infrastructure and living standard",
+    "P4": "through tourism industry, many cultural values have been preserved and natural environments have been protected",
+    "P5": "in Vietnam, many cultural costumes and natural scenes, namely \u2018Trong Dong\u2019 drum performance and \u2018Ha Long\u2019 bay, are being encouraged to preserve and funded by the tourism ministry",
+    "P6": "Without this support and profit from tourism, many traditional cultures would disappear due to its low income works"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "tourism has clearly improved lives in the tourist country",
-        "C2": "tourism has survived many non-tangible cultural values and beauty scenes"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "international tourism promotes many aspects of the destination country\u2019s economy in order to serve various demands of tourists",
-        "P2": "Take Cambodia for example, a large number of visitors coming to visit the Angkowat ancient temple need services like restaurants, hotels, souvenir shops and other stores",
-        "P3": "These demands trigger related business in the surrounding settings which in turn create many jobs for local people improve infrastructure and living standard",
-        "P4": "through tourism industry, many cultural values have been preserved and natural environments have been protected",
-        "P5": "in Vietnam, many cultural costumes and natural scenes, namely \u2018Trong Dong\u2019 drum performance and \u2018Ha Long\u2019 bay, are being encouraged to preserve and funded by the tourism ministry",
-        "P6": "Without this support and profit from tourism, many traditional cultures would disappear due to its low income works"
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

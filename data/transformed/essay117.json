@@ -1,95 +1,95 @@
 {
-    "MajorClaims": {
-        "MC1": "technology alone can solve the world's environmental problems"
+  "MajorClaims": {
+    "MC1": "technology alone can solve the world's environmental problems"
+  },
+  "Claims": {
+    "C1": "if humans stop using technology and lead a simple way of life then only we can save the environment",
+    "C2": "technology alone could save the environment",
+    "C3": "There are a lot of advances going on technology which are helping the environment a lot"
+  },
+  "Premises": {
+    "P1": "it is the luxuries people use which damages the environment",
+    "P2": "If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment",
+    "P3": "now we have come so far ahead in technology that there is no going back",
+    "P4": "We cannot ask the people of the jet age to go back to the age of the bullock cart",
+    "P5": "One prime example is finding solutions to water problems in developing countries such as Africa",
+    "P6": "By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource",
+    "P7": "Japan is working to build a working space solar power system by 2030",
+    "P8": "By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions",
+    "P9": "If successful, the impact on the world would be monumental",
+    "P10": "It would mean energy for schools, hospitals, and homes",
+    "P11": "It would mean another industrial revolution"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "if humans stop using technology and lead a simple way of life then only we can save the environment",
-        "C2": "technology alone could save the environment",
-        "C3": "There are a lot of advances going on technology which are helping the environment a lot"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "it is the luxuries people use which damages the environment",
-        "P2": "If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment",
-        "P3": "now we have come so far ahead in technology that there is no going back",
-        "P4": "We cannot ask the people of the jet age to go back to the age of the bullock cart",
-        "P5": "One prime example is finding solutions to water problems in developing countries such as Africa",
-        "P6": "By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource",
-        "P7": "Japan is working to build a working space solar power system by 2030",
-        "P8": "By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions",
-        "P9": "If successful, the impact on the world would be monumental",
-        "P10": "It would mean energy for schools, hospitals, and homes",
-        "P11": "It would mean another industrial revolution"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P9"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P9"
+    }
+  ]
 }

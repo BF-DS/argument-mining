@@ -1,59 +1,59 @@
 {
-    "MajorClaims": {
-        "MC1": "parents should be more worried about their children's attitudes to the 'cult of celebrity'"
+  "MajorClaims": {
+    "MC1": "parents should be more worried about their children's attitudes to the 'cult of celebrity'"
+  },
+  "Claims": {
+    "C1": "children may see that this behavior is inexcusable",
+    "C2": "too much news coverage to famous people seems to have a negative influence on the choice of children of their future professions"
+  },
+  "Premises": {
+    "P1": "celebrities who received attention for overuse of drugs or alcohol are likely to get public disgrace",
+    "P2": "Celebrity scandals and gossips can quickly reach the public which perceive it very negatively",
+    "P3": "As recent surveys showed, inspired by the fame and wealth, children now prefer more to become an actor/actress or a sports star than it was in the past",
+    "P4": "Many schools for preparation of so-called stars and various advertisements about famous people may mislead with the fact that this profession is highly required and easy reachable",
+    "P5": "This may confuse children who should not choose their future job because of the influence of the mass media, but from the basis of their own interests",
+    "P6": "Fame is a great responsibility for public people as their admirers are very sensitive to any acts of their idols"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "children may see that this behavior is inexcusable",
-        "C2": "too much news coverage to famous people seems to have a negative influence on the choice of children of their future professions"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "celebrities who received attention for overuse of drugs or alcohol are likely to get public disgrace",
-        "P2": "Celebrity scandals and gossips can quickly reach the public which perceive it very negatively",
-        "P3": "As recent surveys showed, inspired by the fame and wealth, children now prefer more to become an actor/actress or a sports star than it was in the past",
-        "P4": "Many schools for preparation of so-called stars and various advertisements about famous people may mislead with the fact that this profession is highly required and easy reachable",
-        "P5": "This may confuse children who should not choose their future job because of the influence of the mass media, but from the basis of their own interests",
-        "P6": "Fame is a great responsibility for public people as their admirers are very sensitive to any acts of their idols"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

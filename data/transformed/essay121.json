@@ -1,54 +1,54 @@
 {
-    "MajorClaims": {
-        "MC1": "I completely disagree with the idea that businesses should be allowed to do anything they want to make a profit",
-        "MC2": "all companies, factories and businesses should be monitored by governments and executive, and they do not have to let do anything they want just due to making profit"
+  "MajorClaims": {
+    "MC1": "I completely disagree with the idea that businesses should be allowed to do anything they want to make a profit",
+    "MC2": "all companies, factories and businesses should be monitored by governments and executive, and they do not have to let do anything they want just due to making profit"
+  },
+  "Claims": {
+    "C1": "With this permission they are allowed to hit and damage everything for just making a profit",
+    "C2": "if there is not any control on the businesses and they are permitted to do everything they want, they will threaten the beings' life such as human, animals and plants",
+    "C3": "they might hit consumer's life",
+    "C4": "They can hit both the environment and human's life easily"
+  },
+  "Premises": {
+    "P1": "As every day we read and hear in televisions and newspapers that some factories hit the environment by their toxic substances",
+    "P2": "if we let them do anything they can to just make a profit, they will produce products with low qualities and high prices",
+    "P3": "a few months ago it was broadcast from TV that a company which produced baby milk, sold milk which did not have quality and it caused a few babies die"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "With this permission they are allowed to hit and damage everything for just making a profit",
-        "C2": "if there is not any control on the businesses and they are permitted to do everything they want, they will threaten the beings' life such as human, animals and plants",
-        "C3": "they might hit consumer's life",
-        "C4": "They can hit both the environment and human's life easily"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "As every day we read and hear in televisions and newspapers that some factories hit the environment by their toxic substances",
-        "P2": "if we let them do anything they can to just make a profit, they will produce products with low qualities and high prices",
-        "P3": "a few months ago it was broadcast from TV that a company which produced baby milk, sold milk which did not have quality and it caused a few babies die"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

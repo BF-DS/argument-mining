@@ -1,91 +1,91 @@
 {
-    "MajorClaims": {
-        "MC1": "arts are supposed to be included in the government's investment as well",
-        "MC2": "public services and facilities are an integral part of the government expenditure",
-        "MC3": "the authorities should also respect the value of arts which are individually and socially advantageous"
+  "MajorClaims": {
+    "MC1": "arts are supposed to be included in the government's investment as well",
+    "MC2": "public services and facilities are an integral part of the government expenditure",
+    "MC3": "the authorities should also respect the value of arts which are individually and socially advantageous"
+  },
+  "Claims": {
+    "C1": "public services and facilities should be given adequate attention by the authorities to maintain social stability",
+    "C2": "arts should by no means been disregarded by the government",
+    "C3": "funding arts is beneficial to the local cultural and economic development"
+  },
+  "Premises": {
+    "P1": "the government should give priority to public services and facilities",
+    "P2": "the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable",
+    "P3": "public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate",
+    "P4": "arts can enrich people's cultural lives",
+    "P5": "Currently, people are increasingly occupied with their work and studies due to the stiff competition",
+    "P6": "they require various entertainment such as music, movies or books to them ease their minds and release pressure",
+    "P7": "Without arts, people would be at risk of suffering psychological problems",
+    "P8": "Cultural heritage constitutes an essential part of arts",
+    "P9": "preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry",
+    "P10": "arts serve cultural and economic purposes"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "public services and facilities should be given adequate attention by the authorities to maintain social stability",
-        "C2": "arts should by no means been disregarded by the government",
-        "C3": "funding arts is beneficial to the local cultural and economic development"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "the government should give priority to public services and facilities",
-        "P2": "the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable",
-        "P3": "public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate",
-        "P4": "arts can enrich people's cultural lives",
-        "P5": "Currently, people are increasingly occupied with their work and studies due to the stiff competition",
-        "P6": "they require various entertainment such as music, movies or books to them ease their minds and release pressure",
-        "P7": "Without arts, people would be at risk of suffering psychological problems",
-        "P8": "Cultural heritage constitutes an essential part of arts",
-        "P9": "preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry",
-        "P10": "arts serve cultural and economic purposes"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

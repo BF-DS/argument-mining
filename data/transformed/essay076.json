@@ -1,65 +1,65 @@
 {
-    "MajorClaims": {
-        "MC1": "the government should fund the deprived for their health care and education, who are the group in real need for the authority's help"
+  "MajorClaims": {
+    "MC1": "the government should fund the deprived for their health care and education, who are the group in real need for the authority's help"
+  },
+  "Claims": {
+    "C1": "the government should be accountable for citizens' health care and education to keep society safe and stable",
+    "C2": "it is a waste of public money for the government to subsidize health care and education of each citizen in society"
+  },
+  "Premises": {
+    "P1": "such people might fail to get cured in time, thus influencing their working efficiency, which would destabilize the production of the industry",
+    "P2": "If citizens had no access to health care and education, their physical health and psychological soundness would be at risk",
+    "P3": "without sufficient guidance of teachers, these citizens might misbehave or even commit crimes, posing a threat to other citizens' security",
+    "P4": "it is the government that should be obligated to fund the health care and education for citizens",
+    "P5": "citizens enjoy the right to live in a harmonious and stable environment, which should be enabled by the government, the leader of the society",
+    "P6": "a great number of people, in fact, have had the capacity to pay for the both privately",
+    "P7": "the government should give priority to more pressing problems related to social members' wellbeing, such as soaring crime rate, AIDS epidemic or the shortage of infrastructure, which are requiring financial resources from the government to address"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Claims": {
-        "C1": "the government should be accountable for citizens' health care and education to keep society safe and stable",
-        "C2": "it is a waste of public money for the government to subsidize health care and education of each citizen in society"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "such people might fail to get cured in time, thus influencing their working efficiency, which would destabilize the production of the industry",
-        "P2": "If citizens had no access to health care and education, their physical health and psychological soundness would be at risk",
-        "P3": "without sufficient guidance of teachers, these citizens might misbehave or even commit crimes, posing a threat to other citizens' security",
-        "P4": "it is the government that should be obligated to fund the health care and education for citizens",
-        "P5": "citizens enjoy the right to live in a harmonious and stable environment, which should be enabled by the government, the leader of the society",
-        "P6": "a great number of people, in fact, have had the capacity to pay for the both privately",
-        "P7": "the government should give priority to more pressing problems related to social members' wellbeing, such as soaring crime rate, AIDS epidemic or the shortage of infrastructure, which are requiring financial resources from the government to address"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

@@ -1,126 +1,126 @@
 {
-    "MajorClaims": {
-        "MC1": "both learning by myself and learning with a teacher could be helpful",
-        "MC2": "both can help and each of them has its own advantages and disadvantages"
+  "MajorClaims": {
+    "MC1": "both learning by myself and learning with a teacher could be helpful",
+    "MC2": "both can help and each of them has its own advantages and disadvantages"
+  },
+  "Claims": {
+    "C1": "Learning with a teacher can prevent one from being confused and increase the rate and speed of learning",
+    "C2": "for practical subjects you have to have a teacher",
+    "C3": "sometimes I would rather learning on my own",
+    "C4": "it is good to learn with a teacher and sometimes on my own",
+    "C5": "I will learn faster and better and won't get discouraged and confused",
+    "C6": "There are some practical subjects that you can only learn them with a teacher or an instructor",
+    "C7": "There are some things that I prefer to learn them without a teacher"
+  },
+  "Premises": {
+    "P1": "A good and experienced teacher can help me learn faster and easier",
+    "P2": "Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time",
+    "P3": "In this situation, I'll look for a teacher and request for help from him or her",
+    "P4": "And then he or she will teach me the course efficiently in a short time",
+    "P5": "if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher",
+    "P6": "It's almost impossible and inefficient to learn those things on your own",
+    "P7": "if you are going to learn some things by yourself, you may learn and understand them incorrectly",
+    "P8": "from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly",
+    "P9": "I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes",
+    "P10": "In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite",
+    "P11": "I can utilize them as tutorials for many things",
+    "P12": "I can learn English or other languages by a lot of helpful books and many online websites"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Learning with a teacher can prevent one from being confused and increase the rate and speed of learning",
-        "C2": "for practical subjects you have to have a teacher",
-        "C3": "sometimes I would rather learning on my own",
-        "C4": "it is good to learn with a teacher and sometimes on my own",
-        "C5": "I will learn faster and better and won't get discouraged and confused",
-        "C6": "There are some practical subjects that you can only learn them with a teacher or an instructor",
-        "C7": "There are some things that I prefer to learn them without a teacher"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "A good and experienced teacher can help me learn faster and easier",
-        "P2": "Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time",
-        "P3": "In this situation, I'll look for a teacher and request for help from him or her",
-        "P4": "And then he or she will teach me the course efficiently in a short time",
-        "P5": "if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher",
-        "P6": "It's almost impossible and inefficient to learn those things on your own",
-        "P7": "if you are going to learn some things by yourself, you may learn and understand them incorrectly",
-        "P8": "from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly",
-        "P9": "I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes",
-        "P10": "In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite",
-        "P11": "I can utilize them as tutorials for many things",
-        "P12": "I can learn English or other languages by a lot of helpful books and many online websites"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "C7",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C7"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C7"
+    }
+  ]
 }

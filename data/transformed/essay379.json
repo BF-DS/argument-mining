@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "there are still many other aspects which should be seen as important as income when people choose a job",
-        "MC2": "passion on jobs, in my opinion, can bring actual happiness and help us get promoted in working to earn even more money later on"
+  "MajorClaims": {
+    "MC1": "there are still many other aspects which should be seen as important as income when people choose a job",
+    "MC2": "passion on jobs, in my opinion, can bring actual happiness and help us get promoted in working to earn even more money later on"
+  },
+  "Claims": {
+    "C1": "income is still a vital determination impacting us on choices of careers",
+    "C2": "people tend to choose high salary jobs so as to not only help themselves but also support partially or wholly their family's living needs such as food , clothes, accommodation, education, medication",
+    "C3": "if we are passionate about what we are working, we are likely to achieve success easily in that field"
+  },
+  "Premises": {
+    "P1": "people who are woking in art or painting industries, for example, will find it quite difficult to live comfortably and enjoyably",
+    "P2": "they are doing what they love, their income however seems to be quite low compared to many other career paths",
+    "P3": "money is very essential in order to meet human' basic needs",
+    "P4": "There are plenty of people, who are now really successful, have started working in challenging as well as competitive fields as singers, dancers and painters",
+    "P5": "important factors in choosing a job such as level of happiness, satisfaction of jobs, personal relationships, professional skills, working environment, managers and colleagues should not be underestimated",
+    "P6": "some people choose a career due to their desire to help others and contribute positively to their countries and societies"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "income is still a vital determination impacting us on choices of careers",
-        "C2": "people tend to choose high salary jobs so as to not only help themselves but also support partially or wholly their family's living needs such as food , clothes, accommodation, education, medication",
-        "C3": "if we are passionate about what we are working, we are likely to achieve success easily in that field"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Premises": {
-        "P1": "people who are woking in art or painting industries, for example, will find it quite difficult to live comfortably and enjoyably",
-        "P2": "they are doing what they love, their income however seems to be quite low compared to many other career paths",
-        "P3": "money is very essential in order to meet human' basic needs",
-        "P4": "There are plenty of people, who are now really successful, have started working in challenging as well as competitive fields as singers, dancers and painters",
-        "P5": "important factors in choosing a job such as level of happiness, satisfaction of jobs, personal relationships, professional skills, working environment, managers and colleagues should not be underestimated",
-        "P6": "some people choose a career due to their desire to help others and contribute positively to their countries and societies"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

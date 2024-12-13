@@ -1,96 +1,96 @@
 {
-    "MajorClaims": {
-        "MC1": "the internet provides a lot of valuable information",
-        "MC2": "people are satisfied with the internet and sometimes even thanks it"
+  "MajorClaims": {
+    "MC1": "the internet provides a lot of valuable information",
+    "MC2": "people are satisfied with the internet and sometimes even thanks it"
+  },
+  "Claims": {
+    "C1": "the internet gives daily necessary information, people can gain knowledge and they can explore the world",
+    "C2": "it helps us in studying, doing business and exploring the world",
+    "C3": "With valuable information it provides, people can enjoy their lives much more",
+    "C4": "everybody would like to know what is going on around the world in their everyday lives",
+    "C5": "people can gain more knowledge by using the internet, the most useful technology in the world",
+    "C6": "The internet makes the world becomes smaller which is a good thing"
+  },
+  "Premises": {
+    "P1": "Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people",
+    "P2": "a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet",
+    "P3": "Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge",
+    "P4": "Not only students but also everyone could get more information and knowledge",
+    "P5": "people who have problems with their health can search for more information about it",
+    "P6": "people who have no time or have financial problems could travel around the world by using the internet",
+    "P7": "They can see lots of picture and videos of many interesting places",
+    "P8": "people can learn other countries's culture and tradition which makes them have more knowledge about that nations"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the internet gives daily necessary information, people can gain knowledge and they can explore the world",
-        "C2": "it helps us in studying, doing business and exploring the world",
-        "C3": "With valuable information it provides, people can enjoy their lives much more",
-        "C4": "everybody would like to know what is going on around the world in their everyday lives",
-        "C5": "people can gain more knowledge by using the internet, the most useful technology in the world",
-        "C6": "The internet makes the world becomes smaller which is a good thing"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people",
-        "P2": "a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet",
-        "P3": "Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge",
-        "P4": "Not only students but also everyone could get more information and knowledge",
-        "P5": "people who have problems with their health can search for more information about it",
-        "P6": "people who have no time or have financial problems could travel around the world by using the internet",
-        "P7": "They can see lots of picture and videos of many interesting places",
-        "P8": "people can learn other countries's culture and tradition which makes them have more knowledge about that nations"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C6"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C6"
+    }
+  ]
 }

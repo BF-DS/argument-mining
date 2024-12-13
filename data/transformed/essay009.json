@@ -1,91 +1,91 @@
 {
-    "MajorClaims": {
-        "MC1": "Consideration and communication, in my personal opinion, are the most important quality",
-        "MC2": "the most important quality of roommates is being considered",
-        "MC3": "communication is also another essential particularity of a good roommate"
+  "MajorClaims": {
+    "MC1": "Consideration and communication, in my personal opinion, are the most important quality",
+    "MC2": "the most important quality of roommates is being considered",
+    "MC3": "communication is also another essential particularity of a good roommate"
+  },
+  "Claims": {
+    "C1": "having a considered roommate is significantly imperative to our school life",
+    "C2": "communication is very important"
+  },
+  "Premises": {
+    "P1": "Consideration is always important in relationship",
+    "P2": "roommate turns down the music or television volume at night time",
+    "P3": "Sometimes we will not know what we have done until we have a taste of our own medicine",
+    "P4": "At all times, think about the other's feeling before doing any self-centered action would help to improve the roommate relationship tremendously",
+    "P5": "It will not only prevent conflicts but also to have a friend or even a family member",
+    "P6": "communication is as well making a good roommate",
+    "P7": "Through communication, bonded are build and we could have better understanding of each others",
+    "P8": "People have different habit in daily life, such as tidy the blanket in the morning",
+    "P9": "One might think this is a piece of cake while other would consider it as immense project",
+    "P10": "If one requested to move out just because his roommate do not tidy up the blanket in the morning might be crying over split milk",
+    "P11": "it would clear up the misinterpretation"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "having a considered roommate is significantly imperative to our school life",
-        "C2": "communication is very important"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "Consideration is always important in relationship",
-        "P2": "roommate turns down the music or television volume at night time",
-        "P3": "Sometimes we will not know what we have done until we have a taste of our own medicine",
-        "P4": "At all times, think about the other's feeling before doing any self-centered action would help to improve the roommate relationship tremendously",
-        "P5": "It will not only prevent conflicts but also to have a friend or even a family member",
-        "P6": "communication is as well making a good roommate",
-        "P7": "Through communication, bonded are build and we could have better understanding of each others",
-        "P8": "People have different habit in daily life, such as tidy the blanket in the morning",
-        "P9": "One might think this is a piece of cake while other would consider it as immense project",
-        "P10": "If one requested to move out just because his roommate do not tidy up the blanket in the morning might be crying over split milk",
-        "P11": "it would clear up the misinterpretation"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

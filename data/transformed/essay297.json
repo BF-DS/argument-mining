@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "online classes should never replace classroom learning",
-        "MC2": "the classroom learning is the best way to provide education for these reasons"
+  "MajorClaims": {
+    "MC1": "online classes should never replace classroom learning",
+    "MC2": "the classroom learning is the best way to provide education for these reasons"
+  },
+  "Claims": {
+    "C1": "classroom learning is the best way to provide education comparing to online classes",
+    "C2": "It makes you perfect in time management skills",
+    "C3": "you learn quickly",
+    "C4": "online classes have some advantages so they could be used as supplementary"
+  },
+  "Premises": {
+    "P1": "In the classroom environment you can learn from your classmates",
+    "P2": "if you see any of your classmates who is performing better, it will force you for making your performance more better",
+    "P3": "When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects",
+    "P4": "I got 1st rank in final exam",
+    "P5": "in classroom learning you have to complete study work on time",
+    "P6": "you can learn by participating in group studies how to communicate with others",
+    "P7": "It makes you communication and of course your group skills better, which can help you in your future and career",
+    "P8": "professors play vital role in classroom learning, most of them are specialists is their subjects, and they help you by giving valuable information and useful skills",
+    "P9": "You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts",
+    "P10": "For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster",
+    "P11": "they could not be substitute of existing classroom learning"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Claims": {
-        "C1": "classroom learning is the best way to provide education comparing to online classes",
-        "C2": "It makes you perfect in time management skills",
-        "C3": "you learn quickly",
-        "C4": "online classes have some advantages so they could be used as supplementary"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "In the classroom environment you can learn from your classmates",
-        "P2": "if you see any of your classmates who is performing better, it will force you for making your performance more better",
-        "P3": "When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects",
-        "P4": "I got 1st rank in final exam",
-        "P5": "in classroom learning you have to complete study work on time",
-        "P6": "you can learn by participating in group studies how to communicate with others",
-        "P7": "It makes you communication and of course your group skills better, which can help you in your future and career",
-        "P8": "professors play vital role in classroom learning, most of them are specialists is their subjects, and they help you by giving valuable information and useful skills",
-        "P9": "You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts",
-        "P10": "For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster",
-        "P11": "they could not be substitute of existing classroom learning"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P11",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

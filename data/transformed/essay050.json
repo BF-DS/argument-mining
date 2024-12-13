@@ -1,107 +1,107 @@
 {
-    "MajorClaims": {
-        "MC1": "An integration of music into learning process bound to be successful when it is not compulsory"
+  "MajorClaims": {
+    "MC1": "An integration of music into learning process bound to be successful when it is not compulsory"
+  },
+  "Claims": {
+    "C1": "music can help an individual to shape its character",
+    "C2": "many university authorities provide music lessons for their students",
+    "C3": "music and other entertaining subjects should be optional"
+  },
+  "Premises": {
+    "P1": "they live and study in a harmony with music",
+    "P2": "It is obvious that music has a great power which can positively influence on human being and its psychology",
+    "P3": "students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time",
+    "P4": "music can be a useful and interesting solution",
+    "P5": "if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life",
+    "P6": "students with a quite poor academic background can show themselves in the music",
+    "P7": "the calm atmosphere in the class might be created",
+    "P8": "it is clear that music can have many mentally enhancing effects on students",
+    "P9": "Nowadays, time is the most valuable thing in life with increased pace",
+    "P10": "students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song",
+    "P11": "students can not obtain supposed impacts, unless they get interested in it more seriously",
+    "P12": "music is the art which requires special attitude towards it",
+    "P13": "demand is not for musically orientated students, but for academically developed employees"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "music can help an individual to shape its character",
-        "C2": "many university authorities provide music lessons for their students",
-        "C3": "music and other entertaining subjects should be optional"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "they live and study in a harmony with music",
-        "P2": "It is obvious that music has a great power which can positively influence on human being and its psychology",
-        "P3": "students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time",
-        "P4": "music can be a useful and interesting solution",
-        "P5": "if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life",
-        "P6": "students with a quite poor academic background can show themselves in the music",
-        "P7": "the calm atmosphere in the class might be created",
-        "P8": "it is clear that music can have many mentally enhancing effects on students",
-        "P9": "Nowadays, time is the most valuable thing in life with increased pace",
-        "P10": "students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song",
-        "P11": "students can not obtain supposed impacts, unless they get interested in it more seriously",
-        "P12": "music is the art which requires special attitude towards it",
-        "P13": "demand is not for musically orientated students, but for academically developed employees"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

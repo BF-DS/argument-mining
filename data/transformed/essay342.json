@@ -1,77 +1,77 @@
 {
-    "MajorClaims": {
-        "MC1": "schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community"
+  "MajorClaims": {
+    "MC1": "schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community"
+  },
+  "Claims": {
+    "C1": "competitive child would have more motivation and perspective that leads them to success",
+    "C2": "A strong competition sense helps children having urge to learn or to practice for being the best among peers, and this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system",
+    "C3": "cooperation is also an essential quality for children, no matter in school activities or in communities"
+  },
+  "Premises": {
+    "P1": "it would not help them much once they enter to society or company which required more about skill of team work",
+    "P2": "it might be hard for a competitive person to deal or manage in a team work project",
+    "P3": "a competitive child is usually more motivated to pursue a goal or to face difficulties independently",
+    "P4": "it is also risky that children are becoming too competitive to cooperating with others",
+    "P5": "Being competitive leads them to success, but could also restrict them in many ways",
+    "P6": "Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team",
+    "P7": "in society, there is hardly anyone who could has big achievement by oneself",
+    "P8": "famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "competitive child would have more motivation and perspective that leads them to success",
-        "C2": "A strong competition sense helps children having urge to learn or to practice for being the best among peers, and this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system",
-        "C3": "cooperation is also an essential quality for children, no matter in school activities or in communities"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "it would not help them much once they enter to society or company which required more about skill of team work",
-        "P2": "it might be hard for a competitive person to deal or manage in a team work project",
-        "P3": "a competitive child is usually more motivated to pursue a goal or to face difficulties independently",
-        "P4": "it is also risky that children are becoming too competitive to cooperating with others",
-        "P5": "Being competitive leads them to success, but could also restrict them in many ways",
-        "P6": "Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team",
-        "P7": "in society, there is hardly anyone who could has big achievement by oneself",
-        "P8": "famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "P3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

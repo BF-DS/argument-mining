@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "I disagree with the idea that unimportant subjects such as music and sports should be got rid of the program",
-        "MC2": "the effects of learning music, sports are profound"
+  "MajorClaims": {
+    "MC1": "I disagree with the idea that unimportant subjects such as music and sports should be got rid of the program",
+    "MC2": "the effects of learning music, sports are profound"
+  },
+  "Claims": {
+    "C1": "students only need to study academic subjects like mathematics, physics",
+    "C2": "these subjects might fulfil the students' ability",
+    "C3": "the academic subjects play a primary role in nurturing children"
+  },
+  "Premises": {
+    "P1": "these subject are necessary for students' future",
+    "P2": "when labor market now has high competition; students have to meet requirements regard of qualification",
+    "P3": "the unemployment rate is always high",
+    "P4": "parents want children to study these subjects which can help students have a job",
+    "P5": "there are many things much more important than having a job",
+    "P6": "studying music, art or sports is also very important to students",
+    "P7": "This enables students to develop their potentials through discovering the natural world around them",
+    "P8": "to get a job in labor market, not only do students require hard skills but also soft skills such as teamwork, presentation",
+    "P9": "through taking part in a sport, students can understand team spirit and learn lessons about teamwork skills",
+    "P10": "children's future do not depend heavily on the academic subjects they study in school, it is the result of their efforts and capacity"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "students only need to study academic subjects like mathematics, physics",
-        "C2": "these subjects might fulfil the students' ability",
-        "C3": "the academic subjects play a primary role in nurturing children"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "these subject are necessary for students' future",
-        "P2": "when labor market now has high competition; students have to meet requirements regard of qualification",
-        "P3": "the unemployment rate is always high",
-        "P4": "parents want children to study these subjects which can help students have a job",
-        "P5": "there are many things much more important than having a job",
-        "P6": "studying music, art or sports is also very important to students",
-        "P7": "This enables students to develop their potentials through discovering the natural world around them",
-        "P8": "to get a job in labor market, not only do students require hard skills but also soft skills such as teamwork, presentation",
-        "P9": "through taking part in a sport, students can understand team spirit and learn lessons about teamwork skills",
-        "P10": "children's future do not depend heavily on the academic subjects they study in school, it is the result of their efforts and capacity"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    }
+  ]
 }

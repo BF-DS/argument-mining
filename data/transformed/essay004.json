@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations",
-        "MC2": "the tourism has created threatening pressure on both the sociocultural and natural environments"
+  "MajorClaims": {
+    "MC1": "this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations",
+    "MC2": "the tourism has created threatening pressure on both the sociocultural and natural environments"
+  },
+  "Claims": {
+    "C1": "the tourism bring large profit for the destination countries",
+    "C2": "international tourism can create negative impacts on the destination countries",
+    "C3": "tourism has threatened the nature environments"
+  },
+  "Premises": {
+    "P1": "tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations",
+    "P2": "Take Thailand for example, in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits",
+    "P3": "This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism",
+    "P4": "tourism increasingly create harms to the natural habitats of the destination appeals",
+    "P5": "As the Australia\u2019s Great Barrier Reef has shown, the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat\u2019s anchors, dropping fuel and other sorts of pollutions",
+    "P6": "many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the tourism bring large profit for the destination countries",
-        "C2": "international tourism can create negative impacts on the destination countries",
-        "C3": "tourism has threatened the nature environments"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations",
-        "P2": "Take Thailand for example, in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits",
-        "P3": "This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism",
-        "P4": "tourism increasingly create harms to the natural habitats of the destination appeals",
-        "P5": "As the Australia\u2019s Great Barrier Reef has shown, the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat\u2019s anchors, dropping fuel and other sorts of pollutions",
-        "P6": "many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

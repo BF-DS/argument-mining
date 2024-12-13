@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "boys and girls should study together",
-        "MC2": "attending boys and girls in a same school would bring many advantages"
+  "MajorClaims": {
+    "MC1": "boys and girls should study together",
+    "MC2": "attending boys and girls in a same school would bring many advantages"
+  },
+  "Claims": {
+    "C1": "they have a chance to know each other and learn how to behave with an opposite sex",
+    "C2": "By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate",
+    "C3": "attending in the school having boys and girls might be beneficial for both to increase their motivation to study better",
+    "C4": "Taking part in the study groups would increase student's motivation to study more",
+    "C5": "they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together"
+  },
+  "Premises": {
+    "P1": "a boy would know how to speak with a girl in every situation and vice versa",
+    "P2": "They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc",
+    "P3": "when they study together and help each other, they exercise the the real life as they age",
+    "P4": "attending both girls and boys in a same school cause many disadvantages for them",
+    "P5": "their thoughts deviate from the studies",
+    "P6": "outdoors relationships may expand and it may accompany with sexual relationship",
+    "P7": "School is a small society for students, which prepares them for the future life",
+    "P8": "they will study increasingly",
+    "P9": "Boys and girls will try to show their capabilities and abilities in the class",
+    "P10": "Boys do not like to seem weak in front of girls and vice versa",
+    "P11": "the productivity of the class will be increased"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "they have a chance to know each other and learn how to behave with an opposite sex",
-        "C2": "By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate",
-        "C3": "attending in the school having boys and girls might be beneficial for both to increase their motivation to study better",
-        "C4": "Taking part in the study groups would increase student's motivation to study more",
-        "C5": "they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "a boy would know how to speak with a girl in every situation and vice versa",
-        "P2": "They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc",
-        "P3": "when they study together and help each other, they exercise the the real life as they age",
-        "P4": "attending both girls and boys in a same school cause many disadvantages for them",
-        "P5": "their thoughts deviate from the studies",
-        "P6": "outdoors relationships may expand and it may accompany with sexual relationship",
-        "P7": "School is a small society for students, which prepares them for the future life",
-        "P8": "they will study increasingly",
-        "P9": "Boys and girls will try to show their capabilities and abilities in the class",
-        "P10": "Boys do not like to seem weak in front of girls and vice versa",
-        "P11": "the productivity of the class will be increased"
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P11"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P11"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

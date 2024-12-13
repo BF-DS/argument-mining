@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "we should give priority to our own issues",
-        "MC2": "more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction"
+  "MajorClaims": {
+    "MC1": "we should give priority to our own issues",
+    "MC2": "more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction"
+  },
+  "Claims": {
+    "C1": "it is our responsibility to keep as many species on the Earth as possible",
+    "C2": "species extinction is quite natural according to the theory of evolution",
+    "C3": "We should put our own survival and sustainment in order first before considering the conservation of other species"
+  },
+  "Premises": {
+    "P1": "biodiversity is essential to maintain the balance of ecosystem",
+    "P2": "If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat",
+    "P3": "The environment on the Earth has been transformed many times since the first species came into being",
+    "P4": "A great number of plants and animals died out",
+    "P5": "they were unable to fit into the new environment",
+    "P6": "the process of extinction of some species is irrevocable and we can do nothing about it",
+    "P7": "human beings nowadays are still faced with many urgent problems such as starvation, disease and wars",
+    "P8": "When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it is our responsibility to keep as many species on the Earth as possible",
-        "C2": "species extinction is quite natural according to the theory of evolution",
-        "C3": "We should put our own survival and sustainment in order first before considering the conservation of other species"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "biodiversity is essential to maintain the balance of ecosystem",
-        "P2": "If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat",
-        "P3": "The environment on the Earth has been transformed many times since the first species came into being",
-        "P4": "A great number of plants and animals died out",
-        "P5": "they were unable to fit into the new environment",
-        "P6": "the process of extinction of some species is irrevocable and we can do nothing about it",
-        "P7": "human beings nowadays are still faced with many urgent problems such as starvation, disease and wars",
-        "P8": "When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

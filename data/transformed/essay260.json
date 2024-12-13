@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "once you are unique enough, you are already on the way to success",
-        "MC2": "being different and unique is the better way to achieve success"
+  "MajorClaims": {
+    "MC1": "once you are unique enough, you are already on the way to success",
+    "MC2": "being different and unique is the better way to achieve success"
+  },
+  "Claims": {
+    "C1": "If you don't make yourself outstanding enough or you fail to distinguish yourself from others, you will be easily replaced and eliminated by someone who is better than you",
+    "C2": "being unique can create your own value which can never be taken by others",
+    "C3": "It not only shows your competence but also creates your own value, making you take the lead in your way towards success"
+  },
+  "Premises": {
+    "P1": "when I was in college, I was always chosen to be the presenter of group report",
+    "P2": "I was the only one in my group who could present the report thoroughly and fluently",
+    "P3": "being positively different from everyone else usually means that you've achieved something that is superior than others",
+    "P4": "As living in a competent world, we are like playing a survival game",
+    "P5": "Only who has the sharpest weapon can survive",
+    "P6": "Take the most popular and prestigious technology company- Apple- for example",
+    "P7": "The reason why it gains such a tremendous success is because it achieves some brilliant qualities that can never be caught up by other competitors",
+    "P8": "It has its operating systems that can run smoother than any other companies and its design always wins the popularity among consumers",
+    "P9": "It is the uniqueness of Apple design that creates its own value",
+    "P10": "once you are special and unique, pursuing success is a matter of actively creating the fashion rather than passively waiting for other people to recognize and appreciate you"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "If you don't make yourself outstanding enough or you fail to distinguish yourself from others, you will be easily replaced and eliminated by someone who is better than you",
-        "C2": "being unique can create your own value which can never be taken by others",
-        "C3": "It not only shows your competence but also creates your own value, making you take the lead in your way towards success"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Premises": {
-        "P1": "when I was in college, I was always chosen to be the presenter of group report",
-        "P2": "I was the only one in my group who could present the report thoroughly and fluently",
-        "P3": "being positively different from everyone else usually means that you've achieved something that is superior than others",
-        "P4": "As living in a competent world, we are like playing a survival game",
-        "P5": "Only who has the sharpest weapon can survive",
-        "P6": "Take the most popular and prestigious technology company- Apple- for example",
-        "P7": "The reason why it gains such a tremendous success is because it achieves some brilliant qualities that can never be caught up by other competitors",
-        "P8": "It has its operating systems that can run smoother than any other companies and its design always wins the popularity among consumers",
-        "P9": "It is the uniqueness of Apple design that creates its own value",
-        "P10": "once you are special and unique, pursuing success is a matter of actively creating the fashion rather than passively waiting for other people to recognize and appreciate you"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

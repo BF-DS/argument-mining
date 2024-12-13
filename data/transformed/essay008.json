@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "a government is supposed to offer sufficient financial support for both",
-        "MC2": "a government should spare effort on young children education as well as universities"
+  "MajorClaims": {
+    "MC1": "a government is supposed to offer sufficient financial support for both",
+    "MC2": "a government should spare effort on young children education as well as universities"
+  },
+  "Claims": {
+    "C1": "both are crucial on the way to a brighter future",
+    "C2": "if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education",
+    "C3": "government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide"
+  },
+  "Premises": {
+    "P1": "a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development",
+    "P2": "elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society",
+    "P3": "government should guarantee that all people have equal and convenient access to it",
+    "P4": "Researches into humanities and art still need large amount of money",
+    "P5": "for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance",
+    "P6": "The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community",
+    "P7": "Some may argue that universities can support themselve well by donation or invention",
+    "P8": "this argument is invalid"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "both are crucial on the way to a brighter future",
-        "C2": "if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education",
-        "C3": "government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development",
-        "P2": "elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society",
-        "P3": "government should guarantee that all people have equal and convenient access to it",
-        "P4": "Researches into humanities and art still need large amount of money",
-        "P5": "for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance",
-        "P6": "The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community",
-        "P7": "Some may argue that universities can support themselve well by donation or invention",
-        "P8": "this argument is invalid"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

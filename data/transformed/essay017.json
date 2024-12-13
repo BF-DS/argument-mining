@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "television devastate families ties",
-        "MC2": "it is a global problem to solve this problem and it is need global contribution to find a solution"
+  "MajorClaims": {
+    "MC1": "television devastate families ties",
+    "MC2": "it is a global problem to solve this problem and it is need global contribution to find a solution"
+  },
+  "Claims": {
+    "C1": "most of people do not have a plan for make a limitation or schedule for watching television",
+    "C2": "killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive",
+    "C3": "In spite of enjoying watching television shows, it is really time consuming task",
+    "C4": "watching television programs makes us lazy",
+    "C5": "some television programs have a negative effect on viewers"
+  },
+  "Premises": {
+    "P1": "Emergence of new television channels or shows are not surprising",
+    "P2": "We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities",
+    "P3": "This is a problem that suffers all of us everyday",
+    "P4": "there is no time for call to our parents or friends",
+    "P5": "We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office",
+    "P6": "we do not have time to spend for healthy activity such as going to a gym or doing other sports",
+    "P7": "This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable",
+    "P8": "Some thriller or action movies advertise negative activities such as doing criminal activity",
+    "P9": "These genre of programs has more negative effects on our teenagers",
+    "P10": "They usually try to mimic what they see on movies in their daily behaviors"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "most of people do not have a plan for make a limitation or schedule for watching television",
-        "C2": "killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive",
-        "C3": "In spite of enjoying watching television shows, it is really time consuming task",
-        "C4": "watching television programs makes us lazy",
-        "C5": "some television programs have a negative effect on viewers"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Emergence of new television channels or shows are not surprising",
-        "P2": "We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities",
-        "P3": "This is a problem that suffers all of us everyday",
-        "P4": "there is no time for call to our parents or friends",
-        "P5": "We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office",
-        "P6": "we do not have time to spend for healthy activity such as going to a gym or doing other sports",
-        "P7": "This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable",
-        "P8": "Some thriller or action movies advertise negative activities such as doing criminal activity",
-        "P9": "These genre of programs has more negative effects on our teenagers",
-        "P10": "They usually try to mimic what they see on movies in their daily behaviors"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

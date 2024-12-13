@@ -1,71 +1,71 @@
 {
-    "MajorClaims": {
-        "MC1": "it would be a better implication by the government to promote other sources of energy"
+  "MajorClaims": {
+    "MC1": "it would be a better implication by the government to promote other sources of energy"
+  },
+  "Claims": {
+    "C1": "This can make use of the available natural resources which in turn would reduce the global warming",
+    "C2": "it would be a good implication by the government to generate electricity from other available sources",
+    "C3": "the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming"
+  },
+  "Premises": {
+    "P1": "the major source of energy today is water",
+    "P2": "there is a lot of water shortage to generate electricity many countries still rely only on this source",
+    "P3": "To generate such a vast energy the fundamental resources are falling short",
+    "P4": "during summer there will be a lot of power cut in the developing countries such as India",
+    "P5": "If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity",
+    "P6": "the use of a solar cooker instead of an electric cooker would certainly reduce the global warming",
+    "P7": "the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "This can make use of the available natural resources which in turn would reduce the global warming",
-        "C2": "it would be a good implication by the government to generate electricity from other available sources",
-        "C3": "the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the major source of energy today is water",
-        "P2": "there is a lot of water shortage to generate electricity many countries still rely only on this source",
-        "P3": "To generate such a vast energy the fundamental resources are falling short",
-        "P4": "during summer there will be a lot of power cut in the developing countries such as India",
-        "P5": "If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity",
-        "P6": "the use of a solar cooker instead of an electric cooker would certainly reduce the global warming",
-        "P7": "the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

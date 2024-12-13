@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "a person should keep trying for his goals",
-        "MC2": "one should not give up"
+  "MajorClaims": {
+    "MC1": "a person should keep trying for his goals",
+    "MC2": "one should not give up"
+  },
+  "Claims": {
+    "C1": "Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life",
+    "C2": "committing to our goal helps creating personal worth",
+    "C3": "one who learns the great difficulty will become stronger",
+    "C4": "the responsibility is worthy of carrying",
+    "C5": "the true reward is to have the dignity"
+  },
+  "Premises": {
+    "P1": "I realized the true potential of my body and mind as I decided to train myself hard",
+    "P2": "Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running",
+    "P3": "I remembered how I was suffered in the first round when I was last person who touched the line",
+    "P4": "I did not give up, and believed that I would be better in the next round",
+    "P5": "I knew how to improve myself",
+    "P6": "I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger",
+    "P7": "When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself",
+    "P8": "He can feel the sweetness of triumph",
+    "P9": "he did not stop pursing his goal",
+    "P10": "we, as an average people, might feel that the responsibility to our goal is too heavy to carry on"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life",
-        "C2": "committing to our goal helps creating personal worth",
-        "C3": "one who learns the great difficulty will become stronger",
-        "C4": "the responsibility is worthy of carrying",
-        "C5": "the true reward is to have the dignity"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "I realized the true potential of my body and mind as I decided to train myself hard",
-        "P2": "Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running",
-        "P3": "I remembered how I was suffered in the first round when I was last person who touched the line",
-        "P4": "I did not give up, and believed that I would be better in the next round",
-        "P5": "I knew how to improve myself",
-        "P6": "I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger",
-        "P7": "When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself",
-        "P8": "He can feel the sweetness of triumph",
-        "P9": "he did not stop pursing his goal",
-        "P10": "we, as an average people, might feel that the responsibility to our goal is too heavy to carry on"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

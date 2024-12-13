@@ -1,132 +1,132 @@
 {
-    "MajorClaims": {
-        "MC1": "people who can't accept others' criticism can't succeed in group working",
-        "MC2": "criticism is essential especially in group working but in other occasions we still need criticism"
+  "MajorClaims": {
+    "MC1": "people who can't accept others' criticism can't succeed in group working",
+    "MC2": "criticism is essential especially in group working but in other occasions we still need criticism"
+  },
+  "Claims": {
+    "C1": "the core of group working is \"consensus\"",
+    "C2": "Even if you are not working in a group, you still need to take others' criticism",
+    "C3": "even if you are right, criticism is still helpful"
+  },
+  "Premises": {
+    "P1": "the work belongs to every member, not a personal show for specific one member",
+    "P2": "It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism",
+    "P3": "It's every member's duty to respect other's opinion",
+    "P4": "It's the idea that everyone\u2019s opinion accounts",
+    "P5": "In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement",
+    "P6": "Criticism definitely hurts",
+    "P7": "it points out your drawbacks and forces you to confront them",
+    "P8": "criticism can help you detect those drawbacks and fix them if you are willing to take it",
+    "P9": "taking criticism is a virtue as you take someone's opinion that is against you",
+    "P10": "Those who don't even take a word of criticism will eventually lose chances to get improved",
+    "P11": "if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works",
+    "P12": "As one Chinese idiom goes: \"The good medicine tastes bitter\u201c",
+    "P13": "Criticism might be the most powerful solution to heal",
+    "P14": "in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work",
+    "P15": "Taking criticism doesn't necessary mean that you have to take it all",
+    "P16": "You should have your own judgments too",
+    "P17": "And it's kind of art to make the best use of criticism"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "Claims": {
-        "C1": "the core of group working is \"consensus\"",
-        "C2": "Even if you are not working in a group, you still need to take others' criticism",
-        "C3": "even if you are right, criticism is still helpful"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the work belongs to every member, not a personal show for specific one member",
-        "P2": "It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism",
-        "P3": "It's every member's duty to respect other's opinion",
-        "P4": "It's the idea that everyone\u2019s opinion accounts",
-        "P5": "In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement",
-        "P6": "Criticism definitely hurts",
-        "P7": "it points out your drawbacks and forces you to confront them",
-        "P8": "criticism can help you detect those drawbacks and fix them if you are willing to take it",
-        "P9": "taking criticism is a virtue as you take someone's opinion that is against you",
-        "P10": "Those who don't even take a word of criticism will eventually lose chances to get improved",
-        "P11": "if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works",
-        "P12": "As one Chinese idiom goes: \"The good medicine tastes bitter\u201c",
-        "P13": "Criticism might be the most powerful solution to heal",
-        "P14": "in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work",
-        "P15": "Taking criticism doesn't necessary mean that you have to take it all",
-        "P16": "You should have your own judgments too",
-        "P17": "And it's kind of art to make the best use of criticism"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "P6"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P17",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

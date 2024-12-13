@@ -1,109 +1,109 @@
 {
-    "MajorClaims": {
-        "MC1": "strict laws, like capital punishment, are essential in a society",
-        "MC2": "Capital punishment is essential to control violence in the society",
-        "MC3": "psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment"
+  "MajorClaims": {
+    "MC1": "strict laws, like capital punishment, are essential in a society",
+    "MC2": "Capital punishment is essential to control violence in the society",
+    "MC3": "psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment"
+  },
+  "Claims": {
+    "C1": "Capital punishment helps to safeguard human rights in a strict and effective manner",
+    "C2": "capital punishment protects the society from hardcore criminals",
+    "C3": "the rate of crime and violence is effectively decreased",
+    "C4": "Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment",
+    "C5": "They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals"
+  },
+  "Premises": {
+    "P1": "When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment",
+    "P2": "Capital punishment is given only in the \"rarest of the rare\" cases",
+    "P3": "Its first and foremost objective is safety of other human beings",
+    "P4": "capital punishment curbs the inspiration and prospects of other hateful crimes",
+    "P5": "When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes",
+    "P6": "capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals",
+    "P7": "the jury giving the verdict are also humans",
+    "P8": "They have the life of a person at their discretion",
+    "P9": "The jury must therefore, take into account the circumstances of committing a crime",
+    "P10": "if an individual murders someone for self-defense, then such a crime is not heinous",
+    "P11": "Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Capital punishment helps to safeguard human rights in a strict and effective manner",
-        "C2": "capital punishment protects the society from hardcore criminals",
-        "C3": "the rate of crime and violence is effectively decreased",
-        "C4": "Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment",
-        "C5": "They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment",
-        "P2": "Capital punishment is given only in the \"rarest of the rare\" cases",
-        "P3": "Its first and foremost objective is safety of other human beings",
-        "P4": "capital punishment curbs the inspiration and prospects of other hateful crimes",
-        "P5": "When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes",
-        "P6": "capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals",
-        "P7": "the jury giving the verdict are also humans",
-        "P8": "They have the life of a person at their discretion",
-        "P9": "The jury must therefore, take into account the circumstances of committing a crime",
-        "P10": "if an individual murders someone for self-defense, then such a crime is not heinous",
-        "P11": "Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

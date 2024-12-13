@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "government should not pay for the university fees",
-        "MC2": "government should provide those education to their people; however, for the more higher education like university, the students or their parents should pay for the fees"
+  "MajorClaims": {
+    "MC1": "government should not pay for the university fees",
+    "MC2": "government should provide those education to their people; however, for the more higher education like university, the students or their parents should pay for the fees"
+  },
+  "Claims": {
+    "C1": "this will encourage all the parents to think of the way to help their children to achieve more in their lives",
+    "C2": "this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them",
+    "C3": "Some parents might not have enough money to pay for their children university fees",
+    "C4": "I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education",
+    "C5": "They will be more responsible with their studies when they pay the fees themselves"
+  },
+  "Premises": {
+    "P1": "they need to make some contribution too for their children future",
+    "P2": "It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education",
+    "P3": "students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it",
+    "P4": "the students will become more independent and it will build their characters in the marketplace as well"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "this will encourage all the parents to think of the way to help their children to achieve more in their lives",
-        "C2": "this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them",
-        "C3": "Some parents might not have enough money to pay for their children university fees",
-        "C4": "I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education",
-        "C5": "They will be more responsible with their studies when they pay the fees themselves"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "they need to make some contribution too for their children future",
-        "P2": "It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education",
-        "P3": "students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it",
-        "P4": "the students will become more independent and it will build their characters in the marketplace as well"
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

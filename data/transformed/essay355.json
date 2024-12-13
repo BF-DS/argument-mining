@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "it is important for children to be taught with a secondary language as early as kindergarten",
-        "MC2": "if this endeavour is properly implemented by schools, this will most likely lead to improvement of learning ability among children"
+  "MajorClaims": {
+    "MC1": "it is important for children to be taught with a secondary language as early as kindergarten",
+    "MC2": "if this endeavour is properly implemented by schools, this will most likely lead to improvement of learning ability among children"
+  },
+  "Claims": {
+    "C1": "children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years",
+    "C2": "the advantages of early introduction of foreign language outweigh its disadvantages"
+  },
+  "Premises": {
+    "P1": "teachers think that foreign language most likely leads to confusion for children who are yet to start learning",
+    "P2": "the teacher should be well-trained in the use of this specific language, so quality education will be delivered",
+    "P3": "Learning at school must be convenient for them if they speak in a way that they are used to",
+    "P4": "kids are amazing learners, and the best time to hone them is in their younger years",
+    "P5": "The introduction of foreign language will be new to them",
+    "P6": "their curiosity will drive them to learn and comprehend",
+    "P7": "grasping a new language will be natural to them",
+    "P8": "the positive impact of this strategy is beneficial to both learners and teachers",
+    "P9": "Teachers will not find it difficult to make students learn such new concept in their teenage years"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years",
-        "C2": "the advantages of early introduction of foreign language outweigh its disadvantages"
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "teachers think that foreign language most likely leads to confusion for children who are yet to start learning",
-        "P2": "the teacher should be well-trained in the use of this specific language, so quality education will be delivered",
-        "P3": "Learning at school must be convenient for them if they speak in a way that they are used to",
-        "P4": "kids are amazing learners, and the best time to hone them is in their younger years",
-        "P5": "The introduction of foreign language will be new to them",
-        "P6": "their curiosity will drive them to learn and comprehend",
-        "P7": "grasping a new language will be natural to them",
-        "P8": "the positive impact of this strategy is beneficial to both learners and teachers",
-        "P9": "Teachers will not find it difficult to make students learn such new concept in their teenage years"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "P5"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "P5"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

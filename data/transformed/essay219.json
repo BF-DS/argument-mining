@@ -1,66 +1,66 @@
 {
-    "MajorClaims": {
-        "MC1": "These changes make cooking so easy-to-use and time-saving as to improve the way we live to a great extent",
-        "MC2": "I would assert that this change has improved our life significantly"
+  "MajorClaims": {
+    "MC1": "These changes make cooking so easy-to-use and time-saving as to improve the way we live to a great extent",
+    "MC2": "I would assert that this change has improved our life significantly"
+  },
+  "Claims": {
+    "C1": "the time-saving, simple food preparation process gives us more time to do other activities, more chance to select diverse kinds of foods and more willingness to cook meals",
+    "C2": "people have more chance to do other activities they like since food preparation is no longer time-consuming",
+    "C3": "since food preparation has become easier and more convenient, it is certainly great to preserve diverse kinds of foods at home",
+    "C4": "This transformation may bring positive impacts to family in some cases"
+  },
+  "Premises": {
+    "P1": "such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job",
+    "P2": "more people can sleep a bit later to go to work",
+    "P3": "they only need a couple of time to prepare for the breakfasts",
+    "P4": "People can have a variety of dishes even in a small meal and choose whatever they like",
+    "P5": "More men, on the other hand, are willing to participate in cooking that they had never done before"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the time-saving, simple food preparation process gives us more time to do other activities, more chance to select diverse kinds of foods and more willingness to cook meals",
-        "C2": "people have more chance to do other activities they like since food preparation is no longer time-consuming",
-        "C3": "since food preparation has become easier and more convenient, it is certainly great to preserve diverse kinds of foods at home",
-        "C4": "This transformation may bring positive impacts to family in some cases"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job",
-        "P2": "more people can sleep a bit later to go to work",
-        "P3": "they only need a couple of time to prepare for the breakfasts",
-        "P4": "People can have a variety of dishes even in a small meal and choose whatever they like",
-        "P5": "More men, on the other hand, are willing to participate in cooking that they had never done before"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

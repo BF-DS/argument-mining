@@ -1,79 +1,79 @@
 {
-    "MajorClaims": {
-        "MC1": "Going to another place to learn language is better choice",
-        "MC2": "learning language from foreign country is better than learning language in home country",
-        "MC3": "Learning foreign language form another country is better choice for me to study language"
+  "MajorClaims": {
+    "MC1": "Going to another place to learn language is better choice",
+    "MC2": "learning language from foreign country is better than learning language in home country",
+    "MC3": "Learning foreign language form another country is better choice for me to study language"
+  },
+  "Claims": {
+    "C1": "I have to improve myself to communicate with other people",
+    "C2": "in foreign country I could have a chance to speak foreign language with my friends",
+    "C3": "going to another country to learn language is a good environment to stimulate people to learn language",
+    "C4": "having friend that speaks another language is help people to professional in that language faster"
+  },
+  "Premises": {
+    "P1": "everyone around me speaks foreign language, and then I have to improve myself to communicate with people",
+    "P2": "If I could not communicate with other people, I could not even buy food to sacrifice my hunger",
+    "P3": "This environment makes me want to develop myself to be able to communicate with people that speak foreign language",
+    "P4": "English school in outside my home country, there are many people that come from different places and from different languages",
+    "P5": "The only language that I could talk to make friends is English language",
+    "P6": "I could talk with my friend without worrying about speaking wrong",
+    "P7": "This reason makes me have a progress in foreign language faster"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "I have to improve myself to communicate with other people",
-        "C2": "in foreign country I could have a chance to speak foreign language with my friends",
-        "C3": "going to another country to learn language is a good environment to stimulate people to learn language",
-        "C4": "having friend that speaks another language is help people to professional in that language faster"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "everyone around me speaks foreign language, and then I have to improve myself to communicate with people",
-        "P2": "If I could not communicate with other people, I could not even buy food to sacrifice my hunger",
-        "P3": "This environment makes me want to develop myself to be able to communicate with people that speak foreign language",
-        "P4": "English school in outside my home country, there are many people that come from different places and from different languages",
-        "P5": "The only language that I could talk to make friends is English language",
-        "P6": "I could talk with my friend without worrying about speaking wrong",
-        "P7": "This reason makes me have a progress in foreign language faster"
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

@@ -1,83 +1,83 @@
 {
-    "MajorClaims": {
-        "MC1": "the demerits of applying these new developments in the agriculture industry cannot be overlooked"
+  "MajorClaims": {
+    "MC1": "the demerits of applying these new developments in the agriculture industry cannot be overlooked"
+  },
+  "Claims": {
+    "C1": "newly developed plant foods and machinery make significant financial success for the farmers",
+    "C2": "the production and labour cost of each kilogram of the agriculture products dramatically decreased",
+    "C3": "high-tech fertilizers pose a potential threat to individuals' health well-being",
+    "C4": "excessively relying on the electronic equipment for harvest causes several impacts to the society"
+  },
+  "Premises": {
+    "P1": "applying the advanced fertilizers in combine with the automatic reaping resources increase farmers' economic profit",
+    "P2": "artificial fertilizers catalyze the capacity of each inch of farmland in order to churn out the crops, and automatic machinery enhances the work efficiency of the harvest",
+    "P3": "Unlike the organic plant foods, industrialized fertilizers are made of unusual chemicals, which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently",
+    "P4": "consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future",
+    "P5": "One is that it worsens the air pollution by releasing the excessive exhaust emission",
+    "P6": "manual harvest prevents severe environmental damages",
+    "P7": "mechanical reaper causes the rise of the unemployment rate in the farming industry",
+    "P8": "high-end reaping plants replace a large number of workers in the fields"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "newly developed plant foods and machinery make significant financial success for the farmers",
-        "C2": "the production and labour cost of each kilogram of the agriculture products dramatically decreased",
-        "C3": "high-tech fertilizers pose a potential threat to individuals' health well-being",
-        "C4": "excessively relying on the electronic equipment for harvest causes several impacts to the society"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "applying the advanced fertilizers in combine with the automatic reaping resources increase farmers' economic profit",
-        "P2": "artificial fertilizers catalyze the capacity of each inch of farmland in order to churn out the crops, and automatic machinery enhances the work efficiency of the harvest",
-        "P3": "Unlike the organic plant foods, industrialized fertilizers are made of unusual chemicals, which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently",
-        "P4": "consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future",
-        "P5": "One is that it worsens the air pollution by releasing the excessive exhaust emission",
-        "P6": "manual harvest prevents severe environmental damages",
-        "P7": "mechanical reaper causes the rise of the unemployment rate in the farming industry",
-        "P8": "high-end reaping plants replace a large number of workers in the fields"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

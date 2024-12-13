@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "I personally consider this fact as the harmful thing that television has brought upon us",
-        "MC2": "it has destroyed communication among friends and family"
+  "MajorClaims": {
+    "MC1": "I personally consider this fact as the harmful thing that television has brought upon us",
+    "MC2": "it has destroyed communication among friends and family"
+  },
+  "Claims": {
+    "C1": "television has some good sides",
+    "C2": "they can be isolated from others",
+    "C3": "children will learn behavior from what they see on TV not from their parents",
+    "C4": "communication between family members is visibly destroyed",
+    "C5": "watching too much television people will unconsciously learn bad behavior that sow division among human"
+  },
+  "Premises": {
+    "P1": "people watch television too much",
+    "P2": "Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others",
+    "P3": "Gradually, their friends leave them behind either activities or studying",
+    "P4": "with the rapid change of the standard of life, each family has three or four TV in each room is more common",
+    "P5": "Parents and even children do not want to communicate with each other instead of watching TV in their own room",
+    "P6": "parents are not able to function their parental care as the necessary thing to children",
+    "P7": "watching film about terrorist children will be able to consider terrorism as a right thing"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "television has some good sides",
-        "C2": "they can be isolated from others",
-        "C3": "children will learn behavior from what they see on TV not from their parents",
-        "C4": "communication between family members is visibly destroyed",
-        "C5": "watching too much television people will unconsciously learn bad behavior that sow division among human"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "people watch television too much",
-        "P2": "Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others",
-        "P3": "Gradually, their friends leave them behind either activities or studying",
-        "P4": "with the rapid change of the standard of life, each family has three or four TV in each room is more common",
-        "P5": "Parents and even children do not want to communicate with each other instead of watching TV in their own room",
-        "P6": "parents are not able to function their parental care as the necessary thing to children",
-        "P7": "watching film about terrorist children will be able to consider terrorism as a right thing"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

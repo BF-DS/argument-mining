@@ -1,132 +1,132 @@
 {
-    "MajorClaims": {
-        "MC1": "pets should be treated like human beings",
-        "MC2": "pets deserve to be treated like family members"
+  "MajorClaims": {
+    "MC1": "pets should be treated like human beings",
+    "MC2": "pets deserve to be treated like family members"
+  },
+  "Claims": {
+    "C1": "pets are our friends as well as certain human beings are",
+    "C2": "pets are useful for a variety of things",
+    "C3": "they are our friends and they can be useful in many situations"
+  },
+  "Premises": {
+    "P1": "they listen to us, more than some people will ever do",
+    "P2": "We can talk to them",
+    "P3": "When I was 14 years old, my uncle passed away and I felt like everything was no longer important",
+    "P4": "Talking to my friends was frustrating",
+    "P5": "none of them have ever felt that way",
+    "P6": "I was all alone at home for a long time",
+    "P7": "my dog was near me and it seemed to me that only him could understand my deeply feelings",
+    "P8": "pets aren't able to speak with us",
+    "P9": "we can nonetheless count on them",
+    "P10": "Similarly to friends, indeed, they are always with us and they are there if we feel alone",
+    "P11": "nowadays the pet therapy is becoming more popular than before",
+    "P12": "Researchers have discovered that pets can bring benefits in a huge amount of illnesses",
+    "P13": "There are dogs who lead blind people around the city",
+    "P14": "pets are important for depressed people as well",
+    "P15": "without them they could not go around all alone",
+    "P16": "their presence make them feel better",
+    "P17": "there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "Claims": {
-        "C1": "pets are our friends as well as certain human beings are",
-        "C2": "pets are useful for a variety of things",
-        "C3": "they are our friends and they can be useful in many situations"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "Premises": {
-        "P1": "they listen to us, more than some people will ever do",
-        "P2": "We can talk to them",
-        "P3": "When I was 14 years old, my uncle passed away and I felt like everything was no longer important",
-        "P4": "Talking to my friends was frustrating",
-        "P5": "none of them have ever felt that way",
-        "P6": "I was all alone at home for a long time",
-        "P7": "my dog was near me and it seemed to me that only him could understand my deeply feelings",
-        "P8": "pets aren't able to speak with us",
-        "P9": "we can nonetheless count on them",
-        "P10": "Similarly to friends, indeed, they are always with us and they are there if we feel alone",
-        "P11": "nowadays the pet therapy is becoming more popular than before",
-        "P12": "Researchers have discovered that pets can bring benefits in a huge amount of illnesses",
-        "P13": "There are dogs who lead blind people around the city",
-        "P14": "pets are important for depressed people as well",
-        "P15": "without them they could not go around all alone",
-        "P16": "their presence make them feel better",
-        "P17": "there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs"
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "P8"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "P8"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "P1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P15"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P17",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P15"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

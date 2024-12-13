@@ -1,96 +1,96 @@
 {
-    "MajorClaims": {
-        "MC1": "students should be free not to attend classes",
-        "MC2": "it is clear that going to classes should be optional for students"
+  "MajorClaims": {
+    "MC1": "students should be free not to attend classes",
+    "MC2": "it is clear that going to classes should be optional for students"
+  },
+  "Claims": {
+    "C1": "it improves the quality of student life as well as their learning motivation and teaches important life skills",
+    "C2": "I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards",
+    "C3": "some students might learn better at home on their own, for instance, by reading the textbook",
+    "C4": "being free to stay away from classes improves flexibility and therefore quality of student life",
+    "C5": "By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves"
+  },
+  "Premises": {
+    "P1": "This problem occurs especially if the lecturer is lethargic",
+    "P2": "By letting students choose not to attend class you give them the opportunity to escape bad teaching",
+    "P3": "they are able to save precious study time and dive into the course syllabus independently",
+    "P4": "Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning",
+    "P5": "With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency",
+    "P6": "Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas",
+    "P7": "Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being",
+    "P8": "These are crucial skills for the duration of their study and their whole life time",
+    "P9": "in order to gain intrinsic motivation students need to become aware of their strengths and aims"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it improves the quality of student life as well as their learning motivation and teaches important life skills",
-        "C2": "I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards",
-        "C3": "some students might learn better at home on their own, for instance, by reading the textbook",
-        "C4": "being free to stay away from classes improves flexibility and therefore quality of student life",
-        "C5": "By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "This problem occurs especially if the lecturer is lethargic",
-        "P2": "By letting students choose not to attend class you give them the opportunity to escape bad teaching",
-        "P3": "they are able to save precious study time and dive into the course syllabus independently",
-        "P4": "Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning",
-        "P5": "With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency",
-        "P6": "Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas",
-        "P7": "Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being",
-        "P8": "These are crucial skills for the duration of their study and their whole life time",
-        "P9": "in order to gain intrinsic motivation students need to become aware of their strengths and aims"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

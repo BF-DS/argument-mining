@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "one can also shine without even having to attend universities",
-        "MC2": "it would be wrong to say that one's success completely depends on the education he or she receives at the institutions"
+  "MajorClaims": {
+    "MC1": "one can also shine without even having to attend universities",
+    "MC2": "it would be wrong to say that one's success completely depends on the education he or she receives at the institutions"
+  },
+  "Claims": {
+    "C1": "it is indeed true that university education is pivotal in a person's life in order for one to prosper",
+    "C2": "it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer",
+    "C3": "there are also a significant number of people who are very successful in their fields without going to university",
+    "C4": "individuals born with talents have also a high chance to be successful"
+  },
+  "Premises": {
+    "P1": "Without proper training and knowledge, it would be impossible for them to perform their best in their careers",
+    "P2": "Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners",
+    "P3": "This can benefit them in future when they intend to open up their own companies or hospitals",
+    "P4": "Take for instance those who start their own business",
+    "P5": "These people depend solely on hard work and luck",
+    "P6": "for some of them it proved to be a profitable job",
+    "P7": "Michael Dell who is the founder and the CEO of Dell left college at 19",
+    "P8": "he started his computer company in his college dorm room",
+    "P9": "he used his earnings as well as his family's loan in order to progress to be who he is now",
+    "P10": "people with natural talents are also most likely to excel in their life",
+    "P11": "This is especially true in sectors like entertainment and sports",
+    "P12": "The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph",
+    "P13": "David Archuleta who was once a nobody has now taken up a large space in hearts of many"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it is indeed true that university education is pivotal in a person's life in order for one to prosper",
-        "C2": "it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer",
-        "C3": "there are also a significant number of people who are very successful in their fields without going to university",
-        "C4": "individuals born with talents have also a high chance to be successful"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Without proper training and knowledge, it would be impossible for them to perform their best in their careers",
-        "P2": "Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners",
-        "P3": "This can benefit them in future when they intend to open up their own companies or hospitals",
-        "P4": "Take for instance those who start their own business",
-        "P5": "These people depend solely on hard work and luck",
-        "P6": "for some of them it proved to be a profitable job",
-        "P7": "Michael Dell who is the founder and the CEO of Dell left college at 19",
-        "P8": "he started his computer company in his college dorm room",
-        "P9": "he used his earnings as well as his family's loan in order to progress to be who he is now",
-        "P10": "people with natural talents are also most likely to excel in their life",
-        "P11": "This is especially true in sectors like entertainment and sports",
-        "P12": "The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph",
-        "P13": "David Archuleta who was once a nobody has now taken up a large space in hearts of many"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

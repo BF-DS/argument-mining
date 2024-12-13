@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "people's health would therefore be affected negatively",
-        "MC2": "life in big cities can have negative effects on people's health"
+  "MajorClaims": {
+    "MC1": "people's health would therefore be affected negatively",
+    "MC2": "life in big cities can have negative effects on people's health"
+  },
+  "Claims": {
+    "C1": "life in those cities is good in some ways",
+    "C2": "Environment pollution one of the primary reasons why life in cities is becoming worse than ever before",
+    "C3": "living in such cities also means living in high crime rate areas",
+    "C4": "it is likely that many foods in big cities are not safe for people to eat or drink",
+    "C5": "Earning money for living becomes more difficult, living healthy in such places is getting harder also"
+  },
+  "Premises": {
+    "P1": "Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases",
+    "P2": "water pollution makes people's health become more critical",
+    "P3": "dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time",
+    "P4": "Recent investigations reveal that toxic foods are sold pervasively in today's market",
+    "P5": "overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness",
+    "P6": "Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "life in those cities is good in some ways",
-        "C2": "Environment pollution one of the primary reasons why life in cities is becoming worse than ever before",
-        "C3": "living in such cities also means living in high crime rate areas",
-        "C4": "it is likely that many foods in big cities are not safe for people to eat or drink",
-        "C5": "Earning money for living becomes more difficult, living healthy in such places is getting harder also"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "Premises": {
-        "P1": "Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases",
-        "P2": "water pollution makes people's health become more critical",
-        "P3": "dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time",
-        "P4": "Recent investigations reveal that toxic foods are sold pervasively in today's market",
-        "P5": "overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness",
-        "P6": "Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

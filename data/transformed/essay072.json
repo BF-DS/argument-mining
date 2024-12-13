@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions",
-        "MC2": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
+  "MajorClaims": {
+    "MC1": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions",
+    "MC2": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
+  },
+  "Claims": {
+    "C1": "many activities can let humans relax",
+    "C2": "exercise play a crucial role in ameliorating physical health",
+    "C3": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks",
+    "C4": "Sports activities can improve mental health"
+  },
+  "Premises": {
+    "P1": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system",
+    "P2": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body",
+    "P3": "The latter one is of particular importance because nowadays more and more people are suffer from obesity",
+    "P4": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises",
+    "P5": "good exercises can often successfully alleviating one's heavy burdens",
+    "P6": "This hormone can delight one's mind, creating positive feelings",
+    "P7": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "many activities can let humans relax",
-        "C2": "exercise play a crucial role in ameliorating physical health",
-        "C3": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks",
-        "C4": "Sports activities can improve mental health"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system",
-        "P2": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body",
-        "P3": "The latter one is of particular importance because nowadays more and more people are suffer from obesity",
-        "P4": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises",
-        "P5": "good exercises can often successfully alleviating one's heavy burdens",
-        "P6": "This hormone can delight one's mind, creating positive feelings",
-        "P7": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

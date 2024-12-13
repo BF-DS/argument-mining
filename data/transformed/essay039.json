@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "human beings should travel to outer space",
-        "MC2": "there are some reasons for human beings to travel to outer space"
+  "MajorClaims": {
+    "MC1": "human beings should travel to outer space",
+    "MC2": "there are some reasons for human beings to travel to outer space"
+  },
+  "Claims": {
+    "C1": "many facts about solar system can be discovered",
+    "C2": "people can know more about the planet earth itself",
+    "C3": "a great deal of sophisticated technology can be invented"
+  },
+  "Premises": {
+    "P1": "a picture of planet earth proved that the earth is round, not flat",
+    "P2": "it is the earth which goes around the sun, not vice versa",
+    "P3": "If it was not for the space exploration, we would never know these facts",
+    "P4": "By observing planet earth from outer space, people can find out ample things for example about the atmosphere of the planet earth",
+    "P5": "With this knowledge, people can work on something to prevent earth hazards such as global warming",
+    "P6": "As astronauts need to travel to outer space which does not have any oxygen to breathe in, scientists are compelled to do research on the oxygen tanks",
+    "P7": "Oxygen tanks, for instance, are proved useful not only in outer space but also underwater",
+    "P8": "spaceships, communication satellites and space pens also contribute a lot to the society"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "many facts about solar system can be discovered",
-        "C2": "people can know more about the planet earth itself",
-        "C3": "a great deal of sophisticated technology can be invented"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "a picture of planet earth proved that the earth is round, not flat",
-        "P2": "it is the earth which goes around the sun, not vice versa",
-        "P3": "If it was not for the space exploration, we would never know these facts",
-        "P4": "By observing planet earth from outer space, people can find out ample things for example about the atmosphere of the planet earth",
-        "P5": "With this knowledge, people can work on something to prevent earth hazards such as global warming",
-        "P6": "As astronauts need to travel to outer space which does not have any oxygen to breathe in, scientists are compelled to do research on the oxygen tanks",
-        "P7": "Oxygen tanks, for instance, are proved useful not only in outer space but also underwater",
-        "P8": "spaceships, communication satellites and space pens also contribute a lot to the society"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

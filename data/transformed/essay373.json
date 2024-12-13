@@ -1,132 +1,132 @@
 {
-    "MajorClaims": {
-        "MC1": "it is no evidence about the reduction of crime rates due to the death penalty",
-        "MC2": "The world should consider clearly about polishing the law of the dead penalty"
+  "MajorClaims": {
+    "MC1": "it is no evidence about the reduction of crime rates due to the death penalty",
+    "MC2": "The world should consider clearly about polishing the law of the dead penalty"
+  },
+  "Claims": {
+    "C1": "death penalty neither controls the violent in society nor creates a violent culture",
+    "C2": "nobody has the right to take another human life",
+    "C3": "with some of serious criminals, capital punishment is an easy way out",
+    "C4": "it neither demines crimes of violence nor be essential to control violence in society"
+  },
+  "Premises": {
+    "P1": "Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one",
+    "P2": "the criminal is repeated second time",
+    "P3": "capital punishment is a form of revenge which creates violent culture",
+    "P4": "the rights of life are the basic and vital rights of a human being",
+    "P5": "No one has the right to take the life of a human; even if he committed murder",
+    "P6": "If you kill a criminal, you become a criminal",
+    "P7": "crimes seem to increase due to the capital punishment",
+    "P8": "if we think that killing is the best way to solve the problem, it is neither unethical nor immoral",
+    "P9": "If they kill someone and end their life by dead without paying for their sins, it is so easy for them",
+    "P10": "They do not undergo any pain or misery",
+    "P11": "Criminals should be punished for their misdeeds",
+    "P12": "capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life",
+    "P13": "rehabilitation and education is also a better way in order to prevent or minimize offensive acts",
+    "P14": "Why do not punish them by doing something meaningful for the country- it is better",
+    "P15": "some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors",
+    "P16": "it is regarded as the \"legalized revenge\" to victims' family"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "death penalty neither controls the violent in society nor creates a violent culture",
-        "C2": "nobody has the right to take another human life",
-        "C3": "with some of serious criminals, capital punishment is an easy way out",
-        "C4": "it neither demines crimes of violence nor be essential to control violence in society"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one",
-        "P2": "the criminal is repeated second time",
-        "P3": "capital punishment is a form of revenge which creates violent culture",
-        "P4": "the rights of life are the basic and vital rights of a human being",
-        "P5": "No one has the right to take the life of a human; even if he committed murder",
-        "P6": "If you kill a criminal, you become a criminal",
-        "P7": "crimes seem to increase due to the capital punishment",
-        "P8": "if we think that killing is the best way to solve the problem, it is neither unethical nor immoral",
-        "P9": "If they kill someone and end their life by dead without paying for their sins, it is so easy for them",
-        "P10": "They do not undergo any pain or misery",
-        "P11": "Criminals should be punished for their misdeeds",
-        "P12": "capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life",
-        "P13": "rehabilitation and education is also a better way in order to prevent or minimize offensive acts",
-        "P14": "Why do not punish them by doing something meaningful for the country- it is better",
-        "P15": "some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors",
-        "P16": "it is regarded as the \"legalized revenge\" to victims' family"
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P16"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P16"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

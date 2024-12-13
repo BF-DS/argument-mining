@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "a break of one year is good for young people after finishing their high school",
-        "MC2": "a break should be necessarily allowed to young minds between their high school and university studies"
+  "MajorClaims": {
+    "MC1": "a break of one year is good for young people after finishing their high school",
+    "MC2": "a break should be necessarily allowed to young minds between their high school and university studies"
+  },
+  "Claims": {
+    "C1": "the sole purpose of education is to nurture a young mind and not thrust studies on them",
+    "C2": "a break will give students some time to refresh their systems, by traveling or following their hobbies",
+    "C3": "Working or traveling for some time, after high school, can help them to find their field of interest",
+    "C4": "A break can disturb the focus of students and prove detrimental"
+  },
+  "Premises": {
+    "P1": "when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge",
+    "P2": "A relaxation of one year to young minds will give them a quintessential change",
+    "P3": "A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions",
+    "P4": "It will also help them to learn professional setup by working",
+    "P5": "Financially, students can save a little money to support their university education by doing a job",
+    "P6": "Some students even utilize this time for preparation of their desired university course",
+    "P7": "Students can also indulge in smoking or drinking during this time",
+    "P8": "When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia",
+    "P9": "my cousin started working in a customer care centre after high school and got distracted",
+    "P10": "When he started his university studies, he failed miserably",
+    "P11": "A break gives students more benefits than harms",
+    "P12": "It varies from individual to individual, how they utilize that period"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the sole purpose of education is to nurture a young mind and not thrust studies on them",
-        "C2": "a break will give students some time to refresh their systems, by traveling or following their hobbies",
-        "C3": "Working or traveling for some time, after high school, can help them to find their field of interest",
-        "C4": "A break can disturb the focus of students and prove detrimental"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge",
-        "P2": "A relaxation of one year to young minds will give them a quintessential change",
-        "P3": "A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions",
-        "P4": "It will also help them to learn professional setup by working",
-        "P5": "Financially, students can save a little money to support their university education by doing a job",
-        "P6": "Some students even utilize this time for preparation of their desired university course",
-        "P7": "Students can also indulge in smoking or drinking during this time",
-        "P8": "When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia",
-        "P9": "my cousin started working in a customer care centre after high school and got distracted",
-        "P10": "When he started his university studies, he failed miserably",
-        "P11": "A break gives students more benefits than harms",
-        "P12": "It varies from individual to individual, how they utilize that period"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

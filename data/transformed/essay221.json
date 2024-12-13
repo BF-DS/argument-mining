@@ -1,132 +1,132 @@
 {
-    "MajorClaims": {
-        "MC1": "the zoo is invaluable for human beings",
-        "MC2": "the zoo is so useful for the earth"
+  "MajorClaims": {
+    "MC1": "the zoo is invaluable for human beings",
+    "MC2": "the zoo is so useful for the earth"
+  },
+  "Claims": {
+    "C1": "It is very crucial for learning",
+    "C2": "It helps animals out of extinction",
+    "C3": "it is a interesting travel location",
+    "C4": "the zoo gives humans new knowledge",
+    "C5": "the zoo preserves a large number of rare animals and provides them safe habitats",
+    "C6": "It benefits to a certain country",
+    "C7": "the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives"
+  },
+  "Premises": {
+    "P1": "the zoo is the important place for innate learning",
+    "P2": "The zoo also let students have a chance to learning biology practically",
+    "P3": "They are able to observe animals' behaviors and features",
+    "P4": "practical learning help students relax from a boring lecture class",
+    "P5": "researchers need the zoo to pick up some examples of animals for their researches",
+    "P6": "it has diverse species of animals",
+    "P7": "In the zoo, there is not so harmful as a forest",
+    "P8": "They, fed by zookeepers, do not need to find food themselves",
+    "P9": "we can do artificial insemenation to maintain nearly extinct wildlife",
+    "P10": "because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction",
+    "P11": "There are a lot of tourists who seek to see those animals closely",
+    "P12": "If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money",
+    "P13": "That also make money flow, and then economics become better"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "It is very crucial for learning",
-        "C2": "It helps animals out of extinction",
-        "C3": "it is a interesting travel location",
-        "C4": "the zoo gives humans new knowledge",
-        "C5": "the zoo preserves a large number of rare animals and provides them safe habitats",
-        "C6": "It benefits to a certain country",
-        "C7": "the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the zoo is the important place for innate learning",
-        "P2": "The zoo also let students have a chance to learning biology practically",
-        "P3": "They are able to observe animals' behaviors and features",
-        "P4": "practical learning help students relax from a boring lecture class",
-        "P5": "researchers need the zoo to pick up some examples of animals for their researches",
-        "P6": "it has diverse species of animals",
-        "P7": "In the zoo, there is not so harmful as a forest",
-        "P8": "They, fed by zookeepers, do not need to find food themselves",
-        "P9": "we can do artificial insemenation to maintain nearly extinct wildlife",
-        "P10": "because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction",
-        "P11": "There are a lot of tourists who seek to see those animals closely",
-        "P12": "If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money",
-        "P13": "That also make money flow, and then economics become better"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C7",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C6"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C6"
+    }
+  ]
 }

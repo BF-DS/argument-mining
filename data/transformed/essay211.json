@@ -1,96 +1,96 @@
 {
-    "MajorClaims": {
-        "MC1": "schools should not remove these subjects",
-        "MC2": "non-academic subjects should be completely removed, I strongly disagree with that"
+  "MajorClaims": {
+    "MC1": "schools should not remove these subjects",
+    "MC2": "non-academic subjects should be completely removed, I strongly disagree with that"
+  },
+  "Claims": {
+    "C1": "non-academic subjects are as essential as academic subjects for a student\u2019s development",
+    "C2": "Removing physical classes from school education will not only be harmful to young people\u2019s health, it will also decrease their learning capability",
+    "C3": "school education should not only focus on the academic development of a student",
+    "C4": "students can learn practical skills after school hours from their parents"
+  },
+  "Premises": {
+    "P1": "from the health point of view, schools should not only deliver academic subjects",
+    "P2": "If physical education is removed from the syllabus, there will be considerable negative effects on students\u2019 health",
+    "P3": "after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes",
+    "P4": "it is much more crucial to teach them how to be independent and live a good life",
+    "P5": "Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit",
+    "P6": "schools are responsible for developing their students into well-rounded people",
+    "P7": "It is more important for a person to success in life than to success only academically",
+    "P8": "it is not a good idea",
+    "P9": "most young people would rather watch TV or play computer games after school instead of learning life skills from their parents",
+    "P10": "parents are usually too busy with their daily jobs to teach their children the life skills"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "non-academic subjects are as essential as academic subjects for a student\u2019s development",
-        "C2": "Removing physical classes from school education will not only be harmful to young people\u2019s health, it will also decrease their learning capability",
-        "C3": "school education should not only focus on the academic development of a student",
-        "C4": "students can learn practical skills after school hours from their parents"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "from the health point of view, schools should not only deliver academic subjects",
-        "P2": "If physical education is removed from the syllabus, there will be considerable negative effects on students\u2019 health",
-        "P3": "after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes",
-        "P4": "it is much more crucial to teach them how to be independent and live a good life",
-        "P5": "Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit",
-        "P6": "schools are responsible for developing their students into well-rounded people",
-        "P7": "It is more important for a person to success in life than to success only academically",
-        "P8": "it is not a good idea",
-        "P9": "most young people would rather watch TV or play computer games after school instead of learning life skills from their parents",
-        "P10": "parents are usually too busy with their daily jobs to teach their children the life skills"
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P10",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

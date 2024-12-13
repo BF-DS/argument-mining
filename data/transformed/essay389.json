@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "education is the single most important factor in the development of a country",
-        "MC2": "education plays an important role in the socioeconomic status of a country"
+  "MajorClaims": {
+    "MC1": "education is the single most important factor in the development of a country",
+    "MC2": "education plays an important role in the socioeconomic status of a country"
+  },
+  "Claims": {
+    "C1": "The more people in the country become educated, the better chance it can develop",
+    "C2": "these children remain uneducated and will have the same fate as their parents",
+    "C3": "the benefits of education can make a man, a society and a developed country"
+  },
+  "Premises": {
+    "P1": "In a developing country, not many can afford to send their children to school",
+    "P2": "There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities",
+    "P3": "They are not reachable by children who live in the mountains or islands",
+    "P4": "These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday",
+    "P5": "Basic education teaches one child to read and write",
+    "P6": "Supplementary education provides him with useful knowledge and information",
+    "P7": "A further specific education can teach an individual with skills enough to make a living and be self-sufficient",
+    "P8": "A well-informed man can act sensibly and make sound judgment",
+    "P9": "a skillful man contributes favorably and is valuable to the society"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "The more people in the country become educated, the better chance it can develop",
-        "C2": "these children remain uneducated and will have the same fate as their parents",
-        "C3": "the benefits of education can make a man, a society and a developed country"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "In a developing country, not many can afford to send their children to school",
-        "P2": "There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities",
-        "P3": "They are not reachable by children who live in the mountains or islands",
-        "P4": "These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday",
-        "P5": "Basic education teaches one child to read and write",
-        "P6": "Supplementary education provides him with useful knowledge and information",
-        "P7": "A further specific education can teach an individual with skills enough to make a living and be self-sufficient",
-        "P8": "A well-informed man can act sensibly and make sound judgment",
-        "P9": "a skillful man contributes favorably and is valuable to the society"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

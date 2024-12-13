@@ -1,115 +1,115 @@
 {
-    "MajorClaims": {
-        "MC1": "I myself agree with the plan to build the university",
-        "MC2": "the benefit from it will outweigh the cost",
-        "MC3": "I will be happy to hear that the government has a plan to build a new university in my community"
+  "MajorClaims": {
+    "MC1": "I myself agree with the plan to build the university",
+    "MC2": "the benefit from it will outweigh the cost",
+    "MC3": "I will be happy to hear that the government has a plan to build a new university in my community"
+  },
+  "Claims": {
+    "C1": "There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs",
+    "C2": "This new university will allow a great number of people in my community to have a chance to study",
+    "C3": "This can also help stimulate the local economy",
+    "C4": "building the university may lead to some social problems"
+  },
+  "Premises": {
+    "P1": "suppose you live in a faraway community where there is no single university and you might not want to leave your family",
+    "P2": "If you would like to attend a business school, you have to travel across the country to get to a distant university",
+    "P3": "He or she definitely can get in the business school in the proposed community's university",
+    "P4": "a number vacant positions need to be filled",
+    "P5": "the university will have to hire professors, employees and etc",
+    "P6": "there will be more opportunities to work in the community",
+    "P7": "when people have jobs, they will have money to spend on goods and services",
+    "P8": "A number of people then may come from any other communities in order to get in to or get the jobs at the university",
+    "P9": "When many people congregate in one place, I think that some kinds of social problems will follow",
+    "P10": "Traffic may worsen",
+    "P11": "More wastes have to be managed",
+    "P12": "Maybe crime rate will also increase",
+    "P13": "These social problems may impair the quality of life in the community"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs",
-        "C2": "This new university will allow a great number of people in my community to have a chance to study",
-        "C3": "This can also help stimulate the local economy",
-        "C4": "building the university may lead to some social problems"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "suppose you live in a faraway community where there is no single university and you might not want to leave your family",
-        "P2": "If you would like to attend a business school, you have to travel across the country to get to a distant university",
-        "P3": "He or she definitely can get in the business school in the proposed community's university",
-        "P4": "a number vacant positions need to be filled",
-        "P5": "the university will have to hire professors, employees and etc",
-        "P6": "there will be more opportunities to work in the community",
-        "P7": "when people have jobs, they will have money to spend on goods and services",
-        "P8": "A number of people then may come from any other communities in order to get in to or get the jobs at the university",
-        "P9": "When many people congregate in one place, I think that some kinds of social problems will follow",
-        "P10": "Traffic may worsen",
-        "P11": "More wastes have to be managed",
-        "P12": "Maybe crime rate will also increase",
-        "P13": "These social problems may impair the quality of life in the community"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

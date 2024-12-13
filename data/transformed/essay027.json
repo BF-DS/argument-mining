@@ -1,60 +1,60 @@
 {
-    "MajorClaims": {
-        "MC1": "financial aid is not the only way to assist poor countries",
-        "MC2": "it is disagreed that this can be the best and only way to assist developing countries"
+  "MajorClaims": {
+    "MC1": "financial aid is not the only way to assist poor countries",
+    "MC2": "it is disagreed that this can be the best and only way to assist developing countries"
+  },
+  "Claims": {
+    "C1": "it has been proven that developing education and improving national technology and science level are the path they have to undergo if they really want to alter current situation",
+    "C2": "if the developed countries are unwilling to share their successful experience in education, the developing countries will remain undeveloped, even though they gain a great deal of economic support",
+    "C3": "developing countries should not totally depend on the financial support from powerful countries"
+  },
+  "Premises": {
+    "P1": "the critical method to improve the condition of poor countries is to help them build up a complete educational system instead of financial aid",
+    "P2": "education is an essential part in development",
+    "P3": "most developing countries are lack of educational resources, such as experienced teachers, evaluation systems and teaching facilities, which is usually neglected by local authorities",
+    "P4": "some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market",
+    "P5": "they rarely provide local residents with any technological aid and even cause contamination in some areas"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it has been proven that developing education and improving national technology and science level are the path they have to undergo if they really want to alter current situation",
-        "C2": "if the developed countries are unwilling to share their successful experience in education, the developing countries will remain undeveloped, even though they gain a great deal of economic support",
-        "C3": "developing countries should not totally depend on the financial support from powerful countries"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the critical method to improve the condition of poor countries is to help them build up a complete educational system instead of financial aid",
-        "P2": "education is an essential part in development",
-        "P3": "most developing countries are lack of educational resources, such as experienced teachers, evaluation systems and teaching facilities, which is usually neglected by local authorities",
-        "P4": "some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market",
-        "P5": "they rarely provide local residents with any technological aid and even cause contamination in some areas"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

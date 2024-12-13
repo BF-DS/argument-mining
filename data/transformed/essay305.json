@@ -1,138 +1,138 @@
 {
-    "MajorClaims": {
-        "MC1": "going to classes should be optional for the students",
-        "MC2": "if the students choose the classes as optional, it would provide more benefits than drawbacks"
+  "MajorClaims": {
+    "MC1": "going to classes should be optional for the students",
+    "MC2": "if the students choose the classes as optional, it would provide more benefits than drawbacks"
+  },
+  "Claims": {
+    "C1": "it is university level of education, students have enough maturity to choose their choice",
+    "C2": "they have enough ability to read and understand the text book",
+    "C3": "with the modern technology, students can collect more information from different sources",
+    "C4": "some lecturers deliver lectures very informative and interesting way",
+    "C5": "going to classes are sometimes waste of the time",
+    "C6": "rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth",
+    "C7": "they have to schedule the lectures time, studying time and working time",
+    "C8": "few brilliant lecturers deliver more informative lectures",
+    "C9": "When the students go to university, they have matured mentally and physically",
+    "C10": "They have enough knowledge to choose what they need to do"
+  },
+  "Premises": {
+    "P1": "some lecturers in our university read the same text in the reference books for that particular course module",
+    "P2": "they didn't explain the contents in order to understand by the students",
+    "P3": "the university students have grown up",
+    "P4": "from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently",
+    "P5": "When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time",
+    "P6": "It was waste of the time",
+    "P7": "most of the university students are working students in order to manage the expenses during the education time",
+    "P8": "Students need to work as part time basis",
+    "P9": "they can meet other university students and build up the relationships with them",
+    "P10": "mostly university has taken whole day for the lectures",
+    "P11": "some are boring the students in the class and wasting the students' time"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it is university level of education, students have enough maturity to choose their choice",
-        "C2": "they have enough ability to read and understand the text book",
-        "C3": "with the modern technology, students can collect more information from different sources",
-        "C4": "some lecturers deliver lectures very informative and interesting way",
-        "C5": "going to classes are sometimes waste of the time",
-        "C6": "rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth",
-        "C7": "they have to schedule the lectures time, studying time and working time",
-        "C8": "few brilliant lecturers deliver more informative lectures",
-        "C9": "When the students go to university, they have matured mentally and physically",
-        "C10": "They have enough knowledge to choose what they need to do"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "some lecturers in our university read the same text in the reference books for that particular course module",
-        "P2": "they didn't explain the contents in order to understand by the students",
-        "P3": "the university students have grown up",
-        "P4": "from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently",
-        "P5": "When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time",
-        "P6": "It was waste of the time",
-        "P7": "most of the university students are working students in order to manage the expenses during the education time",
-        "P8": "Students need to work as part time basis",
-        "P9": "they can meet other university students and build up the relationships with them",
-        "P10": "mostly university has taken whole day for the lectures",
-        "P11": "some are boring the students in the class and wasting the students' time"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "C7",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "C8",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P11",
-            "Relation": "attacks",
-            "target": "C8"
-        },
-        {
-            "start": "C9",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C10",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "C8",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "attacks",
+      "Target": "C8"
+    },
+    {
+      "Claim": "C9",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C10",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

@@ -1,101 +1,101 @@
 {
-    "MajorClaims": {
-        "MC1": "parents are really the best teachers who give us much knowledge and advice"
+  "MajorClaims": {
+    "MC1": "parents are really the best teachers who give us much knowledge and advice"
+  },
+  "Claims": {
+    "C1": "parents are the first teachers who teach babies how to walk and speak and make children to become a good person",
+    "C2": "parents provide their children the best social skills and knowledge in order to prepare for their children's future life",
+    "C3": "children are taught basic things, which influence their whole life, by their parents",
+    "C4": "parents train their child how to become a good person",
+    "C5": "parents' support is one factor which makes people succeed in their life"
+  },
+  "Premises": {
+    "P1": "As a baby, they do not know any thing all around but they learn everything from their parents",
+    "P2": "Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that",
+    "P3": "parents bring the whole world of wonderful and colorful thing into their baby's little mind",
+    "P4": "They always make their children basically say thanks and apology in the right way",
+    "P5": "it is common that they try to explain who is a good or bad person",
+    "P6": "children are shown how to behave well with others",
+    "P7": "this can influence positively their future children and makes children's behavior better before they face the real world",
+    "P8": "parents are ones who loves their children most and always take care of their children",
+    "P9": "they tend to provide the best knowledge and advice from their experience for children",
+    "P10": "Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "parents are the first teachers who teach babies how to walk and speak and make children to become a good person",
-        "C2": "parents provide their children the best social skills and knowledge in order to prepare for their children's future life",
-        "C3": "children are taught basic things, which influence their whole life, by their parents",
-        "C4": "parents train their child how to become a good person",
-        "C5": "parents' support is one factor which makes people succeed in their life"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "As a baby, they do not know any thing all around but they learn everything from their parents",
-        "P2": "Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that",
-        "P3": "parents bring the whole world of wonderful and colorful thing into their baby's little mind",
-        "P4": "They always make their children basically say thanks and apology in the right way",
-        "P5": "it is common that they try to explain who is a good or bad person",
-        "P6": "children are shown how to behave well with others",
-        "P7": "this can influence positively their future children and makes children's behavior better before they face the real world",
-        "P8": "parents are ones who loves their children most and always take care of their children",
-        "P9": "they tend to provide the best knowledge and advice from their experience for children",
-        "P10": "Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

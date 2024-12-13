@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "people should sometimes do things that they do not enjoy",
-        "MC2": "there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities which is the part of individual's live"
+  "MajorClaims": {
+    "MC1": "people should sometimes do things that they do not enjoy",
+    "MC2": "there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities which is the part of individual's live"
+  },
+  "Claims": {
+    "C1": "In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities",
+    "C2": "professional lives are filled with tasks that is neccessary parts of the jobs",
+    "C3": "doing something which an individual doesn't enjoy can led to enjoyment"
+  },
+  "Premises": {
+    "P1": "housework is very difficult for me, although my husband helps me some of them, but it is my responsibility",
+    "P2": "I really don't like any of them, however I should do",
+    "P3": "most people's lives are filled with tasks that they don't enjoy doing",
+    "P4": "I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field",
+    "P5": "Nobody likes attending boring conferences, or working a person who isn't well in with anyone",
+    "P6": "People sometimes can attend any activities by insisting on any of their friends although they don't really want",
+    "P7": "one of our friends tell my husband and me about a dance course which we both don't like",
+    "P8": "After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities",
-        "C2": "professional lives are filled with tasks that is neccessary parts of the jobs",
-        "C3": "doing something which an individual doesn't enjoy can led to enjoyment"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "housework is very difficult for me, although my husband helps me some of them, but it is my responsibility",
-        "P2": "I really don't like any of them, however I should do",
-        "P3": "most people's lives are filled with tasks that they don't enjoy doing",
-        "P4": "I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field",
-        "P5": "Nobody likes attending boring conferences, or working a person who isn't well in with anyone",
-        "P6": "People sometimes can attend any activities by insisting on any of their friends although they don't really want",
-        "P7": "one of our friends tell my husband and me about a dance course which we both don't like",
-        "P8": "After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

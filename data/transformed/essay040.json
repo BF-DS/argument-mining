@@ -1,89 +1,89 @@
 {
-    "MajorClaims": {
-        "MC1": "having a part time job during your student time will offer students many clear benefits"
+  "MajorClaims": {
+    "MC1": "having a part time job during your student time will offer students many clear benefits"
+  },
+  "Claims": {
+    "C1": "By taking on an extra job, students can partly alleviate some their problematic matters such as working experience, confidence and accommodation",
+    "C2": "having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation",
+    "C3": "students who take on a part time job are often more confident and independent than other ones",
+    "C4": "doing extra jobs helps student with money for their accommodation",
+    "C5": "that helps students from being reliant on their families as well as is a well-prepared condition for their independent later life"
+  },
+  "Premises": {
+    "P1": "It is undoubtedly certain that students can gain their practical experience by getting involved extra jobs",
+    "P2": "students who get part time jobs have not only academic knowledge but also hands-on experience",
+    "P3": "that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities",
+    "P4": "Part-time jobs furnish them with precious chance to practice what they are learning at their universities",
+    "P5": "By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation, then students' confidence could be significantly gained",
+    "P6": "working conditions require students the independency in thinking, working, and solving problems, which is greatly helpful when the characteristic is applied to tackle subjects in their universities",
+    "P7": "high studying tuition, added with raising accommodation expenses are becoming a huge burden to students",
+    "P8": "With the money they earn from extra jobs, which normally is not much, those difficulties could be partially solved"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "By taking on an extra job, students can partly alleviate some their problematic matters such as working experience, confidence and accommodation",
-        "C2": "having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation",
-        "C3": "students who take on a part time job are often more confident and independent than other ones",
-        "C4": "doing extra jobs helps student with money for their accommodation",
-        "C5": "that helps students from being reliant on their families as well as is a well-prepared condition for their independent later life"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "It is undoubtedly certain that students can gain their practical experience by getting involved extra jobs",
-        "P2": "students who get part time jobs have not only academic knowledge but also hands-on experience",
-        "P3": "that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities",
-        "P4": "Part-time jobs furnish them with precious chance to practice what they are learning at their universities",
-        "P5": "By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation, then students' confidence could be significantly gained",
-        "P6": "working conditions require students the independency in thinking, working, and solving problems, which is greatly helpful when the characteristic is applied to tackle subjects in their universities",
-        "P7": "high studying tuition, added with raising accommodation expenses are becoming a huge burden to students",
-        "P8": "With the money they earn from extra jobs, which normally is not much, those difficulties could be partially solved"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

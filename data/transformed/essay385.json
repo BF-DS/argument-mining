@@ -1,71 +1,71 @@
 {
-    "MajorClaims": {
-        "MC1": "the guns which are used by police have not been a trigger of higher level of violence"
+  "MajorClaims": {
+    "MC1": "the guns which are used by police have not been a trigger of higher level of violence"
+  },
+  "Claims": {
+    "C1": "some military weapons need encouraging for police officers to protect the public and minimize the rate of violence",
+    "C2": "there are some reason why the level of bloody increases significantly in the communities"
+  },
+  "Premises": {
+    "P1": "they have a weapon which will prevent an escaping criminal who poses a serious danger to the public",
+    "P2": "a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun",
+    "P3": "An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him",
+    "P4": "police officers can force a criminal to surrender",
+    "P5": "the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries",
+    "P6": "Many well-qualified and well-educated person cannot earn some money to live comfortably",
+    "P7": "cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs",
+    "P8": "Many baggers chose to be a pickpocket in the public transport, for instance"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "some military weapons need encouraging for police officers to protect the public and minimize the rate of violence",
-        "C2": "there are some reason why the level of bloody increases significantly in the communities"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "Premises": {
-        "P1": "they have a weapon which will prevent an escaping criminal who poses a serious danger to the public",
-        "P2": "a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun",
-        "P3": "An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him",
-        "P4": "police officers can force a criminal to surrender",
-        "P5": "the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries",
-        "P6": "Many well-qualified and well-educated person cannot earn some money to live comfortably",
-        "P7": "cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs",
-        "P8": "Many baggers chose to be a pickpocket in the public transport, for instance"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

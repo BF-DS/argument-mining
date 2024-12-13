@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "physical exercise is a crucial part of every school day",
-        "MC2": "Including physical activity in children's school day should be strongly considered"
+  "MajorClaims": {
+    "MC1": "physical exercise is a crucial part of every school day",
+    "MC2": "Including physical activity in children's school day should be strongly considered"
+  },
+  "Claims": {
+    "C1": "Exercise is good not only for having a good health body, but also for the mind",
+    "C2": "including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age",
+    "C3": "Physical activity helps children to grow up physically healthier",
+    "C4": "Daily exercise will help also to develop children's brain function",
+    "C5": "Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine",
+    "C6": "It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules"
+  },
+  "Premises": {
+    "P1": "the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",
+    "P2": "exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues",
+    "P3": "It is well known how important it is to exercise regularly to help the body system to work better",
+    "P4": "When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in",
+    "P5": "Daily exercise will provide children with a mental break which will boost them to be efficient learners",
+    "P6": "Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice",
+    "P7": "they can stick with the routine and make the daily physical activities a good habit on their whole life"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Exercise is good not only for having a good health body, but also for the mind",
-        "C2": "including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age",
-        "C3": "Physical activity helps children to grow up physically healthier",
-        "C4": "Daily exercise will help also to develop children's brain function",
-        "C5": "Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine",
-        "C6": "It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",
-        "P2": "exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues",
-        "P3": "It is well known how important it is to exercise regularly to help the body system to work better",
-        "P4": "When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in",
-        "P5": "Daily exercise will provide children with a mental break which will boost them to be efficient learners",
-        "P6": "Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice",
-        "P7": "they can stick with the routine and make the daily physical activities a good habit on their whole life"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

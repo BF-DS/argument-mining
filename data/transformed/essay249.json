@@ -1,108 +1,108 @@
 {
-    "MajorClaims": {
-        "MC1": "children should be forbidden in watching television or movies excessively",
-        "MC2": "In considering whether the time children watching on TV or movies should be constrained, I hold a strongly positive point of view toward this issue"
+  "MajorClaims": {
+    "MC1": "children should be forbidden in watching television or movies excessively",
+    "MC2": "In considering whether the time children watching on TV or movies should be constrained, I hold a strongly positive point of view toward this issue"
+  },
+  "Claims": {
+    "C1": "Watching TV for a long time without doing homework is one of major headaches that most of children have brought to their parents",
+    "C2": "there are many programs on TV or movies that are harmful to children in metal and physical health",
+    "C3": "children should watch TV and movies for their rich contents that could give children some topics in conversation",
+    "C4": "children are poor at time management, and are less mature to make a good judgment, they cannot be too serious to be taken care when watching TV and movies"
+  },
+  "Premises": {
+    "P1": "children generally have weak self-control, and thus they lose their time easily",
+    "P2": "Whenever I back to home from school, the first thing I would do is turning on the television and sit there for hours",
+    "P3": "I could watch TV for hours, but I could hardly sit in front of my desk to do homework for few minutes",
+    "P4": "I could memorize all channels that TV programs was playing, but I could barely memorize any word on the textbook",
+    "P5": "I, therefore, did extremely bad at school due to the lack of studying",
+    "P6": "Children are not mature enough to make a judgment of what is good or bad",
+    "P7": "they are likely to imitate the behaviors on TV out of their curiosity",
+    "P8": "Recently, more and more children smoke",
+    "P9": "they imitate actors' behaviors on TV or movies",
+    "P10": "according to some statistics, there are more and more children have violent tendency, and the reports attribute this to TV programs and movies",
+    "P11": "sometimes programs on TV are full of violence and sex which are harmful to children",
+    "P12": "it doesn't mean that children should do it overtime and without being taken care what they are watching"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Watching TV for a long time without doing homework is one of major headaches that most of children have brought to their parents",
-        "C2": "there are many programs on TV or movies that are harmful to children in metal and physical health",
-        "C3": "children should watch TV and movies for their rich contents that could give children some topics in conversation",
-        "C4": "children are poor at time management, and are less mature to make a good judgment, they cannot be too serious to be taken care when watching TV and movies"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "children generally have weak self-control, and thus they lose their time easily",
-        "P2": "Whenever I back to home from school, the first thing I would do is turning on the television and sit there for hours",
-        "P3": "I could watch TV for hours, but I could hardly sit in front of my desk to do homework for few minutes",
-        "P4": "I could memorize all channels that TV programs was playing, but I could barely memorize any word on the textbook",
-        "P5": "I, therefore, did extremely bad at school due to the lack of studying",
-        "P6": "Children are not mature enough to make a judgment of what is good or bad",
-        "P7": "they are likely to imitate the behaviors on TV out of their curiosity",
-        "P8": "Recently, more and more children smoke",
-        "P9": "they imitate actors' behaviors on TV or movies",
-        "P10": "according to some statistics, there are more and more children have violent tendency, and the reports attribute this to TV programs and movies",
-        "P11": "sometimes programs on TV are full of violence and sex which are harmful to children",
-        "P12": "it doesn't mean that children should do it overtime and without being taken care what they are watching"
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P5"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P12",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

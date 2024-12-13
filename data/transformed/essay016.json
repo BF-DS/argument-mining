@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "the merits of animal experiments still outweigh the demerits",
-        "MC2": "it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals"
+  "MajorClaims": {
+    "MC1": "the merits of animal experiments still outweigh the demerits",
+    "MC2": "it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals"
+  },
+  "Claims": {
+    "C1": "there is some disadvantages of animals' profits",
+    "C2": "doing this various testing is a hazard of human's future and next generation",
+    "C3": "it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying"
+  },
+  "Premises": {
+    "P1": "animals are friendly and vital for people",
+    "P2": "if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well",
+    "P3": "The animal experiments accelerate the vanishing of some categories of animals",
+    "P4": "animal experiments have negative impact on the natural balance",
+    "P5": "it is necessary to make sure that people can live a long life",
+    "P6": "The new foods or medicines are invented to promote the quantity of human's life",
+    "P7": "even if they are volunteers; they cannot take the place of animals to test the new foods or medicines",
+    "P8": "it also have potentially harm for human's health without any testing"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "there is some disadvantages of animals' profits",
-        "C2": "doing this various testing is a hazard of human's future and next generation",
-        "C3": "it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "animals are friendly and vital for people",
-        "P2": "if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well",
-        "P3": "The animal experiments accelerate the vanishing of some categories of animals",
-        "P4": "animal experiments have negative impact on the natural balance",
-        "P5": "it is necessary to make sure that people can live a long life",
-        "P6": "The new foods or medicines are invented to promote the quantity of human's life",
-        "P7": "even if they are volunteers; they cannot take the place of animals to test the new foods or medicines",
-        "P8": "it also have potentially harm for human's health without any testing"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "attacks",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

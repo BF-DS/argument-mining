@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "the advanced medical care brings with it more benefits than disadvantages",
-        "MC2": "the development of the health care system helps people have a better life"
+  "MajorClaims": {
+    "MC1": "the advanced medical care brings with it more benefits than disadvantages",
+    "MC2": "the development of the health care system helps people have a better life"
+  },
+  "Claims": {
+    "C1": "the increase in life expectancy has some pressure on the Medicare system",
+    "C2": "the improvement of medical care makes a better life for all people",
+    "C3": "The main advantage of high-tech medical care is that people are better taken care so that they have a good health",
+    "C4": "the increase in life expectancy puts a high pressure on the economic system",
+    "C5": "It helps people build a sustainable society where people can live a happy life when they are old"
+  },
+  "Premises": {
+    "P1": "They can contribute effectively to the development of the economy",
+    "P2": "healthy workers can create more productivity",
+    "P3": "they do not have to spend more time in health checking or treatment",
+    "P4": "this saves an amount of time as well as cost",
+    "P5": "a community with the elderly who have a good health has a major role to play in a sustainable development of a society",
+    "P6": "young people will be happy as their parents, grandparents are healthy",
+    "P7": "more pension have to spend for Medicare instead of investing in other sectors of the economic system",
+    "P8": "the capital that spend on taking care the elderly is contributed by these people during their working time",
+    "P9": "they are worth to have good care",
+    "P10": "They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the increase in life expectancy has some pressure on the Medicare system",
-        "C2": "the improvement of medical care makes a better life for all people",
-        "C3": "The main advantage of high-tech medical care is that people are better taken care so that they have a good health",
-        "C4": "the increase in life expectancy puts a high pressure on the economic system",
-        "C5": "It helps people build a sustainable society where people can live a happy life when they are old"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "They can contribute effectively to the development of the economy",
-        "P2": "healthy workers can create more productivity",
-        "P3": "they do not have to spend more time in health checking or treatment",
-        "P4": "this saves an amount of time as well as cost",
-        "P5": "a community with the elderly who have a good health has a major role to play in a sustainable development of a society",
-        "P6": "young people will be happy as their parents, grandparents are healthy",
-        "P7": "more pension have to spend for Medicare instead of investing in other sectors of the economic system",
-        "P8": "the capital that spend on taking care the elderly is contributed by these people during their working time",
-        "P9": "they are worth to have good care",
-        "P10": "They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P9",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P9"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    }
+  ]
 }

@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "by allowing students to watch TV at both school and house can adversely impact on their overall growth",
-        "MC2": "if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children"
+  "MajorClaims": {
+    "MC1": "by allowing students to watch TV at both school and house can adversely impact on their overall growth",
+    "MC2": "if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children"
+  },
+  "Claims": {
+    "C1": "If children spend too much time in front of TV, it will negatively impact their health and study",
+    "C2": "By watching TV, children can develop skills in extra-curriculum activities",
+    "C3": "watching TV for a continuously long hours can adversely impact children health",
+    "C4": "demerits of watching TV outweigh its merits"
+  },
+  "Premises": {
+    "P1": "There are international and local news channels like BBC, CNBC, Etv Gujarati, Etv Marathi etc to keep individuals updated about latest happenings",
+    "P2": "Cooking programs teach about how to make new dishes and similarly, sports events like cricket, football can teach leadership skills, team building skills, communication skills and many more that can help students in their future jobs",
+    "P3": "TV is one of the prime source of data and information",
+    "P4": "they can get poor eyesight in early ages of childhood, and also develop back pain",
+    "P5": "Sometimes, students watch restrictive programs not allowed for their ages and this can have major psychological consequences",
+    "P6": "Many times, students get addictive to their favorite programs like Cartoon channels, or baseball and easily get distracted from study during exam period and this can seriously impact their grades"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "If children spend too much time in front of TV, it will negatively impact their health and study",
-        "C2": "By watching TV, children can develop skills in extra-curriculum activities",
-        "C3": "watching TV for a continuously long hours can adversely impact children health",
-        "C4": "demerits of watching TV outweigh its merits"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "There are international and local news channels like BBC, CNBC, Etv Gujarati, Etv Marathi etc to keep individuals updated about latest happenings",
-        "P2": "Cooking programs teach about how to make new dishes and similarly, sports events like cricket, football can teach leadership skills, team building skills, communication skills and many more that can help students in their future jobs",
-        "P3": "TV is one of the prime source of data and information",
-        "P4": "they can get poor eyesight in early ages of childhood, and also develop back pain",
-        "P5": "Sometimes, students watch restrictive programs not allowed for their ages and this can have major psychological consequences",
-        "P6": "Many times, students get addictive to their favorite programs like Cartoon channels, or baseball and easily get distracted from study during exam period and this can seriously impact their grades"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

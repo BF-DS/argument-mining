@@ -1,71 +1,71 @@
 {
-    "MajorClaims": {
-        "MC1": "it should be made available for a wide range of learners"
+  "MajorClaims": {
+    "MC1": "it should be made available for a wide range of learners"
+  },
+  "Claims": {
+    "C1": "university restriction has both pros and cons",
+    "C2": "outstanding academic students are eligible for university due to their intellectual advantage",
+    "C3": "it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively",
+    "C4": "there is a tendency for social vices to rise if university is to be restricted to only the best people"
+  },
+  "Premises": {
+    "P1": "it will yield more negative results than positive ones",
+    "P2": "such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills",
+    "P3": "one deserves what he has done",
+    "P4": "University is like a gift presented to those who have gone to great length to attain",
+    "P5": "university is not just about academic studies but also a place to nurture artistic talent and develop soft skills",
+    "P6": "Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "university restriction has both pros and cons",
-        "C2": "outstanding academic students are eligible for university due to their intellectual advantage",
-        "C3": "it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively",
-        "C4": "there is a tendency for social vices to rise if university is to be restricted to only the best people"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "it will yield more negative results than positive ones",
-        "P2": "such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills",
-        "P3": "one deserves what he has done",
-        "P4": "University is like a gift presented to those who have gone to great length to attain",
-        "P5": "university is not just about academic studies but also a place to nurture artistic talent and develop soft skills",
-        "P6": "Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

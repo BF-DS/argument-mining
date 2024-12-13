@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "it is good for a teenager to do a part time job while he/she is still a student",
-        "MC2": "part time job will be good for students"
+  "MajorClaims": {
+    "MC1": "it is good for a teenager to do a part time job while he/she is still a student",
+    "MC2": "part time job will be good for students"
+  },
+  "Claims": {
+    "C1": "it can destruct students from their study",
+    "C2": "students can learn lots of things from part time job, before starting their real job",
+    "C3": "from part time jobs students can earn money, which can help their parents"
+  },
+  "Premises": {
+    "P1": "i did part time job in my high school and it did not hurt my academic result",
+    "P2": "Students can learn about time management, money management and convince people by their words",
+    "P3": "when I was in my high school I worked as a sales-man in a shop for a year",
+    "P4": "i had to manage my time efficiently",
+    "P5": "As i had to spend some of my time in my job",
+    "P6": "I had to manage my boss as well as had to prepare my homework",
+    "P7": "This taught me how to manage time efficiently and do any job quickly and effectively",
+    "P8": "I learn money management",
+    "P9": "When my boss was out of the shop, i had to manage the accounts section of the shop",
+    "P10": "From this i learned, how to manage money correctly",
+    "P11": "This experience taught me, doing part time job can help students to learn many things",
+    "P12": "part time job can help students earn money and which can help their parents financially",
+    "P13": "By tutoring them, i earned some money and bought me books with it",
+    "P14": "after taking that part time job i stopped taking my pocket money form my parents"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it can destruct students from their study",
-        "C2": "students can learn lots of things from part time job, before starting their real job",
-        "C3": "from part time jobs students can earn money, which can help their parents"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "i did part time job in my high school and it did not hurt my academic result",
-        "P2": "Students can learn about time management, money management and convince people by their words",
-        "P3": "when I was in my high school I worked as a sales-man in a shop for a year",
-        "P4": "i had to manage my time efficiently",
-        "P5": "As i had to spend some of my time in my job",
-        "P6": "I had to manage my boss as well as had to prepare my homework",
-        "P7": "This taught me how to manage time efficiently and do any job quickly and effectively",
-        "P8": "I learn money management",
-        "P9": "When my boss was out of the shop, i had to manage the accounts section of the shop",
-        "P10": "From this i learned, how to manage money correctly",
-        "P11": "This experience taught me, doing part time job can help students to learn many things",
-        "P12": "part time job can help students earn money and which can help their parents financially",
-        "P13": "By tutoring them, i earned some money and bought me books with it",
-        "P14": "after taking that part time job i stopped taking my pocket money form my parents"
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

@@ -1,83 +1,83 @@
 {
-    "MajorClaims": {
-        "MC1": "the option of working or studying from home is thought to provide more benefits than drawbacks"
+  "MajorClaims": {
+    "MC1": "the option of working or studying from home is thought to provide more benefits than drawbacks"
+  },
+  "Claims": {
+    "C1": "the advantages that people enjoy by working or studying from home, are obvious",
+    "C2": "These factors affect people who work or study from home"
+  },
+  "Premises": {
+    "P1": "it helps working people to maintain work life balance",
+    "P2": "the new mother who can join her work as well as take care of her baby",
+    "P3": "People also get the desired flexibility in terms of working hours",
+    "P4": "For students too, studying from home is an attractive option",
+    "P5": "They save the travelling time to Universities and utilize that time on their studies",
+    "P6": "In a busy city like Tokyo, students waste a lot of time in travelling",
+    "P7": "the benefit that professionals or students get by connecting from home is enormous",
+    "P8": "once an employee works from isolation, he or she spends a lot of time in communication via phone or email with colleagues",
+    "P9": "This harms an employee's deliverable",
+    "P10": "Teachers think that students get affected too as they can not clear their doubts in study topics instantly"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "Claims": {
-        "C1": "the advantages that people enjoy by working or studying from home, are obvious",
-        "C2": "These factors affect people who work or study from home"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "it helps working people to maintain work life balance",
-        "P2": "the new mother who can join her work as well as take care of her baby",
-        "P3": "People also get the desired flexibility in terms of working hours",
-        "P4": "For students too, studying from home is an attractive option",
-        "P5": "They save the travelling time to Universities and utilize that time on their studies",
-        "P6": "In a busy city like Tokyo, students waste a lot of time in travelling",
-        "P7": "the benefit that professionals or students get by connecting from home is enormous",
-        "P8": "once an employee works from isolation, he or she spends a lot of time in communication via phone or email with colleagues",
-        "P9": "This harms an employee's deliverable",
-        "P10": "Teachers think that students get affected too as they can not clear their doubts in study topics instantly"
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

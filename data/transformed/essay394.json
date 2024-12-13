@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "children are those who need to be under instruction of handwriting",
-        "MC2": "handwriting is still a needed skill for all of people, especially students at the early age"
+  "MajorClaims": {
+    "MC1": "children are those who need to be under instruction of handwriting",
+    "MC2": "handwriting is still a needed skill for all of people, especially students at the early age"
+  },
+  "Claims": {
+    "C1": "handwriting still plays a vital role in students' learning",
+    "C2": "poor handwriting can have a negative impact on students' school performance"
+  },
+  "Premises": {
+    "P1": "this approach is a basis tool used in several fields such as taking notes, doing homework and writing",
+    "P2": "It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well",
+    "P3": "Under the guidance of parents or teachers, children can benefit from practicing handwriting",
+    "P4": "This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities",
+    "P5": "kids who are bad at handwriting meet difficulties in taking notes and catching up lessons",
+    "P6": "It resulted in the missing of information and the lack of details during their works",
+    "P7": "the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills",
+    "P8": "with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Claims": {
-        "C1": "handwriting still plays a vital role in students' learning",
-        "C2": "poor handwriting can have a negative impact on students' school performance"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "this approach is a basis tool used in several fields such as taking notes, doing homework and writing",
-        "P2": "It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well",
-        "P3": "Under the guidance of parents or teachers, children can benefit from practicing handwriting",
-        "P4": "This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities",
-        "P5": "kids who are bad at handwriting meet difficulties in taking notes and catching up lessons",
-        "P6": "It resulted in the missing of information and the lack of details during their works",
-        "P7": "the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills",
-        "P8": "with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

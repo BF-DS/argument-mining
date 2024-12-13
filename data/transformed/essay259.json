@@ -1,78 +1,78 @@
 {
-    "MajorClaims": {
-        "MC1": "working at home is worse and less efficient than working in the office",
-        "MC2": "working in the office is obviously better than working at home in terms of efficiency"
+  "MajorClaims": {
+    "MC1": "working at home is worse and less efficient than working in the office",
+    "MC2": "working in the office is obviously better than working at home in terms of efficiency"
+  },
+  "Claims": {
+    "C1": "while working in the office, people can interact with their colleges instantly",
+    "C2": "working at home has many disadvantages that will no doubt lower the efficiency of works",
+    "C3": "It not only has the advantage of working with colleges but also it provides a real working atmosphere that can never be grasped if people choose to work at home"
+  },
+  "Premises": {
+    "P1": "Think about the big project that a group is working on, if any group member has new idea about the project, he/she can assemble his/her colleges right away and discuss",
+    "P2": "They can either get help from colleges or discuss about the work together",
+    "P3": "It's more efficient and straight-forward than talking in the phone",
+    "P4": "if one\u2019s computer or Internet has any breakdown, he/she can call the MIS staff to fix",
+    "P5": "people are easily distracted while working at home",
+    "P6": "It's hard to concentrate on work if people can grab the TV remote or some junk foods right away",
+    "P7": "while people are working at home, there will be no one supervising them, thus raises the chance of loafing",
+    "P8": "people who work at home are more likely to miss the important events happening in the office, like some announcements from the boss"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "while working in the office, people can interact with their colleges instantly",
-        "C2": "working at home has many disadvantages that will no doubt lower the efficiency of works",
-        "C3": "It not only has the advantage of working with colleges but also it provides a real working atmosphere that can never be grasped if people choose to work at home"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Think about the big project that a group is working on, if any group member has new idea about the project, he/she can assemble his/her colleges right away and discuss",
-        "P2": "They can either get help from colleges or discuss about the work together",
-        "P3": "It's more efficient and straight-forward than talking in the phone",
-        "P4": "if one\u2019s computer or Internet has any breakdown, he/she can call the MIS staff to fix",
-        "P5": "people are easily distracted while working at home",
-        "P6": "It's hard to concentrate on work if people can grab the TV remote or some junk foods right away",
-        "P7": "while people are working at home, there will be no one supervising them, thus raises the chance of loafing",
-        "P8": "people who work at home are more likely to miss the important events happening in the office, like some announcements from the boss"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

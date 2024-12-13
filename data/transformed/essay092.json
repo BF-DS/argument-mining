@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "fashion trends have a more essential role to play in people's lives than personal dressing styles",
-        "MC2": "people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes"
+  "MajorClaims": {
+    "MC1": "fashion trends have a more essential role to play in people's lives than personal dressing styles",
+    "MC2": "people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes"
+  },
+  "Claims": {
+    "C1": "creative design talents can value their own dressing ideas, developing their own fashion styles as they like",
+    "C2": "following fashion trends enables people to keep up with the world's latest transformations, which is of vital importance if we consider the fact that people are living in a global village today",
+    "C3": "Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles",
+    "C4": "the world would look monotonous"
+  },
+  "Premises": {
+    "P1": "When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world",
+    "P2": "if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds",
+    "P3": "they might fall behind shortly",
+    "P4": "people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information",
+    "P5": "following fashion trends constantly may undermine individuals' personalities",
+    "P6": "Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "creative design talents can value their own dressing ideas, developing their own fashion styles as they like",
-        "C2": "following fashion trends enables people to keep up with the world's latest transformations, which is of vital importance if we consider the fact that people are living in a global village today",
-        "C3": "Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles",
-        "C4": "the world would look monotonous"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world",
-        "P2": "if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds",
-        "P3": "they might fall behind shortly",
-        "P4": "people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information",
-        "P5": "following fashion trends constantly may undermine individuals' personalities",
-        "P6": "Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
 }

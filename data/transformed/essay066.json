@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "technology plays a key role in promoting traditional techniques and lifestyles",
-        "MC2": "technology indeed supports the preservation and promotion of traditional techniques and lifestyles"
+  "MajorClaims": {
+    "MC1": "technology plays a key role in promoting traditional techniques and lifestyles",
+    "MC2": "technology indeed supports the preservation and promotion of traditional techniques and lifestyles"
+  },
+  "Claims": {
+    "C1": "In terms of time and space, technology makes it more efficient and effective to promote the traditional skills and ways of life",
+    "C2": "technology enriches the way of displaying traditional cultural heritage, making it more vivid and appealing",
+    "C3": "some people are concerned that technology may have a detrimental effect on the traditional lifestyles"
+  },
+  "Premises": {
+    "P1": "with the access to the Internet, one of the greatest innovations in modern society, humankind can acquire the traditional techniques displayed online anytime, anywhere",
+    "P2": "In the past, only when people went to the local place could they experience the specific traditional lifestyles",
+    "P3": "This means individuals who were engaged in work and therefore could not spare time to travel or restricted by traffic conditions had to miss the chance to appreciate the traditional skills",
+    "P4": "China has successfully promoted traditional techniques in the Shanghai World Expo, using a variety of state-of-the-art technological methods, such as robots and LED screens",
+    "P5": "many tourists around the world marveled at the perfect synthesis of the modern technology and the traditional culture",
+    "P6": "especially youngsters, are crazier about fresh and advanced things, such as digital products, thus becoming indifferent to traditional techniques",
+    "P7": "people tend to follow the trend back to the tradition in the recent years"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "In terms of time and space, technology makes it more efficient and effective to promote the traditional skills and ways of life",
-        "C2": "technology enriches the way of displaying traditional cultural heritage, making it more vivid and appealing",
-        "C3": "some people are concerned that technology may have a detrimental effect on the traditional lifestyles"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "with the access to the Internet, one of the greatest innovations in modern society, humankind can acquire the traditional techniques displayed online anytime, anywhere",
-        "P2": "In the past, only when people went to the local place could they experience the specific traditional lifestyles",
-        "P3": "This means individuals who were engaged in work and therefore could not spare time to travel or restricted by traffic conditions had to miss the chance to appreciate the traditional skills",
-        "P4": "China has successfully promoted traditional techniques in the Shanghai World Expo, using a variety of state-of-the-art technological methods, such as robots and LED screens",
-        "P5": "many tourists around the world marveled at the perfect synthesis of the modern technology and the traditional culture",
-        "P6": "especially youngsters, are crazier about fresh and advanced things, such as digital products, thus becoming indifferent to traditional techniques",
-        "P7": "people tend to follow the trend back to the tradition in the recent years"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "attacks",
-            "target": "P6"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
 }

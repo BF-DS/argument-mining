@@ -1,131 +1,131 @@
 {
-    "MajorClaims": {
-        "MC1": "different types of tasks endow more colors to our life"
+  "MajorClaims": {
+    "MC1": "different types of tasks endow more colors to our life"
+  },
+  "Claims": {
+    "C1": "the same task give us opportunities to be an expert",
+    "C2": "great achievement needs someone keen on one task for long time",
+    "C3": "Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier",
+    "C4": "doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life"
+  },
+  "Premises": {
+    "P1": "when it comes to \"happier\", different type of jobs can be responsible factor",
+    "P2": "It allows us to achieve more",
+    "P3": "As a authoritative dentist in my province, my mother has worked for 25 years",
+    "P4": "Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation",
+    "P5": "Workers, who work for an ordinary company or industry, will be sick of same tasks day by day",
+    "P6": "Doing different tasks makes employees and employers much happier",
+    "P7": "consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits",
+    "P8": "They both will be happy",
+    "P9": "the change of job, not the same task day by day",
+    "P10": "they can be familiar with their job",
+    "P11": "changing of job is what serve to their happier",
+    "P12": "As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges",
+    "P13": "New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience",
+    "P14": "As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge",
+    "P15": "Different types of tasks during workday brings more challenges, making life colorful",
+    "P16": "Just like a song, if I did not have challenge, life would be blue"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the same task give us opportunities to be an expert",
-        "C2": "great achievement needs someone keen on one task for long time",
-        "C3": "Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier",
-        "C4": "doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "when it comes to \"happier\", different type of jobs can be responsible factor",
-        "P2": "It allows us to achieve more",
-        "P3": "As a authoritative dentist in my province, my mother has worked for 25 years",
-        "P4": "Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation",
-        "P5": "Workers, who work for an ordinary company or industry, will be sick of same tasks day by day",
-        "P6": "Doing different tasks makes employees and employers much happier",
-        "P7": "consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits",
-        "P8": "They both will be happy",
-        "P9": "the change of job, not the same task day by day",
-        "P10": "they can be familiar with their job",
-        "P11": "changing of job is what serve to their happier",
-        "P12": "As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges",
-        "P13": "New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience",
-        "P14": "As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge",
-        "P15": "Different types of tasks during workday brings more challenges, making life colorful",
-        "P16": "Just like a song, if I did not have challenge, life would be blue"
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P11",
-            "Relation": "attacks",
-            "target": "P10"
-        },
-        {
-            "start": "P10",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "attacks",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

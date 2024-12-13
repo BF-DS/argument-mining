@@ -1,127 +1,127 @@
 {
-    "MajorClaims": {
-        "MC1": "one can achieve success more easily with the help from his or her family",
-        "MC2": "with the help of our family, we can achieve success quite easily",
-        "MC3": "family plays a more important role in helping one to pursuit success"
+  "MajorClaims": {
+    "MC1": "one can achieve success more easily with the help from his or her family",
+    "MC2": "with the help of our family, we can achieve success quite easily",
+    "MC3": "family plays a more important role in helping one to pursuit success"
+  },
+  "Claims": {
+    "C1": "they can provide more advices and helps in our career",
+    "C2": "family members can help us in many other aspects",
+    "C3": "our parents and other family members can help us a lot in our life"
+  },
+  "Premises": {
+    "P1": "when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help",
+    "P2": "more and more people have the opportunity to receive education from university",
+    "P3": "our parents receive better education than our grandparents did",
+    "P4": "In the past, seldom people have the chance to attend a collage",
+    "P5": "my grandparents did not get a education even in high school",
+    "P6": "Things have changed a lot",
+    "P7": "I grow up in a better condition than my father did",
+    "P8": "Whenever I have problems, I can always ask my parents for help",
+    "P9": "They can solve the problem quickly",
+    "P10": "they have learned quite a lot",
+    "P11": "when I did not know what major to choose when I attend university, my father told a lot about different majors",
+    "P12": "He shared his own experience with me, which helped me quite a lot",
+    "P13": "Parents are quite experienced than their child",
+    "P14": "they can guide them toward the right direction",
+    "P15": "parents can told their children as many as they can",
+    "P16": "What they want is help their child to make a progress"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "they can provide more advices and helps in our career",
-        "C2": "family members can help us in many other aspects",
-        "C3": "our parents and other family members can help us a lot in our life"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help",
-        "P2": "more and more people have the opportunity to receive education from university",
-        "P3": "our parents receive better education than our grandparents did",
-        "P4": "In the past, seldom people have the chance to attend a collage",
-        "P5": "my grandparents did not get a education even in high school",
-        "P6": "Things have changed a lot",
-        "P7": "I grow up in a better condition than my father did",
-        "P8": "Whenever I have problems, I can always ask my parents for help",
-        "P9": "They can solve the problem quickly",
-        "P10": "they have learned quite a lot",
-        "P11": "when I did not know what major to choose when I attend university, my father told a lot about different majors",
-        "P12": "He shared his own experience with me, which helped me quite a lot",
-        "P13": "Parents are quite experienced than their child",
-        "P14": "they can guide them toward the right direction",
-        "P15": "parents can told their children as many as they can",
-        "P16": "What they want is help their child to make a progress"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    }
+  ]
 }

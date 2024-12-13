@@ -1,54 +1,54 @@
 {
-    "MajorClaims": {
-        "MC1": "higher school students should be made aware of the money management",
-        "MC2": "students understanding the money management techniques will have more positive effects than negative impact"
+  "MajorClaims": {
+    "MC1": "higher school students should be made aware of the money management",
+    "MC2": "students understanding the money management techniques will have more positive effects than negative impact"
+  },
+  "Claims": {
+    "C1": "teenage students need to understand the money management basics",
+    "C2": "having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently"
+  },
+  "Premises": {
+    "P1": "when secondary school students attain the age of undergoing graduation, students ought to stay in hostels or with friends and away from family, during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence",
+    "P2": "while I was a kid my father used to maintain expense log for the month, I was asked to do the same for my keep track of my pocket money expenses, during my future course of life this became a practice and helped me in planning my expenses",
+    "P3": "if financial management is taught at an early age, students will have better sense of understanding of their family financial background and status, students coming up with unrealistic whims and fancies are minimized",
+    "P4": "buying a gaming console may not be a big deal for a student from an affluent financial background",
+    "P5": "for a student coming from middle class buying a gaming console may not be the need of the hour"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "teenage students need to understand the money management basics",
-        "C2": "having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "when secondary school students attain the age of undergoing graduation, students ought to stay in hostels or with friends and away from family, during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence",
-        "P2": "while I was a kid my father used to maintain expense log for the month, I was asked to do the same for my keep track of my pocket money expenses, during my future course of life this became a practice and helped me in planning my expenses",
-        "P3": "if financial management is taught at an early age, students will have better sense of understanding of their family financial background and status, students coming up with unrealistic whims and fancies are minimized",
-        "P4": "buying a gaming console may not be a big deal for a student from an affluent financial background",
-        "P5": "for a student coming from middle class buying a gaming console may not be the need of the hour"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

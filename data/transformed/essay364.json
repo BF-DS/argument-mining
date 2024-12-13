@@ -1,107 +1,107 @@
 {
-    "MajorClaims": {
-        "MC1": "traditional skills and ways are always valuable and will last forever"
+  "MajorClaims": {
+    "MC1": "traditional skills and ways are always valuable and will last forever"
+  },
+  "Claims": {
+    "C1": "technology has brought many benefits",
+    "C2": "traditional skills and ways belong to value of culture",
+    "C3": "in some cases that traditional way can not replace by a new technology",
+    "C4": "Traditional skills and ways of life will help youngsters study and know more history"
+  },
+  "Premises": {
+    "P1": "They make differences between countries",
+    "P2": "Every country has unique tradtions which show their creation, intelligence",
+    "P3": "people feel pround of their country",
+    "P4": "they keep reserving conventions",
+    "P5": "ways to build a house in every country are different and they distinguish between countries",
+    "P6": "Lot of people like to use traditional things because if their quality and durability",
+    "P7": "vases are made by hand would be used more",
+    "P8": "there are plenty of works that using traditional way is unique method",
+    "P9": "making cone hats from leaves have to use hand",
+    "P10": "Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy",
+    "P11": "Methods which their ancestors used in the past will be displayed again for new generations",
+    "P12": "they might create somethings that are useful for life"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "technology has brought many benefits",
-        "C2": "traditional skills and ways belong to value of culture",
-        "C3": "in some cases that traditional way can not replace by a new technology",
-        "C4": "Traditional skills and ways of life will help youngsters study and know more history"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "They make differences between countries",
-        "P2": "Every country has unique tradtions which show their creation, intelligence",
-        "P3": "people feel pround of their country",
-        "P4": "they keep reserving conventions",
-        "P5": "ways to build a house in every country are different and they distinguish between countries",
-        "P6": "Lot of people like to use traditional things because if their quality and durability",
-        "P7": "vases are made by hand would be used more",
-        "P8": "there are plenty of works that using traditional way is unique method",
-        "P9": "making cone hats from leaves have to use hand",
-        "P10": "Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy",
-        "P11": "Methods which their ancestors used in the past will be displayed again for new generations",
-        "P12": "they might create somethings that are useful for life"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P9"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P9"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

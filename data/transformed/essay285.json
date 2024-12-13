@@ -1,138 +1,138 @@
 {
-    "MajorClaims": {
-        "MC1": "I completely disagree with this statement that we should replace normal course with online course",
-        "MC2": "I personally disagree this this notion that we should replace classroom with online class"
+  "MajorClaims": {
+    "MC1": "I completely disagree with this statement that we should replace normal course with online course",
+    "MC2": "I personally disagree this this notion that we should replace classroom with online class"
+  },
+  "Claims": {
+    "C1": "it should not replace classroom learning",
+    "C2": "learning in classroom could provide more information and make students more comprehend in subjects that they had learnt",
+    "C3": "online class could not provide knowledge about social skills",
+    "C4": "learning in classroom, student could have healthier life",
+    "C5": "having classroom could provide abundant skills to students"
+  },
+  "Premises": {
+    "P1": "Learning in classroom could provide more information to study",
+    "P2": "learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation",
+    "P3": "in classroom have many equipment to demonstrate real example",
+    "P4": "in biology class, learning anatomy by operating fog have many benefits",
+    "P5": "Learner could learn how to use tools and see actual organs of fog",
+    "P6": "online class just only study in textbook not learnin real situation",
+    "P7": "This important skill cannot be gotten in online classes",
+    "P8": "In a classroom, teacher could give assignment to student to work as a group",
+    "P9": "This could help students to learn how to deal with people, how to collaborate with people in their group",
+    "P10": "in school can provide exercise class which train student to move their body",
+    "P11": "Classroom have specialist trainer to teach students to it right way",
+    "P12": "If student do it by themselves, they might be hurt themselves",
+    "P13": "This make students have healthier life which online class cannot provide",
+    "P14": "classroom could provide real actual example to make students more understand in their subject",
+    "P15": "classroom courses are also provide students to learn social skill",
+    "P16": "classroom could provide exercise class to set students to have a good health"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it should not replace classroom learning",
-        "C2": "learning in classroom could provide more information and make students more comprehend in subjects that they had learnt",
-        "C3": "online class could not provide knowledge about social skills",
-        "C4": "learning in classroom, student could have healthier life",
-        "C5": "having classroom could provide abundant skills to students"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "Learning in classroom could provide more information to study",
-        "P2": "learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation",
-        "P3": "in classroom have many equipment to demonstrate real example",
-        "P4": "in biology class, learning anatomy by operating fog have many benefits",
-        "P5": "Learner could learn how to use tools and see actual organs of fog",
-        "P6": "online class just only study in textbook not learnin real situation",
-        "P7": "This important skill cannot be gotten in online classes",
-        "P8": "In a classroom, teacher could give assignment to student to work as a group",
-        "P9": "This could help students to learn how to deal with people, how to collaborate with people in their group",
-        "P10": "in school can provide exercise class which train student to move their body",
-        "P11": "Classroom have specialist trainer to teach students to it right way",
-        "P12": "If student do it by themselves, they might be hurt themselves",
-        "P13": "This make students have healthier life which online class cannot provide",
-        "P14": "classroom could provide real actual example to make students more understand in their subject",
-        "P15": "classroom courses are also provide students to learn social skill",
-        "P16": "classroom could provide exercise class to set students to have a good health"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

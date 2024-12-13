@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "a quintessence of any visit to an excellent museum of a new place would be the best part of a tour",
-        "MC2": "if we have a chance to visit top museums in the world, we must stop by these museums"
+  "MajorClaims": {
+    "MC1": "a quintessence of any visit to an excellent museum of a new place would be the best part of a tour",
+    "MC2": "if we have a chance to visit top museums in the world, we must stop by these museums"
+  },
+  "Claims": {
+    "C1": "museums can help us know the history and the customs of a new place",
+    "C2": "visiting a well-known museum also can broaden our horizon",
+    "C3": "a local museum could be a top choice and destination for tourist to visit",
+    "C4": "it is worthwhile for us to visit a museum of a new place"
+  },
+  "Premises": {
+    "P1": "it is easy to know the history of the new place",
+    "P2": "Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York",
+    "P3": "Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears",
+    "P4": "Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us",
+    "P5": "In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts",
+    "P6": "To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown",
+    "P7": "Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel",
+    "P8": "visiting a museum saves their precious time for making a decision",
+    "P9": "a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "museums can help us know the history and the customs of a new place",
-        "C2": "visiting a well-known museum also can broaden our horizon",
-        "C3": "a local museum could be a top choice and destination for tourist to visit",
-        "C4": "it is worthwhile for us to visit a museum of a new place"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "it is easy to know the history of the new place",
-        "P2": "Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York",
-        "P3": "Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears",
-        "P4": "Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us",
-        "P5": "In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts",
-        "P6": "To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown",
-        "P7": "Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel",
-        "P8": "visiting a museum saves their precious time for making a decision",
-        "P9": "a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

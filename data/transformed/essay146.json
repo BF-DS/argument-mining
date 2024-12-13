@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "students should study a broad range of subjects from literature to mathematics",
-        "MC2": "students should find interesting subjects and acquire general knowledge to prepare higher education at tertiary education"
+  "MajorClaims": {
+    "MC1": "students should study a broad range of subjects from literature to mathematics",
+    "MC2": "students should find interesting subjects and acquire general knowledge to prepare higher education at tertiary education"
+  },
+  "Claims": {
+    "C1": "tertiary education should make students prepare for specialization at university",
+    "C2": "it should be to some extent paternalistic to prevent students from avoiding hurdles",
+    "C3": "students have to find one or more fields of study in which they are really interested",
+    "C4": "high school students should learn broadly and prepare future learning at university",
+    "C5": "schools should be responsible for their future and protect them"
+  },
+  "Premises": {
+    "P1": "They should not decide their future major without trying a broad range of subjects, otherwise they might miss valuable encounter with the subject",
+    "P2": "a would-be mathematician student may be strongly intrigued by philosophy and make a success in the field",
+    "P3": "students should obtain knowledge from a variety of academic fields",
+    "P4": "General education plays a significant role in specialized education",
+    "P5": "Science today, for example, is said to be more and more specialized, but in order to solve a problem scientists have to combine knowledge from chemistry to physics",
+    "P6": "textbooks used in higher education are labelled particular subjects, in fact they require basic understanding of other subjects",
+    "P7": "you sometimes need knowledge about physics to read a text on chemistry",
+    "P8": "students have tendency to shun difficulties",
+    "P9": "They might avoid tough courses, but instead attend mainly Mickey Mouse courses and enjoy themselves too much",
+    "P10": "This might result in limited choices in the future"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "tertiary education should make students prepare for specialization at university",
-        "C2": "it should be to some extent paternalistic to prevent students from avoiding hurdles",
-        "C3": "students have to find one or more fields of study in which they are really interested",
-        "C4": "high school students should learn broadly and prepare future learning at university",
-        "C5": "schools should be responsible for their future and protect them"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "They should not decide their future major without trying a broad range of subjects, otherwise they might miss valuable encounter with the subject",
-        "P2": "a would-be mathematician student may be strongly intrigued by philosophy and make a success in the field",
-        "P3": "students should obtain knowledge from a variety of academic fields",
-        "P4": "General education plays a significant role in specialized education",
-        "P5": "Science today, for example, is said to be more and more specialized, but in order to solve a problem scientists have to combine knowledge from chemistry to physics",
-        "P6": "textbooks used in higher education are labelled particular subjects, in fact they require basic understanding of other subjects",
-        "P7": "you sometimes need knowledge about physics to read a text on chemistry",
-        "P8": "students have tendency to shun difficulties",
-        "P9": "They might avoid tough courses, but instead attend mainly Mickey Mouse courses and enjoy themselves too much",
-        "P10": "This might result in limited choices in the future"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

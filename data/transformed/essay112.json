@@ -1,83 +1,83 @@
 {
-    "MajorClaims": {
-        "MC1": "exams have a role to play in ensuring proper and objective assessment of achievement"
+  "MajorClaims": {
+    "MC1": "exams have a role to play in ensuring proper and objective assessment of achievement"
+  },
+  "Claims": {
+    "C1": "exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system",
+    "C2": "There are clearly advantages to exams",
+    "C3": "exams also have some drawbacks",
+    "C4": "A number of measures should be taken to address these concerns"
+  },
+  "Premises": {
+    "P1": "They help to ensure fairness by imposing the same conditions on all exam candidates",
+    "P2": "They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability",
+    "P3": "Test-wise candidates can often perform well on exams without having good underlying knowledge or skills",
+    "P4": "some test-takers perform cannot achieve a satisfying result because of anxiety",
+    "P5": "teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all",
+    "P6": "exams should match the content and activities of the learning environment",
+    "P7": "Exam task should be varied to give fair opportunities to candidates with different types of skills",
+    "P8": "Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system",
-        "C2": "There are clearly advantages to exams",
-        "C3": "exams also have some drawbacks",
-        "C4": "A number of measures should be taken to address these concerns"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "They help to ensure fairness by imposing the same conditions on all exam candidates",
-        "P2": "They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability",
-        "P3": "Test-wise candidates can often perform well on exams without having good underlying knowledge or skills",
-        "P4": "some test-takers perform cannot achieve a satisfying result because of anxiety",
-        "P5": "teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all",
-        "P6": "exams should match the content and activities of the learning environment",
-        "P7": "Exam task should be varied to give fair opportunities to candidates with different types of skills",
-        "P8": "Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability"
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

@@ -1,132 +1,132 @@
 {
-    "MajorClaims": {
-        "MC1": "I would prefer to live in an apartment in the community rather than in the university dormitories",
-        "MC2": "the advantages of living in an apartment outshine those of living in a dormitory"
+  "MajorClaims": {
+    "MC1": "I would prefer to live in an apartment in the community rather than in the university dormitories",
+    "MC2": "the advantages of living in an apartment outshine those of living in a dormitory"
+  },
+  "Claims": {
+    "C1": "an apartment provides a lot more freedom than a dormitory",
+    "C2": "an apartment is more expensive",
+    "C3": "the studying conditions are better in an apartment"
+  },
+  "Premises": {
+    "P1": "While in a dormitory you have to obey preset rules, in the apartment you set your own rules",
+    "P2": "You are free to have visits at any time or to be left alone if you want",
+    "P3": "An apartment offers more privacy",
+    "P4": "you can choose to have your own room instead of sharing with another student",
+    "P5": "you also get more space than you would in a dormitory",
+    "P6": "you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper",
+    "P7": "Transportation is another issue, you have to go to and return from the university everyday",
+    "P8": "You could choose to use public transportation, a cheaper option, or to have a car",
+    "P9": "The car is an expensive option, but also offers freedom of schedule and destination",
+    "P10": "you don't have all the noise and distractions that you often have in dormitories",
+    "P11": "A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times",
+    "P12": "you would be able to concentrate better",
+    "P13": "in an apartment you don't have a roommate",
+    "P14": "you won't have this problem",
+    "P15": "you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night",
+    "P16": "You set your own schedules",
+    "P17": "living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "an apartment provides a lot more freedom than a dormitory",
-        "C2": "an apartment is more expensive",
-        "C3": "the studying conditions are better in an apartment"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "While in a dormitory you have to obey preset rules, in the apartment you set your own rules",
-        "P2": "You are free to have visits at any time or to be left alone if you want",
-        "P3": "An apartment offers more privacy",
-        "P4": "you can choose to have your own room instead of sharing with another student",
-        "P5": "you also get more space than you would in a dormitory",
-        "P6": "you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper",
-        "P7": "Transportation is another issue, you have to go to and return from the university everyday",
-        "P8": "You could choose to use public transportation, a cheaper option, or to have a car",
-        "P9": "The car is an expensive option, but also offers freedom of schedule and destination",
-        "P10": "you don't have all the noise and distractions that you often have in dormitories",
-        "P11": "A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times",
-        "P12": "you would be able to concentrate better",
-        "P13": "in an apartment you don't have a roommate",
-        "P14": "you won't have this problem",
-        "P15": "you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night",
-        "P16": "You set your own schedules",
-        "P17": "living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "attacks",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P14"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P15",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P17",
-            "Relation": "attacks",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P14"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "attacks",
+      "Target": "C3"
+    }
+  ]
 }

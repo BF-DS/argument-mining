@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "government should invest more on medical care and education rather than on entertaining or sports facilities",
-        "MC2": "budgets should be allocated more on medical care and education rather than on building entertaining facilities"
+  "MajorClaims": {
+    "MC1": "government should invest more on medical care and education rather than on entertaining or sports facilities",
+    "MC2": "budgets should be allocated more on medical care and education rather than on building entertaining facilities"
+  },
+  "Claims": {
+    "C1": "the former is more essential, non-profit oriented to the public and can be accessed by the majority of citizens",
+    "C2": "providing education and medical care is more essential and prioritized to the government",
+    "C3": "Entertaining facilities such as cinemas, theaters and sports stadiums are mostly profit-oriented",
+    "C4": "sectors such as medical care and education deserve more governmental support"
+  },
+  "Premises": {
+    "P1": "Taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums",
+    "P2": "an uneducated person may barely appreciate musicals, whereas a physical damaged person, resulting from the lack of medical treatment, may no longer participate in any sports games",
+    "P3": "Their existences are based on their marketing strategies, the condition of facilities and the volume of audience",
+    "P4": "The competition among each of these facilities is an inevitable part of the free market, which should not be interfered by government",
+    "P5": "the establishment of medical facilities or educational institutes is aimed to improve the health or education standard rather than earning profits, which deserves more funds from government",
+    "P6": "it is a bit inappropriate to use the majority of citizens' tax funds to meet a minority of people's needs",
+    "P7": "they are accessed by every individual in our society on a daily basis",
+    "P8": "putting taxpayers' money on building theaters or sports stadiums is unfair to those who cannot use them",
+    "P9": "not everyone is a fan of watching musicals on the spot"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the former is more essential, non-profit oriented to the public and can be accessed by the majority of citizens",
-        "C2": "providing education and medical care is more essential and prioritized to the government",
-        "C3": "Entertaining facilities such as cinemas, theaters and sports stadiums are mostly profit-oriented",
-        "C4": "sectors such as medical care and education deserve more governmental support"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums",
-        "P2": "an uneducated person may barely appreciate musicals, whereas a physical damaged person, resulting from the lack of medical treatment, may no longer participate in any sports games",
-        "P3": "Their existences are based on their marketing strategies, the condition of facilities and the volume of audience",
-        "P4": "The competition among each of these facilities is an inevitable part of the free market, which should not be interfered by government",
-        "P5": "the establishment of medical facilities or educational institutes is aimed to improve the health or education standard rather than earning profits, which deserves more funds from government",
-        "P6": "it is a bit inappropriate to use the majority of citizens' tax funds to meet a minority of people's needs",
-        "P7": "they are accessed by every individual in our society on a daily basis",
-        "P8": "putting taxpayers' money on building theaters or sports stadiums is unfair to those who cannot use them",
-        "P9": "not everyone is a fan of watching musicals on the spot"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

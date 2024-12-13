@@ -1,114 +1,114 @@
 {
-    "MajorClaims": {
-        "MC1": "the excellent knowledge of this job will be more significant",
-        "MC2": "the excellent knowledge will be of more importance"
+  "MajorClaims": {
+    "MC1": "the excellent knowledge of this job will be more significant",
+    "MC2": "the excellent knowledge will be of more importance"
+  },
+  "Claims": {
+    "C1": "there is only one thing would be beneficial to company, and there is only one way to be an outstanding worker, that is possessing excellent knowledge of this job",
+    "C2": "we can use the ability of adapting oneself in a new environment",
+    "C3": "it can not only benefit our employers, but also ourselves will be rewarded",
+    "C4": "the ability to adapt oneself to the new environment has been proven to be part of job",
+    "C5": "The company will benefit from every worker of excellent knowledge",
+    "C6": "Employees will obtain reward from hard-work pursuing excellent knowledge"
+  },
+  "Premises": {
+    "P1": "This ability is helpful in communicating with other workmates, cooperating with other workers needs this ability, too",
+    "P2": "working alone is a longer-term job than communicating",
+    "P3": "the excellent knowledge of this job will be benefit till one leave",
+    "P4": "the ability of adapting oneself to a new environment may be necessary for a fresh worker",
+    "P5": "The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge, not a worker with outstanding communicating skill",
+    "P6": "The high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company",
+    "P7": "the company will earn more money and reputation from these workers with excellent knowledge",
+    "P8": "Through our whole study life, undergraduate and graduate, we keep learning with the purpose of exerting these knowledge and experience on our job, just like an old Chinese scholar said, the essence of study is utilizing it",
+    "P9": "After we get a job, the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture, but in making us excellent and totally master this job",
+    "P10": "we will be rewarded with pride",
+    "P11": "we can obtain reward from out excellent knowledge"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "there is only one thing would be beneficial to company, and there is only one way to be an outstanding worker, that is possessing excellent knowledge of this job",
-        "C2": "we can use the ability of adapting oneself in a new environment",
-        "C3": "it can not only benefit our employers, but also ourselves will be rewarded",
-        "C4": "the ability to adapt oneself to the new environment has been proven to be part of job",
-        "C5": "The company will benefit from every worker of excellent knowledge",
-        "C6": "Employees will obtain reward from hard-work pursuing excellent knowledge"
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "This ability is helpful in communicating with other workmates, cooperating with other workers needs this ability, too",
-        "P2": "working alone is a longer-term job than communicating",
-        "P3": "the excellent knowledge of this job will be benefit till one leave",
-        "P4": "the ability of adapting oneself to a new environment may be necessary for a fresh worker",
-        "P5": "The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge, not a worker with outstanding communicating skill",
-        "P6": "The high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company",
-        "P7": "the company will earn more money and reputation from these workers with excellent knowledge",
-        "P8": "Through our whole study life, undergraduate and graduate, we keep learning with the purpose of exerting these knowledge and experience on our job, just like an old Chinese scholar said, the essence of study is utilizing it",
-        "P9": "After we get a job, the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture, but in making us excellent and totally master this job",
-        "P10": "we will be rewarded with pride",
-        "P11": "we can obtain reward from out excellent knowledge"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P4",
-            "Relation": "attacks",
-            "target": "P2"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C5"
-        },
-        {
-            "start": "C6",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C6"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C5"
-        }
-    ]
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "P2"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C5"
+    }
+  ]
 }

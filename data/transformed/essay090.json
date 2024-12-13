@@ -1,72 +1,72 @@
 {
-    "MajorClaims": {
-        "MC1": "personality is the most important",
-        "MC2": "the best way to judge about individuals' is to be familiar with their personality not with their appearance"
+  "MajorClaims": {
+    "MC1": "personality is the most important",
+    "MC2": "the best way to judge about individuals' is to be familiar with their personality not with their appearance"
+  },
+  "Claims": {
+    "C1": "although appearance is important",
+    "C2": "We can never judge about a person with his or her appearance",
+    "C3": "we have to be aware to never judge with their appearance",
+    "C4": "there are some people who are black skin, fat and frown, nonetheless they might be a great person for leaving and colleague"
+  },
+  "Premises": {
+    "P1": "there are people who play a role and cheat the other individuals with their playing",
+    "P2": "some people cheat their fiance before marriage by showing a cheerful face and well spoken; however, after getting marriage they show their real personality",
+    "P3": "One day in a cold winter while I was getting back to home from school I realized that I lost my keys, so I could not do anything before my parents getting back home",
+    "P4": "I have a neighbor who are old, black skin and frown and I had always panicked of her",
+    "P5": "She asked me to stay with her till my parents come, also she was great in hospitality and her behavior was unforgettable",
+    "P6": "I had to never judge with people's appearance"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "although appearance is important",
-        "C2": "We can never judge about a person with his or her appearance",
-        "C3": "we have to be aware to never judge with their appearance",
-        "C4": "there are some people who are black skin, fat and frown, nonetheless they might be a great person for leaving and colleague"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "there are people who play a role and cheat the other individuals with their playing",
-        "P2": "some people cheat their fiance before marriage by showing a cheerful face and well spoken; however, after getting marriage they show their real personality",
-        "P3": "One day in a cold winter while I was getting back to home from school I realized that I lost my keys, so I could not do anything before my parents getting back home",
-        "P4": "I have a neighbor who are old, black skin and frown and I had always panicked of her",
-        "P5": "She asked me to stay with her till my parents come, also she was great in hospitality and her behavior was unforgettable",
-        "P6": "I had to never judge with people's appearance"
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
 }

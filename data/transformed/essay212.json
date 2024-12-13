@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "I would follow the new customs, if I migrated to another country",
-        "MC2": "the immigrants should follow the customs in the new country"
+  "MajorClaims": {
+    "MC1": "I would follow the new customs, if I migrated to another country",
+    "MC2": "the immigrants should follow the customs in the new country"
+  },
+  "Claims": {
+    "C1": "it will be easier for people to assimilate into a new country, if they follow the new customs",
+    "C2": "keeping own customs stably might cause discrimination"
+  },
+  "Premises": {
+    "P1": "When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures",
+    "P2": "The custom is just a form of the culture and following the custom is a good way to know more about this culture",
+    "P3": "if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture",
+    "P4": "people understand the culture, and then they adapt to the new country",
+    "P5": "When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country",
+    "P6": "The local people may also regard them as a special group as well and separate them from the main-stream society",
+    "P7": "One example of this is that the Chinese immigrants in Indonesia in 1969",
+    "P8": "They formed Chinatown and kept Chinese language and customs in it",
+    "P9": "While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working",
+    "P10": "being much richer than local people, they faced the discrimination",
+    "P11": "Their houses and private cars were buried by local people",
+    "P12": "the locals were jealous of Chinese people, who had so much wealth, which should have been theirs",
+    "P13": "If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it will be easier for people to assimilate into a new country, if they follow the new customs",
-        "C2": "keeping own customs stably might cause discrimination"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures",
-        "P2": "The custom is just a form of the culture and following the custom is a good way to know more about this culture",
-        "P3": "if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture",
-        "P4": "people understand the culture, and then they adapt to the new country",
-        "P5": "When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country",
-        "P6": "The local people may also regard them as a special group as well and separate them from the main-stream society",
-        "P7": "One example of this is that the Chinese immigrants in Indonesia in 1969",
-        "P8": "They formed Chinatown and kept Chinese language and customs in it",
-        "P9": "While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working",
-        "P10": "being much richer than local people, they faced the discrimination",
-        "P11": "Their houses and private cars were buried by local people",
-        "P12": "the locals were jealous of Chinese people, who had so much wealth, which should have been theirs",
-        "P13": "If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P4"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P4"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P11"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P11"
+    }
+  ]
 }

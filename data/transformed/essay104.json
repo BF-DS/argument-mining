@@ -1,90 +1,90 @@
 {
-    "MajorClaims": {
-        "MC1": "the Internet will pave way for a more accessible and convenient learning",
-        "MC2": "I would like to reiterate the necessity of the Internet in learning process"
+  "MajorClaims": {
+    "MC1": "the Internet will pave way for a more accessible and convenient learning",
+    "MC2": "I would like to reiterate the necessity of the Internet in learning process"
+  },
+  "Claims": {
+    "C1": "the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils",
+    "C2": "the Internet will become an indispensable part in academic training",
+    "C3": "the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs"
+  },
+  "Premises": {
+    "P1": "Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace",
+    "P2": "the Internet has grown to become the largest virtual library ever",
+    "P3": "with the use of the Internet, distance and time seem to be no more a hindrance",
+    "P4": "College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries",
+    "P5": "the Internet offers a more effective and practical method of studying",
+    "P6": "While virtual flowcharts and animations may simplify complicated scientific processes, Google and Wikipedia are always accessible for detailed responses to every query",
+    "P7": "This fairy tale turns out to be true thanks to technical and internet advances",
+    "P8": "Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously",
+    "P9": "these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself",
+    "P10": "what we are to do is a change in learners' attitude not an elimination of the Internet from academic study"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils",
-        "C2": "the Internet will become an indispensable part in academic training",
-        "C3": "the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace",
-        "P2": "the Internet has grown to become the largest virtual library ever",
-        "P3": "with the use of the Internet, distance and time seem to be no more a hindrance",
-        "P4": "College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries",
-        "P5": "the Internet offers a more effective and practical method of studying",
-        "P6": "While virtual flowcharts and animations may simplify complicated scientific processes, Google and Wikipedia are always accessible for detailed responses to every query",
-        "P7": "This fairy tale turns out to be true thanks to technical and internet advances",
-        "P8": "Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously",
-        "P9": "these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself",
-        "P10": "what we are to do is a change in learners' attitude not an elimination of the Internet from academic study"
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C3",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "P2"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P10",
-            "Relation": "attacks",
-            "target": "C3"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "attacks",
+      "Target": "C3"
+    }
+  ]
 }

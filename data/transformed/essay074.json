@@ -1,77 +1,77 @@
 {
-    "MajorClaims": {
-        "MC1": "all languages should be preserved and developed as much as possible"
+  "MajorClaims": {
+    "MC1": "all languages should be preserved and developed as much as possible"
+  },
+  "Claims": {
+    "C1": "Governments should spend money on keeping and preserving these things for the rich diversity of cultures which make our world more interesting",
+    "C2": "there are some drawbacks from saving minority languages"
+  },
+  "Premises": {
+    "P1": "it is easy to realize that languages, especially oral language, are a quite major part of culture of a country",
+    "P2": "It helps people distinguish between nations and even regions in a country",
+    "P3": "The clearance of minority of language means that a national traditional, customs and habitants do not exist",
+    "P4": "it is a pride of the country with a rage of culture which is easy to educate people to love their country more",
+    "P5": "governments invest money on doing that, it is hard to gain the good results",
+    "P6": "there are a few people, particularly the youngsters, do not pay attention on collecting and studying those",
+    "P7": "These kinds of languages are usually difficult and unpopular",
+    "P8": "the preservations need a long time to gather, restore all information as well as train in the educational centre",
+    "P9": "If they do not try their best, their protection can be halted and waste of money"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "Governments should spend money on keeping and preserving these things for the rich diversity of cultures which make our world more interesting",
-        "C2": "there are some drawbacks from saving minority languages"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "it is easy to realize that languages, especially oral language, are a quite major part of culture of a country",
-        "P2": "It helps people distinguish between nations and even regions in a country",
-        "P3": "The clearance of minority of language means that a national traditional, customs and habitants do not exist",
-        "P4": "it is a pride of the country with a rage of culture which is easy to educate people to love their country more",
-        "P5": "governments invest money on doing that, it is hard to gain the good results",
-        "P6": "there are a few people, particularly the youngsters, do not pay attention on collecting and studying those",
-        "P7": "These kinds of languages are usually difficult and unpopular",
-        "P8": "the preservations need a long time to gather, restore all information as well as train in the educational centre",
-        "P9": "If they do not try their best, their protection can be halted and waste of money"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }

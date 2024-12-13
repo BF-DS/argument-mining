@@ -1,102 +1,102 @@
 {
-    "MajorClaims": {
-        "MC1": "television has more bad than good",
-        "MC2": "it is detrimental to communication among members in group, family or friends or whatever, to sit in front of television and just stare forward"
+  "MajorClaims": {
+    "MC1": "television has more bad than good",
+    "MC2": "it is detrimental to communication among members in group, family or friends or whatever, to sit in front of television and just stare forward"
+  },
+  "Claims": {
+    "C1": "it has made people not to have conversation each other",
+    "C2": "television shows make people forget what is really important",
+    "C3": "even when people watch television together, there is no chance for them to have conversation in front of television",
+    "C4": "It is because television not only makes people be obsessed with it but also makes their mouth close"
+  },
+  "Premises": {
+    "P1": "they cannot make appointment or go out with their family or friends at that time",
+    "P2": "One who has favorite programs tends to be obessed with them when they are on air",
+    "P3": "they think the programs are so crucial to their lives",
+    "P4": "One of my friends, for example, once cancelled an appointment to play basketball with in order to watch the favorite television show \"Infinete Challenges\"",
+    "P5": "This is not only about basketball, but also about our friendship, which depends on how often we meet and have a chance to talk to each other",
+    "P6": "watching television alone at home, my friend lost the opportunity to increase cohesion between us",
+    "P7": "it is not good for them to watch television if they want to improve their sense of closeness",
+    "P8": "Watching television program together is not that different from watching same program alone",
+    "P9": "it is reported that most of people don't converse with their family when they are watching television together",
+    "P10": "It is natural they behave in that way",
+    "P11": "television shows don't require any participation"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it has made people not to have conversation each other",
-        "C2": "television shows make people forget what is really important",
-        "C3": "even when people watch television together, there is no chance for them to have conversation in front of television",
-        "C4": "It is because television not only makes people be obsessed with it but also makes their mouth close"
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "Premises": {
-        "P1": "they cannot make appointment or go out with their family or friends at that time",
-        "P2": "One who has favorite programs tends to be obessed with them when they are on air",
-        "P3": "they think the programs are so crucial to their lives",
-        "P4": "One of my friends, for example, once cancelled an appointment to play basketball with in order to watch the favorite television show \"Infinete Challenges\"",
-        "P5": "This is not only about basketball, but also about our friendship, which depends on how often we meet and have a chance to talk to each other",
-        "P6": "watching television alone at home, my friend lost the opportunity to increase cohesion between us",
-        "P7": "it is not good for them to watch television if they want to improve their sense of closeness",
-        "P8": "Watching television program together is not that different from watching same program alone",
-        "P9": "it is reported that most of people don't converse with their family when they are watching television together",
-        "P10": "It is natural they behave in that way",
-        "P11": "television shows don't require any participation"
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "P1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P7"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "For",
-            "target": "MC"
-        }
-    ]
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
 }

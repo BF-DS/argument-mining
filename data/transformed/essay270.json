@@ -1,132 +1,132 @@
 {
-    "MajorClaims": {
-        "MC1": "it is essential for people, especially young ones, to possess the ability to plan and organize",
-        "MC2": "the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with"
+  "MajorClaims": {
+    "MC1": "it is essential for people, especially young ones, to possess the ability to plan and organize",
+    "MC2": "the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with"
+  },
+  "Claims": {
+    "C1": "it can improve the efficiency and reduce the crisis of our actions",
+    "C2": "great planning and organizing ability is able to cause our actions more efficient and productive",
+    "C3": "the capacity to plan and organize also help young people to eliminate the crisis in their actions, which may ruin one's whole effort over a very long time",
+    "C4": "it is not need for young people to possess this ability",
+    "C5": "In this complex society, we, young people, are encompassed with multiple tasks"
+  },
+  "Premises": {
+    "P1": "Take myself as an example, I used to be overwhelmed by the burden of preparing for the final exam, submitting my paper, and finishing my internship work at the end of each term",
+    "P2": "Yet, in this year, following the suggestion of my roommate, John, I make a to-do list to plan and organize perfectly everything I should get done in the final and hence take every tasks and trivials into control",
+    "P3": "This plan ability helps me a lot, making me climb to the top rank of the class while finishing everything else",
+    "P4": "the employees in every company have to create profit as much as they can for their supervisors and complete their assignments perfectly",
+    "P5": "If some employees lack the ability to plan and organize ahead, they may get the procrastination and therefore take into action until the deadline is imminent",
+    "P6": "those employees who did not plan and finish their assignments ahead of time perhaps are unable to finish these tasks on time and therefore will be penalized or get fired",
+    "P7": "Every employee can not afford this kind of loss",
+    "P8": "the deadline of task is shifted to an earlier date for the change of company's schedule",
+    "P9": "the ability to plan and organize can be learned until obtaining a job",
+    "P10": "this ability is also essential for young people",
+    "P11": "young people can overcome their bad habits and fulfill their goals more quickly with this ability",
+    "P12": "As searching information on the internet, young people are probably distracted by other attractions such as online games or social webs",
+    "P13": "they would surf on the internet for hours and end up no where",
+    "P14": "It is obviously a huge waste of time",
+    "P15": "if they make their plan in the first place, and then stick to their plans, they could get their work done quickly beyond their imagination"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "it can improve the efficiency and reduce the crisis of our actions",
-        "C2": "great planning and organizing ability is able to cause our actions more efficient and productive",
-        "C3": "the capacity to plan and organize also help young people to eliminate the crisis in their actions, which may ruin one's whole effort over a very long time",
-        "C4": "it is not need for young people to possess this ability",
-        "C5": "In this complex society, we, young people, are encompassed with multiple tasks"
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "Take myself as an example, I used to be overwhelmed by the burden of preparing for the final exam, submitting my paper, and finishing my internship work at the end of each term",
-        "P2": "Yet, in this year, following the suggestion of my roommate, John, I make a to-do list to plan and organize perfectly everything I should get done in the final and hence take every tasks and trivials into control",
-        "P3": "This plan ability helps me a lot, making me climb to the top rank of the class while finishing everything else",
-        "P4": "the employees in every company have to create profit as much as they can for their supervisors and complete their assignments perfectly",
-        "P5": "If some employees lack the ability to plan and organize ahead, they may get the procrastination and therefore take into action until the deadline is imminent",
-        "P6": "those employees who did not plan and finish their assignments ahead of time perhaps are unable to finish these tasks on time and therefore will be penalized or get fired",
-        "P7": "Every employee can not afford this kind of loss",
-        "P8": "the deadline of task is shifted to an earlier date for the change of company's schedule",
-        "P9": "the ability to plan and organize can be learned until obtaining a job",
-        "P10": "this ability is also essential for young people",
-        "P11": "young people can overcome their bad habits and fulfill their goals more quickly with this ability",
-        "P12": "As searching information on the internet, young people are probably distracted by other attractions such as online games or social webs",
-        "P13": "they would surf on the internet for hours and end up no where",
-        "P14": "It is obviously a huge waste of time",
-        "P15": "if they make their plan in the first place, and then stick to their plans, they could get their work done quickly beyond their imagination"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "P5"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "P6"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "C4",
-            "Relation": "Against",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C4"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P10"
-        },
-        {
-            "start": "P10",
-            "Relation": "attacks",
-            "target": "C4"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "P15"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "P15"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "P15"
-        },
-        {
-            "start": "C5",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P15",
-            "Relation": "attacks",
-            "target": "C4"
-        }
-    ]
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P6"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "attacks",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "P15"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "P15"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "P15"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
 }

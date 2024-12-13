@@ -1,144 +1,144 @@
 {
-    "MajorClaims": {
-        "MC1": "if the good people always get an happy ending, I don\u2019t think it\u2019s proper",
-        "MC2": "movies and TV programs should present different stories in which good people get reward or get nothing"
+  "MajorClaims": {
+    "MC1": "if the good people always get an happy ending, I don\u2019t think it\u2019s proper",
+    "MC2": "movies and TV programs should present different stories in which good people get reward or get nothing"
+  },
+  "Claims": {
+    "C1": "we can\u2019t always let good people be rewarded in movies or TV programs",
+    "C2": "if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world",
+    "C3": "we should show people the truth in the stories"
+  },
+  "Premises": {
+    "P1": "if all the story end up in the same way, it will be boring",
+    "P2": "If good people always win, we can guess the ending of the movies or dramas",
+    "P3": "Then we will feel less interested in them",
+    "P4": "But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story",
+    "P5": "Hollywood stories usually have a happy ending like a hero beats a crime and get a girl",
+    "P6": "But now many people, including me, have been tired with it",
+    "P7": "I don\u2019t want to see the same kind of ending again and again",
+    "P8": "They will be misleading by those movies",
+    "P9": "they may act like good people in order to get reward",
+    "P10": "Once they find the good people are not always get rewarded, they may feel upset and not to be a good person",
+    "P11": "the good people do good things no matter the ending is good or not",
+    "P12": "we should tell this to the young children to avoid the misunderstanding",
+    "P13": "Even in the real world, good people can get a bad ending sometimes",
+    "P14": "it happen more often in the real world than in those movies",
+    "P15": "those good endings sometimes are helpful",
+    "P16": "Some people may be encouraged to do good things",
+    "P17": "this kind of behavior won\u2019t last long",
+    "P18": "someday they will realize the truth",
+    "P19": "if they can, they will be good people no matter how the story ends"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Claims": {
-        "C1": "we can\u2019t always let good people be rewarded in movies or TV programs",
-        "C2": "if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world",
-        "C3": "we should show people the truth in the stories"
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "Premises": {
-        "P1": "if all the story end up in the same way, it will be boring",
-        "P2": "If good people always win, we can guess the ending of the movies or dramas",
-        "P3": "Then we will feel less interested in them",
-        "P4": "But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story",
-        "P5": "Hollywood stories usually have a happy ending like a hero beats a crime and get a girl",
-        "P6": "But now many people, including me, have been tired with it",
-        "P7": "I don\u2019t want to see the same kind of ending again and again",
-        "P8": "They will be misleading by those movies",
-        "P9": "they may act like good people in order to get reward",
-        "P10": "Once they find the good people are not always get rewarded, they may feel upset and not to be a good person",
-        "P11": "the good people do good things no matter the ending is good or not",
-        "P12": "we should tell this to the young children to avoid the misunderstanding",
-        "P13": "Even in the real world, good people can get a bad ending sometimes",
-        "P14": "it happen more often in the real world than in those movies",
-        "P15": "those good endings sometimes are helpful",
-        "P16": "Some people may be encouraged to do good things",
-        "P17": "this kind of behavior won\u2019t last long",
-        "P18": "someday they will realize the truth",
-        "P19": "if they can, they will be good people no matter how the story ends"
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P2",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P11",
-            "Relation": "supports",
-            "target": "P12"
-        },
-        {
-            "start": "P14",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P13",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P12",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P16",
-            "Relation": "supports",
-            "target": "P15"
-        },
-        {
-            "start": "C3",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P19",
-            "Relation": "supports",
-            "target": "C3"
-        },
-        {
-            "start": "P15",
-            "Relation": "attacks",
-            "target": "C3"
-        },
-        {
-            "start": "P18",
-            "Relation": "supports",
-            "target": "P17"
-        },
-        {
-            "start": "P17",
-            "Relation": "attacks",
-            "target": "P15"
-        }
-    ]
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P12"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "P15"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P19",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P18",
+      "Relation": "supports",
+      "Target": "P17"
+    },
+    {
+      "Claim": "P17",
+      "Relation": "attacks",
+      "Target": "P15"
+    }
+  ]
 }

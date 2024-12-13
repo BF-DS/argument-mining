@@ -1,84 +1,84 @@
 {
-    "MajorClaims": {
-        "MC1": "the capability of working independly is more significant",
-        "MC2": "the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations"
+  "MajorClaims": {
+    "MC1": "the capability of working independly is more significant",
+    "MC2": "the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations"
+  },
+  "Claims": {
+    "C1": "if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own",
+    "C2": "the ability to work alone will help you increase your ability to work with other people"
+  },
+  "Premises": {
+    "P1": "in many important cases when team-working is not possible, the ability to work alone will help",
+    "P2": "effective cooperation can make things easier and faster",
+    "P3": "The apperant example is that there are a lot of tests that do not allow team-working",
+    "P4": "Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares",
+    "P5": "Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team",
+    "P6": "Working in team does not mean that you do not have to come up with your ideas",
+    "P7": "Everybody in a team must have his/her own opinion first, then discuss them with other members",
+    "P8": "When we work in team, we still think individually",
+    "P9": "our brain are not connected but separate",
+    "P10": "When everyone in a team can come up with his/her own ideas, working in team will definitely more effective"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P2",
+      "Relation": "attacks",
+      "Target": "P1"
     },
-    "Claims": {
-        "C1": "if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own",
-        "C2": "the ability to work alone will help you increase your ability to work with other people"
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
     },
-    "Premises": {
-        "P1": "in many important cases when team-working is not possible, the ability to work alone will help",
-        "P2": "effective cooperation can make things easier and faster",
-        "P3": "The apperant example is that there are a lot of tests that do not allow team-working",
-        "P4": "Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares",
-        "P5": "Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team",
-        "P6": "Working in team does not mean that you do not have to come up with your ideas",
-        "P7": "Everybody in a team must have his/her own opinion first, then discuss them with other members",
-        "P8": "When we work in team, we still think individually",
-        "P9": "our brain are not connected but separate",
-        "P10": "When everyone in a team can come up with his/her own ideas, working in team will definitely more effective"
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
     },
-    "ArgumentativeRelations": [
-        {
-            "start": "P2",
-            "Relation": "attacks",
-            "target": "P1"
-        },
-        {
-            "start": "C1",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P1",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P3",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P4",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "P5",
-            "Relation": "supports",
-            "target": "C1"
-        },
-        {
-            "start": "C2",
-            "Relation": "For",
-            "target": "MC"
-        },
-        {
-            "start": "P9",
-            "Relation": "supports",
-            "target": "P8"
-        },
-        {
-            "start": "P6",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P7",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P8",
-            "Relation": "supports",
-            "target": "C2"
-        },
-        {
-            "start": "P10",
-            "Relation": "supports",
-            "target": "C2"
-        }
-    ]
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P8"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
 }
