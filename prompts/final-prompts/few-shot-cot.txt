@@ -1,0 +1,1185 @@
+You will be given a text. Extract the argumentative units “major claim”, “claim”, and “premise” as parts from the text. Also extract the argumentative relationships between the units. Claims can be “for” or “against” the major claims. Premises, on the other hand, can “support” or “attack” a claim or another premise. It is possible that there are several major claims. Return only the argumentative units and relationships between them as a JSON object.
+### Instructions:  
+1. **Extract the argumentative text parts:**  
+   Identify all the relevant parts of the text that contain arguments, including main ideas and supporting or attacking details.  
+
+2. **Identify the argumentative components:**  
+   Label the extracted text parts as one of the following:  
+   - Major claim (MC): The author´s standpoint on the topic.  
+   - Claim (C): Statements that can be for or against a major claim.  
+   - Premise (P): Evidence or reasoning that support or attacka a claim or another premise.  
+
+3. **Determine the relationships between components:**  
+   - For claims, identify whether they are “for” or “against” the major claim.  
+   - For premises, identify whether they “support” or “attack” a claim or another premise.  
+
+4. **Format the output:**  
+   Present the extracted argumentative components and relationships in the following JSON format:  
+
+```json
+{
+    "MajorClaims": {
+        "MC1": "Text",
+        "MC2": "Text"
+    },
+    "Claims": {
+        "C1": "Text",
+        "C2": "Text"
+    },
+    "Premises": {
+        "P1": "Text",
+        "P2": "Text"
+    },
+    "ArgumentativeRelations": [
+        {"Claim": "C1", "Relation": "for", "Target": "MC1"},
+        {"Claim": "C2", "Relation": "against", "Target": "MC1"},
+        {"Premise": "P1", "Relation": "supports", "Target": "C1"},
+        {"Premise": "P2", "Relation": "attacks", "Target": "C2"}
+    ]
+}
+```You will be given a text. Extract the argumentative units “major claim”, “claim”, and “premise” as parts from the text. Also extract the argumentative relationships between the units. Claims can be “for” or “against” the major claims. Premises, on the other hand, can “support” or “attack” a claim or another premise. It is possible that there are several major claims. Return only the argumentative units and relationships between them as a JSON object.
+
+# Example 1
+## Input:
+The government should allocate more funds to public services instead of arts
+
+The issue of governmental financing provision to aesthetic features in the society has sparked a heated debate. While some argue that the budget allocation to the arts is waste of national resources and the money should instead be spent on public services, I contend that this investment in field of the arts would be in the best interest of a society.
+First of all, there is no doubt that governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way. Admittedly, no one should suffer from any sort of deficiency in field of health, education, transportation and communication. However, these could only help individuals with their physical requirements. There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts.
+On top of this, the arts play a pivotal role in all-round development of a society. No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration. Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways.
+Furthermore, investing in art could bring employment opportunities and could end in return of capital occasionally. The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions. 
+To sum up, not only could investing in art be considered as wasting money at any kind, but also it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "this investment in field of the arts would be in the best interest of a society",
+    "MC2": "it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways"
+  },
+  "Claims": {
+    "C1": "not only could investing in art be considered as wasting money at any kind",
+    "C2": "the arts play a pivotal role in all-round development of a society",
+    "C3": "investing in art could bring employment opportunities and could end in return of capital occasionally",
+    "C4": "governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way"
+  },
+  "Premises": {
+    "P1": "There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts",
+    "P2": "No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration",
+    "P3": "Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways",
+    "P4": "The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions",
+    "P5": "no one should suffer from any sort of deficiency in field of health, education, transportation and communication",
+    "P6": "these could only help individuals with their physical requirements"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 2
+## Input:
+The city which I enjoy the most is a combination of history and modernity
+
+The city where I was born used to be of a great antique beauty, which was surrounded with by lots of ancient style buildings. Unfortunately, the unstoppable trend of urbanization makes me only appreciate parts of those classic buildings in the pictures or in museums. In order to prevent the disappearance of the historic buildings, some citizens suggest the government to spend money on historic buildings. As far as I am concerned, we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them. Here are some reasons and examples to illustrate my viewpoint. 
+Historic buildings have intrinsic values, because they are significant symbols of a city. Old buildings are reminders of a city's culture and complexity. By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area. For example, when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind, because it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China. Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture. 
+Furthermore, historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds. The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves. However, the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace. Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful. 
+Meanwhile, historic buildings can be a source of maintenance fees. There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists. Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle. 
+Overall, I believe that the city which I enjoy the most is a combination of history and modernity. However, the preservation of old buildings is a one-way street. There is no chance to renovate to save a history site once it's gone. This reality brings us to light the importance of locating and saving old buildings of historic significance. Therefore, government should spend money on preservation of old buildings.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them",
+    "MC2": "government should spend money on preservation of old buildings"
+  },
+  "Claims": {
+    "C1": "Historic buildings have intrinsic values",
+    "C2": "historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds",
+    "C3": "historic buildings can be a source of maintenance fees",
+    "C4": "the city which I enjoy the most is a combination of history and modernity"
+  },
+  "Premises": {
+    "P1": "they are significant symbols of a city",
+    "P2": "Old buildings are reminders of a city's culture and complexity",
+    "P3": "By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area",
+    "P4": "when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind",
+    "P5": "it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China",
+    "P6": "Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture",
+    "P7": "The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves",
+    "P8": "the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace",
+    "P9": "Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful",
+    "P10": "There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists",
+    "P11": "Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle",
+    "P12": "There is no chance to renovate to save a history site once it's gone",
+    "P13": "the preservation of old buildings is a one-way street",
+    "P14": "This reality brings us to light the importance of locating and saving old buildings of historic significance"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 3
+## Input:
+Students should attend to classes or it should be optional?
+
+Nowadays, it is often claimed that attending classes has a lot of benefits for students and provide them with a variety of learning opportunities (options) as well. On the contrary to this popular belief, there are still those who subscribe to this view that having a choice for attending classes enable students to study at home and through this way they do not waste their time for commuting and also they can save their money. However, I am inclined to believe that being present at classes seems a wiser option.
+First and foremost, I truly believe that being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college. Also, they can help each other for learning materials better. However, if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems. 
+Another significant fact which should be taken into consideration is that by the help of teachers, students can understand ideas faster and easier since teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points. In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study. 
+Finally yet importantly, appearing in class makes students more conscientious since they have to obey class’s disciplines and they practice to be more perseverance in the process of doing their assignments. However, the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times. Through this way, they may miss some important parts in virtue of the chaotic and incoherent study. 
+On the basis of the points mentioned above, I convinced that communicating and studying with peer group is a good way for learning materials. Moreover, teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it. Also, attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "being present at classes seems a wiser option",
+    "MC2": "communicating and studying with peer group is a good way for learning materials"
+  },
+  "Claims": {
+    "C1": "being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college",
+    "C2": "by the help of teachers, students can understand ideas faster and easier",
+    "C3": "appearing in class makes students more conscientious",
+    "C4": "teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it",
+    "C5": "attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success"
+  },
+  "Premises": {
+    "P1": "they can help each other for learning materials better",
+    "P2": "if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems",
+    "P3": "teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points",
+    "P4": "In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study",
+    "P5": "they have to obey class\u2019s disciplines and they practice to be more perseverance in the process of doing their assignments",
+    "P6": "the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times",
+    "P7": "they may miss some important parts in virtue of the chaotic and incoherent study"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
+}
+# Example 4
+## Input:
+Capital punishment; 51% countries have polished death penalty
+
+"Capital punishment or the death penalty is a legal process whereby a person is put to death by the state as a punishment for a crime." In recently years, many countries have polished the law of the death penalty. In the whole world, 51% countries have polished death penalty; even, it is at 98% in Europe. Some people claim that without this punishment our lives would be less secure and crimes of violence would increase. However, others argue that it is not essential to control violence in society by the death penalty. Personally, I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons.
+Firstly, capital punishment is a form of revenge which creates violent culture. Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one. As a fact that the criminal is repeated second time; also, it is regarded as the "legalized revenge" to victims' family. Hence, death penalty neither controls the violent in society nor creates a violent culture.
+Secondly, nobody has the right to take another human life. It is undeniable that the rights of life are the basic and vital rights of a human being. No one has the right to take the life of a human; even if he committed murder. If you kill a criminal, you become a criminal. Moreover, if we think that killing is the best way to solve the problem, it is neither unethical nor immoral. In short, crimes seem to increase due to the capital punishment.
+Finally, with some of serious criminals, capital punishment is an easy way out. Criminals should be punished for their misdeeds. If they kill someone and end their life by dead without paying for their sins, it is so easy for them. They do not undergo any pain or misery. Why do not we have other wisely punishments? As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors. Why do not punish them by doing something meaningful for the country- it is better. Moreover, rehabilitation and education is also a better way in order to prevent or minimize offensive acts. 
+To conclude, capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society. The world should consider clearly about polishing the law of the dead penalty.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "it is no evidence about the reduction of crime rates due to the death penalty",
+    "MC2": "The world should consider clearly about polishing the law of the dead penalty"
+  },
+  "Claims": {
+    "C1": "death penalty neither controls the violent in society nor creates a violent culture",
+    "C2": "nobody has the right to take another human life",
+    "C3": "with some of serious criminals, capital punishment is an easy way out",
+    "C4": "it neither demines crimes of violence nor be essential to control violence in society"
+  },
+  "Premises": {
+    "P1": "Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one",
+    "P2": "the criminal is repeated second time",
+    "P3": "capital punishment is a form of revenge which creates violent culture",
+    "P4": "the rights of life are the basic and vital rights of a human being",
+    "P5": "No one has the right to take the life of a human; even if he committed murder",
+    "P6": "If you kill a criminal, you become a criminal",
+    "P7": "crimes seem to increase due to the capital punishment",
+    "P8": "if we think that killing is the best way to solve the problem, it is neither unethical nor immoral",
+    "P9": "If they kill someone and end their life by dead without paying for their sins, it is so easy for them",
+    "P10": "They do not undergo any pain or misery",
+    "P11": "Criminals should be punished for their misdeeds",
+    "P12": "capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life",
+    "P13": "rehabilitation and education is also a better way in order to prevent or minimize offensive acts",
+    "P14": "Why do not punish them by doing something meaningful for the country- it is better",
+    "P15": "some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors",
+    "P16": "it is regarded as the \"legalized revenge\" to victims' family"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P16"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
+}
+# Example 5
+## Input:
+Leisure activities - Spend your free time outdoors or indoors.
+
+People often relax themselves by joining leisure activities. Some people prefer to spend their free time indoors. But from my experience, I myself prefer to spend my leisure time outdoors because I strongly feel that it is good for health and keep my body fit. Also, outdoor activities enable me to socialize with other people and enjoy natural beauty.
+There are strong advantages to spend leisure time outdoors. One benefit is that doing outdoor activities such as soccer and baseball is good for one's health. For instance, last year, I spent my summer time playing soccer and baseball. Playing baseball provided my upper body for hitting and throwing. Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games. I belive that practicing these sports helped me greatly. Something else that is good is that playing these sports is to keep my body fit, make me ultimately refreshed. After that summer, my body is stronger and endurance is better. 
+Outdoor activities not only improves my health but also gives me chances to communicate with more people. When I was ten years old, I was a shy girl. My mother took me to The National Camp. At first, I just ate and played alone. But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively. On the next day, we played together and she introduced me to her friends. Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp. If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today. 
+Moreover, you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking. If you spend your spare time at home or something like that, you can't enjoy beautiful nature. Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings.
+Admittedly, indoor activities are fun. There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy. Although I can also have fun in indoor activities, this advantage cannot outweigh the attractions coming from outdoor activities. After all, people are people and we have our own propensity. Leisure activities are one of them and I myself choose outdoor activities to spend my leisure time.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "I myself prefer to spend my leisure time outdoors",
+    "MC2": "I myself choose outdoor activities to spend my leisure time"
+  },
+  "Claims": {
+    "C1": "it is good for health and keep my body fit",
+    "C2": "outdoor activities enable me to socialize with other people and enjoy natural beauty",
+    "C3": "doing outdoor activities such as soccer and baseball is good for one's health",
+    "C4": "Outdoor activities not only improves my health but also gives me chances to communicate with more people",
+    "C5": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking",
+    "C6": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings",
+    "C7": "indoor activities are fun",
+    "C8": "I can also have fun in indoor activities"
+  },
+  "Premises": {
+    "P1": "last year, I spent my summer time playing soccer and baseball",
+    "P2": "Playing baseball provided my upper body for hitting and throwing",
+    "P3": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games",
+    "P4": "practicing these sports helped me greatly",
+    "P5": "playing these sports is to keep my body fit, make me ultimately refreshed",
+    "P6": "After that summer, my body is stronger and endurance is better",
+    "P7": "When I was ten years old, I was a shy girl",
+    "P8": "My mother took me to The National Camp",
+    "P9": "At first, I just ate and played alone",
+    "P10": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively",
+    "P11": "On the next day, we played together and she introduced me to her friends",
+    "P12": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp",
+    "P13": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today",
+    "P14": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature",
+    "P15": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy",
+    "P16": "this advantage cannot outweigh the attractions coming from outdoor activities"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "C8",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "attacks",
+      "Target": "C8"
+    }
+  ]
+}
+# Example 6
+## Input:
+A greater proportion of the budget should be allotted to education and prevention issues
+
+In today's world, the concept of the welfare state requires governments to provide sustainable healthcare and health education to their citizens. I completely agree with the idea that governments should devote a greater portion of their health budgets to health education and means for precautions.
+The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system. I believe that decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients. Therefore, society should be educated and became aware of health issues so that the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients.
+The second reason why governments should allocate more budget on prevention from illness and providing health education is the welfare of the society. In my opinion, there is nothing more important than health in a human's life and the happiness and welfare come with health. Therefore, a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives. For example, the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign.
+In conclusion, a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "governments should devote a greater portion of their health budgets to health education and means for precautions",
+    "MC2": "a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being"
+  },
+  "Claims": {
+    "C1": "society should be educated and became aware of health issues",
+    "C2": "governments should allocate more budget on prevention from illness and providing health education is the welfare of the society"
+  },
+  "Premises": {
+    "P1": "decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients",
+    "P2": "the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients",
+    "P3": "The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system",
+    "P4": "there is nothing more important than health in a human's life and the happiness and welfare come with health",
+    "P5": "a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives",
+    "P6": "the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
+}
+# Example 7
+## Input:
+Should professors doing more research or educating students more?
+
+Although professors in a university are basically teachers who do the most important thing, teaching, we cannot ignore one more influential aspect that they are always busy with, doing research. In my opinion, a professor should spend more time doing research rather than educating students for a few reasons following.
+A professor means a researcher or an expert of a specific science subject. He or she should always keep the passion in her field so that he or she could push him/herself forward all the time. And then he or she can do better in teaching works. For instance, the most impressive professor during my studying in university is Mr. Yang who keeps in researching and reading. He is also the one who gave us inspiration and taught us the way to study more efficient by ourselves. All of my classmates gave him a rank of AAA, the excellent teacher.
+As for students, we can get what we want to know from textbooks, webs or teachers. But we can only turn to our professors when we want to take part in a research and to get ourselves promoted. If a professor doesn't get any researching works, he cannot give us the opportunity. In addition, a professor who is concentrate in his or her research is thinking and creating new ideas all the time. He or she may stimulate us students to come up with some creative sugesstions. That is good for both of the professor and students.
+Finally, all professors in the university are fortune of the society. They are the leaders almost in every fields of science, arts, culture and so on. Without their research, there will be no new technologies come out quickly. Without their research, there will be more artcrafts being ruined by nothing. Without their research, there will be less information of our ancestors to be known on the earth.
+In conclusion, a professor should do their research all the time during their careers as a teacher in university. And it's worth to spend more time on it than on teaching.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "a professor should spend more time doing research rather than educating students",
+    "MC2": "a professor should do their research all the time during their careers as a teacher in university"
+  },
+  "Claims": {
+    "C1": "he or she could push him/herself forward all the time",
+    "C2": "If a professor doesn't get any researching works, he cannot give us the opportunity",
+    "C3": "a professor who is concentrate in his or her research is thinking and creating new ideas all the time",
+    "C4": "Without their research, there will be no new technologies come out quickly"
+  },
+  "Premises": {
+    "P1": "He or she should always keep the passion in her field",
+    "P2": "A professor means a researcher or an expert of a specific science subject",
+    "P3": "he or she can do better in teaching works",
+    "P4": "the most impressive professor during my studying in university is Mr. Yang who keeps in researching and reading",
+    "P5": "He is also the one who gave us inspiration and taught us the way to study more efficient by ourselves",
+    "P6": "All of my classmates gave him a rank of AAA, the excellent teacher",
+    "P7": "As for students, we can get what we want to know from textbooks, webs or teachers",
+    "P8": "we can only turn to our professors when we want to take part in a research and to get ourselves promoted",
+    "P9": "He or she may stimulate us students to come up with some creative sugesstions",
+    "P10": "That is good for both of the professor and students",
+    "P11": "They are the leaders almost in every fields of science, arts, culture and so on",
+    "P12": "all professors in the university are fortune of the society",
+    "P13": "Without their research, there will be more artcrafts being ruined by nothing",
+    "P14": "Without their research, there will be less information of our ancestors to be known on the earth"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 8
+## Input:
+People should have hobbies and do physical activities
+
+Whether or not people should have hobbies and do physical activities has been a controversial question. Different people have different ideas. Some people think we should focus on our jobs, but I don't agree with them. Having one's own hobbies and doing physical activities can bring us a lot of benefits.
+First, having hobbies and doing physical activities is the best way to keep fit. Looking at the computer screen all day long can make us daze, so doing some sport and hobbies can prevent us from becoming too fat or short-sighted. My neighbor Tom once was a computer engineer in a big company. He ate fast food everyday and never went out to exercise. When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight. He started to jog every morning. After a moth, he is thinner and finds a girlfriend.
+Also, doing something for a long time can be boring, having hobbies and doing sports can refresh our mind. For example, at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class. Humans are not robots; we can't keep working for twenty-four hours. Doing sports or hobbies for a short time can recharge our batteries.
+Last, we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured. Playing musical instrument is a good way, I can play classical guitar. When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves. It makes me feel better and gives me the confidence.
+Although it may take us a lot of times to develop our personal hobbies, but doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness. Hence, I think it is good for us to have hobbies and do physical activities which are different from our work.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "Having one's own hobbies and doing physical activities can bring us a lot of benefits",
+    "MC2": "it is good for us to have hobbies and do physical activities which are different from our work"
+  },
+  "Claims": {
+    "C1": "it may take us a lot of times to develop our personal hobbies",
+    "C2": "having hobbies and doing physical activities is the best way to keep fit",
+    "C3": "having hobbies and doing sports can refresh our mind",
+    "C4": "we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured"
+  },
+  "Premises": {
+    "P1": "doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness",
+    "P2": "doing some sport and hobbies can prevent us from becoming too fat or short-sighted",
+    "P3": "Looking at the computer screen all day long can make us daze",
+    "P4": "My neighbor Tom once was a computer engineer in a big company",
+    "P5": "He ate fast food everyday and never went out to exercise",
+    "P6": "When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight",
+    "P7": "He started to jog every morning",
+    "P8": "After a moth, he is thinner and finds a girlfriend",
+    "P9": "doing something for a long time can be boring",
+    "P10": "at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class",
+    "P11": "Humans are not robots; we can't keep working for twenty-four hours",
+    "P12": "Doing sports or hobbies for a short time can recharge our batteries",
+    "P13": "Playing musical instrument is a good way, I can play classical guitar",
+    "P14": "When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves",
+    "P15": "It makes me feel better and gives me the confidence"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
+}
+# Example 9
+## Input:
+Learning facts has more subsequent advantages for students' future lives
+
+There are many debates regarding whether understanding ideas and concepts is more essential than learning facts for students or not. Although multitudes of people think that knowledge of ideas and concepts is more vital for students, I am in the conviction that learning facts has more subsequent advantages for students' future lives. In the following, I will state my reasons for this choice.
+First, when students learn facts more in school, they would be ready for facing problems in their own life after their graduations. As a case in point, more information about facts would make students more familiar with the real life other that only their concepts. As a result, they would prepare to encounter their life out of school to solve their problems better. 
+Second, it would improve students' social behavior. If students only rely on concepts and ideas theorically, they would not realize human's mind very well. They should understand objects more that concepts to obtain the ability of analyzing matters well. Thus, if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life. 
+Moreover, these way students are teached to control their fears and concerns in facing facts. As a matter of fact, when a student understands a fact and its consequences, he or she can encounter it more confidently. In my viewpoint, concerns and anxieties are very destructive in everybody's life. It can prevent person to progress and thrive in every position. 
+All in all, I am in the belief that learning facts is more beneficial for students in both social and individual life in the view of above-mentioned reasons. Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc.
+
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "learning facts has more subsequent advantages for students' future lives",
+    "MC2": "learning facts is more beneficial for students in both social and individual life"
+  },
+  "Claims": {
+    "C1": "they would prepare to encounter their life out of school to solve their problems better",
+    "C2": "it would improve students' social behavior",
+    "C3": "when a student understands a fact and its consequences, he or she can encounter it more confidently",
+    "C4": "Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc"
+  },
+  "Premises": {
+    "P1": "when students learn facts more in school, they would be ready for facing problems in their own life after their graduations",
+    "P2": "more information about facts would make students more familiar with the real life other that only their concepts",
+    "P3": "if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life",
+    "P4": "If students only rely on concepts and ideas theorically, they would not realize human's mind very well",
+    "P5": "They should understand objects more that concepts to obtain the ability of analyzing matters well",
+    "P6": "It can prevent person to progress and thrive in every position",
+    "P7": "concerns and anxieties are very destructive in everybody's life",
+    "P8": "these way students are teached to control their fears and concerns in facing facts"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
+}
+# Example 10
+## Input:
+Technological progress in the past century has its negative effect
+
+In the past few decades, there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals, although bringing some disadvantages to us.
+On one hand, the development of technology can prompt economic growth and the improvement of living standards. Scientists and engineers have invented many novel products and tools, which play an important role in economic activity. Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions. This also helps many countries to more efficiently export their products to the world and increase their revenue.
+Besides, advanced technology enables people to enhance their living-level and health care standard. With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control. Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies, and this means that we could get more happiness from technology.
+On the other hand, the development of technology is likely to bring some negative effects on the environment and society. People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions. This would pose a large threat to the ecology and environment. Vehicle technology enables many people to drive private cars, and emission of exhaust gas could lead to air pollution in large cities.
+In conclusion, although technological progress causes corresponding problems, it still provides us with much more advantages.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "it still provides us with much more advantages",
+    "MC2": "there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals"
+  },
+  "Claims": {
+    "C1": "technological progress causes corresponding problems",
+    "C2": "the development of technology can prompt economic growth and the improvement of living standards",
+    "C3": "advanced technology enables people to enhance their living-level and health care standard",
+    "C4": "the development of technology is likely to bring some negative effects on the environment and society"
+  },
+  "Premises": {
+    "P1": "Scientists and engineers have invented many novel products and tools, which play an important role in economic activity",
+    "P2": "Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions",
+    "P3": "This also helps many countries to more efficiently export their products to the world and increase their revenue",
+    "P4": "With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control",
+    "P5": "we could get more happiness from technology",
+    "P6": "Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies",
+    "P7": "People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions",
+    "P8": "This would pose a large threat to the ecology and environment",
+    "P9": "Vehicle technology enables many people to drive private cars, and emission of exhaust gas could lead to air pollution in large cities"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}

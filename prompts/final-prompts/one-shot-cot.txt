@@ -1,0 +1,40 @@
+You will be given a text. Extract the argumentative units “major claim”, “claim”, and “premise” as parts from the text. Also extract the argumentative relationships between the units. Claims can be “for” or “against” the major claims. Premises, on the other hand, can “support” or “attack” a claim or another premise. It is possible that there are several major claims. Return only the argumentative units and relationships between them as a JSON object.
+### Instructions:  
+1. **Extract the argumentative text parts:**  
+   Identify all the relevant parts of the text that contain arguments, including main ideas and supporting or attacking details.  
+
+2. **Identify the argumentative components:**  
+   Label the extracted text parts as one of the following:  
+   - Major claim (MC): The author´s standpoint on the topic.  
+   - Claim (C): Statements that can be for or against a major claim.  
+   - Premise (P): Evidence or reasoning that support or attacka a claim or another premise.  
+
+3. **Determine the relationships between components:**  
+   - For claims, identify whether they are “for” or “against” the major claim.  
+   - For premises, identify whether they “support” or “attack” a claim or another premise.  
+
+4. **Format the output:**  
+   Present the extracted argumentative components and relationships in the following JSON format:  
+
+```json
+{
+    "MajorClaims": {
+        "MC1": "Text",
+        "MC2": "Text"
+    },
+    "Claims": {
+        "C1": "Text",
+        "C2": "Text"
+    },
+    "Premises": {
+        "P1": "Text",
+        "P2": "Text"
+    },
+    "ArgumentativeRelations": [
+        {"Claim": "C1", "Relation": "for", "Target": "MC1"},
+        {"Claim": "C2", "Relation": "against", "Target": "MC1"},
+        {"Premise": "P1", "Relation": "supports", "Target": "C1"},
+        {"Premise": "P2", "Relation": "attacks", "Target": "C2"}
+    ]
+}
+```
