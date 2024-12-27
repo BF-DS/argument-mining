@@ -1,4 +1,4 @@
-### Instructions:  
+# Instructions:  
 1. **Extract the argumentative text parts:**  
    Identify all the relevant parts of the text that contain arguments, including main ideas and supporting or attacking details.  
 

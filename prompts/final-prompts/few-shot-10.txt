@@ -1,0 +1,1098 @@
+You will be given a text. Extract the argumentative units “major claim”, “claim”, and “premise” as parts from the text. Also extract the argumentative relationships between the units. Claims can be “for” or “against” the major claims. Premises, on the other hand, can “support” or “attack” a claim or another premise. It is possible that there are several major claims. Return only the argumentative units and relationships between them as a JSON object.
+Here are 10 examples of text and their corresponding json data:
+
+# Example 1
+## Input:
+Do you think it is good for teenagers to work while schooling?
+
+In my opinion, it is not the good idea for teenagers to have job while they are still students. Although, many argue that it provide good working experience, but I think it can interfere with their life in various ways. Having jobs would affect the health of the student. It divert their mind from studies and would take away their childhood phase from their life.
+A student has to do lots of studies in today's competitive world to prove himself. He has to spend his most of time in school to get a good grades. If the student get involved himself in job in rest of the time, then it would cause an extra burden on them. Furthermore, jobs has various responsibilities like attendance, sometimes extra work and so on. This would result in stress, tension and tiredness. They won't be able to get proper time for relaxation, sleep. Thus, would affect their mental and physical health.
+Another reason, jobs can divert students from their studies. If students started earning in earlier age in their life, then they get attracted towards money. They feel themselves independent and would prefer to work more for money. This would affect their studies, they loose their interest from studies. Moreover, they drop out their studies so as to earn more money.
+In addition to this, the main drawback of teenagers job is that, they miss out the fun of their childhood time. He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others. They have whole life to do job and prove themselves, but the childhood phase will never return in their life. Therefore, they should take advantage of life as much possible they can.
+Thus, for a teenager it is important to pay attention on their studies. Having job would affect their health, divert them from studies and take away one of the important phase from their life.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "it is not the good idea for teenagers to have job while they are still students",
+    "MC2": "it can interfere with their life in various ways",
+    "MC3": "for a teenager it is important to pay attention on their studies"
+  },
+  "Claims": {
+    "C1": "many argue that it provide good working experience",
+    "C2": "Having jobs would affect the health of the student",
+    "C3": "It divert their mind from studies and would take away their childhood phase from their life",
+    "C4": "Having job would affect their health, divert them from studies and take away one of the important phase from their life",
+    "C5": "would affect their mental and physical health",
+    "C6": "If the student get involved himself in job in rest of the time, then it would cause an extra burden on them",
+    "C7": "jobs can divert students from their studies",
+    "C8": "they should take advantage of life as much possible they can"
+  },
+  "Premises": {
+    "P1": "jobs has various responsibilities like attendance, sometimes extra work and so on",
+    "P2": "This would result in stress, tension and tiredness",
+    "P3": "They won't be able to get proper time for relaxation, sleep",
+    "P4": "He has to spend his most of time in school to get a good grades",
+    "P5": "A student has to do lots of studies in today's competitive world to prove himself",
+    "P6": "If students started earning in earlier age in their life, then they get attracted towards money",
+    "P7": "They feel themselves independent and would prefer to work more for money",
+    "P8": "This would affect their studies, they loose their interest from studies",
+    "P9": "they drop out their studies so as to earn more money",
+    "P10": "the main drawback of teenagers job is that, they miss out the fun of their childhood time",
+    "P11": "They have whole life to do job and prove themselves, but the childhood phase will never return in their life",
+    "P12": "He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C6"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "C8",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C8"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C8"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C8"
+    }
+  ]
+}
+# Example 2
+## Input:
+Technological progress in the past century has its negative effect
+
+In the past few decades, there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals, although bringing some disadvantages to us.
+On one hand, the development of technology can prompt economic growth and the improvement of living standards. Scientists and engineers have invented many novel products and tools, which play an important role in economic activity. Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions. This also helps many countries to more efficiently export their products to the world and increase their revenue.
+Besides, advanced technology enables people to enhance their living-level and health care standard. With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control. Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies, and this means that we could get more happiness from technology.
+On the other hand, the development of technology is likely to bring some negative effects on the environment and society. People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions. This would pose a large threat to the ecology and environment. Vehicle technology enables many people to drive private cars, and emission of exhaust gas could lead to air pollution in large cities.
+In conclusion, although technological progress causes corresponding problems, it still provides us with much more advantages.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "it still provides us with much more advantages",
+    "MC2": "there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals"
+  },
+  "Claims": {
+    "C1": "technological progress causes corresponding problems",
+    "C2": "the development of technology can prompt economic growth and the improvement of living standards",
+    "C3": "advanced technology enables people to enhance their living-level and health care standard",
+    "C4": "the development of technology is likely to bring some negative effects on the environment and society"
+  },
+  "Premises": {
+    "P1": "Scientists and engineers have invented many novel products and tools, which play an important role in economic activity",
+    "P2": "Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions",
+    "P3": "This also helps many countries to more efficiently export their products to the world and increase their revenue",
+    "P4": "With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control",
+    "P5": "we could get more happiness from technology",
+    "P6": "Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies",
+    "P7": "People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions",
+    "P8": "This would pose a large threat to the ecology and environment",
+    "P9": "Vehicle technology enables many people to drive private cars, and emission of exhaust gas could lead to air pollution in large cities"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 3
+## Input:
+Leisure activities - Spend your free time outdoors or indoors.
+
+People often relax themselves by joining leisure activities. Some people prefer to spend their free time indoors. But from my experience, I myself prefer to spend my leisure time outdoors because I strongly feel that it is good for health and keep my body fit. Also, outdoor activities enable me to socialize with other people and enjoy natural beauty.
+There are strong advantages to spend leisure time outdoors. One benefit is that doing outdoor activities such as soccer and baseball is good for one's health. For instance, last year, I spent my summer time playing soccer and baseball. Playing baseball provided my upper body for hitting and throwing. Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games. I belive that practicing these sports helped me greatly. Something else that is good is that playing these sports is to keep my body fit, make me ultimately refreshed. After that summer, my body is stronger and endurance is better. 
+Outdoor activities not only improves my health but also gives me chances to communicate with more people. When I was ten years old, I was a shy girl. My mother took me to The National Camp. At first, I just ate and played alone. But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively. On the next day, we played together and she introduced me to her friends. Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp. If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today. 
+Moreover, you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking. If you spend your spare time at home or something like that, you can't enjoy beautiful nature. Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings.
+Admittedly, indoor activities are fun. There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy. Although I can also have fun in indoor activities, this advantage cannot outweigh the attractions coming from outdoor activities. After all, people are people and we have our own propensity. Leisure activities are one of them and I myself choose outdoor activities to spend my leisure time.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "I myself prefer to spend my leisure time outdoors",
+    "MC2": "I myself choose outdoor activities to spend my leisure time"
+  },
+  "Claims": {
+    "C1": "it is good for health and keep my body fit",
+    "C2": "outdoor activities enable me to socialize with other people and enjoy natural beauty",
+    "C3": "doing outdoor activities such as soccer and baseball is good for one's health",
+    "C4": "Outdoor activities not only improves my health but also gives me chances to communicate with more people",
+    "C5": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking",
+    "C6": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings",
+    "C7": "indoor activities are fun",
+    "C8": "I can also have fun in indoor activities"
+  },
+  "Premises": {
+    "P1": "last year, I spent my summer time playing soccer and baseball",
+    "P2": "Playing baseball provided my upper body for hitting and throwing",
+    "P3": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games",
+    "P4": "practicing these sports helped me greatly",
+    "P5": "playing these sports is to keep my body fit, make me ultimately refreshed",
+    "P6": "After that summer, my body is stronger and endurance is better",
+    "P7": "When I was ten years old, I was a shy girl",
+    "P8": "My mother took me to The National Camp",
+    "P9": "At first, I just ate and played alone",
+    "P10": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively",
+    "P11": "On the next day, we played together and she introduced me to her friends",
+    "P12": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp",
+    "P13": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today",
+    "P14": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature",
+    "P15": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy",
+    "P16": "this advantage cannot outweigh the attractions coming from outdoor activities"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C5"
+    },
+    {
+      "Claim": "C6",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C7",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C7"
+    },
+    {
+      "Claim": "C8",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "attacks",
+      "Target": "C8"
+    }
+  ]
+}
+# Example 4
+## Input:
+Students should attend to classes or it should be optional?
+
+Nowadays, it is often claimed that attending classes has a lot of benefits for students and provide them with a variety of learning opportunities (options) as well. On the contrary to this popular belief, there are still those who subscribe to this view that having a choice for attending classes enable students to study at home and through this way they do not waste their time for commuting and also they can save their money. However, I am inclined to believe that being present at classes seems a wiser option.
+First and foremost, I truly believe that being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college. Also, they can help each other for learning materials better. However, if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems. 
+Another significant fact which should be taken into consideration is that by the help of teachers, students can understand ideas faster and easier since teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points. In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study. 
+Finally yet importantly, appearing in class makes students more conscientious since they have to obey class’s disciplines and they practice to be more perseverance in the process of doing their assignments. However, the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times. Through this way, they may miss some important parts in virtue of the chaotic and incoherent study. 
+On the basis of the points mentioned above, I convinced that communicating and studying with peer group is a good way for learning materials. Moreover, teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it. Also, attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "being present at classes seems a wiser option",
+    "MC2": "communicating and studying with peer group is a good way for learning materials"
+  },
+  "Claims": {
+    "C1": "being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college",
+    "C2": "by the help of teachers, students can understand ideas faster and easier",
+    "C3": "appearing in class makes students more conscientious",
+    "C4": "teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it",
+    "C5": "attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success"
+  },
+  "Premises": {
+    "P1": "they can help each other for learning materials better",
+    "P2": "if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems",
+    "P3": "teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points",
+    "P4": "In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study",
+    "P5": "they have to obey class\u2019s disciplines and they practice to be more perseverance in the process of doing their assignments",
+    "P6": "the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times",
+    "P7": "they may miss some important parts in virtue of the chaotic and incoherent study"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C5",
+      "Relation": "For",
+      "Target": "MC"
+    }
+  ]
+}
+# Example 5
+## Input:
+Should teenagers learn all school subjects/focus on one subject
+
+Presently, it is commonly accepted that students have to learn over eight subjects in school. Public retain differing views on whether to teach students all subjects or just focus on one subject. Some parents are satisfied with the full class schedule of their children. While, others claim that studying only one subject is more effective. Before rendering my own opinion, I will explore sides of this topic.
+The benefits of teaching students different units are easily recognized. In the first place, with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future. Teenagers are still too young and immature to decide what they are going to dedicate. In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes. However, still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done. Besides, most students regard the extra knowledge useless and impractical for their future jobs.
+Those who advocate focusing on one subject believe that this education model can cultivate more talents who specialized in different areas and increase studying effectiveness. This is probably because students can devote more time and efforts in one subject and reduce pressure from other subjects. However, the drawbacks of this teaching method cannot be neglected. Most importantly, under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study. Moreover, the dullness of course may deeply influence their passion on study.
+It is undeniable that concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents, while its shortfalls are so vital to students' future. Therefore, I do support the view of learning all school subjects.
+
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "I do support the view of learning all school subjects"
+  },
+  "Claims": {
+    "C1": "concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents, while its shortfalls are so vital to students' future",
+    "C2": "The benefits of teaching students different units are easily recognized",
+    "C3": "this education model can cultivate more talents who specialized in different areas and increase studying effectiveness"
+  },
+  "Premises": {
+    "P1": "with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future",
+    "P2": "Teenagers are still too young and immature to decide what they are going to dedicate",
+    "P3": "In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes",
+    "P4": "still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done",
+    "P5": "most students regard the extra knowledge useless and impractical for their future jobs",
+    "P6": "students can devote more time and efforts in one subject and reduce pressure from other subjects",
+    "P7": "under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study",
+    "P8": "the dullness of course may deeply influence their passion on study"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "attacks",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "attacks",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
+}
+# Example 6
+## Input:
+The government should allocate more funds to public services instead of arts
+
+The issue of governmental financing provision to aesthetic features in the society has sparked a heated debate. While some argue that the budget allocation to the arts is waste of national resources and the money should instead be spent on public services, I contend that this investment in field of the arts would be in the best interest of a society.
+First of all, there is no doubt that governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way. Admittedly, no one should suffer from any sort of deficiency in field of health, education, transportation and communication. However, these could only help individuals with their physical requirements. There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts.
+On top of this, the arts play a pivotal role in all-round development of a society. No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration. Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways.
+Furthermore, investing in art could bring employment opportunities and could end in return of capital occasionally. The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions. 
+To sum up, not only could investing in art be considered as wasting money at any kind, but also it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "this investment in field of the arts would be in the best interest of a society",
+    "MC2": "it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways"
+  },
+  "Claims": {
+    "C1": "not only could investing in art be considered as wasting money at any kind",
+    "C2": "the arts play a pivotal role in all-round development of a society",
+    "C3": "investing in art could bring employment opportunities and could end in return of capital occasionally",
+    "C4": "governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way"
+  },
+  "Premises": {
+    "P1": "There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts",
+    "P2": "No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration",
+    "P3": "Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways",
+    "P4": "The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions",
+    "P5": "no one should suffer from any sort of deficiency in field of health, education, transportation and communication",
+    "P6": "these could only help individuals with their physical requirements"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "attacks",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "attacks",
+      "Target": "C4"
+    }
+  ]
+}
+# Example 7
+## Input:
+Capital punishment; 51% countries have polished death penalty
+
+"Capital punishment or the death penalty is a legal process whereby a person is put to death by the state as a punishment for a crime." In recently years, many countries have polished the law of the death penalty. In the whole world, 51% countries have polished death penalty; even, it is at 98% in Europe. Some people claim that without this punishment our lives would be less secure and crimes of violence would increase. However, others argue that it is not essential to control violence in society by the death penalty. Personally, I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons.
+Firstly, capital punishment is a form of revenge which creates violent culture. Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one. As a fact that the criminal is repeated second time; also, it is regarded as the "legalized revenge" to victims' family. Hence, death penalty neither controls the violent in society nor creates a violent culture.
+Secondly, nobody has the right to take another human life. It is undeniable that the rights of life are the basic and vital rights of a human being. No one has the right to take the life of a human; even if he committed murder. If you kill a criminal, you become a criminal. Moreover, if we think that killing is the best way to solve the problem, it is neither unethical nor immoral. In short, crimes seem to increase due to the capital punishment.
+Finally, with some of serious criminals, capital punishment is an easy way out. Criminals should be punished for their misdeeds. If they kill someone and end their life by dead without paying for their sins, it is so easy for them. They do not undergo any pain or misery. Why do not we have other wisely punishments? As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors. Why do not punish them by doing something meaningful for the country- it is better. Moreover, rehabilitation and education is also a better way in order to prevent or minimize offensive acts. 
+To conclude, capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society. The world should consider clearly about polishing the law of the dead penalty.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "it is no evidence about the reduction of crime rates due to the death penalty",
+    "MC2": "The world should consider clearly about polishing the law of the dead penalty"
+  },
+  "Claims": {
+    "C1": "death penalty neither controls the violent in society nor creates a violent culture",
+    "C2": "nobody has the right to take another human life",
+    "C3": "with some of serious criminals, capital punishment is an easy way out",
+    "C4": "it neither demines crimes of violence nor be essential to control violence in society"
+  },
+  "Premises": {
+    "P1": "Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one",
+    "P2": "the criminal is repeated second time",
+    "P3": "capital punishment is a form of revenge which creates violent culture",
+    "P4": "the rights of life are the basic and vital rights of a human being",
+    "P5": "No one has the right to take the life of a human; even if he committed murder",
+    "P6": "If you kill a criminal, you become a criminal",
+    "P7": "crimes seem to increase due to the capital punishment",
+    "P8": "if we think that killing is the best way to solve the problem, it is neither unethical nor immoral",
+    "P9": "If they kill someone and end their life by dead without paying for their sins, it is so easy for them",
+    "P10": "They do not undergo any pain or misery",
+    "P11": "Criminals should be punished for their misdeeds",
+    "P12": "capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life",
+    "P13": "rehabilitation and education is also a better way in order to prevent or minimize offensive acts",
+    "P14": "Why do not punish them by doing something meaningful for the country- it is better",
+    "P15": "some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors",
+    "P16": "it is regarded as the \"legalized revenge\" to victims' family"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "P16"
+    },
+    {
+      "Claim": "P16",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P15",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P14",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P13",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P12",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P4"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C2"
+    }
+  ]
+}
+# Example 8
+## Input:
+Learning facts has more subsequent advantages for students' future lives
+
+There are many debates regarding whether understanding ideas and concepts is more essential than learning facts for students or not. Although multitudes of people think that knowledge of ideas and concepts is more vital for students, I am in the conviction that learning facts has more subsequent advantages for students' future lives. In the following, I will state my reasons for this choice.
+First, when students learn facts more in school, they would be ready for facing problems in their own life after their graduations. As a case in point, more information about facts would make students more familiar with the real life other that only their concepts. As a result, they would prepare to encounter their life out of school to solve their problems better. 
+Second, it would improve students' social behavior. If students only rely on concepts and ideas theorically, they would not realize human's mind very well. They should understand objects more that concepts to obtain the ability of analyzing matters well. Thus, if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life. 
+Moreover, these way students are teached to control their fears and concerns in facing facts. As a matter of fact, when a student understands a fact and its consequences, he or she can encounter it more confidently. In my viewpoint, concerns and anxieties are very destructive in everybody's life. It can prevent person to progress and thrive in every position. 
+All in all, I am in the belief that learning facts is more beneficial for students in both social and individual life in the view of above-mentioned reasons. Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc.
+
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "learning facts has more subsequent advantages for students' future lives",
+    "MC2": "learning facts is more beneficial for students in both social and individual life"
+  },
+  "Claims": {
+    "C1": "they would prepare to encounter their life out of school to solve their problems better",
+    "C2": "it would improve students' social behavior",
+    "C3": "when a student understands a fact and its consequences, he or she can encounter it more confidently",
+    "C4": "Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc"
+  },
+  "Premises": {
+    "P1": "when students learn facts more in school, they would be ready for facing problems in their own life after their graduations",
+    "P2": "more information about facts would make students more familiar with the real life other that only their concepts",
+    "P3": "if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life",
+    "P4": "If students only rely on concepts and ideas theorically, they would not realize human's mind very well",
+    "P5": "They should understand objects more that concepts to obtain the ability of analyzing matters well",
+    "P6": "It can prevent person to progress and thrive in every position",
+    "P7": "concerns and anxieties are very destructive in everybody's life",
+    "P8": "these way students are teached to control their fears and concerns in facing facts"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "P3"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C3"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "C3"
+    }
+  ]
+}
+# Example 9
+## Input:
+Children should studying hard or playing sport? Both can improve their future
+
+Some people believe that studying hard is essential part for children, otherwise others people think that playing sport is waste of time. In my point of view, both of studying hard and playing sports are part of life to children. 
+On the other hand, studying hard will give children a better future. Studying hard gives children with a plenty of knowledge and skills for their future. Naturally, children will be growing up and looking for their job. For instance, children who always studying hard and getting high achievement, it will be easy to pass qualification for work and they are more likely to find great work at multinational company. If they working at multinational company as the result is they can earn higher salary. The message is when you always studying harder than others you will get best results.
+At the same time, playing sports will give good effects on children. There are many popular sports among children such as football, basketball, and volleyball. Also, there are many benefit when children doing sport. Firstly, children who always playing sport like football, they will be active as a person and learn to become team-player. It will be good for children, because indirectly they will learn how to socialize each other as a team. That will make children getting lots of friends, so they can contribute positively to community. Secondly, playing sport makes children getting healthy and become children's well-being. 
+In conclusion, both studying hard at school and playing sports can improve children's future.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "both of studying hard and playing sports are part of life to children",
+    "MC2": "both studying hard at school and playing sports can improve children's future"
+  },
+  "Claims": {
+    "C1": "studying hard will give children a better future",
+    "C2": "playing sports will give good effects on children"
+  },
+  "Premises": {
+    "P1": "Studying hard gives children with a plenty of knowledge and skills for their future",
+    "P2": "children who always studying hard and getting high achievement, it will be easy to pass qualification for work and they are more likely to find great work at multinational company",
+    "P3": "If they working at multinational company as the result is they can earn higher salary",
+    "P4": "when you always studying harder than others you will get best results",
+    "P5": "there are many benefit when children doing sport",
+    "P6": "children who always playing sport like football, they will be active as a person and learn to become team-player",
+    "P7": "It will be good for children",
+    "P8": "indirectly they will learn how to socialize each other as a team",
+    "P9": "That will make children getting lots of friends",
+    "P10": "they can contribute positively to community",
+    "P11": "playing sport makes children getting healthy and become children's well-being"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C1"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "P2"
+    },
+    {
+      "Claim": "P8",
+      "Relation": "supports",
+      "Target": "P7"
+    },
+    {
+      "Claim": "P9",
+      "Relation": "supports",
+      "Target": "P10"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P10",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P11",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C1"
+    }
+  ]
+}
+# Example 10
+## Input:
+The best way to relax is by exercises
+
+In modern society, people often face many difficulties under great stress. Therefore, it is necessary for many to find ways to relax. Although miscellaneous people may apply diverse strategies, such as reading, watching movies, or working in their gardens, I argue that the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions.
+It is not surprised that exercise play a crucial role in ameliorating physical health. Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system. Moreover, these sports can also strengthen muscles and lessen surplus adipose tissues in human body. The latter one is of particular importance because nowadays more and more people are suffer from obesity. Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises.
+Sports activities can improve mental health as well. When people exercise, the neuron cells in the brain release a chemical compound named Dopamine. This hormone can delight one's mind, creating positive feelings. Thus good exercises can often successfully alleviating one's heavy burdens. Moreover, rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks.
+In a nutshell, many activities can let humans relax. Nevertheless, I assert that the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally.
+## Output:
+{
+  "MajorClaims": {
+    "MC1": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions",
+    "MC2": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
+  },
+  "Claims": {
+    "C1": "many activities can let humans relax",
+    "C2": "exercise play a crucial role in ameliorating physical health",
+    "C3": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks",
+    "C4": "Sports activities can improve mental health"
+  },
+  "Premises": {
+    "P1": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system",
+    "P2": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body",
+    "P3": "The latter one is of particular importance because nowadays more and more people are suffer from obesity",
+    "P4": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises",
+    "P5": "good exercises can often successfully alleviating one's heavy burdens",
+    "P6": "This hormone can delight one's mind, creating positive feelings",
+    "P7": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
+  },
+  "ArgumentativeRelations": [
+    {
+      "Claim": "C1",
+      "Relation": "Against",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C2",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C3",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "C4",
+      "Relation": "For",
+      "Target": "MC"
+    },
+    {
+      "Claim": "P1",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P2",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P3",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P4",
+      "Relation": "supports",
+      "Target": "C2"
+    },
+    {
+      "Claim": "P6",
+      "Relation": "supports",
+      "Target": "P5"
+    },
+    {
+      "Claim": "P7",
+      "Relation": "supports",
+      "Target": "C4"
+    },
+    {
+      "Claim": "P5",
+      "Relation": "supports",
+      "Target": "C4"
+    }
+  ]
+}
