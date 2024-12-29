@@ -43,102 +43,102 @@ Thus, for a teenager it is important to pay attention on their studies. Having j
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C5",
+      "Origin": "C5",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C5"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C5"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C5"
     },
     {
-      "Claim": "C6",
+      "Origin": "C6",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C6"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C6"
     },
     {
-      "Claim": "C7",
+      "Origin": "C7",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C7"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C7"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "C7"
     },
     {
-      "Claim": "P9",
+      "Origin": "P9",
       "Relation": "supports",
       "Target": "C7"
     },
     {
-      "Claim": "C8",
+      "Origin": "C8",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P12",
+      "Origin": "P12",
       "Relation": "supports",
       "Target": "C8"
     },
     {
-      "Claim": "P10",
+      "Origin": "P10",
       "Relation": "supports",
       "Target": "C8"
     },
     {
-      "Claim": "P11",
+      "Origin": "P11",
       "Relation": "supports",
       "Target": "C8"
     }
@@ -178,67 +178,67 @@ In conclusion, although technological progress causes corresponding problems, it
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P9",
+      "Origin": "P9",
       "Relation": "supports",
       "Target": "C4"
     }
@@ -289,122 +289,122 @@ Admittedly, indoor activities are fun. There's no doubt that indoor activities l
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P9",
+      "Origin": "P9",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P10",
+      "Origin": "P10",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P11",
+      "Origin": "P11",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P12",
+      "Origin": "P12",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P13",
+      "Origin": "P13",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "C5",
+      "Origin": "C5",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P14",
+      "Origin": "P14",
       "Relation": "supports",
       "Target": "C5"
     },
     {
-      "Claim": "C6",
+      "Origin": "C6",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C7",
+      "Origin": "C7",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P15",
+      "Origin": "P15",
       "Relation": "supports",
       "Target": "C7"
     },
     {
-      "Claim": "C8",
+      "Origin": "C8",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P16",
+      "Origin": "P16",
       "Relation": "attacks",
       "Target": "C8"
     }
@@ -443,62 +443,62 @@ On the basis of the points mentioned above, I convinced that communicating and s
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "P7"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C5",
+      "Origin": "C5",
       "Relation": "For",
       "Target": "MC"
     }
@@ -535,57 +535,57 @@ It is undeniable that concentrating on one subject can reduce students' pressure
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "attacks",
       "Target": "C2"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "attacks",
       "Target": "C2"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "attacks",
       "Target": "C3"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "attacks",
       "Target": "C3"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C3"
     }
@@ -622,52 +622,52 @@ To sum up, not only could investing in art be considered as wasting money at any
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "attacks",
       "Target": "P5"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "attacks",
       "Target": "C4"
     }
@@ -714,102 +714,102 @@ To conclude, capital punishment is a form of legalized revenge, it is an easy wa
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "P16"
     },
     {
-      "Claim": "P16",
+      "Origin": "P16",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P11",
+      "Origin": "P11",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P9",
+      "Origin": "P9",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P10",
+      "Origin": "P10",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P15",
+      "Origin": "P15",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P14",
+      "Origin": "P14",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P13",
+      "Origin": "P13",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P12",
+      "Origin": "P12",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "P4"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C2"
     }
@@ -849,62 +849,62 @@ All in all, I am in the belief that learning facts is more beneficial for studen
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "P3"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C3"
     }
@@ -943,67 +943,67 @@ In conclusion, both studying hard at school and playing sports can improve child
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "P2"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "P7"
     },
     {
-      "Claim": "P9",
+      "Origin": "P9",
       "Relation": "supports",
       "Target": "P10"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P10",
+      "Origin": "P10",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P11",
+      "Origin": "P11",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C1"
     }
@@ -1040,57 +1040,57 @@ In a nutshell, many activities can let humans relax. Nevertheless, I assert that
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C4"
     }

@@ -19,57 +19,57 @@
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "attacks",
       "Target": "C1"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "Against",
       "Target": "MC"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "attacks",
       "Target": "P3"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "P5"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "attacks",
       "Target": "C2"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "P7"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C3"
     }

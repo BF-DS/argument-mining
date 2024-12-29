@@ -23,77 +23,77 @@
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "P3"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C3"
     },
     {
-      "Claim": "C4",
+      "Origin": "C4",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P6",
+      "Origin": "P6",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "P7",
+      "Origin": "P7",
       "Relation": "supports",
       "Target": "C4"
     },
     {
-      "Claim": "C5",
+      "Origin": "C5",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P8",
+      "Origin": "P8",
       "Relation": "supports",
       "Target": "P9"
     },
     {
-      "Claim": "P10",
+      "Origin": "P10",
       "Relation": "supports",
       "Target": "C5"
     },
     {
-      "Claim": "P9",
+      "Origin": "P9",
       "Relation": "supports",
       "Target": "C5"
     }

@@ -16,37 +16,37 @@
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C1"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P5",
+      "Origin": "P5",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P4",
+      "Origin": "P4",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "P3",
+      "Origin": "P3",
       "Relation": "supports",
       "Target": "C2"
     }

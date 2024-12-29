@@ -14,27 +14,27 @@
   },
   "ArgumentativeRelations": [
     {
-      "Claim": "C1",
+      "Origin": "C1",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "C2",
+      "Origin": "C2",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P1",
+      "Origin": "P1",
       "Relation": "supports",
       "Target": "C2"
     },
     {
-      "Claim": "C3",
+      "Origin": "C3",
       "Relation": "For",
       "Target": "MC"
     },
     {
-      "Claim": "P2",
+      "Origin": "P2",
       "Relation": "supports",
       "Target": "C3"
     }

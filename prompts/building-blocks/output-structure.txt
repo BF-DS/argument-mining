@@ -12,9 +12,9 @@
         "P2": "Text"
     },
     "ArgumentativeRelations": [
-        {"Claim": "C1", "Relation": "for", "Target": "MC"},
-        {"Claim": "C2", "Relation": "against", "Target": "MC"},
-        {"Premise": "P1", "Relation": "supports", "Target": "C1"},
-        {"Premise": "P2", "Relation": "attacks", "Target": "C2"}
+        {"Origin": "C1", "Relation": "for", "Target": "MC"},
+        {"Origin": "C2", "Relation": "against", "Target": "MC"},
+        {"Origin": "P1", "Relation": "supports", "Target": "C1"},
+        {"Origin": "P2", "Relation": "attacks", "Target": "C2"}
     ]
 }
