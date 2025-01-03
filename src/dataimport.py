@@ -17,4 +17,5 @@ def load_text(file_path):
     """Load text from a file"""
     with open(file_path, 'r') as file:
         text = file.read()
+        text = str(text)
     return text
