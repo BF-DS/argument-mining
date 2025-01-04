@@ -1,20 +1,24 @@
 {
-    "MajorClaims": {
-        "MC1": "Text",
-        "MC2": "Text"
-    },
-    "Claims": {
-        "C1": "Text",
-        "C2": "Text"
-    },
-    "Premises": {
-        "P1": "Text",
-        "P2": "Text"
-    },
+    "MajorClaims": [
+        {"ID": "MC1", "Text": "Text"},
+        {"ID": "MC2", "Text": "Text"}, 
+        ...
+    ],
+    "Claims": [
+        {"ID": "C1", "Text": "Text"},
+        {"ID": "C2", "Text": "Text"},
+        ...
+    ],
+    "Premises": [
+        {"ID": "P1", "Text": "Text"},
+        {"ID": "P2", "Text": "Text"},
+        ...
+    ],
     "ArgumentativeRelations": [
         {"Origin": "C1", "Relation": "for", "Target": "MC"},
         {"Origin": "C2", "Relation": "against", "Target": "MC"},
         {"Origin": "P1", "Relation": "supports", "Target": "C1"},
-        {"Origin": "P2", "Relation": "attacks", "Target": "C2"}
+        {"Origin": "P2", "Relation": "attacks", "Target": "C2"},
+        ...
     ]
 }
