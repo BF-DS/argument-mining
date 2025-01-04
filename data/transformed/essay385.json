@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "the guns which are used by police have not been a trigger of higher level of violence"
-  },
-  "Claims": {
-    "C1": "some military weapons need encouraging for police officers to protect the public and minimize the rate of violence",
-    "C2": "there are some reason why the level of bloody increases significantly in the communities"
-  },
-  "Premises": {
-    "P1": "they have a weapon which will prevent an escaping criminal who poses a serious danger to the public",
-    "P2": "a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun",
-    "P3": "An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him",
-    "P4": "police officers can force a criminal to surrender",
-    "P5": "the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries",
-    "P6": "Many well-qualified and well-educated person cannot earn some money to live comfortably",
-    "P7": "cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs",
-    "P8": "Many baggers chose to be a pickpocket in the public transport, for instance"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the guns which are used by police have not been a trigger of higher level of violence"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "some military weapons need encouraging for police officers to protect the public and minimize the rate of violence"
+    },
+    {
+      "ID": "C2",
+      "Text": "there are some reason why the level of bloody increases significantly in the communities"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they have a weapon which will prevent an escaping criminal who poses a serious danger to the public"
+    },
+    {
+      "ID": "P2",
+      "Text": "a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun"
+    },
+    {
+      "ID": "P3",
+      "Text": "An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him"
+    },
+    {
+      "ID": "P4",
+      "Text": "police officers can force a criminal to surrender"
+    },
+    {
+      "ID": "P5",
+      "Text": "the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries"
+    },
+    {
+      "ID": "P6",
+      "Text": "Many well-qualified and well-educated person cannot earn some money to live comfortably"
+    },
+    {
+      "ID": "P7",
+      "Text": "cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs"
+    },
+    {
+      "ID": "P8",
+      "Text": "Many baggers chose to be a pickpocket in the public transport, for instance"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "it is very important to live life at a slower pace",
-    "MC2": "living a slower life is advantageous for your health, your happiness and even the quality of your work"
-  },
-  "Claims": {
-    "C1": "living in a hurry comes along with several disadvantages",
-    "C2": "living your life on the fast lane is very stressful and can affect your health",
-    "C3": "living your life at a slower pace increases your happiness",
-    "C4": "you might make mistakes, you would not have done with more patience"
-  },
-  "Premises": {
-    "P1": "If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle",
-    "P2": "Many hardworking people have diseases, like the burn-out syndrome",
-    "P3": "their bodies cannot hold the pace",
-    "P4": "my father had a a breakdown several years ago due to his stressful job",
-    "P5": "After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine",
-    "P6": "If you are always facing excessive stress you cannot care for your beloved's",
-    "P7": "If you do not hurry yourself you can take more time for your family and friends",
-    "P8": "Caring for your social environment will increase your happiness and also reduce your stress level",
-    "P9": "a friend of mine lives at a slow pace and is really satisfied about it",
-    "P10": "he can enjoy his family and cultivate his friendships",
-    "P11": "When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes",
-    "P12": "Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities",
-    "P13": "quality takes time",
-    "P14": "I once wrote an essay in a hurry and got a bad grade",
-    "P15": "I made few mistakes I could have avoided"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is very important to live life at a slower pace"
+    },
+    {
+      "ID": "MC2",
+      "Text": "living a slower life is advantageous for your health, your happiness and even the quality of your work"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "living in a hurry comes along with several disadvantages"
+    },
+    {
+      "ID": "C2",
+      "Text": "living your life on the fast lane is very stressful and can affect your health"
+    },
+    {
+      "ID": "C3",
+      "Text": "living your life at a slower pace increases your happiness"
+    },
+    {
+      "ID": "C4",
+      "Text": "you might make mistakes, you would not have done with more patience"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle"
+    },
+    {
+      "ID": "P2",
+      "Text": "Many hardworking people have diseases, like the burn-out syndrome"
+    },
+    {
+      "ID": "P3",
+      "Text": "their bodies cannot hold the pace"
+    },
+    {
+      "ID": "P4",
+      "Text": "my father had a a breakdown several years ago due to his stressful job"
+    },
+    {
+      "ID": "P5",
+      "Text": "After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine"
+    },
+    {
+      "ID": "P6",
+      "Text": "If you are always facing excessive stress you cannot care for your beloved's"
+    },
+    {
+      "ID": "P7",
+      "Text": "If you do not hurry yourself you can take more time for your family and friends"
+    },
+    {
+      "ID": "P8",
+      "Text": "Caring for your social environment will increase your happiness and also reduce your stress level"
+    },
+    {
+      "ID": "P9",
+      "Text": "a friend of mine lives at a slow pace and is really satisfied about it"
+    },
+    {
+      "ID": "P10",
+      "Text": "he can enjoy his family and cultivate his friendships"
+    },
+    {
+      "ID": "P11",
+      "Text": "When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes"
+    },
+    {
+      "ID": "P12",
+      "Text": "Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities"
+    },
+    {
+      "ID": "P13",
+      "Text": "quality takes time"
+    },
+    {
+      "ID": "P14",
+      "Text": "I once wrote an essay in a hurry and got a bad grade"
+    },
+    {
+      "ID": "P15",
+      "Text": "I made few mistakes I could have avoided"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

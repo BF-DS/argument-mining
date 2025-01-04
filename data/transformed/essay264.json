@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "success and trying new things and taking risks go hand in hand and to achieve success you should consider them"
-  },
-  "Claims": {
-    "C1": "successful people can learn important and very valuable points from trying new things",
-    "C2": "great success requires taking great risks",
-    "C3": "These experiences can only be obtained by trying new things and can\u2019t be always found in books",
-    "C4": "it is important to take risks"
-  },
-  "Premises": {
-    "P1": "if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places",
-    "P2": "By selling goods or other commodities you will face different people with different behaviors and personalities",
-    "P3": "you will learn how to behave people in different situations and jobs in the future",
-    "P4": "There are always interesting and useful experiences that successful people can learn them only by trying new things",
-    "P5": "If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money",
-    "P6": "If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies",
-    "P7": "The more you take risks, the greater your successes will be",
-    "P8": "If you don\u2019t take any risks, you will have an ordinary life with average successes",
-    "P9": "great success requires taking great risks"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "success and trying new things and taking risks go hand in hand and to achieve success you should consider them"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "successful people can learn important and very valuable points from trying new things"
+    },
+    {
+      "ID": "C2",
+      "Text": "great success requires taking great risks"
+    },
+    {
+      "ID": "C3",
+      "Text": "These experiences can only be obtained by trying new things and can\u2019t be always found in books"
+    },
+    {
+      "ID": "C4",
+      "Text": "it is important to take risks"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places"
+    },
+    {
+      "ID": "P2",
+      "Text": "By selling goods or other commodities you will face different people with different behaviors and personalities"
+    },
+    {
+      "ID": "P3",
+      "Text": "you will learn how to behave people in different situations and jobs in the future"
+    },
+    {
+      "ID": "P4",
+      "Text": "There are always interesting and useful experiences that successful people can learn them only by trying new things"
+    },
+    {
+      "ID": "P5",
+      "Text": "If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money"
+    },
+    {
+      "ID": "P6",
+      "Text": "If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies"
+    },
+    {
+      "ID": "P7",
+      "Text": "The more you take risks, the greater your successes will be"
+    },
+    {
+      "ID": "P8",
+      "Text": "If you don\u2019t take any risks, you will have an ordinary life with average successes"
+    },
+    {
+      "ID": "P9",
+      "Text": "great success requires taking great risks"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C2",

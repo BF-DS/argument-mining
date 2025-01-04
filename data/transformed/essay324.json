@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "different types of tasks endow more colors to our life"
-  },
-  "Claims": {
-    "C1": "the same task give us opportunities to be an expert",
-    "C2": "great achievement needs someone keen on one task for long time",
-    "C3": "Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier",
-    "C4": "doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life"
-  },
-  "Premises": {
-    "P1": "when it comes to \"happier\", different type of jobs can be responsible factor",
-    "P2": "It allows us to achieve more",
-    "P3": "As a authoritative dentist in my province, my mother has worked for 25 years",
-    "P4": "Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation",
-    "P5": "Workers, who work for an ordinary company or industry, will be sick of same tasks day by day",
-    "P6": "Doing different tasks makes employees and employers much happier",
-    "P7": "consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits",
-    "P8": "They both will be happy",
-    "P9": "the change of job, not the same task day by day",
-    "P10": "they can be familiar with their job",
-    "P11": "changing of job is what serve to their happier",
-    "P12": "As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges",
-    "P13": "New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience",
-    "P14": "As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge",
-    "P15": "Different types of tasks during workday brings more challenges, making life colorful",
-    "P16": "Just like a song, if I did not have challenge, life would be blue"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "different types of tasks endow more colors to our life"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the same task give us opportunities to be an expert"
+    },
+    {
+      "ID": "C2",
+      "Text": "great achievement needs someone keen on one task for long time"
+    },
+    {
+      "ID": "C3",
+      "Text": "Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier"
+    },
+    {
+      "ID": "C4",
+      "Text": "doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "when it comes to \"happier\", different type of jobs can be responsible factor"
+    },
+    {
+      "ID": "P2",
+      "Text": "It allows us to achieve more"
+    },
+    {
+      "ID": "P3",
+      "Text": "As a authoritative dentist in my province, my mother has worked for 25 years"
+    },
+    {
+      "ID": "P4",
+      "Text": "Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation"
+    },
+    {
+      "ID": "P5",
+      "Text": "Workers, who work for an ordinary company or industry, will be sick of same tasks day by day"
+    },
+    {
+      "ID": "P6",
+      "Text": "Doing different tasks makes employees and employers much happier"
+    },
+    {
+      "ID": "P7",
+      "Text": "consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits"
+    },
+    {
+      "ID": "P8",
+      "Text": "They both will be happy"
+    },
+    {
+      "ID": "P9",
+      "Text": "the change of job, not the same task day by day"
+    },
+    {
+      "ID": "P10",
+      "Text": "they can be familiar with their job"
+    },
+    {
+      "ID": "P11",
+      "Text": "changing of job is what serve to their happier"
+    },
+    {
+      "ID": "P12",
+      "Text": "As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges"
+    },
+    {
+      "ID": "P13",
+      "Text": "New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience"
+    },
+    {
+      "ID": "P14",
+      "Text": "As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge"
+    },
+    {
+      "ID": "P15",
+      "Text": "Different types of tasks during workday brings more challenges, making life colorful"
+    },
+    {
+      "ID": "P16",
+      "Text": "Just like a song, if I did not have challenge, life would be blue"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

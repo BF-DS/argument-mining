@@ -1,18 +1,42 @@
 {
-  "MajorClaims": {
-    "MC1": "I would rather classify myself in the proponents of globalization as a speeding factor of global progress"
-  },
-  "Claims": {
-    "C1": "Some people prefer to recognize globalization as a threat to ethnic and religious values of people of their country",
-    "C2": "globalization contribute effectively to the global improvement of the world in many aspects",
-    "C3": "globalization results in considerable decrease in global tension"
-  },
-  "Premises": {
-    "P1": "the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments",
-    "P2": "Developing globalization, people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world",
-    "P3": "they admit that globalization can be considered a chance for people of each country to promote their lifestyle through the stuffs and services imported from other countries",
-    "P4": "convergence of benefits of people of the world which is a natural consequence of globalization"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I would rather classify myself in the proponents of globalization as a speeding factor of global progress"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Some people prefer to recognize globalization as a threat to ethnic and religious values of people of their country"
+    },
+    {
+      "ID": "C2",
+      "Text": "globalization contribute effectively to the global improvement of the world in many aspects"
+    },
+    {
+      "ID": "C3",
+      "Text": "globalization results in considerable decrease in global tension"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments"
+    },
+    {
+      "ID": "P2",
+      "Text": "Developing globalization, people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world"
+    },
+    {
+      "ID": "P3",
+      "Text": "they admit that globalization can be considered a chance for people of each country to promote their lifestyle through the stuffs and services imported from other countries"
+    },
+    {
+      "ID": "P4",
+      "Text": "convergence of benefits of people of the world which is a natural consequence of globalization"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

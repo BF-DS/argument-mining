@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "parents should encourage students to take the part-time job",
-    "MC2": "it is better for parents to encourage them to take part-time jobs"
-  },
-  "Claims": {
-    "C1": "taking the part-time job can let students experience the real adult life and know more about it",
-    "C2": "they can teach students many things about adult life",
-    "C3": "we need part-time job to teach us how hard the real adult life can be",
-    "C4": "the part-time job can make people understand future life better",
-    "C5": "the part-time job will effect student' study"
-  },
-  "Premises": {
-    "P1": "most people they contact with are also students",
-    "P2": "there are a few opportunities for students to know how to live adult life in the university",
-    "P3": "when students do part-time jobs, they can work with many kinds of people, and most of whom are adults",
-    "P4": "My friend Lisa, who is doing part-time job now, tells me that it is fabulous to take it",
-    "P5": "Through part-time job, she makes friends with different kinds of people and they let her know the different aspects of adult life",
-    "P6": "Lisa thought in adult life, work is the core; but after she knows these friends, she changes her mind that the true core for the adult life is responsibility but not work",
-    "P7": "thanks to the information her new friends has provided; now she is more confidence about her future adult life",
-    "P8": "we do not experience it",
-    "P9": "it is very difficult for us to really know how tense the adult life can be",
-    "P10": "some questionnaires indicate that if students have taken part-time jobs, they will make the best use of their time to prepare their future and more importantly; they will not expect too much for their future than students who have not taken the part-time job",
-    "P11": "parents always tell students that the adult life is much tenser than school life",
-    "P12": "most students will do the part-time job in their holiday",
-    "P13": "it will not effect on their study",
-    "P14": "Compared with playing computers every day, doing part-time jobs is the best choice for students to spend their holiday"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "parents should encourage students to take the part-time job"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is better for parents to encourage them to take part-time jobs"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "taking the part-time job can let students experience the real adult life and know more about it"
+    },
+    {
+      "ID": "C2",
+      "Text": "they can teach students many things about adult life"
+    },
+    {
+      "ID": "C3",
+      "Text": "we need part-time job to teach us how hard the real adult life can be"
+    },
+    {
+      "ID": "C4",
+      "Text": "the part-time job can make people understand future life better"
+    },
+    {
+      "ID": "C5",
+      "Text": "the part-time job will effect student' study"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "most people they contact with are also students"
+    },
+    {
+      "ID": "P2",
+      "Text": "there are a few opportunities for students to know how to live adult life in the university"
+    },
+    {
+      "ID": "P3",
+      "Text": "when students do part-time jobs, they can work with many kinds of people, and most of whom are adults"
+    },
+    {
+      "ID": "P4",
+      "Text": "My friend Lisa, who is doing part-time job now, tells me that it is fabulous to take it"
+    },
+    {
+      "ID": "P5",
+      "Text": "Through part-time job, she makes friends with different kinds of people and they let her know the different aspects of adult life"
+    },
+    {
+      "ID": "P6",
+      "Text": "Lisa thought in adult life, work is the core; but after she knows these friends, she changes her mind that the true core for the adult life is responsibility but not work"
+    },
+    {
+      "ID": "P7",
+      "Text": "thanks to the information her new friends has provided; now she is more confidence about her future adult life"
+    },
+    {
+      "ID": "P8",
+      "Text": "we do not experience it"
+    },
+    {
+      "ID": "P9",
+      "Text": "it is very difficult for us to really know how tense the adult life can be"
+    },
+    {
+      "ID": "P10",
+      "Text": "some questionnaires indicate that if students have taken part-time jobs, they will make the best use of their time to prepare their future and more importantly; they will not expect too much for their future than students who have not taken the part-time job"
+    },
+    {
+      "ID": "P11",
+      "Text": "parents always tell students that the adult life is much tenser than school life"
+    },
+    {
+      "ID": "P12",
+      "Text": "most students will do the part-time job in their holiday"
+    },
+    {
+      "ID": "P13",
+      "Text": "it will not effect on their study"
+    },
+    {
+      "ID": "P14",
+      "Text": "Compared with playing computers every day, doing part-time jobs is the best choice for students to spend their holiday"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

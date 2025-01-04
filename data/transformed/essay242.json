@@ -1,34 +1,106 @@
 {
-  "MajorClaims": {
-    "MC1": "living environment is more important than job for most of us",
-    "MC2": "it is far better to protect our living environment rather than focus on job or work"
-  },
-  "Claims": {
-    "C1": "job can bring us happiness",
-    "C2": "job can provide money to us",
-    "C3": "people should concern more about their living environment than job",
-    "C4": "beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people",
-    "C5": "the goal people is for good livers"
-  },
-  "Premises": {
-    "P1": "People can receive a sense of values and respected from job",
-    "P2": "If people receive respect from others, they will feel achievement and self-confidence",
-    "P3": "for most of us, job is only a tool to maintain our lives",
-    "P4": "Few people can feel happiness from their job",
-    "P5": "they have to continue to work more than 30 years",
-    "P6": "Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day",
-    "P7": "These labor works cannot provide workers with a lot of happiness",
-    "P8": "they feel tired and frustrated after long hour work",
-    "P9": "Without beautiful environment, people are not able to feel happiness and will fell anxiety",
-    "P10": "Nowadays, the fast development of economy is gradually destroying our environment very quickly",
-    "P11": "Factories released a huge amount of wasters into river and soil",
-    "P12": "In order to build city and factory, people destroy huge forests",
-    "P13": "In China, some residents who live in nearby some toxic factories became sick",
-    "P14": "these factories release a lot of toxic water and wasters into environment around people",
-    "P15": "local residents benefits from an increasing number of jobs which are provided by those factories",
-    "P16": "they cannot feel happiness from high-paying job",
-    "P17": "most of them suffer from cancer or other diseases"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "living environment is more important than job for most of us"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is far better to protect our living environment rather than focus on job or work"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "job can bring us happiness"
+    },
+    {
+      "ID": "C2",
+      "Text": "job can provide money to us"
+    },
+    {
+      "ID": "C3",
+      "Text": "people should concern more about their living environment than job"
+    },
+    {
+      "ID": "C4",
+      "Text": "beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people"
+    },
+    {
+      "ID": "C5",
+      "Text": "the goal people is for good livers"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "People can receive a sense of values and respected from job"
+    },
+    {
+      "ID": "P2",
+      "Text": "If people receive respect from others, they will feel achievement and self-confidence"
+    },
+    {
+      "ID": "P3",
+      "Text": "for most of us, job is only a tool to maintain our lives"
+    },
+    {
+      "ID": "P4",
+      "Text": "Few people can feel happiness from their job"
+    },
+    {
+      "ID": "P5",
+      "Text": "they have to continue to work more than 30 years"
+    },
+    {
+      "ID": "P6",
+      "Text": "Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day"
+    },
+    {
+      "ID": "P7",
+      "Text": "These labor works cannot provide workers with a lot of happiness"
+    },
+    {
+      "ID": "P8",
+      "Text": "they feel tired and frustrated after long hour work"
+    },
+    {
+      "ID": "P9",
+      "Text": "Without beautiful environment, people are not able to feel happiness and will fell anxiety"
+    },
+    {
+      "ID": "P10",
+      "Text": "Nowadays, the fast development of economy is gradually destroying our environment very quickly"
+    },
+    {
+      "ID": "P11",
+      "Text": "Factories released a huge amount of wasters into river and soil"
+    },
+    {
+      "ID": "P12",
+      "Text": "In order to build city and factory, people destroy huge forests"
+    },
+    {
+      "ID": "P13",
+      "Text": "In China, some residents who live in nearby some toxic factories became sick"
+    },
+    {
+      "ID": "P14",
+      "Text": "these factories release a lot of toxic water and wasters into environment around people"
+    },
+    {
+      "ID": "P15",
+      "Text": "local residents benefits from an increasing number of jobs which are provided by those factories"
+    },
+    {
+      "ID": "P16",
+      "Text": "they cannot feel happiness from high-paying job"
+    },
+    {
+      "ID": "P17",
+      "Text": "most of them suffer from cancer or other diseases"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

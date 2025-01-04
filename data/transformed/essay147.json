@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "games are no longer too important for them",
-    "MC2": "adults do need to play games, but their styles are often distinct from children's, which are often less competitive and more enjoyable"
-  },
-  "Claims": {
-    "C1": "Along with the high requirement for family and work, games are just some leisure activities for adults, not something necessary as they are meant to be for children",
-    "C2": "games become unnecessary for people when their careers begin",
-    "C3": "adults often do not pursue games as a competitive activity, while children are always keen on competition and winning"
-  },
-  "Premises": {
-    "P1": "Someone may argue that games help adults relax and become more balanced in life",
-    "P2": "more often, the pressure of work and family commitment force them to abandon their lifelong hobbies",
-    "P3": "they cannot spend enough time and effort to their favorite games as they did in 15 or 20 years ago",
-    "P4": "in my country, except for a minor part of professional athletes, the majority of people stop playing games seriously as soon as they find a decent job",
-    "P5": "They often feel that such games become more troublesome than enjoyable for their daily lives",
-    "P6": "For youngsters, maintaining their desire to win often develops many outstanding characteristics whether they participate sport events or not",
-    "P7": "my younger sister likes fencing, and thanks to her desire to win, she never gives up when facing a difficult situation, or even becoming hurt",
-    "P8": "adults often consider such behaviors as childish and drop them immediately",
-    "P9": "a competitive person usually finds it difficult to cooperate with friends and colleagues",
-    "P10": "they no longer play games for any moderate achievements, and gradually lose their interest in such activities"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "games are no longer too important for them"
+    },
+    {
+      "ID": "MC2",
+      "Text": "adults do need to play games, but their styles are often distinct from children's, which are often less competitive and more enjoyable"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Along with the high requirement for family and work, games are just some leisure activities for adults, not something necessary as they are meant to be for children"
+    },
+    {
+      "ID": "C2",
+      "Text": "games become unnecessary for people when their careers begin"
+    },
+    {
+      "ID": "C3",
+      "Text": "adults often do not pursue games as a competitive activity, while children are always keen on competition and winning"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Someone may argue that games help adults relax and become more balanced in life"
+    },
+    {
+      "ID": "P2",
+      "Text": "more often, the pressure of work and family commitment force them to abandon their lifelong hobbies"
+    },
+    {
+      "ID": "P3",
+      "Text": "they cannot spend enough time and effort to their favorite games as they did in 15 or 20 years ago"
+    },
+    {
+      "ID": "P4",
+      "Text": "in my country, except for a minor part of professional athletes, the majority of people stop playing games seriously as soon as they find a decent job"
+    },
+    {
+      "ID": "P5",
+      "Text": "They often feel that such games become more troublesome than enjoyable for their daily lives"
+    },
+    {
+      "ID": "P6",
+      "Text": "For youngsters, maintaining their desire to win often develops many outstanding characteristics whether they participate sport events or not"
+    },
+    {
+      "ID": "P7",
+      "Text": "my younger sister likes fencing, and thanks to her desire to win, she never gives up when facing a difficult situation, or even becoming hurt"
+    },
+    {
+      "ID": "P8",
+      "Text": "adults often consider such behaviors as childish and drop them immediately"
+    },
+    {
+      "ID": "P9",
+      "Text": "a competitive person usually finds it difficult to cooperate with friends and colleagues"
+    },
+    {
+      "ID": "P10",
+      "Text": "they no longer play games for any moderate achievements, and gradually lose their interest in such activities"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "government should invest more on medical care and education rather than on entertaining or sports facilities",
-    "MC2": "budgets should be allocated more on medical care and education rather than on building entertaining facilities"
-  },
-  "Claims": {
-    "C1": "the former is more essential, non-profit oriented to the public and can be accessed by the majority of citizens",
-    "C2": "providing education and medical care is more essential and prioritized to the government",
-    "C3": "Entertaining facilities such as cinemas, theaters and sports stadiums are mostly profit-oriented",
-    "C4": "sectors such as medical care and education deserve more governmental support"
-  },
-  "Premises": {
-    "P1": "Taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums",
-    "P2": "an uneducated person may barely appreciate musicals, whereas a physical damaged person, resulting from the lack of medical treatment, may no longer participate in any sports games",
-    "P3": "Their existences are based on their marketing strategies, the condition of facilities and the volume of audience",
-    "P4": "The competition among each of these facilities is an inevitable part of the free market, which should not be interfered by government",
-    "P5": "the establishment of medical facilities or educational institutes is aimed to improve the health or education standard rather than earning profits, which deserves more funds from government",
-    "P6": "it is a bit inappropriate to use the majority of citizens' tax funds to meet a minority of people's needs",
-    "P7": "they are accessed by every individual in our society on a daily basis",
-    "P8": "putting taxpayers' money on building theaters or sports stadiums is unfair to those who cannot use them",
-    "P9": "not everyone is a fan of watching musicals on the spot"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "government should invest more on medical care and education rather than on entertaining or sports facilities"
+    },
+    {
+      "ID": "MC2",
+      "Text": "budgets should be allocated more on medical care and education rather than on building entertaining facilities"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the former is more essential, non-profit oriented to the public and can be accessed by the majority of citizens"
+    },
+    {
+      "ID": "C2",
+      "Text": "providing education and medical care is more essential and prioritized to the government"
+    },
+    {
+      "ID": "C3",
+      "Text": "Entertaining facilities such as cinemas, theaters and sports stadiums are mostly profit-oriented"
+    },
+    {
+      "ID": "C4",
+      "Text": "sectors such as medical care and education deserve more governmental support"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums"
+    },
+    {
+      "ID": "P2",
+      "Text": "an uneducated person may barely appreciate musicals, whereas a physical damaged person, resulting from the lack of medical treatment, may no longer participate in any sports games"
+    },
+    {
+      "ID": "P3",
+      "Text": "Their existences are based on their marketing strategies, the condition of facilities and the volume of audience"
+    },
+    {
+      "ID": "P4",
+      "Text": "The competition among each of these facilities is an inevitable part of the free market, which should not be interfered by government"
+    },
+    {
+      "ID": "P5",
+      "Text": "the establishment of medical facilities or educational institutes is aimed to improve the health or education standard rather than earning profits, which deserves more funds from government"
+    },
+    {
+      "ID": "P6",
+      "Text": "it is a bit inappropriate to use the majority of citizens' tax funds to meet a minority of people's needs"
+    },
+    {
+      "ID": "P7",
+      "Text": "they are accessed by every individual in our society on a daily basis"
+    },
+    {
+      "ID": "P8",
+      "Text": "putting taxpayers' money on building theaters or sports stadiums is unfair to those who cannot use them"
+    },
+    {
+      "ID": "P9",
+      "Text": "not everyone is a fan of watching musicals on the spot"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

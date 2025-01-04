@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "big cities can be a good place for bringing up children",
-    "MC2": "Today's children needs somethings to entertain them, and occupy their leisure time in the best way"
-  },
-  "Claims": {
-    "C1": "it is a good idea for children to past their first earlier life in the cities",
-    "C2": "Children who live in cities have a lot of entertainment",
-    "C3": "they can learn a lot of things by watching television and surfing through the net",
-    "C4": "they can exchange their knowledge, they can learn different cultures",
-    "C5": "countrysides have some advantages such as fresh air, peace, and etc"
-  },
-  "Premises": {
-    "P1": "education is better in big cities in comparison with countrysides",
-    "P2": "in my country the best schools, universities and institutes are located in cities, and todays education is one of the most important parts of our children's life",
-    "P3": "it is acknowledged that a large number of creational facilities are built in cities",
-    "P4": "playgrounds, parks, science museums, cinemas etc",
-    "P5": "in countrysides we hardly ever see creational facilities",
-    "P6": "Children who live in countrysides most of the time pass their free time in farms",
-    "P7": "in big cities children access to media easily",
-    "P8": "Via internet they can have connection with the other children all around the world"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "big cities can be a good place for bringing up children"
+    },
+    {
+      "ID": "MC2",
+      "Text": "Today's children needs somethings to entertain them, and occupy their leisure time in the best way"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is a good idea for children to past their first earlier life in the cities"
+    },
+    {
+      "ID": "C2",
+      "Text": "Children who live in cities have a lot of entertainment"
+    },
+    {
+      "ID": "C3",
+      "Text": "they can learn a lot of things by watching television and surfing through the net"
+    },
+    {
+      "ID": "C4",
+      "Text": "they can exchange their knowledge, they can learn different cultures"
+    },
+    {
+      "ID": "C5",
+      "Text": "countrysides have some advantages such as fresh air, peace, and etc"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "education is better in big cities in comparison with countrysides"
+    },
+    {
+      "ID": "P2",
+      "Text": "in my country the best schools, universities and institutes are located in cities, and todays education is one of the most important parts of our children's life"
+    },
+    {
+      "ID": "P3",
+      "Text": "it is acknowledged that a large number of creational facilities are built in cities"
+    },
+    {
+      "ID": "P4",
+      "Text": "playgrounds, parks, science museums, cinemas etc"
+    },
+    {
+      "ID": "P5",
+      "Text": "in countrysides we hardly ever see creational facilities"
+    },
+    {
+      "ID": "P6",
+      "Text": "Children who live in countrysides most of the time pass their free time in farms"
+    },
+    {
+      "ID": "P7",
+      "Text": "in big cities children access to media easily"
+    },
+    {
+      "ID": "P8",
+      "Text": "Via internet they can have connection with the other children all around the world"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

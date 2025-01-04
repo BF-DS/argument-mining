@@ -1,36 +1,114 @@
 {
-  "MajorClaims": {
-    "MC1": "I myself prefer to spend my leisure time outdoors",
-    "MC2": "I myself choose outdoor activities to spend my leisure time"
-  },
-  "Claims": {
-    "C1": "it is good for health and keep my body fit",
-    "C2": "outdoor activities enable me to socialize with other people and enjoy natural beauty",
-    "C3": "doing outdoor activities such as soccer and baseball is good for one's health",
-    "C4": "Outdoor activities not only improves my health but also gives me chances to communicate with more people",
-    "C5": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking",
-    "C6": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings",
-    "C7": "indoor activities are fun",
-    "C8": "I can also have fun in indoor activities"
-  },
-  "Premises": {
-    "P1": "last year, I spent my summer time playing soccer and baseball",
-    "P2": "Playing baseball provided my upper body for hitting and throwing",
-    "P3": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games",
-    "P4": "practicing these sports helped me greatly",
-    "P5": "playing these sports is to keep my body fit, make me ultimately refreshed",
-    "P6": "After that summer, my body is stronger and endurance is better",
-    "P7": "When I was ten years old, I was a shy girl",
-    "P8": "My mother took me to The National Camp",
-    "P9": "At first, I just ate and played alone",
-    "P10": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively",
-    "P11": "On the next day, we played together and she introduced me to her friends",
-    "P12": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp",
-    "P13": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today",
-    "P14": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature",
-    "P15": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy",
-    "P16": "this advantage cannot outweigh the attractions coming from outdoor activities"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I myself prefer to spend my leisure time outdoors"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I myself choose outdoor activities to spend my leisure time"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is good for health and keep my body fit"
+    },
+    {
+      "ID": "C2",
+      "Text": "outdoor activities enable me to socialize with other people and enjoy natural beauty"
+    },
+    {
+      "ID": "C3",
+      "Text": "doing outdoor activities such as soccer and baseball is good for one's health"
+    },
+    {
+      "ID": "C4",
+      "Text": "Outdoor activities not only improves my health but also gives me chances to communicate with more people"
+    },
+    {
+      "ID": "C5",
+      "Text": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking"
+    },
+    {
+      "ID": "C6",
+      "Text": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings"
+    },
+    {
+      "ID": "C7",
+      "Text": "indoor activities are fun"
+    },
+    {
+      "ID": "C8",
+      "Text": "I can also have fun in indoor activities"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "last year, I spent my summer time playing soccer and baseball"
+    },
+    {
+      "ID": "P2",
+      "Text": "Playing baseball provided my upper body for hitting and throwing"
+    },
+    {
+      "ID": "P3",
+      "Text": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games"
+    },
+    {
+      "ID": "P4",
+      "Text": "practicing these sports helped me greatly"
+    },
+    {
+      "ID": "P5",
+      "Text": "playing these sports is to keep my body fit, make me ultimately refreshed"
+    },
+    {
+      "ID": "P6",
+      "Text": "After that summer, my body is stronger and endurance is better"
+    },
+    {
+      "ID": "P7",
+      "Text": "When I was ten years old, I was a shy girl"
+    },
+    {
+      "ID": "P8",
+      "Text": "My mother took me to The National Camp"
+    },
+    {
+      "ID": "P9",
+      "Text": "At first, I just ate and played alone"
+    },
+    {
+      "ID": "P10",
+      "Text": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively"
+    },
+    {
+      "ID": "P11",
+      "Text": "On the next day, we played together and she introduced me to her friends"
+    },
+    {
+      "ID": "P12",
+      "Text": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp"
+    },
+    {
+      "ID": "P13",
+      "Text": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today"
+    },
+    {
+      "ID": "P14",
+      "Text": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature"
+    },
+    {
+      "ID": "P15",
+      "Text": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy"
+    },
+    {
+      "ID": "P16",
+      "Text": "this advantage cannot outweigh the attractions coming from outdoor activities"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "I personaly tend to visit museums when I'm in a new place",
-    "MC2": "it's fun and educational"
-  },
-  "Claims": {
-    "C1": "it's good for me know about the culture, tradition and history of other places",
-    "C2": "the museums are a visual source to know the history, tradition and culture of any place in the world",
-    "C3": "museums provide a tremendous amount of information about different aspects of the history and culture of that place",
-    "C4": "other people visit museums are the most boring expirience of a trip"
-  },
-  "Premises": {
-    "P1": "And also taking the chance for making friends",
-    "P2": "Visit museums can bring you the opportunity to establish relations and knowledge to participate in conversations",
-    "P3": "And that kind of knowledge speaks very highly of you",
-    "P4": "My cousin Pedro literaly hates to visit museums but he really enjoyed his visit to the famous London - Madame Tussaud museum, it was kind of art entertainment but also that visit helped him to understand the artist works, and in addition he started to respect and admire other types of arts that offers in other museums"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I personaly tend to visit museums when I'm in a new place"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it's fun and educational"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it's good for me know about the culture, tradition and history of other places"
+    },
+    {
+      "ID": "C2",
+      "Text": "the museums are a visual source to know the history, tradition and culture of any place in the world"
+    },
+    {
+      "ID": "C3",
+      "Text": "museums provide a tremendous amount of information about different aspects of the history and culture of that place"
+    },
+    {
+      "ID": "C4",
+      "Text": "other people visit museums are the most boring expirience of a trip"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "And also taking the chance for making friends"
+    },
+    {
+      "ID": "P2",
+      "Text": "Visit museums can bring you the opportunity to establish relations and knowledge to participate in conversations"
+    },
+    {
+      "ID": "P3",
+      "Text": "And that kind of knowledge speaks very highly of you"
+    },
+    {
+      "ID": "P4",
+      "Text": "My cousin Pedro literaly hates to visit museums but he really enjoyed his visit to the famous London - Madame Tussaud museum, it was kind of art entertainment but also that visit helped him to understand the artist works, and in addition he started to respect and admire other types of arts that offers in other museums"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

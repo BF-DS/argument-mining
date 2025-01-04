@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "all of the old building which contribute to our sense of culture should be conserved",
-    "MC2": "we should restore those building"
-  },
-  "Claims": {
-    "C1": "old buildings process the most outstanding feature of areas which contain them",
-    "C2": "governments can construct more accommodation instead of preserving old buildings",
-    "C3": "managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation",
-    "C4": "Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there",
-    "C5": "Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work"
-  },
-  "Premises": {
-    "P1": "the preservation is very expensive because all components of old buildings have historical values",
-    "P2": "As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing",
-    "P3": "Old buildings are an essential part of history",
-    "P4": "Tourist often decide to discover the culture of a country when they visit through those old buildings",
-    "P5": "the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "all of the old building which contribute to our sense of culture should be conserved"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we should restore those building"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "old buildings process the most outstanding feature of areas which contain them"
+    },
+    {
+      "ID": "C2",
+      "Text": "governments can construct more accommodation instead of preserving old buildings"
+    },
+    {
+      "ID": "C3",
+      "Text": "managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation"
+    },
+    {
+      "ID": "C4",
+      "Text": "Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there"
+    },
+    {
+      "ID": "C5",
+      "Text": "Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the preservation is very expensive because all components of old buildings have historical values"
+    },
+    {
+      "ID": "P2",
+      "Text": "As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing"
+    },
+    {
+      "ID": "P3",
+      "Text": "Old buildings are an essential part of history"
+    },
+    {
+      "ID": "P4",
+      "Text": "Tourist often decide to discover the culture of a country when they visit through those old buildings"
+    },
+    {
+      "ID": "P5",
+      "Text": "the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

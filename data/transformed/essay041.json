@@ -1,19 +1,46 @@
 {
-  "MajorClaims": {
-    "MC1": "students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say"
-  },
-  "Claims": {
-    "C1": "students can learn invaluable experiences through the period of time working for the institutions they are assigned to",
-    "C2": "companies save time and resources for searching new staffs and organizing an orientation"
-  },
-  "Premises": {
-    "P1": "students might have little idea of the real challenges or the true situation when they enter the workforce after graduation",
-    "P2": "In most school curriculums, the courses are theoretical and often by instructors speaking to students sitting in the classroom",
-    "P3": "the internship, although without pay, can give them the experiences that money cannot buy",
-    "P4": "As for the companies, the unpaid interns can no doubt save some money",
-    "P5": "they can start looking for potential employees and begin the training",
-    "P6": "the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination, which can be essentially helpful when they are making a new advertisement or slogan"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "students can learn invaluable experiences through the period of time working for the institutions they are assigned to"
+    },
+    {
+      "ID": "C2",
+      "Text": "companies save time and resources for searching new staffs and organizing an orientation"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "students might have little idea of the real challenges or the true situation when they enter the workforce after graduation"
+    },
+    {
+      "ID": "P2",
+      "Text": "In most school curriculums, the courses are theoretical and often by instructors speaking to students sitting in the classroom"
+    },
+    {
+      "ID": "P3",
+      "Text": "the internship, although without pay, can give them the experiences that money cannot buy"
+    },
+    {
+      "ID": "P4",
+      "Text": "As for the companies, the unpaid interns can no doubt save some money"
+    },
+    {
+      "ID": "P5",
+      "Text": "they can start looking for potential employees and begin the training"
+    },
+    {
+      "ID": "P6",
+      "Text": "the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination, which can be essentially helpful when they are making a new advertisement or slogan"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

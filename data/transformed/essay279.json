@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "the internet provides a lot of valuable information",
-    "MC2": "people are satisfied with the internet and sometimes even thanks it"
-  },
-  "Claims": {
-    "C1": "the internet gives daily necessary information, people can gain knowledge and they can explore the world",
-    "C2": "it helps us in studying, doing business and exploring the world",
-    "C3": "With valuable information it provides, people can enjoy their lives much more",
-    "C4": "everybody would like to know what is going on around the world in their everyday lives",
-    "C5": "people can gain more knowledge by using the internet, the most useful technology in the world",
-    "C6": "The internet makes the world becomes smaller which is a good thing"
-  },
-  "Premises": {
-    "P1": "Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people",
-    "P2": "a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet",
-    "P3": "Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge",
-    "P4": "Not only students but also everyone could get more information and knowledge",
-    "P5": "people who have problems with their health can search for more information about it",
-    "P6": "people who have no time or have financial problems could travel around the world by using the internet",
-    "P7": "They can see lots of picture and videos of many interesting places",
-    "P8": "people can learn other countries's culture and tradition which makes them have more knowledge about that nations"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the internet provides a lot of valuable information"
+    },
+    {
+      "ID": "MC2",
+      "Text": "people are satisfied with the internet and sometimes even thanks it"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the internet gives daily necessary information, people can gain knowledge and they can explore the world"
+    },
+    {
+      "ID": "C2",
+      "Text": "it helps us in studying, doing business and exploring the world"
+    },
+    {
+      "ID": "C3",
+      "Text": "With valuable information it provides, people can enjoy their lives much more"
+    },
+    {
+      "ID": "C4",
+      "Text": "everybody would like to know what is going on around the world in their everyday lives"
+    },
+    {
+      "ID": "C5",
+      "Text": "people can gain more knowledge by using the internet, the most useful technology in the world"
+    },
+    {
+      "ID": "C6",
+      "Text": "The internet makes the world becomes smaller which is a good thing"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people"
+    },
+    {
+      "ID": "P2",
+      "Text": "a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet"
+    },
+    {
+      "ID": "P3",
+      "Text": "Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge"
+    },
+    {
+      "ID": "P4",
+      "Text": "Not only students but also everyone could get more information and knowledge"
+    },
+    {
+      "ID": "P5",
+      "Text": "people who have problems with their health can search for more information about it"
+    },
+    {
+      "ID": "P6",
+      "Text": "people who have no time or have financial problems could travel around the world by using the internet"
+    },
+    {
+      "ID": "P7",
+      "Text": "They can see lots of picture and videos of many interesting places"
+    },
+    {
+      "ID": "P8",
+      "Text": "people can learn other countries's culture and tradition which makes them have more knowledge about that nations"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

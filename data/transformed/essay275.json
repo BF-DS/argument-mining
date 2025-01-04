@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "children should learn to manage their own money at a young age",
-    "MC2": "it is very important to learn our children from their beginning of their life to be financially responsible persons"
-  },
-  "Claims": {
-    "C1": "it is crucial to learn our children as soon as possible to learn financially issues",
-    "C2": "Even in rich families if children did not learn to manage their own money, when they grow up they will become unappreciative and dependent persons who want to just used their parents prosperity",
-    "C3": "children should be free to spend money to they what they want",
-    "C4": "our personality form in childhood and it is not easy to change it in adulthood"
-  },
-  "Premises": {
-    "P1": "sociologists found that our characteristics and personality forms early in life, even though when we are not borne",
-    "P2": "when I was at age 7 my father gave me monthly money to buy thing that I liked",
-    "P3": "First time I spend the whole money to eat at school and my money finished",
-    "P4": "I asked my father for extra money, but he refuse to give it to me",
-    "P5": "I found that I should manage the way that I spend money",
-    "P6": "I learned to be economical and now I have every thing I wanted",
-    "P7": "I had a friend to had a rich and prosperous family, his parent gave him everything he demanded from his childhood",
-    "P8": "He became an arrogant person who could not stand on his feet and always asked for money",
-    "P9": "His parent tried a lot and hired some experts to learn him manage his financial and carrier life, but unfortunately it was useless",
-    "P10": "Finally one night, having fun with his irresponsible friend in his luxuries car, he crashed a truck and died",
-    "P11": "Not only did he cause lots of damage to the society property, but also bring sorry to his family",
-    "P12": "If parents get the children all they wanted, they would be run out of their money for their essential needs"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "children should learn to manage their own money at a young age"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is very important to learn our children from their beginning of their life to be financially responsible persons"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is crucial to learn our children as soon as possible to learn financially issues"
+    },
+    {
+      "ID": "C2",
+      "Text": "Even in rich families if children did not learn to manage their own money, when they grow up they will become unappreciative and dependent persons who want to just used their parents prosperity"
+    },
+    {
+      "ID": "C3",
+      "Text": "children should be free to spend money to they what they want"
+    },
+    {
+      "ID": "C4",
+      "Text": "our personality form in childhood and it is not easy to change it in adulthood"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "sociologists found that our characteristics and personality forms early in life, even though when we are not borne"
+    },
+    {
+      "ID": "P2",
+      "Text": "when I was at age 7 my father gave me monthly money to buy thing that I liked"
+    },
+    {
+      "ID": "P3",
+      "Text": "First time I spend the whole money to eat at school and my money finished"
+    },
+    {
+      "ID": "P4",
+      "Text": "I asked my father for extra money, but he refuse to give it to me"
+    },
+    {
+      "ID": "P5",
+      "Text": "I found that I should manage the way that I spend money"
+    },
+    {
+      "ID": "P6",
+      "Text": "I learned to be economical and now I have every thing I wanted"
+    },
+    {
+      "ID": "P7",
+      "Text": "I had a friend to had a rich and prosperous family, his parent gave him everything he demanded from his childhood"
+    },
+    {
+      "ID": "P8",
+      "Text": "He became an arrogant person who could not stand on his feet and always asked for money"
+    },
+    {
+      "ID": "P9",
+      "Text": "His parent tried a lot and hired some experts to learn him manage his financial and carrier life, but unfortunately it was useless"
+    },
+    {
+      "ID": "P10",
+      "Text": "Finally one night, having fun with his irresponsible friend in his luxuries car, he crashed a truck and died"
+    },
+    {
+      "ID": "P11",
+      "Text": "Not only did he cause lots of damage to the society property, but also bring sorry to his family"
+    },
+    {
+      "ID": "P12",
+      "Text": "If parents get the children all they wanted, they would be run out of their money for their essential needs"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

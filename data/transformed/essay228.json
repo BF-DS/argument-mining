@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "TV programs are among the popular topics in every day talk as well as a great time for gathering",
-    "MC2": "TV helps you to get connected with people"
-  },
-  "Claims": {
-    "C1": "Modern TV has smart system that let you be connected with people",
-    "C2": "watching TV take a lot of your day",
-    "C3": "people like having meals while they are watching TV",
-    "C4": "Families usually tend to watch television either with each other or friends",
-    "C5": "we can communicate with each other through TV",
-    "C6": "TV may take some of your time away from your family and friends",
-    "C7": "it can also make family get together and help to get in conversation",
-    "C8": "it's one way of recent communications"
-  },
-  "Premises": {
-    "P1": "it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs",
-    "P2": "my friends and I used to sit together and enjoy watching movies using VHS player at nights",
-    "P3": "It was fun and a little bit similar to the cinema",
-    "P4": "TV can be one of communication ways",
-    "P5": "TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps",
-    "P6": "Teenagers can play games online with their friends"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "TV programs are among the popular topics in every day talk as well as a great time for gathering"
+    },
+    {
+      "ID": "MC2",
+      "Text": "TV helps you to get connected with people"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Modern TV has smart system that let you be connected with people"
+    },
+    {
+      "ID": "C2",
+      "Text": "watching TV take a lot of your day"
+    },
+    {
+      "ID": "C3",
+      "Text": "people like having meals while they are watching TV"
+    },
+    {
+      "ID": "C4",
+      "Text": "Families usually tend to watch television either with each other or friends"
+    },
+    {
+      "ID": "C5",
+      "Text": "we can communicate with each other through TV"
+    },
+    {
+      "ID": "C6",
+      "Text": "TV may take some of your time away from your family and friends"
+    },
+    {
+      "ID": "C7",
+      "Text": "it can also make family get together and help to get in conversation"
+    },
+    {
+      "ID": "C8",
+      "Text": "it's one way of recent communications"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs"
+    },
+    {
+      "ID": "P2",
+      "Text": "my friends and I used to sit together and enjoy watching movies using VHS player at nights"
+    },
+    {
+      "ID": "P3",
+      "Text": "It was fun and a little bit similar to the cinema"
+    },
+    {
+      "ID": "P4",
+      "Text": "TV can be one of communication ways"
+    },
+    {
+      "ID": "P5",
+      "Text": "TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps"
+    },
+    {
+      "ID": "P6",
+      "Text": "Teenagers can play games online with their friends"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

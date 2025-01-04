@@ -1,19 +1,46 @@
 {
-  "MajorClaims": {
-    "MC1": "city planner can still opt for non-personal vehicle and the exploitation of the suburb areas"
-  },
-  "Claims": {
-    "C1": "public transport is a key factor to minimize the number of vehicles on the street",
-    "C2": "The city itself will be absolved of enduring the influx of immigrants as well as unemployed people"
-  },
-  "Premises": {
-    "P1": "Buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options",
-    "P2": "a bus can carry no less than 30 people, while a train can carry as much as nine or even ten times of that number",
-    "P3": "they will lessen the crowded image in most cities nowadays",
-    "P4": "Not to mention the fact that highway train is operated underground, which leaves the street above with buses and non-fuel-based vehicles",
-    "P5": "huge centers of attention distributed equally in a wide region means that residential areas will come along thus exert less pressure on the public facilities",
-    "P6": "if some of the enormous shopping malls or universities were relocated in the commuter belt, the city street would be les burstling and overly-teemed as it is now"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "city planner can still opt for non-personal vehicle and the exploitation of the suburb areas"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "public transport is a key factor to minimize the number of vehicles on the street"
+    },
+    {
+      "ID": "C2",
+      "Text": "The city itself will be absolved of enduring the influx of immigrants as well as unemployed people"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options"
+    },
+    {
+      "ID": "P2",
+      "Text": "a bus can carry no less than 30 people, while a train can carry as much as nine or even ten times of that number"
+    },
+    {
+      "ID": "P3",
+      "Text": "they will lessen the crowded image in most cities nowadays"
+    },
+    {
+      "ID": "P4",
+      "Text": "Not to mention the fact that highway train is operated underground, which leaves the street above with buses and non-fuel-based vehicles"
+    },
+    {
+      "ID": "P5",
+      "Text": "huge centers of attention distributed equally in a wide region means that residential areas will come along thus exert less pressure on the public facilities"
+    },
+    {
+      "ID": "P6",
+      "Text": "if some of the enormous shopping malls or universities were relocated in the commuter belt, the city street would be les burstling and overly-teemed as it is now"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

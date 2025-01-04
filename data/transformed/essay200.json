@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "human activities are having a bad effect upon our planet",
-    "MC2": "human activity are gradually destroy the Earth"
-  },
-  "Claims": {
-    "C1": "human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species",
-    "C2": "People are corrupting their ecosphere",
-    "C3": "people are draining the Earth's natural resources",
-    "C4": "people are endangering other species' live",
-    "C5": "it is polluting the Earth environment, depleting the resource and imperiling other species' lives"
-  },
-  "Premises": {
-    "P1": "In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies",
-    "P2": "These wastes including household waste and industrial waste are so big that a \"new\" continent is now being formed in the sea from garbage",
-    "P3": "the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change",
-    "P4": "These resources such as oil, coal are vital for human activity",
-    "P5": "nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people",
-    "P6": "Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted",
-    "P7": "At that time, human activity will be seriously affected due to the dependence on these resources",
-    "P8": "Hunting has been a fundamental activity of human for having food",
-    "P9": "Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct",
-    "P10": "people, suffering from the population pressure, are expanding their living area",
-    "P11": "the living area of other species narrowed",
-    "P12": "This narrowing of living region is pushing many creatures to the brink of extinction"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "human activities are having a bad effect upon our planet"
+    },
+    {
+      "ID": "MC2",
+      "Text": "human activity are gradually destroy the Earth"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species"
+    },
+    {
+      "ID": "C2",
+      "Text": "People are corrupting their ecosphere"
+    },
+    {
+      "ID": "C3",
+      "Text": "people are draining the Earth's natural resources"
+    },
+    {
+      "ID": "C4",
+      "Text": "people are endangering other species' live"
+    },
+    {
+      "ID": "C5",
+      "Text": "it is polluting the Earth environment, depleting the resource and imperiling other species' lives"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies"
+    },
+    {
+      "ID": "P2",
+      "Text": "These wastes including household waste and industrial waste are so big that a \"new\" continent is now being formed in the sea from garbage"
+    },
+    {
+      "ID": "P3",
+      "Text": "the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change"
+    },
+    {
+      "ID": "P4",
+      "Text": "These resources such as oil, coal are vital for human activity"
+    },
+    {
+      "ID": "P5",
+      "Text": "nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people"
+    },
+    {
+      "ID": "P6",
+      "Text": "Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted"
+    },
+    {
+      "ID": "P7",
+      "Text": "At that time, human activity will be seriously affected due to the dependence on these resources"
+    },
+    {
+      "ID": "P8",
+      "Text": "Hunting has been a fundamental activity of human for having food"
+    },
+    {
+      "ID": "P9",
+      "Text": "Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct"
+    },
+    {
+      "ID": "P10",
+      "Text": "people, suffering from the population pressure, are expanding their living area"
+    },
+    {
+      "ID": "P11",
+      "Text": "the living area of other species narrowed"
+    },
+    {
+      "ID": "P12",
+      "Text": "This narrowing of living region is pushing many creatures to the brink of extinction"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

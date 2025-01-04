@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject"
-  },
-  "Claims": {
-    "C1": "many different characters exist between male and female students",
-    "C2": "boys and girls have the diversity in psychological modes and individuality",
-    "C3": "it can have a negative affect on these students to require them to choose a subject in equal proportion of gender",
-    "C4": "universities should encourage more girls to choose science subjects and more boys to study the humanities"
-  },
-  "Premises": {
-    "P1": "Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases",
-    "P2": "there are more male scientists and engineers in comparison with females around the world",
-    "P3": "Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts",
-    "P4": "girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter",
-    "P5": "girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect",
-    "P6": "a girl, who is interested in literature, is arranged into an engineering department",
-    "P7": "that does not conform to students' personality traits and mental development",
-    "P8": "this could avoid imbalance of gender in some subjects",
-    "P9": "It would affect students' mental health to study in the environment of single gender",
-    "P10": "she is unlikely to focus on her subject",
-    "P11": "this also can block the girl's future development and career prospect"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many different characters exist between male and female students"
+    },
+    {
+      "ID": "C2",
+      "Text": "boys and girls have the diversity in psychological modes and individuality"
+    },
+    {
+      "ID": "C3",
+      "Text": "it can have a negative affect on these students to require them to choose a subject in equal proportion of gender"
+    },
+    {
+      "ID": "C4",
+      "Text": "universities should encourage more girls to choose science subjects and more boys to study the humanities"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases"
+    },
+    {
+      "ID": "P2",
+      "Text": "there are more male scientists and engineers in comparison with females around the world"
+    },
+    {
+      "ID": "P3",
+      "Text": "Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts"
+    },
+    {
+      "ID": "P4",
+      "Text": "girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter"
+    },
+    {
+      "ID": "P5",
+      "Text": "girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect"
+    },
+    {
+      "ID": "P6",
+      "Text": "a girl, who is interested in literature, is arranged into an engineering department"
+    },
+    {
+      "ID": "P7",
+      "Text": "that does not conform to students' personality traits and mental development"
+    },
+    {
+      "ID": "P8",
+      "Text": "this could avoid imbalance of gender in some subjects"
+    },
+    {
+      "ID": "P9",
+      "Text": "It would affect students' mental health to study in the environment of single gender"
+    },
+    {
+      "ID": "P10",
+      "Text": "she is unlikely to focus on her subject"
+    },
+    {
+      "ID": "P11",
+      "Text": "this also can block the girl's future development and career prospect"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

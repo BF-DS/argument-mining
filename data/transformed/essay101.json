@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "the right age for a person to retire should be around 60 years old",
-    "MC2": "strongly agree that age should be set as a criterion for people to retire at the aforementioned age",
-    "MC3": "it is indeed evident that age limit should be set for retirement"
-  },
-  "Claims": {
-    "C1": "most of them will be forced to take up careers which are poles apart from what they had studied for",
-    "C2": "it would indeed be better if at an older age, opportunities are given to the younger ones",
-    "C3": "the expertise of the senior workers who had retired should never be underestimated"
-  },
-  "Premises": {
-    "P1": "if senior workers dominate the working sector, there will be lesser job opportunities for the fresh graduates",
-    "P2": "a medical graduate might find it very disheartened when he had to spend around five precious years studying medicine and at the end of the day, he will have to take up another profession rather than doctor due to the insufficient job opportunities available",
-    "P3": "due to the lack of genuine passion on the work which was not of their option, there is a greater possibility for their performance standard to dwindle at their workplace",
-    "P4": "not all elderly workers are physically well",
-    "P5": "Beyond that age, a large proportion of them have an elevated chance of contracting a multitude of health problems such as stress related diseases and cardiovascular illnesses",
-    "P6": "the stressful life that an aged teacher goes through will definitely take a toll on him",
-    "P7": "they will not be able to give their best in whatever they are doing",
-    "P8": "the academic institution will have to pay for his medical bills, resulting in more loss for the institution",
-    "P9": "Their invaluable experiences and knowledge in their respective fields such as engineering, medicine, and law can certainly be beneficial to the younger generation",
-    "P10": "it is highly recommended that the retiree come over to the companies or hospitals to have regular sessions with the present staffs to bridge the gap between them and to pass on their knowledge"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the right age for a person to retire should be around 60 years old"
+    },
+    {
+      "ID": "MC2",
+      "Text": "strongly agree that age should be set as a criterion for people to retire at the aforementioned age"
+    },
+    {
+      "ID": "MC3",
+      "Text": "it is indeed evident that age limit should be set for retirement"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "most of them will be forced to take up careers which are poles apart from what they had studied for"
+    },
+    {
+      "ID": "C2",
+      "Text": "it would indeed be better if at an older age, opportunities are given to the younger ones"
+    },
+    {
+      "ID": "C3",
+      "Text": "the expertise of the senior workers who had retired should never be underestimated"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "if senior workers dominate the working sector, there will be lesser job opportunities for the fresh graduates"
+    },
+    {
+      "ID": "P2",
+      "Text": "a medical graduate might find it very disheartened when he had to spend around five precious years studying medicine and at the end of the day, he will have to take up another profession rather than doctor due to the insufficient job opportunities available"
+    },
+    {
+      "ID": "P3",
+      "Text": "due to the lack of genuine passion on the work which was not of their option, there is a greater possibility for their performance standard to dwindle at their workplace"
+    },
+    {
+      "ID": "P4",
+      "Text": "not all elderly workers are physically well"
+    },
+    {
+      "ID": "P5",
+      "Text": "Beyond that age, a large proportion of them have an elevated chance of contracting a multitude of health problems such as stress related diseases and cardiovascular illnesses"
+    },
+    {
+      "ID": "P6",
+      "Text": "the stressful life that an aged teacher goes through will definitely take a toll on him"
+    },
+    {
+      "ID": "P7",
+      "Text": "they will not be able to give their best in whatever they are doing"
+    },
+    {
+      "ID": "P8",
+      "Text": "the academic institution will have to pay for his medical bills, resulting in more loss for the institution"
+    },
+    {
+      "ID": "P9",
+      "Text": "Their invaluable experiences and knowledge in their respective fields such as engineering, medicine, and law can certainly be beneficial to the younger generation"
+    },
+    {
+      "ID": "P10",
+      "Text": "it is highly recommended that the retiree come over to the companies or hospitals to have regular sessions with the present staffs to bridge the gap between them and to pass on their knowledge"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P1",

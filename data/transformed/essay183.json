@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "I personally consider this fact as the harmful thing that television has brought upon us",
-    "MC2": "it has destroyed communication among friends and family"
-  },
-  "Claims": {
-    "C1": "television has some good sides",
-    "C2": "they can be isolated from others",
-    "C3": "children will learn behavior from what they see on TV not from their parents",
-    "C4": "communication between family members is visibly destroyed",
-    "C5": "watching too much television people will unconsciously learn bad behavior that sow division among human"
-  },
-  "Premises": {
-    "P1": "people watch television too much",
-    "P2": "Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others",
-    "P3": "Gradually, their friends leave them behind either activities or studying",
-    "P4": "with the rapid change of the standard of life, each family has three or four TV in each room is more common",
-    "P5": "Parents and even children do not want to communicate with each other instead of watching TV in their own room",
-    "P6": "parents are not able to function their parental care as the necessary thing to children",
-    "P7": "watching film about terrorist children will be able to consider terrorism as a right thing"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I personally consider this fact as the harmful thing that television has brought upon us"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it has destroyed communication among friends and family"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "television has some good sides"
+    },
+    {
+      "ID": "C2",
+      "Text": "they can be isolated from others"
+    },
+    {
+      "ID": "C3",
+      "Text": "children will learn behavior from what they see on TV not from their parents"
+    },
+    {
+      "ID": "C4",
+      "Text": "communication between family members is visibly destroyed"
+    },
+    {
+      "ID": "C5",
+      "Text": "watching too much television people will unconsciously learn bad behavior that sow division among human"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "people watch television too much"
+    },
+    {
+      "ID": "P2",
+      "Text": "Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others"
+    },
+    {
+      "ID": "P3",
+      "Text": "Gradually, their friends leave them behind either activities or studying"
+    },
+    {
+      "ID": "P4",
+      "Text": "with the rapid change of the standard of life, each family has three or four TV in each room is more common"
+    },
+    {
+      "ID": "P5",
+      "Text": "Parents and even children do not want to communicate with each other instead of watching TV in their own room"
+    },
+    {
+      "ID": "P6",
+      "Text": "parents are not able to function their parental care as the necessary thing to children"
+    },
+    {
+      "ID": "P7",
+      "Text": "watching film about terrorist children will be able to consider terrorism as a right thing"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

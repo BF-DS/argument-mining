@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "children should learn music and art in a young age",
-    "MC2": "young age is the perfect time for children to learn music and art"
-  },
-  "Claims": {
-    "C1": "they do contribute several merits to them",
-    "C2": "Music and art can accompany a spirit as long as they are given the chance to enter his/her life",
-    "C3": "it's very suitable for children to develop senses of music and art when they are young",
-    "C4": "even if children are not going to be great musicians or artists, learning music and art is still worthy",
-    "C5": "parents shouldn't put so much stress on children",
-    "C6": "they are indeed valuable to people not only in their young stage, but in every stage"
-  },
-  "Premises": {
-    "P1": "they are given more freedom and their imagination has not yet been killed due to reality circumstances",
-    "P2": "Children are privileged to have these abilities",
-    "P3": "Children absorb things quickly and they bear exact the ability needed in music and art-imagination",
-    "P4": "Music and art are not like math or language which has more strict rules",
-    "P5": "They are more abstract, requiring creativity and imagination to be enriched",
-    "P6": "Even if their performances are just some simple drawings and melodies, music and art still bring out children's joy of flying in imagination",
-    "P7": "music and art are life-long cultivation worthy of investing",
-    "P8": "They teach us how to appreciate beauty and express feelings in a creative way",
-    "P9": "They are essential to our spiritual life",
-    "P10": "it can nourish your temper and serve as a leisure",
-    "P11": "learning too many skills seems to be a burden for them",
-    "P12": "it depends on how you value these learning activities to be like",
-    "P13": "If parents push their 5 years old child to play piano 8 hours a day just like a professional performer, that might be too much",
-    "P14": "In a child stage, music and art are more like an open door to introduce the art world than training area to acquire specific skills",
-    "P15": "it will not be such pressure on children"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "children should learn music and art in a young age"
+    },
+    {
+      "ID": "MC2",
+      "Text": "young age is the perfect time for children to learn music and art"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they do contribute several merits to them"
+    },
+    {
+      "ID": "C2",
+      "Text": "Music and art can accompany a spirit as long as they are given the chance to enter his/her life"
+    },
+    {
+      "ID": "C3",
+      "Text": "it's very suitable for children to develop senses of music and art when they are young"
+    },
+    {
+      "ID": "C4",
+      "Text": "even if children are not going to be great musicians or artists, learning music and art is still worthy"
+    },
+    {
+      "ID": "C5",
+      "Text": "parents shouldn't put so much stress on children"
+    },
+    {
+      "ID": "C6",
+      "Text": "they are indeed valuable to people not only in their young stage, but in every stage"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they are given more freedom and their imagination has not yet been killed due to reality circumstances"
+    },
+    {
+      "ID": "P2",
+      "Text": "Children are privileged to have these abilities"
+    },
+    {
+      "ID": "P3",
+      "Text": "Children absorb things quickly and they bear exact the ability needed in music and art-imagination"
+    },
+    {
+      "ID": "P4",
+      "Text": "Music and art are not like math or language which has more strict rules"
+    },
+    {
+      "ID": "P5",
+      "Text": "They are more abstract, requiring creativity and imagination to be enriched"
+    },
+    {
+      "ID": "P6",
+      "Text": "Even if their performances are just some simple drawings and melodies, music and art still bring out children's joy of flying in imagination"
+    },
+    {
+      "ID": "P7",
+      "Text": "music and art are life-long cultivation worthy of investing"
+    },
+    {
+      "ID": "P8",
+      "Text": "They teach us how to appreciate beauty and express feelings in a creative way"
+    },
+    {
+      "ID": "P9",
+      "Text": "They are essential to our spiritual life"
+    },
+    {
+      "ID": "P10",
+      "Text": "it can nourish your temper and serve as a leisure"
+    },
+    {
+      "ID": "P11",
+      "Text": "learning too many skills seems to be a burden for them"
+    },
+    {
+      "ID": "P12",
+      "Text": "it depends on how you value these learning activities to be like"
+    },
+    {
+      "ID": "P13",
+      "Text": "If parents push their 5 years old child to play piano 8 hours a day just like a professional performer, that might be too much"
+    },
+    {
+      "ID": "P14",
+      "Text": "In a child stage, music and art are more like an open door to introduce the art world than training area to acquire specific skills"
+    },
+    {
+      "ID": "P15",
+      "Text": "it will not be such pressure on children"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

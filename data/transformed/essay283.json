@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher",
-    "MC2": "I totally disagree with this statement that teachers should be paid by how much their students learn"
-  },
-  "Claims": {
-    "C1": "teacher could not pay attention to each students in class",
-    "C2": "learning abilities of student are different",
-    "C3": "there are problems if paying teacher by grade students get",
-    "C4": "Teachers have to manage to teach every topics by schedule",
-    "C5": "teachers should not be paid by testing result that students get",
-    "C6": "grade that students get should not be in evaluating teacher"
-  },
-  "Premises": {
-    "P1": "there are certain period of time for teachers to teach",
-    "P2": "In these short time, it is not possible for teachers to pay attention to individual students in class",
-    "P3": "If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know",
-    "P4": "main task of teacher to give knowledge to students, and this role have to finish in time",
-    "P5": "learning abilities in each students is different",
-    "P6": "It is not possible that they all comprehend all lessons in the same period of time",
-    "P7": "Some students might understand all topics that they had learnt but some are not",
-    "P8": "testing result are different",
-    "P9": "This problems depend on how hard study they do",
-    "P10": "It is not teachers fault",
-    "P11": "there could lead to a big problem if schools pay teachers by grade that students get",
-    "P12": "That is problem in quality of education",
-    "P13": "Teacher may not care about how they have to teach to make students understand the topics",
-    "P14": "Teachers may just give high grades to get higher salary",
-    "P15": "This problem should not be happened"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I totally disagree with this statement that teachers should be paid by how much their students learn"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "teacher could not pay attention to each students in class"
+    },
+    {
+      "ID": "C2",
+      "Text": "learning abilities of student are different"
+    },
+    {
+      "ID": "C3",
+      "Text": "there are problems if paying teacher by grade students get"
+    },
+    {
+      "ID": "C4",
+      "Text": "Teachers have to manage to teach every topics by schedule"
+    },
+    {
+      "ID": "C5",
+      "Text": "teachers should not be paid by testing result that students get"
+    },
+    {
+      "ID": "C6",
+      "Text": "grade that students get should not be in evaluating teacher"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "there are certain period of time for teachers to teach"
+    },
+    {
+      "ID": "P2",
+      "Text": "In these short time, it is not possible for teachers to pay attention to individual students in class"
+    },
+    {
+      "ID": "P3",
+      "Text": "If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know"
+    },
+    {
+      "ID": "P4",
+      "Text": "main task of teacher to give knowledge to students, and this role have to finish in time"
+    },
+    {
+      "ID": "P5",
+      "Text": "learning abilities in each students is different"
+    },
+    {
+      "ID": "P6",
+      "Text": "It is not possible that they all comprehend all lessons in the same period of time"
+    },
+    {
+      "ID": "P7",
+      "Text": "Some students might understand all topics that they had learnt but some are not"
+    },
+    {
+      "ID": "P8",
+      "Text": "testing result are different"
+    },
+    {
+      "ID": "P9",
+      "Text": "This problems depend on how hard study they do"
+    },
+    {
+      "ID": "P10",
+      "Text": "It is not teachers fault"
+    },
+    {
+      "ID": "P11",
+      "Text": "there could lead to a big problem if schools pay teachers by grade that students get"
+    },
+    {
+      "ID": "P12",
+      "Text": "That is problem in quality of education"
+    },
+    {
+      "ID": "P13",
+      "Text": "Teacher may not care about how they have to teach to make students understand the topics"
+    },
+    {
+      "ID": "P14",
+      "Text": "Teachers may just give high grades to get higher salary"
+    },
+    {
+      "ID": "P15",
+      "Text": "This problem should not be happened"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

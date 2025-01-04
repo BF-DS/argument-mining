@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer the serious movies which are simple, touching and powerful",
-    "MC2": "I prefer to see those serious movies which make people have deep thoughts toward their real lives"
-  },
-  "Claims": {
-    "C1": "most serious movies have a wide variety of content",
-    "C2": "the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves",
-    "C3": "serious movie tell you how to see the world in a different way"
-  },
-  "Premises": {
-    "P1": "Entertaining movies are created to amuse people",
-    "P2": "most entertaining movies are empty and nonsensical",
-    "P3": "Compared with the entertainment film, the serious film may be more worthwhile and meaningful",
-    "P4": "\"Click\" is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses",
-    "P5": "The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are",
-    "P6": "Serious movies usually designed to express one or more thinking about love, humaneness",
-    "P7": "it may point out the dark sides of the society",
-    "P8": "some of serious movies try to make you think about the dark sides of the world",
-    "P9": "\"Blood diamond\", an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict",
-    "P10": "After watching the movie, we may learn a lesson between jewels and death",
-    "P11": "Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer the serious movies which are simple, touching and powerful"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I prefer to see those serious movies which make people have deep thoughts toward their real lives"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "most serious movies have a wide variety of content"
+    },
+    {
+      "ID": "C2",
+      "Text": "the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves"
+    },
+    {
+      "ID": "C3",
+      "Text": "serious movie tell you how to see the world in a different way"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Entertaining movies are created to amuse people"
+    },
+    {
+      "ID": "P2",
+      "Text": "most entertaining movies are empty and nonsensical"
+    },
+    {
+      "ID": "P3",
+      "Text": "Compared with the entertainment film, the serious film may be more worthwhile and meaningful"
+    },
+    {
+      "ID": "P4",
+      "Text": "\"Click\" is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses"
+    },
+    {
+      "ID": "P5",
+      "Text": "The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are"
+    },
+    {
+      "ID": "P6",
+      "Text": "Serious movies usually designed to express one or more thinking about love, humaneness"
+    },
+    {
+      "ID": "P7",
+      "Text": "it may point out the dark sides of the society"
+    },
+    {
+      "ID": "P8",
+      "Text": "some of serious movies try to make you think about the dark sides of the world"
+    },
+    {
+      "ID": "P9",
+      "Text": "\"Blood diamond\", an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict"
+    },
+    {
+      "ID": "P10",
+      "Text": "After watching the movie, we may learn a lesson between jewels and death"
+    },
+    {
+      "ID": "P11",
+      "Text": "Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

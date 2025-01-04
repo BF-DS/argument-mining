@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "its better that people learn foreign language in their own country",
-    "MC2": "it is better for people to learn a foreign language in their own country"
-  },
-  "Claims": {
-    "C1": "It is cost effective and there is a pool of opportunities available now to accomplish the same",
-    "C2": "with the advent of globalization, one can easily find a teacher in their own country",
-    "C3": "it is not possible for everyone to visit a foreign country to learn a foreign language",
-    "C4": "it is very easy to learn a foreign in our own country",
-    "C5": "technology has also played a great role in reducing the separation between learning a foreign languge in our own country"
-  },
-  "Premises": {
-    "P1": "In the earlier periods, it was not easy to find a teacher to learn a foreign languge",
-    "P2": "in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc",
-    "P3": "it requires large amount of money and legal formalities",
-    "P4": "Students can choose any language from the set of languages available at a university",
-    "P5": "colleges and universities have introduced foreign language course as a part of their curriculum",
-    "P6": "highly qualified foreign language teachers are easily accessible in various schools and colleges",
-    "P7": "A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "its better that people learn foreign language in their own country"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is better for people to learn a foreign language in their own country"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "It is cost effective and there is a pool of opportunities available now to accomplish the same"
+    },
+    {
+      "ID": "C2",
+      "Text": "with the advent of globalization, one can easily find a teacher in their own country"
+    },
+    {
+      "ID": "C3",
+      "Text": "it is not possible for everyone to visit a foreign country to learn a foreign language"
+    },
+    {
+      "ID": "C4",
+      "Text": "it is very easy to learn a foreign in our own country"
+    },
+    {
+      "ID": "C5",
+      "Text": "technology has also played a great role in reducing the separation between learning a foreign languge in our own country"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In the earlier periods, it was not easy to find a teacher to learn a foreign languge"
+    },
+    {
+      "ID": "P2",
+      "Text": "in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc"
+    },
+    {
+      "ID": "P3",
+      "Text": "it requires large amount of money and legal formalities"
+    },
+    {
+      "ID": "P4",
+      "Text": "Students can choose any language from the set of languages available at a university"
+    },
+    {
+      "ID": "P5",
+      "Text": "colleges and universities have introduced foreign language course as a part of their curriculum"
+    },
+    {
+      "ID": "P6",
+      "Text": "highly qualified foreign language teachers are easily accessible in various schools and colleges"
+    },
+    {
+      "ID": "P7",
+      "Text": "A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

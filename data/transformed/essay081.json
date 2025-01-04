@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "the artists must be given freedom so that they will produce some really marvelous masterpiece",
-    "MC2": "there should not be any restrictions on artists' work",
-    "MC3": "there should be no restrictions on them"
-  },
-  "Claims": {
-    "C1": "there are many wonderful and beautiful Arts due to the freedom to express ideas",
-    "C2": "without any limitations, there will be more awe inspiring work from our artists",
-    "C3": "human rights is violated if artists are not allowed to express their feelings freely",
-    "C4": "In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society"
-  },
-  "Premises": {
-    "P1": "Allowing them to think freely will give them an opportunity to express themselves",
-    "P2": "ideas can naturally flow when there are no limitations",
-    "P3": "even though freedom to express ideas can bring some negative effects",
-    "P4": "if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run",
-    "P5": "when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies",
-    "P6": "paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times",
-    "P7": "it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation",
-    "P8": "Today, many countries make numerous efforts to show that they are democratic countries",
-    "P9": "Arts is one of the ways that can be used to criticise social problems and government policies in a particular country",
-    "P10": "the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn",
-    "P11": "artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts",
-    "P12": "They might go deeper into certain aspects that can cause controversies in a country",
-    "P13": "Malaysia is a multiracial country whereby all the citizens live together in harmony and peace"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the artists must be given freedom so that they will produce some really marvelous masterpiece"
+    },
+    {
+      "ID": "MC2",
+      "Text": "there should not be any restrictions on artists' work"
+    },
+    {
+      "ID": "MC3",
+      "Text": "there should be no restrictions on them"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there are many wonderful and beautiful Arts due to the freedom to express ideas"
+    },
+    {
+      "ID": "C2",
+      "Text": "without any limitations, there will be more awe inspiring work from our artists"
+    },
+    {
+      "ID": "C3",
+      "Text": "human rights is violated if artists are not allowed to express their feelings freely"
+    },
+    {
+      "ID": "C4",
+      "Text": "In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Allowing them to think freely will give them an opportunity to express themselves"
+    },
+    {
+      "ID": "P2",
+      "Text": "ideas can naturally flow when there are no limitations"
+    },
+    {
+      "ID": "P3",
+      "Text": "even though freedom to express ideas can bring some negative effects"
+    },
+    {
+      "ID": "P4",
+      "Text": "if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run"
+    },
+    {
+      "ID": "P5",
+      "Text": "when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies"
+    },
+    {
+      "ID": "P6",
+      "Text": "paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times"
+    },
+    {
+      "ID": "P7",
+      "Text": "it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation"
+    },
+    {
+      "ID": "P8",
+      "Text": "Today, many countries make numerous efforts to show that they are democratic countries"
+    },
+    {
+      "ID": "P9",
+      "Text": "Arts is one of the ways that can be used to criticise social problems and government policies in a particular country"
+    },
+    {
+      "ID": "P10",
+      "Text": "the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn"
+    },
+    {
+      "ID": "P11",
+      "Text": "artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts"
+    },
+    {
+      "ID": "P12",
+      "Text": "They might go deeper into certain aspects that can cause controversies in a country"
+    },
+    {
+      "ID": "P13",
+      "Text": "Malaysia is a multiracial country whereby all the citizens live together in harmony and peace"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

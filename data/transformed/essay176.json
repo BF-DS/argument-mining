@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "a quintessence of any visit to an excellent museum of a new place would be the best part of a tour",
-    "MC2": "if we have a chance to visit top museums in the world, we must stop by these museums"
-  },
-  "Claims": {
-    "C1": "museums can help us know the history and the customs of a new place",
-    "C2": "visiting a well-known museum also can broaden our horizon",
-    "C3": "a local museum could be a top choice and destination for tourist to visit",
-    "C4": "it is worthwhile for us to visit a museum of a new place"
-  },
-  "Premises": {
-    "P1": "it is easy to know the history of the new place",
-    "P2": "Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York",
-    "P3": "Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears",
-    "P4": "Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us",
-    "P5": "In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts",
-    "P6": "To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown",
-    "P7": "Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel",
-    "P8": "visiting a museum saves their precious time for making a decision",
-    "P9": "a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a quintessence of any visit to an excellent museum of a new place would be the best part of a tour"
+    },
+    {
+      "ID": "MC2",
+      "Text": "if we have a chance to visit top museums in the world, we must stop by these museums"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "museums can help us know the history and the customs of a new place"
+    },
+    {
+      "ID": "C2",
+      "Text": "visiting a well-known museum also can broaden our horizon"
+    },
+    {
+      "ID": "C3",
+      "Text": "a local museum could be a top choice and destination for tourist to visit"
+    },
+    {
+      "ID": "C4",
+      "Text": "it is worthwhile for us to visit a museum of a new place"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is easy to know the history of the new place"
+    },
+    {
+      "ID": "P2",
+      "Text": "Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York"
+    },
+    {
+      "ID": "P3",
+      "Text": "Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears"
+    },
+    {
+      "ID": "P4",
+      "Text": "Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us"
+    },
+    {
+      "ID": "P5",
+      "Text": "In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts"
+    },
+    {
+      "ID": "P6",
+      "Text": "To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown"
+    },
+    {
+      "ID": "P7",
+      "Text": "Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel"
+    },
+    {
+      "ID": "P8",
+      "Text": "visiting a museum saves their precious time for making a decision"
+    },
+    {
+      "ID": "P9",
+      "Text": "a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

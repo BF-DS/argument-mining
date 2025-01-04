@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "human being should behave as a guardian to animals rather than as their lord or masters"
-  },
-  "Claims": {
-    "C1": "Animal rights are meant to set limits on human behavior",
-    "C2": "Human being has driven many animals for their personal use such as, cows and other milch animals for yielding milk from them",
-    "C3": "many farmers and owners exploit animals beyond their limits",
-    "C4": "thousand of animals undergo painful suffering or death as a result of scientific research of drugs and various products"
-  },
-  "Premises": {
-    "P1": "Likewise, other animals such as, horses, cattles and donkeys for farming, agriculture and as a mode of transportation",
-    "P2": "Many people keep pets like dogs and cats, trained them as service dogs and snuffing dogs which are very helpful to police force and even to some blind peoples",
-    "P3": "They are kept for security purposes in houses",
-    "P4": "cows are often injected by Oxytocin, a hormone which is used to forcibly increase lactation",
-    "P5": "This in turn, causes lots of discomfort and pain to the cattle",
-    "P6": "Another example of this is cage farming which is against animal rights",
-    "P7": "Many other practices like, equestrian sport where horses run miles and miles and beaten up by jockeys to make them run more faster",
-    "P8": "And above all pleasure hunting of defenseless animals"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "human being should behave as a guardian to animals rather than as their lord or masters"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Animal rights are meant to set limits on human behavior"
+    },
+    {
+      "ID": "C2",
+      "Text": "Human being has driven many animals for their personal use such as, cows and other milch animals for yielding milk from them"
+    },
+    {
+      "ID": "C3",
+      "Text": "many farmers and owners exploit animals beyond their limits"
+    },
+    {
+      "ID": "C4",
+      "Text": "thousand of animals undergo painful suffering or death as a result of scientific research of drugs and various products"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Likewise, other animals such as, horses, cattles and donkeys for farming, agriculture and as a mode of transportation"
+    },
+    {
+      "ID": "P2",
+      "Text": "Many people keep pets like dogs and cats, trained them as service dogs and snuffing dogs which are very helpful to police force and even to some blind peoples"
+    },
+    {
+      "ID": "P3",
+      "Text": "They are kept for security purposes in houses"
+    },
+    {
+      "ID": "P4",
+      "Text": "cows are often injected by Oxytocin, a hormone which is used to forcibly increase lactation"
+    },
+    {
+      "ID": "P5",
+      "Text": "This in turn, causes lots of discomfort and pain to the cattle"
+    },
+    {
+      "ID": "P6",
+      "Text": "Another example of this is cage farming which is against animal rights"
+    },
+    {
+      "ID": "P7",
+      "Text": "Many other practices like, equestrian sport where horses run miles and miles and beaten up by jockeys to make them run more faster"
+    },
+    {
+      "ID": "P8",
+      "Text": "And above all pleasure hunting of defenseless animals"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

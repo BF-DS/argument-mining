@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "the demerits of applying these new developments in the agriculture industry cannot be overlooked"
-  },
-  "Claims": {
-    "C1": "newly developed plant foods and machinery make significant financial success for the farmers",
-    "C2": "the production and labour cost of each kilogram of the agriculture products dramatically decreased",
-    "C3": "high-tech fertilizers pose a potential threat to individuals' health well-being",
-    "C4": "excessively relying on the electronic equipment for harvest causes several impacts to the society"
-  },
-  "Premises": {
-    "P1": "applying the advanced fertilizers in combine with the automatic reaping resources increase farmers' economic profit",
-    "P2": "artificial fertilizers catalyze the capacity of each inch of farmland in order to churn out the crops, and automatic machinery enhances the work efficiency of the harvest",
-    "P3": "Unlike the organic plant foods, industrialized fertilizers are made of unusual chemicals, which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently",
-    "P4": "consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future",
-    "P5": "One is that it worsens the air pollution by releasing the excessive exhaust emission",
-    "P6": "manual harvest prevents severe environmental damages",
-    "P7": "mechanical reaper causes the rise of the unemployment rate in the farming industry",
-    "P8": "high-end reaping plants replace a large number of workers in the fields"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the demerits of applying these new developments in the agriculture industry cannot be overlooked"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "newly developed plant foods and machinery make significant financial success for the farmers"
+    },
+    {
+      "ID": "C2",
+      "Text": "the production and labour cost of each kilogram of the agriculture products dramatically decreased"
+    },
+    {
+      "ID": "C3",
+      "Text": "high-tech fertilizers pose a potential threat to individuals' health well-being"
+    },
+    {
+      "ID": "C4",
+      "Text": "excessively relying on the electronic equipment for harvest causes several impacts to the society"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "applying the advanced fertilizers in combine with the automatic reaping resources increase farmers' economic profit"
+    },
+    {
+      "ID": "P2",
+      "Text": "artificial fertilizers catalyze the capacity of each inch of farmland in order to churn out the crops, and automatic machinery enhances the work efficiency of the harvest"
+    },
+    {
+      "ID": "P3",
+      "Text": "Unlike the organic plant foods, industrialized fertilizers are made of unusual chemicals, which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently"
+    },
+    {
+      "ID": "P4",
+      "Text": "consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future"
+    },
+    {
+      "ID": "P5",
+      "Text": "One is that it worsens the air pollution by releasing the excessive exhaust emission"
+    },
+    {
+      "ID": "P6",
+      "Text": "manual harvest prevents severe environmental damages"
+    },
+    {
+      "ID": "P7",
+      "Text": "mechanical reaper causes the rise of the unemployment rate in the farming industry"
+    },
+    {
+      "ID": "P8",
+      "Text": "high-end reaping plants replace a large number of workers in the fields"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

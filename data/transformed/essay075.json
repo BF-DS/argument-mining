@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs",
-    "MC2": "governments should attach heavier weight to other social issues such as education and housing needs"
-  },
-  "Claims": {
-    "C1": "art could play an active role in improving the quality of people's lives",
-    "C2": "those are the most essential ways enable to make people a decent life",
-    "C3": "Art is not the key determination of quality of life, but education is",
-    "C4": "art, to some extent, serve a valuable function about enriching one's daily lives"
-  },
-  "Premises": {
-    "P1": "In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens",
-    "P2": "knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system",
-    "P3": "it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work",
-    "P4": "it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room",
-    "P5": "By comparison to these issues, the pursuit of art seems unimportant at all"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs"
+    },
+    {
+      "ID": "MC2",
+      "Text": "governments should attach heavier weight to other social issues such as education and housing needs"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "art could play an active role in improving the quality of people's lives"
+    },
+    {
+      "ID": "C2",
+      "Text": "those are the most essential ways enable to make people a decent life"
+    },
+    {
+      "ID": "C3",
+      "Text": "Art is not the key determination of quality of life, but education is"
+    },
+    {
+      "ID": "C4",
+      "Text": "art, to some extent, serve a valuable function about enriching one's daily lives"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens"
+    },
+    {
+      "ID": "P2",
+      "Text": "knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system"
+    },
+    {
+      "ID": "P3",
+      "Text": "it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work"
+    },
+    {
+      "ID": "P4",
+      "Text": "it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room"
+    },
+    {
+      "ID": "P5",
+      "Text": "By comparison to these issues, the pursuit of art seems unimportant at all"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

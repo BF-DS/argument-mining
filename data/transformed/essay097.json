@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "popular sports events can help reduce international tensions remarkably and promote national prides safely",
-    "MC2": "international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely"
-  },
-  "Claims": {
-    "C1": "they can improve their results, break records and bring victories to their own countries",
-    "C2": "sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations",
-    "C3": "sport events help to wake up love and responsibilities strongly in each citizen"
-  },
-  "Premises": {
-    "P1": "sports events are good chances for excellent athletes to meet and learn valuable experiences from one another",
-    "P2": "a large number of people will gather in the host city for sport events",
-    "P3": "there are many good opportunities for discovering different cultures",
-    "P4": "After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations",
-    "P5": "sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators",
-    "P6": "Seeing national flags be honored may be the most emotional moments to each athlete",
-    "P7": "The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country",
-    "P8": "When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness",
-    "P9": "when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets",
-    "P10": "People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President",
-    "P11": "The eager atmosphere lasted many next days",
-    "P12": "some hooligans were so excited that they took part in motor racing or using fireworks illegally",
-    "P13": "the hooligans only took a minority of people"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "popular sports events can help reduce international tensions remarkably and promote national prides safely"
+    },
+    {
+      "ID": "MC2",
+      "Text": "international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they can improve their results, break records and bring victories to their own countries"
+    },
+    {
+      "ID": "C2",
+      "Text": "sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations"
+    },
+    {
+      "ID": "C3",
+      "Text": "sport events help to wake up love and responsibilities strongly in each citizen"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "sports events are good chances for excellent athletes to meet and learn valuable experiences from one another"
+    },
+    {
+      "ID": "P2",
+      "Text": "a large number of people will gather in the host city for sport events"
+    },
+    {
+      "ID": "P3",
+      "Text": "there are many good opportunities for discovering different cultures"
+    },
+    {
+      "ID": "P4",
+      "Text": "After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations"
+    },
+    {
+      "ID": "P5",
+      "Text": "sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators"
+    },
+    {
+      "ID": "P6",
+      "Text": "Seeing national flags be honored may be the most emotional moments to each athlete"
+    },
+    {
+      "ID": "P7",
+      "Text": "The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country"
+    },
+    {
+      "ID": "P8",
+      "Text": "When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness"
+    },
+    {
+      "ID": "P9",
+      "Text": "when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets"
+    },
+    {
+      "ID": "P10",
+      "Text": "People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President"
+    },
+    {
+      "ID": "P11",
+      "Text": "The eager atmosphere lasted many next days"
+    },
+    {
+      "ID": "P12",
+      "Text": "some hooligans were so excited that they took part in motor racing or using fireworks illegally"
+    },
+    {
+      "ID": "P13",
+      "Text": "the hooligans only took a minority of people"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "using machines is advantageous"
-  },
-  "Claims": {
-    "C1": "machines make work easy and smooth",
-    "C2": "The negative effects on health can be put on the back seat",
-    "C3": "the usage of machines is harmful for health of humans",
-    "C4": "using machines makes daily tasks less time consuming and less cumbersome"
-  },
-  "Premises": {
-    "P1": "there are many other ways to exercise and stay healthy",
-    "P2": "machines decrease the work done by people",
-    "P3": "in many institutions staircases are replaced by lifts now a days",
-    "P4": "People opt for elevators instead of climbing one or two flight of stairs",
-    "P5": "It is confirmed in a number of researches that daily usage of elevators in workplaces promotes obesity",
-    "P6": "this example clearly shows the linkage between using machines and adverse health effects",
-    "P7": "The work of chopping, blending, grating, kneading has become so easy that people can not imagine their lives without this simple machine at their homes",
-    "P8": "usage of machines makes work easier and less time is consumed for doing similar amount of work",
-    "P9": "Take the example of use of food processors in kitchens"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "using machines is advantageous"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "machines make work easy and smooth"
+    },
+    {
+      "ID": "C2",
+      "Text": "The negative effects on health can be put on the back seat"
+    },
+    {
+      "ID": "C3",
+      "Text": "the usage of machines is harmful for health of humans"
+    },
+    {
+      "ID": "C4",
+      "Text": "using machines makes daily tasks less time consuming and less cumbersome"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "there are many other ways to exercise and stay healthy"
+    },
+    {
+      "ID": "P2",
+      "Text": "machines decrease the work done by people"
+    },
+    {
+      "ID": "P3",
+      "Text": "in many institutions staircases are replaced by lifts now a days"
+    },
+    {
+      "ID": "P4",
+      "Text": "People opt for elevators instead of climbing one or two flight of stairs"
+    },
+    {
+      "ID": "P5",
+      "Text": "It is confirmed in a number of researches that daily usage of elevators in workplaces promotes obesity"
+    },
+    {
+      "ID": "P6",
+      "Text": "this example clearly shows the linkage between using machines and adverse health effects"
+    },
+    {
+      "ID": "P7",
+      "Text": "The work of chopping, blending, grating, kneading has become so easy that people can not imagine their lives without this simple machine at their homes"
+    },
+    {
+      "ID": "P8",
+      "Text": "usage of machines makes work easier and less time is consumed for doing similar amount of work"
+    },
+    {
+      "ID": "P9",
+      "Text": "Take the example of use of food processors in kitchens"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

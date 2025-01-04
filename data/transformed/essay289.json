@@ -1,34 +1,106 @@
 {
-  "MajorClaims": {
-    "MC1": "students should be asked to evaluate their teachers",
-    "MC2": "school should ask students to evaluate their teachers",
-    "MC3": "there are benefits to ask students to evaluate their teachers"
-  },
-  "Claims": {
-    "C1": "teachers could improve their performance",
-    "C2": "schools are also improve their quality",
-    "C3": "evaluating from students could improve teachers' performance",
-    "C4": "this evaluation from students could improve schools' quality",
-    "C5": "people who get the most advantage from evaluation is students"
-  },
-  "Premises": {
-    "P1": "they have high performance teachers",
-    "P2": "students are easy to understand their subjects",
-    "P3": "Evaluating teachers made by students could improve teachers' performance",
-    "P4": "evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product",
-    "P5": "Students might complain about their teachers spoke too fast that students could not catch up on information",
-    "P6": "teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give",
-    "P7": "school have teachers who are always improve their quality from evaluation made by students",
-    "P8": "in many cooperation such as Microsoft that could produce many great products",
-    "P9": "they have employees whose performance are very high",
-    "P10": "Schools could produce intellectual students",
-    "P11": "Teachers could augment their quality",
-    "P12": "When school gather teachers that have great performance, school are gaining higher quality",
-    "P13": "teachers are always adapt the way they teach in order to make students easy to understand their subjects",
-    "P14": "students could comprehend their subject easily",
-    "P15": "students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life",
-    "P16": "Students could study in class that have teachers who have experienced and greater performance"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "students should be asked to evaluate their teachers"
+    },
+    {
+      "ID": "MC2",
+      "Text": "school should ask students to evaluate their teachers"
+    },
+    {
+      "ID": "MC3",
+      "Text": "there are benefits to ask students to evaluate their teachers"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "teachers could improve their performance"
+    },
+    {
+      "ID": "C2",
+      "Text": "schools are also improve their quality"
+    },
+    {
+      "ID": "C3",
+      "Text": "evaluating from students could improve teachers' performance"
+    },
+    {
+      "ID": "C4",
+      "Text": "this evaluation from students could improve schools' quality"
+    },
+    {
+      "ID": "C5",
+      "Text": "people who get the most advantage from evaluation is students"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they have high performance teachers"
+    },
+    {
+      "ID": "P2",
+      "Text": "students are easy to understand their subjects"
+    },
+    {
+      "ID": "P3",
+      "Text": "Evaluating teachers made by students could improve teachers' performance"
+    },
+    {
+      "ID": "P4",
+      "Text": "evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product"
+    },
+    {
+      "ID": "P5",
+      "Text": "Students might complain about their teachers spoke too fast that students could not catch up on information"
+    },
+    {
+      "ID": "P6",
+      "Text": "teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give"
+    },
+    {
+      "ID": "P7",
+      "Text": "school have teachers who are always improve their quality from evaluation made by students"
+    },
+    {
+      "ID": "P8",
+      "Text": "in many cooperation such as Microsoft that could produce many great products"
+    },
+    {
+      "ID": "P9",
+      "Text": "they have employees whose performance are very high"
+    },
+    {
+      "ID": "P10",
+      "Text": "Schools could produce intellectual students"
+    },
+    {
+      "ID": "P11",
+      "Text": "Teachers could augment their quality"
+    },
+    {
+      "ID": "P12",
+      "Text": "When school gather teachers that have great performance, school are gaining higher quality"
+    },
+    {
+      "ID": "P13",
+      "Text": "teachers are always adapt the way they teach in order to make students easy to understand their subjects"
+    },
+    {
+      "ID": "P14",
+      "Text": "students could comprehend their subject easily"
+    },
+    {
+      "ID": "P15",
+      "Text": "students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life"
+    },
+    {
+      "ID": "P16",
+      "Text": "Students could study in class that have teachers who have experienced and greater performance"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

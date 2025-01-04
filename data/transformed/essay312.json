@@ -1,35 +1,110 @@
 {
-  "MajorClaims": {
-    "MC1": "Money should spend on facilities in school or update resources, which are beneficial to school rather than just instructors",
-    "MC2": "I against providing more money to professors"
-  },
-  "Claims": {
-    "C1": "The professors are essential",
-    "C2": "the school should put more emphasis on students instead of professors",
-    "C3": "To improve education, spending more money to raise professors' salary is inappropriate",
-    "C4": "Students' tuition is not only for the professors but also for their quality of learning at university"
-  },
-  "Premises": {
-    "P1": "the schools are established for students",
-    "P2": "the most efficient way to improve the education is to guide the students to learn actively",
-    "P3": "By renewing some facilities in school so students will spend more time at school doing assignment",
-    "P4": "A comfortable environment can attract people to stay longer",
-    "P5": "students spend more time on school to make a good circulation of learning",
-    "P6": "students have a better environment to working on their assignments",
-    "P7": "the quality of their assignments will improve",
-    "P8": "the competition between peers enhances and forms a circulation",
-    "P9": "In my school, the classrooms in my university are old and kind of shabby",
-    "P10": "I prefer spending money in a coffee shop to staying at school to finish my assignment",
-    "P11": "It's unpleasant to stay at school",
-    "P12": "coffee shops are not always quiet, so my classmates and I often finish our work roughly",
-    "P13": "the ultimate purpose is to change, to motivate students to be better",
-    "P14": "High-salary instructors don't teach students harder because they earn more money",
-    "P15": "There won't be any effect if school does so",
-    "P16": "There was news about raising professors' salary in my country",
-    "P17": "This event provoked a demonstration composing of students mostly",
-    "P18": "The proposal of the demonstration was eliminating the raising salaries",
-    "P19": "if the policy of raising salary was supported, the demonstration would not happen"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "Money should spend on facilities in school or update resources, which are beneficial to school rather than just instructors"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I against providing more money to professors"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The professors are essential"
+    },
+    {
+      "ID": "C2",
+      "Text": "the school should put more emphasis on students instead of professors"
+    },
+    {
+      "ID": "C3",
+      "Text": "To improve education, spending more money to raise professors' salary is inappropriate"
+    },
+    {
+      "ID": "C4",
+      "Text": "Students' tuition is not only for the professors but also for their quality of learning at university"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the schools are established for students"
+    },
+    {
+      "ID": "P2",
+      "Text": "the most efficient way to improve the education is to guide the students to learn actively"
+    },
+    {
+      "ID": "P3",
+      "Text": "By renewing some facilities in school so students will spend more time at school doing assignment"
+    },
+    {
+      "ID": "P4",
+      "Text": "A comfortable environment can attract people to stay longer"
+    },
+    {
+      "ID": "P5",
+      "Text": "students spend more time on school to make a good circulation of learning"
+    },
+    {
+      "ID": "P6",
+      "Text": "students have a better environment to working on their assignments"
+    },
+    {
+      "ID": "P7",
+      "Text": "the quality of their assignments will improve"
+    },
+    {
+      "ID": "P8",
+      "Text": "the competition between peers enhances and forms a circulation"
+    },
+    {
+      "ID": "P9",
+      "Text": "In my school, the classrooms in my university are old and kind of shabby"
+    },
+    {
+      "ID": "P10",
+      "Text": "I prefer spending money in a coffee shop to staying at school to finish my assignment"
+    },
+    {
+      "ID": "P11",
+      "Text": "It's unpleasant to stay at school"
+    },
+    {
+      "ID": "P12",
+      "Text": "coffee shops are not always quiet, so my classmates and I often finish our work roughly"
+    },
+    {
+      "ID": "P13",
+      "Text": "the ultimate purpose is to change, to motivate students to be better"
+    },
+    {
+      "ID": "P14",
+      "Text": "High-salary instructors don't teach students harder because they earn more money"
+    },
+    {
+      "ID": "P15",
+      "Text": "There won't be any effect if school does so"
+    },
+    {
+      "ID": "P16",
+      "Text": "There was news about raising professors' salary in my country"
+    },
+    {
+      "ID": "P17",
+      "Text": "This event provoked a demonstration composing of students mostly"
+    },
+    {
+      "ID": "P18",
+      "Text": "The proposal of the demonstration was eliminating the raising salaries"
+    },
+    {
+      "ID": "P19",
+      "Text": "if the policy of raising salary was supported, the demonstration would not happen"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

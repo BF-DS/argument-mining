@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "we clearly have to change our attitude towards the environment",
-    "MC2": "we definitely have to change our behavior towards the environment, not only to preserve the endangered animals but also to preserve our own living conditions"
-  },
-  "Claims": {
-    "C1": "the natural diversity is very important for further generations",
-    "C2": "a stable and sustainable environment is essential for the weather"
-  },
-  "Premises": {
-    "P1": "If we don't change our behavior we will extinct many species living for millions of years on the planet",
-    "P2": "As we destroy the natural habitat, like forests, jungles and lakes, to make place for our industry and farmland, we rob the ecosystem",
-    "P3": "every day a massive part of the Rainforest in South America is destroyed to provide wood and farmland",
-    "P4": "If we don't preserve this important part of our ecosystem many endangered animals will loose their natural habitat and go extinct",
-    "P5": "further generations will never have the opportunity to see and study these animals",
-    "P6": "Our behavior causes pollution, which heavily affects the weather conditions on planet Earth and causes the undoubtedly Global Warming",
-    "P7": "This not only affects the endangered animals, but also the humans",
-    "P8": "we are affected by the increasing sea level and the climatic changes",
-    "P9": "recent studies from the United Nations Organization have shown that, till 2050 the sea level will increase over one meter in the average",
-    "P10": "This will dramaticly affect all people living near the coast and change the global climate"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we clearly have to change our attitude towards the environment"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we definitely have to change our behavior towards the environment, not only to preserve the endangered animals but also to preserve our own living conditions"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the natural diversity is very important for further generations"
+    },
+    {
+      "ID": "C2",
+      "Text": "a stable and sustainable environment is essential for the weather"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "If we don't change our behavior we will extinct many species living for millions of years on the planet"
+    },
+    {
+      "ID": "P2",
+      "Text": "As we destroy the natural habitat, like forests, jungles and lakes, to make place for our industry and farmland, we rob the ecosystem"
+    },
+    {
+      "ID": "P3",
+      "Text": "every day a massive part of the Rainforest in South America is destroyed to provide wood and farmland"
+    },
+    {
+      "ID": "P4",
+      "Text": "If we don't preserve this important part of our ecosystem many endangered animals will loose their natural habitat and go extinct"
+    },
+    {
+      "ID": "P5",
+      "Text": "further generations will never have the opportunity to see and study these animals"
+    },
+    {
+      "ID": "P6",
+      "Text": "Our behavior causes pollution, which heavily affects the weather conditions on planet Earth and causes the undoubtedly Global Warming"
+    },
+    {
+      "ID": "P7",
+      "Text": "This not only affects the endangered animals, but also the humans"
+    },
+    {
+      "ID": "P8",
+      "Text": "we are affected by the increasing sea level and the climatic changes"
+    },
+    {
+      "ID": "P9",
+      "Text": "recent studies from the United Nations Organization have shown that, till 2050 the sea level will increase over one meter in the average"
+    },
+    {
+      "ID": "P10",
+      "Text": "This will dramaticly affect all people living near the coast and change the global climate"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P4",

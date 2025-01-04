@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "media is overemphasizing the personal lives of famous people in this modern society",
-    "MC2": "disadvantages of overemphasizing on personal lives of famous people by media outweigh its advantages",
-    "MC3": "paying too much attention on personal lives of famous people may be a serious problem"
-  },
-  "Claims": {
-    "C1": "media provide information about an event that recently occurred somewhere and which is important to the people",
-    "C2": "sensationalism distract the viewers from public or social problems",
-    "C3": "gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion"
-  },
-  "Premises": {
-    "P1": "The most important of all is that the essence of coverage accurate and not based on gossip",
-    "P2": "journalism is changing",
-    "P3": "Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people",
-    "P4": "these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society",
-    "P5": "yellow journalism block the viewers from significant news, such as education, environment and public issues",
-    "P6": "The media face the challenge that media executives must choose the content, which can attract the audience",
-    "P7": "The audience may see a lot of photos in the kind of reports, which seems to tell a story",
-    "P8": "it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "media is overemphasizing the personal lives of famous people in this modern society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "disadvantages of overemphasizing on personal lives of famous people by media outweigh its advantages"
+    },
+    {
+      "ID": "MC3",
+      "Text": "paying too much attention on personal lives of famous people may be a serious problem"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "media provide information about an event that recently occurred somewhere and which is important to the people"
+    },
+    {
+      "ID": "C2",
+      "Text": "sensationalism distract the viewers from public or social problems"
+    },
+    {
+      "ID": "C3",
+      "Text": "gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The most important of all is that the essence of coverage accurate and not based on gossip"
+    },
+    {
+      "ID": "P2",
+      "Text": "journalism is changing"
+    },
+    {
+      "ID": "P3",
+      "Text": "Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people"
+    },
+    {
+      "ID": "P4",
+      "Text": "these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society"
+    },
+    {
+      "ID": "P5",
+      "Text": "yellow journalism block the viewers from significant news, such as education, environment and public issues"
+    },
+    {
+      "ID": "P6",
+      "Text": "The media face the challenge that media executives must choose the content, which can attract the audience"
+    },
+    {
+      "ID": "P7",
+      "Text": "The audience may see a lot of photos in the kind of reports, which seems to tell a story"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

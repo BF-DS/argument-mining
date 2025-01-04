@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "the prosperity of tourism can provide benefits for people on a global scale"
-  },
-  "Claims": {
-    "C1": "there are some inevitable problems",
-    "C2": "tourism can have a negative impact on the natural environment",
-    "C3": "flourishing tourism in a place can be very rewarding in terms of local economy",
-    "C4": "the increasing development of tourism is a boon to travelers as well"
-  },
-  "Premises": {
-    "P1": "they are outweighed by advantages and can be tackled if proper measures are taken",
-    "P2": "In order to meet the needs of tourists, local governments are likely to build more facilities and infrastructures around tourist attractions, which may result in the destruction of natural habitats",
-    "P3": "Tourism also creates more pollution and waste, including growing emission of greenhouse gases, dumped leftovers and overuse of water, power and other kind of energy in luxurious hotels",
-    "P4": "tourism puts great pressure on ecosystem and local resources, and it should not be encouraged",
-    "P5": "Holiday makers flocking to other countries are not only bound to spend on tickets of attractions, but also pay for food, accommodation, transportation and entertainment",
-    "P6": "Both local people and governments can make a large amount of money through these services, and more employment opportunities can be created as well",
-    "P7": "the revenue earned form tourism can be used in turn to reduce pollution and protect the environment",
-    "P8": "The provision of direct airlines makes it possible for them to travel conveniently and comfortably",
-    "P9": "With adequate local facilities and services available, they can spend more of their holidays having fun and relaxing",
-    "P10": "both locals and tourists can experience more cultures than ever before, and they can be more open-minded to eliminate preconceptions and deepen mutual understanding among nations"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the prosperity of tourism can provide benefits for people on a global scale"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there are some inevitable problems"
+    },
+    {
+      "ID": "C2",
+      "Text": "tourism can have a negative impact on the natural environment"
+    },
+    {
+      "ID": "C3",
+      "Text": "flourishing tourism in a place can be very rewarding in terms of local economy"
+    },
+    {
+      "ID": "C4",
+      "Text": "the increasing development of tourism is a boon to travelers as well"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they are outweighed by advantages and can be tackled if proper measures are taken"
+    },
+    {
+      "ID": "P2",
+      "Text": "In order to meet the needs of tourists, local governments are likely to build more facilities and infrastructures around tourist attractions, which may result in the destruction of natural habitats"
+    },
+    {
+      "ID": "P3",
+      "Text": "Tourism also creates more pollution and waste, including growing emission of greenhouse gases, dumped leftovers and overuse of water, power and other kind of energy in luxurious hotels"
+    },
+    {
+      "ID": "P4",
+      "Text": "tourism puts great pressure on ecosystem and local resources, and it should not be encouraged"
+    },
+    {
+      "ID": "P5",
+      "Text": "Holiday makers flocking to other countries are not only bound to spend on tickets of attractions, but also pay for food, accommodation, transportation and entertainment"
+    },
+    {
+      "ID": "P6",
+      "Text": "Both local people and governments can make a large amount of money through these services, and more employment opportunities can be created as well"
+    },
+    {
+      "ID": "P7",
+      "Text": "the revenue earned form tourism can be used in turn to reduce pollution and protect the environment"
+    },
+    {
+      "ID": "P8",
+      "Text": "The provision of direct airlines makes it possible for them to travel conveniently and comfortably"
+    },
+    {
+      "ID": "P9",
+      "Text": "With adequate local facilities and services available, they can spend more of their holidays having fun and relaxing"
+    },
+    {
+      "ID": "P10",
+      "Text": "both locals and tourists can experience more cultures than ever before, and they can be more open-minded to eliminate preconceptions and deepen mutual understanding among nations"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "tackling down environmental problems is of the first priority rather than economic developments",
-    "MC2": "environmental conservation is more essential than economic developments in the aspects of urgency and ranges of influence"
-  },
-  "Claims": {
-    "C1": "environmental protection is far more urgent than economic developments",
-    "C2": "the influence on environmental problems are boarder and more profound than economic issues",
-    "C3": "economic issues are global and critical as well thus can not be put aside"
-  },
-  "Premises": {
-    "P1": "we will all perish as she's gone",
-    "P2": "Just like a man that needs a healthy body, all the living creatures as a whole needs a strong planet as well",
-    "P3": "Without Earth, whatever great civil constructions and economic achievements will end up in vain",
-    "P4": "All the living creatures live together on our mother Earth and she is the only one",
-    "P5": "Environmental problems are global rather than local, which means that no countries can be spared from these problems",
-    "P6": "Take global warming for example, when the temperature increases, the whole globe is affected, suffering the hotter weather together",
-    "P7": "The melting ice mountain not only jeopardizes habitats of animals living in the polar region, but its effects of the rising sea level also endangers the residents living in the small island near the equator",
-    "P8": "the rising sea water could drown them",
-    "P9": "Environmental issues can not be divided by nationality",
-    "P10": "all humans are simply entwined together by our only home-Earth",
-    "P11": "if the economic is in a very bad situation, people would revolt instantly, while environmental problems seem to be more like chronic diseases that would not burst out right away",
-    "P12": "the truth is that we've been encountering so many sighs and warnings of global climate anomalies and other environmental crisis right now",
-    "P13": "It would be unwise to still deny the truth and keep focusing on economic developments and unfortunately, usually the economic developments are even the causes of environmental damages"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "tackling down environmental problems is of the first priority rather than economic developments"
+    },
+    {
+      "ID": "MC2",
+      "Text": "environmental conservation is more essential than economic developments in the aspects of urgency and ranges of influence"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "environmental protection is far more urgent than economic developments"
+    },
+    {
+      "ID": "C2",
+      "Text": "the influence on environmental problems are boarder and more profound than economic issues"
+    },
+    {
+      "ID": "C3",
+      "Text": "economic issues are global and critical as well thus can not be put aside"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "we will all perish as she's gone"
+    },
+    {
+      "ID": "P2",
+      "Text": "Just like a man that needs a healthy body, all the living creatures as a whole needs a strong planet as well"
+    },
+    {
+      "ID": "P3",
+      "Text": "Without Earth, whatever great civil constructions and economic achievements will end up in vain"
+    },
+    {
+      "ID": "P4",
+      "Text": "All the living creatures live together on our mother Earth and she is the only one"
+    },
+    {
+      "ID": "P5",
+      "Text": "Environmental problems are global rather than local, which means that no countries can be spared from these problems"
+    },
+    {
+      "ID": "P6",
+      "Text": "Take global warming for example, when the temperature increases, the whole globe is affected, suffering the hotter weather together"
+    },
+    {
+      "ID": "P7",
+      "Text": "The melting ice mountain not only jeopardizes habitats of animals living in the polar region, but its effects of the rising sea level also endangers the residents living in the small island near the equator"
+    },
+    {
+      "ID": "P8",
+      "Text": "the rising sea water could drown them"
+    },
+    {
+      "ID": "P9",
+      "Text": "Environmental issues can not be divided by nationality"
+    },
+    {
+      "ID": "P10",
+      "Text": "all humans are simply entwined together by our only home-Earth"
+    },
+    {
+      "ID": "P11",
+      "Text": "if the economic is in a very bad situation, people would revolt instantly, while environmental problems seem to be more like chronic diseases that would not burst out right away"
+    },
+    {
+      "ID": "P12",
+      "Text": "the truth is that we've been encountering so many sighs and warnings of global climate anomalies and other environmental crisis right now"
+    },
+    {
+      "ID": "P13",
+      "Text": "It would be unwise to still deny the truth and keep focusing on economic developments and unfortunately, usually the economic developments are even the causes of environmental damages"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

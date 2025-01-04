@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "modern people are facing up to a new health problems and ailments than before",
-    "MC2": "people are facing up with many recently appeared illnesses"
-  },
-  "Claims": {
-    "C1": "it is because of sedentary lifestlyle",
-    "C2": "sedentary lifestyle lead to many serious health problems",
-    "C3": "people are experiencing serious medical problems"
-  },
-  "Premises": {
-    "P1": "The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology",
-    "P2": "they had more outdoor activities",
-    "P3": "In earlier times, for instance, even the types of entertainment tools were not in large numbers and all of them required physical presence",
-    "P4": "Nowadays people, especially inhabitants of cities, are spending most of their time on sitting in front of TV or other tools",
-    "P5": "the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses",
-    "P6": "Many people, for example, are suffering from allergy because of these gasses",
-    "P7": "foods with a low quality such as fast foods, junk foods and any genetically modified ones are influencing to our health very negatively",
-    "P8": "life becoming more stressful due to some recent problems such as traffic gam, traffic accidents and others"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "modern people are facing up to a new health problems and ailments than before"
+    },
+    {
+      "ID": "MC2",
+      "Text": "people are facing up with many recently appeared illnesses"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is because of sedentary lifestlyle"
+    },
+    {
+      "ID": "C2",
+      "Text": "sedentary lifestyle lead to many serious health problems"
+    },
+    {
+      "ID": "C3",
+      "Text": "people are experiencing serious medical problems"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology"
+    },
+    {
+      "ID": "P2",
+      "Text": "they had more outdoor activities"
+    },
+    {
+      "ID": "P3",
+      "Text": "In earlier times, for instance, even the types of entertainment tools were not in large numbers and all of them required physical presence"
+    },
+    {
+      "ID": "P4",
+      "Text": "Nowadays people, especially inhabitants of cities, are spending most of their time on sitting in front of TV or other tools"
+    },
+    {
+      "ID": "P5",
+      "Text": "the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses"
+    },
+    {
+      "ID": "P6",
+      "Text": "Many people, for example, are suffering from allergy because of these gasses"
+    },
+    {
+      "ID": "P7",
+      "Text": "foods with a low quality such as fast foods, junk foods and any genetically modified ones are influencing to our health very negatively"
+    },
+    {
+      "ID": "P8",
+      "Text": "life becoming more stressful due to some recent problems such as traffic gam, traffic accidents and others"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

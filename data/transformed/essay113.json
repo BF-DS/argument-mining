@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "richer nations should take more responsibility for helping the poorer nations in all health, education and trade",
-    "MC2": "Poorer nations need help from richer nations in these areas to develop their countries"
-  },
-  "Claims": {
-    "C1": "Improvements in these areas will create a better life for residents in poorer nations which they can use to grow their homeland",
-    "C2": "richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals",
-    "C3": "richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries",
-    "C4": "for the issue of education fee, richer countries should offer scholarships and loan to the qualified students",
-    "C5": "in the area of trade, no one can deny that poorer countries are lagging behind richer countries due to shortage of money"
-  },
-  "Premises": {
-    "P1": "in the area of health, poorer nations normally have less quantity of doctors and nurses compared to richer nations",
-    "P2": "High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident",
-    "P3": "poorer nations are lack of hospitals to fulfill the demand of the patients",
-    "P4": "in the area of education, it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions",
-    "P5": "education for these countries normally is not free so only certain group of students can afford it",
-    "P6": "Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure",
-    "P7": "residents in rural areas still depend on their own farm for food production",
-    "P8": "richer nations can provide financial service to poorer countries to encourage trading",
-    "P9": "The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "richer nations should take more responsibility for helping the poorer nations in all health, education and trade"
+    },
+    {
+      "ID": "MC2",
+      "Text": "Poorer nations need help from richer nations in these areas to develop their countries"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Improvements in these areas will create a better life for residents in poorer nations which they can use to grow their homeland"
+    },
+    {
+      "ID": "C2",
+      "Text": "richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals"
+    },
+    {
+      "ID": "C3",
+      "Text": "richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries"
+    },
+    {
+      "ID": "C4",
+      "Text": "for the issue of education fee, richer countries should offer scholarships and loan to the qualified students"
+    },
+    {
+      "ID": "C5",
+      "Text": "in the area of trade, no one can deny that poorer countries are lagging behind richer countries due to shortage of money"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "in the area of health, poorer nations normally have less quantity of doctors and nurses compared to richer nations"
+    },
+    {
+      "ID": "P2",
+      "Text": "High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident"
+    },
+    {
+      "ID": "P3",
+      "Text": "poorer nations are lack of hospitals to fulfill the demand of the patients"
+    },
+    {
+      "ID": "P4",
+      "Text": "in the area of education, it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions"
+    },
+    {
+      "ID": "P5",
+      "Text": "education for these countries normally is not free so only certain group of students can afford it"
+    },
+    {
+      "ID": "P6",
+      "Text": "Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure"
+    },
+    {
+      "ID": "P7",
+      "Text": "residents in rural areas still depend on their own farm for food production"
+    },
+    {
+      "ID": "P8",
+      "Text": "richer nations can provide financial service to poorer countries to encourage trading"
+    },
+    {
+      "ID": "P9",
+      "Text": "The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

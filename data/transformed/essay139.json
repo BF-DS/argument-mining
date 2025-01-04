@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "we should give priority to our own issues",
-    "MC2": "more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction"
-  },
-  "Claims": {
-    "C1": "it is our responsibility to keep as many species on the Earth as possible",
-    "C2": "species extinction is quite natural according to the theory of evolution",
-    "C3": "We should put our own survival and sustainment in order first before considering the conservation of other species"
-  },
-  "Premises": {
-    "P1": "biodiversity is essential to maintain the balance of ecosystem",
-    "P2": "If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat",
-    "P3": "The environment on the Earth has been transformed many times since the first species came into being",
-    "P4": "A great number of plants and animals died out",
-    "P5": "they were unable to fit into the new environment",
-    "P6": "the process of extinction of some species is irrevocable and we can do nothing about it",
-    "P7": "human beings nowadays are still faced with many urgent problems such as starvation, disease and wars",
-    "P8": "When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we should give priority to our own issues"
+    },
+    {
+      "ID": "MC2",
+      "Text": "more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is our responsibility to keep as many species on the Earth as possible"
+    },
+    {
+      "ID": "C2",
+      "Text": "species extinction is quite natural according to the theory of evolution"
+    },
+    {
+      "ID": "C3",
+      "Text": "We should put our own survival and sustainment in order first before considering the conservation of other species"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "biodiversity is essential to maintain the balance of ecosystem"
+    },
+    {
+      "ID": "P2",
+      "Text": "If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat"
+    },
+    {
+      "ID": "P3",
+      "Text": "The environment on the Earth has been transformed many times since the first species came into being"
+    },
+    {
+      "ID": "P4",
+      "Text": "A great number of plants and animals died out"
+    },
+    {
+      "ID": "P5",
+      "Text": "they were unable to fit into the new environment"
+    },
+    {
+      "ID": "P6",
+      "Text": "the process of extinction of some species is irrevocable and we can do nothing about it"
+    },
+    {
+      "ID": "P7",
+      "Text": "human beings nowadays are still faced with many urgent problems such as starvation, disease and wars"
+    },
+    {
+      "ID": "P8",
+      "Text": "When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C2",

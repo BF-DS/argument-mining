@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "qualification is still the fundamental determinant of an employee's competency of their jobs"
-  },
-  "Claims": {
-    "C1": "the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others",
-    "C2": "qualification should be the foremost measurement to determine the value of a employer",
-    "C3": "the importance of social skills have been recognized by increasing number of employers"
-  },
-  "Premises": {
-    "P1": "It is of importance that workers should be well educated and trained to perform duties of their job",
-    "P2": "people who work in professional fields such as medicals are required to have a university degree and years of experience",
-    "P3": "Social skills seem to be less important as they cannot contribute to the success of a surgery",
-    "P4": "organization have been transformed to customers oriented",
-    "P5": "Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction",
-    "P6": "people nowadays are required to work as a team in their jobs frequently",
-    "P7": "Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise",
-    "P8": "Better social skills allow them to resolve disagreements in a much more harmony way"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "qualification is still the fundamental determinant of an employee's competency of their jobs"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others"
+    },
+    {
+      "ID": "C2",
+      "Text": "qualification should be the foremost measurement to determine the value of a employer"
+    },
+    {
+      "ID": "C3",
+      "Text": "the importance of social skills have been recognized by increasing number of employers"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "It is of importance that workers should be well educated and trained to perform duties of their job"
+    },
+    {
+      "ID": "P2",
+      "Text": "people who work in professional fields such as medicals are required to have a university degree and years of experience"
+    },
+    {
+      "ID": "P3",
+      "Text": "Social skills seem to be less important as they cannot contribute to the success of a surgery"
+    },
+    {
+      "ID": "P4",
+      "Text": "organization have been transformed to customers oriented"
+    },
+    {
+      "ID": "P5",
+      "Text": "Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction"
+    },
+    {
+      "ID": "P6",
+      "Text": "people nowadays are required to work as a team in their jobs frequently"
+    },
+    {
+      "ID": "P7",
+      "Text": "Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise"
+    },
+    {
+      "ID": "P8",
+      "Text": "Better social skills allow them to resolve disagreements in a much more harmony way"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

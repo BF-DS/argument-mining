@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "being a citizen involves in a number of duties, other than paying taxes"
-  },
-  "Claims": {
-    "C1": "People in society must do more than paying taxes to contribute to their society",
-    "C2": "they have fulfilled their duty as a citizen",
-    "C3": "individuals of a country are responsible for many other things apart from paying tax"
-  },
-  "Premises": {
-    "P1": "If people are paying taxes, that means they are taking part in the development of their country as well as the country's economy",
-    "P2": "Taxes are the income for every country in the world and they are extremely important for developing countries",
-    "P3": "the crime rate is reduced and society becomes a peaceful place, so the country will develop at a rapid pace",
-    "P4": "in order to develop a country, citizens must obey laws, which were imposed by the government",
-    "P5": "being a citizen in society should protect the country's culture and history",
-    "P6": "people should have knowledge about their own culture and history by studying at school with full concentration or reading them from books",
-    "P7": "a person has to unite with other people in the community so as to develop their nation",
-    "P8": "if people in society have a strong bond with each other, society will become a peaceful place, where people are helping and sharing to each other"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "being a citizen involves in a number of duties, other than paying taxes"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "People in society must do more than paying taxes to contribute to their society"
+    },
+    {
+      "ID": "C2",
+      "Text": "they have fulfilled their duty as a citizen"
+    },
+    {
+      "ID": "C3",
+      "Text": "individuals of a country are responsible for many other things apart from paying tax"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "If people are paying taxes, that means they are taking part in the development of their country as well as the country's economy"
+    },
+    {
+      "ID": "P2",
+      "Text": "Taxes are the income for every country in the world and they are extremely important for developing countries"
+    },
+    {
+      "ID": "P3",
+      "Text": "the crime rate is reduced and society becomes a peaceful place, so the country will develop at a rapid pace"
+    },
+    {
+      "ID": "P4",
+      "Text": "in order to develop a country, citizens must obey laws, which were imposed by the government"
+    },
+    {
+      "ID": "P5",
+      "Text": "being a citizen in society should protect the country's culture and history"
+    },
+    {
+      "ID": "P6",
+      "Text": "people should have knowledge about their own culture and history by studying at school with full concentration or reading them from books"
+    },
+    {
+      "ID": "P7",
+      "Text": "a person has to unite with other people in the community so as to develop their nation"
+    },
+    {
+      "ID": "P8",
+      "Text": "if people in society have a strong bond with each other, society will become a peaceful place, where people are helping and sharing to each other"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

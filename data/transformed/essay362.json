@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company"
-  },
-  "Claims": {
-    "C1": "workers over 50 have proven themselves subordinate to the following generation in all aspects",
-    "C2": "old workers are not a patch on the younger ones for their unchanged paradigm",
-    "C3": "knowledge is worth mentioning as a key factor to help young workers outrank the elderly",
-    "C4": "their unresponsiveness can be attributed to their attitude towards life"
-  },
-  "Premises": {
-    "P1": "The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view",
-    "P2": "The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity",
-    "P3": "most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability",
-    "P4": "Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages",
-    "P5": "Not to undermine old workers, but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace",
-    "P6": "that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology",
-    "P7": "This, by all means, is outweigh by youngsters' adventurousness and bravery",
-    "P8": "Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "workers over 50 have proven themselves subordinate to the following generation in all aspects"
+    },
+    {
+      "ID": "C2",
+      "Text": "old workers are not a patch on the younger ones for their unchanged paradigm"
+    },
+    {
+      "ID": "C3",
+      "Text": "knowledge is worth mentioning as a key factor to help young workers outrank the elderly"
+    },
+    {
+      "ID": "C4",
+      "Text": "their unresponsiveness can be attributed to their attitude towards life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view"
+    },
+    {
+      "ID": "P2",
+      "Text": "The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity"
+    },
+    {
+      "ID": "P3",
+      "Text": "most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability"
+    },
+    {
+      "ID": "P4",
+      "Text": "Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages"
+    },
+    {
+      "ID": "P5",
+      "Text": "Not to undermine old workers, but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace"
+    },
+    {
+      "ID": "P6",
+      "Text": "that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology"
+    },
+    {
+      "ID": "P7",
+      "Text": "This, by all means, is outweigh by youngsters' adventurousness and bravery"
+    },
+    {
+      "ID": "P8",
+      "Text": "Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

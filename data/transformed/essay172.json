@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "I would prefer to live in an apartment in the community rather than in the university dormitories",
-    "MC2": "the advantages of living in an apartment outshine those of living in a dormitory"
-  },
-  "Claims": {
-    "C1": "an apartment provides a lot more freedom than a dormitory",
-    "C2": "an apartment is more expensive",
-    "C3": "the studying conditions are better in an apartment"
-  },
-  "Premises": {
-    "P1": "While in a dormitory you have to obey preset rules, in the apartment you set your own rules",
-    "P2": "You are free to have visits at any time or to be left alone if you want",
-    "P3": "An apartment offers more privacy",
-    "P4": "you can choose to have your own room instead of sharing with another student",
-    "P5": "you also get more space than you would in a dormitory",
-    "P6": "you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper",
-    "P7": "Transportation is another issue, you have to go to and return from the university everyday",
-    "P8": "You could choose to use public transportation, a cheaper option, or to have a car",
-    "P9": "The car is an expensive option, but also offers freedom of schedule and destination",
-    "P10": "you don't have all the noise and distractions that you often have in dormitories",
-    "P11": "A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times",
-    "P12": "you would be able to concentrate better",
-    "P13": "in an apartment you don't have a roommate",
-    "P14": "you won't have this problem",
-    "P15": "you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night",
-    "P16": "You set your own schedules",
-    "P17": "living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I would prefer to live in an apartment in the community rather than in the university dormitories"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the advantages of living in an apartment outshine those of living in a dormitory"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "an apartment provides a lot more freedom than a dormitory"
+    },
+    {
+      "ID": "C2",
+      "Text": "an apartment is more expensive"
+    },
+    {
+      "ID": "C3",
+      "Text": "the studying conditions are better in an apartment"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "While in a dormitory you have to obey preset rules, in the apartment you set your own rules"
+    },
+    {
+      "ID": "P2",
+      "Text": "You are free to have visits at any time or to be left alone if you want"
+    },
+    {
+      "ID": "P3",
+      "Text": "An apartment offers more privacy"
+    },
+    {
+      "ID": "P4",
+      "Text": "you can choose to have your own room instead of sharing with another student"
+    },
+    {
+      "ID": "P5",
+      "Text": "you also get more space than you would in a dormitory"
+    },
+    {
+      "ID": "P6",
+      "Text": "you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper"
+    },
+    {
+      "ID": "P7",
+      "Text": "Transportation is another issue, you have to go to and return from the university everyday"
+    },
+    {
+      "ID": "P8",
+      "Text": "You could choose to use public transportation, a cheaper option, or to have a car"
+    },
+    {
+      "ID": "P9",
+      "Text": "The car is an expensive option, but also offers freedom of schedule and destination"
+    },
+    {
+      "ID": "P10",
+      "Text": "you don't have all the noise and distractions that you often have in dormitories"
+    },
+    {
+      "ID": "P11",
+      "Text": "A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times"
+    },
+    {
+      "ID": "P12",
+      "Text": "you would be able to concentrate better"
+    },
+    {
+      "ID": "P13",
+      "Text": "in an apartment you don't have a roommate"
+    },
+    {
+      "ID": "P14",
+      "Text": "you won't have this problem"
+    },
+    {
+      "ID": "P15",
+      "Text": "you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night"
+    },
+    {
+      "ID": "P16",
+      "Text": "You set your own schedules"
+    },
+    {
+      "ID": "P17",
+      "Text": "living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

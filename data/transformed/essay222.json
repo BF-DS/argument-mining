@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "parents are really the best teachers who give us much knowledge and advice"
-  },
-  "Claims": {
-    "C1": "parents are the first teachers who teach babies how to walk and speak and make children to become a good person",
-    "C2": "parents provide their children the best social skills and knowledge in order to prepare for their children's future life",
-    "C3": "children are taught basic things, which influence their whole life, by their parents",
-    "C4": "parents train their child how to become a good person",
-    "C5": "parents' support is one factor which makes people succeed in their life"
-  },
-  "Premises": {
-    "P1": "As a baby, they do not know any thing all around but they learn everything from their parents",
-    "P2": "Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that",
-    "P3": "parents bring the whole world of wonderful and colorful thing into their baby's little mind",
-    "P4": "They always make their children basically say thanks and apology in the right way",
-    "P5": "it is common that they try to explain who is a good or bad person",
-    "P6": "children are shown how to behave well with others",
-    "P7": "this can influence positively their future children and makes children's behavior better before they face the real world",
-    "P8": "parents are ones who loves their children most and always take care of their children",
-    "P9": "they tend to provide the best knowledge and advice from their experience for children",
-    "P10": "Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "parents are really the best teachers who give us much knowledge and advice"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "parents are the first teachers who teach babies how to walk and speak and make children to become a good person"
+    },
+    {
+      "ID": "C2",
+      "Text": "parents provide their children the best social skills and knowledge in order to prepare for their children's future life"
+    },
+    {
+      "ID": "C3",
+      "Text": "children are taught basic things, which influence their whole life, by their parents"
+    },
+    {
+      "ID": "C4",
+      "Text": "parents train their child how to become a good person"
+    },
+    {
+      "ID": "C5",
+      "Text": "parents' support is one factor which makes people succeed in their life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "As a baby, they do not know any thing all around but they learn everything from their parents"
+    },
+    {
+      "ID": "P2",
+      "Text": "Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that"
+    },
+    {
+      "ID": "P3",
+      "Text": "parents bring the whole world of wonderful and colorful thing into their baby's little mind"
+    },
+    {
+      "ID": "P4",
+      "Text": "They always make their children basically say thanks and apology in the right way"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is common that they try to explain who is a good or bad person"
+    },
+    {
+      "ID": "P6",
+      "Text": "children are shown how to behave well with others"
+    },
+    {
+      "ID": "P7",
+      "Text": "this can influence positively their future children and makes children's behavior better before they face the real world"
+    },
+    {
+      "ID": "P8",
+      "Text": "parents are ones who loves their children most and always take care of their children"
+    },
+    {
+      "ID": "P9",
+      "Text": "they tend to provide the best knowledge and advice from their experience for children"
+    },
+    {
+      "ID": "P10",
+      "Text": "Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

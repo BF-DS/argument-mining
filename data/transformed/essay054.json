@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "some museums and art galleries will not disappear",
-    "MC2": "museums and art galleries are necessary to be preserved for its importance of education and culture"
-  },
-  "Claims": {
-    "C1": "modern technology has provided a more convenient and comfortable manner for people to watch exhibitions",
-    "C2": "people who watch exhibitions on TV or internet at home, save the time and money on the road, which is increasingly significant particularly to people in modern society",
-    "C3": "the importance of museums and art galleries is plain in terms of education and culture",
-    "C4": "these buildings will not disappear unless people abandon their culture"
-  },
-  "Premises": {
-    "P1": "technology indeed simplifies people's life all the time",
-    "P2": "in accordance with recent research, experts suggest the lifestyle of individuals in modern society is unhealthy",
-    "P3": "they lack of physical exercise and face-to-face communication",
-    "P4": "museums and art galleries preserve some culture heritages",
-    "P5": "authentic exhibits cannot be completely displayed only by images and videos",
-    "P6": "It is like travelling to a place is much better than viewing the landscape of that place on TV or photos, so the best method to learn one thing is to experience it"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "some museums and art galleries will not disappear"
+    },
+    {
+      "ID": "MC2",
+      "Text": "museums and art galleries are necessary to be preserved for its importance of education and culture"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "modern technology has provided a more convenient and comfortable manner for people to watch exhibitions"
+    },
+    {
+      "ID": "C2",
+      "Text": "people who watch exhibitions on TV or internet at home, save the time and money on the road, which is increasingly significant particularly to people in modern society"
+    },
+    {
+      "ID": "C3",
+      "Text": "the importance of museums and art galleries is plain in terms of education and culture"
+    },
+    {
+      "ID": "C4",
+      "Text": "these buildings will not disappear unless people abandon their culture"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "technology indeed simplifies people's life all the time"
+    },
+    {
+      "ID": "P2",
+      "Text": "in accordance with recent research, experts suggest the lifestyle of individuals in modern society is unhealthy"
+    },
+    {
+      "ID": "P3",
+      "Text": "they lack of physical exercise and face-to-face communication"
+    },
+    {
+      "ID": "P4",
+      "Text": "museums and art galleries preserve some culture heritages"
+    },
+    {
+      "ID": "P5",
+      "Text": "authentic exhibits cannot be completely displayed only by images and videos"
+    },
+    {
+      "ID": "P6",
+      "Text": "It is like travelling to a place is much better than viewing the landscape of that place on TV or photos, so the best method to learn one thing is to experience it"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

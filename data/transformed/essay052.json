@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "English as an elegant language should be advocated in many fields to expand the global trade and communications"
-  },
-  "Claims": {
-    "C1": "the prevalent of English brings a great number of benefits for people",
-    "C2": "the dominated status of English has destroyed culture diversity and many less-used languages become extinct",
-    "C3": "we still need preserve other languages for sake of keeping the linguistic and cultural diversity"
-  },
-  "Premises": {
-    "P1": "English is a sophisticated language",
-    "P2": "it promotes the communication and interaction between different countries more conveniently and clearly",
-    "P3": "In the ancient time, the different languages and geography set barriers for people to exchange their goods and ideas",
-    "P4": "the innovation of plane and train solved the geographical barriers",
-    "P5": "If we can popularize the use of English, the language hinder will disappear as well",
-    "P6": "English is a beautiful language, which is more systematical and extensive than many other languages",
-    "P7": "Learning English can foster people's sentiment and nourish their literature and art",
-    "P8": "it does not express every detail of life especially in Asia countries, which have totally different linguistic system",
-    "P9": "language contains many aspects of people's daily life, which is influenced by culture, environment as well as religious",
-    "P10": "these languages have special significance for people who belong to them and using English to replace them is crudity"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "English as an elegant language should be advocated in many fields to expand the global trade and communications"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the prevalent of English brings a great number of benefits for people"
+    },
+    {
+      "ID": "C2",
+      "Text": "the dominated status of English has destroyed culture diversity and many less-used languages become extinct"
+    },
+    {
+      "ID": "C3",
+      "Text": "we still need preserve other languages for sake of keeping the linguistic and cultural diversity"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "English is a sophisticated language"
+    },
+    {
+      "ID": "P2",
+      "Text": "it promotes the communication and interaction between different countries more conveniently and clearly"
+    },
+    {
+      "ID": "P3",
+      "Text": "In the ancient time, the different languages and geography set barriers for people to exchange their goods and ideas"
+    },
+    {
+      "ID": "P4",
+      "Text": "the innovation of plane and train solved the geographical barriers"
+    },
+    {
+      "ID": "P5",
+      "Text": "If we can popularize the use of English, the language hinder will disappear as well"
+    },
+    {
+      "ID": "P6",
+      "Text": "English is a beautiful language, which is more systematical and extensive than many other languages"
+    },
+    {
+      "ID": "P7",
+      "Text": "Learning English can foster people's sentiment and nourish their literature and art"
+    },
+    {
+      "ID": "P8",
+      "Text": "it does not express every detail of life especially in Asia countries, which have totally different linguistic system"
+    },
+    {
+      "ID": "P9",
+      "Text": "language contains many aspects of people's daily life, which is influenced by culture, environment as well as religious"
+    },
+    {
+      "ID": "P10",
+      "Text": "these languages have special significance for people who belong to them and using English to replace them is crudity"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

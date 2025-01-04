@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "they may be factors decreasing the position of written language",
-    "MC2": "we cannot deny the threat from email and text messaging to the status of written language because their obvious popularity"
-  },
-  "Claims": {
-    "C1": "it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity",
-    "C2": "The popularity of email and text messaging, as a result, leads to the losing of written language's position"
-  },
-  "Premises": {
-    "P1": "Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones",
-    "P2": "Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information",
-    "P3": "People can send or receive electronic letters anywhere and anytime they want",
-    "P4": "thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time",
-    "P5": "They are so convenient that the majority of population prefer to use them instead of some traditional ways",
-    "P6": "email and cell phones have improved the obstacles above",
-    "P7": "People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities",
-    "P8": "language in writing is not in its original form",
-    "P9": "people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts",
-    "P10": "it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments",
-    "P11": "If that tendency continues at a rapid pace, written language may face up to a real problem about its stand"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "they may be factors decreasing the position of written language"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we cannot deny the threat from email and text messaging to the status of written language because their obvious popularity"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity"
+    },
+    {
+      "ID": "C2",
+      "Text": "The popularity of email and text messaging, as a result, leads to the losing of written language's position"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones"
+    },
+    {
+      "ID": "P2",
+      "Text": "Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information"
+    },
+    {
+      "ID": "P3",
+      "Text": "People can send or receive electronic letters anywhere and anytime they want"
+    },
+    {
+      "ID": "P4",
+      "Text": "thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time"
+    },
+    {
+      "ID": "P5",
+      "Text": "They are so convenient that the majority of population prefer to use them instead of some traditional ways"
+    },
+    {
+      "ID": "P6",
+      "Text": "email and cell phones have improved the obstacles above"
+    },
+    {
+      "ID": "P7",
+      "Text": "People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities"
+    },
+    {
+      "ID": "P8",
+      "Text": "language in writing is not in its original form"
+    },
+    {
+      "ID": "P9",
+      "Text": "people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts"
+    },
+    {
+      "ID": "P10",
+      "Text": "it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments"
+    },
+    {
+      "ID": "P11",
+      "Text": "If that tendency continues at a rapid pace, written language may face up to a real problem about its stand"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

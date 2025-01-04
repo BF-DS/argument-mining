@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "the merits of animal experiments still outweigh the demerits",
-    "MC2": "it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals"
-  },
-  "Claims": {
-    "C1": "there is some disadvantages of animals' profits",
-    "C2": "doing this various testing is a hazard of human's future and next generation",
-    "C3": "it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying"
-  },
-  "Premises": {
-    "P1": "animals are friendly and vital for people",
-    "P2": "if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well",
-    "P3": "The animal experiments accelerate the vanishing of some categories of animals",
-    "P4": "animal experiments have negative impact on the natural balance",
-    "P5": "it is necessary to make sure that people can live a long life",
-    "P6": "The new foods or medicines are invented to promote the quantity of human's life",
-    "P7": "even if they are volunteers; they cannot take the place of animals to test the new foods or medicines",
-    "P8": "it also have potentially harm for human's health without any testing"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the merits of animal experiments still outweigh the demerits"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there is some disadvantages of animals' profits"
+    },
+    {
+      "ID": "C2",
+      "Text": "doing this various testing is a hazard of human's future and next generation"
+    },
+    {
+      "ID": "C3",
+      "Text": "it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "animals are friendly and vital for people"
+    },
+    {
+      "ID": "P2",
+      "Text": "if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well"
+    },
+    {
+      "ID": "P3",
+      "Text": "The animal experiments accelerate the vanishing of some categories of animals"
+    },
+    {
+      "ID": "P4",
+      "Text": "animal experiments have negative impact on the natural balance"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is necessary to make sure that people can live a long life"
+    },
+    {
+      "ID": "P6",
+      "Text": "The new foods or medicines are invented to promote the quantity of human's life"
+    },
+    {
+      "ID": "P7",
+      "Text": "even if they are volunteers; they cannot take the place of animals to test the new foods or medicines"
+    },
+    {
+      "ID": "P8",
+      "Text": "it also have potentially harm for human's health without any testing"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

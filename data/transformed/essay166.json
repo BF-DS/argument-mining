@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "I would prefer to live in a city",
-    "MC2": "I would choose to live in a big city"
-  },
-  "Claims": {
-    "C1": "I am eager to get a good job and explore different places",
-    "C2": "a big city can offer me many more vacancies than a small town",
-    "C3": "At the weekends, there is a great number of things to do in the metropolis",
-    "C4": "Cultural life of a metropolis is always an entertaining one",
-    "C5": "cities have better medical facilities than in the countryside",
-    "C6": "while small towns have picturesque nature and pure air",
-    "C7": "big cities offer countless amount of opportunities and entertainment places"
-  },
-  "Premises": {
-    "P1": "Big city life provides many opportunities",
-    "P2": "it will be easier for me to find an engineering job in the city",
-    "P3": "Electrical engineering deals with problems concerning electricity supply",
-    "P4": "There are numerous bars, cafes and restaurants where I can go with my friends",
-    "P5": "Multinational cities have restaurants with different national cuisines",
-    "P6": "I am fond of Italian food, and if there is an Italian restaurant in the city, I will definitely visit it",
-    "P7": "A night club is an interesting place to visit for young people",
-    "P8": "There a person can listen to music, make new friends or enjoy a a drink alone",
-    "P9": "I am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings, sculptures or artifacts",
-    "P10": "On special dates, city offers free exhibitions which are available for everyone who is interested in art",
-    "P11": "This can at least assure me that if I feel bad, city can provide a high quality help"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I would prefer to live in a city"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I would choose to live in a big city"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "I am eager to get a good job and explore different places"
+    },
+    {
+      "ID": "C2",
+      "Text": "a big city can offer me many more vacancies than a small town"
+    },
+    {
+      "ID": "C3",
+      "Text": "At the weekends, there is a great number of things to do in the metropolis"
+    },
+    {
+      "ID": "C4",
+      "Text": "Cultural life of a metropolis is always an entertaining one"
+    },
+    {
+      "ID": "C5",
+      "Text": "cities have better medical facilities than in the countryside"
+    },
+    {
+      "ID": "C6",
+      "Text": "while small towns have picturesque nature and pure air"
+    },
+    {
+      "ID": "C7",
+      "Text": "big cities offer countless amount of opportunities and entertainment places"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Big city life provides many opportunities"
+    },
+    {
+      "ID": "P2",
+      "Text": "it will be easier for me to find an engineering job in the city"
+    },
+    {
+      "ID": "P3",
+      "Text": "Electrical engineering deals with problems concerning electricity supply"
+    },
+    {
+      "ID": "P4",
+      "Text": "There are numerous bars, cafes and restaurants where I can go with my friends"
+    },
+    {
+      "ID": "P5",
+      "Text": "Multinational cities have restaurants with different national cuisines"
+    },
+    {
+      "ID": "P6",
+      "Text": "I am fond of Italian food, and if there is an Italian restaurant in the city, I will definitely visit it"
+    },
+    {
+      "ID": "P7",
+      "Text": "A night club is an interesting place to visit for young people"
+    },
+    {
+      "ID": "P8",
+      "Text": "There a person can listen to music, make new friends or enjoy a a drink alone"
+    },
+    {
+      "ID": "P9",
+      "Text": "I am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings, sculptures or artifacts"
+    },
+    {
+      "ID": "P10",
+      "Text": "On special dates, city offers free exhibitions which are available for everyone who is interested in art"
+    },
+    {
+      "ID": "P11",
+      "Text": "This can at least assure me that if I feel bad, city can provide a high quality help"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

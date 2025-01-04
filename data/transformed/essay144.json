@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "it should be better to leave this type of type of training for a certain group of good, knowledgeable learners",
-    "MC2": "everyone should have a compulsory education level up to high school, but the above divisions should be only the realm of the best students"
-  },
-  "Claims": {
-    "C1": "This will improve the quality of both universities and students, thus placing people in positions which suit them most",
-    "C2": "focusing only on talented students is a better option",
-    "C3": "university should only accept good students"
-  },
-  "Premises": {
-    "P1": "it helps academic institutions maintain their high education quality",
-    "P2": "Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge",
-    "P3": "some students may be capable in high schools, but the pressure of higher education is tough even for talented ones",
-    "P4": "That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions",
-    "P5": "they need to somehow lower the materials so that it is practical for everyone",
-    "P6": "it gives better human resources for sophisticated purposes",
-    "P7": "this may lead to 'social division', when someone with high education refuses to do the called 'low jobs'",
-    "P8": "it gives no harm to the whole community",
-    "P9": "Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions",
-    "P10": "limiting the number of people who can be admitted by universities is a good choice",
-    "P11": "it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves",
-    "P12": "this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it should be better to leave this type of type of training for a certain group of good, knowledgeable learners"
+    },
+    {
+      "ID": "MC2",
+      "Text": "everyone should have a compulsory education level up to high school, but the above divisions should be only the realm of the best students"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "This will improve the quality of both universities and students, thus placing people in positions which suit them most"
+    },
+    {
+      "ID": "C2",
+      "Text": "focusing only on talented students is a better option"
+    },
+    {
+      "ID": "C3",
+      "Text": "university should only accept good students"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it helps academic institutions maintain their high education quality"
+    },
+    {
+      "ID": "P2",
+      "Text": "Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge"
+    },
+    {
+      "ID": "P3",
+      "Text": "some students may be capable in high schools, but the pressure of higher education is tough even for talented ones"
+    },
+    {
+      "ID": "P4",
+      "Text": "That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions"
+    },
+    {
+      "ID": "P5",
+      "Text": "they need to somehow lower the materials so that it is practical for everyone"
+    },
+    {
+      "ID": "P6",
+      "Text": "it gives better human resources for sophisticated purposes"
+    },
+    {
+      "ID": "P7",
+      "Text": "this may lead to 'social division', when someone with high education refuses to do the called 'low jobs'"
+    },
+    {
+      "ID": "P8",
+      "Text": "it gives no harm to the whole community"
+    },
+    {
+      "ID": "P9",
+      "Text": "Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions"
+    },
+    {
+      "ID": "P10",
+      "Text": "limiting the number of people who can be admitted by universities is a good choice"
+    },
+    {
+      "ID": "P11",
+      "Text": "it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves"
+    },
+    {
+      "ID": "P12",
+      "Text": "this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

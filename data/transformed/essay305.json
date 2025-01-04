@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "going to classes should be optional for the students",
-    "MC2": "if the students choose the classes as optional, it would provide more benefits than drawbacks"
-  },
-  "Claims": {
-    "C1": "it is university level of education, students have enough maturity to choose their choice",
-    "C2": "they have enough ability to read and understand the text book",
-    "C3": "with the modern technology, students can collect more information from different sources",
-    "C4": "some lecturers deliver lectures very informative and interesting way",
-    "C5": "going to classes are sometimes waste of the time",
-    "C6": "rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth",
-    "C7": "they have to schedule the lectures time, studying time and working time",
-    "C8": "few brilliant lecturers deliver more informative lectures",
-    "C9": "When the students go to university, they have matured mentally and physically",
-    "C10": "They have enough knowledge to choose what they need to do"
-  },
-  "Premises": {
-    "P1": "some lecturers in our university read the same text in the reference books for that particular course module",
-    "P2": "they didn't explain the contents in order to understand by the students",
-    "P3": "the university students have grown up",
-    "P4": "from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently",
-    "P5": "When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time",
-    "P6": "It was waste of the time",
-    "P7": "most of the university students are working students in order to manage the expenses during the education time",
-    "P8": "Students need to work as part time basis",
-    "P9": "they can meet other university students and build up the relationships with them",
-    "P10": "mostly university has taken whole day for the lectures",
-    "P11": "some are boring the students in the class and wasting the students' time"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "going to classes should be optional for the students"
+    },
+    {
+      "ID": "MC2",
+      "Text": "if the students choose the classes as optional, it would provide more benefits than drawbacks"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is university level of education, students have enough maturity to choose their choice"
+    },
+    {
+      "ID": "C2",
+      "Text": "they have enough ability to read and understand the text book"
+    },
+    {
+      "ID": "C3",
+      "Text": "with the modern technology, students can collect more information from different sources"
+    },
+    {
+      "ID": "C4",
+      "Text": "some lecturers deliver lectures very informative and interesting way"
+    },
+    {
+      "ID": "C5",
+      "Text": "going to classes are sometimes waste of the time"
+    },
+    {
+      "ID": "C6",
+      "Text": "rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth"
+    },
+    {
+      "ID": "C7",
+      "Text": "they have to schedule the lectures time, studying time and working time"
+    },
+    {
+      "ID": "C8",
+      "Text": "few brilliant lecturers deliver more informative lectures"
+    },
+    {
+      "ID": "C9",
+      "Text": "When the students go to university, they have matured mentally and physically"
+    },
+    {
+      "ID": "C10",
+      "Text": "They have enough knowledge to choose what they need to do"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "some lecturers in our university read the same text in the reference books for that particular course module"
+    },
+    {
+      "ID": "P2",
+      "Text": "they didn't explain the contents in order to understand by the students"
+    },
+    {
+      "ID": "P3",
+      "Text": "the university students have grown up"
+    },
+    {
+      "ID": "P4",
+      "Text": "from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently"
+    },
+    {
+      "ID": "P5",
+      "Text": "When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time"
+    },
+    {
+      "ID": "P6",
+      "Text": "It was waste of the time"
+    },
+    {
+      "ID": "P7",
+      "Text": "most of the university students are working students in order to manage the expenses during the education time"
+    },
+    {
+      "ID": "P8",
+      "Text": "Students need to work as part time basis"
+    },
+    {
+      "ID": "P9",
+      "Text": "they can meet other university students and build up the relationships with them"
+    },
+    {
+      "ID": "P10",
+      "Text": "mostly university has taken whole day for the lectures"
+    },
+    {
+      "ID": "P11",
+      "Text": "some are boring the students in the class and wasting the students' time"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

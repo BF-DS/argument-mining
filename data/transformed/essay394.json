@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "children are those who need to be under instruction of handwriting",
-    "MC2": "handwriting is still a needed skill for all of people, especially students at the early age"
-  },
-  "Claims": {
-    "C1": "handwriting still plays a vital role in students' learning",
-    "C2": "poor handwriting can have a negative impact on students' school performance"
-  },
-  "Premises": {
-    "P1": "this approach is a basis tool used in several fields such as taking notes, doing homework and writing",
-    "P2": "It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well",
-    "P3": "Under the guidance of parents or teachers, children can benefit from practicing handwriting",
-    "P4": "This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities",
-    "P5": "kids who are bad at handwriting meet difficulties in taking notes and catching up lessons",
-    "P6": "It resulted in the missing of information and the lack of details during their works",
-    "P7": "the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills",
-    "P8": "with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "children are those who need to be under instruction of handwriting"
+    },
+    {
+      "ID": "MC2",
+      "Text": "handwriting is still a needed skill for all of people, especially students at the early age"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "handwriting still plays a vital role in students' learning"
+    },
+    {
+      "ID": "C2",
+      "Text": "poor handwriting can have a negative impact on students' school performance"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "this approach is a basis tool used in several fields such as taking notes, doing homework and writing"
+    },
+    {
+      "ID": "P2",
+      "Text": "It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well"
+    },
+    {
+      "ID": "P3",
+      "Text": "Under the guidance of parents or teachers, children can benefit from practicing handwriting"
+    },
+    {
+      "ID": "P4",
+      "Text": "This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities"
+    },
+    {
+      "ID": "P5",
+      "Text": "kids who are bad at handwriting meet difficulties in taking notes and catching up lessons"
+    },
+    {
+      "ID": "P6",
+      "Text": "It resulted in the missing of information and the lack of details during their works"
+    },
+    {
+      "ID": "P7",
+      "Text": "the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills"
+    },
+    {
+      "ID": "P8",
+      "Text": "with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P2",

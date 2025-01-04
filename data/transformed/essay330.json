@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "people should sometimes do things that they do not enjoy",
-    "MC2": "there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities which is the part of individual's live"
-  },
-  "Claims": {
-    "C1": "In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities",
-    "C2": "professional lives are filled with tasks that is neccessary parts of the jobs",
-    "C3": "doing something which an individual doesn't enjoy can led to enjoyment"
-  },
-  "Premises": {
-    "P1": "housework is very difficult for me, although my husband helps me some of them, but it is my responsibility",
-    "P2": "I really don't like any of them, however I should do",
-    "P3": "most people's lives are filled with tasks that they don't enjoy doing",
-    "P4": "I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field",
-    "P5": "Nobody likes attending boring conferences, or working a person who isn't well in with anyone",
-    "P6": "People sometimes can attend any activities by insisting on any of their friends although they don't really want",
-    "P7": "one of our friends tell my husband and me about a dance course which we both don't like",
-    "P8": "After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "people should sometimes do things that they do not enjoy"
+    },
+    {
+      "ID": "MC2",
+      "Text": "there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities which is the part of individual's live"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities"
+    },
+    {
+      "ID": "C2",
+      "Text": "professional lives are filled with tasks that is neccessary parts of the jobs"
+    },
+    {
+      "ID": "C3",
+      "Text": "doing something which an individual doesn't enjoy can led to enjoyment"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "housework is very difficult for me, although my husband helps me some of them, but it is my responsibility"
+    },
+    {
+      "ID": "P2",
+      "Text": "I really don't like any of them, however I should do"
+    },
+    {
+      "ID": "P3",
+      "Text": "most people's lives are filled with tasks that they don't enjoy doing"
+    },
+    {
+      "ID": "P4",
+      "Text": "I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field"
+    },
+    {
+      "ID": "P5",
+      "Text": "Nobody likes attending boring conferences, or working a person who isn't well in with anyone"
+    },
+    {
+      "ID": "P6",
+      "Text": "People sometimes can attend any activities by insisting on any of their friends although they don't really want"
+    },
+    {
+      "ID": "P7",
+      "Text": "one of our friends tell my husband and me about a dance course which we both don't like"
+    },
+    {
+      "ID": "P8",
+      "Text": "After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "friendship is more important than mistake by a friend",
-    "MC2": "a mistake can not brake friendship if it is not a big"
-  },
-  "Claims": {
-    "C1": "mistake is terrible",
-    "C2": "mistake is more forgettable than friendship",
-    "C3": "Everybody makes mistake",
-    "C4": "friendship is forever and gift our life"
-  },
-  "Premises": {
-    "P1": "a mistake does not last for a long time but a friendship lasts forever",
-    "P2": "Anybody does not remember mistakes",
-    "P3": "If someone remembers mistake, he or she has a closed mind",
-    "P4": "mistakes will be forgotten quickly",
-    "P5": "my friend Lee made a mistake that he broke my precious gift",
-    "P6": "I forgot about it just after two days, and I felt at peace with him",
-    "P7": "a friend is a gift of our life",
-    "P8": "when the mistake friend made was not a big problem, we need to understand friend and forgive it",
-    "P9": "According to a research, 85% of people answered that a best gift is a friend",
-    "P10": "if a friend makes very a big mistake, we will need to end a friendship",
-    "P11": "if you end a friendship whenever your friend makes a mistake, there will be no friends around you"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "friendship is more important than mistake by a friend"
+    },
+    {
+      "ID": "MC2",
+      "Text": "a mistake can not brake friendship if it is not a big"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "mistake is terrible"
+    },
+    {
+      "ID": "C2",
+      "Text": "mistake is more forgettable than friendship"
+    },
+    {
+      "ID": "C3",
+      "Text": "Everybody makes mistake"
+    },
+    {
+      "ID": "C4",
+      "Text": "friendship is forever and gift our life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "a mistake does not last for a long time but a friendship lasts forever"
+    },
+    {
+      "ID": "P2",
+      "Text": "Anybody does not remember mistakes"
+    },
+    {
+      "ID": "P3",
+      "Text": "If someone remembers mistake, he or she has a closed mind"
+    },
+    {
+      "ID": "P4",
+      "Text": "mistakes will be forgotten quickly"
+    },
+    {
+      "ID": "P5",
+      "Text": "my friend Lee made a mistake that he broke my precious gift"
+    },
+    {
+      "ID": "P6",
+      "Text": "I forgot about it just after two days, and I felt at peace with him"
+    },
+    {
+      "ID": "P7",
+      "Text": "a friend is a gift of our life"
+    },
+    {
+      "ID": "P8",
+      "Text": "when the mistake friend made was not a big problem, we need to understand friend and forgive it"
+    },
+    {
+      "ID": "P9",
+      "Text": "According to a research, 85% of people answered that a best gift is a friend"
+    },
+    {
+      "ID": "P10",
+      "Text": "if a friend makes very a big mistake, we will need to end a friendship"
+    },
+    {
+      "ID": "P11",
+      "Text": "if you end a friendship whenever your friend makes a mistake, there will be no friends around you"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

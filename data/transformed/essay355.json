@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "it is important for children to be taught with a secondary language as early as kindergarten",
-    "MC2": "if this endeavour is properly implemented by schools, this will most likely lead to improvement of learning ability among children"
-  },
-  "Claims": {
-    "C1": "children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years",
-    "C2": "the advantages of early introduction of foreign language outweigh its disadvantages"
-  },
-  "Premises": {
-    "P1": "teachers think that foreign language most likely leads to confusion for children who are yet to start learning",
-    "P2": "the teacher should be well-trained in the use of this specific language, so quality education will be delivered",
-    "P3": "Learning at school must be convenient for them if they speak in a way that they are used to",
-    "P4": "kids are amazing learners, and the best time to hone them is in their younger years",
-    "P5": "The introduction of foreign language will be new to them",
-    "P6": "their curiosity will drive them to learn and comprehend",
-    "P7": "grasping a new language will be natural to them",
-    "P8": "the positive impact of this strategy is beneficial to both learners and teachers",
-    "P9": "Teachers will not find it difficult to make students learn such new concept in their teenage years"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is important for children to be taught with a secondary language as early as kindergarten"
+    },
+    {
+      "ID": "MC2",
+      "Text": "if this endeavour is properly implemented by schools, this will most likely lead to improvement of learning ability among children"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years"
+    },
+    {
+      "ID": "C2",
+      "Text": "the advantages of early introduction of foreign language outweigh its disadvantages"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "teachers think that foreign language most likely leads to confusion for children who are yet to start learning"
+    },
+    {
+      "ID": "P2",
+      "Text": "the teacher should be well-trained in the use of this specific language, so quality education will be delivered"
+    },
+    {
+      "ID": "P3",
+      "Text": "Learning at school must be convenient for them if they speak in a way that they are used to"
+    },
+    {
+      "ID": "P4",
+      "Text": "kids are amazing learners, and the best time to hone them is in their younger years"
+    },
+    {
+      "ID": "P5",
+      "Text": "The introduction of foreign language will be new to them"
+    },
+    {
+      "ID": "P6",
+      "Text": "their curiosity will drive them to learn and comprehend"
+    },
+    {
+      "ID": "P7",
+      "Text": "grasping a new language will be natural to them"
+    },
+    {
+      "ID": "P8",
+      "Text": "the positive impact of this strategy is beneficial to both learners and teachers"
+    },
+    {
+      "ID": "P9",
+      "Text": "Teachers will not find it difficult to make students learn such new concept in their teenage years"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C2",

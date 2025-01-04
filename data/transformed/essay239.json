@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "people should be polite to others in a such busy and crowded world"
-  },
-  "Claims": {
-    "C1": "a person with good manner will give others a fine personal impression",
-    "C2": "people will get respect from politeness within each other",
-    "C3": "the society needs a civilized environment and orders"
-  },
-  "Premises": {
-    "P1": "Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible",
-    "P2": "I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers",
-    "P3": "In opposite situation if I am being rude, I can not get along well with each other",
-    "P4": "I will be fired and have no other choice but lost my job",
-    "P5": "Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need",
-    "P6": "A successful corporation must have a relationship with respect and pleasure",
-    "P7": "There are many more facts have improved that people with politeness are easily to be succeed",
-    "P8": "from their behaviors, they made their partners or opponents to find their own individual dignity",
-    "P9": "a degree of social civilization depend on its people's qualities",
-    "P10": "In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners",
-    "P11": "Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "people should be polite to others in a such busy and crowded world"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "a person with good manner will give others a fine personal impression"
+    },
+    {
+      "ID": "C2",
+      "Text": "people will get respect from politeness within each other"
+    },
+    {
+      "ID": "C3",
+      "Text": "the society needs a civilized environment and orders"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible"
+    },
+    {
+      "ID": "P2",
+      "Text": "I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers"
+    },
+    {
+      "ID": "P3",
+      "Text": "In opposite situation if I am being rude, I can not get along well with each other"
+    },
+    {
+      "ID": "P4",
+      "Text": "I will be fired and have no other choice but lost my job"
+    },
+    {
+      "ID": "P5",
+      "Text": "Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need"
+    },
+    {
+      "ID": "P6",
+      "Text": "A successful corporation must have a relationship with respect and pleasure"
+    },
+    {
+      "ID": "P7",
+      "Text": "There are many more facts have improved that people with politeness are easily to be succeed"
+    },
+    {
+      "ID": "P8",
+      "Text": "from their behaviors, they made their partners or opponents to find their own individual dignity"
+    },
+    {
+      "ID": "P9",
+      "Text": "a degree of social civilization depend on its people's qualities"
+    },
+    {
+      "ID": "P10",
+      "Text": "In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners"
+    },
+    {
+      "ID": "P11",
+      "Text": "Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

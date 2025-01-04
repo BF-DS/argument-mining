@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "students should always attend class no matter what the outcome of the exam is",
-    "MC2": "students can learn more thoroughly as well as showing respect for professors and themselves through attending classes"
-  },
-  "Claims": {
-    "C1": "in terms of learning, attending class is more effective than simply studying alone to pass the exams",
-    "C2": "It's an essential learning process",
-    "C3": "class attendances are regarded as critical as examination performances",
-    "C4": "if students already understand the contents on the class enough to pass the exams or they can study the course on their own"
-  },
-  "Premises": {
-    "P1": "Classes are designed diligently for the students and professors absolutely bear more knowledge than the students",
-    "P2": "Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements",
-    "P3": "Those who even achieve high scores on exams could fail if they didn't show up in the classes",
-    "P4": "Many professors grade their students with class attendances",
-    "P5": "Attending class is the most persuasive way for the students to show respect to the professor as well as themselves",
-    "P6": "it's students' basic responsibility to attend class",
-    "P7": "this is a rather immodest way of thinking",
-    "P8": "professors can always give students more than students themselves could because of the experiences and their qualifications as professors",
-    "P9": "even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "students should always attend class no matter what the outcome of the exam is"
+    },
+    {
+      "ID": "MC2",
+      "Text": "students can learn more thoroughly as well as showing respect for professors and themselves through attending classes"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "in terms of learning, attending class is more effective than simply studying alone to pass the exams"
+    },
+    {
+      "ID": "C2",
+      "Text": "It's an essential learning process"
+    },
+    {
+      "ID": "C3",
+      "Text": "class attendances are regarded as critical as examination performances"
+    },
+    {
+      "ID": "C4",
+      "Text": "if students already understand the contents on the class enough to pass the exams or they can study the course on their own"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Classes are designed diligently for the students and professors absolutely bear more knowledge than the students"
+    },
+    {
+      "ID": "P2",
+      "Text": "Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements"
+    },
+    {
+      "ID": "P3",
+      "Text": "Those who even achieve high scores on exams could fail if they didn't show up in the classes"
+    },
+    {
+      "ID": "P4",
+      "Text": "Many professors grade their students with class attendances"
+    },
+    {
+      "ID": "P5",
+      "Text": "Attending class is the most persuasive way for the students to show respect to the professor as well as themselves"
+    },
+    {
+      "ID": "P6",
+      "Text": "it's students' basic responsibility to attend class"
+    },
+    {
+      "ID": "P7",
+      "Text": "this is a rather immodest way of thinking"
+    },
+    {
+      "ID": "P8",
+      "Text": "professors can always give students more than students themselves could because of the experiences and their qualifications as professors"
+    },
+    {
+      "ID": "P9",
+      "Text": "even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

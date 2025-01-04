@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "standardized tests are valuable option for educational system as long as it would help teachers to know if the students are really getting knowledge",
-    "MC2": "schools which obligate their students to take standardized tests are right"
-  },
-  "Claims": {
-    "C1": "these schools can qualitatively check if they are giving an appropriate education to their students",
-    "C2": "standardized tests are preferable",
-    "C3": "schools should require students to take standardized tests, as long as this option helps to both sides",
-    "C4": "requirement to take standardized tests is the right choice"
-  },
-  "Premises": {
-    "P1": "exams could be the only way for teachers to see the real abilities of those students",
-    "P2": "some students are not so active on the lessons, cause they are already familiar with the issue",
-    "P3": "many teachers rely only on the exam results while grading the class",
-    "P4": "the usage of standardized tests is the superior option for them",
-    "P5": "some students may get used to simply rewriting solved problems from the blackboard",
-    "P6": "they will never try to solve problems on their own",
-    "P7": "standardized tests offer them such chance",
-    "P8": "standardized tests can be good chance for students to apply their knowledge on practice",
-    "P9": "in this case teachers can compare the level of knowledge of different students",
-    "P10": "In any class there will be students who will show low academic performance, so teachers could work with them more intensively",
-    "P11": "standardized tests are required over those who don\u2019t",
-    "P12": "if the teacher would know the level of each student he would fairly share his time to all of them",
-    "P13": "they help teachers to fairly grade the students"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "standardized tests are valuable option for educational system as long as it would help teachers to know if the students are really getting knowledge"
+    },
+    {
+      "ID": "MC2",
+      "Text": "schools which obligate their students to take standardized tests are right"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "these schools can qualitatively check if they are giving an appropriate education to their students"
+    },
+    {
+      "ID": "C2",
+      "Text": "standardized tests are preferable"
+    },
+    {
+      "ID": "C3",
+      "Text": "schools should require students to take standardized tests, as long as this option helps to both sides"
+    },
+    {
+      "ID": "C4",
+      "Text": "requirement to take standardized tests is the right choice"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "exams could be the only way for teachers to see the real abilities of those students"
+    },
+    {
+      "ID": "P2",
+      "Text": "some students are not so active on the lessons, cause they are already familiar with the issue"
+    },
+    {
+      "ID": "P3",
+      "Text": "many teachers rely only on the exam results while grading the class"
+    },
+    {
+      "ID": "P4",
+      "Text": "the usage of standardized tests is the superior option for them"
+    },
+    {
+      "ID": "P5",
+      "Text": "some students may get used to simply rewriting solved problems from the blackboard"
+    },
+    {
+      "ID": "P6",
+      "Text": "they will never try to solve problems on their own"
+    },
+    {
+      "ID": "P7",
+      "Text": "standardized tests offer them such chance"
+    },
+    {
+      "ID": "P8",
+      "Text": "standardized tests can be good chance for students to apply their knowledge on practice"
+    },
+    {
+      "ID": "P9",
+      "Text": "in this case teachers can compare the level of knowledge of different students"
+    },
+    {
+      "ID": "P10",
+      "Text": "In any class there will be students who will show low academic performance, so teachers could work with them more intensively"
+    },
+    {
+      "ID": "P11",
+      "Text": "standardized tests are required over those who don\u2019t"
+    },
+    {
+      "ID": "P12",
+      "Text": "if the teacher would know the level of each student he would fairly share his time to all of them"
+    },
+    {
+      "ID": "P13",
+      "Text": "they help teachers to fairly grade the students"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways",
-    "MC2": "listening to music, exercising, and doing meditation are the most activities that people could do to escape from stress"
-  },
-  "Claims": {
-    "C1": "listening to music is a great way to relax",
-    "C2": "another way that is perfectly work for everyone to reduce the stress is exercise",
-    "C3": "meditation also one of the ways to reduce the stress",
-    "C4": "It is are easy and usable",
-    "C5": "And everyone should find the time to do more and more to feel better physically and in everyone mind"
-  },
-  "Premises": {
-    "P1": "I always listen music from my mp3 player",
-    "P2": "I could enjoy listening music without thinking of people around me",
-    "P3": "I feel happy when I listen music",
-    "P4": "after work, I always do exercise, and jogging is my favorite sport",
-    "P5": "I feel that after working out, I am easily to fall asleep",
-    "P6": "Exercising not only reduce my stress but also make me get a good health",
-    "P7": "Meditation is easy way to relax",
-    "P8": "it is not require any equipment, and it take few minutes",
-    "P9": "A way to do meditation is that I just sit down, close my eyes, and count my breath",
-    "P10": "These could relieve me from stress"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways"
+    },
+    {
+      "ID": "MC2",
+      "Text": "listening to music, exercising, and doing meditation are the most activities that people could do to escape from stress"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "listening to music is a great way to relax"
+    },
+    {
+      "ID": "C2",
+      "Text": "another way that is perfectly work for everyone to reduce the stress is exercise"
+    },
+    {
+      "ID": "C3",
+      "Text": "meditation also one of the ways to reduce the stress"
+    },
+    {
+      "ID": "C4",
+      "Text": "It is are easy and usable"
+    },
+    {
+      "ID": "C5",
+      "Text": "And everyone should find the time to do more and more to feel better physically and in everyone mind"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "I always listen music from my mp3 player"
+    },
+    {
+      "ID": "P2",
+      "Text": "I could enjoy listening music without thinking of people around me"
+    },
+    {
+      "ID": "P3",
+      "Text": "I feel happy when I listen music"
+    },
+    {
+      "ID": "P4",
+      "Text": "after work, I always do exercise, and jogging is my favorite sport"
+    },
+    {
+      "ID": "P5",
+      "Text": "I feel that after working out, I am easily to fall asleep"
+    },
+    {
+      "ID": "P6",
+      "Text": "Exercising not only reduce my stress but also make me get a good health"
+    },
+    {
+      "ID": "P7",
+      "Text": "Meditation is easy way to relax"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is not require any equipment, and it take few minutes"
+    },
+    {
+      "ID": "P9",
+      "Text": "A way to do meditation is that I just sit down, close my eyes, and count my breath"
+    },
+    {
+      "ID": "P10",
+      "Text": "These could relieve me from stress"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P2",

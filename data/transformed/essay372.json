@@ -1,19 +1,46 @@
 {
-  "MajorClaims": {
-    "MC1": "what can be expected, is a change of the role of the tradition but not its disappearance from the society",
-    "MC2": "there should never be any replacement for traditional skills or ways of life"
-  },
-  "Claims": {
-    "C1": "They are the ones that teach, and will teach us to be self-esteem and experienced, which means their preservation throughout history deserve our attention",
-    "C2": "the country's culture is passed down mainly through traditional skills and ways of life",
-    "C3": "a person should look back at the past, mainly by means of custom handcraft or antique lifestyle, to progress"
-  },
-  "Premises": {
-    "P1": "in Vietnam, many water puppet shows which once demonstrated our seasonal agriculture and communal activities, are today substituted by cinemas and music concerts",
-    "P2": "the young generation can solely get access to their ancestor's early life through books and images, which otherwise would be much more easily absorbed",
-    "P3": "Understanding why, and how our predecessors survived through thick and thin will probably be invaluable lessons for us today",
-    "P4": "study form their mistakes helps us accomplish our goal with smooth sailing"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "what can be expected, is a change of the role of the tradition but not its disappearance from the society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "there should never be any replacement for traditional skills or ways of life"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "They are the ones that teach, and will teach us to be self-esteem and experienced, which means their preservation throughout history deserve our attention"
+    },
+    {
+      "ID": "C2",
+      "Text": "the country's culture is passed down mainly through traditional skills and ways of life"
+    },
+    {
+      "ID": "C3",
+      "Text": "a person should look back at the past, mainly by means of custom handcraft or antique lifestyle, to progress"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "in Vietnam, many water puppet shows which once demonstrated our seasonal agriculture and communal activities, are today substituted by cinemas and music concerts"
+    },
+    {
+      "ID": "P2",
+      "Text": "the young generation can solely get access to their ancestor's early life through books and images, which otherwise would be much more easily absorbed"
+    },
+    {
+      "ID": "P3",
+      "Text": "Understanding why, and how our predecessors survived through thick and thin will probably be invaluable lessons for us today"
+    },
+    {
+      "ID": "P4",
+      "Text": "study form their mistakes helps us accomplish our goal with smooth sailing"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

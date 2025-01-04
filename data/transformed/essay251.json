@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "people who can't accept others' criticism can't succeed in group working",
-    "MC2": "criticism is essential especially in group working but in other occasions we still need criticism"
-  },
-  "Claims": {
-    "C1": "the core of group working is \"consensus\"",
-    "C2": "Even if you are not working in a group, you still need to take others' criticism",
-    "C3": "even if you are right, criticism is still helpful"
-  },
-  "Premises": {
-    "P1": "the work belongs to every member, not a personal show for specific one member",
-    "P2": "It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism",
-    "P3": "It's every member's duty to respect other's opinion",
-    "P4": "It's the idea that everyone\u2019s opinion accounts",
-    "P5": "In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement",
-    "P6": "Criticism definitely hurts",
-    "P7": "it points out your drawbacks and forces you to confront them",
-    "P8": "criticism can help you detect those drawbacks and fix them if you are willing to take it",
-    "P9": "taking criticism is a virtue as you take someone's opinion that is against you",
-    "P10": "Those who don't even take a word of criticism will eventually lose chances to get improved",
-    "P11": "if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works",
-    "P12": "As one Chinese idiom goes: \"The good medicine tastes bitter\u201c",
-    "P13": "Criticism might be the most powerful solution to heal",
-    "P14": "in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work",
-    "P15": "Taking criticism doesn't necessary mean that you have to take it all",
-    "P16": "You should have your own judgments too",
-    "P17": "And it's kind of art to make the best use of criticism"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "people who can't accept others' criticism can't succeed in group working"
+    },
+    {
+      "ID": "MC2",
+      "Text": "criticism is essential especially in group working but in other occasions we still need criticism"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the core of group working is \"consensus\""
+    },
+    {
+      "ID": "C2",
+      "Text": "Even if you are not working in a group, you still need to take others' criticism"
+    },
+    {
+      "ID": "C3",
+      "Text": "even if you are right, criticism is still helpful"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the work belongs to every member, not a personal show for specific one member"
+    },
+    {
+      "ID": "P2",
+      "Text": "It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism"
+    },
+    {
+      "ID": "P3",
+      "Text": "It's every member's duty to respect other's opinion"
+    },
+    {
+      "ID": "P4",
+      "Text": "It's the idea that everyone\u2019s opinion accounts"
+    },
+    {
+      "ID": "P5",
+      "Text": "In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement"
+    },
+    {
+      "ID": "P6",
+      "Text": "Criticism definitely hurts"
+    },
+    {
+      "ID": "P7",
+      "Text": "it points out your drawbacks and forces you to confront them"
+    },
+    {
+      "ID": "P8",
+      "Text": "criticism can help you detect those drawbacks and fix them if you are willing to take it"
+    },
+    {
+      "ID": "P9",
+      "Text": "taking criticism is a virtue as you take someone's opinion that is against you"
+    },
+    {
+      "ID": "P10",
+      "Text": "Those who don't even take a word of criticism will eventually lose chances to get improved"
+    },
+    {
+      "ID": "P11",
+      "Text": "if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works"
+    },
+    {
+      "ID": "P12",
+      "Text": "As one Chinese idiom goes: \"The good medicine tastes bitter\u201c"
+    },
+    {
+      "ID": "P13",
+      "Text": "Criticism might be the most powerful solution to heal"
+    },
+    {
+      "ID": "P14",
+      "Text": "in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work"
+    },
+    {
+      "ID": "P15",
+      "Text": "Taking criticism doesn't necessary mean that you have to take it all"
+    },
+    {
+      "ID": "P16",
+      "Text": "You should have your own judgments too"
+    },
+    {
+      "ID": "P17",
+      "Text": "And it's kind of art to make the best use of criticism"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P1",

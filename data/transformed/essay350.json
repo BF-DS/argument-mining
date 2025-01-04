@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "newspapers and magazines will be history with the time",
-    "MC2": "the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider"
-  },
-  "Claims": {
-    "C1": "internet presents the information about the current affair so fast and the accessibility to the historical news",
-    "C2": "digital media will rule over paper and magazines",
-    "C3": "People often want to access news from past for various reasons like to prepare for research, satisfy interest, etc",
-    "C4": "considering the current infrastructure and mindset of people, paper media will continue for another few years"
-  },
-  "Premises": {
-    "P1": "when the aircraft MH 370 went missing, everyone wanted to know the details about this tragic incident",
-    "P2": "The friends and families of passengers and crews were impatient to know the truth",
-    "P3": "In such situations, newspapers and magazines can not respond as fast as digital media",
-    "P4": "Instead of waiting for next publication, people can get trustworthy information about the current incidents from internet within an hour or two",
-    "P5": "A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis",
-    "P6": "This helps readers to get updated and act accordingly",
-    "P7": "one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War",
-    "P8": "It is very difficult to get this sort of information from past in newspapers and magazines as one has to know before where to look at",
-    "P9": "internet provides efficient search facility where one can search the topic and get the details",
-    "P10": "This feature of digital media is not supported by newspapers and magazines"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "newspapers and magazines will be history with the time"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "internet presents the information about the current affair so fast and the accessibility to the historical news"
+    },
+    {
+      "ID": "C2",
+      "Text": "digital media will rule over paper and magazines"
+    },
+    {
+      "ID": "C3",
+      "Text": "People often want to access news from past for various reasons like to prepare for research, satisfy interest, etc"
+    },
+    {
+      "ID": "C4",
+      "Text": "considering the current infrastructure and mindset of people, paper media will continue for another few years"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "when the aircraft MH 370 went missing, everyone wanted to know the details about this tragic incident"
+    },
+    {
+      "ID": "P2",
+      "Text": "The friends and families of passengers and crews were impatient to know the truth"
+    },
+    {
+      "ID": "P3",
+      "Text": "In such situations, newspapers and magazines can not respond as fast as digital media"
+    },
+    {
+      "ID": "P4",
+      "Text": "Instead of waiting for next publication, people can get trustworthy information about the current incidents from internet within an hour or two"
+    },
+    {
+      "ID": "P5",
+      "Text": "A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis"
+    },
+    {
+      "ID": "P6",
+      "Text": "This helps readers to get updated and act accordingly"
+    },
+    {
+      "ID": "P7",
+      "Text": "one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War"
+    },
+    {
+      "ID": "P8",
+      "Text": "It is very difficult to get this sort of information from past in newspapers and magazines as one has to know before where to look at"
+    },
+    {
+      "ID": "P9",
+      "Text": "internet provides efficient search facility where one can search the topic and get the details"
+    },
+    {
+      "ID": "P10",
+      "Text": "This feature of digital media is not supported by newspapers and magazines"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

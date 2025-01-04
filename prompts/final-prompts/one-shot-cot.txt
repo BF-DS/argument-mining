@@ -18,23 +18,24 @@ You will be given a text. Extract the argumentative units major claim, claim, an
 
 ```json
 {
-    "MajorClaims": {
-        "MC1": "Text",
-        "MC2": "Text"
-    },
-    "Claims": {
-        "C1": "Text",
-        "C2": "Text"
-    },
-    "Premises": {
-        "P1": "Text",
-        "P2": "Text"
-    },
+    "MajorClaims": [
+        {"ID": "MC1", "Text": "Text"},
+        {"ID": "MC2", "Text": "Text"},
+    ],
+    "Claims": [
+        {"ID": "C1", "Text": "Text"},
+        {"ID": "C2", "Text": "Text"},
+    ],
+    "Premises": [
+        {"ID": "P1", "Text": "Text"},
+        {"ID": "P2", "Text": "Text"},
+    ],
     "ArgumentativeRelations": [
-        {"Origin": "C1", "Relation": "for", "Target": "MC1"},
-        {"Origin": "C2", "Relation": "against", "Target": "MC1"},
+        {"Origin": "C1", "Relation": "for", "Target": "MC"},
+        {"Origin": "C2", "Relation": "against", "Target": "MC"},
         {"Origin": "P1", "Relation": "supports", "Target": "C1"},
-        {"Origin": "P2", "Relation": "attacks", "Target": "C2"}
+        {"Origin": "P2", "Relation": "attacks", "Target": "C2"},
+        ...
     ]
 }
 ```
@@ -48,35 +49,104 @@ In addition to this, the main drawback of teenagers job is that, they miss out t
 Thus, for a teenager it is important to pay attention on their studies. Having job would affect their health, divert them from studies and take away one of the important phase from their life.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "it is not the good idea for teenagers to have job while they are still students",
-    "MC2": "it can interfere with their life in various ways",
-    "MC3": "for a teenager it is important to pay attention on their studies"
-  },
-  "Claims": {
-    "C1": "many argue that it provide good working experience",
-    "C2": "Having jobs would affect the health of the student",
-    "C3": "It divert their mind from studies and would take away their childhood phase from their life",
-    "C4": "Having job would affect their health, divert them from studies and take away one of the important phase from their life",
-    "C5": "would affect their mental and physical health",
-    "C6": "If the student get involved himself in job in rest of the time, then it would cause an extra burden on them",
-    "C7": "jobs can divert students from their studies",
-    "C8": "they should take advantage of life as much possible they can"
-  },
-  "Premises": {
-    "P1": "jobs has various responsibilities like attendance, sometimes extra work and so on",
-    "P2": "This would result in stress, tension and tiredness",
-    "P3": "They won't be able to get proper time for relaxation, sleep",
-    "P4": "He has to spend his most of time in school to get a good grades",
-    "P5": "A student has to do lots of studies in today's competitive world to prove himself",
-    "P6": "If students started earning in earlier age in their life, then they get attracted towards money",
-    "P7": "They feel themselves independent and would prefer to work more for money",
-    "P8": "This would affect their studies, they loose their interest from studies",
-    "P9": "they drop out their studies so as to earn more money",
-    "P10": "the main drawback of teenagers job is that, they miss out the fun of their childhood time",
-    "P11": "They have whole life to do job and prove themselves, but the childhood phase will never return in their life",
-    "P12": "He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is not the good idea for teenagers to have job while they are still students"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it can interfere with their life in various ways"
+    },
+    {
+      "ID": "MC3",
+      "Text": "for a teenager it is important to pay attention on their studies"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many argue that it provide good working experience"
+    },
+    {
+      "ID": "C2",
+      "Text": "Having jobs would affect the health of the student"
+    },
+    {
+      "ID": "C3",
+      "Text": "It divert their mind from studies and would take away their childhood phase from their life"
+    },
+    {
+      "ID": "C4",
+      "Text": "Having job would affect their health, divert them from studies and take away one of the important phase from their life"
+    },
+    {
+      "ID": "C5",
+      "Text": "would affect their mental and physical health"
+    },
+    {
+      "ID": "C6",
+      "Text": "If the student get involved himself in job in rest of the time, then it would cause an extra burden on them"
+    },
+    {
+      "ID": "C7",
+      "Text": "jobs can divert students from their studies"
+    },
+    {
+      "ID": "C8",
+      "Text": "they should take advantage of life as much possible they can"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "jobs has various responsibilities like attendance, sometimes extra work and so on"
+    },
+    {
+      "ID": "P2",
+      "Text": "This would result in stress, tension and tiredness"
+    },
+    {
+      "ID": "P3",
+      "Text": "They won't be able to get proper time for relaxation, sleep"
+    },
+    {
+      "ID": "P4",
+      "Text": "He has to spend his most of time in school to get a good grades"
+    },
+    {
+      "ID": "P5",
+      "Text": "A student has to do lots of studies in today's competitive world to prove himself"
+    },
+    {
+      "ID": "P6",
+      "Text": "If students started earning in earlier age in their life, then they get attracted towards money"
+    },
+    {
+      "ID": "P7",
+      "Text": "They feel themselves independent and would prefer to work more for money"
+    },
+    {
+      "ID": "P8",
+      "Text": "This would affect their studies, they loose their interest from studies"
+    },
+    {
+      "ID": "P9",
+      "Text": "they drop out their studies so as to earn more money"
+    },
+    {
+      "ID": "P10",
+      "Text": "the main drawback of teenagers job is that, they miss out the fun of their childhood time"
+    },
+    {
+      "ID": "P11",
+      "Text": "They have whole life to do job and prove themselves, but the childhood phase will never return in their life"
+    },
+    {
+      "ID": "P12",
+      "Text": "He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

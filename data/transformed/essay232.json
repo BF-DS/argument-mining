@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "parents are the best teacher",
-    "MC2": "parents are the greatest teachers"
-  },
-  "Claims": {
-    "C1": "Children normally think that their parents are somehow special and that makes them the most important people in the children\u2019s lives",
-    "C2": "the things that parents say have great power to their child",
-    "C3": "their parents have more time to teach him/her than anybody else",
-    "C4": "children usually mirror themselves on their parents"
-  },
-  "Premises": {
-    "P1": "More power than any friend or other adult could have",
-    "P2": "if someone tells a kid that something is wrong and they shouldn't do it, but his father told him/her that it was right, the kid will listen to the father instead of the other person, even if his father is wrong",
-    "P3": "a child normally spends more time with their parents than with other people",
-    "P4": "They have more contact and more intimacy with their children",
-    "P5": "even if the parents don\u2019t intend to teach their children something, they are always observing and learning by themselves",
-    "P6": "if there is a man that beats his wife and treats her bad, his child probably is going to be rude and treat girls bad"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "parents are the best teacher"
+    },
+    {
+      "ID": "MC2",
+      "Text": "parents are the greatest teachers"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Children normally think that their parents are somehow special and that makes them the most important people in the children\u2019s lives"
+    },
+    {
+      "ID": "C2",
+      "Text": "the things that parents say have great power to their child"
+    },
+    {
+      "ID": "C3",
+      "Text": "their parents have more time to teach him/her than anybody else"
+    },
+    {
+      "ID": "C4",
+      "Text": "children usually mirror themselves on their parents"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "More power than any friend or other adult could have"
+    },
+    {
+      "ID": "P2",
+      "Text": "if someone tells a kid that something is wrong and they shouldn't do it, but his father told him/her that it was right, the kid will listen to the father instead of the other person, even if his father is wrong"
+    },
+    {
+      "ID": "P3",
+      "Text": "a child normally spends more time with their parents than with other people"
+    },
+    {
+      "ID": "P4",
+      "Text": "They have more contact and more intimacy with their children"
+    },
+    {
+      "ID": "P5",
+      "Text": "even if the parents don\u2019t intend to teach their children something, they are always observing and learning by themselves"
+    },
+    {
+      "ID": "P6",
+      "Text": "if there is a man that beats his wife and treats her bad, his child probably is going to be rude and treat girls bad"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

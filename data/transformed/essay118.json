@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "their salary at a lower level would be more appropriate compared with other peoples in scientific or social, economic fields",
-    "MC2": "professional athletes and singers are overpaid in terms of their contributions"
-  },
-  "Claims": {
-    "C1": "athletes and singers deserve their current salary",
-    "C2": "their privilege of salary seems groundless, while the main work forces receive modest salaries which only enable them to afford bare necessities"
-  },
-  "Premises": {
-    "P1": "they have an exceptional ability that other people do not own",
-    "P2": "hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship",
-    "P3": "They also point out that these people have to undergo painstaking and industrious training, let alone participate in a great number of contests to be recognized and prove themselves",
-    "P4": "there are many singers and athletes, few of whom could rise to fame and victory ultimately",
-    "P5": "Overcoming all these obstacles, they should be paid a great deal of money for their extraordinary efforts",
-    "P6": "singers and athletes, in fact, contribute insignificantly to the development of the society",
-    "P7": "It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms",
-    "P8": "While scientists invent machines serving daily lives, doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation, singers and athletes do not play a helpful part in improving the material life",
-    "P9": "They commit themselves to promoting relaxation and enjoyment for the audience",
-    "P10": "their contribution is less important than those from doctors or scientists, albeit necessary"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "their salary at a lower level would be more appropriate compared with other peoples in scientific or social, economic fields"
+    },
+    {
+      "ID": "MC2",
+      "Text": "professional athletes and singers are overpaid in terms of their contributions"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "athletes and singers deserve their current salary"
+    },
+    {
+      "ID": "C2",
+      "Text": "their privilege of salary seems groundless, while the main work forces receive modest salaries which only enable them to afford bare necessities"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they have an exceptional ability that other people do not own"
+    },
+    {
+      "ID": "P2",
+      "Text": "hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship"
+    },
+    {
+      "ID": "P3",
+      "Text": "They also point out that these people have to undergo painstaking and industrious training, let alone participate in a great number of contests to be recognized and prove themselves"
+    },
+    {
+      "ID": "P4",
+      "Text": "there are many singers and athletes, few of whom could rise to fame and victory ultimately"
+    },
+    {
+      "ID": "P5",
+      "Text": "Overcoming all these obstacles, they should be paid a great deal of money for their extraordinary efforts"
+    },
+    {
+      "ID": "P6",
+      "Text": "singers and athletes, in fact, contribute insignificantly to the development of the society"
+    },
+    {
+      "ID": "P7",
+      "Text": "It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms"
+    },
+    {
+      "ID": "P8",
+      "Text": "While scientists invent machines serving daily lives, doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation, singers and athletes do not play a helpful part in improving the material life"
+    },
+    {
+      "ID": "P9",
+      "Text": "They commit themselves to promoting relaxation and enjoyment for the audience"
+    },
+    {
+      "ID": "P10",
+      "Text": "their contribution is less important than those from doctors or scientists, albeit necessary"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "my term of a successful man is one who has certain achievements in life rather than the one with a high income",
-    "MC2": "using only money as a scale to measure a man's success is impossible"
-  },
-  "Claims": {
-    "C1": "it is the essential in basic needs",
-    "C2": "a man can only achieve his accomplishment through hard-working, dedication and passion",
-    "C3": "judging a person by his income is difficult, especially in the success aspect"
-  },
-  "Premises": {
-    "P1": "A person's great prosperity does not state that he has gained it ethically by himself",
-    "P2": "Money is undeniably pivotal",
-    "P3": "ways of earning it is also various",
-    "P4": "Whether it is a personal or a social achievement, that man is laudable",
-    "P5": "the more beneficial for the society his achievement is, the more successful he is considered",
-    "P6": "Thomas Edison is undeniably considered as one of the greatest inventors in the 20th century",
-    "P7": "his invention's productivity is countless useful for mankind",
-    "P8": "the fact of knowing a man's utilization of his money remains in the dark"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "my term of a successful man is one who has certain achievements in life rather than the one with a high income"
+    },
+    {
+      "ID": "MC2",
+      "Text": "using only money as a scale to measure a man's success is impossible"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is the essential in basic needs"
+    },
+    {
+      "ID": "C2",
+      "Text": "a man can only achieve his accomplishment through hard-working, dedication and passion"
+    },
+    {
+      "ID": "C3",
+      "Text": "judging a person by his income is difficult, especially in the success aspect"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "A person's great prosperity does not state that he has gained it ethically by himself"
+    },
+    {
+      "ID": "P2",
+      "Text": "Money is undeniably pivotal"
+    },
+    {
+      "ID": "P3",
+      "Text": "ways of earning it is also various"
+    },
+    {
+      "ID": "P4",
+      "Text": "Whether it is a personal or a social achievement, that man is laudable"
+    },
+    {
+      "ID": "P5",
+      "Text": "the more beneficial for the society his achievement is, the more successful he is considered"
+    },
+    {
+      "ID": "P6",
+      "Text": "Thomas Edison is undeniably considered as one of the greatest inventors in the 20th century"
+    },
+    {
+      "ID": "P7",
+      "Text": "his invention's productivity is countless useful for mankind"
+    },
+    {
+      "ID": "P8",
+      "Text": "the fact of knowing a man's utilization of his money remains in the dark"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

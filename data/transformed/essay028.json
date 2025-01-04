@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers",
-    "MC2": "modern society needs advertising"
-  },
-  "Claims": {
-    "C1": "Ads will keep us well informed about new products and services",
-    "C2": "advertising cigarettes and alcohol will definitely affect our children in negative way",
-    "C3": "advertising alcohol, cigarettes, goods and services with adult content should be prohibited",
-    "C4": "by advertising companies, businesses, firms and individuals promote their goods and services",
-    "C5": "These days, not only many businesses, but also governments have to rely on advertising"
-  },
-  "Premises": {
-    "P1": "these kind of ads will have negative effect to our children",
-    "P2": "Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis",
-    "P3": "some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries",
-    "P4": "Thanks to ads we learn about new products, we can compare them and choose what\u2019s the best for us",
-    "P5": "tourism makes up one-third of the Czech Republic's economy",
-    "P6": "In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers",
-    "P7": "Only well planned and well targeted advertising will bring more foreign tourists to the country"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers"
+    },
+    {
+      "ID": "MC2",
+      "Text": "modern society needs advertising"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Ads will keep us well informed about new products and services"
+    },
+    {
+      "ID": "C2",
+      "Text": "advertising cigarettes and alcohol will definitely affect our children in negative way"
+    },
+    {
+      "ID": "C3",
+      "Text": "advertising alcohol, cigarettes, goods and services with adult content should be prohibited"
+    },
+    {
+      "ID": "C4",
+      "Text": "by advertising companies, businesses, firms and individuals promote their goods and services"
+    },
+    {
+      "ID": "C5",
+      "Text": "These days, not only many businesses, but also governments have to rely on advertising"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "these kind of ads will have negative effect to our children"
+    },
+    {
+      "ID": "P2",
+      "Text": "Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis"
+    },
+    {
+      "ID": "P3",
+      "Text": "some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries"
+    },
+    {
+      "ID": "P4",
+      "Text": "Thanks to ads we learn about new products, we can compare them and choose what\u2019s the best for us"
+    },
+    {
+      "ID": "P5",
+      "Text": "tourism makes up one-third of the Czech Republic's economy"
+    },
+    {
+      "ID": "P6",
+      "Text": "In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers"
+    },
+    {
+      "ID": "P7",
+      "Text": "Only well planned and well targeted advertising will bring more foreign tourists to the country"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "One of these several ways of learning that I prefer is doing things by my self rather than learning by reading about things or learning by listening to people talking about",
-    "MC2": "learning by doing things is the best way and the best method to learn things"
-  },
-  "Claims": {
-    "C1": "learning by doing things develops our maturity",
-    "C2": "learning by doing things is more exciting than learning by reading about things or listening to people talking about",
-    "C3": "we become motivated to learn other things by doing them"
-  },
-  "Premises": {
-    "P1": "When you do things by your self, you learn to depend on yourself",
-    "P2": "You will not be in need to refer to books or persons",
-    "P3": "The fact of doing things by ourselves can help us to get some experiences that would strong our maturity",
-    "P4": "if some one wants to learn how to be a leader, they have to experience this by being in a real situation of leading a team or a group, or even a situation",
-    "P5": "We can not be leaders by reading books or by listening to person talking about leading",
-    "P6": "There are a lot of things in life that should be learnt by doing them",
-    "P7": "Reading about things or listening to people talking about can rarely submit the same sensation or the same excitement to some one who wants to learn about the same thing",
-    "P8": "People who want to learn how to swim have to go to the beach or to the swimpool and laid themselves in the water to feel and know what is swimming",
-    "P9": "Nor listening to people or reading about can teach them swimming",
-    "P10": "we find more motivation to continuing on learning by doing things",
-    "P11": "With the time, Reading about things or listening to people talking about could become more and more boring",
-    "P12": "Learning by doing things gives us more and more pleasure especially if we success in learning perfectly this things"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "One of these several ways of learning that I prefer is doing things by my self rather than learning by reading about things or learning by listening to people talking about"
+    },
+    {
+      "ID": "MC2",
+      "Text": "learning by doing things is the best way and the best method to learn things"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "learning by doing things develops our maturity"
+    },
+    {
+      "ID": "C2",
+      "Text": "learning by doing things is more exciting than learning by reading about things or listening to people talking about"
+    },
+    {
+      "ID": "C3",
+      "Text": "we become motivated to learn other things by doing them"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "When you do things by your self, you learn to depend on yourself"
+    },
+    {
+      "ID": "P2",
+      "Text": "You will not be in need to refer to books or persons"
+    },
+    {
+      "ID": "P3",
+      "Text": "The fact of doing things by ourselves can help us to get some experiences that would strong our maturity"
+    },
+    {
+      "ID": "P4",
+      "Text": "if some one wants to learn how to be a leader, they have to experience this by being in a real situation of leading a team or a group, or even a situation"
+    },
+    {
+      "ID": "P5",
+      "Text": "We can not be leaders by reading books or by listening to person talking about leading"
+    },
+    {
+      "ID": "P6",
+      "Text": "There are a lot of things in life that should be learnt by doing them"
+    },
+    {
+      "ID": "P7",
+      "Text": "Reading about things or listening to people talking about can rarely submit the same sensation or the same excitement to some one who wants to learn about the same thing"
+    },
+    {
+      "ID": "P8",
+      "Text": "People who want to learn how to swim have to go to the beach or to the swimpool and laid themselves in the water to feel and know what is swimming"
+    },
+    {
+      "ID": "P9",
+      "Text": "Nor listening to people or reading about can teach them swimming"
+    },
+    {
+      "ID": "P10",
+      "Text": "we find more motivation to continuing on learning by doing things"
+    },
+    {
+      "ID": "P11",
+      "Text": "With the time, Reading about things or listening to people talking about could become more and more boring"
+    },
+    {
+      "ID": "P12",
+      "Text": "Learning by doing things gives us more and more pleasure especially if we success in learning perfectly this things"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

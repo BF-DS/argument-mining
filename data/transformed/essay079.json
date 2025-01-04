@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "arts are supposed to be included in the government's investment as well",
-    "MC2": "public services and facilities are an integral part of the government expenditure",
-    "MC3": "the authorities should also respect the value of arts which are individually and socially advantageous"
-  },
-  "Claims": {
-    "C1": "public services and facilities should be given adequate attention by the authorities to maintain social stability",
-    "C2": "arts should by no means been disregarded by the government",
-    "C3": "funding arts is beneficial to the local cultural and economic development"
-  },
-  "Premises": {
-    "P1": "the government should give priority to public services and facilities",
-    "P2": "the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable",
-    "P3": "public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate",
-    "P4": "arts can enrich people's cultural lives",
-    "P5": "Currently, people are increasingly occupied with their work and studies due to the stiff competition",
-    "P6": "they require various entertainment such as music, movies or books to them ease their minds and release pressure",
-    "P7": "Without arts, people would be at risk of suffering psychological problems",
-    "P8": "Cultural heritage constitutes an essential part of arts",
-    "P9": "preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry",
-    "P10": "arts serve cultural and economic purposes"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "arts are supposed to be included in the government's investment as well"
+    },
+    {
+      "ID": "MC2",
+      "Text": "public services and facilities are an integral part of the government expenditure"
+    },
+    {
+      "ID": "MC3",
+      "Text": "the authorities should also respect the value of arts which are individually and socially advantageous"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "public services and facilities should be given adequate attention by the authorities to maintain social stability"
+    },
+    {
+      "ID": "C2",
+      "Text": "arts should by no means been disregarded by the government"
+    },
+    {
+      "ID": "C3",
+      "Text": "funding arts is beneficial to the local cultural and economic development"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the government should give priority to public services and facilities"
+    },
+    {
+      "ID": "P2",
+      "Text": "the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable"
+    },
+    {
+      "ID": "P3",
+      "Text": "public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate"
+    },
+    {
+      "ID": "P4",
+      "Text": "arts can enrich people's cultural lives"
+    },
+    {
+      "ID": "P5",
+      "Text": "Currently, people are increasingly occupied with their work and studies due to the stiff competition"
+    },
+    {
+      "ID": "P6",
+      "Text": "they require various entertainment such as music, movies or books to them ease their minds and release pressure"
+    },
+    {
+      "ID": "P7",
+      "Text": "Without arts, people would be at risk of suffering psychological problems"
+    },
+    {
+      "ID": "P8",
+      "Text": "Cultural heritage constitutes an essential part of arts"
+    },
+    {
+      "ID": "P9",
+      "Text": "preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry"
+    },
+    {
+      "ID": "P10",
+      "Text": "arts serve cultural and economic purposes"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

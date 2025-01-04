@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "we should preserve historic buildings in the city",
-    "MC2": "It is important for any city to replace old buildings with new ones, but these revolutions should not include historic buildings"
-  },
-  "Claims": {
-    "C1": "The historic buildings show the history of our ancestors",
-    "C2": "they can develop tourism industries by attracting tourists",
-    "C3": "They can benefit us financially by developing other industries",
-    "C4": "they are the symbols of our nations, which can show the historical culture of our previous ancestors",
-    "C5": "Historic buildings answer many questions, which are mysterious about our previous ancestors; thereby no one can determine the price of the historic buildings",
-    "C6": "Another advantage of historic buildings is their capabilities to attract more tourists to the city"
-  },
-  "Premises": {
-    "P1": "They show the history of nations and previous generations who lived in the city",
-    "P2": "They show the lifestyle of people who lived in thousands of years ago",
-    "P3": "They show us how they survive, or how they defend themselves etc",
-    "P4": "By investigating about their structures, we can understand how much they knew about the architecture of building",
-    "P5": "historic buildings are important treasures, which provide an area to learn valuable lessons",
-    "P6": "It is a valuable opportunities for any city having historic buildings to show them to new visitors",
-    "P7": "It is interesting for most people to know about the way people live in thousands years ago",
-    "P8": "Historic building can develop other industries such as restaurants or other food industries and handicrafts shops and so on"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we should preserve historic buildings in the city"
+    },
+    {
+      "ID": "MC2",
+      "Text": "It is important for any city to replace old buildings with new ones, but these revolutions should not include historic buildings"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The historic buildings show the history of our ancestors"
+    },
+    {
+      "ID": "C2",
+      "Text": "they can develop tourism industries by attracting tourists"
+    },
+    {
+      "ID": "C3",
+      "Text": "They can benefit us financially by developing other industries"
+    },
+    {
+      "ID": "C4",
+      "Text": "they are the symbols of our nations, which can show the historical culture of our previous ancestors"
+    },
+    {
+      "ID": "C5",
+      "Text": "Historic buildings answer many questions, which are mysterious about our previous ancestors; thereby no one can determine the price of the historic buildings"
+    },
+    {
+      "ID": "C6",
+      "Text": "Another advantage of historic buildings is their capabilities to attract more tourists to the city"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They show the history of nations and previous generations who lived in the city"
+    },
+    {
+      "ID": "P2",
+      "Text": "They show the lifestyle of people who lived in thousands of years ago"
+    },
+    {
+      "ID": "P3",
+      "Text": "They show us how they survive, or how they defend themselves etc"
+    },
+    {
+      "ID": "P4",
+      "Text": "By investigating about their structures, we can understand how much they knew about the architecture of building"
+    },
+    {
+      "ID": "P5",
+      "Text": "historic buildings are important treasures, which provide an area to learn valuable lessons"
+    },
+    {
+      "ID": "P6",
+      "Text": "It is a valuable opportunities for any city having historic buildings to show them to new visitors"
+    },
+    {
+      "ID": "P7",
+      "Text": "It is interesting for most people to know about the way people live in thousands years ago"
+    },
+    {
+      "ID": "P8",
+      "Text": "Historic building can develop other industries such as restaurants or other food industries and handicrafts shops and so on"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

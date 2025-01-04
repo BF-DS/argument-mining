@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "physical exercise is a crucial part of every school day",
-    "MC2": "Including physical activity in children's school day should be strongly considered"
-  },
-  "Claims": {
-    "C1": "Exercise is good not only for having a good health body, but also for the mind",
-    "C2": "including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age",
-    "C3": "Physical activity helps children to grow up physically healthier",
-    "C4": "Daily exercise will help also to develop children's brain function",
-    "C5": "Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine",
-    "C6": "It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules"
-  },
-  "Premises": {
-    "P1": "the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school",
-    "P2": "exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues",
-    "P3": "It is well known how important it is to exercise regularly to help the body system to work better",
-    "P4": "When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in",
-    "P5": "Daily exercise will provide children with a mental break which will boost them to be efficient learners",
-    "P6": "Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice",
-    "P7": "they can stick with the routine and make the daily physical activities a good habit on their whole life"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "physical exercise is a crucial part of every school day"
+    },
+    {
+      "ID": "MC2",
+      "Text": "Including physical activity in children's school day should be strongly considered"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Exercise is good not only for having a good health body, but also for the mind"
+    },
+    {
+      "ID": "C2",
+      "Text": "including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age"
+    },
+    {
+      "ID": "C3",
+      "Text": "Physical activity helps children to grow up physically healthier"
+    },
+    {
+      "ID": "C4",
+      "Text": "Daily exercise will help also to develop children's brain function"
+    },
+    {
+      "ID": "C5",
+      "Text": "Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine"
+    },
+    {
+      "ID": "C6",
+      "Text": "It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school"
+    },
+    {
+      "ID": "P2",
+      "Text": "exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues"
+    },
+    {
+      "ID": "P3",
+      "Text": "It is well known how important it is to exercise regularly to help the body system to work better"
+    },
+    {
+      "ID": "P4",
+      "Text": "When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in"
+    },
+    {
+      "ID": "P5",
+      "Text": "Daily exercise will provide children with a mental break which will boost them to be efficient learners"
+    },
+    {
+      "ID": "P6",
+      "Text": "Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice"
+    },
+    {
+      "ID": "P7",
+      "Text": "they can stick with the routine and make the daily physical activities a good habit on their whole life"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

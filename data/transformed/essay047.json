@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "wild animals should be set free from zoos",
-    "MC2": "animals should live in natural habitats instead of zoos"
-  },
-  "Claims": {
-    "C1": "it is our responsibility to create a natural and safe environment for animals to live in",
-    "C2": "zoos are more likely to be a killer rather than a protector in protecting wild lives",
-    "C3": "zoos, which are equipped with modern facilities and professionals, would provide better care for the animals inside",
-    "C4": "they have the right to enjoy freedom but they also escape from isolation and depression"
-  },
-  "Premises": {
-    "P1": "it is the right of wild species to live in a environment away from human beings",
-    "P2": "Given the fact that human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals",
-    "P3": "the wild species would suffer from isolation and depression",
-    "P4": "if rural animals are captured in the zoo for a long period, it would have negative influences on both the physical and psychological status of the creatures",
-    "P5": "the limited space and the artificial trees and lakes can not fully compensate the animals for their loss",
-    "P6": "the endangered species preserved in zoos would never die of illegal hunting",
-    "P7": "the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat",
-    "P8": "the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "wild animals should be set free from zoos"
+    },
+    {
+      "ID": "MC2",
+      "Text": "animals should live in natural habitats instead of zoos"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is our responsibility to create a natural and safe environment for animals to live in"
+    },
+    {
+      "ID": "C2",
+      "Text": "zoos are more likely to be a killer rather than a protector in protecting wild lives"
+    },
+    {
+      "ID": "C3",
+      "Text": "zoos, which are equipped with modern facilities and professionals, would provide better care for the animals inside"
+    },
+    {
+      "ID": "C4",
+      "Text": "they have the right to enjoy freedom but they also escape from isolation and depression"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is the right of wild species to live in a environment away from human beings"
+    },
+    {
+      "ID": "P2",
+      "Text": "Given the fact that human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals"
+    },
+    {
+      "ID": "P3",
+      "Text": "the wild species would suffer from isolation and depression"
+    },
+    {
+      "ID": "P4",
+      "Text": "if rural animals are captured in the zoo for a long period, it would have negative influences on both the physical and psychological status of the creatures"
+    },
+    {
+      "ID": "P5",
+      "Text": "the limited space and the artificial trees and lakes can not fully compensate the animals for their loss"
+    },
+    {
+      "ID": "P6",
+      "Text": "the endangered species preserved in zoos would never die of illegal hunting"
+    },
+    {
+      "ID": "P7",
+      "Text": "the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat"
+    },
+    {
+      "ID": "P8",
+      "Text": "the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

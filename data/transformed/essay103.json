@@ -1,18 +1,42 @@
 {
-  "MajorClaims": {
-    "MC1": "I strongly support the current laws of Great Britain and Australia, and would not change the regulations on keeping the jury unaware of past actions"
-  },
-  "Claims": {
-    "C1": "past behaviour determines the future actions",
-    "C2": "in order for the jury to come up with an objective decision not depending on the past experience, the court should provide with details relevant to a particular case only",
-    "C3": "I am skeptical about disclosing the defendant's history to the jury, with intention to avoid subjective and probable inaccurate verdict"
-  },
-  "Premises": {
-    "P1": "complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality",
-    "P2": "past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes, such as kidnapping or a murder",
-    "P3": "a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record",
-    "P4": "Innocent suspects, eventually, can face unfair juridical decision and pay twice for their previous inadequate actions"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I strongly support the current laws of Great Britain and Australia, and would not change the regulations on keeping the jury unaware of past actions"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "past behaviour determines the future actions"
+    },
+    {
+      "ID": "C2",
+      "Text": "in order for the jury to come up with an objective decision not depending on the past experience, the court should provide with details relevant to a particular case only"
+    },
+    {
+      "ID": "C3",
+      "Text": "I am skeptical about disclosing the defendant's history to the jury, with intention to avoid subjective and probable inaccurate verdict"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality"
+    },
+    {
+      "ID": "P2",
+      "Text": "past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes, such as kidnapping or a murder"
+    },
+    {
+      "ID": "P3",
+      "Text": "a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record"
+    },
+    {
+      "ID": "P4",
+      "Text": "Innocent suspects, eventually, can face unfair juridical decision and pay twice for their previous inadequate actions"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

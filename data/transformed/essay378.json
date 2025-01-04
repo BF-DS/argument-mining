@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "the teacher is the best option for children's education in some aspects",
-    "MC2": "teachers are the best for children's education"
-  },
-  "Claims": {
-    "C1": "Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world",
-    "C2": "school teachers are more qualified than parents in the field of education",
-    "C3": "teaching staff are professional and experienced in terms of promoting children's communication skills",
-    "C4": "it was impossible for them to be a good teacher"
-  },
-  "Premises": {
-    "P1": "to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge",
-    "P2": "in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics",
-    "P3": "after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills",
-    "P4": "parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way",
-    "P5": "compared with teachers, parents do not have enough time to spend with their children",
-    "P6": "Nowadays we are facing a global economic crisis and it is necessary for both parents to work",
-    "P7": "there is only limited time for them to teach their children"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the teacher is the best option for children's education in some aspects"
+    },
+    {
+      "ID": "MC2",
+      "Text": "teachers are the best for children's education"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world"
+    },
+    {
+      "ID": "C2",
+      "Text": "school teachers are more qualified than parents in the field of education"
+    },
+    {
+      "ID": "C3",
+      "Text": "teaching staff are professional and experienced in terms of promoting children's communication skills"
+    },
+    {
+      "ID": "C4",
+      "Text": "it was impossible for them to be a good teacher"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge"
+    },
+    {
+      "ID": "P2",
+      "Text": "in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics"
+    },
+    {
+      "ID": "P3",
+      "Text": "after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills"
+    },
+    {
+      "ID": "P4",
+      "Text": "parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way"
+    },
+    {
+      "ID": "P5",
+      "Text": "compared with teachers, parents do not have enough time to spend with their children"
+    },
+    {
+      "ID": "P6",
+      "Text": "Nowadays we are facing a global economic crisis and it is necessary for both parents to work"
+    },
+    {
+      "ID": "P7",
+      "Text": "there is only limited time for them to teach their children"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

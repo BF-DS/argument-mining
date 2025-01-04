@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "education is the single most important factor in the development of a country",
-    "MC2": "education plays an important role in the socioeconomic status of a country"
-  },
-  "Claims": {
-    "C1": "The more people in the country become educated, the better chance it can develop",
-    "C2": "these children remain uneducated and will have the same fate as their parents",
-    "C3": "the benefits of education can make a man, a society and a developed country"
-  },
-  "Premises": {
-    "P1": "In a developing country, not many can afford to send their children to school",
-    "P2": "There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities",
-    "P3": "They are not reachable by children who live in the mountains or islands",
-    "P4": "These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday",
-    "P5": "Basic education teaches one child to read and write",
-    "P6": "Supplementary education provides him with useful knowledge and information",
-    "P7": "A further specific education can teach an individual with skills enough to make a living and be self-sufficient",
-    "P8": "A well-informed man can act sensibly and make sound judgment",
-    "P9": "a skillful man contributes favorably and is valuable to the society"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "education is the single most important factor in the development of a country"
+    },
+    {
+      "ID": "MC2",
+      "Text": "education plays an important role in the socioeconomic status of a country"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The more people in the country become educated, the better chance it can develop"
+    },
+    {
+      "ID": "C2",
+      "Text": "these children remain uneducated and will have the same fate as their parents"
+    },
+    {
+      "ID": "C3",
+      "Text": "the benefits of education can make a man, a society and a developed country"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In a developing country, not many can afford to send their children to school"
+    },
+    {
+      "ID": "P2",
+      "Text": "There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities"
+    },
+    {
+      "ID": "P3",
+      "Text": "They are not reachable by children who live in the mountains or islands"
+    },
+    {
+      "ID": "P4",
+      "Text": "These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday"
+    },
+    {
+      "ID": "P5",
+      "Text": "Basic education teaches one child to read and write"
+    },
+    {
+      "ID": "P6",
+      "Text": "Supplementary education provides him with useful knowledge and information"
+    },
+    {
+      "ID": "P7",
+      "Text": "A further specific education can teach an individual with skills enough to make a living and be self-sufficient"
+    },
+    {
+      "ID": "P8",
+      "Text": "A well-informed man can act sensibly and make sound judgment"
+    },
+    {
+      "ID": "P9",
+      "Text": "a skillful man contributes favorably and is valuable to the society"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

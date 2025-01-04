@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "the advantages of building a factory will outweigh its disadvantages, if we tackle the environmental problems brought by factories"
-  },
-  "Claims": {
-    "C1": "a large factory can stimulate local economic growth and reduce the unemployment rate",
-    "C2": "The main disadvantage is contamination",
-    "C3": "how to improve the disadvantages of building a factory would be more important than whether to build it"
-  },
-  "Premises": {
-    "P1": "To manufacture goods, there must be the demand of laborers, from which the local residents can benefit",
-    "P2": "the factory is not isolated, other industries and business will be quickly established, resulting in economic growth of local area",
-    "P3": "the estate industry will be boosted in order to satisfy the workers' accommodation need",
-    "P4": "It is true that some area are suffering the dire consequences caused by overdeveloping the industry, such as water pollution, overcrowded traffic and medical problems",
-    "P5": "in some industrial cities, a large proportion of the workers are suffering various breathing problems, such as asthma which can be caused by waste ashes and certain chemical substances",
-    "P6": "it is inevitable that there will be more factories built with the development of our society",
-    "P7": "most problems can be avoidable if the factories put in real and great effort to manage their waste well"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the advantages of building a factory will outweigh its disadvantages, if we tackle the environmental problems brought by factories"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "a large factory can stimulate local economic growth and reduce the unemployment rate"
+    },
+    {
+      "ID": "C2",
+      "Text": "The main disadvantage is contamination"
+    },
+    {
+      "ID": "C3",
+      "Text": "how to improve the disadvantages of building a factory would be more important than whether to build it"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "To manufacture goods, there must be the demand of laborers, from which the local residents can benefit"
+    },
+    {
+      "ID": "P2",
+      "Text": "the factory is not isolated, other industries and business will be quickly established, resulting in economic growth of local area"
+    },
+    {
+      "ID": "P3",
+      "Text": "the estate industry will be boosted in order to satisfy the workers' accommodation need"
+    },
+    {
+      "ID": "P4",
+      "Text": "It is true that some area are suffering the dire consequences caused by overdeveloping the industry, such as water pollution, overcrowded traffic and medical problems"
+    },
+    {
+      "ID": "P5",
+      "Text": "in some industrial cities, a large proportion of the workers are suffering various breathing problems, such as asthma which can be caused by waste ashes and certain chemical substances"
+    },
+    {
+      "ID": "P6",
+      "Text": "it is inevitable that there will be more factories built with the development of our society"
+    },
+    {
+      "ID": "P7",
+      "Text": "most problems can be avoidable if the factories put in real and great effort to manage their waste well"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

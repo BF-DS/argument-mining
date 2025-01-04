@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way",
-    "MC2": "It will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way"
-  },
-  "Claims": {
-    "C1": "International sporting events will draw the international concern",
-    "C2": "It really help to alleviate the tension",
-    "C3": "an international sporting event also helps fans release patriotic emotions in a safe way"
-  },
-  "Premises": {
-    "P1": "it is useful to ease tensions between nations",
-    "P2": "People can understand more about a country",
-    "P3": "An international sporting event is normal held in a country with huge interest from fans all over the world",
-    "P4": "For the time of occasions, people regardless of nationality, origin and religion will live together",
-    "P5": "in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking",
-    "P6": "The world suspected North Korea of the aggressive action",
-    "P7": "due to this event North Korea showed a friendship and enthuasism",
-    "P8": "It is rare times when people can learn about this country",
-    "P9": "When they garther together to encourage their team, they will show their patriotic emotions",
-    "P10": "Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport",
-    "P11": "all fans know that a sport event will attract the attention of whole the world and a lot of public media",
-    "P12": "They will try to create a beautiful image about their land and people",
-    "P13": "In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country",
-    "P14": "foreigners came here always received the support of friendly volunteers who were young students",
-    "P15": "They were welcomed by each Chinese hospitality, beauty in each cities",
-    "P16": "Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way"
+    },
+    {
+      "ID": "MC2",
+      "Text": "It will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "International sporting events will draw the international concern"
+    },
+    {
+      "ID": "C2",
+      "Text": "It really help to alleviate the tension"
+    },
+    {
+      "ID": "C3",
+      "Text": "an international sporting event also helps fans release patriotic emotions in a safe way"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is useful to ease tensions between nations"
+    },
+    {
+      "ID": "P2",
+      "Text": "People can understand more about a country"
+    },
+    {
+      "ID": "P3",
+      "Text": "An international sporting event is normal held in a country with huge interest from fans all over the world"
+    },
+    {
+      "ID": "P4",
+      "Text": "For the time of occasions, people regardless of nationality, origin and religion will live together"
+    },
+    {
+      "ID": "P5",
+      "Text": "in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking"
+    },
+    {
+      "ID": "P6",
+      "Text": "The world suspected North Korea of the aggressive action"
+    },
+    {
+      "ID": "P7",
+      "Text": "due to this event North Korea showed a friendship and enthuasism"
+    },
+    {
+      "ID": "P8",
+      "Text": "It is rare times when people can learn about this country"
+    },
+    {
+      "ID": "P9",
+      "Text": "When they garther together to encourage their team, they will show their patriotic emotions"
+    },
+    {
+      "ID": "P10",
+      "Text": "Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport"
+    },
+    {
+      "ID": "P11",
+      "Text": "all fans know that a sport event will attract the attention of whole the world and a lot of public media"
+    },
+    {
+      "ID": "P12",
+      "Text": "They will try to create a beautiful image about their land and people"
+    },
+    {
+      "ID": "P13",
+      "Text": "In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country"
+    },
+    {
+      "ID": "P14",
+      "Text": "foreigners came here always received the support of friendly volunteers who were young students"
+    },
+    {
+      "ID": "P15",
+      "Text": "They were welcomed by each Chinese hospitality, beauty in each cities"
+    },
+    {
+      "ID": "P16",
+      "Text": "Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

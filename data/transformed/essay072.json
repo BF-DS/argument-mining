@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions",
-    "MC2": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
-  },
-  "Claims": {
-    "C1": "many activities can let humans relax",
-    "C2": "exercise play a crucial role in ameliorating physical health",
-    "C3": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks",
-    "C4": "Sports activities can improve mental health"
-  },
-  "Premises": {
-    "P1": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system",
-    "P2": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body",
-    "P3": "The latter one is of particular importance because nowadays more and more people are suffer from obesity",
-    "P4": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises",
-    "P5": "good exercises can often successfully alleviating one's heavy burdens",
-    "P6": "This hormone can delight one's mind, creating positive feelings",
-    "P7": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many activities can let humans relax"
+    },
+    {
+      "ID": "C2",
+      "Text": "exercise play a crucial role in ameliorating physical health"
+    },
+    {
+      "ID": "C3",
+      "Text": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks"
+    },
+    {
+      "ID": "C4",
+      "Text": "Sports activities can improve mental health"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system"
+    },
+    {
+      "ID": "P2",
+      "Text": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body"
+    },
+    {
+      "ID": "P3",
+      "Text": "The latter one is of particular importance because nowadays more and more people are suffer from obesity"
+    },
+    {
+      "ID": "P4",
+      "Text": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises"
+    },
+    {
+      "ID": "P5",
+      "Text": "good exercises can often successfully alleviating one's heavy burdens"
+    },
+    {
+      "ID": "P6",
+      "Text": "This hormone can delight one's mind, creating positive feelings"
+    },
+    {
+      "ID": "P7",
+      "Text": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

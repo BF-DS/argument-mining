@@ -1,36 +1,114 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer to live with a roommate",
-    "MC2": "I prefer to live with a roommate, and I always will"
-  },
-  "Claims": {
-    "C1": "it saves me money, enables me to socialize, and allows me to get help",
-    "C2": "many people decide to live alone for various reasons",
-    "C3": "it offers me many advantages, such as less spending, more socializing, and more help",
-    "C4": "Living with a roommate saves me a lot of money",
-    "C5": "living with a roommate also enables me to socialize more easily",
-    "C6": "living with a roommate allows me to get help"
-  },
-  "Premises": {
-    "P1": "If you have roommates, you can split the rent and utilities among them",
-    "P2": "you can get more for less",
-    "P3": "last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly",
-    "P4": "I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills",
-    "P5": "It is always easier to socialize when you have a lot of people around you",
-    "P6": "You can invite your roommates' friends over to your room and have fun together",
-    "P7": "one night, my roommate, Millan, brought his friends along",
-    "P8": "Even though his friends and I were total strangers to each other, we quickly got to know each other",
-    "P9": "We soon found out that everyone loved playing video games",
-    "P10": "We played a video game called 'Halo' together all night, and became good friends",
-    "P11": "Living with a roommate made socializing much easier for me",
-    "P12": "It often is the case that your roommates have the skills or knowledge you need",
-    "P13": "When you run into a problem, you can ask your roommates if they can help",
-    "P14": "Some of them may have something to offer",
-    "P15": "when my computer mysteriously broke down, I dialed up the manufacturer and asked for help",
-    "P16": "They failed to give me any useful solutions",
-    "P17": "To my surprise, one of my roommates noticed my problems and offered to help",
-    "P18": "He was very good with computers, and he managed to fix the problem quickly"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer to live with a roommate"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I prefer to live with a roommate, and I always will"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it saves me money, enables me to socialize, and allows me to get help"
+    },
+    {
+      "ID": "C2",
+      "Text": "many people decide to live alone for various reasons"
+    },
+    {
+      "ID": "C3",
+      "Text": "it offers me many advantages, such as less spending, more socializing, and more help"
+    },
+    {
+      "ID": "C4",
+      "Text": "Living with a roommate saves me a lot of money"
+    },
+    {
+      "ID": "C5",
+      "Text": "living with a roommate also enables me to socialize more easily"
+    },
+    {
+      "ID": "C6",
+      "Text": "living with a roommate allows me to get help"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "If you have roommates, you can split the rent and utilities among them"
+    },
+    {
+      "ID": "P2",
+      "Text": "you can get more for less"
+    },
+    {
+      "ID": "P3",
+      "Text": "last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly"
+    },
+    {
+      "ID": "P4",
+      "Text": "I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills"
+    },
+    {
+      "ID": "P5",
+      "Text": "It is always easier to socialize when you have a lot of people around you"
+    },
+    {
+      "ID": "P6",
+      "Text": "You can invite your roommates' friends over to your room and have fun together"
+    },
+    {
+      "ID": "P7",
+      "Text": "one night, my roommate, Millan, brought his friends along"
+    },
+    {
+      "ID": "P8",
+      "Text": "Even though his friends and I were total strangers to each other, we quickly got to know each other"
+    },
+    {
+      "ID": "P9",
+      "Text": "We soon found out that everyone loved playing video games"
+    },
+    {
+      "ID": "P10",
+      "Text": "We played a video game called 'Halo' together all night, and became good friends"
+    },
+    {
+      "ID": "P11",
+      "Text": "Living with a roommate made socializing much easier for me"
+    },
+    {
+      "ID": "P12",
+      "Text": "It often is the case that your roommates have the skills or knowledge you need"
+    },
+    {
+      "ID": "P13",
+      "Text": "When you run into a problem, you can ask your roommates if they can help"
+    },
+    {
+      "ID": "P14",
+      "Text": "Some of them may have something to offer"
+    },
+    {
+      "ID": "P15",
+      "Text": "when my computer mysteriously broke down, I dialed up the manufacturer and asked for help"
+    },
+    {
+      "ID": "P16",
+      "Text": "They failed to give me any useful solutions"
+    },
+    {
+      "ID": "P17",
+      "Text": "To my surprise, one of my roommates noticed my problems and offered to help"
+    },
+    {
+      "ID": "P18",
+      "Text": "He was very good with computers, and he managed to fix the problem quickly"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

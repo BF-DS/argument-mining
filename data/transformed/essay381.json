@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "this trend reflects and enhances the high level of violence in society",
-    "MC2": "it will bring the higher level of violence"
-  },
-  "Claims": {
-    "C1": "being armed with guns in the police force is necessary",
-    "C2": "a society that its police force carries guns will be definitely seen as a highly violent one",
-    "C3": "Those are possibly the strongest evidences to determine a society suffering a high level of violence"
-  },
-  "Premises": {
-    "P1": "we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself",
-    "P2": "criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs",
-    "P3": "citizens in that society can be shot by both police and offenders accidentally",
-    "P4": "while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns",
-    "P5": "people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson",
-    "P6": "police force carries guns only in high crime societies"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "this trend reflects and enhances the high level of violence in society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it will bring the higher level of violence"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "being armed with guns in the police force is necessary"
+    },
+    {
+      "ID": "C2",
+      "Text": "a society that its police force carries guns will be definitely seen as a highly violent one"
+    },
+    {
+      "ID": "C3",
+      "Text": "Those are possibly the strongest evidences to determine a society suffering a high level of violence"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself"
+    },
+    {
+      "ID": "P2",
+      "Text": "criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs"
+    },
+    {
+      "ID": "P3",
+      "Text": "citizens in that society can be shot by both police and offenders accidentally"
+    },
+    {
+      "ID": "P4",
+      "Text": "while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns"
+    },
+    {
+      "ID": "P5",
+      "Text": "people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson"
+    },
+    {
+      "ID": "P6",
+      "Text": "police force carries guns only in high crime societies"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

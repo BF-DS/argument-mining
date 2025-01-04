@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "a balance between personal and professional life should be created by restricting maximum number of working hours",
-    "MC2": "I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies"
-  },
-  "Claims": {
-    "C1": "people working for extended hours have been found having adverse effects on their health and personal life",
-    "C2": "This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person",
-    "C3": "people; who prefer working longer hours, do not find time to focus on their health",
-    "C4": "these workaholic people do not spend time for the contribution of society by actively participating in any social campaign"
-  },
-  "Premises": {
-    "P1": "By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick",
-    "P2": "they become extensively addicted to their work and become workaholic type persons",
-    "P3": "The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life",
-    "P4": "they usually remain busy in their office",
-    "P5": "they do not find leisure time for such social activities",
-    "P6": "I would take my boss's example; he has been working for extended hours in office for many years",
-    "P7": "Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries",
-    "P8": "He started regretting afterwards and now trying to manage his work but it seems to be too late for him"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a balance between personal and professional life should be created by restricting maximum number of working hours"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "people working for extended hours have been found having adverse effects on their health and personal life"
+    },
+    {
+      "ID": "C2",
+      "Text": "This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person"
+    },
+    {
+      "ID": "C3",
+      "Text": "people; who prefer working longer hours, do not find time to focus on their health"
+    },
+    {
+      "ID": "C4",
+      "Text": "these workaholic people do not spend time for the contribution of society by actively participating in any social campaign"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick"
+    },
+    {
+      "ID": "P2",
+      "Text": "they become extensively addicted to their work and become workaholic type persons"
+    },
+    {
+      "ID": "P3",
+      "Text": "The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life"
+    },
+    {
+      "ID": "P4",
+      "Text": "they usually remain busy in their office"
+    },
+    {
+      "ID": "P5",
+      "Text": "they do not find leisure time for such social activities"
+    },
+    {
+      "ID": "P6",
+      "Text": "I would take my boss's example; he has been working for extended hours in office for many years"
+    },
+    {
+      "ID": "P7",
+      "Text": "Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries"
+    },
+    {
+      "ID": "P8",
+      "Text": "He started regretting afterwards and now trying to manage his work but it seems to be too late for him"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

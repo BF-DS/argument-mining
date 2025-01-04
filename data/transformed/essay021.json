@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "advertising is the major reason for high sales of a product",
-    "MC2": "high sales are obviously a reflection of the powerful advertisements"
-  },
-  "Claims": {
-    "C1": "The most effective way to convince consumers to purchase a product is through advertising",
-    "C2": "advertisers push the limits of creativity to dispose the consumers to purchase the product",
-    "C3": "Advertisement is the most effective way to create a well-known product",
-    "C4": "They make the product preferable"
-  },
-  "Premises": {
-    "P1": "it is not sufficient in itself",
-    "P2": "The product also should satisfy the needs of the consumers",
-    "P3": "We are mainly introduced to products through advertisements",
-    "P4": "When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases",
-    "P5": "Recently, there is a very creative advertisements of a soft drink product on TV",
-    "P6": "The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot",
-    "P7": "the number of that product being sold will increases",
-    "P8": "the more an advertisement of a product takes place in mass media, the more popular the product becomes",
-    "P9": "Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product",
-    "P10": "When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is",
-    "P11": "it also has to be affordable for the consumer",
-    "P12": "advertisements have undeniable affects on the society about the product being advertised"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "advertising is the major reason for high sales of a product"
+    },
+    {
+      "ID": "MC2",
+      "Text": "high sales are obviously a reflection of the powerful advertisements"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The most effective way to convince consumers to purchase a product is through advertising"
+    },
+    {
+      "ID": "C2",
+      "Text": "advertisers push the limits of creativity to dispose the consumers to purchase the product"
+    },
+    {
+      "ID": "C3",
+      "Text": "Advertisement is the most effective way to create a well-known product"
+    },
+    {
+      "ID": "C4",
+      "Text": "They make the product preferable"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is not sufficient in itself"
+    },
+    {
+      "ID": "P2",
+      "Text": "The product also should satisfy the needs of the consumers"
+    },
+    {
+      "ID": "P3",
+      "Text": "We are mainly introduced to products through advertisements"
+    },
+    {
+      "ID": "P4",
+      "Text": "When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases"
+    },
+    {
+      "ID": "P5",
+      "Text": "Recently, there is a very creative advertisements of a soft drink product on TV"
+    },
+    {
+      "ID": "P6",
+      "Text": "The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot"
+    },
+    {
+      "ID": "P7",
+      "Text": "the number of that product being sold will increases"
+    },
+    {
+      "ID": "P8",
+      "Text": "the more an advertisement of a product takes place in mass media, the more popular the product becomes"
+    },
+    {
+      "ID": "P9",
+      "Text": "Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product"
+    },
+    {
+      "ID": "P10",
+      "Text": "When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is"
+    },
+    {
+      "ID": "P11",
+      "Text": "it also has to be affordable for the consumer"
+    },
+    {
+      "ID": "P12",
+      "Text": "advertisements have undeniable affects on the society about the product being advertised"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

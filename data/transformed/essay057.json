@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "creative artists must be given the freedom to express their ideas without any restrictions",
-    "MC2": "artists should be given the freedom of expression"
-  },
-  "Claims": {
-    "C1": "Creativity originates in a free mind",
-    "C2": "Creative works help to create social awareness by giving a social message",
-    "C3": "innovative works makes people realize things in a peaceful way and peep into their own conscience",
-    "C4": "Like the media, artists should also be given the freedom to express their ideas freely",
-    "C5": "Mind can not work when it is chained in boundaries",
-    "C6": "Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws",
-    "C7": "Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose"
-  },
-  "Premises": {
-    "P1": "Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message",
-    "P2": "Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras",
-    "P3": "It helps to raise issues and criticize the wrong doings of the governments",
-    "P4": "Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue",
-    "P5": "This type of approach is a hurdle in promoting creative minds",
-    "P6": "creativity also gives aesthetic charm",
-    "P7": "Frank Zappa once said, \"Mind is like a parachute, it doesn't work if its not open\u201c",
-    "P8": "Restrictions would just curb the innovative ideas of the artists and would limit their brains",
-    "P9": "artists should also know not to hurt the sentiments of the people",
-    "P10": "Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "creative artists must be given the freedom to express their ideas without any restrictions"
+    },
+    {
+      "ID": "MC2",
+      "Text": "artists should be given the freedom of expression"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Creativity originates in a free mind"
+    },
+    {
+      "ID": "C2",
+      "Text": "Creative works help to create social awareness by giving a social message"
+    },
+    {
+      "ID": "C3",
+      "Text": "innovative works makes people realize things in a peaceful way and peep into their own conscience"
+    },
+    {
+      "ID": "C4",
+      "Text": "Like the media, artists should also be given the freedom to express their ideas freely"
+    },
+    {
+      "ID": "C5",
+      "Text": "Mind can not work when it is chained in boundaries"
+    },
+    {
+      "ID": "C6",
+      "Text": "Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws"
+    },
+    {
+      "ID": "C7",
+      "Text": "Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message"
+    },
+    {
+      "ID": "P2",
+      "Text": "Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras"
+    },
+    {
+      "ID": "P3",
+      "Text": "It helps to raise issues and criticize the wrong doings of the governments"
+    },
+    {
+      "ID": "P4",
+      "Text": "Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue"
+    },
+    {
+      "ID": "P5",
+      "Text": "This type of approach is a hurdle in promoting creative minds"
+    },
+    {
+      "ID": "P6",
+      "Text": "creativity also gives aesthetic charm"
+    },
+    {
+      "ID": "P7",
+      "Text": "Frank Zappa once said, \"Mind is like a parachute, it doesn't work if its not open\u201c"
+    },
+    {
+      "ID": "P8",
+      "Text": "Restrictions would just curb the innovative ideas of the artists and would limit their brains"
+    },
+    {
+      "ID": "P9",
+      "Text": "artists should also know not to hurt the sentiments of the people"
+    },
+    {
+      "ID": "P10",
+      "Text": "Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "they have other critical obligations to take, in order to make our society function in an ordered way"
-  },
-  "Claims": {
-    "C1": "all people who are able to work should pay tax to the government",
-    "C2": "citizens have other important responsibilities to fulfil apart from paying tax"
-  },
-  "Premises": {
-    "P1": "it is the most important source of government's revenue, which is mainly used to serve all citizens",
-    "P2": "a large proportion of the tax is spent on national defence and in maintaining social stability",
-    "P3": "every one can work and live in a peaceful environment",
-    "P4": "The tax is also used to pay the salaries of workers working in public service sectors, such as teachers and police officers",
-    "P5": "these workers do not produce profit directly",
-    "P6": "what they do is for the well-being of the whole society",
-    "P7": "there are impoverished or disabled people in every society, needing help and support from others",
-    "P8": "the government can provide some fund to ease their difficulties",
-    "P9": "such financial help is usually far from enough",
-    "P10": "aids from more capable or wealthier citizens are particularly crucial, which are a great complement to government support",
-    "P11": "Another responsibility all citizens should take is to maintain social stability together with the police force",
-    "P12": "There are criminals in every society, and the number of policemen the government can hire is limited",
-    "P13": "it is quite necessary for the local residents to take actions and ensure the safety of the communities, by doing things like reporting suspicious activities to the police department"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "they have other critical obligations to take, in order to make our society function in an ordered way"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "all people who are able to work should pay tax to the government"
+    },
+    {
+      "ID": "C2",
+      "Text": "citizens have other important responsibilities to fulfil apart from paying tax"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is the most important source of government's revenue, which is mainly used to serve all citizens"
+    },
+    {
+      "ID": "P2",
+      "Text": "a large proportion of the tax is spent on national defence and in maintaining social stability"
+    },
+    {
+      "ID": "P3",
+      "Text": "every one can work and live in a peaceful environment"
+    },
+    {
+      "ID": "P4",
+      "Text": "The tax is also used to pay the salaries of workers working in public service sectors, such as teachers and police officers"
+    },
+    {
+      "ID": "P5",
+      "Text": "these workers do not produce profit directly"
+    },
+    {
+      "ID": "P6",
+      "Text": "what they do is for the well-being of the whole society"
+    },
+    {
+      "ID": "P7",
+      "Text": "there are impoverished or disabled people in every society, needing help and support from others"
+    },
+    {
+      "ID": "P8",
+      "Text": "the government can provide some fund to ease their difficulties"
+    },
+    {
+      "ID": "P9",
+      "Text": "such financial help is usually far from enough"
+    },
+    {
+      "ID": "P10",
+      "Text": "aids from more capable or wealthier citizens are particularly crucial, which are a great complement to government support"
+    },
+    {
+      "ID": "P11",
+      "Text": "Another responsibility all citizens should take is to maintain social stability together with the police force"
+    },
+    {
+      "ID": "P12",
+      "Text": "There are criminals in every society, and the number of policemen the government can hire is limited"
+    },
+    {
+      "ID": "P13",
+      "Text": "it is quite necessary for the local residents to take actions and ensure the safety of the communities, by doing things like reporting suspicious activities to the police department"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

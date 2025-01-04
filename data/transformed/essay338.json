@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "the merits of email and messaging have reduced amount of ours time to communicate to",
-    "MC2": "using of these soft devices have cut much of time people need to see with their relatives"
-  },
-  "Claims": {
-    "C1": "we need to make sure for the real gathering with our colleague",
-    "C2": "it is had some demerits on their social lives",
-    "C3": "some people become geek, as too much of using email and messaging, without direct contacts",
-    "C4": "there are other ways like social media that they could to use it for meeting theirs buddies such as Twitter and Facebook, also make the communication become feasible and limitless of time"
-  },
-  "Premises": {
-    "P1": "they do not do much social live interactions with others",
-    "P2": "It caused they were swept away by virtual atmosphere",
-    "P3": "people have had own minded to keep connection with their friends as a good relationship, meet them and talk by face to face directly",
-    "P4": "using of these facilities has influenced netizens to keep themselves becoming unsociable",
-    "P5": "they constantly use these kinds of electronic letter for making fellowship or just continuing theirs what they already had"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the merits of email and messaging have reduced amount of ours time to communicate to"
+    },
+    {
+      "ID": "MC2",
+      "Text": "using of these soft devices have cut much of time people need to see with their relatives"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "we need to make sure for the real gathering with our colleague"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is had some demerits on their social lives"
+    },
+    {
+      "ID": "C3",
+      "Text": "some people become geek, as too much of using email and messaging, without direct contacts"
+    },
+    {
+      "ID": "C4",
+      "Text": "there are other ways like social media that they could to use it for meeting theirs buddies such as Twitter and Facebook, also make the communication become feasible and limitless of time"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they do not do much social live interactions with others"
+    },
+    {
+      "ID": "P2",
+      "Text": "It caused they were swept away by virtual atmosphere"
+    },
+    {
+      "ID": "P3",
+      "Text": "people have had own minded to keep connection with their friends as a good relationship, meet them and talk by face to face directly"
+    },
+    {
+      "ID": "P4",
+      "Text": "using of these facilities has influenced netizens to keep themselves becoming unsociable"
+    },
+    {
+      "ID": "P5",
+      "Text": "they constantly use these kinds of electronic letter for making fellowship or just continuing theirs what they already had"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

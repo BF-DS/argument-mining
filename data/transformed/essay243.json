@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating",
-    "MC2": "e-mail is the greatest way for major people to use"
-  },
-  "Claims": {
-    "C1": "e-mail has been a great way of communication",
-    "C2": "writing e-mail helps people express honestly",
-    "C3": "E-mail helps me arrange my idea perfectly and make it persuasive",
-    "C4": "Its convenience saves our time"
-  },
-  "Premises": {
-    "P1": "You can talk to others from thousands mile",
-    "P2": "if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact",
-    "P3": "We will never have to worry if our mails will be sent to the right address",
-    "P4": "If the address is wrong, then you will know right away",
-    "P5": "e-mail doesn't take too much time: just a click",
-    "P6": "e-mail will be a good tool to help me speak out",
-    "P7": "the face-to-face conversations make them feel stupid",
-    "P8": "Sometimes, their ideas are not expressed as exactly as they expect",
-    "P9": "I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do",
-    "P10": "She will just read my e-mail instead of listening to my voice which can make her annoyed",
-    "P11": "I don't have to worry about any other thing can make my opinion become unpersuasive",
-    "P12": "every communication needs fluency",
-    "P13": "people can understand each other exactly and remember it for a long time",
-    "P14": "Voice email or face-to-face conversations sometimes make reserve people feel not very confident",
-    "P15": "when I face my parents, I can't speak out every idea and express consecutively",
-    "P16": "They may stop me, speak something against it and that makes me forget what I want to say",
-    "P17": "Anyone can meet this problem once in any conversation"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating"
+    },
+    {
+      "ID": "MC2",
+      "Text": "e-mail is the greatest way for major people to use"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "e-mail has been a great way of communication"
+    },
+    {
+      "ID": "C2",
+      "Text": "writing e-mail helps people express honestly"
+    },
+    {
+      "ID": "C3",
+      "Text": "E-mail helps me arrange my idea perfectly and make it persuasive"
+    },
+    {
+      "ID": "C4",
+      "Text": "Its convenience saves our time"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "You can talk to others from thousands mile"
+    },
+    {
+      "ID": "P2",
+      "Text": "if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact"
+    },
+    {
+      "ID": "P3",
+      "Text": "We will never have to worry if our mails will be sent to the right address"
+    },
+    {
+      "ID": "P4",
+      "Text": "If the address is wrong, then you will know right away"
+    },
+    {
+      "ID": "P5",
+      "Text": "e-mail doesn't take too much time: just a click"
+    },
+    {
+      "ID": "P6",
+      "Text": "e-mail will be a good tool to help me speak out"
+    },
+    {
+      "ID": "P7",
+      "Text": "the face-to-face conversations make them feel stupid"
+    },
+    {
+      "ID": "P8",
+      "Text": "Sometimes, their ideas are not expressed as exactly as they expect"
+    },
+    {
+      "ID": "P9",
+      "Text": "I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do"
+    },
+    {
+      "ID": "P10",
+      "Text": "She will just read my e-mail instead of listening to my voice which can make her annoyed"
+    },
+    {
+      "ID": "P11",
+      "Text": "I don't have to worry about any other thing can make my opinion become unpersuasive"
+    },
+    {
+      "ID": "P12",
+      "Text": "every communication needs fluency"
+    },
+    {
+      "ID": "P13",
+      "Text": "people can understand each other exactly and remember it for a long time"
+    },
+    {
+      "ID": "P14",
+      "Text": "Voice email or face-to-face conversations sometimes make reserve people feel not very confident"
+    },
+    {
+      "ID": "P15",
+      "Text": "when I face my parents, I can't speak out every idea and express consecutively"
+    },
+    {
+      "ID": "P16",
+      "Text": "They may stop me, speak something against it and that makes me forget what I want to say"
+    },
+    {
+      "ID": "P17",
+      "Text": "Anyone can meet this problem once in any conversation"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "all languages should be preserved and developed as much as possible"
-  },
-  "Claims": {
-    "C1": "Governments should spend money on keeping and preserving these things for the rich diversity of cultures which make our world more interesting",
-    "C2": "there are some drawbacks from saving minority languages"
-  },
-  "Premises": {
-    "P1": "it is easy to realize that languages, especially oral language, are a quite major part of culture of a country",
-    "P2": "It helps people distinguish between nations and even regions in a country",
-    "P3": "The clearance of minority of language means that a national traditional, customs and habitants do not exist",
-    "P4": "it is a pride of the country with a rage of culture which is easy to educate people to love their country more",
-    "P5": "governments invest money on doing that, it is hard to gain the good results",
-    "P6": "there are a few people, particularly the youngsters, do not pay attention on collecting and studying those",
-    "P7": "These kinds of languages are usually difficult and unpopular",
-    "P8": "the preservations need a long time to gather, restore all information as well as train in the educational centre",
-    "P9": "If they do not try their best, their protection can be halted and waste of money"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "all languages should be preserved and developed as much as possible"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Governments should spend money on keeping and preserving these things for the rich diversity of cultures which make our world more interesting"
+    },
+    {
+      "ID": "C2",
+      "Text": "there are some drawbacks from saving minority languages"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is easy to realize that languages, especially oral language, are a quite major part of culture of a country"
+    },
+    {
+      "ID": "P2",
+      "Text": "It helps people distinguish between nations and even regions in a country"
+    },
+    {
+      "ID": "P3",
+      "Text": "The clearance of minority of language means that a national traditional, customs and habitants do not exist"
+    },
+    {
+      "ID": "P4",
+      "Text": "it is a pride of the country with a rage of culture which is easy to educate people to love their country more"
+    },
+    {
+      "ID": "P5",
+      "Text": "governments invest money on doing that, it is hard to gain the good results"
+    },
+    {
+      "ID": "P6",
+      "Text": "there are a few people, particularly the youngsters, do not pay attention on collecting and studying those"
+    },
+    {
+      "ID": "P7",
+      "Text": "These kinds of languages are usually difficult and unpopular"
+    },
+    {
+      "ID": "P8",
+      "Text": "the preservations need a long time to gather, restore all information as well as train in the educational centre"
+    },
+    {
+      "ID": "P9",
+      "Text": "If they do not try their best, their protection can be halted and waste of money"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

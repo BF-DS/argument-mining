@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "technology makes children even more creative",
-    "MC2": "They kept researching new technology and became successful at a very young age"
-  },
-  "Claims": {
-    "C1": "technology may have some negative effects on children",
-    "C2": "technology may have negative effects on children",
-    "C3": "instead of interfering children's creativity, technology actually encourages children to learn and to create",
-    "C4": "The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things"
-  },
-  "Premises": {
-    "P1": "Technology has made life too easy for most children",
-    "P2": "In comfortable conditions, children may be satisfied with the world around them and refuse to make a change",
-    "P3": "technology inspires children to create new things",
-    "P4": "technology widen children's knowledge",
-    "P5": "when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works",
-    "P6": "Children are curious about everything around them",
-    "P7": "Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked",
-    "P8": "After he had figured out all the stuff, he then began to promote the computer",
-    "P9": "In the end, he successfully invented a computer that was easy to use and lightweight",
-    "P10": "In the past, children were only able to see things from one perspective",
-    "P11": "they will be able to learn about different cultures and different ways of thinking",
-    "P12": "with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends",
-    "P13": "Knowledge is the base of creativity",
-    "P14": "with the development of technology, increasingly more young people become obsessed with high-tech products"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "technology makes children even more creative"
+    },
+    {
+      "ID": "MC2",
+      "Text": "They kept researching new technology and became successful at a very young age"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "technology may have some negative effects on children"
+    },
+    {
+      "ID": "C2",
+      "Text": "technology may have negative effects on children"
+    },
+    {
+      "ID": "C3",
+      "Text": "instead of interfering children's creativity, technology actually encourages children to learn and to create"
+    },
+    {
+      "ID": "C4",
+      "Text": "The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Technology has made life too easy for most children"
+    },
+    {
+      "ID": "P2",
+      "Text": "In comfortable conditions, children may be satisfied with the world around them and refuse to make a change"
+    },
+    {
+      "ID": "P3",
+      "Text": "technology inspires children to create new things"
+    },
+    {
+      "ID": "P4",
+      "Text": "technology widen children's knowledge"
+    },
+    {
+      "ID": "P5",
+      "Text": "when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works"
+    },
+    {
+      "ID": "P6",
+      "Text": "Children are curious about everything around them"
+    },
+    {
+      "ID": "P7",
+      "Text": "Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked"
+    },
+    {
+      "ID": "P8",
+      "Text": "After he had figured out all the stuff, he then began to promote the computer"
+    },
+    {
+      "ID": "P9",
+      "Text": "In the end, he successfully invented a computer that was easy to use and lightweight"
+    },
+    {
+      "ID": "P10",
+      "Text": "In the past, children were only able to see things from one perspective"
+    },
+    {
+      "ID": "P11",
+      "Text": "they will be able to learn about different cultures and different ways of thinking"
+    },
+    {
+      "ID": "P12",
+      "Text": "with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends"
+    },
+    {
+      "ID": "P13",
+      "Text": "Knowledge is the base of creativity"
+    },
+    {
+      "ID": "P14",
+      "Text": "with the development of technology, increasingly more young people become obsessed with high-tech products"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

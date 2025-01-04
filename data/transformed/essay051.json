@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "universities should invest in libraries more than anywhere else",
-    "MC2": "libraries are more important"
-  },
-  "Claims": {
-    "C1": "They are critical part of universities and a good university has to have a modern library",
-    "C2": "All professors and students need to have a modern and well-equipped library",
-    "C3": "it does not have the same priority of library has",
-    "C4": "there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income",
-    "C5": "investing in libraries has a long-time result"
-  },
-  "Premises": {
-    "P1": "a library is vital and strategical part of a university",
-    "P2": "after internet, library plays an important role in research",
-    "P3": "sport is important",
-    "P4": "only small part of students attend sport activities",
-    "P5": "in my university number of students who use the library is much more than students do sports activities",
-    "P6": "universities support is vital for libraries",
-    "P7": "Most libraries are free not for students also for public",
-    "P8": "usually libraries do not have income",
-    "P9": "sport activities have a good income",
-    "P10": "every sport has different matches and for each match they have a lot sponsors",
-    "P11": "they have this chance to sell their important matches tickets",
-    "P12": "a library can buy a lot of new books or they can buy more computers",
-    "P13": "Most of the library facilities are stable and you can use them for a long time",
-    "P14": "in the far future, they become more valuable",
-    "P15": "most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "universities should invest in libraries more than anywhere else"
+    },
+    {
+      "ID": "MC2",
+      "Text": "libraries are more important"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "They are critical part of universities and a good university has to have a modern library"
+    },
+    {
+      "ID": "C2",
+      "Text": "All professors and students need to have a modern and well-equipped library"
+    },
+    {
+      "ID": "C3",
+      "Text": "it does not have the same priority of library has"
+    },
+    {
+      "ID": "C4",
+      "Text": "there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income"
+    },
+    {
+      "ID": "C5",
+      "Text": "investing in libraries has a long-time result"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "a library is vital and strategical part of a university"
+    },
+    {
+      "ID": "P2",
+      "Text": "after internet, library plays an important role in research"
+    },
+    {
+      "ID": "P3",
+      "Text": "sport is important"
+    },
+    {
+      "ID": "P4",
+      "Text": "only small part of students attend sport activities"
+    },
+    {
+      "ID": "P5",
+      "Text": "in my university number of students who use the library is much more than students do sports activities"
+    },
+    {
+      "ID": "P6",
+      "Text": "universities support is vital for libraries"
+    },
+    {
+      "ID": "P7",
+      "Text": "Most libraries are free not for students also for public"
+    },
+    {
+      "ID": "P8",
+      "Text": "usually libraries do not have income"
+    },
+    {
+      "ID": "P9",
+      "Text": "sport activities have a good income"
+    },
+    {
+      "ID": "P10",
+      "Text": "every sport has different matches and for each match they have a lot sponsors"
+    },
+    {
+      "ID": "P11",
+      "Text": "they have this chance to sell their important matches tickets"
+    },
+    {
+      "ID": "P12",
+      "Text": "a library can buy a lot of new books or they can buy more computers"
+    },
+    {
+      "ID": "P13",
+      "Text": "Most of the library facilities are stable and you can use them for a long time"
+    },
+    {
+      "ID": "P14",
+      "Text": "in the far future, they become more valuable"
+    },
+    {
+      "ID": "P15",
+      "Text": "most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "zoos have irreplaceable benefits in terms of animal preservation and children education",
-    "MC2": "zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the notion of protecting animals"
-  },
-  "Claims": {
-    "C1": "zoo is a good alternative choice for protecting animals",
-    "C2": "zoos afford a platform to education teenagers, helping to establish eco-friendly behavior towards animals",
-    "C3": "complained about the drawbacks of zoos are often heard"
-  },
-  "Premises": {
-    "P1": "some zoos are lack of systematic management which attributes to numerous wild animals die because of food shortage",
-    "P2": "being caged in the zoos for long render wildlife lost the ability to survive in nature where is full of cruel competition among various animals",
-    "P3": "our environment is damaged day by day due to the fact that excessive pursuit of economic development at expense of eco-system, which pose a great threat to the survival of wild animals",
-    "P4": "various animals could be better protected by specialized staff",
-    "P5": "Once the animal got sick, professional vet will help them promptly",
-    "P6": "Thanks to the considerate care, the diversity of wild animal could be guaranteed",
-    "P7": "In the zoos, even though wild animals are caged, they have capability to walk in a limited area",
-    "P8": "When children pay a visit to the zoos, they still could observe the eating behavior or leisure activities among animals, which would definitely enrich their knowledge associated with different animals",
-    "P9": "children could acquire the information regarding how to protect wild animals according to guided tour or volunteers"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "zoos have irreplaceable benefits in terms of animal preservation and children education"
+    },
+    {
+      "ID": "MC2",
+      "Text": "zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the notion of protecting animals"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "zoo is a good alternative choice for protecting animals"
+    },
+    {
+      "ID": "C2",
+      "Text": "zoos afford a platform to education teenagers, helping to establish eco-friendly behavior towards animals"
+    },
+    {
+      "ID": "C3",
+      "Text": "complained about the drawbacks of zoos are often heard"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "some zoos are lack of systematic management which attributes to numerous wild animals die because of food shortage"
+    },
+    {
+      "ID": "P2",
+      "Text": "being caged in the zoos for long render wildlife lost the ability to survive in nature where is full of cruel competition among various animals"
+    },
+    {
+      "ID": "P3",
+      "Text": "our environment is damaged day by day due to the fact that excessive pursuit of economic development at expense of eco-system, which pose a great threat to the survival of wild animals"
+    },
+    {
+      "ID": "P4",
+      "Text": "various animals could be better protected by specialized staff"
+    },
+    {
+      "ID": "P5",
+      "Text": "Once the animal got sick, professional vet will help them promptly"
+    },
+    {
+      "ID": "P6",
+      "Text": "Thanks to the considerate care, the diversity of wild animal could be guaranteed"
+    },
+    {
+      "ID": "P7",
+      "Text": "In the zoos, even though wild animals are caged, they have capability to walk in a limited area"
+    },
+    {
+      "ID": "P8",
+      "Text": "When children pay a visit to the zoos, they still could observe the eating behavior or leisure activities among animals, which would definitely enrich their knowledge associated with different animals"
+    },
+    {
+      "ID": "P9",
+      "Text": "children could acquire the information regarding how to protect wild animals according to guided tour or volunteers"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

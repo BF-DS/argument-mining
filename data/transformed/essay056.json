@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "it's a reasonable loss in globalization",
-    "MC2": "I'm totally convinced that the prevalent usage of English brings benefits to people and countries all around"
-  },
-  "Claims": {
-    "C1": "No one can deny the huge benefits of the trend that English is being accepted universally",
-    "C2": "the culture heritage and nation identity vanish"
-  },
-  "Premises": {
-    "P1": "communication between countries and cultures become convenient",
-    "P2": "In my country, English is a required course from elementary school",
-    "P3": "studying abroad is easy and becomes hot among youngsters",
-    "P4": "language obstacle is no longer a problem, which results in mutual understanding and trust between their mother land and the host country",
-    "P5": "enhances relationship and promotes international business",
-    "P6": "researchers, especially those who work on high-tech, would have wider range of references if they are good at English",
-    "P7": "Taking IT industry for an example, top technical science is published in English",
-    "P8": "It's neither to get a translated version of these articles, nor to always have a translator besides",
-    "P9": "they have no choice but choosing English as a second language",
-    "P10": "English is making lesser-known languages disappear ever year",
-    "P11": "this is really short-sighted, ignoring the rapid development of native economy and society"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it's a reasonable loss in globalization"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I'm totally convinced that the prevalent usage of English brings benefits to people and countries all around"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "No one can deny the huge benefits of the trend that English is being accepted universally"
+    },
+    {
+      "ID": "C2",
+      "Text": "the culture heritage and nation identity vanish"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "communication between countries and cultures become convenient"
+    },
+    {
+      "ID": "P2",
+      "Text": "In my country, English is a required course from elementary school"
+    },
+    {
+      "ID": "P3",
+      "Text": "studying abroad is easy and becomes hot among youngsters"
+    },
+    {
+      "ID": "P4",
+      "Text": "language obstacle is no longer a problem, which results in mutual understanding and trust between their mother land and the host country"
+    },
+    {
+      "ID": "P5",
+      "Text": "enhances relationship and promotes international business"
+    },
+    {
+      "ID": "P6",
+      "Text": "researchers, especially those who work on high-tech, would have wider range of references if they are good at English"
+    },
+    {
+      "ID": "P7",
+      "Text": "Taking IT industry for an example, top technical science is published in English"
+    },
+    {
+      "ID": "P8",
+      "Text": "It's neither to get a translated version of these articles, nor to always have a translator besides"
+    },
+    {
+      "ID": "P9",
+      "Text": "they have no choice but choosing English as a second language"
+    },
+    {
+      "ID": "P10",
+      "Text": "English is making lesser-known languages disappear ever year"
+    },
+    {
+      "ID": "P11",
+      "Text": "this is really short-sighted, ignoring the rapid development of native economy and society"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

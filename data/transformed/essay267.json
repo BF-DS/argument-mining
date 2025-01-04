@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "Television has destroyed communication among friends and family",
-    "MC2": "television has destroyed communication among friends and family as soon as television become a priority, spend a lot of time watching it and eat in front of the television"
-  },
-  "Claims": {
-    "C1": "Some People spend a lot of time watching television, others even eat watching television, and some others make of this media a priority",
-    "C2": "television is a great tool to learn, entertain and inform what is happening",
-    "C3": "some people spend a lot of time watching television",
-    "C4": "Another way television has destroyed communication is when some people cannot even seat at the table and have dinner with the family",
-    "C5": "some people make the television a priority"
-  },
-  "Premises": {
-    "P1": "she is used to his habit that she prefers to write him an email",
-    "P2": "Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials",
-    "P3": "Instead of spend time with family and friends, they like to seat on a chair for hours",
-    "P4": "Time with the family is gold, some people have to realize that and take quality of time to talk to them",
-    "P5": "I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours",
-    "P6": "This is the time, when if they have children, they can share everything about school, a project and even concerns",
-    "P7": "when there is a dinner with friends, some people do not have a fluid conversation",
-    "P8": "the television is again in between them",
-    "P9": "When family or friends gather together to have a good time eating and talking, this is not the reality in some cases",
-    "P10": "I remember a friend told me one day that because she was watching a telenovela I could not go to her house a certain time during the night"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "Television has destroyed communication among friends and family"
+    },
+    {
+      "ID": "MC2",
+      "Text": "television has destroyed communication among friends and family as soon as television become a priority, spend a lot of time watching it and eat in front of the television"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Some People spend a lot of time watching television, others even eat watching television, and some others make of this media a priority"
+    },
+    {
+      "ID": "C2",
+      "Text": "television is a great tool to learn, entertain and inform what is happening"
+    },
+    {
+      "ID": "C3",
+      "Text": "some people spend a lot of time watching television"
+    },
+    {
+      "ID": "C4",
+      "Text": "Another way television has destroyed communication is when some people cannot even seat at the table and have dinner with the family"
+    },
+    {
+      "ID": "C5",
+      "Text": "some people make the television a priority"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "she is used to his habit that she prefers to write him an email"
+    },
+    {
+      "ID": "P2",
+      "Text": "Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials"
+    },
+    {
+      "ID": "P3",
+      "Text": "Instead of spend time with family and friends, they like to seat on a chair for hours"
+    },
+    {
+      "ID": "P4",
+      "Text": "Time with the family is gold, some people have to realize that and take quality of time to talk to them"
+    },
+    {
+      "ID": "P5",
+      "Text": "I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours"
+    },
+    {
+      "ID": "P6",
+      "Text": "This is the time, when if they have children, they can share everything about school, a project and even concerns"
+    },
+    {
+      "ID": "P7",
+      "Text": "when there is a dinner with friends, some people do not have a fluid conversation"
+    },
+    {
+      "ID": "P8",
+      "Text": "the television is again in between them"
+    },
+    {
+      "ID": "P9",
+      "Text": "When family or friends gather together to have a good time eating and talking, this is not the reality in some cases"
+    },
+    {
+      "ID": "P10",
+      "Text": "I remember a friend told me one day that because she was watching a telenovela I could not go to her house a certain time during the night"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

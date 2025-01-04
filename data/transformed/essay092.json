@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "fashion trends have a more essential role to play in people's lives than personal dressing styles",
-    "MC2": "people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes"
-  },
-  "Claims": {
-    "C1": "creative design talents can value their own dressing ideas, developing their own fashion styles as they like",
-    "C2": "following fashion trends enables people to keep up with the world's latest transformations, which is of vital importance if we consider the fact that people are living in a global village today",
-    "C3": "Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles",
-    "C4": "the world would look monotonous"
-  },
-  "Premises": {
-    "P1": "When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world",
-    "P2": "if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds",
-    "P3": "they might fall behind shortly",
-    "P4": "people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information",
-    "P5": "following fashion trends constantly may undermine individuals' personalities",
-    "P6": "Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "fashion trends have a more essential role to play in people's lives than personal dressing styles"
+    },
+    {
+      "ID": "MC2",
+      "Text": "people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "creative design talents can value their own dressing ideas, developing their own fashion styles as they like"
+    },
+    {
+      "ID": "C2",
+      "Text": "following fashion trends enables people to keep up with the world's latest transformations, which is of vital importance if we consider the fact that people are living in a global village today"
+    },
+    {
+      "ID": "C3",
+      "Text": "Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles"
+    },
+    {
+      "ID": "C4",
+      "Text": "the world would look monotonous"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world"
+    },
+    {
+      "ID": "P2",
+      "Text": "if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds"
+    },
+    {
+      "ID": "P3",
+      "Text": "they might fall behind shortly"
+    },
+    {
+      "ID": "P4",
+      "Text": "people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information"
+    },
+    {
+      "ID": "P5",
+      "Text": "following fashion trends constantly may undermine individuals' personalities"
+    },
+    {
+      "ID": "P6",
+      "Text": "Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

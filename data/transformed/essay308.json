@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer to spend my entire live in one place which is my hometown",
-    "MC2": "staying in one place is better than moving number of places"
-  },
-  "Claims": {
-    "C1": "In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful",
-    "C2": "If anyone needs help, his neighbor will help as much as possible",
-    "C3": "I want to live here",
-    "C4": "I also love the environment in here",
-    "C5": "Moving some places can give to you a lot of experiences"
-  },
-  "Premises": {
-    "P1": "Nowhere else can give me some people like in here",
-    "P2": "In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun",
-    "P3": "Every people in my town have known each others, and we have good relationships",
-    "P4": "We have large streets but few cars",
-    "P5": "we can move easily to anywhere",
-    "P6": "Last week, I went to the city center to meet my friends",
-    "P7": "The traffic in the city was too crowed",
-    "P8": "I have to wait for an hour to go to my friend house",
-    "P9": "I love the traffic system in here",
-    "P10": "I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town",
-    "P11": "There were a lot of people",
-    "P12": "the environment can't be keep clean",
-    "P13": "living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer to spend my entire live in one place which is my hometown"
+    },
+    {
+      "ID": "MC2",
+      "Text": "staying in one place is better than moving number of places"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful"
+    },
+    {
+      "ID": "C2",
+      "Text": "If anyone needs help, his neighbor will help as much as possible"
+    },
+    {
+      "ID": "C3",
+      "Text": "I want to live here"
+    },
+    {
+      "ID": "C4",
+      "Text": "I also love the environment in here"
+    },
+    {
+      "ID": "C5",
+      "Text": "Moving some places can give to you a lot of experiences"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Nowhere else can give me some people like in here"
+    },
+    {
+      "ID": "P2",
+      "Text": "In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun"
+    },
+    {
+      "ID": "P3",
+      "Text": "Every people in my town have known each others, and we have good relationships"
+    },
+    {
+      "ID": "P4",
+      "Text": "We have large streets but few cars"
+    },
+    {
+      "ID": "P5",
+      "Text": "we can move easily to anywhere"
+    },
+    {
+      "ID": "P6",
+      "Text": "Last week, I went to the city center to meet my friends"
+    },
+    {
+      "ID": "P7",
+      "Text": "The traffic in the city was too crowed"
+    },
+    {
+      "ID": "P8",
+      "Text": "I have to wait for an hour to go to my friend house"
+    },
+    {
+      "ID": "P9",
+      "Text": "I love the traffic system in here"
+    },
+    {
+      "ID": "P10",
+      "Text": "I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town"
+    },
+    {
+      "ID": "P11",
+      "Text": "There were a lot of people"
+    },
+    {
+      "ID": "P12",
+      "Text": "the environment can't be keep clean"
+    },
+    {
+      "ID": "P13",
+      "Text": "living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

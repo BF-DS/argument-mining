@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "the juries should at least know something about the criminals before coming to a conclusion",
-    "MC2": "the current way of the juries judging the case should be transformed and they should know the facts about the criminals they are dealing with"
-  },
-  "Claims": {
-    "C1": "they will be able to give a better and reliable as well as a fair judgment to the convicted",
-    "C2": "it would be easier for the juries to make a decision if they know about the past information about the criminal",
-    "C3": "the convicted will also receive a fair action",
-    "C4": "when the background of the convicted is 'dug' deeper and is revealed to mass of anonymous people, his privacy is being jeopardized"
-  },
-  "Premises": {
-    "P1": "knowing their background very well will enable the juries to analyze the crime before coming up with a judgment",
-    "P2": "take a person who has not murdered anyone but is suddenly found to be guilty",
-    "P3": "The juries will be able to know weather the individual committed the crime intentionally or due to circumstances by knowing the facts about the person",
-    "P4": "punishment can be given in accordance to the condition",
-    "P5": "exposing them to the past records of the criminal can give them more room to think rationally and finally put the pieces together in order to produce a more meaningful decision",
-    "P6": "the juries will have a sense of relief that they have come up with better conclusion based on plenty of evidences",
-    "P7": "juries are a group of people who have no or less knowledge regarding law",
-    "P8": "a fair trial can be achieved",
-    "P9": "If finally he is proven innocent, he may feel embarrassed to face the public",
-    "P10": "the crimes done by criminals should be brought to light and the public should be aware of it so that they will not become a victim as well"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the juries should at least know something about the criminals before coming to a conclusion"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the current way of the juries judging the case should be transformed and they should know the facts about the criminals they are dealing with"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they will be able to give a better and reliable as well as a fair judgment to the convicted"
+    },
+    {
+      "ID": "C2",
+      "Text": "it would be easier for the juries to make a decision if they know about the past information about the criminal"
+    },
+    {
+      "ID": "C3",
+      "Text": "the convicted will also receive a fair action"
+    },
+    {
+      "ID": "C4",
+      "Text": "when the background of the convicted is 'dug' deeper and is revealed to mass of anonymous people, his privacy is being jeopardized"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "knowing their background very well will enable the juries to analyze the crime before coming up with a judgment"
+    },
+    {
+      "ID": "P2",
+      "Text": "take a person who has not murdered anyone but is suddenly found to be guilty"
+    },
+    {
+      "ID": "P3",
+      "Text": "The juries will be able to know weather the individual committed the crime intentionally or due to circumstances by knowing the facts about the person"
+    },
+    {
+      "ID": "P4",
+      "Text": "punishment can be given in accordance to the condition"
+    },
+    {
+      "ID": "P5",
+      "Text": "exposing them to the past records of the criminal can give them more room to think rationally and finally put the pieces together in order to produce a more meaningful decision"
+    },
+    {
+      "ID": "P6",
+      "Text": "the juries will have a sense of relief that they have come up with better conclusion based on plenty of evidences"
+    },
+    {
+      "ID": "P7",
+      "Text": "juries are a group of people who have no or less knowledge regarding law"
+    },
+    {
+      "ID": "P8",
+      "Text": "a fair trial can be achieved"
+    },
+    {
+      "ID": "P9",
+      "Text": "If finally he is proven innocent, he may feel embarrassed to face the public"
+    },
+    {
+      "ID": "P10",
+      "Text": "the crimes done by criminals should be brought to light and the public should be aware of it so that they will not become a victim as well"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

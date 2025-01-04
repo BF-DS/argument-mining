@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "people's health would therefore be affected negatively",
-    "MC2": "life in big cities can have negative effects on people's health"
-  },
-  "Claims": {
-    "C1": "life in those cities is good in some ways",
-    "C2": "Environment pollution one of the primary reasons why life in cities is becoming worse than ever before",
-    "C3": "living in such cities also means living in high crime rate areas",
-    "C4": "it is likely that many foods in big cities are not safe for people to eat or drink",
-    "C5": "Earning money for living becomes more difficult, living healthy in such places is getting harder also"
-  },
-  "Premises": {
-    "P1": "Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases",
-    "P2": "water pollution makes people's health become more critical",
-    "P3": "dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time",
-    "P4": "Recent investigations reveal that toxic foods are sold pervasively in today's market",
-    "P5": "overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness",
-    "P6": "Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "people's health would therefore be affected negatively"
+    },
+    {
+      "ID": "MC2",
+      "Text": "life in big cities can have negative effects on people's health"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "life in those cities is good in some ways"
+    },
+    {
+      "ID": "C2",
+      "Text": "Environment pollution one of the primary reasons why life in cities is becoming worse than ever before"
+    },
+    {
+      "ID": "C3",
+      "Text": "living in such cities also means living in high crime rate areas"
+    },
+    {
+      "ID": "C4",
+      "Text": "it is likely that many foods in big cities are not safe for people to eat or drink"
+    },
+    {
+      "ID": "C5",
+      "Text": "Earning money for living becomes more difficult, living healthy in such places is getting harder also"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases"
+    },
+    {
+      "ID": "P2",
+      "Text": "water pollution makes people's health become more critical"
+    },
+    {
+      "ID": "P3",
+      "Text": "dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time"
+    },
+    {
+      "ID": "P4",
+      "Text": "Recent investigations reveal that toxic foods are sold pervasively in today's market"
+    },
+    {
+      "ID": "P5",
+      "Text": "overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness"
+    },
+    {
+      "ID": "P6",
+      "Text": "Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

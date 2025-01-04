@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "financial aid is not the only way to assist poor countries",
-    "MC2": "it is disagreed that this can be the best and only way to assist developing countries"
-  },
-  "Claims": {
-    "C1": "it has been proven that developing education and improving national technology and science level are the path they have to undergo if they really want to alter current situation",
-    "C2": "if the developed countries are unwilling to share their successful experience in education, the developing countries will remain undeveloped, even though they gain a great deal of economic support",
-    "C3": "developing countries should not totally depend on the financial support from powerful countries"
-  },
-  "Premises": {
-    "P1": "the critical method to improve the condition of poor countries is to help them build up a complete educational system instead of financial aid",
-    "P2": "education is an essential part in development",
-    "P3": "most developing countries are lack of educational resources, such as experienced teachers, evaluation systems and teaching facilities, which is usually neglected by local authorities",
-    "P4": "some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market",
-    "P5": "they rarely provide local residents with any technological aid and even cause contamination in some areas"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "financial aid is not the only way to assist poor countries"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is disagreed that this can be the best and only way to assist developing countries"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it has been proven that developing education and improving national technology and science level are the path they have to undergo if they really want to alter current situation"
+    },
+    {
+      "ID": "C2",
+      "Text": "if the developed countries are unwilling to share their successful experience in education, the developing countries will remain undeveloped, even though they gain a great deal of economic support"
+    },
+    {
+      "ID": "C3",
+      "Text": "developing countries should not totally depend on the financial support from powerful countries"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the critical method to improve the condition of poor countries is to help them build up a complete educational system instead of financial aid"
+    },
+    {
+      "ID": "P2",
+      "Text": "education is an essential part in development"
+    },
+    {
+      "ID": "P3",
+      "Text": "most developing countries are lack of educational resources, such as experienced teachers, evaluation systems and teaching facilities, which is usually neglected by local authorities"
+    },
+    {
+      "ID": "P4",
+      "Text": "some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market"
+    },
+    {
+      "ID": "P5",
+      "Text": "they rarely provide local residents with any technological aid and even cause contamination in some areas"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "I do not think these disadvantages will outweigh the advantages brought by cell phones",
-    "MC2": "The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible"
-  },
-  "Claims": {
-    "C1": "it has a number of problems that should be well handled",
-    "C2": "almost everything that changed our lifestyle a lot will also cause some social problems",
-    "C3": "some harmful effects on our health are lethal",
-    "C4": "There is panic among people that their conversation can be intercepted by the third party",
-    "C5": "the mobile phone has become a dispensable multifunctional tools in people's daily life"
-  },
-  "Premises": {
-    "P1": "Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive",
-    "P2": "some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other",
-    "P3": "it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented",
-    "P4": "It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed",
-    "P5": "This possibility exists all the time",
-    "P6": "a more efficient and reliable system can also be invented to guarantee the private information of users",
-    "P7": "Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I do not think these disadvantages will outweigh the advantages brought by cell phones"
+    },
+    {
+      "ID": "MC2",
+      "Text": "The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it has a number of problems that should be well handled"
+    },
+    {
+      "ID": "C2",
+      "Text": "almost everything that changed our lifestyle a lot will also cause some social problems"
+    },
+    {
+      "ID": "C3",
+      "Text": "some harmful effects on our health are lethal"
+    },
+    {
+      "ID": "C4",
+      "Text": "There is panic among people that their conversation can be intercepted by the third party"
+    },
+    {
+      "ID": "C5",
+      "Text": "the mobile phone has become a dispensable multifunctional tools in people's daily life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive"
+    },
+    {
+      "ID": "P2",
+      "Text": "some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other"
+    },
+    {
+      "ID": "P3",
+      "Text": "it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented"
+    },
+    {
+      "ID": "P4",
+      "Text": "It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed"
+    },
+    {
+      "ID": "P5",
+      "Text": "This possibility exists all the time"
+    },
+    {
+      "ID": "P6",
+      "Text": "a more efficient and reliable system can also be invented to guarantee the private information of users"
+    },
+    {
+      "ID": "P7",
+      "Text": "Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

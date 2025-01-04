@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "other prefer to be surrounded by a large number of friends",
-    "MC2": "spending time with a large number of friends can add more to one's life"
-  },
-  "Claims": {
-    "C1": "staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences",
-    "C2": "a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded",
-    "C3": "When you have just few close friends, on one hand you develop a more intimate relationship with them and you feel you can trust them more",
-    "C4": "while differences give the opportunity to learn, they can also mean that sometimes it can be difficult to reach an agreement"
-  },
-  "Premises": {
-    "P1": "among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before",
-    "P2": "if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages",
-    "P3": "they often will give you viewpoints not so different from yours, adding less to your experience",
-    "P4": "This would not happen or at least would happen rarely if one decides to spend time with one or two close friends",
-    "P5": "in this case it is more likely that interests and preferences are the same"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "other prefer to be surrounded by a large number of friends"
+    },
+    {
+      "ID": "MC2",
+      "Text": "spending time with a large number of friends can add more to one's life"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences"
+    },
+    {
+      "ID": "C2",
+      "Text": "a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded"
+    },
+    {
+      "ID": "C3",
+      "Text": "When you have just few close friends, on one hand you develop a more intimate relationship with them and you feel you can trust them more"
+    },
+    {
+      "ID": "C4",
+      "Text": "while differences give the opportunity to learn, they can also mean that sometimes it can be difficult to reach an agreement"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before"
+    },
+    {
+      "ID": "P2",
+      "Text": "if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages"
+    },
+    {
+      "ID": "P3",
+      "Text": "they often will give you viewpoints not so different from yours, adding less to your experience"
+    },
+    {
+      "ID": "P4",
+      "Text": "This would not happen or at least would happen rarely if one decides to spend time with one or two close friends"
+    },
+    {
+      "ID": "P5",
+      "Text": "in this case it is more likely that interests and preferences are the same"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

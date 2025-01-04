@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "this great invention in the 21st century causes many problems in our society",
-    "MC2": "it also gives rise to many social problems such as children's social skills and their mental health"
-  },
-  "Claims": {
-    "C1": "mobile phones make our communication faster",
-    "C2": "it is harmful for us to use mobile phones frequently",
-    "C3": "the growing number of mobiles games will impact their mental development",
-    "C4": "mobile phones have shortened the distance of communication"
-  },
-  "Premises": {
-    "P1": "as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills",
-    "P2": "continuous use of mobile phones may also damage children's eyesight and physical posture",
-    "P3": "spending too much time on mobiles phones many exert an adverse effect on our social skills",
-    "P4": "there many game applications available online and many of them are quite aggressive in nature",
-    "P5": "In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors",
-    "P6": "frequent conflicts may occur during communication",
-    "P7": "as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge",
-    "P8": "Mobile phones , such as smart phones, has made our communication easy and convenience"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "this great invention in the 21st century causes many problems in our society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it also gives rise to many social problems such as children's social skills and their mental health"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "mobile phones make our communication faster"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is harmful for us to use mobile phones frequently"
+    },
+    {
+      "ID": "C3",
+      "Text": "the growing number of mobiles games will impact their mental development"
+    },
+    {
+      "ID": "C4",
+      "Text": "mobile phones have shortened the distance of communication"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills"
+    },
+    {
+      "ID": "P2",
+      "Text": "continuous use of mobile phones may also damage children's eyesight and physical posture"
+    },
+    {
+      "ID": "P3",
+      "Text": "spending too much time on mobiles phones many exert an adverse effect on our social skills"
+    },
+    {
+      "ID": "P4",
+      "Text": "there many game applications available online and many of them are quite aggressive in nature"
+    },
+    {
+      "ID": "P5",
+      "Text": "In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors"
+    },
+    {
+      "ID": "P6",
+      "Text": "frequent conflicts may occur during communication"
+    },
+    {
+      "ID": "P7",
+      "Text": "as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge"
+    },
+    {
+      "ID": "P8",
+      "Text": "Mobile phones , such as smart phones, has made our communication easy and convenience"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

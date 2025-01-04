@@ -1,35 +1,110 @@
 {
-  "MajorClaims": {
-    "MC1": "Many circumstances that I experienced change the way I think",
-    "MC2": "experiences that shape my thinking and the way to live my life are teach me to be a better person"
-  },
-  "Claims": {
-    "C1": "These experiences taught me to change my life to be a better person",
-    "C2": "There are many experiences that are improve my life in many way",
-    "C3": "studying in university taught me to be more prudent person to solve problems",
-    "C4": "Some experiences could teach me the way to take care of myself",
-    "C5": "experiences are also change to plan for my future life"
-  },
-  "Premises": {
-    "P1": "I could find a better way to solve problems",
-    "P2": "experiences could shape me to be more aware about my health",
-    "P3": "these experiences could make me to make plan for my future life",
-    "P4": "I could improve the way that I solve problems, improve how I take care of my health, and improve to plan my life for future",
-    "P5": "in math class, the way that we learnt to find an answer by doing step by step",
-    "P6": "Start with find cause of problem and the way to do research to solve the problem",
-    "P7": "I could adapt this method to use my real life",
-    "P8": "When I want to go to somewhere, I try to find the way to reach to destination",
-    "P9": "Which ways are shortest and which ways are less consume my time",
-    "P10": "I could find a better way to solve problems",
-    "P11": "This experience teach me to aware my health",
-    "P12": "reading and listening the news about choosing a good diet are the way to keep myself are more healthy",
-    "P13": "I am always buy a quality food such as organic food",
-    "P14": "This food are not have chemical",
-    "P15": "I can have a good health",
-    "P16": "This experience change me to concern about making plan for my future life",
-    "P17": "I read about saving money for my retire is a good plan for my life",
-    "P18": "I start changing myself from spending many thing that I want to saving money for my entire life"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "Many circumstances that I experienced change the way I think"
+    },
+    {
+      "ID": "MC2",
+      "Text": "experiences that shape my thinking and the way to live my life are teach me to be a better person"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "These experiences taught me to change my life to be a better person"
+    },
+    {
+      "ID": "C2",
+      "Text": "There are many experiences that are improve my life in many way"
+    },
+    {
+      "ID": "C3",
+      "Text": "studying in university taught me to be more prudent person to solve problems"
+    },
+    {
+      "ID": "C4",
+      "Text": "Some experiences could teach me the way to take care of myself"
+    },
+    {
+      "ID": "C5",
+      "Text": "experiences are also change to plan for my future life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "I could find a better way to solve problems"
+    },
+    {
+      "ID": "P2",
+      "Text": "experiences could shape me to be more aware about my health"
+    },
+    {
+      "ID": "P3",
+      "Text": "these experiences could make me to make plan for my future life"
+    },
+    {
+      "ID": "P4",
+      "Text": "I could improve the way that I solve problems, improve how I take care of my health, and improve to plan my life for future"
+    },
+    {
+      "ID": "P5",
+      "Text": "in math class, the way that we learnt to find an answer by doing step by step"
+    },
+    {
+      "ID": "P6",
+      "Text": "Start with find cause of problem and the way to do research to solve the problem"
+    },
+    {
+      "ID": "P7",
+      "Text": "I could adapt this method to use my real life"
+    },
+    {
+      "ID": "P8",
+      "Text": "When I want to go to somewhere, I try to find the way to reach to destination"
+    },
+    {
+      "ID": "P9",
+      "Text": "Which ways are shortest and which ways are less consume my time"
+    },
+    {
+      "ID": "P10",
+      "Text": "I could find a better way to solve problems"
+    },
+    {
+      "ID": "P11",
+      "Text": "This experience teach me to aware my health"
+    },
+    {
+      "ID": "P12",
+      "Text": "reading and listening the news about choosing a good diet are the way to keep myself are more healthy"
+    },
+    {
+      "ID": "P13",
+      "Text": "I am always buy a quality food such as organic food"
+    },
+    {
+      "ID": "P14",
+      "Text": "This food are not have chemical"
+    },
+    {
+      "ID": "P15",
+      "Text": "I can have a good health"
+    },
+    {
+      "ID": "P16",
+      "Text": "This experience change me to concern about making plan for my future life"
+    },
+    {
+      "ID": "P17",
+      "Text": "I read about saving money for my retire is a good plan for my life"
+    },
+    {
+      "ID": "P18",
+      "Text": "I start changing myself from spending many thing that I want to saving money for my entire life"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

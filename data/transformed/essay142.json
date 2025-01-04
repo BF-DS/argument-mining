@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "the advanced medical care brings with it more benefits than disadvantages",
-    "MC2": "the development of the health care system helps people have a better life"
-  },
-  "Claims": {
-    "C1": "the increase in life expectancy has some pressure on the Medicare system",
-    "C2": "the improvement of medical care makes a better life for all people",
-    "C3": "The main advantage of high-tech medical care is that people are better taken care so that they have a good health",
-    "C4": "the increase in life expectancy puts a high pressure on the economic system",
-    "C5": "It helps people build a sustainable society where people can live a happy life when they are old"
-  },
-  "Premises": {
-    "P1": "They can contribute effectively to the development of the economy",
-    "P2": "healthy workers can create more productivity",
-    "P3": "they do not have to spend more time in health checking or treatment",
-    "P4": "this saves an amount of time as well as cost",
-    "P5": "a community with the elderly who have a good health has a major role to play in a sustainable development of a society",
-    "P6": "young people will be happy as their parents, grandparents are healthy",
-    "P7": "more pension have to spend for Medicare instead of investing in other sectors of the economic system",
-    "P8": "the capital that spend on taking care the elderly is contributed by these people during their working time",
-    "P9": "they are worth to have good care",
-    "P10": "They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the advanced medical care brings with it more benefits than disadvantages"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the development of the health care system helps people have a better life"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the increase in life expectancy has some pressure on the Medicare system"
+    },
+    {
+      "ID": "C2",
+      "Text": "the improvement of medical care makes a better life for all people"
+    },
+    {
+      "ID": "C3",
+      "Text": "The main advantage of high-tech medical care is that people are better taken care so that they have a good health"
+    },
+    {
+      "ID": "C4",
+      "Text": "the increase in life expectancy puts a high pressure on the economic system"
+    },
+    {
+      "ID": "C5",
+      "Text": "It helps people build a sustainable society where people can live a happy life when they are old"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They can contribute effectively to the development of the economy"
+    },
+    {
+      "ID": "P2",
+      "Text": "healthy workers can create more productivity"
+    },
+    {
+      "ID": "P3",
+      "Text": "they do not have to spend more time in health checking or treatment"
+    },
+    {
+      "ID": "P4",
+      "Text": "this saves an amount of time as well as cost"
+    },
+    {
+      "ID": "P5",
+      "Text": "a community with the elderly who have a good health has a major role to play in a sustainable development of a society"
+    },
+    {
+      "ID": "P6",
+      "Text": "young people will be happy as their parents, grandparents are healthy"
+    },
+    {
+      "ID": "P7",
+      "Text": "more pension have to spend for Medicare instead of investing in other sectors of the economic system"
+    },
+    {
+      "ID": "P8",
+      "Text": "the capital that spend on taking care the elderly is contributed by these people during their working time"
+    },
+    {
+      "ID": "P9",
+      "Text": "they are worth to have good care"
+    },
+    {
+      "ID": "P10",
+      "Text": "They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

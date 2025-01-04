@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "working at home is worse and less efficient than working in the office",
-    "MC2": "working in the office is obviously better than working at home in terms of efficiency"
-  },
-  "Claims": {
-    "C1": "while working in the office, people can interact with their colleges instantly",
-    "C2": "working at home has many disadvantages that will no doubt lower the efficiency of works",
-    "C3": "It not only has the advantage of working with colleges but also it provides a real working atmosphere that can never be grasped if people choose to work at home"
-  },
-  "Premises": {
-    "P1": "Think about the big project that a group is working on, if any group member has new idea about the project, he/she can assemble his/her colleges right away and discuss",
-    "P2": "They can either get help from colleges or discuss about the work together",
-    "P3": "It's more efficient and straight-forward than talking in the phone",
-    "P4": "if one\u2019s computer or Internet has any breakdown, he/she can call the MIS staff to fix",
-    "P5": "people are easily distracted while working at home",
-    "P6": "It's hard to concentrate on work if people can grab the TV remote or some junk foods right away",
-    "P7": "while people are working at home, there will be no one supervising them, thus raises the chance of loafing",
-    "P8": "people who work at home are more likely to miss the important events happening in the office, like some announcements from the boss"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "working at home is worse and less efficient than working in the office"
+    },
+    {
+      "ID": "MC2",
+      "Text": "working in the office is obviously better than working at home in terms of efficiency"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "while working in the office, people can interact with their colleges instantly"
+    },
+    {
+      "ID": "C2",
+      "Text": "working at home has many disadvantages that will no doubt lower the efficiency of works"
+    },
+    {
+      "ID": "C3",
+      "Text": "It not only has the advantage of working with colleges but also it provides a real working atmosphere that can never be grasped if people choose to work at home"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Think about the big project that a group is working on, if any group member has new idea about the project, he/she can assemble his/her colleges right away and discuss"
+    },
+    {
+      "ID": "P2",
+      "Text": "They can either get help from colleges or discuss about the work together"
+    },
+    {
+      "ID": "P3",
+      "Text": "It's more efficient and straight-forward than talking in the phone"
+    },
+    {
+      "ID": "P4",
+      "Text": "if one\u2019s computer or Internet has any breakdown, he/she can call the MIS staff to fix"
+    },
+    {
+      "ID": "P5",
+      "Text": "people are easily distracted while working at home"
+    },
+    {
+      "ID": "P6",
+      "Text": "It's hard to concentrate on work if people can grab the TV remote or some junk foods right away"
+    },
+    {
+      "ID": "P7",
+      "Text": "while people are working at home, there will be no one supervising them, thus raises the chance of loafing"
+    },
+    {
+      "ID": "P8",
+      "Text": "people who work at home are more likely to miss the important events happening in the office, like some announcements from the boss"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

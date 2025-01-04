@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "students can acquire university knowledge without the prerequisite of passing exam",
-    "MC2": "the university should allow the student to participate in the classed without passing the test"
-  },
-  "Claims": {
-    "C1": "not only is every students expert in every part of one subject but also it will reduce the student in the campus who leave uncultivated",
-    "C2": "the students are not constantly expert in every part of a subject",
-    "C3": "the university student may don't reach a high if the university allow student to participate in the class no matter whether they pass the test or not",
-    "C4": "if the university take the policy that no one can attend the classes without passing exam, students are highly likely to leave uncultivated"
-  },
-  "Premises": {
-    "P1": "I don't like electronics",
-    "P2": "electronics cannot always be seen in the real world",
-    "P3": "And I have had 0 in physics score when I study the electronics",
-    "P4": "But I constantly achieve 100 score when I study other part of the physics",
-    "P5": "And if I cannot attend the classes until I pass the exam of electronics, I could not pass the entire part of physics, and I will fail the exam over and over again",
-    "P6": "Luckily, in our university, you can attend the classes regardless of the score you reach",
-    "P7": "And I can study physics without consideration of my electronics",
-    "P8": "And at last, I took the electronics again and pass the exam",
-    "P9": "the benefit of free to access to the classes eclipse the issue of lower points",
-    "P10": "If one fail most of the exam, it means that he or she cannot participate in most of the classes",
-    "P11": "And the students will have nothing to do in the campus",
-    "P12": "he or she will play online games days and nights",
-    "P13": "The academic achievement will decline",
-    "P14": "this student will become a loser in the world",
-    "P15": "And all this is due to that the university don't permit them to attend the class",
-    "P16": "This is not the failure of the university but also the entire education system"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "students can acquire university knowledge without the prerequisite of passing exam"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the university should allow the student to participate in the classed without passing the test"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "not only is every students expert in every part of one subject but also it will reduce the student in the campus who leave uncultivated"
+    },
+    {
+      "ID": "C2",
+      "Text": "the students are not constantly expert in every part of a subject"
+    },
+    {
+      "ID": "C3",
+      "Text": "the university student may don't reach a high if the university allow student to participate in the class no matter whether they pass the test or not"
+    },
+    {
+      "ID": "C4",
+      "Text": "if the university take the policy that no one can attend the classes without passing exam, students are highly likely to leave uncultivated"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "I don't like electronics"
+    },
+    {
+      "ID": "P2",
+      "Text": "electronics cannot always be seen in the real world"
+    },
+    {
+      "ID": "P3",
+      "Text": "And I have had 0 in physics score when I study the electronics"
+    },
+    {
+      "ID": "P4",
+      "Text": "But I constantly achieve 100 score when I study other part of the physics"
+    },
+    {
+      "ID": "P5",
+      "Text": "And if I cannot attend the classes until I pass the exam of electronics, I could not pass the entire part of physics, and I will fail the exam over and over again"
+    },
+    {
+      "ID": "P6",
+      "Text": "Luckily, in our university, you can attend the classes regardless of the score you reach"
+    },
+    {
+      "ID": "P7",
+      "Text": "And I can study physics without consideration of my electronics"
+    },
+    {
+      "ID": "P8",
+      "Text": "And at last, I took the electronics again and pass the exam"
+    },
+    {
+      "ID": "P9",
+      "Text": "the benefit of free to access to the classes eclipse the issue of lower points"
+    },
+    {
+      "ID": "P10",
+      "Text": "If one fail most of the exam, it means that he or she cannot participate in most of the classes"
+    },
+    {
+      "ID": "P11",
+      "Text": "And the students will have nothing to do in the campus"
+    },
+    {
+      "ID": "P12",
+      "Text": "he or she will play online games days and nights"
+    },
+    {
+      "ID": "P13",
+      "Text": "The academic achievement will decline"
+    },
+    {
+      "ID": "P14",
+      "Text": "this student will become a loser in the world"
+    },
+    {
+      "ID": "P15",
+      "Text": "And all this is due to that the university don't permit them to attend the class"
+    },
+    {
+      "ID": "P16",
+      "Text": "This is not the failure of the university but also the entire education system"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

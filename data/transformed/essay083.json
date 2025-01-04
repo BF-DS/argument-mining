@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "I find myself aligned with opponents of the usages of nuclear power",
-    "MC2": "nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages"
-  },
-  "Claims": {
-    "C1": "pursuit of nuclear technology one way or the other leads towards atomic weapons",
-    "C2": "even civil usages of atomic power pose a dire threat of radio activity",
-    "C3": "Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it"
-  },
-  "Premises": {
-    "P1": "Last century has witnessed the horrors of such weapons",
-    "P2": "If each country pursues the fusion and fission process some of them may try to mold it for military usage",
-    "P3": "recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area",
-    "P4": "This unfortunate event proves that no matter how much careful we are such accidents are inevitable",
-    "P5": "while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power",
-    "P6": "This waste is many times more lethal to our environment than any of the other hazardous material"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I find myself aligned with opponents of the usages of nuclear power"
+    },
+    {
+      "ID": "MC2",
+      "Text": "nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "pursuit of nuclear technology one way or the other leads towards atomic weapons"
+    },
+    {
+      "ID": "C2",
+      "Text": "even civil usages of atomic power pose a dire threat of radio activity"
+    },
+    {
+      "ID": "C3",
+      "Text": "Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Last century has witnessed the horrors of such weapons"
+    },
+    {
+      "ID": "P2",
+      "Text": "If each country pursues the fusion and fission process some of them may try to mold it for military usage"
+    },
+    {
+      "ID": "P3",
+      "Text": "recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area"
+    },
+    {
+      "ID": "P4",
+      "Text": "This unfortunate event proves that no matter how much careful we are such accidents are inevitable"
+    },
+    {
+      "ID": "P5",
+      "Text": "while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power"
+    },
+    {
+      "ID": "P6",
+      "Text": "This waste is many times more lethal to our environment than any of the other hazardous material"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

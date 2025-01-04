@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "the good technology bringing to us is undeniable"
-  },
-  "Claims": {
-    "C1": "Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it",
-    "C2": "most members of our society can benefit from the consequences of technical advancements, especially the poor people",
-    "C3": "technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life",
-    "C4": "the gap between rich people and poor is widen by technology"
-  },
-  "Premises": {
-    "P1": "the progress of material technology leads to the sharp fall of price of a great number of products",
-    "P2": "About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one",
-    "P3": "Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies",
-    "P4": "the Internet gives everyone access to the same information",
-    "P5": "this therefore leads to greater equality between individuals",
-    "P6": "With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day",
-    "P7": "we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us",
-    "P8": "we can talk with our friends online, no matter where we are and how far between us",
-    "P9": "only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return",
-    "P10": "it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the good technology bringing to us is undeniable"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it"
+    },
+    {
+      "ID": "C2",
+      "Text": "most members of our society can benefit from the consequences of technical advancements, especially the poor people"
+    },
+    {
+      "ID": "C3",
+      "Text": "technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life"
+    },
+    {
+      "ID": "C4",
+      "Text": "the gap between rich people and poor is widen by technology"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the progress of material technology leads to the sharp fall of price of a great number of products"
+    },
+    {
+      "ID": "P2",
+      "Text": "About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one"
+    },
+    {
+      "ID": "P3",
+      "Text": "Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies"
+    },
+    {
+      "ID": "P4",
+      "Text": "the Internet gives everyone access to the same information"
+    },
+    {
+      "ID": "P5",
+      "Text": "this therefore leads to greater equality between individuals"
+    },
+    {
+      "ID": "P6",
+      "Text": "With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day"
+    },
+    {
+      "ID": "P7",
+      "Text": "we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us"
+    },
+    {
+      "ID": "P8",
+      "Text": "we can talk with our friends online, no matter where we are and how far between us"
+    },
+    {
+      "ID": "P9",
+      "Text": "only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return"
+    },
+    {
+      "ID": "P10",
+      "Text": "it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

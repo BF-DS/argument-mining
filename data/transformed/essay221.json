@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "the zoo is invaluable for human beings",
-    "MC2": "the zoo is so useful for the earth"
-  },
-  "Claims": {
-    "C1": "It is very crucial for learning",
-    "C2": "It helps animals out of extinction",
-    "C3": "it is a interesting travel location",
-    "C4": "the zoo gives humans new knowledge",
-    "C5": "the zoo preserves a large number of rare animals and provides them safe habitats",
-    "C6": "It benefits to a certain country",
-    "C7": "the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives"
-  },
-  "Premises": {
-    "P1": "the zoo is the important place for innate learning",
-    "P2": "The zoo also let students have a chance to learning biology practically",
-    "P3": "They are able to observe animals' behaviors and features",
-    "P4": "practical learning help students relax from a boring lecture class",
-    "P5": "researchers need the zoo to pick up some examples of animals for their researches",
-    "P6": "it has diverse species of animals",
-    "P7": "In the zoo, there is not so harmful as a forest",
-    "P8": "They, fed by zookeepers, do not need to find food themselves",
-    "P9": "we can do artificial insemenation to maintain nearly extinct wildlife",
-    "P10": "because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction",
-    "P11": "There are a lot of tourists who seek to see those animals closely",
-    "P12": "If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money",
-    "P13": "That also make money flow, and then economics become better"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the zoo is invaluable for human beings"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the zoo is so useful for the earth"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "It is very crucial for learning"
+    },
+    {
+      "ID": "C2",
+      "Text": "It helps animals out of extinction"
+    },
+    {
+      "ID": "C3",
+      "Text": "it is a interesting travel location"
+    },
+    {
+      "ID": "C4",
+      "Text": "the zoo gives humans new knowledge"
+    },
+    {
+      "ID": "C5",
+      "Text": "the zoo preserves a large number of rare animals and provides them safe habitats"
+    },
+    {
+      "ID": "C6",
+      "Text": "It benefits to a certain country"
+    },
+    {
+      "ID": "C7",
+      "Text": "the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the zoo is the important place for innate learning"
+    },
+    {
+      "ID": "P2",
+      "Text": "The zoo also let students have a chance to learning biology practically"
+    },
+    {
+      "ID": "P3",
+      "Text": "They are able to observe animals' behaviors and features"
+    },
+    {
+      "ID": "P4",
+      "Text": "practical learning help students relax from a boring lecture class"
+    },
+    {
+      "ID": "P5",
+      "Text": "researchers need the zoo to pick up some examples of animals for their researches"
+    },
+    {
+      "ID": "P6",
+      "Text": "it has diverse species of animals"
+    },
+    {
+      "ID": "P7",
+      "Text": "In the zoo, there is not so harmful as a forest"
+    },
+    {
+      "ID": "P8",
+      "Text": "They, fed by zookeepers, do not need to find food themselves"
+    },
+    {
+      "ID": "P9",
+      "Text": "we can do artificial insemenation to maintain nearly extinct wildlife"
+    },
+    {
+      "ID": "P10",
+      "Text": "because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction"
+    },
+    {
+      "ID": "P11",
+      "Text": "There are a lot of tourists who seek to see those animals closely"
+    },
+    {
+      "ID": "P12",
+      "Text": "If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money"
+    },
+    {
+      "ID": "P13",
+      "Text": "That also make money flow, and then economics become better"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "high school students should take a course on basic economics",
-    "MC2": "I suggest the basic course of economic is necessary"
-  },
-  "Claims": {
-    "C1": "it will take some time on it",
-    "C2": "it can provide students a sense of direction in academy",
-    "C3": "students can also gain knowledge more practical and vivid",
-    "C4": "the basic economic course can also help with the students when they go to college"
-  },
-  "Premises": {
-    "P1": "Basic economic class can help the students touch the surface of this field, let them to know what this subject mainly discuss",
-    "P2": "That will help the students cultivate their own interest and a sense of career orientation",
-    "P3": "students may study harder for their economic dreams",
-    "P4": "economy is always correlate with politics",
-    "P5": "students can study specialized knowledge along with some Politian status, which may open their vision toward the nation and don't get limited in the textbooks",
-    "P6": "there is also an intimate connection between economy and enterprises",
-    "P7": "They may feel more readily to learn the knowledge in this field and save much time, with that they are able to study more efficiently and more deeply than other students",
-    "P8": "That as well would provide the students with more confidence and let them become more compatible"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "high school students should take a course on basic economics"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I suggest the basic course of economic is necessary"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it will take some time on it"
+    },
+    {
+      "ID": "C2",
+      "Text": "it can provide students a sense of direction in academy"
+    },
+    {
+      "ID": "C3",
+      "Text": "students can also gain knowledge more practical and vivid"
+    },
+    {
+      "ID": "C4",
+      "Text": "the basic economic course can also help with the students when they go to college"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Basic economic class can help the students touch the surface of this field, let them to know what this subject mainly discuss"
+    },
+    {
+      "ID": "P2",
+      "Text": "That will help the students cultivate their own interest and a sense of career orientation"
+    },
+    {
+      "ID": "P3",
+      "Text": "students may study harder for their economic dreams"
+    },
+    {
+      "ID": "P4",
+      "Text": "economy is always correlate with politics"
+    },
+    {
+      "ID": "P5",
+      "Text": "students can study specialized knowledge along with some Politian status, which may open their vision toward the nation and don't get limited in the textbooks"
+    },
+    {
+      "ID": "P6",
+      "Text": "there is also an intimate connection between economy and enterprises"
+    },
+    {
+      "ID": "P7",
+      "Text": "They may feel more readily to learn the knowledge in this field and save much time, with that they are able to study more efficiently and more deeply than other students"
+    },
+    {
+      "ID": "P8",
+      "Text": "That as well would provide the students with more confidence and let them become more compatible"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "the capability of working independly is more significant",
-    "MC2": "the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations"
-  },
-  "Claims": {
-    "C1": "if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own",
-    "C2": "the ability to work alone will help you increase your ability to work with other people"
-  },
-  "Premises": {
-    "P1": "in many important cases when team-working is not possible, the ability to work alone will help",
-    "P2": "effective cooperation can make things easier and faster",
-    "P3": "The apperant example is that there are a lot of tests that do not allow team-working",
-    "P4": "Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares",
-    "P5": "Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team",
-    "P6": "Working in team does not mean that you do not have to come up with your ideas",
-    "P7": "Everybody in a team must have his/her own opinion first, then discuss them with other members",
-    "P8": "When we work in team, we still think individually",
-    "P9": "our brain are not connected but separate",
-    "P10": "When everyone in a team can come up with his/her own ideas, working in team will definitely more effective"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the capability of working independly is more significant"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own"
+    },
+    {
+      "ID": "C2",
+      "Text": "the ability to work alone will help you increase your ability to work with other people"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "in many important cases when team-working is not possible, the ability to work alone will help"
+    },
+    {
+      "ID": "P2",
+      "Text": "effective cooperation can make things easier and faster"
+    },
+    {
+      "ID": "P3",
+      "Text": "The apperant example is that there are a lot of tests that do not allow team-working"
+    },
+    {
+      "ID": "P4",
+      "Text": "Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares"
+    },
+    {
+      "ID": "P5",
+      "Text": "Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team"
+    },
+    {
+      "ID": "P6",
+      "Text": "Working in team does not mean that you do not have to come up with your ideas"
+    },
+    {
+      "ID": "P7",
+      "Text": "Everybody in a team must have his/her own opinion first, then discuss them with other members"
+    },
+    {
+      "ID": "P8",
+      "Text": "When we work in team, we still think individually"
+    },
+    {
+      "ID": "P9",
+      "Text": "our brain are not connected but separate"
+    },
+    {
+      "ID": "P10",
+      "Text": "When everyone in a team can come up with his/her own ideas, working in team will definitely more effective"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P2",

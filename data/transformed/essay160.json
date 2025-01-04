@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "Government should decide for punishment case by case basis",
-    "MC2": "it should taken into consideration the situation and conditions, that forces to a person to be a criminal"
-  },
-  "Claims": {
-    "C1": "if there will be a fixed punishment for each type of crime then it will lead to increase the crime",
-    "C2": "it is necessary to have a look behind crime",
-    "C3": "fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government",
-    "C4": "fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other"
-  },
-  "Premises": {
-    "P1": "the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime",
-    "P2": "laws and rules are there for people",
-    "P3": "The person who committed crime first time and the professional criminals should not be imprisoned at same place",
-    "P4": "Everyone should be treated equally",
-    "P5": "sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal",
-    "P6": "a women steals feed for her child should be treated same as a women, who steals for her drug addiction"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "Government should decide for punishment case by case basis"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it should taken into consideration the situation and conditions, that forces to a person to be a criminal"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "if there will be a fixed punishment for each type of crime then it will lead to increase the crime"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is necessary to have a look behind crime"
+    },
+    {
+      "ID": "C3",
+      "Text": "fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government"
+    },
+    {
+      "ID": "C4",
+      "Text": "fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime"
+    },
+    {
+      "ID": "P2",
+      "Text": "laws and rules are there for people"
+    },
+    {
+      "ID": "P3",
+      "Text": "The person who committed crime first time and the professional criminals should not be imprisoned at same place"
+    },
+    {
+      "ID": "P4",
+      "Text": "Everyone should be treated equally"
+    },
+    {
+      "ID": "P5",
+      "Text": "sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal"
+    },
+    {
+      "ID": "P6",
+      "Text": "a women steals feed for her child should be treated same as a women, who steals for her drug addiction"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "staying with the parents for longer time does more benefits than disadvantages to the young adult",
-    "MC2": "staying longer with parents is a better choice"
-  },
-  "Claims": {
-    "C1": "living with parents longer brings about memories with parents, less cost, and advice from parents",
-    "C2": "undergoing with parents is worthwhile",
-    "C3": "the parents can save money, if their children live with them longer",
-    "C4": "taking advice from parents, the young adult can go through obstacles easily"
-  },
-  "Premises": {
-    "P1": "the young adult can have more experience with his parents",
-    "P2": "The young adult has to try to create memories with his dad and mom in the early age",
-    "P3": "When having a job, it is of low possibilities to work in his hometown",
-    "P4": "If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together",
-    "P5": "All memories become priceless treasure as time passes by",
-    "P6": "he may have to rent a house and the rental would become a burden for parents",
-    "P7": "another daily expense is also the considerable outgoings",
-    "P8": "Spending much money may not result in what the parents expect their children to be",
-    "P9": "living at home costs less than living outside",
-    "P10": "Learning to be independent means that the young adult needs to leave home",
-    "P11": "the young adult needs father and mother's suggestions",
-    "P12": "When in dilemma, the parents can comfort him and give him a big hand",
-    "P13": "They are the people who are most familiar with him can give a suitable advice and lead him to the right way",
-    "P14": "If the parents do not help him immediately, he would have to suffer more pain"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "staying with the parents for longer time does more benefits than disadvantages to the young adult"
+    },
+    {
+      "ID": "MC2",
+      "Text": "staying longer with parents is a better choice"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "living with parents longer brings about memories with parents, less cost, and advice from parents"
+    },
+    {
+      "ID": "C2",
+      "Text": "undergoing with parents is worthwhile"
+    },
+    {
+      "ID": "C3",
+      "Text": "the parents can save money, if their children live with them longer"
+    },
+    {
+      "ID": "C4",
+      "Text": "taking advice from parents, the young adult can go through obstacles easily"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the young adult can have more experience with his parents"
+    },
+    {
+      "ID": "P2",
+      "Text": "The young adult has to try to create memories with his dad and mom in the early age"
+    },
+    {
+      "ID": "P3",
+      "Text": "When having a job, it is of low possibilities to work in his hometown"
+    },
+    {
+      "ID": "P4",
+      "Text": "If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together"
+    },
+    {
+      "ID": "P5",
+      "Text": "All memories become priceless treasure as time passes by"
+    },
+    {
+      "ID": "P6",
+      "Text": "he may have to rent a house and the rental would become a burden for parents"
+    },
+    {
+      "ID": "P7",
+      "Text": "another daily expense is also the considerable outgoings"
+    },
+    {
+      "ID": "P8",
+      "Text": "Spending much money may not result in what the parents expect their children to be"
+    },
+    {
+      "ID": "P9",
+      "Text": "living at home costs less than living outside"
+    },
+    {
+      "ID": "P10",
+      "Text": "Learning to be independent means that the young adult needs to leave home"
+    },
+    {
+      "ID": "P11",
+      "Text": "the young adult needs father and mother's suggestions"
+    },
+    {
+      "ID": "P12",
+      "Text": "When in dilemma, the parents can comfort him and give him a big hand"
+    },
+    {
+      "ID": "P13",
+      "Text": "They are the people who are most familiar with him can give a suitable advice and lead him to the right way"
+    },
+    {
+      "ID": "P14",
+      "Text": "If the parents do not help him immediately, he would have to suffer more pain"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

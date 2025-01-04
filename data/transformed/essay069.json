@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "This, contrary to some ideas, is a positive progress in human society",
-    "MC2": "in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles"
-  },
-  "Claims": {
-    "C1": "Women nowadays are much more active, they may be successful businessmen, they join the political world, they become scientists and so on",
-    "C2": "the revolution in females' right has brought about many benefits not only to themselves but society as well",
-    "C3": "such changes do lead to some negative results like an upward trend in divorce rate"
-  },
-  "Premises": {
-    "P1": "the \"weaker\" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men, not to mention they even perform better in some fields",
-    "P2": "Gone are the days when women could do nothing rather than stick to boring house work and take care of children",
-    "P3": "the fairness between males and females is inevitable in such a developed society",
-    "P4": "The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money",
-    "P5": "women have the outstanding instinct to take up some careers like healthcare or human resource management due to their patience and elaboration",
-    "P6": "women find it difficult to balance their work and their traditional role as the wives",
-    "P7": "children might enjoy less care from parents as they are both busy with their work"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "This, contrary to some ideas, is a positive progress in human society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Women nowadays are much more active, they may be successful businessmen, they join the political world, they become scientists and so on"
+    },
+    {
+      "ID": "C2",
+      "Text": "the revolution in females' right has brought about many benefits not only to themselves but society as well"
+    },
+    {
+      "ID": "C3",
+      "Text": "such changes do lead to some negative results like an upward trend in divorce rate"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the \"weaker\" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men, not to mention they even perform better in some fields"
+    },
+    {
+      "ID": "P2",
+      "Text": "Gone are the days when women could do nothing rather than stick to boring house work and take care of children"
+    },
+    {
+      "ID": "P3",
+      "Text": "the fairness between males and females is inevitable in such a developed society"
+    },
+    {
+      "ID": "P4",
+      "Text": "The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money"
+    },
+    {
+      "ID": "P5",
+      "Text": "women have the outstanding instinct to take up some careers like healthcare or human resource management due to their patience and elaboration"
+    },
+    {
+      "ID": "P6",
+      "Text": "women find it difficult to balance their work and their traditional role as the wives"
+    },
+    {
+      "ID": "P7",
+      "Text": "children might enjoy less care from parents as they are both busy with their work"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

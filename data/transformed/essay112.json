@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "exams have a role to play in ensuring proper and objective assessment of achievement"
-  },
-  "Claims": {
-    "C1": "exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system",
-    "C2": "There are clearly advantages to exams",
-    "C3": "exams also have some drawbacks",
-    "C4": "A number of measures should be taken to address these concerns"
-  },
-  "Premises": {
-    "P1": "They help to ensure fairness by imposing the same conditions on all exam candidates",
-    "P2": "They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability",
-    "P3": "Test-wise candidates can often perform well on exams without having good underlying knowledge or skills",
-    "P4": "some test-takers perform cannot achieve a satisfying result because of anxiety",
-    "P5": "teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all",
-    "P6": "exams should match the content and activities of the learning environment",
-    "P7": "Exam task should be varied to give fair opportunities to candidates with different types of skills",
-    "P8": "Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "exams have a role to play in ensuring proper and objective assessment of achievement"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system"
+    },
+    {
+      "ID": "C2",
+      "Text": "There are clearly advantages to exams"
+    },
+    {
+      "ID": "C3",
+      "Text": "exams also have some drawbacks"
+    },
+    {
+      "ID": "C4",
+      "Text": "A number of measures should be taken to address these concerns"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They help to ensure fairness by imposing the same conditions on all exam candidates"
+    },
+    {
+      "ID": "P2",
+      "Text": "They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability"
+    },
+    {
+      "ID": "P3",
+      "Text": "Test-wise candidates can often perform well on exams without having good underlying knowledge or skills"
+    },
+    {
+      "ID": "P4",
+      "Text": "some test-takers perform cannot achieve a satisfying result because of anxiety"
+    },
+    {
+      "ID": "P5",
+      "Text": "teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all"
+    },
+    {
+      "ID": "P6",
+      "Text": "exams should match the content and activities of the learning environment"
+    },
+    {
+      "ID": "P7",
+      "Text": "Exam task should be varied to give fair opportunities to candidates with different types of skills"
+    },
+    {
+      "ID": "P8",
+      "Text": "Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

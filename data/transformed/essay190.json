@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "In modern life, zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers"
-  },
-  "Claims": {
-    "C1": "recently, zookeepers have also tried their best to make animals feel more comfortable by making artificial landscapes more familiar to the nature, taking care all animals in both feeding and sanity",
-    "C2": "humanities benefit so much from zoos",
-    "C3": "zoos just take away freedom of animals"
-  },
-  "Premises": {
-    "P1": "zoos are fascinating places of entertainment",
-    "P2": "the very nature and wildness are all brought into zoos and spending time there help us to forget all stress as well as pressure",
-    "P3": "all zoos serve relates to education",
-    "P4": "Many students as well as people find zoos as good places for witnessing and researching the true animal world",
-    "P5": "some zoos are also reservation sites of many animals that are about to become extinct",
-    "P6": "Being confined, animals may lose their own nature as well as wildness and feel upset and discontented",
-    "P7": "zoos are some kind of prisons and it's so cruel and wrong to keep animal in such prisons"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "In modern life, zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "recently, zookeepers have also tried their best to make animals feel more comfortable by making artificial landscapes more familiar to the nature, taking care all animals in both feeding and sanity"
+    },
+    {
+      "ID": "C2",
+      "Text": "humanities benefit so much from zoos"
+    },
+    {
+      "ID": "C3",
+      "Text": "zoos just take away freedom of animals"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "zoos are fascinating places of entertainment"
+    },
+    {
+      "ID": "P2",
+      "Text": "the very nature and wildness are all brought into zoos and spending time there help us to forget all stress as well as pressure"
+    },
+    {
+      "ID": "P3",
+      "Text": "all zoos serve relates to education"
+    },
+    {
+      "ID": "P4",
+      "Text": "Many students as well as people find zoos as good places for witnessing and researching the true animal world"
+    },
+    {
+      "ID": "P5",
+      "Text": "some zoos are also reservation sites of many animals that are about to become extinct"
+    },
+    {
+      "ID": "P6",
+      "Text": "Being confined, animals may lose their own nature as well as wildness and feel upset and discontented"
+    },
+    {
+      "ID": "P7",
+      "Text": "zoos are some kind of prisons and it's so cruel and wrong to keep animal in such prisons"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

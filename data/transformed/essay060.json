@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "a break of one year is good for young people after finishing their high school",
-    "MC2": "a break should be necessarily allowed to young minds between their high school and university studies"
-  },
-  "Claims": {
-    "C1": "the sole purpose of education is to nurture a young mind and not thrust studies on them",
-    "C2": "a break will give students some time to refresh their systems, by traveling or following their hobbies",
-    "C3": "Working or traveling for some time, after high school, can help them to find their field of interest",
-    "C4": "A break can disturb the focus of students and prove detrimental"
-  },
-  "Premises": {
-    "P1": "when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge",
-    "P2": "A relaxation of one year to young minds will give them a quintessential change",
-    "P3": "A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions",
-    "P4": "It will also help them to learn professional setup by working",
-    "P5": "Financially, students can save a little money to support their university education by doing a job",
-    "P6": "Some students even utilize this time for preparation of their desired university course",
-    "P7": "Students can also indulge in smoking or drinking during this time",
-    "P8": "When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia",
-    "P9": "my cousin started working in a customer care centre after high school and got distracted",
-    "P10": "When he started his university studies, he failed miserably",
-    "P11": "A break gives students more benefits than harms",
-    "P12": "It varies from individual to individual, how they utilize that period"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a break of one year is good for young people after finishing their high school"
+    },
+    {
+      "ID": "MC2",
+      "Text": "a break should be necessarily allowed to young minds between their high school and university studies"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the sole purpose of education is to nurture a young mind and not thrust studies on them"
+    },
+    {
+      "ID": "C2",
+      "Text": "a break will give students some time to refresh their systems, by traveling or following their hobbies"
+    },
+    {
+      "ID": "C3",
+      "Text": "Working or traveling for some time, after high school, can help them to find their field of interest"
+    },
+    {
+      "ID": "C4",
+      "Text": "A break can disturb the focus of students and prove detrimental"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge"
+    },
+    {
+      "ID": "P2",
+      "Text": "A relaxation of one year to young minds will give them a quintessential change"
+    },
+    {
+      "ID": "P3",
+      "Text": "A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions"
+    },
+    {
+      "ID": "P4",
+      "Text": "It will also help them to learn professional setup by working"
+    },
+    {
+      "ID": "P5",
+      "Text": "Financially, students can save a little money to support their university education by doing a job"
+    },
+    {
+      "ID": "P6",
+      "Text": "Some students even utilize this time for preparation of their desired university course"
+    },
+    {
+      "ID": "P7",
+      "Text": "Students can also indulge in smoking or drinking during this time"
+    },
+    {
+      "ID": "P8",
+      "Text": "When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia"
+    },
+    {
+      "ID": "P9",
+      "Text": "my cousin started working in a customer care centre after high school and got distracted"
+    },
+    {
+      "ID": "P10",
+      "Text": "When he started his university studies, he failed miserably"
+    },
+    {
+      "ID": "P11",
+      "Text": "A break gives students more benefits than harms"
+    },
+    {
+      "ID": "P12",
+      "Text": "It varies from individual to individual, how they utilize that period"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

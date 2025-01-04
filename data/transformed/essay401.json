@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "fatherhood is a as vital part of a healty parantage as much as motherhood",
-    "MC2": "fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships"
-  },
-  "Claims": {
-    "C1": "The first reason why the father's role should be equal to the mother's role is the nature of parantage",
-    "C2": "The second reason why I believe that fatherood is as important as motherhood is the dynamics of the relationships today"
-  },
-  "Premises": {
-    "P1": "the role models within a family play a significant role in the development of the child's characteristics",
-    "P2": "in a traditional Turkish family, while a mother has a sincere and thoughtful approach to the child, a father role must be present as authoritarian and conversative to raise a well-behaved child",
-    "P3": "we are living in a society that puts a significant importance to gender equality in every aspect of the life, including relationships",
-    "P4": "a family formed by a woman with a housewife role who looks after the home and takes care of children and a man who brings money home can not be seen anymore in today's society",
-    "P5": "all of the couple duties are performed equally and interchangeably by individuals",
-    "P6": "having and raising children should not be different than any other daily activity"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "fatherhood is a as vital part of a healty parantage as much as motherhood"
+    },
+    {
+      "ID": "MC2",
+      "Text": "fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The first reason why the father's role should be equal to the mother's role is the nature of parantage"
+    },
+    {
+      "ID": "C2",
+      "Text": "The second reason why I believe that fatherood is as important as motherhood is the dynamics of the relationships today"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the role models within a family play a significant role in the development of the child's characteristics"
+    },
+    {
+      "ID": "P2",
+      "Text": "in a traditional Turkish family, while a mother has a sincere and thoughtful approach to the child, a father role must be present as authoritarian and conversative to raise a well-behaved child"
+    },
+    {
+      "ID": "P3",
+      "Text": "we are living in a society that puts a significant importance to gender equality in every aspect of the life, including relationships"
+    },
+    {
+      "ID": "P4",
+      "Text": "a family formed by a woman with a housewife role who looks after the home and takes care of children and a man who brings money home can not be seen anymore in today's society"
+    },
+    {
+      "ID": "P5",
+      "Text": "all of the couple duties are performed equally and interchangeably by individuals"
+    },
+    {
+      "ID": "P6",
+      "Text": "having and raising children should not be different than any other daily activity"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

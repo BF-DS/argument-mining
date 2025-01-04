@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "alternative means of transportation and international laws in controlling automobiles should be introduced",
-    "MC2": "alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion"
-  },
-  "Claims": {
-    "C1": "some people claim the convenience of automobile",
-    "C2": "it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles",
-    "C3": "the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented",
-    "C4": "alternative forms of transportation and international laws to control automobiles ownership and use can work effectively"
-  },
-  "Premises": {
-    "P1": "an increase in the number of automobiles brings about environmental pollution",
-    "P2": "automobile exhaust and carbon dioxides emission have bad impacts on the air",
-    "P3": "the air gets to be polluted and it causes respiratory disease of the local inhabitants",
-    "P4": "an increase in the number of automobiles causes terrible traffic congestion",
-    "P5": "Once we get into the traffic jam, it forces us to waste our time for a while",
-    "P6": "traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents",
-    "P7": "alternative forms which emit less carbon dioxides and gasses than automobiles are ideal",
-    "P8": "rental bicycle system has been introduced in several European countries",
-    "P9": "This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee",
-    "P10": "bicycle expels neither carbon dioxides nor harmful gasses",
-    "P11": "it is a better form to protect environment than automobile",
-    "P12": "these attempts to reduce automobiles can ease traffic congestion and environmental pollution",
-    "P13": "the introduction of international laws can be also effective",
-    "P14": "there are some regulations to limit the use of automobiles by time and to allow the people possess one car only"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "alternative means of transportation and international laws in controlling automobiles should be introduced"
+    },
+    {
+      "ID": "MC2",
+      "Text": "alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "some people claim the convenience of automobile"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles"
+    },
+    {
+      "ID": "C3",
+      "Text": "the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented"
+    },
+    {
+      "ID": "C4",
+      "Text": "alternative forms of transportation and international laws to control automobiles ownership and use can work effectively"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "an increase in the number of automobiles brings about environmental pollution"
+    },
+    {
+      "ID": "P2",
+      "Text": "automobile exhaust and carbon dioxides emission have bad impacts on the air"
+    },
+    {
+      "ID": "P3",
+      "Text": "the air gets to be polluted and it causes respiratory disease of the local inhabitants"
+    },
+    {
+      "ID": "P4",
+      "Text": "an increase in the number of automobiles causes terrible traffic congestion"
+    },
+    {
+      "ID": "P5",
+      "Text": "Once we get into the traffic jam, it forces us to waste our time for a while"
+    },
+    {
+      "ID": "P6",
+      "Text": "traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents"
+    },
+    {
+      "ID": "P7",
+      "Text": "alternative forms which emit less carbon dioxides and gasses than automobiles are ideal"
+    },
+    {
+      "ID": "P8",
+      "Text": "rental bicycle system has been introduced in several European countries"
+    },
+    {
+      "ID": "P9",
+      "Text": "This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee"
+    },
+    {
+      "ID": "P10",
+      "Text": "bicycle expels neither carbon dioxides nor harmful gasses"
+    },
+    {
+      "ID": "P11",
+      "Text": "it is a better form to protect environment than automobile"
+    },
+    {
+      "ID": "P12",
+      "Text": "these attempts to reduce automobiles can ease traffic congestion and environmental pollution"
+    },
+    {
+      "ID": "P13",
+      "Text": "the introduction of international laws can be also effective"
+    },
+    {
+      "ID": "P14",
+      "Text": "there are some regulations to limit the use of automobiles by time and to allow the people possess one car only"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

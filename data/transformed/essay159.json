@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "the popularity of mobile phones to the young generation is a bad development",
-    "MC2": "the negative impacts brought about by mobile phones are harmful to a person\u2019s education and character"
-  },
-  "Claims": {
-    "C1": "many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones",
-    "C2": "juveniles who possess mobile phones have great tendencies to become materialistic"
-  },
-  "Premises": {
-    "P1": "Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities",
-    "P2": "internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works",
-    "P3": "In my college days, I was once addicted to a certain game on my cellular phone",
-    "P4": "I have spent most of my time trying to reach a higher level to show-off to my friends",
-    "P5": "That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester",
-    "P6": "They would not only purchase a phone because of its functionality but also for its brand",
-    "P7": "they would need their parents to support them financially for what they want",
-    "P8": "most of these juveniles are students",
-    "P9": "An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents",
-    "P10": "these do not come at a significant and inexpensive cost"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the popularity of mobile phones to the young generation is a bad development"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the negative impacts brought about by mobile phones are harmful to a person\u2019s education and character"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones"
+    },
+    {
+      "ID": "C2",
+      "Text": "juveniles who possess mobile phones have great tendencies to become materialistic"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities"
+    },
+    {
+      "ID": "P2",
+      "Text": "internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works"
+    },
+    {
+      "ID": "P3",
+      "Text": "In my college days, I was once addicted to a certain game on my cellular phone"
+    },
+    {
+      "ID": "P4",
+      "Text": "I have spent most of my time trying to reach a higher level to show-off to my friends"
+    },
+    {
+      "ID": "P5",
+      "Text": "That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester"
+    },
+    {
+      "ID": "P6",
+      "Text": "They would not only purchase a phone because of its functionality but also for its brand"
+    },
+    {
+      "ID": "P7",
+      "Text": "they would need their parents to support them financially for what they want"
+    },
+    {
+      "ID": "P8",
+      "Text": "most of these juveniles are students"
+    },
+    {
+      "ID": "P9",
+      "Text": "An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents"
+    },
+    {
+      "ID": "P10",
+      "Text": "these do not come at a significant and inexpensive cost"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

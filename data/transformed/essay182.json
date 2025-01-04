@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "individuals should pay their college tuition",
-    "MC2": "the individual should finance his or her education"
-  },
-  "Claims": {
-    "C1": "it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education",
-    "C2": "it would cause too much cost from taxpayers and the governmen",
-    "C3": "making college education free would cost too much",
-    "C4": "those people should make the financial investment in their own choice; not the government",
-    "C5": "there are many ways to fund a college education",
-    "C6": "it is a personal choice"
-  },
-  "Premises": {
-    "P1": "it would affect all taxpayers whether or not they benefit from the use of the funds",
-    "P2": "It would divert public funds from other needs such as law enforcement, infrastructure and so forth",
-    "P3": "There are many other needs which should come first, such as providing health care to all American, or improving public schools",
-    "P4": "it would cause to raise our taxes again and again to fund college education",
-    "P5": "it is a personal choice to go to a college",
-    "P6": "Not everyone wants to go to a college",
-    "P7": "People who want to make more money, and live a better life than other people decide to take a college education",
-    "P8": "People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds",
-    "P9": "the government already helps pay college expense through indirect means",
-    "P10": "They often provide services such as fire departments, medical assistance, and police protection for the schools and their students",
-    "P11": "They also provide funds for academic research",
-    "P12": "While the money is not given to individual students, these contributions are not trivial"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "individuals should pay their college tuition"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the individual should finance his or her education"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education"
+    },
+    {
+      "ID": "C2",
+      "Text": "it would cause too much cost from taxpayers and the governmen"
+    },
+    {
+      "ID": "C3",
+      "Text": "making college education free would cost too much"
+    },
+    {
+      "ID": "C4",
+      "Text": "those people should make the financial investment in their own choice; not the government"
+    },
+    {
+      "ID": "C5",
+      "Text": "there are many ways to fund a college education"
+    },
+    {
+      "ID": "C6",
+      "Text": "it is a personal choice"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it would affect all taxpayers whether or not they benefit from the use of the funds"
+    },
+    {
+      "ID": "P2",
+      "Text": "It would divert public funds from other needs such as law enforcement, infrastructure and so forth"
+    },
+    {
+      "ID": "P3",
+      "Text": "There are many other needs which should come first, such as providing health care to all American, or improving public schools"
+    },
+    {
+      "ID": "P4",
+      "Text": "it would cause to raise our taxes again and again to fund college education"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is a personal choice to go to a college"
+    },
+    {
+      "ID": "P6",
+      "Text": "Not everyone wants to go to a college"
+    },
+    {
+      "ID": "P7",
+      "Text": "People who want to make more money, and live a better life than other people decide to take a college education"
+    },
+    {
+      "ID": "P8",
+      "Text": "People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds"
+    },
+    {
+      "ID": "P9",
+      "Text": "the government already helps pay college expense through indirect means"
+    },
+    {
+      "ID": "P10",
+      "Text": "They often provide services such as fire departments, medical assistance, and police protection for the schools and their students"
+    },
+    {
+      "ID": "P11",
+      "Text": "They also provide funds for academic research"
+    },
+    {
+      "ID": "P12",
+      "Text": "While the money is not given to individual students, these contributions are not trivial"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

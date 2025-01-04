@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "it should be made available for a wide range of learners"
-  },
-  "Claims": {
-    "C1": "university restriction has both pros and cons",
-    "C2": "outstanding academic students are eligible for university due to their intellectual advantage",
-    "C3": "it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively",
-    "C4": "there is a tendency for social vices to rise if university is to be restricted to only the best people"
-  },
-  "Premises": {
-    "P1": "it will yield more negative results than positive ones",
-    "P2": "such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills",
-    "P3": "one deserves what he has done",
-    "P4": "University is like a gift presented to those who have gone to great length to attain",
-    "P5": "university is not just about academic studies but also a place to nurture artistic talent and develop soft skills",
-    "P6": "Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it should be made available for a wide range of learners"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "university restriction has both pros and cons"
+    },
+    {
+      "ID": "C2",
+      "Text": "outstanding academic students are eligible for university due to their intellectual advantage"
+    },
+    {
+      "ID": "C3",
+      "Text": "it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively"
+    },
+    {
+      "ID": "C4",
+      "Text": "there is a tendency for social vices to rise if university is to be restricted to only the best people"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it will yield more negative results than positive ones"
+    },
+    {
+      "ID": "P2",
+      "Text": "such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills"
+    },
+    {
+      "ID": "P3",
+      "Text": "one deserves what he has done"
+    },
+    {
+      "ID": "P4",
+      "Text": "University is like a gift presented to those who have gone to great length to attain"
+    },
+    {
+      "ID": "P5",
+      "Text": "university is not just about academic studies but also a place to nurture artistic talent and develop soft skills"
+    },
+    {
+      "ID": "P6",
+      "Text": "Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "other celebrities do lead young people in the right direction",
-    "MC2": "this is not necessarily the case for those celebrities who are ambitious in their jobs"
-  },
-  "Claims": {
-    "C1": "some celebrities misguide young people by showing their external wealth and appearance",
-    "C2": "the attention of young people may become focused on chasing the dream of celebrity status",
-    "C3": "other celebrities do set up role models to young people because of their visible accomplishments"
-  },
-  "Premises": {
-    "P1": "some celebrities tend to show off their images in front of the public",
-    "P2": "some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention",
-    "P3": "If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work",
-    "P4": "celebrities such as sports player whose performance and professional skills can be directly seen by their fans",
-    "P5": "people understand that the great deal of efforts on training is directly linked to their results",
-    "P6": "this kind of self-made celebrity can inspire children to develop their talents through application and perseverance",
-    "P7": "other celebrities such as musician also have achieved great success in their career",
-    "P8": "Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation",
-    "P9": "His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "other celebrities do lead young people in the right direction"
+    },
+    {
+      "ID": "MC2",
+      "Text": "this is not necessarily the case for those celebrities who are ambitious in their jobs"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "some celebrities misguide young people by showing their external wealth and appearance"
+    },
+    {
+      "ID": "C2",
+      "Text": "the attention of young people may become focused on chasing the dream of celebrity status"
+    },
+    {
+      "ID": "C3",
+      "Text": "other celebrities do set up role models to young people because of their visible accomplishments"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "some celebrities tend to show off their images in front of the public"
+    },
+    {
+      "ID": "P2",
+      "Text": "some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention"
+    },
+    {
+      "ID": "P3",
+      "Text": "If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work"
+    },
+    {
+      "ID": "P4",
+      "Text": "celebrities such as sports player whose performance and professional skills can be directly seen by their fans"
+    },
+    {
+      "ID": "P5",
+      "Text": "people understand that the great deal of efforts on training is directly linked to their results"
+    },
+    {
+      "ID": "P6",
+      "Text": "this kind of self-made celebrity can inspire children to develop their talents through application and perseverance"
+    },
+    {
+      "ID": "P7",
+      "Text": "other celebrities such as musician also have achieved great success in their career"
+    },
+    {
+      "ID": "P8",
+      "Text": "Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation"
+    },
+    {
+      "ID": "P9",
+      "Text": "His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

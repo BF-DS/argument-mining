@@ -1,18 +1,42 @@
 {
-  "MajorClaims": {
-    "MC1": "IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly"
-  },
-  "Claims": {
-    "C1": "All this inventions will try to take control of the Earth",
-    "C2": "nowadays technology is entering into our society really quick",
-    "C3": "connecting people by email is easy and fast",
-    "C4": "World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds"
-  },
-  "Premises": {
-    "P1": "Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them",
-    "P2": "before centeries, there were not washing machines, which clean your clothes, while a person do another job",
-    "P3": "scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "All this inventions will try to take control of the Earth"
+    },
+    {
+      "ID": "C2",
+      "Text": "nowadays technology is entering into our society really quick"
+    },
+    {
+      "ID": "C3",
+      "Text": "connecting people by email is easy and fast"
+    },
+    {
+      "ID": "C4",
+      "Text": "World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them"
+    },
+    {
+      "ID": "P2",
+      "Text": "before centeries, there were not washing machines, which clean your clothes, while a person do another job"
+    },
+    {
+      "ID": "P3",
+      "Text": "scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "we should attach more importance to cooperation during primary education",
-    "MC2": "a more cooperative attitudes towards life is more profitable in one's success"
-  },
-  "Claims": {
-    "C1": "through cooperation, children can learn about interpersonal skills which are significant in the future life of all students",
-    "C2": "competition makes the society more effective",
-    "C3": "without the cooperation, there would be no victory of competition"
-  },
-  "Premises": {
-    "P1": "What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others",
-    "P2": "During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred",
-    "P3": "All of these skills help them to get on well with other people and will benefit them for the whole life",
-    "P4": "the significance of competition is that how to become more excellence to gain the victory",
-    "P5": "when we consider about the question that how to win the game, we always find that we need the cooperation",
-    "P6": "Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we should attach more importance to cooperation during primary education"
+    },
+    {
+      "ID": "MC2",
+      "Text": "a more cooperative attitudes towards life is more profitable in one's success"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "through cooperation, children can learn about interpersonal skills which are significant in the future life of all students"
+    },
+    {
+      "ID": "C2",
+      "Text": "competition makes the society more effective"
+    },
+    {
+      "ID": "C3",
+      "Text": "without the cooperation, there would be no victory of competition"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others"
+    },
+    {
+      "ID": "P2",
+      "Text": "During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred"
+    },
+    {
+      "ID": "P3",
+      "Text": "All of these skills help them to get on well with other people and will benefit them for the whole life"
+    },
+    {
+      "ID": "P4",
+      "Text": "the significance of competition is that how to become more excellence to gain the victory"
+    },
+    {
+      "ID": "P5",
+      "Text": "when we consider about the question that how to win the game, we always find that we need the cooperation"
+    },
+    {
+      "ID": "P6",
+      "Text": "Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

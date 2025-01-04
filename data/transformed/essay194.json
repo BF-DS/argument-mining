@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "we must help animals live safely and comfortably in their own environment",
-    "MC2": "we have to assit animals and provide them the best quality of life possible"
-  },
-  "Claims": {
-    "C1": "Scientific facts showed the damage that zoos can inflict on animals",
-    "C2": "many zoos do not meet the standards of care required for them",
-    "C3": "Many scientific studies have revealed the detriment that zoos have caused to animals",
-    "C4": "various zoos do not have the proper implements or policies that assure the quality of animal care"
-  },
-  "Premises": {
-    "P1": "like we, human beings, animals are delivered to this world with genetic instincts",
-    "P2": "When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts",
-    "P3": "when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate",
-    "P4": "I was shocked by the cruelty which animals were treated",
-    "P5": "I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo",
-    "P6": "They beat them up",
-    "P7": "they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we must help animals live safely and comfortably in their own environment"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we have to assit animals and provide them the best quality of life possible"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Scientific facts showed the damage that zoos can inflict on animals"
+    },
+    {
+      "ID": "C2",
+      "Text": "many zoos do not meet the standards of care required for them"
+    },
+    {
+      "ID": "C3",
+      "Text": "Many scientific studies have revealed the detriment that zoos have caused to animals"
+    },
+    {
+      "ID": "C4",
+      "Text": "various zoos do not have the proper implements or policies that assure the quality of animal care"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "like we, human beings, animals are delivered to this world with genetic instincts"
+    },
+    {
+      "ID": "P2",
+      "Text": "When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts"
+    },
+    {
+      "ID": "P3",
+      "Text": "when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate"
+    },
+    {
+      "ID": "P4",
+      "Text": "I was shocked by the cruelty which animals were treated"
+    },
+    {
+      "ID": "P5",
+      "Text": "I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo"
+    },
+    {
+      "ID": "P6",
+      "Text": "They beat them up"
+    },
+    {
+      "ID": "P7",
+      "Text": "they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

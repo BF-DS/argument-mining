@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "computers brought convenience and easiness to our life",
-    "MC2": "computers have made life easier and more convenient"
-  },
-  "Claims": {
-    "C1": "they enabled easier access to information and increased qualities of the communication",
-    "C2": "computers through internet made our access to information easier",
-    "C3": "communication has become cheaper, faster and visual",
-    "C4": "it broadened the sources of information and made access more quick, a long with the improving quality of the communication in many ways"
-  },
-  "Premises": {
-    "P1": "with the use of computers we spend less time in search for information, and can get it from different sources",
-    "P2": "Through computers we can collect appropriate data very quickly, store it in the hard disc as long as we want and use it when needed",
-    "P3": "Search engines such as google, yandex with many features relevant to the characteristics of the information needed enable search of information in few minutes",
-    "P4": "Social networks such as facebook, twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments",
-    "P5": "in a globalized world that we live computers made communications faster, visual and cheaper",
-    "P6": "With the use of email our messages can be delivered to any person in any part of the world in few minutes",
-    "P7": "it is convenient",
-    "P8": "you do not need to mile to the post office, but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends, family members in any part of the world",
-    "P9": "Internet facilities such as msn, skype made visual communication possible",
-    "P10": "via skype people not just communicate with their family members and friends, but also make interviews for employment, enrolment into universities"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "computers brought convenience and easiness to our life"
+    },
+    {
+      "ID": "MC2",
+      "Text": "computers have made life easier and more convenient"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they enabled easier access to information and increased qualities of the communication"
+    },
+    {
+      "ID": "C2",
+      "Text": "computers through internet made our access to information easier"
+    },
+    {
+      "ID": "C3",
+      "Text": "communication has become cheaper, faster and visual"
+    },
+    {
+      "ID": "C4",
+      "Text": "it broadened the sources of information and made access more quick, a long with the improving quality of the communication in many ways"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "with the use of computers we spend less time in search for information, and can get it from different sources"
+    },
+    {
+      "ID": "P2",
+      "Text": "Through computers we can collect appropriate data very quickly, store it in the hard disc as long as we want and use it when needed"
+    },
+    {
+      "ID": "P3",
+      "Text": "Search engines such as google, yandex with many features relevant to the characteristics of the information needed enable search of information in few minutes"
+    },
+    {
+      "ID": "P4",
+      "Text": "Social networks such as facebook, twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments"
+    },
+    {
+      "ID": "P5",
+      "Text": "in a globalized world that we live computers made communications faster, visual and cheaper"
+    },
+    {
+      "ID": "P6",
+      "Text": "With the use of email our messages can be delivered to any person in any part of the world in few minutes"
+    },
+    {
+      "ID": "P7",
+      "Text": "it is convenient"
+    },
+    {
+      "ID": "P8",
+      "Text": "you do not need to mile to the post office, but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends, family members in any part of the world"
+    },
+    {
+      "ID": "P9",
+      "Text": "Internet facilities such as msn, skype made visual communication possible"
+    },
+    {
+      "ID": "P10",
+      "Text": "via skype people not just communicate with their family members and friends, but also make interviews for employment, enrolment into universities"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

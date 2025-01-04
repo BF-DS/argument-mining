@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "It is a completely right and extremely wise policy to focus on health education and preventative measures rather than treatment",
-    "MC2": "we should give more priority to health education and preventative measures than to treatment"
-  },
-  "Claims": {
-    "C1": "reasonable attentions should be paid to treatment so that our citizens are always looked after with best services",
-    "C2": "Health education causes long-term positive effects on our next generations",
-    "C3": "investing money to enhance the general health state is a totally right decision"
-  },
-  "Premises": {
-    "P1": "Preventative measures will help improve general health state of all citizens",
-    "P2": "thank to a full health education from their childhoods, children will have good habits of taking care of their own health and these habits may be kept in their adolescences",
-    "P3": "if a child is educated to have a hygienic lifestyle at a very young age, he also keeps it when older",
-    "P4": "health education will prepare for people especially children necessary knowledge to protect themselves from risks of diseases",
-    "P5": "Instead of afraid or panic, they may be calmer if unfortunately committing some normal diseases such as allergy or illness in seasonal changes",
-    "P6": "Many diseases which may be cured easily can turn to serious ones if we do not have right treatment",
-    "P7": "Health education will help people to have right choices of treatment to recover more quickly",
-    "P8": "vaccines will guarantee that pregnant women and their babies are protected from serious infectious diseases such as flu, smallpox, rubella so on",
-    "P9": "When huge injection campaigns are organized throughout our country, the community's health state will be improved remarkably",
-    "P10": "human resources play a key role in the development of a country",
-    "P11": "the cost of treatment is often much higher than that of prevention",
-    "P12": "the government can save a lot of money for our country's health budget"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "It is a completely right and extremely wise policy to focus on health education and preventative measures rather than treatment"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we should give more priority to health education and preventative measures than to treatment"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "reasonable attentions should be paid to treatment so that our citizens are always looked after with best services"
+    },
+    {
+      "ID": "C2",
+      "Text": "Health education causes long-term positive effects on our next generations"
+    },
+    {
+      "ID": "C3",
+      "Text": "investing money to enhance the general health state is a totally right decision"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Preventative measures will help improve general health state of all citizens"
+    },
+    {
+      "ID": "P2",
+      "Text": "thank to a full health education from their childhoods, children will have good habits of taking care of their own health and these habits may be kept in their adolescences"
+    },
+    {
+      "ID": "P3",
+      "Text": "if a child is educated to have a hygienic lifestyle at a very young age, he also keeps it when older"
+    },
+    {
+      "ID": "P4",
+      "Text": "health education will prepare for people especially children necessary knowledge to protect themselves from risks of diseases"
+    },
+    {
+      "ID": "P5",
+      "Text": "Instead of afraid or panic, they may be calmer if unfortunately committing some normal diseases such as allergy or illness in seasonal changes"
+    },
+    {
+      "ID": "P6",
+      "Text": "Many diseases which may be cured easily can turn to serious ones if we do not have right treatment"
+    },
+    {
+      "ID": "P7",
+      "Text": "Health education will help people to have right choices of treatment to recover more quickly"
+    },
+    {
+      "ID": "P8",
+      "Text": "vaccines will guarantee that pregnant women and their babies are protected from serious infectious diseases such as flu, smallpox, rubella so on"
+    },
+    {
+      "ID": "P9",
+      "Text": "When huge injection campaigns are organized throughout our country, the community's health state will be improved remarkably"
+    },
+    {
+      "ID": "P10",
+      "Text": "human resources play a key role in the development of a country"
+    },
+    {
+      "ID": "P11",
+      "Text": "the cost of treatment is often much higher than that of prevention"
+    },
+    {
+      "ID": "P12",
+      "Text": "the government can save a lot of money for our country's health budget"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

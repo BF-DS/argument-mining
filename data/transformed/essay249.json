@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "children should be forbidden in watching television or movies excessively",
-    "MC2": "In considering whether the time children watching on TV or movies should be constrained, I hold a strongly positive point of view toward this issue"
-  },
-  "Claims": {
-    "C1": "Watching TV for a long time without doing homework is one of major headaches that most of children have brought to their parents",
-    "C2": "there are many programs on TV or movies that are harmful to children in metal and physical health",
-    "C3": "children should watch TV and movies for their rich contents that could give children some topics in conversation",
-    "C4": "children are poor at time management, and are less mature to make a good judgment, they cannot be too serious to be taken care when watching TV and movies"
-  },
-  "Premises": {
-    "P1": "children generally have weak self-control, and thus they lose their time easily",
-    "P2": "Whenever I back to home from school, the first thing I would do is turning on the television and sit there for hours",
-    "P3": "I could watch TV for hours, but I could hardly sit in front of my desk to do homework for few minutes",
-    "P4": "I could memorize all channels that TV programs was playing, but I could barely memorize any word on the textbook",
-    "P5": "I, therefore, did extremely bad at school due to the lack of studying",
-    "P6": "Children are not mature enough to make a judgment of what is good or bad",
-    "P7": "they are likely to imitate the behaviors on TV out of their curiosity",
-    "P8": "Recently, more and more children smoke",
-    "P9": "they imitate actors' behaviors on TV or movies",
-    "P10": "according to some statistics, there are more and more children have violent tendency, and the reports attribute this to TV programs and movies",
-    "P11": "sometimes programs on TV are full of violence and sex which are harmful to children",
-    "P12": "it doesn't mean that children should do it overtime and without being taken care what they are watching"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "children should be forbidden in watching television or movies excessively"
+    },
+    {
+      "ID": "MC2",
+      "Text": "In considering whether the time children watching on TV or movies should be constrained, I hold a strongly positive point of view toward this issue"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Watching TV for a long time without doing homework is one of major headaches that most of children have brought to their parents"
+    },
+    {
+      "ID": "C2",
+      "Text": "there are many programs on TV or movies that are harmful to children in metal and physical health"
+    },
+    {
+      "ID": "C3",
+      "Text": "children should watch TV and movies for their rich contents that could give children some topics in conversation"
+    },
+    {
+      "ID": "C4",
+      "Text": "children are poor at time management, and are less mature to make a good judgment, they cannot be too serious to be taken care when watching TV and movies"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "children generally have weak self-control, and thus they lose their time easily"
+    },
+    {
+      "ID": "P2",
+      "Text": "Whenever I back to home from school, the first thing I would do is turning on the television and sit there for hours"
+    },
+    {
+      "ID": "P3",
+      "Text": "I could watch TV for hours, but I could hardly sit in front of my desk to do homework for few minutes"
+    },
+    {
+      "ID": "P4",
+      "Text": "I could memorize all channels that TV programs was playing, but I could barely memorize any word on the textbook"
+    },
+    {
+      "ID": "P5",
+      "Text": "I, therefore, did extremely bad at school due to the lack of studying"
+    },
+    {
+      "ID": "P6",
+      "Text": "Children are not mature enough to make a judgment of what is good or bad"
+    },
+    {
+      "ID": "P7",
+      "Text": "they are likely to imitate the behaviors on TV out of their curiosity"
+    },
+    {
+      "ID": "P8",
+      "Text": "Recently, more and more children smoke"
+    },
+    {
+      "ID": "P9",
+      "Text": "they imitate actors' behaviors on TV or movies"
+    },
+    {
+      "ID": "P10",
+      "Text": "according to some statistics, there are more and more children have violent tendency, and the reports attribute this to TV programs and movies"
+    },
+    {
+      "ID": "P11",
+      "Text": "sometimes programs on TV are full of violence and sex which are harmful to children"
+    },
+    {
+      "ID": "P12",
+      "Text": "it doesn't mean that children should do it overtime and without being taken care what they are watching"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "I disagree with reducing the cost of medicines, which may exacerbate their qualities"
-  },
-  "Claims": {
-    "C1": "The reduction in cost of medicines therefore shows the sign of humanity",
-    "C2": "there are other measures to improve the situation",
-    "C3": "the current cost of medicines is , in fact, reasonable and based on the medicines' effectiveness",
-    "C4": "the measure cannot be adopted, otherwise those companies will go into liquidation"
-  },
-  "Premises": {
-    "P1": "If people in poorer countries gain access to these drugs, their health situations may be better",
-    "P2": "more lives will be saved by the use of effective medicines",
-    "P3": "The medical industry in developing countries is incapable of producing high-quality drugs",
-    "P4": "With advanced technology, the developed world has achieved remarkable breakthroughs in making medicines, which can cure a variety of serious illnesses",
-    "P5": "It is advisable for the government to encourage medical production by supplying land for building factories and reducing part of the taxes",
-    "P6": "charitable organizations can buy medicines from developed countries and distribute to the undeveloped world for free",
-    "P7": "the process of researching, testing and producing drugs in masses costs a substantial amount of money",
-    "P8": "these products prove to ensure human health completely",
-    "P9": "Suppose companies were forced to reduce the cost of drugs, they would make no profit, even running up debt because of production expenditure"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I disagree with reducing the cost of medicines, which may exacerbate their qualities"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The reduction in cost of medicines therefore shows the sign of humanity"
+    },
+    {
+      "ID": "C2",
+      "Text": "there are other measures to improve the situation"
+    },
+    {
+      "ID": "C3",
+      "Text": "the current cost of medicines is , in fact, reasonable and based on the medicines' effectiveness"
+    },
+    {
+      "ID": "C4",
+      "Text": "the measure cannot be adopted, otherwise those companies will go into liquidation"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "If people in poorer countries gain access to these drugs, their health situations may be better"
+    },
+    {
+      "ID": "P2",
+      "Text": "more lives will be saved by the use of effective medicines"
+    },
+    {
+      "ID": "P3",
+      "Text": "The medical industry in developing countries is incapable of producing high-quality drugs"
+    },
+    {
+      "ID": "P4",
+      "Text": "With advanced technology, the developed world has achieved remarkable breakthroughs in making medicines, which can cure a variety of serious illnesses"
+    },
+    {
+      "ID": "P5",
+      "Text": "It is advisable for the government to encourage medical production by supplying land for building factories and reducing part of the taxes"
+    },
+    {
+      "ID": "P6",
+      "Text": "charitable organizations can buy medicines from developed countries and distribute to the undeveloped world for free"
+    },
+    {
+      "ID": "P7",
+      "Text": "the process of researching, testing and producing drugs in masses costs a substantial amount of money"
+    },
+    {
+      "ID": "P8",
+      "Text": "these products prove to ensure human health completely"
+    },
+    {
+      "ID": "P9",
+      "Text": "Suppose companies were forced to reduce the cost of drugs, they would make no profit, even running up debt because of production expenditure"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

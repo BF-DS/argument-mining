@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "it is time for the government to take action to control the proliferation of violent scenes in media",
-    "MC2": "What the government should do immediately is to strengthen censorship to control the amount of violence in media"
-  },
-  "Claims": {
-    "C1": "our society is occupied with the violent scenes and plots at present",
-    "C2": "This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes",
-    "C3": "excessive violence would offer misleading information to the public and exert detrimental influence to the society as well"
-  },
-  "Premises": {
-    "P1": "they regard the violence as reasonable and justifiable",
-    "P2": "media, such as TV or film, is considered as the correct information source regulated by the government",
-    "P3": "It should be reporting and reflecting true phenomenon in the society",
-    "P4": "Violence, as one of the facts in the real world, certainly has to be reported",
-    "P5": "It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy",
-    "P6": "In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is time for the government to take action to control the proliferation of violent scenes in media"
+    },
+    {
+      "ID": "MC2",
+      "Text": "What the government should do immediately is to strengthen censorship to control the amount of violence in media"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "our society is occupied with the violent scenes and plots at present"
+    },
+    {
+      "ID": "C2",
+      "Text": "This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes"
+    },
+    {
+      "ID": "C3",
+      "Text": "excessive violence would offer misleading information to the public and exert detrimental influence to the society as well"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they regard the violence as reasonable and justifiable"
+    },
+    {
+      "ID": "P2",
+      "Text": "media, such as TV or film, is considered as the correct information source regulated by the government"
+    },
+    {
+      "ID": "P3",
+      "Text": "It should be reporting and reflecting true phenomenon in the society"
+    },
+    {
+      "ID": "P4",
+      "Text": "Violence, as one of the facts in the real world, certainly has to be reported"
+    },
+    {
+      "ID": "P5",
+      "Text": "It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy"
+    },
+    {
+      "ID": "P6",
+      "Text": "In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

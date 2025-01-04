@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "schools should not remove these subjects",
-    "MC2": "non-academic subjects should be completely removed, I strongly disagree with that"
-  },
-  "Claims": {
-    "C1": "non-academic subjects are as essential as academic subjects for a student\u2019s development",
-    "C2": "Removing physical classes from school education will not only be harmful to young people\u2019s health, it will also decrease their learning capability",
-    "C3": "school education should not only focus on the academic development of a student",
-    "C4": "students can learn practical skills after school hours from their parents"
-  },
-  "Premises": {
-    "P1": "from the health point of view, schools should not only deliver academic subjects",
-    "P2": "If physical education is removed from the syllabus, there will be considerable negative effects on students\u2019 health",
-    "P3": "after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes",
-    "P4": "it is much more crucial to teach them how to be independent and live a good life",
-    "P5": "Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit",
-    "P6": "schools are responsible for developing their students into well-rounded people",
-    "P7": "It is more important for a person to success in life than to success only academically",
-    "P8": "it is not a good idea",
-    "P9": "most young people would rather watch TV or play computer games after school instead of learning life skills from their parents",
-    "P10": "parents are usually too busy with their daily jobs to teach their children the life skills"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "schools should not remove these subjects"
+    },
+    {
+      "ID": "MC2",
+      "Text": "non-academic subjects should be completely removed, I strongly disagree with that"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "non-academic subjects are as essential as academic subjects for a student\u2019s development"
+    },
+    {
+      "ID": "C2",
+      "Text": "Removing physical classes from school education will not only be harmful to young people\u2019s health, it will also decrease their learning capability"
+    },
+    {
+      "ID": "C3",
+      "Text": "school education should not only focus on the academic development of a student"
+    },
+    {
+      "ID": "C4",
+      "Text": "students can learn practical skills after school hours from their parents"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "from the health point of view, schools should not only deliver academic subjects"
+    },
+    {
+      "ID": "P2",
+      "Text": "If physical education is removed from the syllabus, there will be considerable negative effects on students\u2019 health"
+    },
+    {
+      "ID": "P3",
+      "Text": "after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes"
+    },
+    {
+      "ID": "P4",
+      "Text": "it is much more crucial to teach them how to be independent and live a good life"
+    },
+    {
+      "ID": "P5",
+      "Text": "Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit"
+    },
+    {
+      "ID": "P6",
+      "Text": "schools are responsible for developing their students into well-rounded people"
+    },
+    {
+      "ID": "P7",
+      "Text": "It is more important for a person to success in life than to success only academically"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is not a good idea"
+    },
+    {
+      "ID": "P9",
+      "Text": "most young people would rather watch TV or play computer games after school instead of learning life skills from their parents"
+    },
+    {
+      "ID": "P10",
+      "Text": "parents are usually too busy with their daily jobs to teach their children the life skills"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

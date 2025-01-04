@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "I completely disagree with this statement that we should replace normal course with online course",
-    "MC2": "I personally disagree this this notion that we should replace classroom with online class"
-  },
-  "Claims": {
-    "C1": "it should not replace classroom learning",
-    "C2": "learning in classroom could provide more information and make students more comprehend in subjects that they had learnt",
-    "C3": "online class could not provide knowledge about social skills",
-    "C4": "learning in classroom, student could have healthier life",
-    "C5": "having classroom could provide abundant skills to students"
-  },
-  "Premises": {
-    "P1": "Learning in classroom could provide more information to study",
-    "P2": "learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation",
-    "P3": "in classroom have many equipment to demonstrate real example",
-    "P4": "in biology class, learning anatomy by operating fog have many benefits",
-    "P5": "Learner could learn how to use tools and see actual organs of fog",
-    "P6": "online class just only study in textbook not learnin real situation",
-    "P7": "This important skill cannot be gotten in online classes",
-    "P8": "In a classroom, teacher could give assignment to student to work as a group",
-    "P9": "This could help students to learn how to deal with people, how to collaborate with people in their group",
-    "P10": "in school can provide exercise class which train student to move their body",
-    "P11": "Classroom have specialist trainer to teach students to it right way",
-    "P12": "If student do it by themselves, they might be hurt themselves",
-    "P13": "This make students have healthier life which online class cannot provide",
-    "P14": "classroom could provide real actual example to make students more understand in their subject",
-    "P15": "classroom courses are also provide students to learn social skill",
-    "P16": "classroom could provide exercise class to set students to have a good health"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I completely disagree with this statement that we should replace normal course with online course"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I personally disagree this this notion that we should replace classroom with online class"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it should not replace classroom learning"
+    },
+    {
+      "ID": "C2",
+      "Text": "learning in classroom could provide more information and make students more comprehend in subjects that they had learnt"
+    },
+    {
+      "ID": "C3",
+      "Text": "online class could not provide knowledge about social skills"
+    },
+    {
+      "ID": "C4",
+      "Text": "learning in classroom, student could have healthier life"
+    },
+    {
+      "ID": "C5",
+      "Text": "having classroom could provide abundant skills to students"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Learning in classroom could provide more information to study"
+    },
+    {
+      "ID": "P2",
+      "Text": "learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation"
+    },
+    {
+      "ID": "P3",
+      "Text": "in classroom have many equipment to demonstrate real example"
+    },
+    {
+      "ID": "P4",
+      "Text": "in biology class, learning anatomy by operating fog have many benefits"
+    },
+    {
+      "ID": "P5",
+      "Text": "Learner could learn how to use tools and see actual organs of fog"
+    },
+    {
+      "ID": "P6",
+      "Text": "online class just only study in textbook not learnin real situation"
+    },
+    {
+      "ID": "P7",
+      "Text": "This important skill cannot be gotten in online classes"
+    },
+    {
+      "ID": "P8",
+      "Text": "In a classroom, teacher could give assignment to student to work as a group"
+    },
+    {
+      "ID": "P9",
+      "Text": "This could help students to learn how to deal with people, how to collaborate with people in their group"
+    },
+    {
+      "ID": "P10",
+      "Text": "in school can provide exercise class which train student to move their body"
+    },
+    {
+      "ID": "P11",
+      "Text": "Classroom have specialist trainer to teach students to it right way"
+    },
+    {
+      "ID": "P12",
+      "Text": "If student do it by themselves, they might be hurt themselves"
+    },
+    {
+      "ID": "P13",
+      "Text": "This make students have healthier life which online class cannot provide"
+    },
+    {
+      "ID": "P14",
+      "Text": "classroom could provide real actual example to make students more understand in their subject"
+    },
+    {
+      "ID": "P15",
+      "Text": "classroom courses are also provide students to learn social skill"
+    },
+    {
+      "ID": "P16",
+      "Text": "classroom could provide exercise class to set students to have a good health"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

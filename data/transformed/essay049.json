@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication",
-    "MC2": "modern communication technologies will benefit more people in the future as the pace of life increases"
-  },
-  "Claims": {
-    "C1": "there are valid arguments to the contrary",
-    "C2": "these new forms of communication do bring a great deal of convenience to humankind",
-    "C3": "people who live in poverty are less likely to be benefited from modern communication technologies"
-  },
-  "Premises": {
-    "P1": "mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business",
-    "P2": "With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds",
-    "P3": "it is generally felt that the access to these tools of communication is available in every corner of the world",
-    "P4": "With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine",
-    "P5": "the more privileged are able to enjoy the benefits",
-    "P6": "the wide spread use of these efficient and effective ways of communication costs a considerable amount of money",
-    "P7": "Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication"
+    },
+    {
+      "ID": "MC2",
+      "Text": "modern communication technologies will benefit more people in the future as the pace of life increases"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there are valid arguments to the contrary"
+    },
+    {
+      "ID": "C2",
+      "Text": "these new forms of communication do bring a great deal of convenience to humankind"
+    },
+    {
+      "ID": "C3",
+      "Text": "people who live in poverty are less likely to be benefited from modern communication technologies"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business"
+    },
+    {
+      "ID": "P2",
+      "Text": "With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds"
+    },
+    {
+      "ID": "P3",
+      "Text": "it is generally felt that the access to these tools of communication is available in every corner of the world"
+    },
+    {
+      "ID": "P4",
+      "Text": "With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine"
+    },
+    {
+      "ID": "P5",
+      "Text": "the more privileged are able to enjoy the benefits"
+    },
+    {
+      "ID": "P6",
+      "Text": "the wide spread use of these efficient and effective ways of communication costs a considerable amount of money"
+    },
+    {
+      "ID": "P7",
+      "Text": "Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

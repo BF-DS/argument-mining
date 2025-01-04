@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "smoking should not be permitted, especially in public places like restaurants",
-    "MC2": "smoking should not be permitted in restaurants"
-  },
-  "Claims": {
-    "C1": "it will make the non-smokers breathe uncomfortably",
-    "C2": "Smoking in restaurants will absolutely disturb other people in enjoying their meals",
-    "C3": "Smoking in restaurants can give a bad example to the children",
-    "C4": "Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs",
-    "C5": "it is unfair for passive smokers",
-    "C6": "there will be a lot of people get disadvantaged"
-  },
-  "Premises": {
-    "P1": "restaurants are places where people come and pay some money to enjoy their meals",
-    "P2": "They will not be able to enjoy their meals while breathing in smoke around them",
-    "P3": "restaurants are places that people usually come with their families",
-    "P4": "there will be children, grandparents, as well as pregnant women inside the restaurants",
-    "P5": "Children have a high potential to imitate what adults do",
-    "P6": "they have really high curiosity towards something",
-    "P7": "The most dangerous people that would be affected by smoke are the pregnant women",
-    "P8": "they will breathe in the contaminated air and it will disrupt the growth of the babies",
-    "P9": "they do not smoke but they have same health risks as the active one",
-    "P10": "passive smokers will have a lot of health risks",
-    "P11": "When they are around the active smokers, they will inhale hazardous smoke",
-    "P12": "Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "smoking should not be permitted, especially in public places like restaurants"
+    },
+    {
+      "ID": "MC2",
+      "Text": "smoking should not be permitted in restaurants"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it will make the non-smokers breathe uncomfortably"
+    },
+    {
+      "ID": "C2",
+      "Text": "Smoking in restaurants will absolutely disturb other people in enjoying their meals"
+    },
+    {
+      "ID": "C3",
+      "Text": "Smoking in restaurants can give a bad example to the children"
+    },
+    {
+      "ID": "C4",
+      "Text": "Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs"
+    },
+    {
+      "ID": "C5",
+      "Text": "it is unfair for passive smokers"
+    },
+    {
+      "ID": "C6",
+      "Text": "there will be a lot of people get disadvantaged"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "restaurants are places where people come and pay some money to enjoy their meals"
+    },
+    {
+      "ID": "P2",
+      "Text": "They will not be able to enjoy their meals while breathing in smoke around them"
+    },
+    {
+      "ID": "P3",
+      "Text": "restaurants are places that people usually come with their families"
+    },
+    {
+      "ID": "P4",
+      "Text": "there will be children, grandparents, as well as pregnant women inside the restaurants"
+    },
+    {
+      "ID": "P5",
+      "Text": "Children have a high potential to imitate what adults do"
+    },
+    {
+      "ID": "P6",
+      "Text": "they have really high curiosity towards something"
+    },
+    {
+      "ID": "P7",
+      "Text": "The most dangerous people that would be affected by smoke are the pregnant women"
+    },
+    {
+      "ID": "P8",
+      "Text": "they will breathe in the contaminated air and it will disrupt the growth of the babies"
+    },
+    {
+      "ID": "P9",
+      "Text": "they do not smoke but they have same health risks as the active one"
+    },
+    {
+      "ID": "P10",
+      "Text": "passive smokers will have a lot of health risks"
+    },
+    {
+      "ID": "P11",
+      "Text": "When they are around the active smokers, they will inhale hazardous smoke"
+    },
+    {
+      "ID": "P12",
+      "Text": "Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

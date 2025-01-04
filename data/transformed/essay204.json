@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "traditional learning still has many benefits to the students",
-    "MC2": "I prefer traditional learning classes"
-  },
-  "Claims": {
-    "C1": "online classes have many advantages",
-    "C2": "the participant with the others like classmates or professors is still an important factor in studying",
-    "C3": "classroom learning provides other activities than studying",
-    "C4": "in school, there are professors that guided you during you had a problem or needed an advice"
-  },
-  "Premises": {
-    "P1": "Working in group leads to more discussion and more opinion among the class",
-    "P2": "the discussion class results in expanded children vision and their respect to others roommate's ideas",
-    "P3": "Unlike the distance learning that children have few opportunities to discuss with their friends",
-    "P4": "During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library",
-    "P5": "These activities lead to more interact with their friends",
-    "P6": "Connection with friends improves their IQ abilities",
-    "P7": "they have a chance to learn about their societies",
-    "P8": "the online course keeps the children at their home only",
-    "P9": "The professor provides good answers to you",
-    "P10": "They do not mind helping you, and they never leave you alone when you got a problem",
-    "P11": "in distance learning, these aspects of the professor had reduced their important",
-    "P12": "The professor has been assigned to teach only",
-    "P13": "there will be a long response from the teachers when children ask them a question"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "traditional learning still has many benefits to the students"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I prefer traditional learning classes"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "online classes have many advantages"
+    },
+    {
+      "ID": "C2",
+      "Text": "the participant with the others like classmates or professors is still an important factor in studying"
+    },
+    {
+      "ID": "C3",
+      "Text": "classroom learning provides other activities than studying"
+    },
+    {
+      "ID": "C4",
+      "Text": "in school, there are professors that guided you during you had a problem or needed an advice"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Working in group leads to more discussion and more opinion among the class"
+    },
+    {
+      "ID": "P2",
+      "Text": "the discussion class results in expanded children vision and their respect to others roommate's ideas"
+    },
+    {
+      "ID": "P3",
+      "Text": "Unlike the distance learning that children have few opportunities to discuss with their friends"
+    },
+    {
+      "ID": "P4",
+      "Text": "During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library"
+    },
+    {
+      "ID": "P5",
+      "Text": "These activities lead to more interact with their friends"
+    },
+    {
+      "ID": "P6",
+      "Text": "Connection with friends improves their IQ abilities"
+    },
+    {
+      "ID": "P7",
+      "Text": "they have a chance to learn about their societies"
+    },
+    {
+      "ID": "P8",
+      "Text": "the online course keeps the children at their home only"
+    },
+    {
+      "ID": "P9",
+      "Text": "The professor provides good answers to you"
+    },
+    {
+      "ID": "P10",
+      "Text": "They do not mind helping you, and they never leave you alone when you got a problem"
+    },
+    {
+      "ID": "P11",
+      "Text": "in distance learning, these aspects of the professor had reduced their important"
+    },
+    {
+      "ID": "P12",
+      "Text": "The professor has been assigned to teach only"
+    },
+    {
+      "ID": "P13",
+      "Text": "there will be a long response from the teachers when children ask them a question"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

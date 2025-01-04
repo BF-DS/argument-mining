@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "technology alone can solve the world's environmental problems"
-  },
-  "Claims": {
-    "C1": "if humans stop using technology and lead a simple way of life then only we can save the environment",
-    "C2": "technology alone could save the environment",
-    "C3": "There are a lot of advances going on technology which are helping the environment a lot"
-  },
-  "Premises": {
-    "P1": "it is the luxuries people use which damages the environment",
-    "P2": "If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment",
-    "P3": "now we have come so far ahead in technology that there is no going back",
-    "P4": "We cannot ask the people of the jet age to go back to the age of the bullock cart",
-    "P5": "One prime example is finding solutions to water problems in developing countries such as Africa",
-    "P6": "By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource",
-    "P7": "Japan is working to build a working space solar power system by 2030",
-    "P8": "By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions",
-    "P9": "If successful, the impact on the world would be monumental",
-    "P10": "It would mean energy for schools, hospitals, and homes",
-    "P11": "It would mean another industrial revolution"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "technology alone can solve the world's environmental problems"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "if humans stop using technology and lead a simple way of life then only we can save the environment"
+    },
+    {
+      "ID": "C2",
+      "Text": "technology alone could save the environment"
+    },
+    {
+      "ID": "C3",
+      "Text": "There are a lot of advances going on technology which are helping the environment a lot"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is the luxuries people use which damages the environment"
+    },
+    {
+      "ID": "P2",
+      "Text": "If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment"
+    },
+    {
+      "ID": "P3",
+      "Text": "now we have come so far ahead in technology that there is no going back"
+    },
+    {
+      "ID": "P4",
+      "Text": "We cannot ask the people of the jet age to go back to the age of the bullock cart"
+    },
+    {
+      "ID": "P5",
+      "Text": "One prime example is finding solutions to water problems in developing countries such as Africa"
+    },
+    {
+      "ID": "P6",
+      "Text": "By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource"
+    },
+    {
+      "ID": "P7",
+      "Text": "Japan is working to build a working space solar power system by 2030"
+    },
+    {
+      "ID": "P8",
+      "Text": "By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions"
+    },
+    {
+      "ID": "P9",
+      "Text": "If successful, the impact on the world would be monumental"
+    },
+    {
+      "ID": "P10",
+      "Text": "It would mean energy for schools, hospitals, and homes"
+    },
+    {
+      "ID": "P11",
+      "Text": "It would mean another industrial revolution"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

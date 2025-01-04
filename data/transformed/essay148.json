@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "a single modern culture is being created by modern technology",
-    "MC2": "new technology has affected cultures of the world, and we can see many similarities in many cultures"
-  },
-  "Claims": {
-    "C1": "new technology has influences on educational system, jobs and foods in the world",
-    "C2": "most of the countries have the same educational system based on technology",
-    "C3": "new technology has created some similar jobs all around the world",
-    "C4": "there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them"
-  },
-  "Premises": {
-    "P1": "Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint",
-    "P2": "students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students",
-    "P3": "many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries",
-    "P4": "jobs that are related to technology are in demand in most of the countries",
-    "P5": "Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field",
-    "P6": "many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures",
-    "P7": "cooks can find many new food recipes easily on the Internet",
-    "P8": "two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a single modern culture is being created by modern technology"
+    },
+    {
+      "ID": "MC2",
+      "Text": "new technology has affected cultures of the world, and we can see many similarities in many cultures"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "new technology has influences on educational system, jobs and foods in the world"
+    },
+    {
+      "ID": "C2",
+      "Text": "most of the countries have the same educational system based on technology"
+    },
+    {
+      "ID": "C3",
+      "Text": "new technology has created some similar jobs all around the world"
+    },
+    {
+      "ID": "C4",
+      "Text": "there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint"
+    },
+    {
+      "ID": "P2",
+      "Text": "students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students"
+    },
+    {
+      "ID": "P3",
+      "Text": "many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries"
+    },
+    {
+      "ID": "P4",
+      "Text": "jobs that are related to technology are in demand in most of the countries"
+    },
+    {
+      "ID": "P5",
+      "Text": "Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field"
+    },
+    {
+      "ID": "P6",
+      "Text": "many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures"
+    },
+    {
+      "ID": "P7",
+      "Text": "cooks can find many new food recipes easily on the Internet"
+    },
+    {
+      "ID": "P8",
+      "Text": "two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

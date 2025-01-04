@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation",
-    "MC2": "challenges for this generation are more complicated and diverse than the past generation, whether in career or in self-identification"
-  },
-  "Claims": {
-    "C1": "it is no doubt that until the next generation, there will be whole new challenges waiting for the next youngsters",
-    "C2": "under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging",
-    "C3": "young people in this generation are exposed to more creative ideas and rather think individually",
-    "C4": "this generation is encountering the self-recognition issue which could not be experienced by the previous generation"
-  },
-  "Premises": {
-    "P1": "In the past, focusing on one skill was enough to deal with the problems",
-    "P2": "every industry was rather small in size and simple to manage",
-    "P3": "as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges",
-    "P4": "now there are more chances to do business with people around the world",
-    "P5": "besides one's own profession, language ability is essential as well",
-    "P6": "financial crimes are rampant in the 21st century",
-    "P7": "surging up demands for those who excel at both laws and financial management",
-    "P8": "The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them",
-    "P9": "They are eager for finding who they are and what they really want",
-    "P10": "It is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them",
-    "P11": "They have to make decisions between so many possibilities and they are responsible for taking the consequences"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation"
+    },
+    {
+      "ID": "MC2",
+      "Text": "challenges for this generation are more complicated and diverse than the past generation, whether in career or in self-identification"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is no doubt that until the next generation, there will be whole new challenges waiting for the next youngsters"
+    },
+    {
+      "ID": "C2",
+      "Text": "under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging"
+    },
+    {
+      "ID": "C3",
+      "Text": "young people in this generation are exposed to more creative ideas and rather think individually"
+    },
+    {
+      "ID": "C4",
+      "Text": "this generation is encountering the self-recognition issue which could not be experienced by the previous generation"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In the past, focusing on one skill was enough to deal with the problems"
+    },
+    {
+      "ID": "P2",
+      "Text": "every industry was rather small in size and simple to manage"
+    },
+    {
+      "ID": "P3",
+      "Text": "as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges"
+    },
+    {
+      "ID": "P4",
+      "Text": "now there are more chances to do business with people around the world"
+    },
+    {
+      "ID": "P5",
+      "Text": "besides one's own profession, language ability is essential as well"
+    },
+    {
+      "ID": "P6",
+      "Text": "financial crimes are rampant in the 21st century"
+    },
+    {
+      "ID": "P7",
+      "Text": "surging up demands for those who excel at both laws and financial management"
+    },
+    {
+      "ID": "P8",
+      "Text": "The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them"
+    },
+    {
+      "ID": "P9",
+      "Text": "They are eager for finding who they are and what they really want"
+    },
+    {
+      "ID": "P10",
+      "Text": "It is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them"
+    },
+    {
+      "ID": "P11",
+      "Text": "They have to make decisions between so many possibilities and they are responsible for taking the consequences"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "it's better to have one or two close friends than to have a large number of casual acquaintances",
-    "MC2": "friends are the most important people in my life second to my family"
-  },
-  "Claims": {
-    "C1": "it's much easier to have some casual acquaintances than have some close friends",
-    "C2": "close friends can easily understand each others feelings",
-    "C3": "a friend is a person you care about"
-  },
-  "Premises": {
-    "P1": "being a friend with someone is different from only being acquaintant",
-    "P2": "it's not easy to make friend with anyone",
-    "P3": "friends are people who have great compatibility with each other",
-    "P4": "After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways",
-    "P5": "Sometimes acquaintances are just acquaintances",
-    "P6": "We spend time together but we could never be friend",
-    "P7": "acquaintances probably not able to understand you better than your friends",
-    "P8": "they wouldn't even spare time to consider your feelings",
-    "P9": "Everyone play the role of acquaintance and friend at the same time",
-    "P10": "Being friendly is a good way to treat a acquaintance but way not enough for a friend",
-    "P11": "When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible",
-    "P12": "If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business",
-    "P13": "my friend will do the same to me"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it's better to have one or two close friends than to have a large number of casual acquaintances"
+    },
+    {
+      "ID": "MC2",
+      "Text": "friends are the most important people in my life second to my family"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it's much easier to have some casual acquaintances than have some close friends"
+    },
+    {
+      "ID": "C2",
+      "Text": "close friends can easily understand each others feelings"
+    },
+    {
+      "ID": "C3",
+      "Text": "a friend is a person you care about"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "being a friend with someone is different from only being acquaintant"
+    },
+    {
+      "ID": "P2",
+      "Text": "it's not easy to make friend with anyone"
+    },
+    {
+      "ID": "P3",
+      "Text": "friends are people who have great compatibility with each other"
+    },
+    {
+      "ID": "P4",
+      "Text": "After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways"
+    },
+    {
+      "ID": "P5",
+      "Text": "Sometimes acquaintances are just acquaintances"
+    },
+    {
+      "ID": "P6",
+      "Text": "We spend time together but we could never be friend"
+    },
+    {
+      "ID": "P7",
+      "Text": "acquaintances probably not able to understand you better than your friends"
+    },
+    {
+      "ID": "P8",
+      "Text": "they wouldn't even spare time to consider your feelings"
+    },
+    {
+      "ID": "P9",
+      "Text": "Everyone play the role of acquaintance and friend at the same time"
+    },
+    {
+      "ID": "P10",
+      "Text": "Being friendly is a good way to treat a acquaintance but way not enough for a friend"
+    },
+    {
+      "ID": "P11",
+      "Text": "When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible"
+    },
+    {
+      "ID": "P12",
+      "Text": "If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business"
+    },
+    {
+      "ID": "P13",
+      "Text": "my friend will do the same to me"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "I still hold the environment protection for long-term interest"
-  },
-  "Claims": {
-    "C1": "supporting art will benefit the human beings and the company in short-term interest",
-    "C2": "conservation is more urgent now than at any time in history",
-    "C3": "supporting environment protection will benefit the company eventually",
-    "C4": "conservation leads us to a higher standard of living"
-  },
-  "Premises": {
-    "P1": "an increasing amount of people pay more attention to conservation",
-    "P2": "sponsoring conservation is a more efficient method of advertising",
-    "P3": "Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society",
-    "P4": "According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered",
-    "P5": "rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries",
-    "P6": "If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms",
-    "P7": "the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will",
-    "P8": "art is one of the best ways of entertaining human beings",
-    "P9": "with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs",
-    "P10": "Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I still hold the environment protection for long-term interest"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "supporting art will benefit the human beings and the company in short-term interest"
+    },
+    {
+      "ID": "C2",
+      "Text": "conservation is more urgent now than at any time in history"
+    },
+    {
+      "ID": "C3",
+      "Text": "supporting environment protection will benefit the company eventually"
+    },
+    {
+      "ID": "C4",
+      "Text": "conservation leads us to a higher standard of living"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "an increasing amount of people pay more attention to conservation"
+    },
+    {
+      "ID": "P2",
+      "Text": "sponsoring conservation is a more efficient method of advertising"
+    },
+    {
+      "ID": "P3",
+      "Text": "Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society"
+    },
+    {
+      "ID": "P4",
+      "Text": "According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered"
+    },
+    {
+      "ID": "P5",
+      "Text": "rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries"
+    },
+    {
+      "ID": "P6",
+      "Text": "If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms"
+    },
+    {
+      "ID": "P7",
+      "Text": "the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will"
+    },
+    {
+      "ID": "P8",
+      "Text": "art is one of the best ways of entertaining human beings"
+    },
+    {
+      "ID": "P9",
+      "Text": "with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs"
+    },
+    {
+      "ID": "P10",
+      "Text": "Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

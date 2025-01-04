@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "dependence on computers is not a bad thing",
-    "MC2": "The whole world is dependent on computers, without which, the world will go back hundreds of years"
-  },
-  "Claims": {
-    "C1": "computers have provided security and sophistication",
-    "C2": "Computers provide speed, increase efficiency, accuracy, precision, help to increase productivity and other countless benefits are provided by it",
-    "C3": "future prospects of computers are very bright",
-    "C4": "Computers have made humans over-dependent"
-  },
-  "Premises": {
-    "P1": "In the modern world, computers are used everywhere",
-    "P2": "Right from flying planes to sending a small document, computers are needed",
-    "P3": "They are used in space programs, wars, hospitals, schools and so on",
-    "P4": "Computers have made human life more easy, convenient and lightning fast",
-    "P5": "in earlier days, if one had to send a message to someone in other country, it used to take months",
-    "P6": "today, it can be sent in few minutes by typing a email and few clicks",
-    "P7": "From a computer as big as a room, it has now been minimized to the size of a palm",
-    "P8": "Nanotechnology is working to make computers to the order of microscopic levels",
-    "P9": "Research on making computerized drone soldiers (unmanned computer controlled) is going on",
-    "P10": "There is no end to the evolution of computers",
-    "P11": "Virus programs, privacy breach, leak of confidential documents, cyber attacks, identity theft, frauds etc. are some of its demerits, from a countless list",
-    "P12": "Computers expose children to vulgar materials",
-    "P13": "They have even invaded mental health of humans, for example, FAD (Facebook Addiction Disorder - excessive use of social networking website Facebook)",
-    "P14": "Computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives",
-    "P15": "The recent case of Wikileaks, leaking confidential data is an example of how computers are harmful"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "dependence on computers is not a bad thing"
+    },
+    {
+      "ID": "MC2",
+      "Text": "The whole world is dependent on computers, without which, the world will go back hundreds of years"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "computers have provided security and sophistication"
+    },
+    {
+      "ID": "C2",
+      "Text": "Computers provide speed, increase efficiency, accuracy, precision, help to increase productivity and other countless benefits are provided by it"
+    },
+    {
+      "ID": "C3",
+      "Text": "future prospects of computers are very bright"
+    },
+    {
+      "ID": "C4",
+      "Text": "Computers have made humans over-dependent"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In the modern world, computers are used everywhere"
+    },
+    {
+      "ID": "P2",
+      "Text": "Right from flying planes to sending a small document, computers are needed"
+    },
+    {
+      "ID": "P3",
+      "Text": "They are used in space programs, wars, hospitals, schools and so on"
+    },
+    {
+      "ID": "P4",
+      "Text": "Computers have made human life more easy, convenient and lightning fast"
+    },
+    {
+      "ID": "P5",
+      "Text": "in earlier days, if one had to send a message to someone in other country, it used to take months"
+    },
+    {
+      "ID": "P6",
+      "Text": "today, it can be sent in few minutes by typing a email and few clicks"
+    },
+    {
+      "ID": "P7",
+      "Text": "From a computer as big as a room, it has now been minimized to the size of a palm"
+    },
+    {
+      "ID": "P8",
+      "Text": "Nanotechnology is working to make computers to the order of microscopic levels"
+    },
+    {
+      "ID": "P9",
+      "Text": "Research on making computerized drone soldiers (unmanned computer controlled) is going on"
+    },
+    {
+      "ID": "P10",
+      "Text": "There is no end to the evolution of computers"
+    },
+    {
+      "ID": "P11",
+      "Text": "Virus programs, privacy breach, leak of confidential documents, cyber attacks, identity theft, frauds etc. are some of its demerits, from a countless list"
+    },
+    {
+      "ID": "P12",
+      "Text": "Computers expose children to vulgar materials"
+    },
+    {
+      "ID": "P13",
+      "Text": "They have even invaded mental health of humans, for example, FAD (Facebook Addiction Disorder - excessive use of social networking website Facebook)"
+    },
+    {
+      "ID": "P14",
+      "Text": "Computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives"
+    },
+    {
+      "ID": "P15",
+      "Text": "The recent case of Wikileaks, leaking confidential data is an example of how computers are harmful"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

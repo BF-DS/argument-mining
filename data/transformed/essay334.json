@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "problems posed by machines should draws more attentions as well",
-    "MC2": "we cannot ignore its negative effects"
-  },
-  "Claims": {
-    "C1": "we cannot deny machines are play a vital role in people living and working",
-    "C2": "although using machines have many benefits",
-    "C3": "machines can bring many benefits",
-    "C4": "the disadvantages of machines that bring to us should not be neglected by people"
-  },
-  "Premises": {
-    "P1": "Not like human, machines do not need rest, which means they can work as long as employers want and consistently produce high quality products without any mistakes",
-    "P2": "using machines can save company's money",
-    "P3": "machines never ask for salary, over-time pay or pension",
-    "P4": "employers do not need to spend money on employee's welfare",
-    "P5": "The company only needs some technicians to make sure machines are working on the right track or replace some part when machines are not working",
-    "P6": "machines are more effective than human",
-    "P7": "because of extensive of using machines, many people loss their job",
-    "P8": "Especially in large population countries, high unemployment rate may cause crime and social instability",
-    "P9": "using of machines are also pose serious pollution and energy dissipation",
-    "P10": "nowadays people prefer to use dish-washing machine to wash dishes and plates rather than hand washing",
-    "P11": "they did not know that compared with hand washing dish-washing machine consume at least 2 times water and electricity to wash these tableware",
-    "P12": "if thousands of families use dish-washing machines, how many water and how much electricity will be wasted"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "problems posed by machines should draws more attentions as well"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we cannot ignore its negative effects"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "we cannot deny machines are play a vital role in people living and working"
+    },
+    {
+      "ID": "C2",
+      "Text": "although using machines have many benefits"
+    },
+    {
+      "ID": "C3",
+      "Text": "machines can bring many benefits"
+    },
+    {
+      "ID": "C4",
+      "Text": "the disadvantages of machines that bring to us should not be neglected by people"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Not like human, machines do not need rest, which means they can work as long as employers want and consistently produce high quality products without any mistakes"
+    },
+    {
+      "ID": "P2",
+      "Text": "using machines can save company's money"
+    },
+    {
+      "ID": "P3",
+      "Text": "machines never ask for salary, over-time pay or pension"
+    },
+    {
+      "ID": "P4",
+      "Text": "employers do not need to spend money on employee's welfare"
+    },
+    {
+      "ID": "P5",
+      "Text": "The company only needs some technicians to make sure machines are working on the right track or replace some part when machines are not working"
+    },
+    {
+      "ID": "P6",
+      "Text": "machines are more effective than human"
+    },
+    {
+      "ID": "P7",
+      "Text": "because of extensive of using machines, many people loss their job"
+    },
+    {
+      "ID": "P8",
+      "Text": "Especially in large population countries, high unemployment rate may cause crime and social instability"
+    },
+    {
+      "ID": "P9",
+      "Text": "using of machines are also pose serious pollution and energy dissipation"
+    },
+    {
+      "ID": "P10",
+      "Text": "nowadays people prefer to use dish-washing machine to wash dishes and plates rather than hand washing"
+    },
+    {
+      "ID": "P11",
+      "Text": "they did not know that compared with hand washing dish-washing machine consume at least 2 times water and electricity to wash these tableware"
+    },
+    {
+      "ID": "P12",
+      "Text": "if thousands of families use dish-washing machines, how many water and how much electricity will be wasted"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

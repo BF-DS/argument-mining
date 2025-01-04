@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "the classmates should be regarded as the most important influence on individual achievements",
-    "MC2": "classmates are unrivalled by the children's parents"
-  },
-  "Claims": {
-    "C1": "they provide tremendous incentive and horizon expansion, two crucial commodities leading to a successful presentation at school",
-    "C2": "the classmates themselves creat a competitive atmoshphere which incent the children",
-    "C3": "when it comes to knowledge and the acquisition of such, classmates are second to none"
-  },
-  "Premises": {
-    "P1": "In high school, for instance, an individual cannot resist studying painstakingly through day and night when the others who are astoundingly ambitious and set sights on prestigious universities around the globe are doing the same",
-    "P2": "From a psychological perspective, the feeling of being subordinate to their peers exert enormous pressure on the children, which subsequently transforms into some sort of stimulants and boosts the children's academic performances",
-    "P3": "students share even more time together than with their parents, explaining a great deal of wisdom they absorb from each others",
-    "P4": "it can be, for example, lessons on the class, social skills or general etiquettes that are sometimes overlooked by parents",
-    "P5": "Sharing the same age, children are at their most comfort to exchange ideas, to query and interpret abstract concepts without fear of parental punishments, resulting in deeper comprehension"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the classmates should be regarded as the most important influence on individual achievements"
+    },
+    {
+      "ID": "MC2",
+      "Text": "classmates are unrivalled by the children's parents"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they provide tremendous incentive and horizon expansion, two crucial commodities leading to a successful presentation at school"
+    },
+    {
+      "ID": "C2",
+      "Text": "the classmates themselves creat a competitive atmoshphere which incent the children"
+    },
+    {
+      "ID": "C3",
+      "Text": "when it comes to knowledge and the acquisition of such, classmates are second to none"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In high school, for instance, an individual cannot resist studying painstakingly through day and night when the others who are astoundingly ambitious and set sights on prestigious universities around the globe are doing the same"
+    },
+    {
+      "ID": "P2",
+      "Text": "From a psychological perspective, the feeling of being subordinate to their peers exert enormous pressure on the children, which subsequently transforms into some sort of stimulants and boosts the children's academic performances"
+    },
+    {
+      "ID": "P3",
+      "Text": "students share even more time together than with their parents, explaining a great deal of wisdom they absorb from each others"
+    },
+    {
+      "ID": "P4",
+      "Text": "it can be, for example, lessons on the class, social skills or general etiquettes that are sometimes overlooked by parents"
+    },
+    {
+      "ID": "P5",
+      "Text": "Sharing the same age, children are at their most comfort to exchange ideas, to query and interpret abstract concepts without fear of parental punishments, resulting in deeper comprehension"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

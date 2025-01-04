@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "I don't think that technology can replace teachers and classroom",
-    "MC2": "distance education can't replace traditional school"
-  },
-  "Claims": {
-    "C1": "Studying at home by using technology is convenient",
-    "C2": "Students may raise questions and they may have problems of understanding some specific topics or subjects",
-    "C3": "Students may find that it is hard to study without being kept under supervision",
-    "C4": "there is an advantage of traditional school - socialization- establishes relationship with classmates"
-  },
-  "Premises": {
-    "P1": "The biggest advantage is that your classroom and instructor are available 24 hours a day",
-    "P2": "you could make your own schedule for completing the requirements of the course",
-    "P3": "You can study any time you want",
-    "P4": "if you aren't extremely dedicated or have good time management skills, it may be very difficult to complete a course at home",
-    "P5": "it may be a predicament when you face some problems in learning without any help",
-    "P6": "attending an education course at home requires persistence and patience",
-    "P7": "when you don't have an instructor there to guide you, it is up to you to make sure that you understand and complete all course requirements",
-    "P8": "If you are the type that gets easily distracted, a distance-learning program may not be for you",
-    "P9": "studying at home is very different from traditional learning",
-    "P10": "Unlike traditional classes, distance education courses don't take place in a classroom, where you are surrounded by your teachers and classmates",
-    "P11": "We can learn a lot from programs at home",
-    "P12": "our computers or televisions can't teach us how to get along with people",
-    "P13": "students may learn how to cooperate with classmates from teamwork",
-    "P14": "Studying alone at home might deprive us of these significant and valuable opportunities"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I don't think that technology can replace teachers and classroom"
+    },
+    {
+      "ID": "MC2",
+      "Text": "distance education can't replace traditional school"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Studying at home by using technology is convenient"
+    },
+    {
+      "ID": "C2",
+      "Text": "Students may raise questions and they may have problems of understanding some specific topics or subjects"
+    },
+    {
+      "ID": "C3",
+      "Text": "Students may find that it is hard to study without being kept under supervision"
+    },
+    {
+      "ID": "C4",
+      "Text": "there is an advantage of traditional school - socialization- establishes relationship with classmates"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The biggest advantage is that your classroom and instructor are available 24 hours a day"
+    },
+    {
+      "ID": "P2",
+      "Text": "you could make your own schedule for completing the requirements of the course"
+    },
+    {
+      "ID": "P3",
+      "Text": "You can study any time you want"
+    },
+    {
+      "ID": "P4",
+      "Text": "if you aren't extremely dedicated or have good time management skills, it may be very difficult to complete a course at home"
+    },
+    {
+      "ID": "P5",
+      "Text": "it may be a predicament when you face some problems in learning without any help"
+    },
+    {
+      "ID": "P6",
+      "Text": "attending an education course at home requires persistence and patience"
+    },
+    {
+      "ID": "P7",
+      "Text": "when you don't have an instructor there to guide you, it is up to you to make sure that you understand and complete all course requirements"
+    },
+    {
+      "ID": "P8",
+      "Text": "If you are the type that gets easily distracted, a distance-learning program may not be for you"
+    },
+    {
+      "ID": "P9",
+      "Text": "studying at home is very different from traditional learning"
+    },
+    {
+      "ID": "P10",
+      "Text": "Unlike traditional classes, distance education courses don't take place in a classroom, where you are surrounded by your teachers and classmates"
+    },
+    {
+      "ID": "P11",
+      "Text": "We can learn a lot from programs at home"
+    },
+    {
+      "ID": "P12",
+      "Text": "our computers or televisions can't teach us how to get along with people"
+    },
+    {
+      "ID": "P13",
+      "Text": "students may learn how to cooperate with classmates from teamwork"
+    },
+    {
+      "ID": "P14",
+      "Text": "Studying alone at home might deprive us of these significant and valuable opportunities"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,19 +1,46 @@
 {
-  "MajorClaims": {
-    "MC1": "smoking should be made prohibited in public places such as bus and railway stations",
-    "MC2": "it has been proven benefits people enjoy this arrangement"
-  },
-  "Claims": {
-    "C1": "non-smoking public would be undoubtedly benefited by enforcing such restrain",
-    "C2": "introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing"
-  },
-  "Premises": {
-    "P1": "Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely",
-    "P2": "Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents",
-    "P3": "After enforcing restrictions the situation came to control and this act as benefit rendered to the public",
-    "P4": "further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health",
-    "P5": "smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "smoking should be made prohibited in public places such as bus and railway stations"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it has been proven benefits people enjoy this arrangement"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "non-smoking public would be undoubtedly benefited by enforcing such restrain"
+    },
+    {
+      "ID": "C2",
+      "Text": "introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely"
+    },
+    {
+      "ID": "P2",
+      "Text": "Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents"
+    },
+    {
+      "ID": "P3",
+      "Text": "After enforcing restrictions the situation came to control and this act as benefit rendered to the public"
+    },
+    {
+      "ID": "P4",
+      "Text": "further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health"
+    },
+    {
+      "ID": "P5",
+      "Text": "smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

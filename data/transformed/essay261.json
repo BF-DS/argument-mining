@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "the art and music should be required to study",
-    "MC2": "younger students' art and music education should not take the second place"
-  },
-  "Claims": {
-    "C1": "the art and music, from my point of view, are also essential for younger student's future life",
-    "C2": "art and music would broaden student's horizon and therefore make them thoughtful",
-    "C3": "studying art and music is also the appropriate outlets of stress and superb ways to relax",
-    "C4": "the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure",
-    "C5": "in the modern society, since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure"
-  },
-  "Premises": {
-    "P1": "those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays",
-    "P2": "It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures",
-    "P3": "learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures",
-    "P4": "students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played",
-    "P5": "with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself",
-    "P6": "Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life",
-    "P7": "When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for",
-    "P8": "they would totally involve in the ocean of art and their stressful nervous would be relieved",
-    "P9": "this sense towards art is built on the initial study on the art",
-    "P10": "the study of art and music is supposed to rely on younger student's own interest",
-    "P11": "The education of art and music would not work if students resist it"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the art and music should be required to study"
+    },
+    {
+      "ID": "MC2",
+      "Text": "younger students' art and music education should not take the second place"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the art and music, from my point of view, are also essential for younger student's future life"
+    },
+    {
+      "ID": "C2",
+      "Text": "art and music would broaden student's horizon and therefore make them thoughtful"
+    },
+    {
+      "ID": "C3",
+      "Text": "studying art and music is also the appropriate outlets of stress and superb ways to relax"
+    },
+    {
+      "ID": "C4",
+      "Text": "the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure"
+    },
+    {
+      "ID": "C5",
+      "Text": "in the modern society, since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays"
+    },
+    {
+      "ID": "P2",
+      "Text": "It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures"
+    },
+    {
+      "ID": "P3",
+      "Text": "learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures"
+    },
+    {
+      "ID": "P4",
+      "Text": "students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played"
+    },
+    {
+      "ID": "P5",
+      "Text": "with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself"
+    },
+    {
+      "ID": "P6",
+      "Text": "Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life"
+    },
+    {
+      "ID": "P7",
+      "Text": "When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for"
+    },
+    {
+      "ID": "P8",
+      "Text": "they would totally involve in the ocean of art and their stressful nervous would be relieved"
+    },
+    {
+      "ID": "P9",
+      "Text": "this sense towards art is built on the initial study on the art"
+    },
+    {
+      "ID": "P10",
+      "Text": "the study of art and music is supposed to rely on younger student's own interest"
+    },
+    {
+      "ID": "P11",
+      "Text": "The education of art and music would not work if students resist it"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

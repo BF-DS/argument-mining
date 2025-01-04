@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "student have to be forced to study at school",
-    "MC2": "students should study at school"
-  },
-  "Claims": {
-    "C1": "there are some advantages of leaving school to find a job",
-    "C2": "they have more opprotunities to find a job and to be successful in the future",
-    "C3": "children should interrupt their school work and get a job"
-  },
-  "Premises": {
-    "P1": "studying at school is always the best choice for children's future",
-    "P2": "There are many ways that can train children to learn independent and social skills instead of getting a job",
-    "P3": "employer always prefer to hire an employee of high degree who have professional skills",
-    "P4": "schools offer to students a good environment with experienced professors and high quality programs for studying",
-    "P5": "schools provide lots of academic knowledge to students",
-    "P6": "Students may learn professional skills, expand their understandings and gain experiences",
-    "P7": "It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things",
-    "P8": "Whether children can learn a lot at school",
-    "P9": "there are many subjects that will be of little value to them in the future",
-    "P10": "children can learn social skills when they have a job",
-    "P11": "They can get more experiences that can not be obtained at school",
-    "P12": "Working helps children be more independent and teach them to esteem and manage the money that they've earned"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "student have to be forced to study at school"
+    },
+    {
+      "ID": "MC2",
+      "Text": "students should study at school"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there are some advantages of leaving school to find a job"
+    },
+    {
+      "ID": "C2",
+      "Text": "they have more opprotunities to find a job and to be successful in the future"
+    },
+    {
+      "ID": "C3",
+      "Text": "children should interrupt their school work and get a job"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "studying at school is always the best choice for children's future"
+    },
+    {
+      "ID": "P2",
+      "Text": "There are many ways that can train children to learn independent and social skills instead of getting a job"
+    },
+    {
+      "ID": "P3",
+      "Text": "employer always prefer to hire an employee of high degree who have professional skills"
+    },
+    {
+      "ID": "P4",
+      "Text": "schools offer to students a good environment with experienced professors and high quality programs for studying"
+    },
+    {
+      "ID": "P5",
+      "Text": "schools provide lots of academic knowledge to students"
+    },
+    {
+      "ID": "P6",
+      "Text": "Students may learn professional skills, expand their understandings and gain experiences"
+    },
+    {
+      "ID": "P7",
+      "Text": "It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things"
+    },
+    {
+      "ID": "P8",
+      "Text": "Whether children can learn a lot at school"
+    },
+    {
+      "ID": "P9",
+      "Text": "there are many subjects that will be of little value to them in the future"
+    },
+    {
+      "ID": "P10",
+      "Text": "children can learn social skills when they have a job"
+    },
+    {
+      "ID": "P11",
+      "Text": "They can get more experiences that can not be obtained at school"
+    },
+    {
+      "ID": "P12",
+      "Text": "Working helps children be more independent and teach them to esteem and manage the money that they've earned"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

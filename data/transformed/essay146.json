@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "students should study a broad range of subjects from literature to mathematics",
-    "MC2": "students should find interesting subjects and acquire general knowledge to prepare higher education at tertiary education"
-  },
-  "Claims": {
-    "C1": "tertiary education should make students prepare for specialization at university",
-    "C2": "it should be to some extent paternalistic to prevent students from avoiding hurdles",
-    "C3": "students have to find one or more fields of study in which they are really interested",
-    "C4": "high school students should learn broadly and prepare future learning at university",
-    "C5": "schools should be responsible for their future and protect them"
-  },
-  "Premises": {
-    "P1": "They should not decide their future major without trying a broad range of subjects, otherwise they might miss valuable encounter with the subject",
-    "P2": "a would-be mathematician student may be strongly intrigued by philosophy and make a success in the field",
-    "P3": "students should obtain knowledge from a variety of academic fields",
-    "P4": "General education plays a significant role in specialized education",
-    "P5": "Science today, for example, is said to be more and more specialized, but in order to solve a problem scientists have to combine knowledge from chemistry to physics",
-    "P6": "textbooks used in higher education are labelled particular subjects, in fact they require basic understanding of other subjects",
-    "P7": "you sometimes need knowledge about physics to read a text on chemistry",
-    "P8": "students have tendency to shun difficulties",
-    "P9": "They might avoid tough courses, but instead attend mainly Mickey Mouse courses and enjoy themselves too much",
-    "P10": "This might result in limited choices in the future"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "students should study a broad range of subjects from literature to mathematics"
+    },
+    {
+      "ID": "MC2",
+      "Text": "students should find interesting subjects and acquire general knowledge to prepare higher education at tertiary education"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "tertiary education should make students prepare for specialization at university"
+    },
+    {
+      "ID": "C2",
+      "Text": "it should be to some extent paternalistic to prevent students from avoiding hurdles"
+    },
+    {
+      "ID": "C3",
+      "Text": "students have to find one or more fields of study in which they are really interested"
+    },
+    {
+      "ID": "C4",
+      "Text": "high school students should learn broadly and prepare future learning at university"
+    },
+    {
+      "ID": "C5",
+      "Text": "schools should be responsible for their future and protect them"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They should not decide their future major without trying a broad range of subjects, otherwise they might miss valuable encounter with the subject"
+    },
+    {
+      "ID": "P2",
+      "Text": "a would-be mathematician student may be strongly intrigued by philosophy and make a success in the field"
+    },
+    {
+      "ID": "P3",
+      "Text": "students should obtain knowledge from a variety of academic fields"
+    },
+    {
+      "ID": "P4",
+      "Text": "General education plays a significant role in specialized education"
+    },
+    {
+      "ID": "P5",
+      "Text": "Science today, for example, is said to be more and more specialized, but in order to solve a problem scientists have to combine knowledge from chemistry to physics"
+    },
+    {
+      "ID": "P6",
+      "Text": "textbooks used in higher education are labelled particular subjects, in fact they require basic understanding of other subjects"
+    },
+    {
+      "ID": "P7",
+      "Text": "you sometimes need knowledge about physics to read a text on chemistry"
+    },
+    {
+      "ID": "P8",
+      "Text": "students have tendency to shun difficulties"
+    },
+    {
+      "ID": "P9",
+      "Text": "They might avoid tough courses, but instead attend mainly Mickey Mouse courses and enjoy themselves too much"
+    },
+    {
+      "ID": "P10",
+      "Text": "This might result in limited choices in the future"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "the importance of traditions should be valued and paid attention to",
-    "MC2": "protection of tradition is not only important for the entire society currently, but also contributes to the next generation"
-  },
-  "Claims": {
-    "C1": "Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit",
-    "C2": "protecting traditions consume too much financial budget compared with the incoming it takes",
-    "C3": "the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them"
-  },
-  "Premises": {
-    "P1": "technology takes convenience to humankind",
-    "P2": "it also contributes to unhealthy behaviors of life, like sedentary lifestyle",
-    "P3": "traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance",
-    "P4": "traditional skills rely little on fossil energy",
-    "P5": "it is more environmentally-friendly, which should be promoted to reduce the threat of climate change",
-    "P6": "those tradition-related things convey traditional culture and values",
-    "P7": "These are important foundation of modern civilization",
-    "P8": "Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems",
-    "P9": "this kind of business bring limited contribution to government finance",
-    "P10": "the expense is trivial compared with the potential value of traditions"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the importance of traditions should be valued and paid attention to"
+    },
+    {
+      "ID": "MC2",
+      "Text": "protection of tradition is not only important for the entire society currently, but also contributes to the next generation"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit"
+    },
+    {
+      "ID": "C2",
+      "Text": "protecting traditions consume too much financial budget compared with the incoming it takes"
+    },
+    {
+      "ID": "C3",
+      "Text": "the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "technology takes convenience to humankind"
+    },
+    {
+      "ID": "P2",
+      "Text": "it also contributes to unhealthy behaviors of life, like sedentary lifestyle"
+    },
+    {
+      "ID": "P3",
+      "Text": "traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance"
+    },
+    {
+      "ID": "P4",
+      "Text": "traditional skills rely little on fossil energy"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is more environmentally-friendly, which should be promoted to reduce the threat of climate change"
+    },
+    {
+      "ID": "P6",
+      "Text": "those tradition-related things convey traditional culture and values"
+    },
+    {
+      "ID": "P7",
+      "Text": "These are important foundation of modern civilization"
+    },
+    {
+      "ID": "P8",
+      "Text": "Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems"
+    },
+    {
+      "ID": "P9",
+      "Text": "this kind of business bring limited contribution to government finance"
+    },
+    {
+      "ID": "P10",
+      "Text": "the expense is trivial compared with the potential value of traditions"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

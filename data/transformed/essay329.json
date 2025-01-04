@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "it is essential to take chances and believe this is going to work out",
-    "MC2": "it is necessary to have courage to take risks, be different and pursue your dream to have a successful life"
-  },
-  "Claims": {
-    "C1": "sometimes you consider backing down and stay in the same routine that you are used to",
-    "C2": "in this competitive world you have to be fearless and face all new situations",
-    "C3": "Assuming new opportunities is indispensable to have diverse experiences",
-    "C4": "it is vital to never give up on your dream"
-  },
-  "Premises": {
-    "P1": "some people abandon their job, family and friends and go to other country without knowing what the future holds for them",
-    "P2": "In the beginning, it can be tough to fit in this new place and find any opportunity",
-    "P3": "after fighting against the obstacles blocking the way to get what is desired; it is possible to conquer what they are craving as well as start to build a new life in this other country",
-    "P4": "life may not be easy; it will have various challenges especially when you take risks",
-    "P5": "in the end, it can be surprisingly wonderful",
-    "P6": "Walt Disney, whose career is famous, had a challenging life",
-    "P7": "One of the difficulties was some of his histories, such as Mickey Mouse and Three Little Pigs, were turned down",
-    "P8": "many people are afraid to take risks and fail",
-    "P9": "It is possible to get frustrate along the way",
-    "P10": "He heard lots of \"no\", furthermore one editor fired him alleging that he had no imagination, after all what he had gone through, he never stop chasing his dreams"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is essential to take chances and believe this is going to work out"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is necessary to have courage to take risks, be different and pursue your dream to have a successful life"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "sometimes you consider backing down and stay in the same routine that you are used to"
+    },
+    {
+      "ID": "C2",
+      "Text": "in this competitive world you have to be fearless and face all new situations"
+    },
+    {
+      "ID": "C3",
+      "Text": "Assuming new opportunities is indispensable to have diverse experiences"
+    },
+    {
+      "ID": "C4",
+      "Text": "it is vital to never give up on your dream"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "some people abandon their job, family and friends and go to other country without knowing what the future holds for them"
+    },
+    {
+      "ID": "P2",
+      "Text": "In the beginning, it can be tough to fit in this new place and find any opportunity"
+    },
+    {
+      "ID": "P3",
+      "Text": "after fighting against the obstacles blocking the way to get what is desired; it is possible to conquer what they are craving as well as start to build a new life in this other country"
+    },
+    {
+      "ID": "P4",
+      "Text": "life may not be easy; it will have various challenges especially when you take risks"
+    },
+    {
+      "ID": "P5",
+      "Text": "in the end, it can be surprisingly wonderful"
+    },
+    {
+      "ID": "P6",
+      "Text": "Walt Disney, whose career is famous, had a challenging life"
+    },
+    {
+      "ID": "P7",
+      "Text": "One of the difficulties was some of his histories, such as Mickey Mouse and Three Little Pigs, were turned down"
+    },
+    {
+      "ID": "P8",
+      "Text": "many people are afraid to take risks and fail"
+    },
+    {
+      "ID": "P9",
+      "Text": "It is possible to get frustrate along the way"
+    },
+    {
+      "ID": "P10",
+      "Text": "He heard lots of \"no\", furthermore one editor fired him alleging that he had no imagination, after all what he had gone through, he never stop chasing his dreams"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

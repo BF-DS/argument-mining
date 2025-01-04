@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "cheap flight can make many serious problem",
-    "MC2": "the drawbacks of cheap air fares outweigh the benefits"
-  },
-  "Claims": {
-    "C1": "there are good arguments in favour of this trend",
-    "C2": "cheap air fares have broadened travel possibilities for many people, particularly for the lower income group",
-    "C3": "travels also help to promote the tourist industry development, boost the economy and job markets of many countries",
-    "C4": "growing of cheap flights really have negative impact on environment"
-  },
-  "Premises": {
-    "P1": "These days, millions of people can travel around the world for work or pleasure",
-    "P2": "They can develop their careers, broad their knowledge, and interact with many other people from varied cultural backgrounds",
-    "P3": "more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it",
-    "P4": "the biggest concern is the effect on global warming",
-    "P5": "Burning plane fuel can releases carbon dioxide into environment that cause the Earth to heat up",
-    "P6": "while many efforts are being made to reduce CO2 emissions from cars and factories, nothing is being done to reins the airlines"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "cheap flight can make many serious problem"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the drawbacks of cheap air fares outweigh the benefits"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there are good arguments in favour of this trend"
+    },
+    {
+      "ID": "C2",
+      "Text": "cheap air fares have broadened travel possibilities for many people, particularly for the lower income group"
+    },
+    {
+      "ID": "C3",
+      "Text": "travels also help to promote the tourist industry development, boost the economy and job markets of many countries"
+    },
+    {
+      "ID": "C4",
+      "Text": "growing of cheap flights really have negative impact on environment"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "These days, millions of people can travel around the world for work or pleasure"
+    },
+    {
+      "ID": "P2",
+      "Text": "They can develop their careers, broad their knowledge, and interact with many other people from varied cultural backgrounds"
+    },
+    {
+      "ID": "P3",
+      "Text": "more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it"
+    },
+    {
+      "ID": "P4",
+      "Text": "the biggest concern is the effect on global warming"
+    },
+    {
+      "ID": "P5",
+      "Text": "Burning plane fuel can releases carbon dioxide into environment that cause the Earth to heat up"
+    },
+    {
+      "ID": "P6",
+      "Text": "while many efforts are being made to reduce CO2 emissions from cars and factories, nothing is being done to reins the airlines"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

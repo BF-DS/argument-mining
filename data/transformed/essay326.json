@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "computers have an important and inevitable role in economic, business, and other part of societies",
-    "MC2": "advantages of computers outweigh disadvantages"
-  },
-  "Claims": {
-    "C1": "they make the way of living easier by doing our routine duties",
-    "C2": "People benefit more from coming computers into their lives",
-    "C3": "A large number of industries fire many forces because of doing their works by new technologies and computers",
-    "C4": "excessive use of computers has brought many difficulties",
-    "C5": "Computers have an important role in social and personal life"
-  },
-  "Premises": {
-    "P1": "computers can do most difficult tasks which leads to make life easier",
-    "P2": "by using computers in many industries human's role has been reduced",
-    "P3": "Nowadays, computer can control and perform some routine activities in industries, which were early done by human",
-    "P4": "Many industries use computers to command to robots in order to do many regular tasks, which were carried out by human early",
-    "P5": "many processes of production of cars are carrying out by robots, which are controlled by computers",
-    "P6": "car companies use computers to simulate and analyze car accident by computers",
-    "P7": "Despite many advantages, by coming computers many jobs has been vanished",
-    "P8": "Computers have opened up a network connection among people",
-    "P9": "This technology makes easier for people to send and receive personal message",
-    "P10": "Teenagers and adolescents spend free time in front of computers",
-    "P11": "People can use computers to extract their essential information easily",
-    "P12": "The results show that teenagers who are addicted to computer games show more violent and stressful behaviors",
-    "P13": "People who have type by computers may suffer from such disease related to knees"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "computers have an important and inevitable role in economic, business, and other part of societies"
+    },
+    {
+      "ID": "MC2",
+      "Text": "advantages of computers outweigh disadvantages"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they make the way of living easier by doing our routine duties"
+    },
+    {
+      "ID": "C2",
+      "Text": "People benefit more from coming computers into their lives"
+    },
+    {
+      "ID": "C3",
+      "Text": "A large number of industries fire many forces because of doing their works by new technologies and computers"
+    },
+    {
+      "ID": "C4",
+      "Text": "excessive use of computers has brought many difficulties"
+    },
+    {
+      "ID": "C5",
+      "Text": "Computers have an important role in social and personal life"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "computers can do most difficult tasks which leads to make life easier"
+    },
+    {
+      "ID": "P2",
+      "Text": "by using computers in many industries human's role has been reduced"
+    },
+    {
+      "ID": "P3",
+      "Text": "Nowadays, computer can control and perform some routine activities in industries, which were early done by human"
+    },
+    {
+      "ID": "P4",
+      "Text": "Many industries use computers to command to robots in order to do many regular tasks, which were carried out by human early"
+    },
+    {
+      "ID": "P5",
+      "Text": "many processes of production of cars are carrying out by robots, which are controlled by computers"
+    },
+    {
+      "ID": "P6",
+      "Text": "car companies use computers to simulate and analyze car accident by computers"
+    },
+    {
+      "ID": "P7",
+      "Text": "Despite many advantages, by coming computers many jobs has been vanished"
+    },
+    {
+      "ID": "P8",
+      "Text": "Computers have opened up a network connection among people"
+    },
+    {
+      "ID": "P9",
+      "Text": "This technology makes easier for people to send and receive personal message"
+    },
+    {
+      "ID": "P10",
+      "Text": "Teenagers and adolescents spend free time in front of computers"
+    },
+    {
+      "ID": "P11",
+      "Text": "People can use computers to extract their essential information easily"
+    },
+    {
+      "ID": "P12",
+      "Text": "The results show that teenagers who are addicted to computer games show more violent and stressful behaviors"
+    },
+    {
+      "ID": "P13",
+      "Text": "People who have type by computers may suffer from such disease related to knees"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

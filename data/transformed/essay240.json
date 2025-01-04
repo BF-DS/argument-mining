@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "some tough experiences people met before will be helpful in their life path",
-    "MC2": "most tough experiences in people's life path will be a priceless treasure to them"
-  },
-  "Claims": {
-    "C1": "experiences of difficulties teach them how to keep a nice mood and have confidence all the time",
-    "C2": "people who experienced lots of difficulties will be calmer when they are in troubles"
-  },
-  "Premises": {
-    "P1": "hardship makes people realize how to cherish and compliment the common but wonderful little things happened in their life such as, a shining weather, a delicious breakfast and etc",
-    "P2": "People who have such nice spirit usually know how to find the true love in their life instead of being seduced by greed as to lose themselves in the end",
-    "P3": "they are conscious of what to do and how to do when fierce crisis happens",
-    "P4": "they already have such experiences of overcoming some difficulties",
-    "P5": "Those people are more likely to achieve their ambitions in their career",
-    "P6": "they are aware of how to lead people to reach success despite what kind of difficulties are getting in their way"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "some tough experiences people met before will be helpful in their life path"
+    },
+    {
+      "ID": "MC2",
+      "Text": "most tough experiences in people's life path will be a priceless treasure to them"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "experiences of difficulties teach them how to keep a nice mood and have confidence all the time"
+    },
+    {
+      "ID": "C2",
+      "Text": "people who experienced lots of difficulties will be calmer when they are in troubles"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "hardship makes people realize how to cherish and compliment the common but wonderful little things happened in their life such as, a shining weather, a delicious breakfast and etc"
+    },
+    {
+      "ID": "P2",
+      "Text": "People who have such nice spirit usually know how to find the true love in their life instead of being seduced by greed as to lose themselves in the end"
+    },
+    {
+      "ID": "P3",
+      "Text": "they are conscious of what to do and how to do when fierce crisis happens"
+    },
+    {
+      "ID": "P4",
+      "Text": "they already have such experiences of overcoming some difficulties"
+    },
+    {
+      "ID": "P5",
+      "Text": "Those people are more likely to achieve their ambitions in their career"
+    },
+    {
+      "ID": "P6",
+      "Text": "they are aware of how to lead people to reach success despite what kind of difficulties are getting in their way"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

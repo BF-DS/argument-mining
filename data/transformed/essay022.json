@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges"
-  },
-  "Claims": {
-    "C1": "higher education does not guarantee young students' success",
-    "C2": "it is a loss of national productivity that young people spend much time on searching for high salary jobs, even can be a sheer time-consuming",
-    "C3": "universities provide not only skills for careers, but also academic knowledge for the human race, such as bio science, politics, and medicine"
-  },
-  "Premises": {
-    "P1": "there are numerous job opportunities for those who do not have the certification of university graduation, such as mechanics, sales persons, or engineers",
-    "P2": "labors for graduates are in short supply",
-    "P3": "the labor market for highly educated students is now too competitive to get a job after finishing their studying",
-    "P4": "These academic values are necessary to the progress of the world",
-    "P5": "many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society",
-    "P6": "diverse experiences in the campus life can make the young generation more competently",
-    "P7": "there are a number of chances through internships, deeper discussion, independent life, and exchange scholarships"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "higher education does not guarantee young students' success"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is a loss of national productivity that young people spend much time on searching for high salary jobs, even can be a sheer time-consuming"
+    },
+    {
+      "ID": "C3",
+      "Text": "universities provide not only skills for careers, but also academic knowledge for the human race, such as bio science, politics, and medicine"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "there are numerous job opportunities for those who do not have the certification of university graduation, such as mechanics, sales persons, or engineers"
+    },
+    {
+      "ID": "P2",
+      "Text": "labors for graduates are in short supply"
+    },
+    {
+      "ID": "P3",
+      "Text": "the labor market for highly educated students is now too competitive to get a job after finishing their studying"
+    },
+    {
+      "ID": "P4",
+      "Text": "These academic values are necessary to the progress of the world"
+    },
+    {
+      "ID": "P5",
+      "Text": "many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society"
+    },
+    {
+      "ID": "P6",
+      "Text": "diverse experiences in the campus life can make the young generation more competently"
+    },
+    {
+      "ID": "P7",
+      "Text": "there are a number of chances through internships, deeper discussion, independent life, and exchange scholarships"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

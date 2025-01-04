@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "governments should certainly spend money on the public transportation system",
-    "MC2": "spending money on improving public transportation is necessary"
-  },
-  "Claims": {
-    "C1": "it would deal with problems that the rising number of private cars is creating",
-    "C2": "the using of public transportation reduces the amount of resources using on transportation",
-    "C3": "public transportation helps to solve the air pollution problems",
-    "C4": "there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting",
-    "C5": "it is the key to protect our world, creating a healthy and safe environment for people to live in"
-  },
-  "Premises": {
-    "P1": "the more cars we use means that the faster gasoline in this world is used up",
-    "P2": "Cars depend on gasoline, which is a non-renewable resource",
-    "P3": "if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower",
-    "P4": "this definitely helps to reserve our invaluable natural resource, gasoline",
-    "P5": "public transports use much less gasoline to carry people than private cars",
-    "P6": "It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes",
-    "P7": "using public transportation is much safer than private transportation",
-    "P8": "According to National Safety Council, riding the bus is over 170 times safer than private care"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "governments should certainly spend money on the public transportation system"
+    },
+    {
+      "ID": "MC2",
+      "Text": "spending money on improving public transportation is necessary"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it would deal with problems that the rising number of private cars is creating"
+    },
+    {
+      "ID": "C2",
+      "Text": "the using of public transportation reduces the amount of resources using on transportation"
+    },
+    {
+      "ID": "C3",
+      "Text": "public transportation helps to solve the air pollution problems"
+    },
+    {
+      "ID": "C4",
+      "Text": "there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting"
+    },
+    {
+      "ID": "C5",
+      "Text": "it is the key to protect our world, creating a healthy and safe environment for people to live in"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the more cars we use means that the faster gasoline in this world is used up"
+    },
+    {
+      "ID": "P2",
+      "Text": "Cars depend on gasoline, which is a non-renewable resource"
+    },
+    {
+      "ID": "P3",
+      "Text": "if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower"
+    },
+    {
+      "ID": "P4",
+      "Text": "this definitely helps to reserve our invaluable natural resource, gasoline"
+    },
+    {
+      "ID": "P5",
+      "Text": "public transports use much less gasoline to carry people than private cars"
+    },
+    {
+      "ID": "P6",
+      "Text": "It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes"
+    },
+    {
+      "ID": "P7",
+      "Text": "using public transportation is much safer than private transportation"
+    },
+    {
+      "ID": "P8",
+      "Text": "According to National Safety Council, riding the bus is over 170 times safer than private care"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

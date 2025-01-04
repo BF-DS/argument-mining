@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "advertisement bring more benefits than harms to our lives"
-  },
-  "Claims": {
-    "C1": "all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods",
-    "C2": "advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers",
-    "C3": "it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands"
-  },
-  "Premises": {
-    "P1": "some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits",
-    "P2": "not all customers are satisfied with what they bought under the introduction from advertisement",
-    "P3": "most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell",
-    "P4": "Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising",
-    "P5": "No wonder why this drinking title becomes more and more familiar with customers around the world",
-    "P6": "online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "advertisement bring more benefits than harms to our lives"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods"
+    },
+    {
+      "ID": "C2",
+      "Text": "advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers"
+    },
+    {
+      "ID": "C3",
+      "Text": "it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits"
+    },
+    {
+      "ID": "P2",
+      "Text": "not all customers are satisfied with what they bought under the introduction from advertisement"
+    },
+    {
+      "ID": "P3",
+      "Text": "most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell"
+    },
+    {
+      "ID": "P4",
+      "Text": "Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising"
+    },
+    {
+      "ID": "P5",
+      "Text": "No wonder why this drinking title becomes more and more familiar with customers around the world"
+    },
+    {
+      "ID": "P6",
+      "Text": "online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

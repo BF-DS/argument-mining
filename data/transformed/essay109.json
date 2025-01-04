@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information",
-    "MC2": "it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures"
-  },
-  "Claims": {
-    "C1": "One of the strong arguments in favour of tighter media control is to limit the violent and sexual content",
-    "C2": "television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture",
-    "C3": "the government should disclose the information to the media in a timely manner, especially for disasters and outbreak of new diseases"
-  },
-  "Premises": {
-    "P1": "They have a serious impact on people in their puberty",
-    "P2": "an internet cartoon comedy called happy tree is extremely brutal, where the characters usually have their heads or limbs tear off",
-    "P3": "A few years ago there was a Japanese game show which involved throwing cream cakes to the loser",
-    "P4": "This is actually very environmentally unfriendly",
-    "P5": "Taking the SARS in 2003 as an example, the Chinese government limited the amount of information for public access which therefore causes numerous deaths",
-    "P6": "another perspective on this is to prevent the citizen from unnecessary fear and unrest"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "One of the strong arguments in favour of tighter media control is to limit the violent and sexual content"
+    },
+    {
+      "ID": "C2",
+      "Text": "television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture"
+    },
+    {
+      "ID": "C3",
+      "Text": "the government should disclose the information to the media in a timely manner, especially for disasters and outbreak of new diseases"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They have a serious impact on people in their puberty"
+    },
+    {
+      "ID": "P2",
+      "Text": "an internet cartoon comedy called happy tree is extremely brutal, where the characters usually have their heads or limbs tear off"
+    },
+    {
+      "ID": "P3",
+      "Text": "A few years ago there was a Japanese game show which involved throwing cream cakes to the loser"
+    },
+    {
+      "ID": "P4",
+      "Text": "This is actually very environmentally unfriendly"
+    },
+    {
+      "ID": "P5",
+      "Text": "Taking the SARS in 2003 as an example, the Chinese government limited the amount of information for public access which therefore causes numerous deaths"
+    },
+    {
+      "ID": "P6",
+      "Text": "another perspective on this is to prevent the citizen from unnecessary fear and unrest"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

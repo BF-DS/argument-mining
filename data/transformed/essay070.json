@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "it is insufficient to increase the petrol price only to solve problems",
-    "MC2": "addressing pollution and traffic issues only by increasing oil price is not adequate"
-  },
-  "Claims": {
-    "C1": "it seems not easy to increase petrol price instantly",
-    "C2": "several other solutions can be introduced to assist in reducing pollution and traffic problems"
-  },
-  "Premises": {
-    "P1": "whether it can work out for alleviating traffic and pollution pressure ought to be evaluated",
-    "P2": "price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area",
-    "P3": "governments have a macro-economic perspective to control price in various areas according to social demands",
-    "P4": "pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution",
-    "P5": "the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours",
-    "P6": "authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars",
-    "P7": "temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season",
-    "P8": "with supervisory institutions built to find and address problems",
-    "P9": "cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is insufficient to increase the petrol price only to solve problems"
+    },
+    {
+      "ID": "MC2",
+      "Text": "addressing pollution and traffic issues only by increasing oil price is not adequate"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it seems not easy to increase petrol price instantly"
+    },
+    {
+      "ID": "C2",
+      "Text": "several other solutions can be introduced to assist in reducing pollution and traffic problems"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "whether it can work out for alleviating traffic and pollution pressure ought to be evaluated"
+    },
+    {
+      "ID": "P2",
+      "Text": "price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area"
+    },
+    {
+      "ID": "P3",
+      "Text": "governments have a macro-economic perspective to control price in various areas according to social demands"
+    },
+    {
+      "ID": "P4",
+      "Text": "pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution"
+    },
+    {
+      "ID": "P5",
+      "Text": "the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours"
+    },
+    {
+      "ID": "P6",
+      "Text": "authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars"
+    },
+    {
+      "ID": "P7",
+      "Text": "temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season"
+    },
+    {
+      "ID": "P8",
+      "Text": "with supervisory institutions built to find and address problems"
+    },
+    {
+      "ID": "P9",
+      "Text": "cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

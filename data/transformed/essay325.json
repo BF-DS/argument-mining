@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "the excellent knowledge of this job will be more significant",
-    "MC2": "the excellent knowledge will be of more importance"
-  },
-  "Claims": {
-    "C1": "there is only one thing would be beneficial to company, and there is only one way to be an outstanding worker, that is possessing excellent knowledge of this job",
-    "C2": "we can use the ability of adapting oneself in a new environment",
-    "C3": "it can not only benefit our employers, but also ourselves will be rewarded",
-    "C4": "the ability to adapt oneself to the new environment has been proven to be part of job",
-    "C5": "The company will benefit from every worker of excellent knowledge",
-    "C6": "Employees will obtain reward from hard-work pursuing excellent knowledge"
-  },
-  "Premises": {
-    "P1": "This ability is helpful in communicating with other workmates, cooperating with other workers needs this ability, too",
-    "P2": "working alone is a longer-term job than communicating",
-    "P3": "the excellent knowledge of this job will be benefit till one leave",
-    "P4": "the ability of adapting oneself to a new environment may be necessary for a fresh worker",
-    "P5": "The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge, not a worker with outstanding communicating skill",
-    "P6": "The high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company",
-    "P7": "the company will earn more money and reputation from these workers with excellent knowledge",
-    "P8": "Through our whole study life, undergraduate and graduate, we keep learning with the purpose of exerting these knowledge and experience on our job, just like an old Chinese scholar said, the essence of study is utilizing it",
-    "P9": "After we get a job, the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture, but in making us excellent and totally master this job",
-    "P10": "we will be rewarded with pride",
-    "P11": "we can obtain reward from out excellent knowledge"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the excellent knowledge of this job will be more significant"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the excellent knowledge will be of more importance"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there is only one thing would be beneficial to company, and there is only one way to be an outstanding worker, that is possessing excellent knowledge of this job"
+    },
+    {
+      "ID": "C2",
+      "Text": "we can use the ability of adapting oneself in a new environment"
+    },
+    {
+      "ID": "C3",
+      "Text": "it can not only benefit our employers, but also ourselves will be rewarded"
+    },
+    {
+      "ID": "C4",
+      "Text": "the ability to adapt oneself to the new environment has been proven to be part of job"
+    },
+    {
+      "ID": "C5",
+      "Text": "The company will benefit from every worker of excellent knowledge"
+    },
+    {
+      "ID": "C6",
+      "Text": "Employees will obtain reward from hard-work pursuing excellent knowledge"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "This ability is helpful in communicating with other workmates, cooperating with other workers needs this ability, too"
+    },
+    {
+      "ID": "P2",
+      "Text": "working alone is a longer-term job than communicating"
+    },
+    {
+      "ID": "P3",
+      "Text": "the excellent knowledge of this job will be benefit till one leave"
+    },
+    {
+      "ID": "P4",
+      "Text": "the ability of adapting oneself to a new environment may be necessary for a fresh worker"
+    },
+    {
+      "ID": "P5",
+      "Text": "The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge, not a worker with outstanding communicating skill"
+    },
+    {
+      "ID": "P6",
+      "Text": "The high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company"
+    },
+    {
+      "ID": "P7",
+      "Text": "the company will earn more money and reputation from these workers with excellent knowledge"
+    },
+    {
+      "ID": "P8",
+      "Text": "Through our whole study life, undergraduate and graduate, we keep learning with the purpose of exerting these knowledge and experience on our job, just like an old Chinese scholar said, the essence of study is utilizing it"
+    },
+    {
+      "ID": "P9",
+      "Text": "After we get a job, the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture, but in making us excellent and totally master this job"
+    },
+    {
+      "ID": "P10",
+      "Text": "we will be rewarded with pride"
+    },
+    {
+      "ID": "P11",
+      "Text": "we can obtain reward from out excellent knowledge"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

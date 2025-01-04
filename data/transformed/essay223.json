@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "television has more positive effects than negative effects",
-    "MC2": "I strongly disagree with the statement that television has negative effects on children"
-  },
-  "Claims": {
-    "C1": "the television can have violent programs",
-    "C2": "television has useful and educational programs",
-    "C3": "Tv is helpful to relieve our stresses"
-  },
-  "Premises": {
-    "P1": "if children can use Tv programs wisely, there are more positive effects than negative effects",
-    "P2": "it has useful and educational programs and quite helpful to relieve stresses for children",
-    "P3": "Not only the up-to-date news, but also there are many programs which has educational purposes",
-    "P4": "If children can use those programs wisely, they can learn many information from it",
-    "P5": "in Korea, there's program called EBS",
-    "P6": "It is targeted for children to teenager",
-    "P7": "We can study subjects through EBS lecture",
-    "P8": "there are many documentary films such as the life of a great man in Korea",
-    "P9": "Using those education programs let people get a lot of inspirations instead of having negative effects",
-    "P10": "Many children have a lot of stresses recently",
-    "P11": "they have so much pressure about study",
-    "P12": "When they are watching sports programs, it's easy to relieve those stresses",
-    "P13": "I got too much stress from the school",
-    "P14": "I was quite aggressive",
-    "P15": "After I watch the soccer match between Korea and Japan, the stress was gone",
-    "P16": "this soccer match helped me to continue my academic career in the school",
-    "P17": "it helped me to relieve my stress"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "television has more positive effects than negative effects"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I strongly disagree with the statement that television has negative effects on children"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the television can have violent programs"
+    },
+    {
+      "ID": "C2",
+      "Text": "television has useful and educational programs"
+    },
+    {
+      "ID": "C3",
+      "Text": "Tv is helpful to relieve our stresses"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "if children can use Tv programs wisely, there are more positive effects than negative effects"
+    },
+    {
+      "ID": "P2",
+      "Text": "it has useful and educational programs and quite helpful to relieve stresses for children"
+    },
+    {
+      "ID": "P3",
+      "Text": "Not only the up-to-date news, but also there are many programs which has educational purposes"
+    },
+    {
+      "ID": "P4",
+      "Text": "If children can use those programs wisely, they can learn many information from it"
+    },
+    {
+      "ID": "P5",
+      "Text": "in Korea, there's program called EBS"
+    },
+    {
+      "ID": "P6",
+      "Text": "It is targeted for children to teenager"
+    },
+    {
+      "ID": "P7",
+      "Text": "We can study subjects through EBS lecture"
+    },
+    {
+      "ID": "P8",
+      "Text": "there are many documentary films such as the life of a great man in Korea"
+    },
+    {
+      "ID": "P9",
+      "Text": "Using those education programs let people get a lot of inspirations instead of having negative effects"
+    },
+    {
+      "ID": "P10",
+      "Text": "Many children have a lot of stresses recently"
+    },
+    {
+      "ID": "P11",
+      "Text": "they have so much pressure about study"
+    },
+    {
+      "ID": "P12",
+      "Text": "When they are watching sports programs, it's easy to relieve those stresses"
+    },
+    {
+      "ID": "P13",
+      "Text": "I got too much stress from the school"
+    },
+    {
+      "ID": "P14",
+      "Text": "I was quite aggressive"
+    },
+    {
+      "ID": "P15",
+      "Text": "After I watch the soccer match between Korea and Japan, the stress was gone"
+    },
+    {
+      "ID": "P16",
+      "Text": "this soccer match helped me to continue my academic career in the school"
+    },
+    {
+      "ID": "P17",
+      "Text": "it helped me to relieve my stress"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

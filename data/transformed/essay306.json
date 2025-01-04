@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "the convenience it brings is more",
-    "MC2": "the convenience it brings in people's are significant"
-  },
-  "Claims": {
-    "C1": "technology may make people's life complicated in some aspects",
-    "C2": "when it comes to the field of transportation, there is no doubt that the technology in automobile has made people's life simpler",
-    "C3": "technology also makes teaching simpler",
-    "C4": "technology may make people's life more complicated",
-    "C5": "technology may make people's life complicated in some cases"
-  },
-  "Premises": {
-    "P1": "With a private car, you can reach the destination in another city just sitting in the vehicle",
-    "P2": "if you would like to have a trip across the ocean, a plane can carry you there in only a few hours, which is hard to imagine in the ancient times",
-    "P3": "In the past, teachers have to write what they want to convey to students on the chalkboard, resulting in a great waste of time and the fatigue of teachers",
-    "P4": "With the advent of iPads in e-learning, paper books become unnecessary, so does the blackboards",
-    "P5": "all the knowledge and information are stored in the iPads, with a single click, and they would appear right before your eyes at once",
-    "P6": "the cell phone, which used to be simply a tool to deliver messages to your contacts in a distance, now are playing a role more than just a phone in social communications",
-    "P7": "folks have to check their Facebooks, Twitters, and Forums accounts every minute, which add too much pressure to them",
-    "P8": "games on their phone exert a tremendous fascination on teenagers, leading to a large problem that they got addicted to their phones",
-    "P9": "making their life more complicated and tired"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the convenience it brings is more"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the convenience it brings in people's are significant"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "technology may make people's life complicated in some aspects"
+    },
+    {
+      "ID": "C2",
+      "Text": "when it comes to the field of transportation, there is no doubt that the technology in automobile has made people's life simpler"
+    },
+    {
+      "ID": "C3",
+      "Text": "technology also makes teaching simpler"
+    },
+    {
+      "ID": "C4",
+      "Text": "technology may make people's life more complicated"
+    },
+    {
+      "ID": "C5",
+      "Text": "technology may make people's life complicated in some cases"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "With a private car, you can reach the destination in another city just sitting in the vehicle"
+    },
+    {
+      "ID": "P2",
+      "Text": "if you would like to have a trip across the ocean, a plane can carry you there in only a few hours, which is hard to imagine in the ancient times"
+    },
+    {
+      "ID": "P3",
+      "Text": "In the past, teachers have to write what they want to convey to students on the chalkboard, resulting in a great waste of time and the fatigue of teachers"
+    },
+    {
+      "ID": "P4",
+      "Text": "With the advent of iPads in e-learning, paper books become unnecessary, so does the blackboards"
+    },
+    {
+      "ID": "P5",
+      "Text": "all the knowledge and information are stored in the iPads, with a single click, and they would appear right before your eyes at once"
+    },
+    {
+      "ID": "P6",
+      "Text": "the cell phone, which used to be simply a tool to deliver messages to your contacts in a distance, now are playing a role more than just a phone in social communications"
+    },
+    {
+      "ID": "P7",
+      "Text": "folks have to check their Facebooks, Twitters, and Forums accounts every minute, which add too much pressure to them"
+    },
+    {
+      "ID": "P8",
+      "Text": "games on their phone exert a tremendous fascination on teenagers, leading to a large problem that they got addicted to their phones"
+    },
+    {
+      "ID": "P9",
+      "Text": "making their life more complicated and tired"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

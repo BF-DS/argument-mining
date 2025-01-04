@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "communicating by e-mails or voice mails is better",
-    "MC2": "I would prefer to answer it by means of internet or voice mail"
-  },
-  "Claims": {
-    "C1": "communicating by e-mail is easy",
-    "C2": "you can write an e-mail at any time of the day",
-    "C3": "when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself",
-    "C4": "there is no chance to disturb people by sending them an e-mail"
-  },
-  "Premises": {
-    "P1": "In this case it is not so difficult to write an e-mail or to leave a voice mail",
-    "P2": "even shy people feel themselves more confident",
-    "P3": "Many people have problems with calling a person that they are not acquainted with",
-    "P4": "I might not have time to call a person or to meet with him or her in an appropriate time",
-    "P5": "for me it is better to leave a voice mail",
-    "P6": "I get home at about midnight and I still need to answer some questions and to solve some routine problems",
-    "P7": "I work and study at the university and I don't have spare time during the day",
-    "P8": "you can change the word order or you can choose more appropriate style to sound more polite",
-    "P9": "When you speak face-to-face you are not as able to control every word as you are when you write an e-mail",
-    "P10": "You should not worry about interrupting an important conversation or some other business"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "communicating by e-mails or voice mails is better"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I would prefer to answer it by means of internet or voice mail"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "communicating by e-mail is easy"
+    },
+    {
+      "ID": "C2",
+      "Text": "you can write an e-mail at any time of the day"
+    },
+    {
+      "ID": "C3",
+      "Text": "when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself"
+    },
+    {
+      "ID": "C4",
+      "Text": "there is no chance to disturb people by sending them an e-mail"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In this case it is not so difficult to write an e-mail or to leave a voice mail"
+    },
+    {
+      "ID": "P2",
+      "Text": "even shy people feel themselves more confident"
+    },
+    {
+      "ID": "P3",
+      "Text": "Many people have problems with calling a person that they are not acquainted with"
+    },
+    {
+      "ID": "P4",
+      "Text": "I might not have time to call a person or to meet with him or her in an appropriate time"
+    },
+    {
+      "ID": "P5",
+      "Text": "for me it is better to leave a voice mail"
+    },
+    {
+      "ID": "P6",
+      "Text": "I get home at about midnight and I still need to answer some questions and to solve some routine problems"
+    },
+    {
+      "ID": "P7",
+      "Text": "I work and study at the university and I don't have spare time during the day"
+    },
+    {
+      "ID": "P8",
+      "Text": "you can change the word order or you can choose more appropriate style to sound more polite"
+    },
+    {
+      "ID": "P9",
+      "Text": "When you speak face-to-face you are not as able to control every word as you are when you write an e-mail"
+    },
+    {
+      "ID": "P10",
+      "Text": "You should not worry about interrupting an important conversation or some other business"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

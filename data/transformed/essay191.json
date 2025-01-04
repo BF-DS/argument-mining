@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "I personally prefer studying in a group due to these noticeable features, getting help from other students, improving my attitude for learning, managing my time in an effective way",
-    "MC2": "I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity"
-  },
-  "Claims": {
-    "C1": "When pupils make a group for studying, all member of group have the same chance to help each other",
-    "C2": "Increasing the motivation and competence spirit are another benefit of group-studying",
-    "C3": "time management is another brilliant benefit of group-studying",
-    "C4": "I can receive some helps from other student as well as improving my learning skills, also managing of time is another achievements of group-studying"
-  },
-  "Premises": {
-    "P1": "They can work together for understanding the complicated aspect of a course",
-    "P2": "when a group faces with complex math problem, they can share their opinions to solve it",
-    "P3": "such a remarkable effect has incorporation that all students can improve their weak points in a group",
-    "P4": "In a group of student, the best of those always encourages others to study harder",
-    "P5": "pupils often have a tangible competence in order that they can get the highest grade in a group",
-    "P6": "better learning is one of noticeable result of these competences and encouragements",
-    "P7": "Group-studying causes some kind of internal obligation to manage the time, inasmuch as we always care about other people and we do not want to waste their time",
-    "P8": "When the students study with their friends, they should have schedule to use their time in an effective manner"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I personally prefer studying in a group due to these noticeable features, getting help from other students, improving my attitude for learning, managing my time in an effective way"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "When pupils make a group for studying, all member of group have the same chance to help each other"
+    },
+    {
+      "ID": "C2",
+      "Text": "Increasing the motivation and competence spirit are another benefit of group-studying"
+    },
+    {
+      "ID": "C3",
+      "Text": "time management is another brilliant benefit of group-studying"
+    },
+    {
+      "ID": "C4",
+      "Text": "I can receive some helps from other student as well as improving my learning skills, also managing of time is another achievements of group-studying"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They can work together for understanding the complicated aspect of a course"
+    },
+    {
+      "ID": "P2",
+      "Text": "when a group faces with complex math problem, they can share their opinions to solve it"
+    },
+    {
+      "ID": "P3",
+      "Text": "such a remarkable effect has incorporation that all students can improve their weak points in a group"
+    },
+    {
+      "ID": "P4",
+      "Text": "In a group of student, the best of those always encourages others to study harder"
+    },
+    {
+      "ID": "P5",
+      "Text": "pupils often have a tangible competence in order that they can get the highest grade in a group"
+    },
+    {
+      "ID": "P6",
+      "Text": "better learning is one of noticeable result of these competences and encouragements"
+    },
+    {
+      "ID": "P7",
+      "Text": "Group-studying causes some kind of internal obligation to manage the time, inasmuch as we always care about other people and we do not want to waste their time"
+    },
+    {
+      "ID": "P8",
+      "Text": "When the students study with their friends, they should have schedule to use their time in an effective manner"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

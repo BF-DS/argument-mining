@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "both sports and social activities should not receive equal amount of money with libraries and laboratories",
-    "MC2": "I don't think that equal amount of money should be spent on academic issues like libraries and laboratories and physical or social activities"
-  },
-  "Claims": {
-    "C1": "I do not deny the importance of doing sports in the success of university students",
-    "C2": "spending too much money for equipping the gyms or constructing football/basketball courts are really not necessary to encourage students to do sports",
-    "C3": "The university should provide the best equipment needed for physical education students",
-    "C4": "spending money on social activities looks like wasting money"
-  },
-  "Premises": {
-    "P1": "my roommate, Mary, always wakes up 6 in the morning and spends 1 hour doing sport in the park which is near our dormitory",
-    "P2": "When she gets to the dorm, she is really full of energy and after taking a shower, she is ready to start a good day",
-    "P3": "she is doing exercise without spending a cent",
-    "P4": "What the university should do is informing the students the benefits of doing sport by hanging some posters in the campus, inviting some athletes to lecture for students and encourage them to spend some time for their body and health",
-    "P5": "students choose their major based on their interests",
-    "P6": "their major in completely involved in physical activities",
-    "P7": "for an engineer or a medicine student I do not find it fair enough to equip gyms instead of their laboratories",
-    "P8": "it really make the students enthusiastic to use innovative technology to learn and maybe find new things in their field",
-    "P9": "For students who want to gather with their friends or want to go out to meet new people, university programs are the last place they would choose",
-    "P10": "when I and my friends want to spend time with each other, we prefer to go out of university to the places where we do not want to be disturbed by any familiar people"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "both sports and social activities should not receive equal amount of money with libraries and laboratories"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I don't think that equal amount of money should be spent on academic issues like libraries and laboratories and physical or social activities"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "I do not deny the importance of doing sports in the success of university students"
+    },
+    {
+      "ID": "C2",
+      "Text": "spending too much money for equipping the gyms or constructing football/basketball courts are really not necessary to encourage students to do sports"
+    },
+    {
+      "ID": "C3",
+      "Text": "The university should provide the best equipment needed for physical education students"
+    },
+    {
+      "ID": "C4",
+      "Text": "spending money on social activities looks like wasting money"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "my roommate, Mary, always wakes up 6 in the morning and spends 1 hour doing sport in the park which is near our dormitory"
+    },
+    {
+      "ID": "P2",
+      "Text": "When she gets to the dorm, she is really full of energy and after taking a shower, she is ready to start a good day"
+    },
+    {
+      "ID": "P3",
+      "Text": "she is doing exercise without spending a cent"
+    },
+    {
+      "ID": "P4",
+      "Text": "What the university should do is informing the students the benefits of doing sport by hanging some posters in the campus, inviting some athletes to lecture for students and encourage them to spend some time for their body and health"
+    },
+    {
+      "ID": "P5",
+      "Text": "students choose their major based on their interests"
+    },
+    {
+      "ID": "P6",
+      "Text": "their major in completely involved in physical activities"
+    },
+    {
+      "ID": "P7",
+      "Text": "for an engineer or a medicine student I do not find it fair enough to equip gyms instead of their laboratories"
+    },
+    {
+      "ID": "P8",
+      "Text": "it really make the students enthusiastic to use innovative technology to learn and maybe find new things in their field"
+    },
+    {
+      "ID": "P9",
+      "Text": "For students who want to gather with their friends or want to go out to meet new people, university programs are the last place they would choose"
+    },
+    {
+      "ID": "P10",
+      "Text": "when I and my friends want to spend time with each other, we prefer to go out of university to the places where we do not want to be disturbed by any familiar people"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

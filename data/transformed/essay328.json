@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "boys and girls should study together",
-    "MC2": "attending boys and girls in a same school would bring many advantages"
-  },
-  "Claims": {
-    "C1": "they have a chance to know each other and learn how to behave with an opposite sex",
-    "C2": "By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate",
-    "C3": "attending in the school having boys and girls might be beneficial for both to increase their motivation to study better",
-    "C4": "Taking part in the study groups would increase student's motivation to study more",
-    "C5": "they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together"
-  },
-  "Premises": {
-    "P1": "a boy would know how to speak with a girl in every situation and vice versa",
-    "P2": "They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc",
-    "P3": "when they study together and help each other, they exercise the the real life as they age",
-    "P4": "attending both girls and boys in a same school cause many disadvantages for them",
-    "P5": "their thoughts deviate from the studies",
-    "P6": "outdoors relationships may expand and it may accompany with sexual relationship",
-    "P7": "School is a small society for students, which prepares them for the future life",
-    "P8": "they will study increasingly",
-    "P9": "Boys and girls will try to show their capabilities and abilities in the class",
-    "P10": "Boys do not like to seem weak in front of girls and vice versa",
-    "P11": "the productivity of the class will be increased"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "boys and girls should study together"
+    },
+    {
+      "ID": "MC2",
+      "Text": "attending boys and girls in a same school would bring many advantages"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they have a chance to know each other and learn how to behave with an opposite sex"
+    },
+    {
+      "ID": "C2",
+      "Text": "By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate"
+    },
+    {
+      "ID": "C3",
+      "Text": "attending in the school having boys and girls might be beneficial for both to increase their motivation to study better"
+    },
+    {
+      "ID": "C4",
+      "Text": "Taking part in the study groups would increase student's motivation to study more"
+    },
+    {
+      "ID": "C5",
+      "Text": "they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "a boy would know how to speak with a girl in every situation and vice versa"
+    },
+    {
+      "ID": "P2",
+      "Text": "They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc"
+    },
+    {
+      "ID": "P3",
+      "Text": "when they study together and help each other, they exercise the the real life as they age"
+    },
+    {
+      "ID": "P4",
+      "Text": "attending both girls and boys in a same school cause many disadvantages for them"
+    },
+    {
+      "ID": "P5",
+      "Text": "their thoughts deviate from the studies"
+    },
+    {
+      "ID": "P6",
+      "Text": "outdoors relationships may expand and it may accompany with sexual relationship"
+    },
+    {
+      "ID": "P7",
+      "Text": "School is a small society for students, which prepares them for the future life"
+    },
+    {
+      "ID": "P8",
+      "Text": "they will study increasingly"
+    },
+    {
+      "ID": "P9",
+      "Text": "Boys and girls will try to show their capabilities and abilities in the class"
+    },
+    {
+      "ID": "P10",
+      "Text": "Boys do not like to seem weak in front of girls and vice versa"
+    },
+    {
+      "ID": "P11",
+      "Text": "the productivity of the class will be increased"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

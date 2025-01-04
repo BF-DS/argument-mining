@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "no matter how widely they are spoken, every language should be protected from being disappeared",
-    "MC2": "it will definitely impact seriously on many other aspects especially in the loss of our cultural heritages"
-  },
-  "Claims": {
-    "C1": "letting languages spoken by ethnic minorities be extinct seems to be very beneficial",
-    "C2": "in many aspects such as communication, trade, cooperation as well as transaction, it will be absolutely easier for the whole society to work together in one language only",
-    "C3": "saving regional languages could be seen as a waste of money",
-    "C4": "the government should try to preserve minority languages"
-  },
-  "Premises": {
-    "P1": "we need to consider that if the government expands the use scope of that languages, it can be really expensive",
-    "P2": "educational programmes will need to be given so as to keep young people learning and using them",
-    "P3": "some certain areas in the Southern Vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside Vietnamese",
-    "P4": "the local government has recently struggled with their costly investments on language teachers, facilities and appropriate materials",
-    "P5": "language can be seen as much more than just one method of communication",
-    "P6": "forming a language must be undergone thousands of years",
-    "P7": "it deserves to be respected and preserved",
-    "P8": "language is one of the essential factors creating the differences and unique cutures in the world",
-    "P9": "saving the use of that kinds of languages in this case generally is the most important element of the cultural diversity's preservation"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "no matter how widely they are spoken, every language should be protected from being disappeared"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it will definitely impact seriously on many other aspects especially in the loss of our cultural heritages"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "letting languages spoken by ethnic minorities be extinct seems to be very beneficial"
+    },
+    {
+      "ID": "C2",
+      "Text": "in many aspects such as communication, trade, cooperation as well as transaction, it will be absolutely easier for the whole society to work together in one language only"
+    },
+    {
+      "ID": "C3",
+      "Text": "saving regional languages could be seen as a waste of money"
+    },
+    {
+      "ID": "C4",
+      "Text": "the government should try to preserve minority languages"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "we need to consider that if the government expands the use scope of that languages, it can be really expensive"
+    },
+    {
+      "ID": "P2",
+      "Text": "educational programmes will need to be given so as to keep young people learning and using them"
+    },
+    {
+      "ID": "P3",
+      "Text": "some certain areas in the Southern Vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside Vietnamese"
+    },
+    {
+      "ID": "P4",
+      "Text": "the local government has recently struggled with their costly investments on language teachers, facilities and appropriate materials"
+    },
+    {
+      "ID": "P5",
+      "Text": "language can be seen as much more than just one method of communication"
+    },
+    {
+      "ID": "P6",
+      "Text": "forming a language must be undergone thousands of years"
+    },
+    {
+      "ID": "P7",
+      "Text": "it deserves to be respected and preserved"
+    },
+    {
+      "ID": "P8",
+      "Text": "language is one of the essential factors creating the differences and unique cutures in the world"
+    },
+    {
+      "ID": "P9",
+      "Text": "saving the use of that kinds of languages in this case generally is the most important element of the cultural diversity's preservation"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

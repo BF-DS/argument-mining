@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "the advantages of upgrading the roads which I mentioned above are totally convincing and indispensable",
-    "MC2": "the most possible solution to these problems is improving roads and highways"
-  },
-  "Claims": {
-    "C1": "we all know that upgrading public transportation will surely aggravate the pollution and accidents",
-    "C2": "investing in roads and highways can broaden the area and allow more public transportation to work",
-    "C3": "spending on renovating the highways and roads can improve the quality"
-  },
-  "Premises": {
-    "P1": "The buses, cars and trains regularly emit a noxious gas which causes lots of fatal diseases such as lung cancer and pneumonia",
-    "P2": "the sound emanates from the engines can worsen our hearing",
-    "P3": "there are many accidents happening on the roads",
-    "P4": "in my country, buses are attributed to the cause of skyrocketing of accidents",
-    "P5": "Vietnam has approximately twelve thousand people die of accidents which is equivalent to the death toll of the tsunami in Japan",
-    "P6": "Not only buses but also other personal vehicles can move easily on the roads",
-    "P7": "I always leave school at the time that everybody rushes into the roads and hastily goes home",
-    "P8": "It is extremely troublesome for me to escape from the crowd on the roads in only one hour",
-    "P9": "if the roads are enlarged, everyone can go home in short time and there are hardly any collisions",
-    "P10": "All of us are afraid of moving on the rough roads with lots of portholes",
-    "P11": "Those bad conditions result in many terrible accidents and make several people feel worried",
-    "P12": "We should not accuse the drivers of causing accidents",
-    "P13": "a part of the responsibility belongs to the authorities",
-    "P14": "What's more, a smooth surface makes the transportation and movement become safer and easier"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the advantages of upgrading the roads which I mentioned above are totally convincing and indispensable"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the most possible solution to these problems is improving roads and highways"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "we all know that upgrading public transportation will surely aggravate the pollution and accidents"
+    },
+    {
+      "ID": "C2",
+      "Text": "investing in roads and highways can broaden the area and allow more public transportation to work"
+    },
+    {
+      "ID": "C3",
+      "Text": "spending on renovating the highways and roads can improve the quality"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The buses, cars and trains regularly emit a noxious gas which causes lots of fatal diseases such as lung cancer and pneumonia"
+    },
+    {
+      "ID": "P2",
+      "Text": "the sound emanates from the engines can worsen our hearing"
+    },
+    {
+      "ID": "P3",
+      "Text": "there are many accidents happening on the roads"
+    },
+    {
+      "ID": "P4",
+      "Text": "in my country, buses are attributed to the cause of skyrocketing of accidents"
+    },
+    {
+      "ID": "P5",
+      "Text": "Vietnam has approximately twelve thousand people die of accidents which is equivalent to the death toll of the tsunami in Japan"
+    },
+    {
+      "ID": "P6",
+      "Text": "Not only buses but also other personal vehicles can move easily on the roads"
+    },
+    {
+      "ID": "P7",
+      "Text": "I always leave school at the time that everybody rushes into the roads and hastily goes home"
+    },
+    {
+      "ID": "P8",
+      "Text": "It is extremely troublesome for me to escape from the crowd on the roads in only one hour"
+    },
+    {
+      "ID": "P9",
+      "Text": "if the roads are enlarged, everyone can go home in short time and there are hardly any collisions"
+    },
+    {
+      "ID": "P10",
+      "Text": "All of us are afraid of moving on the rough roads with lots of portholes"
+    },
+    {
+      "ID": "P11",
+      "Text": "Those bad conditions result in many terrible accidents and make several people feel worried"
+    },
+    {
+      "ID": "P12",
+      "Text": "We should not accuse the drivers of causing accidents"
+    },
+    {
+      "ID": "P13",
+      "Text": "a part of the responsibility belongs to the authorities"
+    },
+    {
+      "ID": "P14",
+      "Text": "What's more, a smooth surface makes the transportation and movement become safer and easier"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "having a large scale of different knowledge is the key to success",
-    "MC2": "a broad knowledge of different subjects is really important"
-  },
-  "Claims": {
-    "C1": "when one knows different region's works, it will help one to get a friend much easier",
-    "C2": "when you want to translate your major, it is important to know some of the things about different fields",
-    "C3": "if one can\u2019t success one\u2019s own major, what else things he can do in different filed"
-  },
-  "Premises": {
-    "P1": "I have studied some of the engineering courses",
-    "P2": "While some of the problems are the Engineering department's part, I went there and discussed with the colleagues there",
-    "P3": "It is much easier for us to contact than any other person in my department, which made me popular there, and much easier to get the help that I need",
-    "P4": "Thanks to Jeff's hard working during his leisure time, he learned a lot about the history of art",
-    "P5": "Things ended up that he joined in a great team, while his friend who only knew financing issues can do nothing but worked in a bank",
-    "P6": "what if one finally find out him or her has the talent in other filed"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "having a large scale of different knowledge is the key to success"
+    },
+    {
+      "ID": "MC2",
+      "Text": "a broad knowledge of different subjects is really important"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "when one knows different region's works, it will help one to get a friend much easier"
+    },
+    {
+      "ID": "C2",
+      "Text": "when you want to translate your major, it is important to know some of the things about different fields"
+    },
+    {
+      "ID": "C3",
+      "Text": "if one can\u2019t success one\u2019s own major, what else things he can do in different filed"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "I have studied some of the engineering courses"
+    },
+    {
+      "ID": "P2",
+      "Text": "While some of the problems are the Engineering department's part, I went there and discussed with the colleagues there"
+    },
+    {
+      "ID": "P3",
+      "Text": "It is much easier for us to contact than any other person in my department, which made me popular there, and much easier to get the help that I need"
+    },
+    {
+      "ID": "P4",
+      "Text": "Thanks to Jeff's hard working during his leisure time, he learned a lot about the history of art"
+    },
+    {
+      "ID": "P5",
+      "Text": "Things ended up that he joined in a great team, while his friend who only knew financing issues can do nothing but worked in a bank"
+    },
+    {
+      "ID": "P6",
+      "Text": "what if one finally find out him or her has the talent in other filed"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "human beings should travel to outer space",
-    "MC2": "there are some reasons for human beings to travel to outer space"
-  },
-  "Claims": {
-    "C1": "many facts about solar system can be discovered",
-    "C2": "people can know more about the planet earth itself",
-    "C3": "a great deal of sophisticated technology can be invented"
-  },
-  "Premises": {
-    "P1": "a picture of planet earth proved that the earth is round, not flat",
-    "P2": "it is the earth which goes around the sun, not vice versa",
-    "P3": "If it was not for the space exploration, we would never know these facts",
-    "P4": "By observing planet earth from outer space, people can find out ample things for example about the atmosphere of the planet earth",
-    "P5": "With this knowledge, people can work on something to prevent earth hazards such as global warming",
-    "P6": "As astronauts need to travel to outer space which does not have any oxygen to breathe in, scientists are compelled to do research on the oxygen tanks",
-    "P7": "Oxygen tanks, for instance, are proved useful not only in outer space but also underwater",
-    "P8": "spaceships, communication satellites and space pens also contribute a lot to the society"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "human beings should travel to outer space"
+    },
+    {
+      "ID": "MC2",
+      "Text": "there are some reasons for human beings to travel to outer space"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many facts about solar system can be discovered"
+    },
+    {
+      "ID": "C2",
+      "Text": "people can know more about the planet earth itself"
+    },
+    {
+      "ID": "C3",
+      "Text": "a great deal of sophisticated technology can be invented"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "a picture of planet earth proved that the earth is round, not flat"
+    },
+    {
+      "ID": "P2",
+      "Text": "it is the earth which goes around the sun, not vice versa"
+    },
+    {
+      "ID": "P3",
+      "Text": "If it was not for the space exploration, we would never know these facts"
+    },
+    {
+      "ID": "P4",
+      "Text": "By observing planet earth from outer space, people can find out ample things for example about the atmosphere of the planet earth"
+    },
+    {
+      "ID": "P5",
+      "Text": "With this knowledge, people can work on something to prevent earth hazards such as global warming"
+    },
+    {
+      "ID": "P6",
+      "Text": "As astronauts need to travel to outer space which does not have any oxygen to breathe in, scientists are compelled to do research on the oxygen tanks"
+    },
+    {
+      "ID": "P7",
+      "Text": "Oxygen tanks, for instance, are proved useful not only in outer space but also underwater"
+    },
+    {
+      "ID": "P8",
+      "Text": "spaceships, communication satellites and space pens also contribute a lot to the society"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

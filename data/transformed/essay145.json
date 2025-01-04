@@ -1,29 +1,86 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer to spend money on improving facilities",
-    "MC2": "improving facilities is the best way for school"
-  },
-  "Claims": {
-    "C1": "the advantages of this are relatively greater than that of the other",
-    "C2": "students can procure more advantages from better facilities",
-    "C3": "certain facilities are beneficial to students",
-    "C4": "students would prefer school to spending on improving facilities",
-    "C5": "schools should spend money on hiring prestigious teachers"
-  },
-  "Premises": {
-    "P1": "the more advanced facilities we have, the more chances we can increase our knowledge",
-    "P2": "library is a good place for students to study or research",
-    "P3": "They can concentrate on the subjects with a tranquil ambience; also, there are a lot of references for students to utilize",
-    "P4": "With this convenient and versatile facility, students can improve their learning condition",
-    "P5": "students are not always staying in classrooms",
-    "P6": "They have numerous activities in school",
-    "P7": "Consider a circumstance in which a student who is a member of jazz ensemble in their school",
-    "P8": "He must need a better auditorium for him to have an extraordinary performance",
-    "P9": "With this distinguished performance, the student would acquire an unforgettable and valuable experience burring deeply in his mind",
-    "P10": "they can impart their students well",
-    "P11": "A student is good or not do not depend on whether he has a good teacher but is decided by his effort on study",
-    "P12": "It is useless to hire a super famous teacher to teach those who behaviors as sluggards"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer to spend money on improving facilities"
+    },
+    {
+      "ID": "MC2",
+      "Text": "improving facilities is the best way for school"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the advantages of this are relatively greater than that of the other"
+    },
+    {
+      "ID": "C2",
+      "Text": "students can procure more advantages from better facilities"
+    },
+    {
+      "ID": "C3",
+      "Text": "certain facilities are beneficial to students"
+    },
+    {
+      "ID": "C4",
+      "Text": "students would prefer school to spending on improving facilities"
+    },
+    {
+      "ID": "C5",
+      "Text": "schools should spend money on hiring prestigious teachers"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the more advanced facilities we have, the more chances we can increase our knowledge"
+    },
+    {
+      "ID": "P2",
+      "Text": "library is a good place for students to study or research"
+    },
+    {
+      "ID": "P3",
+      "Text": "They can concentrate on the subjects with a tranquil ambience; also, there are a lot of references for students to utilize"
+    },
+    {
+      "ID": "P4",
+      "Text": "With this convenient and versatile facility, students can improve their learning condition"
+    },
+    {
+      "ID": "P5",
+      "Text": "students are not always staying in classrooms"
+    },
+    {
+      "ID": "P6",
+      "Text": "They have numerous activities in school"
+    },
+    {
+      "ID": "P7",
+      "Text": "Consider a circumstance in which a student who is a member of jazz ensemble in their school"
+    },
+    {
+      "ID": "P8",
+      "Text": "He must need a better auditorium for him to have an extraordinary performance"
+    },
+    {
+      "ID": "P9",
+      "Text": "With this distinguished performance, the student would acquire an unforgettable and valuable experience burring deeply in his mind"
+    },
+    {
+      "ID": "P10",
+      "Text": "they can impart their students well"
+    },
+    {
+      "ID": "P11",
+      "Text": "A student is good or not do not depend on whether he has a good teacher but is decided by his effort on study"
+    },
+    {
+      "ID": "P12",
+      "Text": "It is useless to hire a super famous teacher to teach those who behaviors as sluggards"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

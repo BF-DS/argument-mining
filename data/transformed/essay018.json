@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "universities must open choice for everyone to select his subject"
-  },
-  "Claims": {
-    "C1": "we must give them opportunity to achieve their goal",
-    "C2": "Universities should accept equal numbers of students of both genders",
-    "C3": "universities follow the requirement of job providers and decide subject suitable for particular gender"
-  },
-  "Premises": {
-    "P1": "Our youth has become very confident towards his career",
-    "P2": "They are not ready to be bound in certain limitations",
-    "P3": "Female candidates also do not care about any restriction posed by the society and the employer",
-    "P4": "women have proved themselves in every field whether it is indoor or outdoor",
-    "P5": "nowadays women are working in home as well as in the sky",
-    "P6": "They are acting as a good housewife and they are flying planes also",
-    "P7": "university authority must not be biased on ground of the gender discrimination",
-    "P8": "They must consider the academic record of the student as main criteria of admission",
-    "P9": "the current job market affects the decision of universities",
-    "P10": "Every university designs its courses according to the need of employers",
-    "P11": "The job selection criteria are pre decided",
-    "P12": "employers need male candidates for the heavy work such as repairing and installation of heavy machine",
-    "P13": "They prefer male staff for night shifts",
-    "P14": "They want female candidates for soft natured work like counseling, teaching, designing etc"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "universities must open choice for everyone to select his subject"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "we must give them opportunity to achieve their goal"
+    },
+    {
+      "ID": "C2",
+      "Text": "Universities should accept equal numbers of students of both genders"
+    },
+    {
+      "ID": "C3",
+      "Text": "universities follow the requirement of job providers and decide subject suitable for particular gender"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Our youth has become very confident towards his career"
+    },
+    {
+      "ID": "P2",
+      "Text": "They are not ready to be bound in certain limitations"
+    },
+    {
+      "ID": "P3",
+      "Text": "Female candidates also do not care about any restriction posed by the society and the employer"
+    },
+    {
+      "ID": "P4",
+      "Text": "women have proved themselves in every field whether it is indoor or outdoor"
+    },
+    {
+      "ID": "P5",
+      "Text": "nowadays women are working in home as well as in the sky"
+    },
+    {
+      "ID": "P6",
+      "Text": "They are acting as a good housewife and they are flying planes also"
+    },
+    {
+      "ID": "P7",
+      "Text": "university authority must not be biased on ground of the gender discrimination"
+    },
+    {
+      "ID": "P8",
+      "Text": "They must consider the academic record of the student as main criteria of admission"
+    },
+    {
+      "ID": "P9",
+      "Text": "the current job market affects the decision of universities"
+    },
+    {
+      "ID": "P10",
+      "Text": "Every university designs its courses according to the need of employers"
+    },
+    {
+      "ID": "P11",
+      "Text": "The job selection criteria are pre decided"
+    },
+    {
+      "ID": "P12",
+      "Text": "employers need male candidates for the heavy work such as repairing and installation of heavy machine"
+    },
+    {
+      "ID": "P13",
+      "Text": "They prefer male staff for night shifts"
+    },
+    {
+      "ID": "P14",
+      "Text": "They want female candidates for soft natured work like counseling, teaching, designing etc"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

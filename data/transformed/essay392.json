@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "both government and common people should have the responsibility for the environment",
-    "MC2": "the government and corporations should take more responsibility for addressing environmental issues, but every citizen also can contribute to the environment"
-  },
-  "Claims": {
-    "C1": "solving some environmental problems needs large budgets and various technologies, and the government and corporations have the ability to deal with these problems",
-    "C2": "we should convey corresponding policies and knowledge to the public and society",
-    "C3": "it is possible for ordinary people to participate in some actions of environment protection, and they also can benefit from the improvement of environment"
-  },
-  "Premises": {
-    "P1": "air pollution and water quality has concerned many countries, and the government is able to implement some policies and invest money to reduce air pollution, while companies also can enhance their technologies to curb emission of contaminated water and substances",
-    "P2": "individuals are unable to cope with these things",
-    "P3": "It is necessary for every citizen to have the awareness and knowledge of environment protection",
-    "P4": "the government and firms could have significant influences on environmental awareness of people",
-    "P5": "the government controls many influential media, such as TV stations and newspapers, which can provide plenty of environmental knowledge and related policies to citizens",
-    "P6": "many people driving private cars could cause air pollution, and overusing plastic packages would affect the environment",
-    "P7": "If people can gradually change some lifestyles in these daily activities, this will have many significant impacts on environmental improvement"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "both government and common people should have the responsibility for the environment"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the government and corporations should take more responsibility for addressing environmental issues, but every citizen also can contribute to the environment"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "solving some environmental problems needs large budgets and various technologies, and the government and corporations have the ability to deal with these problems"
+    },
+    {
+      "ID": "C2",
+      "Text": "we should convey corresponding policies and knowledge to the public and society"
+    },
+    {
+      "ID": "C3",
+      "Text": "it is possible for ordinary people to participate in some actions of environment protection, and they also can benefit from the improvement of environment"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "air pollution and water quality has concerned many countries, and the government is able to implement some policies and invest money to reduce air pollution, while companies also can enhance their technologies to curb emission of contaminated water and substances"
+    },
+    {
+      "ID": "P2",
+      "Text": "individuals are unable to cope with these things"
+    },
+    {
+      "ID": "P3",
+      "Text": "It is necessary for every citizen to have the awareness and knowledge of environment protection"
+    },
+    {
+      "ID": "P4",
+      "Text": "the government and firms could have significant influences on environmental awareness of people"
+    },
+    {
+      "ID": "P5",
+      "Text": "the government controls many influential media, such as TV stations and newspapers, which can provide plenty of environmental knowledge and related policies to citizens"
+    },
+    {
+      "ID": "P6",
+      "Text": "many people driving private cars could cause air pollution, and overusing plastic packages would affect the environment"
+    },
+    {
+      "ID": "P7",
+      "Text": "If people can gradually change some lifestyles in these daily activities, this will have many significant impacts on environmental improvement"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

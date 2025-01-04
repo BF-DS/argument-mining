@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "professors should be encouraged to mainly do research",
-    "MC2": "it is natural to support the professors spending more time on doing research"
-  },
-  "Claims": {
-    "C1": "While extending the way of their own development, the outcomes of the researches will also benefit the whole society",
-    "C2": "The research projects like windows opened to the wider world",
-    "C3": "professors should fully use the research-friendly environment provided by universities",
-    "C4": "doing research could also improve the teaching quality"
-  },
-  "Premises": {
-    "P1": "by doing research, professors could catch up with the latest development of modern technologies",
-    "P2": "The research projects provide communication with the outside",
-    "P3": "doing research is a method of self-improvement for professors",
-    "P4": "Universities are relatively fenced environment",
-    "P5": "I still remembered that my professor took part in several research projects when I was in college",
-    "P6": "He was often invited to do speech in other universities",
-    "P7": "my university is not in the high-ranking list, he gained a reputation by those projects",
-    "P8": "you could not find another place with so much talent people gathering together",
-    "P9": "there is really no reason to discourage professors from using those advantages",
-    "P10": "It is very common to see state-of-the-art laboratories in the campus",
-    "P11": "We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin",
-    "P12": "Universities positively contribute the professors' success",
-    "P13": "With the help of research projects, professors could lead their students into the practical world from the classroom",
-    "P14": "They can easily teach students how to imply the knowledge in practice",
-    "P15": "I still remembered the experience of being an assistant in one of my professor's research project",
-    "P16": "By participating in it, I had opportunities to use theories on textbooks in real life experiments",
-    "P17": "The research project provides a more efficient way of teaching"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "professors should be encouraged to mainly do research"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is natural to support the professors spending more time on doing research"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "While extending the way of their own development, the outcomes of the researches will also benefit the whole society"
+    },
+    {
+      "ID": "C2",
+      "Text": "The research projects like windows opened to the wider world"
+    },
+    {
+      "ID": "C3",
+      "Text": "professors should fully use the research-friendly environment provided by universities"
+    },
+    {
+      "ID": "C4",
+      "Text": "doing research could also improve the teaching quality"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "by doing research, professors could catch up with the latest development of modern technologies"
+    },
+    {
+      "ID": "P2",
+      "Text": "The research projects provide communication with the outside"
+    },
+    {
+      "ID": "P3",
+      "Text": "doing research is a method of self-improvement for professors"
+    },
+    {
+      "ID": "P4",
+      "Text": "Universities are relatively fenced environment"
+    },
+    {
+      "ID": "P5",
+      "Text": "I still remembered that my professor took part in several research projects when I was in college"
+    },
+    {
+      "ID": "P6",
+      "Text": "He was often invited to do speech in other universities"
+    },
+    {
+      "ID": "P7",
+      "Text": "my university is not in the high-ranking list, he gained a reputation by those projects"
+    },
+    {
+      "ID": "P8",
+      "Text": "you could not find another place with so much talent people gathering together"
+    },
+    {
+      "ID": "P9",
+      "Text": "there is really no reason to discourage professors from using those advantages"
+    },
+    {
+      "ID": "P10",
+      "Text": "It is very common to see state-of-the-art laboratories in the campus"
+    },
+    {
+      "ID": "P11",
+      "Text": "We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin"
+    },
+    {
+      "ID": "P12",
+      "Text": "Universities positively contribute the professors' success"
+    },
+    {
+      "ID": "P13",
+      "Text": "With the help of research projects, professors could lead their students into the practical world from the classroom"
+    },
+    {
+      "ID": "P14",
+      "Text": "They can easily teach students how to imply the knowledge in practice"
+    },
+    {
+      "ID": "P15",
+      "Text": "I still remembered the experience of being an assistant in one of my professor's research project"
+    },
+    {
+      "ID": "P16",
+      "Text": "By participating in it, I had opportunities to use theories on textbooks in real life experiments"
+    },
+    {
+      "ID": "P17",
+      "Text": "The research project provides a more efficient way of teaching"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

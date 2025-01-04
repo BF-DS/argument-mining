@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "by allowing students to watch TV at both school and house can adversely impact on their overall growth",
-    "MC2": "if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children"
-  },
-  "Claims": {
-    "C1": "If children spend too much time in front of TV, it will negatively impact their health and study",
-    "C2": "By watching TV, children can develop skills in extra-curriculum activities",
-    "C3": "watching TV for a continuously long hours can adversely impact children health",
-    "C4": "demerits of watching TV outweigh its merits"
-  },
-  "Premises": {
-    "P1": "There are international and local news channels like BBC, CNBC, Etv Gujarati, Etv Marathi etc to keep individuals updated about latest happenings",
-    "P2": "Cooking programs teach about how to make new dishes and similarly, sports events like cricket, football can teach leadership skills, team building skills, communication skills and many more that can help students in their future jobs",
-    "P3": "TV is one of the prime source of data and information",
-    "P4": "they can get poor eyesight in early ages of childhood, and also develop back pain",
-    "P5": "Sometimes, students watch restrictive programs not allowed for their ages and this can have major psychological consequences",
-    "P6": "Many times, students get addictive to their favorite programs like Cartoon channels, or baseball and easily get distracted from study during exam period and this can seriously impact their grades"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "by allowing students to watch TV at both school and house can adversely impact on their overall growth"
+    },
+    {
+      "ID": "MC2",
+      "Text": "if students were allowed to freely watch TV without any proper controls by parents or teachers then it would produce more negative effects on children"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "If children spend too much time in front of TV, it will negatively impact their health and study"
+    },
+    {
+      "ID": "C2",
+      "Text": "By watching TV, children can develop skills in extra-curriculum activities"
+    },
+    {
+      "ID": "C3",
+      "Text": "watching TV for a continuously long hours can adversely impact children health"
+    },
+    {
+      "ID": "C4",
+      "Text": "demerits of watching TV outweigh its merits"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "There are international and local news channels like BBC, CNBC, Etv Gujarati, Etv Marathi etc to keep individuals updated about latest happenings"
+    },
+    {
+      "ID": "P2",
+      "Text": "Cooking programs teach about how to make new dishes and similarly, sports events like cricket, football can teach leadership skills, team building skills, communication skills and many more that can help students in their future jobs"
+    },
+    {
+      "ID": "P3",
+      "Text": "TV is one of the prime source of data and information"
+    },
+    {
+      "ID": "P4",
+      "Text": "they can get poor eyesight in early ages of childhood, and also develop back pain"
+    },
+    {
+      "ID": "P5",
+      "Text": "Sometimes, students watch restrictive programs not allowed for their ages and this can have major psychological consequences"
+    },
+    {
+      "ID": "P6",
+      "Text": "Many times, students get addictive to their favorite programs like Cartoon channels, or baseball and easily get distracted from study during exam period and this can seriously impact their grades"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

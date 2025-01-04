@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "a government is supposed to offer sufficient financial support for both",
-    "MC2": "a government should spare effort on young children education as well as universities"
-  },
-  "Claims": {
-    "C1": "both are crucial on the way to a brighter future",
-    "C2": "if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education",
-    "C3": "government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide"
-  },
-  "Premises": {
-    "P1": "a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development",
-    "P2": "elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society",
-    "P3": "government should guarantee that all people have equal and convenient access to it",
-    "P4": "Researches into humanities and art still need large amount of money",
-    "P5": "for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance",
-    "P6": "The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community",
-    "P7": "Some may argue that universities can support themselve well by donation or invention",
-    "P8": "this argument is invalid"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a government is supposed to offer sufficient financial support for both"
+    },
+    {
+      "ID": "MC2",
+      "Text": "a government should spare effort on young children education as well as universities"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "both are crucial on the way to a brighter future"
+    },
+    {
+      "ID": "C2",
+      "Text": "if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education"
+    },
+    {
+      "ID": "C3",
+      "Text": "government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development"
+    },
+    {
+      "ID": "P2",
+      "Text": "elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society"
+    },
+    {
+      "ID": "P3",
+      "Text": "government should guarantee that all people have equal and convenient access to it"
+    },
+    {
+      "ID": "P4",
+      "Text": "Researches into humanities and art still need large amount of money"
+    },
+    {
+      "ID": "P5",
+      "Text": "for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance"
+    },
+    {
+      "ID": "P6",
+      "Text": "The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community"
+    },
+    {
+      "ID": "P7",
+      "Text": "Some may argue that universities can support themselve well by donation or invention"
+    },
+    {
+      "ID": "P8",
+      "Text": "this argument is invalid"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

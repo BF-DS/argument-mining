@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "people avoid eating meat mostly for the sake of their health and relegious aspect",
-    "MC2": "people choose to become vegetarians for health and religious concern rather than the benefits of animals"
-  },
-  "Claims": {
-    "C1": "health improvement is the main reason for vegetarian diet to become so popular",
-    "C2": "it is vital to follow one's own religious practices which can bring the enlightenment in mind"
-  },
-  "Premises": {
-    "P1": "Many researchers have convinced that many kinds of vegetable contain antioxydant which can prevent cancer",
-    "P2": "a vegetable diet can do good for our health",
-    "P3": "a meal without meat can lead to a lack of protein intake",
-    "P4": "it is proved that many kinds of bean such as soy bean or pea are also comparable protein sources",
-    "P5": "eating their meat mean you eat the flesh of your parent sentient beings",
-    "P6": "Some religion, such as Buddha, believes that animals were human being in their previous life"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "people avoid eating meat mostly for the sake of their health and relegious aspect"
+    },
+    {
+      "ID": "MC2",
+      "Text": "people choose to become vegetarians for health and religious concern rather than the benefits of animals"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "health improvement is the main reason for vegetarian diet to become so popular"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is vital to follow one's own religious practices which can bring the enlightenment in mind"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Many researchers have convinced that many kinds of vegetable contain antioxydant which can prevent cancer"
+    },
+    {
+      "ID": "P2",
+      "Text": "a vegetable diet can do good for our health"
+    },
+    {
+      "ID": "P3",
+      "Text": "a meal without meat can lead to a lack of protein intake"
+    },
+    {
+      "ID": "P4",
+      "Text": "it is proved that many kinds of bean such as soy bean or pea are also comparable protein sources"
+    },
+    {
+      "ID": "P5",
+      "Text": "eating their meat mean you eat the flesh of your parent sentient beings"
+    },
+    {
+      "ID": "P6",
+      "Text": "Some religion, such as Buddha, believes that animals were human being in their previous life"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P4",

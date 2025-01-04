@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "I would follow the new customs, if I migrated to another country",
-    "MC2": "the immigrants should follow the customs in the new country"
-  },
-  "Claims": {
-    "C1": "it will be easier for people to assimilate into a new country, if they follow the new customs",
-    "C2": "keeping own customs stably might cause discrimination"
-  },
-  "Premises": {
-    "P1": "When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures",
-    "P2": "The custom is just a form of the culture and following the custom is a good way to know more about this culture",
-    "P3": "if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture",
-    "P4": "people understand the culture, and then they adapt to the new country",
-    "P5": "When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country",
-    "P6": "The local people may also regard them as a special group as well and separate them from the main-stream society",
-    "P7": "One example of this is that the Chinese immigrants in Indonesia in 1969",
-    "P8": "They formed Chinatown and kept Chinese language and customs in it",
-    "P9": "While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working",
-    "P10": "being much richer than local people, they faced the discrimination",
-    "P11": "Their houses and private cars were buried by local people",
-    "P12": "the locals were jealous of Chinese people, who had so much wealth, which should have been theirs",
-    "P13": "If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I would follow the new customs, if I migrated to another country"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the immigrants should follow the customs in the new country"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it will be easier for people to assimilate into a new country, if they follow the new customs"
+    },
+    {
+      "ID": "C2",
+      "Text": "keeping own customs stably might cause discrimination"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures"
+    },
+    {
+      "ID": "P2",
+      "Text": "The custom is just a form of the culture and following the custom is a good way to know more about this culture"
+    },
+    {
+      "ID": "P3",
+      "Text": "if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture"
+    },
+    {
+      "ID": "P4",
+      "Text": "people understand the culture, and then they adapt to the new country"
+    },
+    {
+      "ID": "P5",
+      "Text": "When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country"
+    },
+    {
+      "ID": "P6",
+      "Text": "The local people may also regard them as a special group as well and separate them from the main-stream society"
+    },
+    {
+      "ID": "P7",
+      "Text": "One example of this is that the Chinese immigrants in Indonesia in 1969"
+    },
+    {
+      "ID": "P8",
+      "Text": "They formed Chinatown and kept Chinese language and customs in it"
+    },
+    {
+      "ID": "P9",
+      "Text": "While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working"
+    },
+    {
+      "ID": "P10",
+      "Text": "being much richer than local people, they faced the discrimination"
+    },
+    {
+      "ID": "P11",
+      "Text": "Their houses and private cars were buried by local people"
+    },
+    {
+      "ID": "P12",
+      "Text": "the locals were jealous of Chinese people, who had so much wealth, which should have been theirs"
+    },
+    {
+      "ID": "P13",
+      "Text": "If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

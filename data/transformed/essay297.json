@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "online classes should never replace classroom learning",
-    "MC2": "the classroom learning is the best way to provide education for these reasons"
-  },
-  "Claims": {
-    "C1": "classroom learning is the best way to provide education comparing to online classes",
-    "C2": "It makes you perfect in time management skills",
-    "C3": "you learn quickly",
-    "C4": "online classes have some advantages so they could be used as supplementary"
-  },
-  "Premises": {
-    "P1": "In the classroom environment you can learn from your classmates",
-    "P2": "if you see any of your classmates who is performing better, it will force you for making your performance more better",
-    "P3": "When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects",
-    "P4": "I got 1st rank in final exam",
-    "P5": "in classroom learning you have to complete study work on time",
-    "P6": "you can learn by participating in group studies how to communicate with others",
-    "P7": "It makes you communication and of course your group skills better, which can help you in your future and career",
-    "P8": "professors play vital role in classroom learning, most of them are specialists is their subjects, and they help you by giving valuable information and useful skills",
-    "P9": "You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts",
-    "P10": "For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster",
-    "P11": "they could not be substitute of existing classroom learning"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "online classes should never replace classroom learning"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the classroom learning is the best way to provide education for these reasons"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "classroom learning is the best way to provide education comparing to online classes"
+    },
+    {
+      "ID": "C2",
+      "Text": "It makes you perfect in time management skills"
+    },
+    {
+      "ID": "C3",
+      "Text": "you learn quickly"
+    },
+    {
+      "ID": "C4",
+      "Text": "online classes have some advantages so they could be used as supplementary"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "In the classroom environment you can learn from your classmates"
+    },
+    {
+      "ID": "P2",
+      "Text": "if you see any of your classmates who is performing better, it will force you for making your performance more better"
+    },
+    {
+      "ID": "P3",
+      "Text": "When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects"
+    },
+    {
+      "ID": "P4",
+      "Text": "I got 1st rank in final exam"
+    },
+    {
+      "ID": "P5",
+      "Text": "in classroom learning you have to complete study work on time"
+    },
+    {
+      "ID": "P6",
+      "Text": "you can learn by participating in group studies how to communicate with others"
+    },
+    {
+      "ID": "P7",
+      "Text": "It makes you communication and of course your group skills better, which can help you in your future and career"
+    },
+    {
+      "ID": "P8",
+      "Text": "professors play vital role in classroom learning, most of them are specialists is their subjects, and they help you by giving valuable information and useful skills"
+    },
+    {
+      "ID": "P9",
+      "Text": "You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts"
+    },
+    {
+      "ID": "P10",
+      "Text": "For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster"
+    },
+    {
+      "ID": "P11",
+      "Text": "they could not be substitute of existing classroom learning"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P2",

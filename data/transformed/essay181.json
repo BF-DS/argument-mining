@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "I myself agree with the plan to build the university",
-    "MC2": "the benefit from it will outweigh the cost",
-    "MC3": "I will be happy to hear that the government has a plan to build a new university in my community"
-  },
-  "Claims": {
-    "C1": "There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs",
-    "C2": "This new university will allow a great number of people in my community to have a chance to study",
-    "C3": "This can also help stimulate the local economy",
-    "C4": "building the university may lead to some social problems"
-  },
-  "Premises": {
-    "P1": "suppose you live in a faraway community where there is no single university and you might not want to leave your family",
-    "P2": "If you would like to attend a business school, you have to travel across the country to get to a distant university",
-    "P3": "He or she definitely can get in the business school in the proposed community's university",
-    "P4": "a number vacant positions need to be filled",
-    "P5": "the university will have to hire professors, employees and etc",
-    "P6": "there will be more opportunities to work in the community",
-    "P7": "when people have jobs, they will have money to spend on goods and services",
-    "P8": "A number of people then may come from any other communities in order to get in to or get the jobs at the university",
-    "P9": "When many people congregate in one place, I think that some kinds of social problems will follow",
-    "P10": "Traffic may worsen",
-    "P11": "More wastes have to be managed",
-    "P12": "Maybe crime rate will also increase",
-    "P13": "These social problems may impair the quality of life in the community"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I myself agree with the plan to build the university"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the benefit from it will outweigh the cost"
+    },
+    {
+      "ID": "MC3",
+      "Text": "I will be happy to hear that the government has a plan to build a new university in my community"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs"
+    },
+    {
+      "ID": "C2",
+      "Text": "This new university will allow a great number of people in my community to have a chance to study"
+    },
+    {
+      "ID": "C3",
+      "Text": "This can also help stimulate the local economy"
+    },
+    {
+      "ID": "C4",
+      "Text": "building the university may lead to some social problems"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "suppose you live in a faraway community where there is no single university and you might not want to leave your family"
+    },
+    {
+      "ID": "P2",
+      "Text": "If you would like to attend a business school, you have to travel across the country to get to a distant university"
+    },
+    {
+      "ID": "P3",
+      "Text": "He or she definitely can get in the business school in the proposed community's university"
+    },
+    {
+      "ID": "P4",
+      "Text": "a number vacant positions need to be filled"
+    },
+    {
+      "ID": "P5",
+      "Text": "the university will have to hire professors, employees and etc"
+    },
+    {
+      "ID": "P6",
+      "Text": "there will be more opportunities to work in the community"
+    },
+    {
+      "ID": "P7",
+      "Text": "when people have jobs, they will have money to spend on goods and services"
+    },
+    {
+      "ID": "P8",
+      "Text": "A number of people then may come from any other communities in order to get in to or get the jobs at the university"
+    },
+    {
+      "ID": "P9",
+      "Text": "When many people congregate in one place, I think that some kinds of social problems will follow"
+    },
+    {
+      "ID": "P10",
+      "Text": "Traffic may worsen"
+    },
+    {
+      "ID": "P11",
+      "Text": "More wastes have to be managed"
+    },
+    {
+      "ID": "P12",
+      "Text": "Maybe crime rate will also increase"
+    },
+    {
+      "ID": "P13",
+      "Text": "These social problems may impair the quality of life in the community"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

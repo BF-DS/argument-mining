@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "this plan should be put into practice",
-    "MC2": "I have to concede to the materialistic diversion from treatment to health education and preventative measures"
-  },
-  "Claims": {
-    "C1": "This will yield positive results on not only the people's physical and mental development but also their finance",
-    "C2": "No one can argue the importance to include health lessons in school programmes, especially at primary level, in the hope of raising people's awareness",
-    "C3": "it will be of economic benefit to pre-empt certain kinds of diseases"
-  },
-  "Premises": {
-    "P1": "Children should be taught about balanced diets, nutritious food as well as harmful ones",
-    "P2": "they will have a fundamental grasp of how to lead a healthy lifestyle",
-    "P3": "it is much easier for people at early ages to form a habit of, for instance, not consuming too much fast food, over-fried food or intoxicants",
-    "P4": "such unpreventable illnesses as cancer or HIV will cost the victim a fortune, not to cure, but to lengthen his longevity for 1 or 2 more years",
-    "P5": "if humans tend to keep fit more regularly by participating in outdoor activities or using health-care product, obesity, myopia or other diseases that require expensive treatments will never stand a chance"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "this plan should be put into practice"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I have to concede to the materialistic diversion from treatment to health education and preventative measures"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "This will yield positive results on not only the people's physical and mental development but also their finance"
+    },
+    {
+      "ID": "C2",
+      "Text": "No one can argue the importance to include health lessons in school programmes, especially at primary level, in the hope of raising people's awareness"
+    },
+    {
+      "ID": "C3",
+      "Text": "it will be of economic benefit to pre-empt certain kinds of diseases"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Children should be taught about balanced diets, nutritious food as well as harmful ones"
+    },
+    {
+      "ID": "P2",
+      "Text": "they will have a fundamental grasp of how to lead a healthy lifestyle"
+    },
+    {
+      "ID": "P3",
+      "Text": "it is much easier for people at early ages to form a habit of, for instance, not consuming too much fast food, over-fried food or intoxicants"
+    },
+    {
+      "ID": "P4",
+      "Text": "such unpreventable illnesses as cancer or HIV will cost the victim a fortune, not to cure, but to lengthen his longevity for 1 or 2 more years"
+    },
+    {
+      "ID": "P5",
+      "Text": "if humans tend to keep fit more regularly by participating in outdoor activities or using health-care product, obesity, myopia or other diseases that require expensive treatments will never stand a chance"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

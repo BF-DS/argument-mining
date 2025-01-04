@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer to live in a higher pace condition",
-    "MC2": "living in a higher pace is better",
-    "MC3": "I prefer to live in high pace"
-  },
-  "Claims": {
-    "C1": "the advantages of this are qualitatively greater than that of the opposite",
-    "C2": "we have to be eager in our lives",
-    "C3": "keeping our pace higher is important",
-    "C4": "with a slower pace can enjoy their lives more"
-  },
-  "Premises": {
-    "P1": "we need to save time for accomplishing some important tasks, and a fitting example of which can be found in my experience of missing exam",
-    "P2": "I just failed to participate in the university entrance exam",
-    "P3": "I thought I had enough time for eating breakfast and transporting to the testing place; while I was stocked in a traffic jam and then missed the first test",
-    "P4": "keeping in high pace condition can prevent me from getting lazy",
-    "P5": "If I can avoid being a sluggish person, I can have a higher probability of fulfilling my dream successfully",
-    "P6": "I had spent more time on practicing playing piano so that I won a piano competition, defeating those spending less time on practicing",
-    "P7": "it is not necessary for them to notice the time control or acquire the fame of succeed",
-    "P8": "I do not think that those people with slower pace losing the piano competition can be really happy",
-    "P9": "it is really joyful for me that I can immerse in the joy of the victory and accomplishment"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer to live in a higher pace condition"
+    },
+    {
+      "ID": "MC2",
+      "Text": "living in a higher pace is better"
+    },
+    {
+      "ID": "MC3",
+      "Text": "I prefer to live in high pace"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the advantages of this are qualitatively greater than that of the opposite"
+    },
+    {
+      "ID": "C2",
+      "Text": "we have to be eager in our lives"
+    },
+    {
+      "ID": "C3",
+      "Text": "keeping our pace higher is important"
+    },
+    {
+      "ID": "C4",
+      "Text": "with a slower pace can enjoy their lives more"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "we need to save time for accomplishing some important tasks, and a fitting example of which can be found in my experience of missing exam"
+    },
+    {
+      "ID": "P2",
+      "Text": "I just failed to participate in the university entrance exam"
+    },
+    {
+      "ID": "P3",
+      "Text": "I thought I had enough time for eating breakfast and transporting to the testing place; while I was stocked in a traffic jam and then missed the first test"
+    },
+    {
+      "ID": "P4",
+      "Text": "keeping in high pace condition can prevent me from getting lazy"
+    },
+    {
+      "ID": "P5",
+      "Text": "If I can avoid being a sluggish person, I can have a higher probability of fulfilling my dream successfully"
+    },
+    {
+      "ID": "P6",
+      "Text": "I had spent more time on practicing playing piano so that I won a piano competition, defeating those spending less time on practicing"
+    },
+    {
+      "ID": "P7",
+      "Text": "it is not necessary for them to notice the time control or acquire the fame of succeed"
+    },
+    {
+      "ID": "P8",
+      "Text": "I do not think that those people with slower pace losing the piano competition can be really happy"
+    },
+    {
+      "ID": "P9",
+      "Text": "it is really joyful for me that I can immerse in the joy of the victory and accomplishment"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

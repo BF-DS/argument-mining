@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "I prefer to study individually",
-    "MC2": "I agree with the idea of studying a lone"
-  },
-  "Claims": {
-    "C1": "it helps me to concentrate more, and it helps me to build my personality",
-    "C2": "it helps me to focus more and establish my personality",
-    "C3": "Studying alone helps us to focus more in our lessons",
-    "C4": "we are building our personalities when we study alone"
-  },
-  "Premises": {
-    "P1": "I am a type of person who cannot comprehend my subjects unless I am alone",
-    "P2": "I can prepare my schedules, guidelines, exercises and go over them all",
-    "P3": "we have a lot of subjects which require us to sit and study alone such as math, reading, and drawing",
-    "P4": "I can take advantage of every minute without wasting by studying alone",
-    "P5": "answering our homework alone encourages us to be more responsible and independent",
-    "P6": "it motivates us to be accurate in our work in the future",
-    "P7": "when I fix my study plan with a specific time and finish it on time, it improves my ability in the future to become more precise and careful"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I prefer to study individually"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I agree with the idea of studying a lone"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it helps me to concentrate more, and it helps me to build my personality"
+    },
+    {
+      "ID": "C2",
+      "Text": "it helps me to focus more and establish my personality"
+    },
+    {
+      "ID": "C3",
+      "Text": "Studying alone helps us to focus more in our lessons"
+    },
+    {
+      "ID": "C4",
+      "Text": "we are building our personalities when we study alone"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "I am a type of person who cannot comprehend my subjects unless I am alone"
+    },
+    {
+      "ID": "P2",
+      "Text": "I can prepare my schedules, guidelines, exercises and go over them all"
+    },
+    {
+      "ID": "P3",
+      "Text": "we have a lot of subjects which require us to sit and study alone such as math, reading, and drawing"
+    },
+    {
+      "ID": "P4",
+      "Text": "I can take advantage of every minute without wasting by studying alone"
+    },
+    {
+      "ID": "P5",
+      "Text": "answering our homework alone encourages us to be more responsible and independent"
+    },
+    {
+      "ID": "P6",
+      "Text": "it motivates us to be accurate in our work in the future"
+    },
+    {
+      "ID": "P7",
+      "Text": "when I fix my study plan with a specific time and finish it on time, it improves my ability in the future to become more precise and careful"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

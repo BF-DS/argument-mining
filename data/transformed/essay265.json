@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "both the ability to relate well to people and studying hard in school are important for success in a future job",
-    "MC2": "we should notice to both of them"
-  },
-  "Claims": {
-    "C1": "each of them has its own benefits",
-    "C2": "studying hard in school is an important factor to succeed in a job",
-    "C3": "relating well to people is also another important factor"
-  },
-  "Premises": {
-    "P1": "If we study them hard, we will have the chance of doing our job better and quicker in the future",
-    "P2": "We need to know and learn about the theoritical basis of our future job",
-    "P3": "In school, we are able to identify skills required for our future job and work on mastering and learning them",
-    "P4": "if someone wants to become a good industrial engineer, he should study his technical courses very well so that he will be able to utilize them well in his future job",
-    "P5": "One of the other factors for success in a future job is effective commuincation",
-    "P6": "By relating well to people, we are likely to have a lot of friends",
-    "P7": "we will have a wide network of communication",
-    "P8": "Commuincation can bring many benefits",
-    "P9": "if you need help with getting a job, by commuincating with people offering jobs whom you treat well",
-    "P10": "they respect you as well, you can achieve your goal",
-    "P11": "if you are a salesman in a store or any other place, by relating well to your customers, you will increase the chance of their coming back again and becoming your regular customers",
-    "P12": "This can be done in school"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "both the ability to relate well to people and studying hard in school are important for success in a future job"
+    },
+    {
+      "ID": "MC2",
+      "Text": "we should notice to both of them"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "each of them has its own benefits"
+    },
+    {
+      "ID": "C2",
+      "Text": "studying hard in school is an important factor to succeed in a job"
+    },
+    {
+      "ID": "C3",
+      "Text": "relating well to people is also another important factor"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "If we study them hard, we will have the chance of doing our job better and quicker in the future"
+    },
+    {
+      "ID": "P2",
+      "Text": "We need to know and learn about the theoritical basis of our future job"
+    },
+    {
+      "ID": "P3",
+      "Text": "In school, we are able to identify skills required for our future job and work on mastering and learning them"
+    },
+    {
+      "ID": "P4",
+      "Text": "if someone wants to become a good industrial engineer, he should study his technical courses very well so that he will be able to utilize them well in his future job"
+    },
+    {
+      "ID": "P5",
+      "Text": "One of the other factors for success in a future job is effective commuincation"
+    },
+    {
+      "ID": "P6",
+      "Text": "By relating well to people, we are likely to have a lot of friends"
+    },
+    {
+      "ID": "P7",
+      "Text": "we will have a wide network of communication"
+    },
+    {
+      "ID": "P8",
+      "Text": "Commuincation can bring many benefits"
+    },
+    {
+      "ID": "P9",
+      "Text": "if you need help with getting a job, by commuincating with people offering jobs whom you treat well"
+    },
+    {
+      "ID": "P10",
+      "Text": "they respect you as well, you can achieve your goal"
+    },
+    {
+      "ID": "P11",
+      "Text": "if you are a salesman in a store or any other place, by relating well to your customers, you will increase the chance of their coming back again and becoming your regular customers"
+    },
+    {
+      "ID": "P12",
+      "Text": "This can be done in school"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

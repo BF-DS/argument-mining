@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "a person should keep trying for his goals",
-    "MC2": "one should not give up"
-  },
-  "Claims": {
-    "C1": "Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life",
-    "C2": "committing to our goal helps creating personal worth",
-    "C3": "one who learns the great difficulty will become stronger",
-    "C4": "the responsibility is worthy of carrying",
-    "C5": "the true reward is to have the dignity"
-  },
-  "Premises": {
-    "P1": "I realized the true potential of my body and mind as I decided to train myself hard",
-    "P2": "Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running",
-    "P3": "I remembered how I was suffered in the first round when I was last person who touched the line",
-    "P4": "I did not give up, and believed that I would be better in the next round",
-    "P5": "I knew how to improve myself",
-    "P6": "I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger",
-    "P7": "When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself",
-    "P8": "He can feel the sweetness of triumph",
-    "P9": "he did not stop pursing his goal",
-    "P10": "we, as an average people, might feel that the responsibility to our goal is too heavy to carry on"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a person should keep trying for his goals"
+    },
+    {
+      "ID": "MC2",
+      "Text": "one should not give up"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life"
+    },
+    {
+      "ID": "C2",
+      "Text": "committing to our goal helps creating personal worth"
+    },
+    {
+      "ID": "C3",
+      "Text": "one who learns the great difficulty will become stronger"
+    },
+    {
+      "ID": "C4",
+      "Text": "the responsibility is worthy of carrying"
+    },
+    {
+      "ID": "C5",
+      "Text": "the true reward is to have the dignity"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "I realized the true potential of my body and mind as I decided to train myself hard"
+    },
+    {
+      "ID": "P2",
+      "Text": "Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running"
+    },
+    {
+      "ID": "P3",
+      "Text": "I remembered how I was suffered in the first round when I was last person who touched the line"
+    },
+    {
+      "ID": "P4",
+      "Text": "I did not give up, and believed that I would be better in the next round"
+    },
+    {
+      "ID": "P5",
+      "Text": "I knew how to improve myself"
+    },
+    {
+      "ID": "P6",
+      "Text": "I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger"
+    },
+    {
+      "ID": "P7",
+      "Text": "When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself"
+    },
+    {
+      "ID": "P8",
+      "Text": "He can feel the sweetness of triumph"
+    },
+    {
+      "ID": "P9",
+      "Text": "he did not stop pursing his goal"
+    },
+    {
+      "ID": "P10",
+      "Text": "we, as an average people, might feel that the responsibility to our goal is too heavy to carry on"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "large scale sports games make people focus on attractive contests instead of international disputes, and help them being proud of their nation",
-    "MC2": "it is clear that they not only constitute a tremendous appeal towards a peaceful society, but also guide the public demonstrations of national proudness"
-  },
-  "Claims": {
-    "C1": "world sports events strongly participate in eventually pulling back people towards friendship and peace",
-    "C2": "it is clear that people can freely express their patriotic feelings during international sports events",
-    "C3": "This has been true for centuries and will certainly not change in the foreseeable future"
-  },
-  "Premises": {
-    "P1": "during times of war, people living in badly affected countries can forget about the gloomy environment and maintain a link with the rest of the world by listening to international sports event",
-    "P2": "when Irak was hardly struck by the Second Gulf War, its citizens tried to catch any incoming news about the FootballWorld Cup through their portable receivers",
-    "P3": "international sports competitions encourage people and put pressure on them to come back, sooner or later, to a relative peaceful normality",
-    "P4": "these sporting occasions are a good opportunity for people to be proud of their country",
-    "P5": "when the Football World Cup was organised in South Africa, its citizens filled up the stadiums, cheered and waved national flags to support their national team on the field",
-    "P6": "South African national and traditional songs were played in the streets throughout the night",
-    "P7": "This example demonstrates how people might take numerous elements from their roots and history to proudly display them while supporting their team"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "large scale sports games make people focus on attractive contests instead of international disputes, and help them being proud of their nation"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is clear that they not only constitute a tremendous appeal towards a peaceful society, but also guide the public demonstrations of national proudness"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "world sports events strongly participate in eventually pulling back people towards friendship and peace"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is clear that people can freely express their patriotic feelings during international sports events"
+    },
+    {
+      "ID": "C3",
+      "Text": "This has been true for centuries and will certainly not change in the foreseeable future"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "during times of war, people living in badly affected countries can forget about the gloomy environment and maintain a link with the rest of the world by listening to international sports event"
+    },
+    {
+      "ID": "P2",
+      "Text": "when Irak was hardly struck by the Second Gulf War, its citizens tried to catch any incoming news about the FootballWorld Cup through their portable receivers"
+    },
+    {
+      "ID": "P3",
+      "Text": "international sports competitions encourage people and put pressure on them to come back, sooner or later, to a relative peaceful normality"
+    },
+    {
+      "ID": "P4",
+      "Text": "these sporting occasions are a good opportunity for people to be proud of their country"
+    },
+    {
+      "ID": "P5",
+      "Text": "when the Football World Cup was organised in South Africa, its citizens filled up the stadiums, cheered and waved national flags to support their national team on the field"
+    },
+    {
+      "ID": "P6",
+      "Text": "South African national and traditional songs were played in the streets throughout the night"
+    },
+    {
+      "ID": "P7",
+      "Text": "This example demonstrates how people might take numerous elements from their roots and history to proudly display them while supporting their team"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

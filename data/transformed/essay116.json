@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "governments should help and encourage artists to continue their work"
-  },
-  "Claims": {
-    "C1": "art is a very valuable object for every country and the talent in this area cannot be discovered everywhere",
-    "C2": "the governments should help arts",
-    "C3": "culture and history of a country can be reserved and assured by art",
-    "C4": "talent in art is extremely precious and should not be wasted"
-  },
-  "Premises": {
-    "P1": "art helps to improve the quality of our lives as well as attracting tourists",
-    "P2": "monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists",
-    "P3": "some countries depend on tourism as their main source of revenue",
-    "P4": "their work crafts are very necessary to boost the tourist industry",
-    "P5": "sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation",
-    "P6": "Young people are also able to get more knowledge about their country's history and culture by observing various work crafts",
-    "P7": "not many people are blessed in the talent of paintings and work crafts",
-    "P8": "this type of talent has to be valued as other types of talents such as talent in science or literature"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "governments should help and encourage artists to continue their work"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "art is a very valuable object for every country and the talent in this area cannot be discovered everywhere"
+    },
+    {
+      "ID": "C2",
+      "Text": "the governments should help arts"
+    },
+    {
+      "ID": "C3",
+      "Text": "culture and history of a country can be reserved and assured by art"
+    },
+    {
+      "ID": "C4",
+      "Text": "talent in art is extremely precious and should not be wasted"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "art helps to improve the quality of our lives as well as attracting tourists"
+    },
+    {
+      "ID": "P2",
+      "Text": "monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists"
+    },
+    {
+      "ID": "P3",
+      "Text": "some countries depend on tourism as their main source of revenue"
+    },
+    {
+      "ID": "P4",
+      "Text": "their work crafts are very necessary to boost the tourist industry"
+    },
+    {
+      "ID": "P5",
+      "Text": "sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation"
+    },
+    {
+      "ID": "P6",
+      "Text": "Young people are also able to get more knowledge about their country's history and culture by observing various work crafts"
+    },
+    {
+      "ID": "P7",
+      "Text": "not many people are blessed in the talent of paintings and work crafts"
+    },
+    {
+      "ID": "P8",
+      "Text": "this type of talent has to be valued as other types of talents such as talent in science or literature"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "I would prefer to have my own job",
-    "MC2": "I would like to run my own business to control my own time, and to earn more money based on my noble ideas"
-  },
-  "Claims": {
-    "C1": "time is the more valuable thing, which I have in my life",
-    "C2": "I never have been rich in my life",
-    "C3": "many people are not eager to work for themselves"
-  },
-  "Premises": {
-    "P1": "By having my own business, I can manage my own time",
-    "P2": "could work whenever I want, or I do not need to give reasons to my boss for a delay",
-    "P3": "I can arrange time to travel when I would like",
-    "P4": "I can work long hours for earning more money",
-    "P5": "the most important reason for me to be self-employed is the sense of free",
-    "P6": "If I work for other people, I have to give my ideas to employers cheaply",
-    "P7": "my salary is not dramatically changed",
-    "P8": "I can earn more money based on my creativity and personal ideas",
-    "P9": "earning money is the fundamental reason that why people work",
-    "P10": "The amount of money is always the most important criterion for everyone to choose a job"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I would prefer to have my own job"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I would like to run my own business to control my own time, and to earn more money based on my noble ideas"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "time is the more valuable thing, which I have in my life"
+    },
+    {
+      "ID": "C2",
+      "Text": "I never have been rich in my life"
+    },
+    {
+      "ID": "C3",
+      "Text": "many people are not eager to work for themselves"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "By having my own business, I can manage my own time"
+    },
+    {
+      "ID": "P2",
+      "Text": "could work whenever I want, or I do not need to give reasons to my boss for a delay"
+    },
+    {
+      "ID": "P3",
+      "Text": "I can arrange time to travel when I would like"
+    },
+    {
+      "ID": "P4",
+      "Text": "I can work long hours for earning more money"
+    },
+    {
+      "ID": "P5",
+      "Text": "the most important reason for me to be self-employed is the sense of free"
+    },
+    {
+      "ID": "P6",
+      "Text": "If I work for other people, I have to give my ideas to employers cheaply"
+    },
+    {
+      "ID": "P7",
+      "Text": "my salary is not dramatically changed"
+    },
+    {
+      "ID": "P8",
+      "Text": "I can earn more money based on my creativity and personal ideas"
+    },
+    {
+      "ID": "P9",
+      "Text": "earning money is the fundamental reason that why people work"
+    },
+    {
+      "ID": "P10",
+      "Text": "The amount of money is always the most important criterion for everyone to choose a job"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

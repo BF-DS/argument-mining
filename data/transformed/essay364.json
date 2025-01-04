@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "traditional skills and ways are always valuable and will last forever"
-  },
-  "Claims": {
-    "C1": "technology has brought many benefits",
-    "C2": "traditional skills and ways belong to value of culture",
-    "C3": "in some cases that traditional way can not replace by a new technology",
-    "C4": "Traditional skills and ways of life will help youngsters study and know more history"
-  },
-  "Premises": {
-    "P1": "They make differences between countries",
-    "P2": "Every country has unique tradtions which show their creation, intelligence",
-    "P3": "people feel pround of their country",
-    "P4": "they keep reserving conventions",
-    "P5": "ways to build a house in every country are different and they distinguish between countries",
-    "P6": "Lot of people like to use traditional things because if their quality and durability",
-    "P7": "vases are made by hand would be used more",
-    "P8": "there are plenty of works that using traditional way is unique method",
-    "P9": "making cone hats from leaves have to use hand",
-    "P10": "Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy",
-    "P11": "Methods which their ancestors used in the past will be displayed again for new generations",
-    "P12": "they might create somethings that are useful for life"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "traditional skills and ways are always valuable and will last forever"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "technology has brought many benefits"
+    },
+    {
+      "ID": "C2",
+      "Text": "traditional skills and ways belong to value of culture"
+    },
+    {
+      "ID": "C3",
+      "Text": "in some cases that traditional way can not replace by a new technology"
+    },
+    {
+      "ID": "C4",
+      "Text": "Traditional skills and ways of life will help youngsters study and know more history"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They make differences between countries"
+    },
+    {
+      "ID": "P2",
+      "Text": "Every country has unique tradtions which show their creation, intelligence"
+    },
+    {
+      "ID": "P3",
+      "Text": "people feel pround of their country"
+    },
+    {
+      "ID": "P4",
+      "Text": "they keep reserving conventions"
+    },
+    {
+      "ID": "P5",
+      "Text": "ways to build a house in every country are different and they distinguish between countries"
+    },
+    {
+      "ID": "P6",
+      "Text": "Lot of people like to use traditional things because if their quality and durability"
+    },
+    {
+      "ID": "P7",
+      "Text": "vases are made by hand would be used more"
+    },
+    {
+      "ID": "P8",
+      "Text": "there are plenty of works that using traditional way is unique method"
+    },
+    {
+      "ID": "P9",
+      "Text": "making cone hats from leaves have to use hand"
+    },
+    {
+      "ID": "P10",
+      "Text": "Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy"
+    },
+    {
+      "ID": "P11",
+      "Text": "Methods which their ancestors used in the past will be displayed again for new generations"
+    },
+    {
+      "ID": "P12",
+      "Text": "they might create somethings that are useful for life"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,19 +1,46 @@
 {
-  "MajorClaims": {
-    "MC1": "both public services and arts worth investment",
-    "MC2": "both arts and public services are important to the community and should be invested properly"
-  },
-  "Claims": {
-    "C1": "indispensable public services like hospital and school worth every penny investing",
-    "C2": "our standard of living also depend on another factor - spiritual life which is related closely with arts"
-  },
-  "Premises": {
-    "P1": "Investing in hospitals helps improve people's health, also, in schools assists with raising our children's education level",
-    "P2": "if these facilities were not spent adequately, our standard of living would deteriorate",
-    "P3": "Arts include many forms and music as well as cinema are the most typical",
-    "P4": "These two art forms not only provide the public with entertainment but also contribute significantly to the economy",
-    "P5": "The income of film and music industries produce millions of dollars each year for the Goverment, for instance K-pop and Hollywood, and these industries can not survive without goverment's financial assistance"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "both public services and arts worth investment"
+    },
+    {
+      "ID": "MC2",
+      "Text": "both arts and public services are important to the community and should be invested properly"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "indispensable public services like hospital and school worth every penny investing"
+    },
+    {
+      "ID": "C2",
+      "Text": "our standard of living also depend on another factor - spiritual life which is related closely with arts"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Investing in hospitals helps improve people's health, also, in schools assists with raising our children's education level"
+    },
+    {
+      "ID": "P2",
+      "Text": "if these facilities were not spent adequately, our standard of living would deteriorate"
+    },
+    {
+      "ID": "P3",
+      "Text": "Arts include many forms and music as well as cinema are the most typical"
+    },
+    {
+      "ID": "P4",
+      "Text": "These two art forms not only provide the public with entertainment but also contribute significantly to the economy"
+    },
+    {
+      "ID": "P5",
+      "Text": "The income of film and music industries produce millions of dollars each year for the Goverment, for instance K-pop and Hollywood, and these industries can not survive without goverment's financial assistance"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

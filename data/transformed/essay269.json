@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school"
-  },
-  "Claims": {
-    "C1": "Relating well to people can bring plenty of merits to future job",
-    "C2": "make a good relationship with them",
-    "C3": "if a low-level employee desire to enhance his position, it's fairly important to have a good relationship with their boss",
-    "C4": "good specify knowledge is more crucial for future job"
-  },
-  "Premises": {
-    "P1": "friends is a treasure with respect to either our daylife or our career",
-    "P2": "Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions",
-    "P3": "If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them",
-    "P4": "no matter who you are a top-level managers of a company or a low-level employee of that company, relating well to people is also a importent issue",
-    "P5": "only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position",
-    "P6": "Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job",
-    "P7": "majority of people would choose the former",
-    "P8": "it has more chance than the latter in terms of getting good jobs in the future"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Relating well to people can bring plenty of merits to future job"
+    },
+    {
+      "ID": "C2",
+      "Text": "make a good relationship with them"
+    },
+    {
+      "ID": "C3",
+      "Text": "if a low-level employee desire to enhance his position, it's fairly important to have a good relationship with their boss"
+    },
+    {
+      "ID": "C4",
+      "Text": "good specify knowledge is more crucial for future job"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "friends is a treasure with respect to either our daylife or our career"
+    },
+    {
+      "ID": "P2",
+      "Text": "Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions"
+    },
+    {
+      "ID": "P3",
+      "Text": "If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them"
+    },
+    {
+      "ID": "P4",
+      "Text": "no matter who you are a top-level managers of a company or a low-level employee of that company, relating well to people is also a importent issue"
+    },
+    {
+      "ID": "P5",
+      "Text": "only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position"
+    },
+    {
+      "ID": "P6",
+      "Text": "Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job"
+    },
+    {
+      "ID": "P7",
+      "Text": "majority of people would choose the former"
+    },
+    {
+      "ID": "P8",
+      "Text": "it has more chance than the latter in terms of getting good jobs in the future"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

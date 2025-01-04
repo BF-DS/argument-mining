@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "news media not only brings people entertainment, but also polishes up people' knowledge",
-    "MC2": "the development of news media has been making great inroads into the lives of all people"
-  },
-  "Claims": {
-    "C1": "the progress of news media is an advantageous development",
-    "C2": "the popularity of news media is beneficial to human beings",
-    "C3": "news media help people broaden their knowledge"
-  },
-  "Premises": {
-    "P1": "It relaxes people with plentiful entertainment news",
-    "P2": "It enriches people's knowledge with worldwide information",
-    "P3": "It also positively affects the way people live in many other aspects",
-    "P4": "today entertainment is easier for people to enjoy than ever before",
-    "P5": "The fact is that such news media as televisions, radios, or newspapers are bringing many news on entertainment sector from all over the world to everybody",
-    "P6": "People can sit in front of their televisions and watch whatever they want, from musical concerts to live football match",
-    "P7": "This is a convenient way of relaxation after hard work",
-    "P8": "there is a strong likelihood that today people are able to know the world better",
-    "P9": "It is clearly seen that mass media provide people with a variety of global news on all fields, including political situation, economic change, global warming, and so forth",
-    "P10": "This is particularly essential when the globalization process has been permeating into all areas of society",
-    "P11": "the fast growth of news media is helpful for people worldwide"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "news media not only brings people entertainment, but also polishes up people' knowledge"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the development of news media has been making great inroads into the lives of all people"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the progress of news media is an advantageous development"
+    },
+    {
+      "ID": "C2",
+      "Text": "the popularity of news media is beneficial to human beings"
+    },
+    {
+      "ID": "C3",
+      "Text": "news media help people broaden their knowledge"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "It relaxes people with plentiful entertainment news"
+    },
+    {
+      "ID": "P2",
+      "Text": "It enriches people's knowledge with worldwide information"
+    },
+    {
+      "ID": "P3",
+      "Text": "It also positively affects the way people live in many other aspects"
+    },
+    {
+      "ID": "P4",
+      "Text": "today entertainment is easier for people to enjoy than ever before"
+    },
+    {
+      "ID": "P5",
+      "Text": "The fact is that such news media as televisions, radios, or newspapers are bringing many news on entertainment sector from all over the world to everybody"
+    },
+    {
+      "ID": "P6",
+      "Text": "People can sit in front of their televisions and watch whatever they want, from musical concerts to live football match"
+    },
+    {
+      "ID": "P7",
+      "Text": "This is a convenient way of relaxation after hard work"
+    },
+    {
+      "ID": "P8",
+      "Text": "there is a strong likelihood that today people are able to know the world better"
+    },
+    {
+      "ID": "P9",
+      "Text": "It is clearly seen that mass media provide people with a variety of global news on all fields, including political situation, economic change, global warming, and so forth"
+    },
+    {
+      "ID": "P10",
+      "Text": "This is particularly essential when the globalization process has been permeating into all areas of society"
+    },
+    {
+      "ID": "P11",
+      "Text": "the fast growth of news media is helpful for people worldwide"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

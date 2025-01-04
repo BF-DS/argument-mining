@@ -1,18 +1,42 @@
 {
-  "MajorClaims": {
-    "MC1": "technology has a great contribution to our lives and civilization"
-  },
-  "Claims": {
-    "C1": "We can not neglect profound impact of great technological process on human life",
-    "C2": "thanks to modern technology invented recently, human life has been improved dramatically",
-    "C3": "technological products have devastated the natural environment indirectly through its production process",
-    "C4": "technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements"
-  },
-  "Premises": {
-    "P1": "Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities",
-    "P2": "applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives",
-    "P3": "exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "technology has a great contribution to our lives and civilization"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "We can not neglect profound impact of great technological process on human life"
+    },
+    {
+      "ID": "C2",
+      "Text": "thanks to modern technology invented recently, human life has been improved dramatically"
+    },
+    {
+      "ID": "C3",
+      "Text": "technological products have devastated the natural environment indirectly through its production process"
+    },
+    {
+      "ID": "C4",
+      "Text": "technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities"
+    },
+    {
+      "ID": "P2",
+      "Text": "applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives"
+    },
+    {
+      "ID": "P3",
+      "Text": "exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

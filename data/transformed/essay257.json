@@ -1,33 +1,102 @@
 {
-  "MajorClaims": {
-    "MC1": "any great success need great work not great luck"
-  },
-  "Claims": {
-    "C1": "luck is one factor in reaching goal",
-    "C2": "famous people are usually diligent people not lucky people",
-    "C3": "we cannot always lean on our luck to be successful",
-    "C4": "The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance"
-  },
-  "Premises": {
-    "P1": "its impact is extraneous and we must not reckon on luck in our plans",
-    "P2": "He do a lot of exercise in football field every day",
-    "P3": "it is not for which he is luckier than me",
-    "P4": "Hard work make you a professional man/woman which are powerful in his or her job",
-    "P5": "when you work hard you decrease portion of chance in your success",
-    "P6": "in football game it is said that penalty-kick need good chance to be goal",
-    "P7": "Statically the chance of being goal is fifty-fifty",
-    "P8": "But I think Ronaldo make a goal from a penalty-kick with more possibility than me",
-    "P9": "It is not for which Ronaldo is more fortune than me",
-    "P10": "Definitely it is for which he have more practice and exercise than me",
-    "P11": "it is wise advice which you have hard study to success on exam",
-    "P12": "If you pick up any choice by chance you would fail the exam",
-    "P13": "You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky",
-    "P14": "you prepare for TOEFL or other multiple-choice test which has four option to choose in every question",
-    "P15": "I don't want to disavow the role of luck in success, but as you know it hardly accompany us",
-    "P16": "you have to work hard to learn and to get a lot of information before doing a project in good way",
-    "P17": "These plans is done by someone who is mastered in his/her work",
-    "P18": "such people do work hard and have great experiences because of their hard works"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "any great success need great work not great luck"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "luck is one factor in reaching goal"
+    },
+    {
+      "ID": "C2",
+      "Text": "famous people are usually diligent people not lucky people"
+    },
+    {
+      "ID": "C3",
+      "Text": "we cannot always lean on our luck to be successful"
+    },
+    {
+      "ID": "C4",
+      "Text": "The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "its impact is extraneous and we must not reckon on luck in our plans"
+    },
+    {
+      "ID": "P2",
+      "Text": "He do a lot of exercise in football field every day"
+    },
+    {
+      "ID": "P3",
+      "Text": "it is not for which he is luckier than me"
+    },
+    {
+      "ID": "P4",
+      "Text": "Hard work make you a professional man/woman which are powerful in his or her job"
+    },
+    {
+      "ID": "P5",
+      "Text": "when you work hard you decrease portion of chance in your success"
+    },
+    {
+      "ID": "P6",
+      "Text": "in football game it is said that penalty-kick need good chance to be goal"
+    },
+    {
+      "ID": "P7",
+      "Text": "Statically the chance of being goal is fifty-fifty"
+    },
+    {
+      "ID": "P8",
+      "Text": "But I think Ronaldo make a goal from a penalty-kick with more possibility than me"
+    },
+    {
+      "ID": "P9",
+      "Text": "It is not for which Ronaldo is more fortune than me"
+    },
+    {
+      "ID": "P10",
+      "Text": "Definitely it is for which he have more practice and exercise than me"
+    },
+    {
+      "ID": "P11",
+      "Text": "it is wise advice which you have hard study to success on exam"
+    },
+    {
+      "ID": "P12",
+      "Text": "If you pick up any choice by chance you would fail the exam"
+    },
+    {
+      "ID": "P13",
+      "Text": "You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky"
+    },
+    {
+      "ID": "P14",
+      "Text": "you prepare for TOEFL or other multiple-choice test which has four option to choose in every question"
+    },
+    {
+      "ID": "P15",
+      "Text": "I don't want to disavow the role of luck in success, but as you know it hardly accompany us"
+    },
+    {
+      "ID": "P16",
+      "Text": "you have to work hard to learn and to get a lot of information before doing a project in good way"
+    },
+    {
+      "ID": "P17",
+      "Text": "These plans is done by someone who is mastered in his/her work"
+    },
+    {
+      "ID": "P18",
+      "Text": "such people do work hard and have great experiences because of their hard works"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

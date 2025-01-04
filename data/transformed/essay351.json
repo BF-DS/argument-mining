@@ -1,20 +1,50 @@
 {
-  "MajorClaims": {
-    "MC1": "there are other equally vital aspects that need to be considered in this regard",
-    "MC2": "I disagree with the idea that salary outweighs any other motivators"
-  },
-  "Claims": {
-    "C1": "the salary is very pivotal factor",
-    "C2": "there are other even more important aspects such as: friendly co-workers, working conditions and professional achievements",
-    "C3": "in order for people to cover their daily and general needs they need money as well",
-    "C4": "career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary"
-  },
-  "Premises": {
-    "P1": "People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary",
-    "P2": "aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life",
-    "P3": "most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach",
-    "P4": "people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "there are other equally vital aspects that need to be considered in this regard"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I disagree with the idea that salary outweighs any other motivators"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "the salary is very pivotal factor"
+    },
+    {
+      "ID": "C2",
+      "Text": "there are other even more important aspects such as: friendly co-workers, working conditions and professional achievements"
+    },
+    {
+      "ID": "C3",
+      "Text": "in order for people to cover their daily and general needs they need money as well"
+    },
+    {
+      "ID": "C4",
+      "Text": "career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary"
+    },
+    {
+      "ID": "P2",
+      "Text": "aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life"
+    },
+    {
+      "ID": "P3",
+      "Text": "most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach"
+    },
+    {
+      "ID": "P4",
+      "Text": "people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

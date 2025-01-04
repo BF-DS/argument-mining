@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "the transportation is an elementary factor which directly affects to people\u2019s living",
-    "MC2": "the thing that I really want to change is to have more public transportation"
-  },
-  "Claims": {
-    "C1": "I\u2019m facing the traffic congestion every day",
-    "C2": "this improvement will decrease a bad traffic on the road indirectly",
-    "C3": "it should have more alternatives to use public transportation, such as a subway train or a sky train",
-    "C4": "They should increase more routes to make people transport more easily",
-    "C5": "The necessary energy will slowly be used up"
-  },
-  "Premises": {
-    "P1": "people will have more ways to go to a place",
-    "P2": "now buses are only a kind of public transportation in this community",
-    "P3": "It makes people in this area have no choice",
-    "P4": "They must take only a bus to go to another place",
-    "P5": "If a subway and a sky train are available here, it will be more convenience to them",
-    "P6": "people can estimate time from taking a subway train due to the train schedule",
-    "P7": "On the contrary they cannot do so in case of a bus",
-    "P8": "it is waste of time",
-    "P9": "the buses provide merely two routes in this community",
-    "P10": "It is absolutely a major problem",
-    "P11": "if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus",
-    "P12": "having more kinds of public transportation can dwindle the number of people using their own cars",
-    "P13": "people use less their own cars",
-    "P14": "people can save their expenses form gasoline, which nowadays is getting more expensive"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the transportation is an elementary factor which directly affects to people\u2019s living"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the thing that I really want to change is to have more public transportation"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "I\u2019m facing the traffic congestion every day"
+    },
+    {
+      "ID": "C2",
+      "Text": "this improvement will decrease a bad traffic on the road indirectly"
+    },
+    {
+      "ID": "C3",
+      "Text": "it should have more alternatives to use public transportation, such as a subway train or a sky train"
+    },
+    {
+      "ID": "C4",
+      "Text": "They should increase more routes to make people transport more easily"
+    },
+    {
+      "ID": "C5",
+      "Text": "The necessary energy will slowly be used up"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "people will have more ways to go to a place"
+    },
+    {
+      "ID": "P2",
+      "Text": "now buses are only a kind of public transportation in this community"
+    },
+    {
+      "ID": "P3",
+      "Text": "It makes people in this area have no choice"
+    },
+    {
+      "ID": "P4",
+      "Text": "They must take only a bus to go to another place"
+    },
+    {
+      "ID": "P5",
+      "Text": "If a subway and a sky train are available here, it will be more convenience to them"
+    },
+    {
+      "ID": "P6",
+      "Text": "people can estimate time from taking a subway train due to the train schedule"
+    },
+    {
+      "ID": "P7",
+      "Text": "On the contrary they cannot do so in case of a bus"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is waste of time"
+    },
+    {
+      "ID": "P9",
+      "Text": "the buses provide merely two routes in this community"
+    },
+    {
+      "ID": "P10",
+      "Text": "It is absolutely a major problem"
+    },
+    {
+      "ID": "P11",
+      "Text": "if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus"
+    },
+    {
+      "ID": "P12",
+      "Text": "having more kinds of public transportation can dwindle the number of people using their own cars"
+    },
+    {
+      "ID": "P13",
+      "Text": "people use less their own cars"
+    },
+    {
+      "ID": "P14",
+      "Text": "people can save their expenses form gasoline, which nowadays is getting more expensive"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

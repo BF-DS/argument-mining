@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "teenagers need more attention and help in comparison with the higher ages",
-    "MC2": "it is a good idea to ask parents and adult relatives to give a piece of advice"
-  },
-  "Claims": {
-    "C1": "they are the best advisor for their children",
-    "C2": "parents and adults relatives are the best friends and consular for the teenagers"
-  },
-  "Premises": {
-    "P1": "parents and other adult relatives are more experienced towards children",
-    "P2": "if children listen to their advices they can prevent happening worst things",
-    "P3": "They have experienced a large numbers of stuffs during their life",
-    "P4": "they can save value things in their life such as time and money, and enjoy they life with the best way",
-    "P5": "unfortunately nowadays there are some individuals who cheat the others for gaining more power and money",
-    "P6": "They cheat young ages",
-    "P7": "they believe they are immature and they can trap them easily"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "teenagers need more attention and help in comparison with the higher ages"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is a good idea to ask parents and adult relatives to give a piece of advice"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they are the best advisor for their children"
+    },
+    {
+      "ID": "C2",
+      "Text": "parents and adults relatives are the best friends and consular for the teenagers"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "parents and other adult relatives are more experienced towards children"
+    },
+    {
+      "ID": "P2",
+      "Text": "if children listen to their advices they can prevent happening worst things"
+    },
+    {
+      "ID": "P3",
+      "Text": "They have experienced a large numbers of stuffs during their life"
+    },
+    {
+      "ID": "P4",
+      "Text": "they can save value things in their life such as time and money, and enjoy they life with the best way"
+    },
+    {
+      "ID": "P5",
+      "Text": "unfortunately nowadays there are some individuals who cheat the others for gaining more power and money"
+    },
+    {
+      "ID": "P6",
+      "Text": "They cheat young ages"
+    },
+    {
+      "ID": "P7",
+      "Text": "they believe they are immature and they can trap them easily"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

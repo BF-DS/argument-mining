@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "the affect of technology on culture is undeniable, it has also contributed to the preservation of traditonal culture",
-    "MC2": "Modern technogy has impacted the traditional cultures in both negative and positive ways"
-  },
-  "Claims": {
-    "C1": "Many old traditionally cultural things have long gone as a result of modern technology",
-    "C2": "Thanks to modern technology, our life has been improved with many gadgets",
-    "C3": "technology has also made some contributions to the maintenance and study of traditional cultures in some ways"
-  },
-  "Premises": {
-    "P1": "The invention of mobile phone and internet has changed our traditional ways of communicating as well as working, it has also been much less labourous than in the pass with the assistance of electrical machineries",
-    "P2": "these newfangled practices has replaced many old traditional ones",
-    "P3": "factories equipped with new and highly-productive system has replaced old handmade products, the exchange of letters among friends is so hard to be seen as we have had emails and social network instead, new video games has superseded the old-physical ones",
-    "P4": "Internet has aided to assess the young generations to the cultural identity of many nations from all around the world",
-    "P5": "With the help of advanced methods, many art masterpiece has been well restorated and well preserved",
-    "P6": "Modern devices also assist the scientists to study the ancient societies much more deeply, hence discovering more cultural traces"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the affect of technology on culture is undeniable, it has also contributed to the preservation of traditonal culture"
+    },
+    {
+      "ID": "MC2",
+      "Text": "Modern technogy has impacted the traditional cultures in both negative and positive ways"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Many old traditionally cultural things have long gone as a result of modern technology"
+    },
+    {
+      "ID": "C2",
+      "Text": "Thanks to modern technology, our life has been improved with many gadgets"
+    },
+    {
+      "ID": "C3",
+      "Text": "technology has also made some contributions to the maintenance and study of traditional cultures in some ways"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The invention of mobile phone and internet has changed our traditional ways of communicating as well as working, it has also been much less labourous than in the pass with the assistance of electrical machineries"
+    },
+    {
+      "ID": "P2",
+      "Text": "these newfangled practices has replaced many old traditional ones"
+    },
+    {
+      "ID": "P3",
+      "Text": "factories equipped with new and highly-productive system has replaced old handmade products, the exchange of letters among friends is so hard to be seen as we have had emails and social network instead, new video games has superseded the old-physical ones"
+    },
+    {
+      "ID": "P4",
+      "Text": "Internet has aided to assess the young generations to the cultural identity of many nations from all around the world"
+    },
+    {
+      "ID": "P5",
+      "Text": "With the help of advanced methods, many art masterpiece has been well restorated and well preserved"
+    },
+    {
+      "ID": "P6",
+      "Text": "Modern devices also assist the scientists to study the ancient societies much more deeply, hence discovering more cultural traces"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P3",

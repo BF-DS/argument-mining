@@ -1,34 +1,106 @@
 {
-  "MajorClaims": {
-    "MC1": "if the good people always get an happy ending, I don\u2019t think it\u2019s proper",
-    "MC2": "movies and TV programs should present different stories in which good people get reward or get nothing"
-  },
-  "Claims": {
-    "C1": "we can\u2019t always let good people be rewarded in movies or TV programs",
-    "C2": "if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world",
-    "C3": "we should show people the truth in the stories"
-  },
-  "Premises": {
-    "P1": "if all the story end up in the same way, it will be boring",
-    "P2": "If good people always win, we can guess the ending of the movies or dramas",
-    "P3": "Then we will feel less interested in them",
-    "P4": "But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story",
-    "P5": "Hollywood stories usually have a happy ending like a hero beats a crime and get a girl",
-    "P6": "But now many people, including me, have been tired with it",
-    "P7": "I don\u2019t want to see the same kind of ending again and again",
-    "P8": "They will be misleading by those movies",
-    "P9": "they may act like good people in order to get reward",
-    "P10": "Once they find the good people are not always get rewarded, they may feel upset and not to be a good person",
-    "P11": "the good people do good things no matter the ending is good or not",
-    "P12": "we should tell this to the young children to avoid the misunderstanding",
-    "P13": "Even in the real world, good people can get a bad ending sometimes",
-    "P14": "it happen more often in the real world than in those movies",
-    "P15": "those good endings sometimes are helpful",
-    "P16": "Some people may be encouraged to do good things",
-    "P17": "this kind of behavior won\u2019t last long",
-    "P18": "someday they will realize the truth",
-    "P19": "if they can, they will be good people no matter how the story ends"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "if the good people always get an happy ending, I don\u2019t think it\u2019s proper"
+    },
+    {
+      "ID": "MC2",
+      "Text": "movies and TV programs should present different stories in which good people get reward or get nothing"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "we can\u2019t always let good people be rewarded in movies or TV programs"
+    },
+    {
+      "ID": "C2",
+      "Text": "if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world"
+    },
+    {
+      "ID": "C3",
+      "Text": "we should show people the truth in the stories"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "if all the story end up in the same way, it will be boring"
+    },
+    {
+      "ID": "P2",
+      "Text": "If good people always win, we can guess the ending of the movies or dramas"
+    },
+    {
+      "ID": "P3",
+      "Text": "Then we will feel less interested in them"
+    },
+    {
+      "ID": "P4",
+      "Text": "But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story"
+    },
+    {
+      "ID": "P5",
+      "Text": "Hollywood stories usually have a happy ending like a hero beats a crime and get a girl"
+    },
+    {
+      "ID": "P6",
+      "Text": "But now many people, including me, have been tired with it"
+    },
+    {
+      "ID": "P7",
+      "Text": "I don\u2019t want to see the same kind of ending again and again"
+    },
+    {
+      "ID": "P8",
+      "Text": "They will be misleading by those movies"
+    },
+    {
+      "ID": "P9",
+      "Text": "they may act like good people in order to get reward"
+    },
+    {
+      "ID": "P10",
+      "Text": "Once they find the good people are not always get rewarded, they may feel upset and not to be a good person"
+    },
+    {
+      "ID": "P11",
+      "Text": "the good people do good things no matter the ending is good or not"
+    },
+    {
+      "ID": "P12",
+      "Text": "we should tell this to the young children to avoid the misunderstanding"
+    },
+    {
+      "ID": "P13",
+      "Text": "Even in the real world, good people can get a bad ending sometimes"
+    },
+    {
+      "ID": "P14",
+      "Text": "it happen more often in the real world than in those movies"
+    },
+    {
+      "ID": "P15",
+      "Text": "those good endings sometimes are helpful"
+    },
+    {
+      "ID": "P16",
+      "Text": "Some people may be encouraged to do good things"
+    },
+    {
+      "ID": "P17",
+      "Text": "this kind of behavior won\u2019t last long"
+    },
+    {
+      "ID": "P18",
+      "Text": "someday they will realize the truth"
+    },
+    {
+      "ID": "P19",
+      "Text": "if they can, they will be good people no matter how the story ends"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

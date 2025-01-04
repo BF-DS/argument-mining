@@ -1,32 +1,98 @@
 {
-  "MajorClaims": {
-    "MC1": "pets should be treated like human beings",
-    "MC2": "pets deserve to be treated like family members"
-  },
-  "Claims": {
-    "C1": "pets are our friends as well as certain human beings are",
-    "C2": "pets are useful for a variety of things",
-    "C3": "they are our friends and they can be useful in many situations"
-  },
-  "Premises": {
-    "P1": "they listen to us, more than some people will ever do",
-    "P2": "We can talk to them",
-    "P3": "When I was 14 years old, my uncle passed away and I felt like everything was no longer important",
-    "P4": "Talking to my friends was frustrating",
-    "P5": "none of them have ever felt that way",
-    "P6": "I was all alone at home for a long time",
-    "P7": "my dog was near me and it seemed to me that only him could understand my deeply feelings",
-    "P8": "pets aren't able to speak with us",
-    "P9": "we can nonetheless count on them",
-    "P10": "Similarly to friends, indeed, they are always with us and they are there if we feel alone",
-    "P11": "nowadays the pet therapy is becoming more popular than before",
-    "P12": "Researchers have discovered that pets can bring benefits in a huge amount of illnesses",
-    "P13": "There are dogs who lead blind people around the city",
-    "P14": "pets are important for depressed people as well",
-    "P15": "without them they could not go around all alone",
-    "P16": "their presence make them feel better",
-    "P17": "there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "pets should be treated like human beings"
+    },
+    {
+      "ID": "MC2",
+      "Text": "pets deserve to be treated like family members"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "pets are our friends as well as certain human beings are"
+    },
+    {
+      "ID": "C2",
+      "Text": "pets are useful for a variety of things"
+    },
+    {
+      "ID": "C3",
+      "Text": "they are our friends and they can be useful in many situations"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they listen to us, more than some people will ever do"
+    },
+    {
+      "ID": "P2",
+      "Text": "We can talk to them"
+    },
+    {
+      "ID": "P3",
+      "Text": "When I was 14 years old, my uncle passed away and I felt like everything was no longer important"
+    },
+    {
+      "ID": "P4",
+      "Text": "Talking to my friends was frustrating"
+    },
+    {
+      "ID": "P5",
+      "Text": "none of them have ever felt that way"
+    },
+    {
+      "ID": "P6",
+      "Text": "I was all alone at home for a long time"
+    },
+    {
+      "ID": "P7",
+      "Text": "my dog was near me and it seemed to me that only him could understand my deeply feelings"
+    },
+    {
+      "ID": "P8",
+      "Text": "pets aren't able to speak with us"
+    },
+    {
+      "ID": "P9",
+      "Text": "we can nonetheless count on them"
+    },
+    {
+      "ID": "P10",
+      "Text": "Similarly to friends, indeed, they are always with us and they are there if we feel alone"
+    },
+    {
+      "ID": "P11",
+      "Text": "nowadays the pet therapy is becoming more popular than before"
+    },
+    {
+      "ID": "P12",
+      "Text": "Researchers have discovered that pets can bring benefits in a huge amount of illnesses"
+    },
+    {
+      "ID": "P13",
+      "Text": "There are dogs who lead blind people around the city"
+    },
+    {
+      "ID": "P14",
+      "Text": "pets are important for depressed people as well"
+    },
+    {
+      "ID": "P15",
+      "Text": "without them they could not go around all alone"
+    },
+    {
+      "ID": "P16",
+      "Text": "their presence make them feel better"
+    },
+    {
+      "ID": "P17",
+      "Text": "there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P1",

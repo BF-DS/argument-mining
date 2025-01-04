@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings"
-  },
-  "Claims": {
-    "C1": "tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact",
-    "C2": "tourism plays an indispensable role in nurturing the economy in a way it is meant to be",
-    "C3": "tourism should not be alledged to be notorous for its detriment to the ecological diversity"
-  },
-  "Premises": {
-    "P1": "places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet",
-    "P2": "Not until the investment of some companies do chains of hotels and services spring up",
-    "P3": "It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents",
-    "P4": "tourism helps divert the local economy to its right direction, which exploit the best out of its own potential",
-    "P5": "environmental damage is inevitable",
-    "P6": "In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration",
-    "P7": "a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild",
-    "P8": "Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures",
-    "P9": "it is not tourism to be blamed for"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact"
+    },
+    {
+      "ID": "C2",
+      "Text": "tourism plays an indispensable role in nurturing the economy in a way it is meant to be"
+    },
+    {
+      "ID": "C3",
+      "Text": "tourism should not be alledged to be notorous for its detriment to the ecological diversity"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet"
+    },
+    {
+      "ID": "P2",
+      "Text": "Not until the investment of some companies do chains of hotels and services spring up"
+    },
+    {
+      "ID": "P3",
+      "Text": "It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents"
+    },
+    {
+      "ID": "P4",
+      "Text": "tourism helps divert the local economy to its right direction, which exploit the best out of its own potential"
+    },
+    {
+      "ID": "P5",
+      "Text": "environmental damage is inevitable"
+    },
+    {
+      "ID": "P6",
+      "Text": "In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration"
+    },
+    {
+      "ID": "P7",
+      "Text": "a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild"
+    },
+    {
+      "ID": "P8",
+      "Text": "Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures"
+    },
+    {
+      "ID": "P9",
+      "Text": "it is not tourism to be blamed for"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "being present at classes seems a wiser option",
-    "MC2": "communicating and studying with peer group is a good way for learning materials"
-  },
-  "Claims": {
-    "C1": "being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college",
-    "C2": "by the help of teachers, students can understand ideas faster and easier",
-    "C3": "appearing in class makes students more conscientious",
-    "C4": "teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it",
-    "C5": "attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success"
-  },
-  "Premises": {
-    "P1": "they can help each other for learning materials better",
-    "P2": "if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems",
-    "P3": "teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points",
-    "P4": "In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study",
-    "P5": "they have to obey class\u2019s disciplines and they practice to be more perseverance in the process of doing their assignments",
-    "P6": "the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times",
-    "P7": "they may miss some important parts in virtue of the chaotic and incoherent study"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "being present at classes seems a wiser option"
+    },
+    {
+      "ID": "MC2",
+      "Text": "communicating and studying with peer group is a good way for learning materials"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college"
+    },
+    {
+      "ID": "C2",
+      "Text": "by the help of teachers, students can understand ideas faster and easier"
+    },
+    {
+      "ID": "C3",
+      "Text": "appearing in class makes students more conscientious"
+    },
+    {
+      "ID": "C4",
+      "Text": "teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it"
+    },
+    {
+      "ID": "C5",
+      "Text": "attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they can help each other for learning materials better"
+    },
+    {
+      "ID": "P2",
+      "Text": "if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems"
+    },
+    {
+      "ID": "P3",
+      "Text": "teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points"
+    },
+    {
+      "ID": "P4",
+      "Text": "In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study"
+    },
+    {
+      "ID": "P5",
+      "Text": "they have to obey class\u2019s disciplines and they practice to be more perseverance in the process of doing their assignments"
+    },
+    {
+      "ID": "P6",
+      "Text": "the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times"
+    },
+    {
+      "ID": "P7",
+      "Text": "they may miss some important parts in virtue of the chaotic and incoherent study"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P2",

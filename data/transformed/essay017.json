@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "television devastate families ties",
-    "MC2": "it is a global problem to solve this problem and it is need global contribution to find a solution"
-  },
-  "Claims": {
-    "C1": "most of people do not have a plan for make a limitation or schedule for watching television",
-    "C2": "killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive",
-    "C3": "In spite of enjoying watching television shows, it is really time consuming task",
-    "C4": "watching television programs makes us lazy",
-    "C5": "some television programs have a negative effect on viewers"
-  },
-  "Premises": {
-    "P1": "Emergence of new television channels or shows are not surprising",
-    "P2": "We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities",
-    "P3": "This is a problem that suffers all of us everyday",
-    "P4": "there is no time for call to our parents or friends",
-    "P5": "We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office",
-    "P6": "we do not have time to spend for healthy activity such as going to a gym or doing other sports",
-    "P7": "This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable",
-    "P8": "Some thriller or action movies advertise negative activities such as doing criminal activity",
-    "P9": "These genre of programs has more negative effects on our teenagers",
-    "P10": "They usually try to mimic what they see on movies in their daily behaviors"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "television devastate families ties"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is a global problem to solve this problem and it is need global contribution to find a solution"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "most of people do not have a plan for make a limitation or schedule for watching television"
+    },
+    {
+      "ID": "C2",
+      "Text": "killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive"
+    },
+    {
+      "ID": "C3",
+      "Text": "In spite of enjoying watching television shows, it is really time consuming task"
+    },
+    {
+      "ID": "C4",
+      "Text": "watching television programs makes us lazy"
+    },
+    {
+      "ID": "C5",
+      "Text": "some television programs have a negative effect on viewers"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Emergence of new television channels or shows are not surprising"
+    },
+    {
+      "ID": "P2",
+      "Text": "We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities"
+    },
+    {
+      "ID": "P3",
+      "Text": "This is a problem that suffers all of us everyday"
+    },
+    {
+      "ID": "P4",
+      "Text": "there is no time for call to our parents or friends"
+    },
+    {
+      "ID": "P5",
+      "Text": "We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office"
+    },
+    {
+      "ID": "P6",
+      "Text": "we do not have time to spend for healthy activity such as going to a gym or doing other sports"
+    },
+    {
+      "ID": "P7",
+      "Text": "This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable"
+    },
+    {
+      "ID": "P8",
+      "Text": "Some thriller or action movies advertise negative activities such as doing criminal activity"
+    },
+    {
+      "ID": "P9",
+      "Text": "These genre of programs has more negative effects on our teenagers"
+    },
+    {
+      "ID": "P10",
+      "Text": "They usually try to mimic what they see on movies in their daily behaviors"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

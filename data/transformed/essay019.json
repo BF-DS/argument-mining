@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "for the young adults it will be better to live with their parents"
-  },
-  "Claims": {
-    "C1": "their lives are going to be more difficult, when they are away from home",
-    "C2": "They will not need to worry about financial problems or if they will get on well with their roommate",
-    "C3": "Living in their own houses will save the young adults a lot of money",
-    "C4": "Another problem that the young adults may encounter is to find a co-tenant, who they do not like"
-  },
-  "Premises": {
-    "P1": "They will have to pay a lot of bills",
-    "P2": "they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like",
-    "P3": "If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal",
-    "P4": "If the young adults still study they will have to combine studying with working",
-    "P5": "they will not have money to pay for everything",
-    "P6": "There will not be such worries when young adults live in their own home",
-    "P7": "parents will take care for them",
-    "P8": "parents will give their children money in order they to focus only on studying",
-    "P9": "His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses",
-    "P10": "Living with such a person may be a huge problem for the young adults",
-    "P11": "When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice",
-    "P12": "they are most likely to quarrel every day, instead of to help each other"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "for the young adults it will be better to live with their parents"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "their lives are going to be more difficult, when they are away from home"
+    },
+    {
+      "ID": "C2",
+      "Text": "They will not need to worry about financial problems or if they will get on well with their roommate"
+    },
+    {
+      "ID": "C3",
+      "Text": "Living in their own houses will save the young adults a lot of money"
+    },
+    {
+      "ID": "C4",
+      "Text": "Another problem that the young adults may encounter is to find a co-tenant, who they do not like"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "They will have to pay a lot of bills"
+    },
+    {
+      "ID": "P2",
+      "Text": "they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like"
+    },
+    {
+      "ID": "P3",
+      "Text": "If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal"
+    },
+    {
+      "ID": "P4",
+      "Text": "If the young adults still study they will have to combine studying with working"
+    },
+    {
+      "ID": "P5",
+      "Text": "they will not have money to pay for everything"
+    },
+    {
+      "ID": "P6",
+      "Text": "There will not be such worries when young adults live in their own home"
+    },
+    {
+      "ID": "P7",
+      "Text": "parents will take care for them"
+    },
+    {
+      "ID": "P8",
+      "Text": "parents will give their children money in order they to focus only on studying"
+    },
+    {
+      "ID": "P9",
+      "Text": "His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses"
+    },
+    {
+      "ID": "P10",
+      "Text": "Living with such a person may be a huge problem for the young adults"
+    },
+    {
+      "ID": "P11",
+      "Text": "When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice"
+    },
+    {
+      "ID": "P12",
+      "Text": "they are most likely to quarrel every day, instead of to help each other"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

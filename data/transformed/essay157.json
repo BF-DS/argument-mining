@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "information is power",
-    "MC2": "it is very important to be confident of the information, which you use, especially when your conclusion or decision may have a great influence"
-  },
-  "Claims": {
-    "C1": "by using different sources of information we can guarantee its reliability",
-    "C2": "you have to look through different sources before you manage to find some reliable facts"
-  },
-  "Premises": {
-    "P1": "Some people may disinform you on purpose, that's why it is rather unwise to make conclusions before you are confident of the information",
-    "P2": "Russian news announced that the war between Osetia and Georgia had been initiated by Georgia, however, european news announced that it was initiated by Russia",
-    "P3": "After a while the situation became clear, but before that a lot of people had already condemned the actions of Russia",
-    "P4": "It is possible to make a wrong decision",
-    "P5": "you have just used someone's personal opinion as a source of information, but it was actually wrong",
-    "P6": "several years ago in Moscow salt became two times more expensive only in one week, because people thought that soon there would be no salt in the shops",
-    "P7": "The gossip-based information dramatically influenced the prices and only after official announcement the \"salt-panic\" was over",
-    "P8": "it is very important to know facts about some events or problem, not only estimations",
-    "P9": "it can help you to make your own conclusion or estimate"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "information is power"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it is very important to be confident of the information, which you use, especially when your conclusion or decision may have a great influence"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "by using different sources of information we can guarantee its reliability"
+    },
+    {
+      "ID": "C2",
+      "Text": "you have to look through different sources before you manage to find some reliable facts"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Some people may disinform you on purpose, that's why it is rather unwise to make conclusions before you are confident of the information"
+    },
+    {
+      "ID": "P2",
+      "Text": "Russian news announced that the war between Osetia and Georgia had been initiated by Georgia, however, european news announced that it was initiated by Russia"
+    },
+    {
+      "ID": "P3",
+      "Text": "After a while the situation became clear, but before that a lot of people had already condemned the actions of Russia"
+    },
+    {
+      "ID": "P4",
+      "Text": "It is possible to make a wrong decision"
+    },
+    {
+      "ID": "P5",
+      "Text": "you have just used someone's personal opinion as a source of information, but it was actually wrong"
+    },
+    {
+      "ID": "P6",
+      "Text": "several years ago in Moscow salt became two times more expensive only in one week, because people thought that soon there would be no salt in the shops"
+    },
+    {
+      "ID": "P7",
+      "Text": "The gossip-based information dramatically influenced the prices and only after official announcement the \"salt-panic\" was over"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is very important to know facts about some events or problem, not only estimations"
+    },
+    {
+      "ID": "P9",
+      "Text": "it can help you to make your own conclusion or estimate"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

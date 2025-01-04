@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "aiding poor countries has positive effects, overweighing its side-effects for the several reasons",
-    "MC2": "being a global neighbor by aiding poor countries would be continues by many organizations and volunteers, and it will make the earth a better place to live"
-  },
-  "Claims": {
-    "C1": "there are abovementioned three key points of positive effects of aid; supporting poor countries to make its economy strong and building humane concepts to people, keeping strong global economy",
-    "C2": "just giving aid to impoverished countries could be manipulated by big power countries",
-    "C3": "a great amount of materials and money have poor countries being corrupted and politically dependent on other countries",
-    "C4": "Aiding help poor countries in this situation solve their economical problems and run their own business",
-    "C5": "aiding campaign gives a chance to considerate about poor people",
-    "C6": "the campaigns might include practical benefits"
-  },
-  "Premises": {
-    "P1": "poor counties suffer from shortage of basic materials and facilities to start businesses and make it richer",
-    "P2": "To be out of poverty, it is fundamental to support basic industry related factors such as light, electricity, load, highways, natural resources, technology and buildings for companies",
-    "P3": "republic of Korea used to be the poorest country even compared to others in Africa in 1960's",
-    "P4": "Now that it has became strong economy country aiding poor countries after 10 years of aid from other counties",
-    "P5": "If people in rich countries ponder poor people suffering from poverty and diseases, they would never take their abundance for granted",
-    "P6": "It not only raises the notice the meaning of harmony and love, but also be a good chance to learn humane doctrine of globalization",
-    "P7": "In globalized world, the economies of several countries are in a big network and must influence on each others",
-    "P8": "When America mortgage loan system went bad, several economies of European and Asian countries fluctuated, even any countries had to be gotten international supports to block its bankrupt"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "aiding poor countries has positive effects, overweighing its side-effects for the several reasons"
+    },
+    {
+      "ID": "MC2",
+      "Text": "being a global neighbor by aiding poor countries would be continues by many organizations and volunteers, and it will make the earth a better place to live"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "there are abovementioned three key points of positive effects of aid; supporting poor countries to make its economy strong and building humane concepts to people, keeping strong global economy"
+    },
+    {
+      "ID": "C2",
+      "Text": "just giving aid to impoverished countries could be manipulated by big power countries"
+    },
+    {
+      "ID": "C3",
+      "Text": "a great amount of materials and money have poor countries being corrupted and politically dependent on other countries"
+    },
+    {
+      "ID": "C4",
+      "Text": "Aiding help poor countries in this situation solve their economical problems and run their own business"
+    },
+    {
+      "ID": "C5",
+      "Text": "aiding campaign gives a chance to considerate about poor people"
+    },
+    {
+      "ID": "C6",
+      "Text": "the campaigns might include practical benefits"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "poor counties suffer from shortage of basic materials and facilities to start businesses and make it richer"
+    },
+    {
+      "ID": "P2",
+      "Text": "To be out of poverty, it is fundamental to support basic industry related factors such as light, electricity, load, highways, natural resources, technology and buildings for companies"
+    },
+    {
+      "ID": "P3",
+      "Text": "republic of Korea used to be the poorest country even compared to others in Africa in 1960's"
+    },
+    {
+      "ID": "P4",
+      "Text": "Now that it has became strong economy country aiding poor countries after 10 years of aid from other counties"
+    },
+    {
+      "ID": "P5",
+      "Text": "If people in rich countries ponder poor people suffering from poverty and diseases, they would never take their abundance for granted"
+    },
+    {
+      "ID": "P6",
+      "Text": "It not only raises the notice the meaning of harmony and love, but also be a good chance to learn humane doctrine of globalization"
+    },
+    {
+      "ID": "P7",
+      "Text": "In globalized world, the economies of several countries are in a big network and must influence on each others"
+    },
+    {
+      "ID": "P8",
+      "Text": "When America mortgage loan system went bad, several economies of European and Asian countries fluctuated, even any countries had to be gotten international supports to block its bankrupt"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

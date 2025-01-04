@@ -1,27 +1,78 @@
 {
-  "MajorClaims": {
-    "MC1": "An integration of music into learning process bound to be successful when it is not compulsory"
-  },
-  "Claims": {
-    "C1": "music can help an individual to shape its character",
-    "C2": "many university authorities provide music lessons for their students",
-    "C3": "music and other entertaining subjects should be optional"
-  },
-  "Premises": {
-    "P1": "they live and study in a harmony with music",
-    "P2": "It is obvious that music has a great power which can positively influence on human being and its psychology",
-    "P3": "students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time",
-    "P4": "music can be a useful and interesting solution",
-    "P5": "if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life",
-    "P6": "students with a quite poor academic background can show themselves in the music",
-    "P7": "the calm atmosphere in the class might be created",
-    "P8": "it is clear that music can have many mentally enhancing effects on students",
-    "P9": "Nowadays, time is the most valuable thing in life with increased pace",
-    "P10": "students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song",
-    "P11": "students can not obtain supposed impacts, unless they get interested in it more seriously",
-    "P12": "music is the art which requires special attitude towards it",
-    "P13": "demand is not for musically orientated students, but for academically developed employees"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "An integration of music into learning process bound to be successful when it is not compulsory"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "music can help an individual to shape its character"
+    },
+    {
+      "ID": "C2",
+      "Text": "many university authorities provide music lessons for their students"
+    },
+    {
+      "ID": "C3",
+      "Text": "music and other entertaining subjects should be optional"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they live and study in a harmony with music"
+    },
+    {
+      "ID": "P2",
+      "Text": "It is obvious that music has a great power which can positively influence on human being and its psychology"
+    },
+    {
+      "ID": "P3",
+      "Text": "students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time"
+    },
+    {
+      "ID": "P4",
+      "Text": "music can be a useful and interesting solution"
+    },
+    {
+      "ID": "P5",
+      "Text": "if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life"
+    },
+    {
+      "ID": "P6",
+      "Text": "students with a quite poor academic background can show themselves in the music"
+    },
+    {
+      "ID": "P7",
+      "Text": "the calm atmosphere in the class might be created"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is clear that music can have many mentally enhancing effects on students"
+    },
+    {
+      "ID": "P9",
+      "Text": "Nowadays, time is the most valuable thing in life with increased pace"
+    },
+    {
+      "ID": "P10",
+      "Text": "students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song"
+    },
+    {
+      "ID": "P11",
+      "Text": "students can not obtain supposed impacts, unless they get interested in it more seriously"
+    },
+    {
+      "ID": "P12",
+      "Text": "music is the art which requires special attitude towards it"
+    },
+    {
+      "ID": "P13",
+      "Text": "demand is not for musically orientated students, but for academically developed employees"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

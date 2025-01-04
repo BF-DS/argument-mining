@@ -1,22 +1,58 @@
 {
-  "MajorClaims": {
-    "MC1": "such details should be strictly censored, if not banned altogether",
-    "MC2": "any descriptions of crimes should not go unchecked as any longer"
-  },
-  "Claims": {
-    "C1": "a great deal of crime coverage is rather biased, exaggerated or fraudulent, which only result to terrorize communities and leave law-aiding people increasingly apprehensive of about crimes",
-    "C2": "without the prevention on criminal details, the unlawful behavior would be more and more severe and the social harmony would be broken",
-    "C3": "particular coverage of heinous crimes may further traumatize the victims of crimes",
-    "C4": "as they may be false, may further drive up the already-high crime rate and may bring even more suffering to the victims of crimes"
-  },
-  "Premises": {
-    "P1": "the press provide the public with criminal content in order to increase newspaper circulation and TV rating",
-    "P2": "These days the primary purpose of journalists covering the details of criminal acts is, more often than that, to boost newspaper circulations and TV ratings",
-    "P3": "This may help those who are in the process of panning a criminal act perfect their plans, avoid the pitfalls and make themselves harder to be tracked down by the police",
-    "P4": "detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials, which would be hard to obtain otherwise",
-    "P5": "they have already suffered greatly for what they have experienced",
-    "P6": "Without their consent, this could only add to theses innocent people's mental suffering and they may do some extreme actions"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "such details should be strictly censored, if not banned altogether"
+    },
+    {
+      "ID": "MC2",
+      "Text": "any descriptions of crimes should not go unchecked as any longer"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "a great deal of crime coverage is rather biased, exaggerated or fraudulent, which only result to terrorize communities and leave law-aiding people increasingly apprehensive of about crimes"
+    },
+    {
+      "ID": "C2",
+      "Text": "without the prevention on criminal details, the unlawful behavior would be more and more severe and the social harmony would be broken"
+    },
+    {
+      "ID": "C3",
+      "Text": "particular coverage of heinous crimes may further traumatize the victims of crimes"
+    },
+    {
+      "ID": "C4",
+      "Text": "as they may be false, may further drive up the already-high crime rate and may bring even more suffering to the victims of crimes"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the press provide the public with criminal content in order to increase newspaper circulation and TV rating"
+    },
+    {
+      "ID": "P2",
+      "Text": "These days the primary purpose of journalists covering the details of criminal acts is, more often than that, to boost newspaper circulations and TV ratings"
+    },
+    {
+      "ID": "P3",
+      "Text": "This may help those who are in the process of panning a criminal act perfect their plans, avoid the pitfalls and make themselves harder to be tracked down by the police"
+    },
+    {
+      "ID": "P4",
+      "Text": "detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials, which would be hard to obtain otherwise"
+    },
+    {
+      "ID": "P5",
+      "Text": "they have already suffered greatly for what they have experienced"
+    },
+    {
+      "ID": "P6",
+      "Text": "Without their consent, this could only add to theses innocent people's mental suffering and they may do some extreme actions"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "they are able to sustain their cultural identities and doing so help they keep their origin values",
-    "MC2": "sustaining the traditions will make the immigrated people keep their cultural identity and give them confident among the many culture society"
-  },
-  "Claims": {
-    "C1": "sustaining the cultural values of immigrants is paramount essential",
-    "C2": "keeping the cultural traditions in the destination countries is tremendous important",
-    "C3": "there are opposing ideas of neglecting one\u2019s cultural values to adapt in the new cultures"
-  },
-  "Premises": {
-    "P1": "maintaining one\u2019s cultural identity is a key important rule to help individuals emerge in the new multicultural environments",
-    "P2": "Take Australia for example, immigrants from varieties of nations have a day called multicultural day where people from each country prepare their food and traditional activities for displaying in the public venues",
-    "P3": "Many Australians come this day to enjoy the shows, learn about the cultures and admire the diverse values",
-    "P4": "These feedbacks, in turn, help raise one\u2019s pride of their cultures and help people understand each other more",
-    "P5": "it is crucial to keep one\u2019s identity",
-    "P6": "they need a connection back to their country as well as teach their children their value of origin",
-    "P7": "children immigrated to a new country will face social troubles in school with new friends",
-    "P8": "In this new environment, parent should find friends coming from their same country so that they can socialize in a very familiar manner as feeling being home",
-    "P9": "Fail to create this familiarity makes them felt isolated, in the extreme can lead to social disorder like autism"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "they are able to sustain their cultural identities and doing so help they keep their origin values"
+    },
+    {
+      "ID": "MC2",
+      "Text": "sustaining the traditions will make the immigrated people keep their cultural identity and give them confident among the many culture society"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "sustaining the cultural values of immigrants is paramount essential"
+    },
+    {
+      "ID": "C2",
+      "Text": "keeping the cultural traditions in the destination countries is tremendous important"
+    },
+    {
+      "ID": "C3",
+      "Text": "there are opposing ideas of neglecting one\u2019s cultural values to adapt in the new cultures"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "maintaining one\u2019s cultural identity is a key important rule to help individuals emerge in the new multicultural environments"
+    },
+    {
+      "ID": "P2",
+      "Text": "Take Australia for example, immigrants from varieties of nations have a day called multicultural day where people from each country prepare their food and traditional activities for displaying in the public venues"
+    },
+    {
+      "ID": "P3",
+      "Text": "Many Australians come this day to enjoy the shows, learn about the cultures and admire the diverse values"
+    },
+    {
+      "ID": "P4",
+      "Text": "These feedbacks, in turn, help raise one\u2019s pride of their cultures and help people understand each other more"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is crucial to keep one\u2019s identity"
+    },
+    {
+      "ID": "P6",
+      "Text": "they need a connection back to their country as well as teach their children their value of origin"
+    },
+    {
+      "ID": "P7",
+      "Text": "children immigrated to a new country will face social troubles in school with new friends"
+    },
+    {
+      "ID": "P8",
+      "Text": "In this new environment, parent should find friends coming from their same country so that they can socialize in a very familiar manner as feeling being home"
+    },
+    {
+      "ID": "P9",
+      "Text": "Fail to create this familiarity makes them felt isolated, in the extreme can lead to social disorder like autism"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

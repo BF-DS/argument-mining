@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "following celebrities can be dangerous for the youth",
-    "MC2": "when young people follow celebrities, it affects their health as well as behavior in a negative way"
-  },
-  "Claims": {
-    "C1": "This has an overall effect on personality and future of an individual",
-    "C2": "following celebrities blindly affects the health of adolescents",
-    "C3": "these glamorous celebrities have a poor effect on the conduct of young people"
-  },
-  "Premises": {
-    "P1": "Many young people indulge themselves in drugs and start smoking at an early age",
-    "P2": "in a survey carried out in a university, it was asked to students that why did they start smoking, then around forty percent of individuals answered that they wanted to look like their favorite screen actor while smoking cigarettes",
-    "P3": "imitating celebrities has a negative influence on health of young individuals",
-    "P4": "Adolescents follow not only the make up and attire of their favorite stars but also their behavior",
-    "P5": "recently in a poll conducted by an American magazine it was found that most of the parents and teachers complain that teenagers use derogatory words and abusive language at home and at schools",
-    "P6": "when youth follows celebrities it affects personality of young people in a bad way"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "following celebrities can be dangerous for the youth"
+    },
+    {
+      "ID": "MC2",
+      "Text": "when young people follow celebrities, it affects their health as well as behavior in a negative way"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "This has an overall effect on personality and future of an individual"
+    },
+    {
+      "ID": "C2",
+      "Text": "following celebrities blindly affects the health of adolescents"
+    },
+    {
+      "ID": "C3",
+      "Text": "these glamorous celebrities have a poor effect on the conduct of young people"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Many young people indulge themselves in drugs and start smoking at an early age"
+    },
+    {
+      "ID": "P2",
+      "Text": "in a survey carried out in a university, it was asked to students that why did they start smoking, then around forty percent of individuals answered that they wanted to look like their favorite screen actor while smoking cigarettes"
+    },
+    {
+      "ID": "P3",
+      "Text": "imitating celebrities has a negative influence on health of young individuals"
+    },
+    {
+      "ID": "P4",
+      "Text": "Adolescents follow not only the make up and attire of their favorite stars but also their behavior"
+    },
+    {
+      "ID": "P5",
+      "Text": "recently in a poll conducted by an American magazine it was found that most of the parents and teachers complain that teenagers use derogatory words and abusive language at home and at schools"
+    },
+    {
+      "ID": "P6",
+      "Text": "when youth follows celebrities it affects personality of young people in a bad way"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

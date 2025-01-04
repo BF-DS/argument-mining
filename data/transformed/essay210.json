@@ -1,19 +1,46 @@
 {
-  "MajorClaims": {
-    "MC1": "a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being",
-    "MC2": "governments should devote a greater portion of their health budgets to health education and means for precautions"
-  },
-  "Claims": {
-    "C1": "society should be educated and became aware of health issues so that the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients",
-    "C2": "governments should allocate more budget on prevention from illness and providing health education is the welfare of the society"
-  },
-  "Premises": {
-    "P1": "education and preventative measures should receive a greater budget is the potential improvements in health system",
-    "P2": "decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients",
-    "P3": "there is nothing more important than health in a human's life and the happiness and welfare come with health",
-    "P4": "a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives",
-    "P5": "the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being"
+    },
+    {
+      "ID": "MC2",
+      "Text": "governments should devote a greater portion of their health budgets to health education and means for precautions"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "society should be educated and became aware of health issues so that the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients"
+    },
+    {
+      "ID": "C2",
+      "Text": "governments should allocate more budget on prevention from illness and providing health education is the welfare of the society"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "education and preventative measures should receive a greater budget is the potential improvements in health system"
+    },
+    {
+      "ID": "P2",
+      "Text": "decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients"
+    },
+    {
+      "ID": "P3",
+      "Text": "there is nothing more important than health in a human's life and the happiness and welfare come with health"
+    },
+    {
+      "ID": "P4",
+      "Text": "a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives"
+    },
+    {
+      "ID": "P5",
+      "Text": "the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

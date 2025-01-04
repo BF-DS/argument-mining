@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "human needs should be considered more",
-    "MC2": "nowadays humans need farmland, housing and industry"
-  },
-  "Claims": {
-    "C1": "endangered animals are important",
-    "C2": "increasing population are more important than saving land for endangered animals",
-    "C3": "they do not need so much land that people need",
-    "C4": "farmlands are vital for human life",
-    "C5": "they need land to build their houses on it",
-    "C6": "some lands should be assigned to industry"
-  },
-  "Premises": {
-    "P1": "day by day population is increasing",
-    "P2": "human needs for food is increasing as well",
-    "P3": "the population of endangered animals are less than people's population",
-    "P4": "We need farmland to grow crops such as wheat and corn, and there is no doubt that without food people cannot alive for more than some weeks",
-    "P5": "people need shelters to protect themselves from mother nature such as wind and flood and wild animals",
-    "P6": "Dwelling is one of the most important human needs after food which is undeniable",
-    "P7": "human need some crucial things to continue their life, and most of them are industrial such as medicine",
-    "P8": "Todays life has some difficulty which become comfortable with the help of industry"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "human needs should be considered more"
+    },
+    {
+      "ID": "MC2",
+      "Text": "nowadays humans need farmland, housing and industry"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "endangered animals are important"
+    },
+    {
+      "ID": "C2",
+      "Text": "increasing population are more important than saving land for endangered animals"
+    },
+    {
+      "ID": "C3",
+      "Text": "they do not need so much land that people need"
+    },
+    {
+      "ID": "C4",
+      "Text": "farmlands are vital for human life"
+    },
+    {
+      "ID": "C5",
+      "Text": "they need land to build their houses on it"
+    },
+    {
+      "ID": "C6",
+      "Text": "some lands should be assigned to industry"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "day by day population is increasing"
+    },
+    {
+      "ID": "P2",
+      "Text": "human needs for food is increasing as well"
+    },
+    {
+      "ID": "P3",
+      "Text": "the population of endangered animals are less than people's population"
+    },
+    {
+      "ID": "P4",
+      "Text": "We need farmland to grow crops such as wheat and corn, and there is no doubt that without food people cannot alive for more than some weeks"
+    },
+    {
+      "ID": "P5",
+      "Text": "people need shelters to protect themselves from mother nature such as wind and flood and wild animals"
+    },
+    {
+      "ID": "P6",
+      "Text": "Dwelling is one of the most important human needs after food which is undeniable"
+    },
+    {
+      "ID": "P7",
+      "Text": "human need some crucial things to continue their life, and most of them are industrial such as medicine"
+    },
+    {
+      "ID": "P8",
+      "Text": "Todays life has some difficulty which become comfortable with the help of industry"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

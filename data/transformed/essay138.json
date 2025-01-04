@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "students can acquire more benefits from the remote education",
-    "MC2": "distance-learning outweighs the conventional way not only with its efficiency, convenience and economic value, but also with the self-regulated education that pupils can study on their own purpose"
-  },
-  "Claims": {
-    "C1": "traditional education has some merits like feedbacks and inspirations that cannot be replaced in the near future",
-    "C2": "studying at home save the pupils enormous time and considerable expense",
-    "C3": "long-distance education provides students the opportunity to access the immense knowledge resources and a variety of teaching approaches",
-    "C4": "traditional education has its advantages in face-to-face communication, mental inspiration and physical educations"
-  },
-  "Premises": {
-    "P1": "Students who use distance-learning programs can cut down their commuting time, tuition fees, textbook fees and so forth just by an internet connection",
-    "P2": "This especially makes a significant difference for the children who live in the far-off countryside and the children whose families are living below the poverty-line",
-    "P3": "he can control the learning progress and make satisfactory achievement on this course",
-    "P4": "A student can even select a specific online course based on his own preference and time schedule",
-    "P5": "Pupils can obtain materials for their curricula just by one mouse click, such as science reports, study posts, documentary records, etc",
-    "P6": "These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities",
-    "P7": "with the improvements in streaming and sensor technologies, remote education can eliminate the obstacles of distance and body contacts"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "students can acquire more benefits from the remote education"
+    },
+    {
+      "ID": "MC2",
+      "Text": "distance-learning outweighs the conventional way not only with its efficiency, convenience and economic value, but also with the self-regulated education that pupils can study on their own purpose"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "traditional education has some merits like feedbacks and inspirations that cannot be replaced in the near future"
+    },
+    {
+      "ID": "C2",
+      "Text": "studying at home save the pupils enormous time and considerable expense"
+    },
+    {
+      "ID": "C3",
+      "Text": "long-distance education provides students the opportunity to access the immense knowledge resources and a variety of teaching approaches"
+    },
+    {
+      "ID": "C4",
+      "Text": "traditional education has its advantages in face-to-face communication, mental inspiration and physical educations"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Students who use distance-learning programs can cut down their commuting time, tuition fees, textbook fees and so forth just by an internet connection"
+    },
+    {
+      "ID": "P2",
+      "Text": "This especially makes a significant difference for the children who live in the far-off countryside and the children whose families are living below the poverty-line"
+    },
+    {
+      "ID": "P3",
+      "Text": "he can control the learning progress and make satisfactory achievement on this course"
+    },
+    {
+      "ID": "P4",
+      "Text": "A student can even select a specific online course based on his own preference and time schedule"
+    },
+    {
+      "ID": "P5",
+      "Text": "Pupils can obtain materials for their curricula just by one mouse click, such as science reports, study posts, documentary records, etc"
+    },
+    {
+      "ID": "P6",
+      "Text": "These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities"
+    },
+    {
+      "ID": "P7",
+      "Text": "with the improvements in streaming and sensor technologies, remote education can eliminate the obstacles of distance and body contacts"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

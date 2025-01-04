@@ -1,30 +1,90 @@
 {
-  "MajorClaims": {
-    "MC1": "we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them",
-    "MC2": "government should spend money on preservation of old buildings"
-  },
-  "Claims": {
-    "C1": "Historic buildings have intrinsic values",
-    "C2": "historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds",
-    "C3": "historic buildings can be a source of maintenance fees",
-    "C4": "the city which I enjoy the most is a combination of history and modernity"
-  },
-  "Premises": {
-    "P1": "they are significant symbols of a city",
-    "P2": "Old buildings are reminders of a city's culture and complexity",
-    "P3": "By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area",
-    "P4": "when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind",
-    "P5": "it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China",
-    "P6": "Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture",
-    "P7": "The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves",
-    "P8": "the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace",
-    "P9": "Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful",
-    "P10": "There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists",
-    "P11": "Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle",
-    "P12": "There is no chance to renovate to save a history site once it's gone",
-    "P13": "the preservation of old buildings is a one-way street",
-    "P14": "This reality brings us to light the importance of locating and saving old buildings of historic significance"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them"
+    },
+    {
+      "ID": "MC2",
+      "Text": "government should spend money on preservation of old buildings"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Historic buildings have intrinsic values"
+    },
+    {
+      "ID": "C2",
+      "Text": "historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds"
+    },
+    {
+      "ID": "C3",
+      "Text": "historic buildings can be a source of maintenance fees"
+    },
+    {
+      "ID": "C4",
+      "Text": "the city which I enjoy the most is a combination of history and modernity"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they are significant symbols of a city"
+    },
+    {
+      "ID": "P2",
+      "Text": "Old buildings are reminders of a city's culture and complexity"
+    },
+    {
+      "ID": "P3",
+      "Text": "By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area"
+    },
+    {
+      "ID": "P4",
+      "Text": "when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China"
+    },
+    {
+      "ID": "P6",
+      "Text": "Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture"
+    },
+    {
+      "ID": "P7",
+      "Text": "The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves"
+    },
+    {
+      "ID": "P8",
+      "Text": "the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace"
+    },
+    {
+      "ID": "P9",
+      "Text": "Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful"
+    },
+    {
+      "ID": "P10",
+      "Text": "There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists"
+    },
+    {
+      "ID": "P11",
+      "Text": "Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle"
+    },
+    {
+      "ID": "P12",
+      "Text": "There is no chance to renovate to save a history site once it's gone"
+    },
+    {
+      "ID": "P13",
+      "Text": "the preservation of old buildings is a one-way street"
+    },
+    {
+      "ID": "P14",
+      "Text": "This reality brings us to light the importance of locating and saving old buildings of historic significance"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C2",

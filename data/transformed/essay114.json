@@ -1,24 +1,66 @@
 {
-  "MajorClaims": {
-    "MC1": "I do not agree that this explosion in technology will 'innovate' the education system, by replacing teachers with computers",
-    "MC2": "there can be no school without a teacher",
-    "MC3": "computers will continue to be used by teachers in the learning process, but they will never take their place"
-  },
-  "Claims": {
-    "C1": "Teachers are not just teachers, they are also friends and conseilieurs",
-    "C2": "computers need to be operated by people",
-    "C3": "children need human interactions"
-  },
-  "Premises": {
-    "P1": "they are just tools for teachers and they cannot work properly without human's touch",
-    "P2": "scientists prove that every classroom needs trained staff to use these interactive and innovative ways of teaching",
-    "P3": "lessons are more attractive and easier to understand when they are put on a Power Point presentation and then presented with a LCD Projector",
-    "P4": "No one can argue that technological tools are must-haves for the classroom of today",
-    "P5": "As a recent interview with Josh Trumm \u2013 the founder of the 'Teachers Global Group'- reveals, human interactions will never be imitated by computers: 'This verbal and non-verbal communication between teachers and children is the first step towards a proper educatio",
-    "P6": "Without someone who can explain and understand their problems, pupils cannot actually learn'",
-    "P7": "only a teacher can feel and connect with pupils, be a friend and a model",
-    "P8": "No matter how advanced technology will be, it is clear that a computer will never be able to communicate with its pupils"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I do not agree that this explosion in technology will 'innovate' the education system, by replacing teachers with computers"
+    },
+    {
+      "ID": "MC2",
+      "Text": "there can be no school without a teacher"
+    },
+    {
+      "ID": "MC3",
+      "Text": "computers will continue to be used by teachers in the learning process, but they will never take their place"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Teachers are not just teachers, they are also friends and conseilieurs"
+    },
+    {
+      "ID": "C2",
+      "Text": "computers need to be operated by people"
+    },
+    {
+      "ID": "C3",
+      "Text": "children need human interactions"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they are just tools for teachers and they cannot work properly without human's touch"
+    },
+    {
+      "ID": "P2",
+      "Text": "scientists prove that every classroom needs trained staff to use these interactive and innovative ways of teaching"
+    },
+    {
+      "ID": "P3",
+      "Text": "lessons are more attractive and easier to understand when they are put on a Power Point presentation and then presented with a LCD Projector"
+    },
+    {
+      "ID": "P4",
+      "Text": "No one can argue that technological tools are must-haves for the classroom of today"
+    },
+    {
+      "ID": "P5",
+      "Text": "As a recent interview with Josh Trumm \u2013 the founder of the 'Teachers Global Group'- reveals, human interactions will never be imitated by computers: 'This verbal and non-verbal communication between teachers and children is the first step towards a proper educatio"
+    },
+    {
+      "ID": "P6",
+      "Text": "Without someone who can explain and understand their problems, pupils cannot actually learn'"
+    },
+    {
+      "ID": "P7",
+      "Text": "only a teacher can feel and connect with pupils, be a friend and a model"
+    },
+    {
+      "ID": "P8",
+      "Text": "No matter how advanced technology will be, it is clear that a computer will never be able to communicate with its pupils"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -18,23 +18,24 @@ You will be given a text. Extract the argumentative units major claim, claim, an
 
 ```json
 {
-    "MajorClaims": {
-        "MC1": "Text",
-        "MC2": "Text"
-    },
-    "Claims": {
-        "C1": "Text",
-        "C2": "Text"
-    },
-    "Premises": {
-        "P1": "Text",
-        "P2": "Text"
-    },
+    "MajorClaims": [
+        {"ID": "MC1", "Text": "Text"},
+        {"ID": "MC2", "Text": "Text"},
+    ],
+    "Claims": [
+        {"ID": "C1", "Text": "Text"},
+        {"ID": "C2", "Text": "Text"},
+    ],
+    "Premises": [
+        {"ID": "P1", "Text": "Text"},
+        {"ID": "P2", "Text": "Text"},
+    ],
     "ArgumentativeRelations": [
-        {"Origin": "C1", "Relation": "for", "Target": "MC1"},
-        {"Origin": "C2", "Relation": "against", "Target": "MC1"},
+        {"Origin": "C1", "Relation": "for", "Target": "MC"},
+        {"Origin": "C2", "Relation": "against", "Target": "MC"},
         {"Origin": "P1", "Relation": "supports", "Target": "C1"},
-        {"Origin": "P2", "Relation": "attacks", "Target": "C2"}
+        {"Origin": "P2", "Relation": "attacks", "Target": "C2"},
+        ...
     ]
 }
 ```
@@ -51,35 +52,104 @@ In addition to this, the main drawback of teenagers job is that, they miss out t
 Thus, for a teenager it is important to pay attention on their studies. Having job would affect their health, divert them from studies and take away one of the important phase from their life.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "it is not the good idea for teenagers to have job while they are still students",
-    "MC2": "it can interfere with their life in various ways",
-    "MC3": "for a teenager it is important to pay attention on their studies"
-  },
-  "Claims": {
-    "C1": "many argue that it provide good working experience",
-    "C2": "Having jobs would affect the health of the student",
-    "C3": "It divert their mind from studies and would take away their childhood phase from their life",
-    "C4": "Having job would affect their health, divert them from studies and take away one of the important phase from their life",
-    "C5": "would affect their mental and physical health",
-    "C6": "If the student get involved himself in job in rest of the time, then it would cause an extra burden on them",
-    "C7": "jobs can divert students from their studies",
-    "C8": "they should take advantage of life as much possible they can"
-  },
-  "Premises": {
-    "P1": "jobs has various responsibilities like attendance, sometimes extra work and so on",
-    "P2": "This would result in stress, tension and tiredness",
-    "P3": "They won't be able to get proper time for relaxation, sleep",
-    "P4": "He has to spend his most of time in school to get a good grades",
-    "P5": "A student has to do lots of studies in today's competitive world to prove himself",
-    "P6": "If students started earning in earlier age in their life, then they get attracted towards money",
-    "P7": "They feel themselves independent and would prefer to work more for money",
-    "P8": "This would affect their studies, they loose their interest from studies",
-    "P9": "they drop out their studies so as to earn more money",
-    "P10": "the main drawback of teenagers job is that, they miss out the fun of their childhood time",
-    "P11": "They have whole life to do job and prove themselves, but the childhood phase will never return in their life",
-    "P12": "He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is not the good idea for teenagers to have job while they are still students"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it can interfere with their life in various ways"
+    },
+    {
+      "ID": "MC3",
+      "Text": "for a teenager it is important to pay attention on their studies"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many argue that it provide good working experience"
+    },
+    {
+      "ID": "C2",
+      "Text": "Having jobs would affect the health of the student"
+    },
+    {
+      "ID": "C3",
+      "Text": "It divert their mind from studies and would take away their childhood phase from their life"
+    },
+    {
+      "ID": "C4",
+      "Text": "Having job would affect their health, divert them from studies and take away one of the important phase from their life"
+    },
+    {
+      "ID": "C5",
+      "Text": "would affect their mental and physical health"
+    },
+    {
+      "ID": "C6",
+      "Text": "If the student get involved himself in job in rest of the time, then it would cause an extra burden on them"
+    },
+    {
+      "ID": "C7",
+      "Text": "jobs can divert students from their studies"
+    },
+    {
+      "ID": "C8",
+      "Text": "they should take advantage of life as much possible they can"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "jobs has various responsibilities like attendance, sometimes extra work and so on"
+    },
+    {
+      "ID": "P2",
+      "Text": "This would result in stress, tension and tiredness"
+    },
+    {
+      "ID": "P3",
+      "Text": "They won't be able to get proper time for relaxation, sleep"
+    },
+    {
+      "ID": "P4",
+      "Text": "He has to spend his most of time in school to get a good grades"
+    },
+    {
+      "ID": "P5",
+      "Text": "A student has to do lots of studies in today's competitive world to prove himself"
+    },
+    {
+      "ID": "P6",
+      "Text": "If students started earning in earlier age in their life, then they get attracted towards money"
+    },
+    {
+      "ID": "P7",
+      "Text": "They feel themselves independent and would prefer to work more for money"
+    },
+    {
+      "ID": "P8",
+      "Text": "This would affect their studies, they loose their interest from studies"
+    },
+    {
+      "ID": "P9",
+      "Text": "they drop out their studies so as to earn more money"
+    },
+    {
+      "ID": "P10",
+      "Text": "the main drawback of teenagers job is that, they miss out the fun of their childhood time"
+    },
+    {
+      "ID": "P11",
+      "Text": "They have whole life to do job and prove themselves, but the childhood phase will never return in their life"
+    },
+    {
+      "ID": "P12",
+      "Text": "He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -194,27 +264,72 @@ On the other hand, the development of technology is likely to bring some negativ
 In conclusion, although technological progress causes corresponding problems, it still provides us with much more advantages.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "it still provides us with much more advantages",
-    "MC2": "there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals"
-  },
-  "Claims": {
-    "C1": "technological progress causes corresponding problems",
-    "C2": "the development of technology can prompt economic growth and the improvement of living standards",
-    "C3": "advanced technology enables people to enhance their living-level and health care standard",
-    "C4": "the development of technology is likely to bring some negative effects on the environment and society"
-  },
-  "Premises": {
-    "P1": "Scientists and engineers have invented many novel products and tools, which play an important role in economic activity",
-    "P2": "Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions",
-    "P3": "This also helps many countries to more efficiently export their products to the world and increase their revenue",
-    "P4": "With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control",
-    "P5": "we could get more happiness from technology",
-    "P6": "Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies",
-    "P7": "People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions",
-    "P8": "This would pose a large threat to the ecology and environment",
-    "P9": "Vehicle technology enables many people to drive private cars, and emission of exhaust gas could lead to air pollution in large cities"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it still provides us with much more advantages"
+    },
+    {
+      "ID": "MC2",
+      "Text": "there were many remarkable achievements in technology fields that have numbers of beneficial effects on the whole society or individuals"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "technological progress causes corresponding problems"
+    },
+    {
+      "ID": "C2",
+      "Text": "the development of technology can prompt economic growth and the improvement of living standards"
+    },
+    {
+      "ID": "C3",
+      "Text": "advanced technology enables people to enhance their living-level and health care standard"
+    },
+    {
+      "ID": "C4",
+      "Text": "the development of technology is likely to bring some negative effects on the environment and society"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Scientists and engineers have invented many novel products and tools, which play an important role in economic activity"
+    },
+    {
+      "ID": "P2",
+      "Text": "Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions"
+    },
+    {
+      "ID": "P3",
+      "Text": "This also helps many countries to more efficiently export their products to the world and increase their revenue"
+    },
+    {
+      "ID": "P4",
+      "Text": "With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control"
+    },
+    {
+      "ID": "P5",
+      "Text": "we could get more happiness from technology"
+    },
+    {
+      "ID": "P6",
+      "Text": "Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies"
+    },
+    {
+      "ID": "P7",
+      "Text": "People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions"
+    },
+    {
+      "ID": "P8",
+      "Text": "This would pose a large threat to the ecology and environment"
+    },
+    {
+      "ID": "P9",
+      "Text": "Vehicle technology enables many people to drive private cars, and emission of exhaust gas could lead to air pollution in large cities"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -294,38 +409,116 @@ Moreover, you can also enjoy the beautiful nature when doing some outdoor activi
 Admittedly, indoor activities are fun. There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy. Although I can also have fun in indoor activities, this advantage cannot outweigh the attractions coming from outdoor activities. After all, people are people and we have our own propensity. Leisure activities are one of them and I myself choose outdoor activities to spend my leisure time.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "I myself prefer to spend my leisure time outdoors",
-    "MC2": "I myself choose outdoor activities to spend my leisure time"
-  },
-  "Claims": {
-    "C1": "it is good for health and keep my body fit",
-    "C2": "outdoor activities enable me to socialize with other people and enjoy natural beauty",
-    "C3": "doing outdoor activities such as soccer and baseball is good for one's health",
-    "C4": "Outdoor activities not only improves my health but also gives me chances to communicate with more people",
-    "C5": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking",
-    "C6": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings",
-    "C7": "indoor activities are fun",
-    "C8": "I can also have fun in indoor activities"
-  },
-  "Premises": {
-    "P1": "last year, I spent my summer time playing soccer and baseball",
-    "P2": "Playing baseball provided my upper body for hitting and throwing",
-    "P3": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games",
-    "P4": "practicing these sports helped me greatly",
-    "P5": "playing these sports is to keep my body fit, make me ultimately refreshed",
-    "P6": "After that summer, my body is stronger and endurance is better",
-    "P7": "When I was ten years old, I was a shy girl",
-    "P8": "My mother took me to The National Camp",
-    "P9": "At first, I just ate and played alone",
-    "P10": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively",
-    "P11": "On the next day, we played together and she introduced me to her friends",
-    "P12": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp",
-    "P13": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today",
-    "P14": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature",
-    "P15": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy",
-    "P16": "this advantage cannot outweigh the attractions coming from outdoor activities"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I myself prefer to spend my leisure time outdoors"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I myself choose outdoor activities to spend my leisure time"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is good for health and keep my body fit"
+    },
+    {
+      "ID": "C2",
+      "Text": "outdoor activities enable me to socialize with other people and enjoy natural beauty"
+    },
+    {
+      "ID": "C3",
+      "Text": "doing outdoor activities such as soccer and baseball is good for one's health"
+    },
+    {
+      "ID": "C4",
+      "Text": "Outdoor activities not only improves my health but also gives me chances to communicate with more people"
+    },
+    {
+      "ID": "C5",
+      "Text": "you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking"
+    },
+    {
+      "ID": "C6",
+      "Text": "Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings"
+    },
+    {
+      "ID": "C7",
+      "Text": "indoor activities are fun"
+    },
+    {
+      "ID": "C8",
+      "Text": "I can also have fun in indoor activities"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "last year, I spent my summer time playing soccer and baseball"
+    },
+    {
+      "ID": "P2",
+      "Text": "Playing baseball provided my upper body for hitting and throwing"
+    },
+    {
+      "ID": "P3",
+      "Text": "Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games"
+    },
+    {
+      "ID": "P4",
+      "Text": "practicing these sports helped me greatly"
+    },
+    {
+      "ID": "P5",
+      "Text": "playing these sports is to keep my body fit, make me ultimately refreshed"
+    },
+    {
+      "ID": "P6",
+      "Text": "After that summer, my body is stronger and endurance is better"
+    },
+    {
+      "ID": "P7",
+      "Text": "When I was ten years old, I was a shy girl"
+    },
+    {
+      "ID": "P8",
+      "Text": "My mother took me to The National Camp"
+    },
+    {
+      "ID": "P9",
+      "Text": "At first, I just ate and played alone"
+    },
+    {
+      "ID": "P10",
+      "Text": "But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively"
+    },
+    {
+      "ID": "P11",
+      "Text": "On the next day, we played together and she introduced me to her friends"
+    },
+    {
+      "ID": "P12",
+      "Text": "Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp"
+    },
+    {
+      "ID": "P13",
+      "Text": "If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today"
+    },
+    {
+      "ID": "P14",
+      "Text": "If you spend your spare time at home or something like that, you can't enjoy beautiful nature"
+    },
+    {
+      "ID": "P15",
+      "Text": "There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy"
+    },
+    {
+      "ID": "P16",
+      "Text": "this advantage cannot outweigh the attractions coming from outdoor activities"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -460,26 +653,68 @@ Finally yet importantly, appearing in class makes students more conscientious si
 On the basis of the points mentioned above, I convinced that communicating and studying with peer group is a good way for learning materials. Moreover, teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it. Also, attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "being present at classes seems a wiser option",
-    "MC2": "communicating and studying with peer group is a good way for learning materials"
-  },
-  "Claims": {
-    "C1": "being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college",
-    "C2": "by the help of teachers, students can understand ideas faster and easier",
-    "C3": "appearing in class makes students more conscientious",
-    "C4": "teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it",
-    "C5": "attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success"
-  },
-  "Premises": {
-    "P1": "they can help each other for learning materials better",
-    "P2": "if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems",
-    "P3": "teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points",
-    "P4": "In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study",
-    "P5": "they have to obey class\u2019s disciplines and they practice to be more perseverance in the process of doing their assignments",
-    "P6": "the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times",
-    "P7": "they may miss some important parts in virtue of the chaotic and incoherent study"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "being present at classes seems a wiser option"
+    },
+    {
+      "ID": "MC2",
+      "Text": "communicating and studying with peer group is a good way for learning materials"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college"
+    },
+    {
+      "ID": "C2",
+      "Text": "by the help of teachers, students can understand ideas faster and easier"
+    },
+    {
+      "ID": "C3",
+      "Text": "appearing in class makes students more conscientious"
+    },
+    {
+      "ID": "C4",
+      "Text": "teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it"
+    },
+    {
+      "ID": "C5",
+      "Text": "attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they can help each other for learning materials better"
+    },
+    {
+      "ID": "P2",
+      "Text": "if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems"
+    },
+    {
+      "ID": "P3",
+      "Text": "teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points"
+    },
+    {
+      "ID": "P4",
+      "Text": "In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study"
+    },
+    {
+      "ID": "P5",
+      "Text": "they have to obey class\u2019s disciplines and they practice to be more perseverance in the process of doing their assignments"
+    },
+    {
+      "ID": "P6",
+      "Text": "the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times"
+    },
+    {
+      "ID": "P7",
+      "Text": "they may miss some important parts in virtue of the chaotic and incoherent study"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "P2",
@@ -554,24 +789,60 @@ It is undeniable that concentrating on one subject can reduce students' pressure
 
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "I do support the view of learning all school subjects"
-  },
-  "Claims": {
-    "C1": "concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents, while its shortfalls are so vital to students' future",
-    "C2": "The benefits of teaching students different units are easily recognized",
-    "C3": "this education model can cultivate more talents who specialized in different areas and increase studying effectiveness"
-  },
-  "Premises": {
-    "P1": "with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future",
-    "P2": "Teenagers are still too young and immature to decide what they are going to dedicate",
-    "P3": "In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes",
-    "P4": "still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done",
-    "P5": "most students regard the extra knowledge useless and impractical for their future jobs",
-    "P6": "students can devote more time and efforts in one subject and reduce pressure from other subjects",
-    "P7": "under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study",
-    "P8": "the dullness of course may deeply influence their passion on study"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I do support the view of learning all school subjects"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents, while its shortfalls are so vital to students' future"
+    },
+    {
+      "ID": "C2",
+      "Text": "The benefits of teaching students different units are easily recognized"
+    },
+    {
+      "ID": "C3",
+      "Text": "this education model can cultivate more talents who specialized in different areas and increase studying effectiveness"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future"
+    },
+    {
+      "ID": "P2",
+      "Text": "Teenagers are still too young and immature to decide what they are going to dedicate"
+    },
+    {
+      "ID": "P3",
+      "Text": "In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes"
+    },
+    {
+      "ID": "P4",
+      "Text": "still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done"
+    },
+    {
+      "ID": "P5",
+      "Text": "most students regard the extra knowledge useless and impractical for their future jobs"
+    },
+    {
+      "ID": "P6",
+      "Text": "students can devote more time and efforts in one subject and reduce pressure from other subjects"
+    },
+    {
+      "ID": "P7",
+      "Text": "under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study"
+    },
+    {
+      "ID": "P8",
+      "Text": "the dullness of course may deeply influence their passion on study"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -641,24 +912,60 @@ Furthermore, investing in art could bring employment opportunities and could end
 To sum up, not only could investing in art be considered as wasting money at any kind, but also it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "this investment in field of the arts would be in the best interest of a society",
-    "MC2": "it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways"
-  },
-  "Claims": {
-    "C1": "not only could investing in art be considered as wasting money at any kind",
-    "C2": "the arts play a pivotal role in all-round development of a society",
-    "C3": "investing in art could bring employment opportunities and could end in return of capital occasionally",
-    "C4": "governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way"
-  },
-  "Premises": {
-    "P1": "There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts",
-    "P2": "No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration",
-    "P3": "Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways",
-    "P4": "The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions",
-    "P5": "no one should suffer from any sort of deficiency in field of health, education, transportation and communication",
-    "P6": "these could only help individuals with their physical requirements"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "this investment in field of the arts would be in the best interest of a society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "not only could investing in art be considered as wasting money at any kind"
+    },
+    {
+      "ID": "C2",
+      "Text": "the arts play a pivotal role in all-round development of a society"
+    },
+    {
+      "ID": "C3",
+      "Text": "investing in art could bring employment opportunities and could end in return of capital occasionally"
+    },
+    {
+      "ID": "C4",
+      "Text": "governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts"
+    },
+    {
+      "ID": "P2",
+      "Text": "No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration"
+    },
+    {
+      "ID": "P3",
+      "Text": "Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways"
+    },
+    {
+      "ID": "P4",
+      "Text": "The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions"
+    },
+    {
+      "ID": "P5",
+      "Text": "no one should suffer from any sort of deficiency in field of health, education, transportation and communication"
+    },
+    {
+      "ID": "P6",
+      "Text": "these could only help individuals with their physical requirements"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -723,34 +1030,100 @@ Finally, with some of serious criminals, capital punishment is an easy way out. 
 To conclude, capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society. The world should consider clearly about polishing the law of the dead penalty.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "it is no evidence about the reduction of crime rates due to the death penalty",
-    "MC2": "The world should consider clearly about polishing the law of the dead penalty"
-  },
-  "Claims": {
-    "C1": "death penalty neither controls the violent in society nor creates a violent culture",
-    "C2": "nobody has the right to take another human life",
-    "C3": "with some of serious criminals, capital punishment is an easy way out",
-    "C4": "it neither demines crimes of violence nor be essential to control violence in society"
-  },
-  "Premises": {
-    "P1": "Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one",
-    "P2": "the criminal is repeated second time",
-    "P3": "capital punishment is a form of revenge which creates violent culture",
-    "P4": "the rights of life are the basic and vital rights of a human being",
-    "P5": "No one has the right to take the life of a human; even if he committed murder",
-    "P6": "If you kill a criminal, you become a criminal",
-    "P7": "crimes seem to increase due to the capital punishment",
-    "P8": "if we think that killing is the best way to solve the problem, it is neither unethical nor immoral",
-    "P9": "If they kill someone and end their life by dead without paying for their sins, it is so easy for them",
-    "P10": "They do not undergo any pain or misery",
-    "P11": "Criminals should be punished for their misdeeds",
-    "P12": "capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life",
-    "P13": "rehabilitation and education is also a better way in order to prevent or minimize offensive acts",
-    "P14": "Why do not punish them by doing something meaningful for the country- it is better",
-    "P15": "some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors",
-    "P16": "it is regarded as the \"legalized revenge\" to victims' family"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is no evidence about the reduction of crime rates due to the death penalty"
+    },
+    {
+      "ID": "MC2",
+      "Text": "The world should consider clearly about polishing the law of the dead penalty"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "death penalty neither controls the violent in society nor creates a violent culture"
+    },
+    {
+      "ID": "C2",
+      "Text": "nobody has the right to take another human life"
+    },
+    {
+      "ID": "C3",
+      "Text": "with some of serious criminals, capital punishment is an easy way out"
+    },
+    {
+      "ID": "C4",
+      "Text": "it neither demines crimes of violence nor be essential to control violence in society"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one"
+    },
+    {
+      "ID": "P2",
+      "Text": "the criminal is repeated second time"
+    },
+    {
+      "ID": "P3",
+      "Text": "capital punishment is a form of revenge which creates violent culture"
+    },
+    {
+      "ID": "P4",
+      "Text": "the rights of life are the basic and vital rights of a human being"
+    },
+    {
+      "ID": "P5",
+      "Text": "No one has the right to take the life of a human; even if he committed murder"
+    },
+    {
+      "ID": "P6",
+      "Text": "If you kill a criminal, you become a criminal"
+    },
+    {
+      "ID": "P7",
+      "Text": "crimes seem to increase due to the capital punishment"
+    },
+    {
+      "ID": "P8",
+      "Text": "if we think that killing is the best way to solve the problem, it is neither unethical nor immoral"
+    },
+    {
+      "ID": "P9",
+      "Text": "If they kill someone and end their life by dead without paying for their sins, it is so easy for them"
+    },
+    {
+      "ID": "P10",
+      "Text": "They do not undergo any pain or misery"
+    },
+    {
+      "ID": "P11",
+      "Text": "Criminals should be punished for their misdeeds"
+    },
+    {
+      "ID": "P12",
+      "Text": "capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life"
+    },
+    {
+      "ID": "P13",
+      "Text": "rehabilitation and education is also a better way in order to prevent or minimize offensive acts"
+    },
+    {
+      "ID": "P14",
+      "Text": "Why do not punish them by doing something meaningful for the country- it is better"
+    },
+    {
+      "ID": "P15",
+      "Text": "some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors"
+    },
+    {
+      "ID": "P16",
+      "Text": "it is regarded as the \"legalized revenge\" to victims' family"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -866,26 +1239,68 @@ All in all, I am in the belief that learning facts is more beneficial for studen
 
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "learning facts has more subsequent advantages for students' future lives",
-    "MC2": "learning facts is more beneficial for students in both social and individual life"
-  },
-  "Claims": {
-    "C1": "they would prepare to encounter their life out of school to solve their problems better",
-    "C2": "it would improve students' social behavior",
-    "C3": "when a student understands a fact and its consequences, he or she can encounter it more confidently",
-    "C4": "Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc"
-  },
-  "Premises": {
-    "P1": "when students learn facts more in school, they would be ready for facing problems in their own life after their graduations",
-    "P2": "more information about facts would make students more familiar with the real life other that only their concepts",
-    "P3": "if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life",
-    "P4": "If students only rely on concepts and ideas theorically, they would not realize human's mind very well",
-    "P5": "They should understand objects more that concepts to obtain the ability of analyzing matters well",
-    "P6": "It can prevent person to progress and thrive in every position",
-    "P7": "concerns and anxieties are very destructive in everybody's life",
-    "P8": "these way students are teached to control their fears and concerns in facing facts"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "learning facts has more subsequent advantages for students' future lives"
+    },
+    {
+      "ID": "MC2",
+      "Text": "learning facts is more beneficial for students in both social and individual life"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "they would prepare to encounter their life out of school to solve their problems better"
+    },
+    {
+      "ID": "C2",
+      "Text": "it would improve students' social behavior"
+    },
+    {
+      "ID": "C3",
+      "Text": "when a student understands a fact and its consequences, he or she can encounter it more confidently"
+    },
+    {
+      "ID": "C4",
+      "Text": "Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "when students learn facts more in school, they would be ready for facing problems in their own life after their graduations"
+    },
+    {
+      "ID": "P2",
+      "Text": "more information about facts would make students more familiar with the real life other that only their concepts"
+    },
+    {
+      "ID": "P3",
+      "Text": "if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life"
+    },
+    {
+      "ID": "P4",
+      "Text": "If students only rely on concepts and ideas theorically, they would not realize human's mind very well"
+    },
+    {
+      "ID": "P5",
+      "Text": "They should understand objects more that concepts to obtain the ability of analyzing matters well"
+    },
+    {
+      "ID": "P6",
+      "Text": "It can prevent person to progress and thrive in every position"
+    },
+    {
+      "ID": "P7",
+      "Text": "concerns and anxieties are very destructive in everybody's life"
+    },
+    {
+      "ID": "P8",
+      "Text": "these way students are teached to control their fears and concerns in facing facts"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -959,27 +1374,72 @@ At the same time, playing sports will give good effects on children. There are m
 In conclusion, both studying hard at school and playing sports can improve children's future.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "both of studying hard and playing sports are part of life to children",
-    "MC2": "both studying hard at school and playing sports can improve children's future"
-  },
-  "Claims": {
-    "C1": "studying hard will give children a better future",
-    "C2": "playing sports will give good effects on children"
-  },
-  "Premises": {
-    "P1": "Studying hard gives children with a plenty of knowledge and skills for their future",
-    "P2": "children who always studying hard and getting high achievement, it will be easy to pass qualification for work and they are more likely to find great work at multinational company",
-    "P3": "If they working at multinational company as the result is they can earn higher salary",
-    "P4": "when you always studying harder than others you will get best results",
-    "P5": "there are many benefit when children doing sport",
-    "P6": "children who always playing sport like football, they will be active as a person and learn to become team-player",
-    "P7": "It will be good for children",
-    "P8": "indirectly they will learn how to socialize each other as a team",
-    "P9": "That will make children getting lots of friends",
-    "P10": "they can contribute positively to community",
-    "P11": "playing sport makes children getting healthy and become children's well-being"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "both of studying hard and playing sports are part of life to children"
+    },
+    {
+      "ID": "MC2",
+      "Text": "both studying hard at school and playing sports can improve children's future"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "studying hard will give children a better future"
+    },
+    {
+      "ID": "C2",
+      "Text": "playing sports will give good effects on children"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Studying hard gives children with a plenty of knowledge and skills for their future"
+    },
+    {
+      "ID": "P2",
+      "Text": "children who always studying hard and getting high achievement, it will be easy to pass qualification for work and they are more likely to find great work at multinational company"
+    },
+    {
+      "ID": "P3",
+      "Text": "If they working at multinational company as the result is they can earn higher salary"
+    },
+    {
+      "ID": "P4",
+      "Text": "when you always studying harder than others you will get best results"
+    },
+    {
+      "ID": "P5",
+      "Text": "there are many benefit when children doing sport"
+    },
+    {
+      "ID": "P6",
+      "Text": "children who always playing sport like football, they will be active as a person and learn to become team-player"
+    },
+    {
+      "ID": "P7",
+      "Text": "It will be good for children"
+    },
+    {
+      "ID": "P8",
+      "Text": "indirectly they will learn how to socialize each other as a team"
+    },
+    {
+      "ID": "P9",
+      "Text": "That will make children getting lots of friends"
+    },
+    {
+      "ID": "P10",
+      "Text": "they can contribute positively to community"
+    },
+    {
+      "ID": "P11",
+      "Text": "playing sport makes children getting healthy and become children's well-being"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1058,25 +1518,64 @@ Sports activities can improve mental health as well. When people exercise, the n
 In a nutshell, many activities can let humans relax. Nevertheless, I assert that the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions",
-    "MC2": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
-  },
-  "Claims": {
-    "C1": "many activities can let humans relax",
-    "C2": "exercise play a crucial role in ameliorating physical health",
-    "C3": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks",
-    "C4": "Sports activities can improve mental health"
-  },
-  "Premises": {
-    "P1": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system",
-    "P2": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body",
-    "P3": "The latter one is of particular importance because nowadays more and more people are suffer from obesity",
-    "P4": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises",
-    "P5": "good exercises can often successfully alleviating one's heavy burdens",
-    "P6": "This hormone can delight one's mind, creating positive feelings",
-    "P7": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "many activities can let humans relax"
+    },
+    {
+      "ID": "C2",
+      "Text": "exercise play a crucial role in ameliorating physical health"
+    },
+    {
+      "ID": "C3",
+      "Text": "rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks"
+    },
+    {
+      "ID": "C4",
+      "Text": "Sports activities can improve mental health"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system"
+    },
+    {
+      "ID": "P2",
+      "Text": "these sports can also strengthen muscles and lessen surplus adipose tissues in human body"
+    },
+    {
+      "ID": "P3",
+      "Text": "The latter one is of particular importance because nowadays more and more people are suffer from obesity"
+    },
+    {
+      "ID": "P4",
+      "Text": "Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises"
+    },
+    {
+      "ID": "P5",
+      "Text": "good exercises can often successfully alleviating one's heavy burdens"
+    },
+    {
+      "ID": "P6",
+      "Text": "This hormone can delight one's mind, creating positive feelings"
+    },
+    {
+      "ID": "P7",
+      "Text": "When people exercise, the neuron cells in the brain release a chemical compound named Dopamine"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1146,33 +1645,96 @@ There are some things that I prefer to learn them without a teacher because I wo
 In sum, sometimes it is good to learn with a teacher and sometimes on my own. In my view, both can help and each of them has its own advantages and disadvantages.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "both learning by myself and learning with a teacher could be helpful",
-    "MC2": "both can help and each of them has its own advantages and disadvantages"
-  },
-  "Claims": {
-    "C1": "Learning with a teacher can prevent one from being confused and increase the rate and speed of learning",
-    "C2": "for practical subjects you have to have a teacher",
-    "C3": "sometimes I would rather learning on my own",
-    "C4": "it is good to learn with a teacher and sometimes on my own",
-    "C5": "I will learn faster and better and won't get discouraged and confused",
-    "C6": "There are some practical subjects that you can only learn them with a teacher or an instructor",
-    "C7": "There are some things that I prefer to learn them without a teacher"
-  },
-  "Premises": {
-    "P1": "A good and experienced teacher can help me learn faster and easier",
-    "P2": "Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time",
-    "P3": "In this situation, I'll look for a teacher and request for help from him or her",
-    "P4": "And then he or she will teach me the course efficiently in a short time",
-    "P5": "if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher",
-    "P6": "It's almost impossible and inefficient to learn those things on your own",
-    "P7": "if you are going to learn some things by yourself, you may learn and understand them incorrectly",
-    "P8": "from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly",
-    "P9": "I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes",
-    "P10": "In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite",
-    "P11": "I can utilize them as tutorials for many things",
-    "P12": "I can learn English or other languages by a lot of helpful books and many online websites"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "both learning by myself and learning with a teacher could be helpful"
+    },
+    {
+      "ID": "MC2",
+      "Text": "both can help and each of them has its own advantages and disadvantages"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Learning with a teacher can prevent one from being confused and increase the rate and speed of learning"
+    },
+    {
+      "ID": "C2",
+      "Text": "for practical subjects you have to have a teacher"
+    },
+    {
+      "ID": "C3",
+      "Text": "sometimes I would rather learning on my own"
+    },
+    {
+      "ID": "C4",
+      "Text": "it is good to learn with a teacher and sometimes on my own"
+    },
+    {
+      "ID": "C5",
+      "Text": "I will learn faster and better and won't get discouraged and confused"
+    },
+    {
+      "ID": "C6",
+      "Text": "There are some practical subjects that you can only learn them with a teacher or an instructor"
+    },
+    {
+      "ID": "C7",
+      "Text": "There are some things that I prefer to learn them without a teacher"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "A good and experienced teacher can help me learn faster and easier"
+    },
+    {
+      "ID": "P2",
+      "Text": "Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time"
+    },
+    {
+      "ID": "P3",
+      "Text": "In this situation, I'll look for a teacher and request for help from him or her"
+    },
+    {
+      "ID": "P4",
+      "Text": "And then he or she will teach me the course efficiently in a short time"
+    },
+    {
+      "ID": "P5",
+      "Text": "if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher"
+    },
+    {
+      "ID": "P6",
+      "Text": "It's almost impossible and inefficient to learn those things on your own"
+    },
+    {
+      "ID": "P7",
+      "Text": "if you are going to learn some things by yourself, you may learn and understand them incorrectly"
+    },
+    {
+      "ID": "P8",
+      "Text": "from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly"
+    },
+    {
+      "ID": "P9",
+      "Text": "I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes"
+    },
+    {
+      "ID": "P10",
+      "Text": "In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite"
+    },
+    {
+      "ID": "P11",
+      "Text": "I can utilize them as tutorials for many things"
+    },
+    {
+      "ID": "P12",
+      "Text": "I can learn English or other languages by a lot of helpful books and many online websites"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1282,20 +1844,44 @@ In conclusion, I am skeptical about disclosing the defendant's history to the ju
 
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "I strongly support the current laws of Great Britain and Australia, and would not change the regulations on keeping the jury unaware of past actions"
-  },
-  "Claims": {
-    "C1": "past behaviour determines the future actions",
-    "C2": "in order for the jury to come up with an objective decision not depending on the past experience, the court should provide with details relevant to a particular case only",
-    "C3": "I am skeptical about disclosing the defendant's history to the jury, with intention to avoid subjective and probable inaccurate verdict"
-  },
-  "Premises": {
-    "P1": "complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality",
-    "P2": "past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes, such as kidnapping or a murder",
-    "P3": "a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record",
-    "P4": "Innocent suspects, eventually, can face unfair juridical decision and pay twice for their previous inadequate actions"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I strongly support the current laws of Great Britain and Australia, and would not change the regulations on keeping the jury unaware of past actions"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "past behaviour determines the future actions"
+    },
+    {
+      "ID": "C2",
+      "Text": "in order for the jury to come up with an objective decision not depending on the past experience, the court should provide with details relevant to a particular case only"
+    },
+    {
+      "ID": "C3",
+      "Text": "I am skeptical about disclosing the defendant's history to the jury, with intention to avoid subjective and probable inaccurate verdict"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality"
+    },
+    {
+      "ID": "P2",
+      "Text": "past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes, such as kidnapping or a murder"
+    },
+    {
+      "ID": "P3",
+      "Text": "a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record"
+    },
+    {
+      "ID": "P4",
+      "Text": "Innocent suspects, eventually, can face unfair juridical decision and pay twice for their previous inadequate actions"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1345,32 +1931,92 @@ Some people might argue that people enjoy watching TV when they know they can le
 To sum up, reading fictions is more pleasant because these books have more depth, are much easier to use, and more useful for language learners.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "reading fiction is more enjoyable than watching movies",
-    "MC2": "reading fictions is more pleasant"
-  },
-  "Claims": {
-    "C1": "these books have more depth, are much easier to use, and more useful for language learners",
-    "C2": "fiction books pay more attention to details",
-    "C3": "reading a novel is more convenient",
-    "C4": "people enjoy watching TV"
-  },
-  "Premises": {
-    "P1": "we can know characters, places, and times of a novel very well during reading it",
-    "P2": "Most of the novels describe not only main characters but also other people in the novels, where each scene is happening",
-    "P3": "after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people",
-    "P4": "a movie just gives us a very small review of its stories and characters",
-    "P5": "Some novels have around 100 pages and readers cannot finish them in just one hour",
-    "P6": "Yet these people can continue to read their novels wherever they find free time such as in bus or trains",
-    "P7": "I have started to read a novel since last week",
-    "P8": "I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class",
-    "P9": "I cannot watch a complete movie",
-    "P10": "I can just sit in front of TV for 15 minutes and after that, I have to study",
-    "P11": "they can learn many things such as learning a language by watching movies",
-    "P12": "movies are not a good idea to learn a language for beginners",
-    "P13": "characters in movies speak very fast and unclear for language learners",
-    "P14": "For these learners it is better to start by reading some novels which are more comprehensible and enjoyable"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "reading fiction is more enjoyable than watching movies"
+    },
+    {
+      "ID": "MC2",
+      "Text": "reading fictions is more pleasant"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "these books have more depth, are much easier to use, and more useful for language learners"
+    },
+    {
+      "ID": "C2",
+      "Text": "fiction books pay more attention to details"
+    },
+    {
+      "ID": "C3",
+      "Text": "reading a novel is more convenient"
+    },
+    {
+      "ID": "C4",
+      "Text": "people enjoy watching TV"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "we can know characters, places, and times of a novel very well during reading it"
+    },
+    {
+      "ID": "P2",
+      "Text": "Most of the novels describe not only main characters but also other people in the novels, where each scene is happening"
+    },
+    {
+      "ID": "P3",
+      "Text": "after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people"
+    },
+    {
+      "ID": "P4",
+      "Text": "a movie just gives us a very small review of its stories and characters"
+    },
+    {
+      "ID": "P5",
+      "Text": "Some novels have around 100 pages and readers cannot finish them in just one hour"
+    },
+    {
+      "ID": "P6",
+      "Text": "Yet these people can continue to read their novels wherever they find free time such as in bus or trains"
+    },
+    {
+      "ID": "P7",
+      "Text": "I have started to read a novel since last week"
+    },
+    {
+      "ID": "P8",
+      "Text": "I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class"
+    },
+    {
+      "ID": "P9",
+      "Text": "I cannot watch a complete movie"
+    },
+    {
+      "ID": "P10",
+      "Text": "I can just sit in front of TV for 15 minutes and after that, I have to study"
+    },
+    {
+      "ID": "P11",
+      "Text": "they can learn many things such as learning a language by watching movies"
+    },
+    {
+      "ID": "P12",
+      "Text": "movies are not a good idea to learn a language for beginners"
+    },
+    {
+      "ID": "P13",
+      "Text": "characters in movies speak very fast and unclear for language learners"
+    },
+    {
+      "ID": "P14",
+      "Text": "For these learners it is better to start by reading some novels which are more comprehensible and enjoyable"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1475,32 +2121,92 @@ Meanwhile, historic buildings can be a source of maintenance fees. There are man
 Overall, I believe that the city which I enjoy the most is a combination of history and modernity. However, the preservation of old buildings is a one-way street. There is no chance to renovate to save a history site once it's gone. This reality brings us to light the importance of locating and saving old buildings of historic significance. Therefore, government should spend money on preservation of old buildings.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them",
-    "MC2": "government should spend money on preservation of old buildings"
-  },
-  "Claims": {
-    "C1": "Historic buildings have intrinsic values",
-    "C2": "historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds",
-    "C3": "historic buildings can be a source of maintenance fees",
-    "C4": "the city which I enjoy the most is a combination of history and modernity"
-  },
-  "Premises": {
-    "P1": "they are significant symbols of a city",
-    "P2": "Old buildings are reminders of a city's culture and complexity",
-    "P3": "By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area",
-    "P4": "when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind",
-    "P5": "it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China",
-    "P6": "Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture",
-    "P7": "The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves",
-    "P8": "the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace",
-    "P9": "Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful",
-    "P10": "There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists",
-    "P11": "Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle",
-    "P12": "There is no chance to renovate to save a history site once it's gone",
-    "P13": "the preservation of old buildings is a one-way street",
-    "P14": "This reality brings us to light the importance of locating and saving old buildings of historic significance"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them"
+    },
+    {
+      "ID": "MC2",
+      "Text": "government should spend money on preservation of old buildings"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "Historic buildings have intrinsic values"
+    },
+    {
+      "ID": "C2",
+      "Text": "historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds"
+    },
+    {
+      "ID": "C3",
+      "Text": "historic buildings can be a source of maintenance fees"
+    },
+    {
+      "ID": "C4",
+      "Text": "the city which I enjoy the most is a combination of history and modernity"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they are significant symbols of a city"
+    },
+    {
+      "ID": "P2",
+      "Text": "Old buildings are reminders of a city's culture and complexity"
+    },
+    {
+      "ID": "P3",
+      "Text": "By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area"
+    },
+    {
+      "ID": "P4",
+      "Text": "when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind"
+    },
+    {
+      "ID": "P5",
+      "Text": "it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China"
+    },
+    {
+      "ID": "P6",
+      "Text": "Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture"
+    },
+    {
+      "ID": "P7",
+      "Text": "The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves"
+    },
+    {
+      "ID": "P8",
+      "Text": "the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace"
+    },
+    {
+      "ID": "P9",
+      "Text": "Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful"
+    },
+    {
+      "ID": "P10",
+      "Text": "There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists"
+    },
+    {
+      "ID": "P11",
+      "Text": "Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle"
+    },
+    {
+      "ID": "P12",
+      "Text": "There is no chance to renovate to save a history site once it's gone"
+    },
+    {
+      "ID": "P13",
+      "Text": "the preservation of old buildings is a one-way street"
+    },
+    {
+      "ID": "P14",
+      "Text": "This reality brings us to light the importance of locating and saving old buildings of historic significance"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C2",
@@ -1604,27 +2310,72 @@ Although those above reasons are acceptable, I would argue that there are many t
 In conclusion, although the academic subjects play a primary role in nurturing children, it seem to me that the effects of learning music, sports are profound.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "I disagree with the idea that unimportant subjects such as music and sports should be got rid of the program",
-    "MC2": "the effects of learning music, sports are profound"
-  },
-  "Claims": {
-    "C1": "students only need to study academic subjects like mathematics, physics",
-    "C2": "these subjects might fulfil the students' ability",
-    "C3": "the academic subjects play a primary role in nurturing children"
-  },
-  "Premises": {
-    "P1": "these subject are necessary for students' future",
-    "P2": "when labor market now has high competition; students have to meet requirements regard of qualification",
-    "P3": "the unemployment rate is always high",
-    "P4": "parents want children to study these subjects which can help students have a job",
-    "P5": "there are many things much more important than having a job",
-    "P6": "studying music, art or sports is also very important to students",
-    "P7": "This enables students to develop their potentials through discovering the natural world around them",
-    "P8": "to get a job in labor market, not only do students require hard skills but also soft skills such as teamwork, presentation",
-    "P9": "through taking part in a sport, students can understand team spirit and learn lessons about teamwork skills",
-    "P10": "children's future do not depend heavily on the academic subjects they study in school, it is the result of their efforts and capacity"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I disagree with the idea that unimportant subjects such as music and sports should be got rid of the program"
+    },
+    {
+      "ID": "MC2",
+      "Text": "the effects of learning music, sports are profound"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "students only need to study academic subjects like mathematics, physics"
+    },
+    {
+      "ID": "C2",
+      "Text": "these subjects might fulfil the students' ability"
+    },
+    {
+      "ID": "C3",
+      "Text": "the academic subjects play a primary role in nurturing children"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "these subject are necessary for students' future"
+    },
+    {
+      "ID": "P2",
+      "Text": "when labor market now has high competition; students have to meet requirements regard of qualification"
+    },
+    {
+      "ID": "P3",
+      "Text": "the unemployment rate is always high"
+    },
+    {
+      "ID": "P4",
+      "Text": "parents want children to study these subjects which can help students have a job"
+    },
+    {
+      "ID": "P5",
+      "Text": "there are many things much more important than having a job"
+    },
+    {
+      "ID": "P6",
+      "Text": "studying music, art or sports is also very important to students"
+    },
+    {
+      "ID": "P7",
+      "Text": "This enables students to develop their potentials through discovering the natural world around them"
+    },
+    {
+      "ID": "P8",
+      "Text": "to get a job in labor market, not only do students require hard skills but also soft skills such as teamwork, presentation"
+    },
+    {
+      "ID": "P9",
+      "Text": "through taking part in a sport, students can understand team spirit and learn lessons about teamwork skills"
+    },
+    {
+      "ID": "P10",
+      "Text": "children's future do not depend heavily on the academic subjects they study in school, it is the result of their efforts and capacity"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1705,31 +2456,88 @@ To wrap it all up, it is indeed true that university education is pivotal in a p
 
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "one can also shine without even having to attend universities",
-    "MC2": "it would be wrong to say that one's success completely depends on the education he or she receives at the institutions"
-  },
-  "Claims": {
-    "C1": "it is indeed true that university education is pivotal in a person's life in order for one to prosper",
-    "C2": "it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer",
-    "C3": "there are also a significant number of people who are very successful in their fields without going to university",
-    "C4": "individuals born with talents have also a high chance to be successful"
-  },
-  "Premises": {
-    "P1": "Without proper training and knowledge, it would be impossible for them to perform their best in their careers",
-    "P2": "Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners",
-    "P3": "This can benefit them in future when they intend to open up their own companies or hospitals",
-    "P4": "Take for instance those who start their own business",
-    "P5": "These people depend solely on hard work and luck",
-    "P6": "for some of them it proved to be a profitable job",
-    "P7": "Michael Dell who is the founder and the CEO of Dell left college at 19",
-    "P8": "he started his computer company in his college dorm room",
-    "P9": "he used his earnings as well as his family's loan in order to progress to be who he is now",
-    "P10": "people with natural talents are also most likely to excel in their life",
-    "P11": "This is especially true in sectors like entertainment and sports",
-    "P12": "The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph",
-    "P13": "David Archuleta who was once a nobody has now taken up a large space in hearts of many"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "one can also shine without even having to attend universities"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it would be wrong to say that one's success completely depends on the education he or she receives at the institutions"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is indeed true that university education is pivotal in a person's life in order for one to prosper"
+    },
+    {
+      "ID": "C2",
+      "Text": "it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer"
+    },
+    {
+      "ID": "C3",
+      "Text": "there are also a significant number of people who are very successful in their fields without going to university"
+    },
+    {
+      "ID": "C4",
+      "Text": "individuals born with talents have also a high chance to be successful"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Without proper training and knowledge, it would be impossible for them to perform their best in their careers"
+    },
+    {
+      "ID": "P2",
+      "Text": "Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners"
+    },
+    {
+      "ID": "P3",
+      "Text": "This can benefit them in future when they intend to open up their own companies or hospitals"
+    },
+    {
+      "ID": "P4",
+      "Text": "Take for instance those who start their own business"
+    },
+    {
+      "ID": "P5",
+      "Text": "These people depend solely on hard work and luck"
+    },
+    {
+      "ID": "P6",
+      "Text": "for some of them it proved to be a profitable job"
+    },
+    {
+      "ID": "P7",
+      "Text": "Michael Dell who is the founder and the CEO of Dell left college at 19"
+    },
+    {
+      "ID": "P8",
+      "Text": "he started his computer company in his college dorm room"
+    },
+    {
+      "ID": "P9",
+      "Text": "he used his earnings as well as his family's loan in order to progress to be who he is now"
+    },
+    {
+      "ID": "P10",
+      "Text": "people with natural talents are also most likely to excel in their life"
+    },
+    {
+      "ID": "P11",
+      "Text": "This is especially true in sectors like entertainment and sports"
+    },
+    {
+      "ID": "P12",
+      "Text": "The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph"
+    },
+    {
+      "ID": "P13",
+      "Text": "David Archuleta who was once a nobody has now taken up a large space in hearts of many"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1829,26 +2637,68 @@ Furthermore, sensationalism distract the viewers from public or social problems.
 Based on the above discussion, I agree with that paying too much attention on personal lives of famous people may be a serious problem.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "media is overemphasizing the personal lives of famous people in this modern society",
-    "MC2": "disadvantages of overemphasizing on personal lives of famous people by media outweigh its advantages",
-    "MC3": "paying too much attention on personal lives of famous people may be a serious problem"
-  },
-  "Claims": {
-    "C1": "media provide information about an event that recently occurred somewhere and which is important to the people",
-    "C2": "sensationalism distract the viewers from public or social problems",
-    "C3": "gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion"
-  },
-  "Premises": {
-    "P1": "The most important of all is that the essence of coverage accurate and not based on gossip",
-    "P2": "journalism is changing",
-    "P3": "Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people",
-    "P4": "these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society",
-    "P5": "yellow journalism block the viewers from significant news, such as education, environment and public issues",
-    "P6": "The media face the challenge that media executives must choose the content, which can attract the audience",
-    "P7": "The audience may see a lot of photos in the kind of reports, which seems to tell a story",
-    "P8": "it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "media is overemphasizing the personal lives of famous people in this modern society"
+    },
+    {
+      "ID": "MC2",
+      "Text": "disadvantages of overemphasizing on personal lives of famous people by media outweigh its advantages"
+    },
+    {
+      "ID": "MC3",
+      "Text": "paying too much attention on personal lives of famous people may be a serious problem"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "media provide information about an event that recently occurred somewhere and which is important to the people"
+    },
+    {
+      "ID": "C2",
+      "Text": "sensationalism distract the viewers from public or social problems"
+    },
+    {
+      "ID": "C3",
+      "Text": "gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "The most important of all is that the essence of coverage accurate and not based on gossip"
+    },
+    {
+      "ID": "P2",
+      "Text": "journalism is changing"
+    },
+    {
+      "ID": "P3",
+      "Text": "Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people"
+    },
+    {
+      "ID": "P4",
+      "Text": "these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society"
+    },
+    {
+      "ID": "P5",
+      "Text": "yellow journalism block the viewers from significant news, such as education, environment and public issues"
+    },
+    {
+      "ID": "P6",
+      "Text": "The media face the challenge that media executives must choose the content, which can attract the audience"
+    },
+    {
+      "ID": "P7",
+      "Text": "The audience may see a lot of photos in the kind of reports, which seems to tell a story"
+    },
+    {
+      "ID": "P8",
+      "Text": "it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -1917,25 +2767,64 @@ Second, by bridging the theories with daily life events, students are given the 
 In conclusion, using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning, not only because it reinforces students' impression on the knowledge but also invites students to practice the knowledge out on their own. 
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "the best way for teachers to make students more interested in a subject is to explain how that subject can help and apply to their lives outside school",
-    "MC2": "using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning"
-  },
-  "Claims": {
-    "C1": "it reinforces students' impression on the knowledge but also invites students to practice the knowledge out on their own",
-    "C2": "by explaining how the subject contributes to daily life, students will have vivid impression on that subject thus become more interested and active in acquiring the knowledge on that subject",
-    "C3": "by bridging the theories with daily life events, students are given the chance to apply knowledge to their lives and develop their own ability of problem-solving"
-  },
-  "Premises": {
-    "P1": "Take chemistry for example, merely memorizing the names of the substances and the structural formulas seems to be very boring, while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class",
-    "P2": "While I was in senior high school, my chemical teacher once showed us how the detergent dissolves oil by an experiment and later on taught us how to describe this process with formal structural formulas",
-    "P3": "This type of learning method is more fun and eventually the results are good",
-    "P4": "I connected the visual images of that experiment with the formula and I barely forget, even though now I'm not studying chemistry anymore",
-    "P5": "This will address students' interests",
-    "P6": "it's the assignment that needs real life participation",
-    "P7": "in law class, students are informed their rights and duties and they are taught how they can apply law to different situations that might happen upon them",
-    "P8": "When any one of the situations occurs, they can think independently and figure out how to react"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "the best way for teachers to make students more interested in a subject is to explain how that subject can help and apply to their lives outside school"
+    },
+    {
+      "ID": "MC2",
+      "Text": "using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it reinforces students' impression on the knowledge but also invites students to practice the knowledge out on their own"
+    },
+    {
+      "ID": "C2",
+      "Text": "by explaining how the subject contributes to daily life, students will have vivid impression on that subject thus become more interested and active in acquiring the knowledge on that subject"
+    },
+    {
+      "ID": "C3",
+      "Text": "by bridging the theories with daily life events, students are given the chance to apply knowledge to their lives and develop their own ability of problem-solving"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Take chemistry for example, merely memorizing the names of the substances and the structural formulas seems to be very boring, while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class"
+    },
+    {
+      "ID": "P2",
+      "Text": "While I was in senior high school, my chemical teacher once showed us how the detergent dissolves oil by an experiment and later on taught us how to describe this process with formal structural formulas"
+    },
+    {
+      "ID": "P3",
+      "Text": "This type of learning method is more fun and eventually the results are good"
+    },
+    {
+      "ID": "P4",
+      "Text": "I connected the visual images of that experiment with the formula and I barely forget, even though now I'm not studying chemistry anymore"
+    },
+    {
+      "ID": "P5",
+      "Text": "This will address students' interests"
+    },
+    {
+      "ID": "P6",
+      "Text": "it's the assignment that needs real life participation"
+    },
+    {
+      "ID": "P7",
+      "Text": "in law class, students are informed their rights and duties and they are taught how they can apply law to different situations that might happen upon them"
+    },
+    {
+      "ID": "P8",
+      "Text": "When any one of the situations occurs, they can think independently and figure out how to react"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -2004,30 +2893,84 @@ Also, the more an advertisement of a product takes place in mass media, the more
 In conclusion, as I believe that consumers should consider major needs when they purchase goods, high sales are obviously a reflection of the powerful advertisements.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "advertising is the major reason for high sales of a product",
-    "MC2": "high sales are obviously a reflection of the powerful advertisements"
-  },
-  "Claims": {
-    "C1": "The most effective way to convince consumers to purchase a product is through advertising",
-    "C2": "advertisers push the limits of creativity to dispose the consumers to purchase the product",
-    "C3": "Advertisement is the most effective way to create a well-known product",
-    "C4": "They make the product preferable"
-  },
-  "Premises": {
-    "P1": "it is not sufficient in itself",
-    "P2": "The product also should satisfy the needs of the consumers",
-    "P3": "We are mainly introduced to products through advertisements",
-    "P4": "When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases",
-    "P5": "Recently, there is a very creative advertisements of a soft drink product on TV",
-    "P6": "The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot",
-    "P7": "the number of that product being sold will increases",
-    "P8": "the more an advertisement of a product takes place in mass media, the more popular the product becomes",
-    "P9": "Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product",
-    "P10": "When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is",
-    "P11": "it also has to be affordable for the consumer",
-    "P12": "advertisements have undeniable affects on the society about the product being advertised"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "advertising is the major reason for high sales of a product"
+    },
+    {
+      "ID": "MC2",
+      "Text": "high sales are obviously a reflection of the powerful advertisements"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The most effective way to convince consumers to purchase a product is through advertising"
+    },
+    {
+      "ID": "C2",
+      "Text": "advertisers push the limits of creativity to dispose the consumers to purchase the product"
+    },
+    {
+      "ID": "C3",
+      "Text": "Advertisement is the most effective way to create a well-known product"
+    },
+    {
+      "ID": "C4",
+      "Text": "They make the product preferable"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "it is not sufficient in itself"
+    },
+    {
+      "ID": "P2",
+      "Text": "The product also should satisfy the needs of the consumers"
+    },
+    {
+      "ID": "P3",
+      "Text": "We are mainly introduced to products through advertisements"
+    },
+    {
+      "ID": "P4",
+      "Text": "When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases"
+    },
+    {
+      "ID": "P5",
+      "Text": "Recently, there is a very creative advertisements of a soft drink product on TV"
+    },
+    {
+      "ID": "P6",
+      "Text": "The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot"
+    },
+    {
+      "ID": "P7",
+      "Text": "the number of that product being sold will increases"
+    },
+    {
+      "ID": "P8",
+      "Text": "the more an advertisement of a product takes place in mass media, the more popular the product becomes"
+    },
+    {
+      "ID": "P9",
+      "Text": "Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product"
+    },
+    {
+      "ID": "P10",
+      "Text": "When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is"
+    },
+    {
+      "ID": "P11",
+      "Text": "it also has to be affordable for the consumer"
+    },
+    {
+      "ID": "P12",
+      "Text": "advertisements have undeniable affects on the society about the product being advertised"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
@@ -2121,26 +3064,68 @@ Secondly, these workaholic people do not spend time for the contribution of soci
 To conclude this, I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies. This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person.
 ## Output:
 {
-  "MajorClaims": {
-    "MC1": "a balance between personal and professional life should be created by restricting maximum number of working hours",
-    "MC2": "I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies"
-  },
-  "Claims": {
-    "C1": "people working for extended hours have been found having adverse effects on their health and personal life",
-    "C2": "This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person",
-    "C3": "people; who prefer working longer hours, do not find time to focus on their health",
-    "C4": "these workaholic people do not spend time for the contribution of society by actively participating in any social campaign"
-  },
-  "Premises": {
-    "P1": "By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick",
-    "P2": "they become extensively addicted to their work and become workaholic type persons",
-    "P3": "The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life",
-    "P4": "they usually remain busy in their office",
-    "P5": "they do not find leisure time for such social activities",
-    "P6": "I would take my boss's example; he has been working for extended hours in office for many years",
-    "P7": "Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries",
-    "P8": "He started regretting afterwards and now trying to manage his work but it seems to be too late for him"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "a balance between personal and professional life should be created by restricting maximum number of working hours"
+    },
+    {
+      "ID": "MC2",
+      "Text": "I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "people working for extended hours have been found having adverse effects on their health and personal life"
+    },
+    {
+      "ID": "C2",
+      "Text": "This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person"
+    },
+    {
+      "ID": "C3",
+      "Text": "people; who prefer working longer hours, do not find time to focus on their health"
+    },
+    {
+      "ID": "C4",
+      "Text": "these workaholic people do not spend time for the contribution of society by actively participating in any social campaign"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick"
+    },
+    {
+      "ID": "P2",
+      "Text": "they become extensively addicted to their work and become workaholic type persons"
+    },
+    {
+      "ID": "P3",
+      "Text": "The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life"
+    },
+    {
+      "ID": "P4",
+      "Text": "they usually remain busy in their office"
+    },
+    {
+      "ID": "P5",
+      "Text": "they do not find leisure time for such social activities"
+    },
+    {
+      "ID": "P6",
+      "Text": "I would take my boss's example; he has been working for extended hours in office for many years"
+    },
+    {
+      "ID": "P7",
+      "Text": "Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries"
+    },
+    {
+      "ID": "P8",
+      "Text": "He started regretting afterwards and now trying to manage his work but it seems to be too late for him"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "primates should have the same rights as human beings",
-    "MC2": "it should be made illegal"
-  },
-  "Claims": {
-    "C1": "it seems to me that testing on animals has no clear result",
-    "C2": "There are several reasons why animal testing should be banned",
-    "C3": "sacrificing animals is an expensive and painful activity",
-    "C4": "human beings have no moral right to use animals in ways that do not benefit the individual"
-  },
-  "Premises": {
-    "P1": "the costs outweigh the benefits",
-    "P2": "Every year, cosmetic companies, farms or medical schools kill millions of animals to test their products, without any beneficial result",
-    "P3": "Animal testing costs an enormous amount of money",
-    "P4": "they must be fed, cared for and treated with drugs or experimental substances",
-    "P5": "animals are kept in unnatural conditions",
-    "P6": "Recent studies point out that animals are neglected and treated poorly, which influences their reactions to drugs",
-    "P7": "In March 2003, a lab technician shot a video inside a lab, which revealed primates in cages without pain medication, for instance one baboon with a metal cylinder screwed into its head",
-    "P8": "animals and people's response to a drug can be different",
-    "P9": "it is not only inhumane and cruel to cause pain to animals, but also misleading"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "primates should have the same rights as human beings"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it should be made illegal"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it seems to me that testing on animals has no clear result"
+    },
+    {
+      "ID": "C2",
+      "Text": "There are several reasons why animal testing should be banned"
+    },
+    {
+      "ID": "C3",
+      "Text": "sacrificing animals is an expensive and painful activity"
+    },
+    {
+      "ID": "C4",
+      "Text": "human beings have no moral right to use animals in ways that do not benefit the individual"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the costs outweigh the benefits"
+    },
+    {
+      "ID": "P2",
+      "Text": "Every year, cosmetic companies, farms or medical schools kill millions of animals to test their products, without any beneficial result"
+    },
+    {
+      "ID": "P3",
+      "Text": "Animal testing costs an enormous amount of money"
+    },
+    {
+      "ID": "P4",
+      "Text": "they must be fed, cared for and treated with drugs or experimental substances"
+    },
+    {
+      "ID": "P5",
+      "Text": "animals are kept in unnatural conditions"
+    },
+    {
+      "ID": "P6",
+      "Text": "Recent studies point out that animals are neglected and treated poorly, which influences their reactions to drugs"
+    },
+    {
+      "ID": "P7",
+      "Text": "In March 2003, a lab technician shot a video inside a lab, which revealed primates in cages without pain medication, for instance one baboon with a metal cylinder screwed into its head"
+    },
+    {
+      "ID": "P8",
+      "Text": "animals and people's response to a drug can be different"
+    },
+    {
+      "ID": "P9",
+      "Text": "it is not only inhumane and cruel to cause pain to animals, but also misleading"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

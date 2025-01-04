@@ -1,23 +1,62 @@
 {
-  "MajorClaims": {
-    "MC1": "I agree only to certain degree that in today's world, image serves as a more effective means of communication",
-    "MC2": "both images and words go hand in hand and one cannot wholly emphasise on only one aspect, either images or words"
-  },
-  "Claims": {
-    "C1": "it is undeniable that images in the absence of words can obviously claim the attraction of many",
-    "C2": "pictures can influence the way people think",
-    "C3": "written words are also vital in order to spread across certain messages"
-  },
-  "Premises": {
-    "P1": "nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking",
-    "P2": "statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit",
-    "P3": "the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan",
-    "P4": "images are also widely used in newspapers, magazines and advertisements",
-    "P5": "With only pictures, everyone is left to their own interpretation on how they perceive the images",
-    "P6": "this is different when words are used to explain what the illustration is about",
-    "P7": "the primary way of educating students is also by this way",
-    "P8": "Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I agree only to certain degree that in today's world, image serves as a more effective means of communication"
+    },
+    {
+      "ID": "MC2",
+      "Text": "both images and words go hand in hand and one cannot wholly emphasise on only one aspect, either images or words"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is undeniable that images in the absence of words can obviously claim the attraction of many"
+    },
+    {
+      "ID": "C2",
+      "Text": "pictures can influence the way people think"
+    },
+    {
+      "ID": "C3",
+      "Text": "written words are also vital in order to spread across certain messages"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking"
+    },
+    {
+      "ID": "P2",
+      "Text": "statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit"
+    },
+    {
+      "ID": "P3",
+      "Text": "the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan"
+    },
+    {
+      "ID": "P4",
+      "Text": "images are also widely used in newspapers, magazines and advertisements"
+    },
+    {
+      "ID": "P5",
+      "Text": "With only pictures, everyone is left to their own interpretation on how they perceive the images"
+    },
+    {
+      "ID": "P6",
+      "Text": "this is different when words are used to explain what the illustration is about"
+    },
+    {
+      "ID": "P7",
+      "Text": "the primary way of educating students is also by this way"
+    },
+    {
+      "ID": "P8",
+      "Text": "Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

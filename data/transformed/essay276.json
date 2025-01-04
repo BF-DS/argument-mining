@@ -1,28 +1,82 @@
 {
-  "MajorClaims": {
-    "MC1": "dancing is an important part of culture"
-  },
-  "Claims": {
-    "C1": "dancing are represent to believe of people",
-    "C2": "dancing is important in every culture",
-    "C3": "dancing are the part of people belief",
-    "C4": "dancing can represent to civilization of that culture",
-    "C5": "dancing is one of that ways"
-  },
-  "Premises": {
-    "P1": "dancing could show how civilization of that culture is",
-    "P2": "people use dancing to entertain themselves",
-    "P3": "some culture people believe that they dance in order to sacrifice to their god so they will be get a happy life",
-    "P4": "Or some part of the world that are in arid area believe that if they danced, the rain would come",
-    "P5": "dancing are significant part of culture that could show to something that people believe",
-    "P6": "I have seen many western movies that when a kingdom have visitor from another kingdom, king or queen would dance to show a splendid of their kingdom culture",
-    "P7": "The way of movement, the way that they costume and also a music while they dance",
-    "P8": "All this is a civilization of their culture",
-    "P9": "many culture, people have many ways to entertain themselves",
-    "P10": "Both people who see and dance also have a good time",
-    "P11": "many event, such as christmas, last christmas I went to mall to buy gifts, and I was entertained by group of people in santa custom dancing in christmas song",
-    "P12": "I felt that people around me happy and group of santas also happy to see people happy"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "dancing is an important part of culture"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "dancing are represent to believe of people"
+    },
+    {
+      "ID": "C2",
+      "Text": "dancing is important in every culture"
+    },
+    {
+      "ID": "C3",
+      "Text": "dancing are the part of people belief"
+    },
+    {
+      "ID": "C4",
+      "Text": "dancing can represent to civilization of that culture"
+    },
+    {
+      "ID": "C5",
+      "Text": "dancing is one of that ways"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "dancing could show how civilization of that culture is"
+    },
+    {
+      "ID": "P2",
+      "Text": "people use dancing to entertain themselves"
+    },
+    {
+      "ID": "P3",
+      "Text": "some culture people believe that they dance in order to sacrifice to their god so they will be get a happy life"
+    },
+    {
+      "ID": "P4",
+      "Text": "Or some part of the world that are in arid area believe that if they danced, the rain would come"
+    },
+    {
+      "ID": "P5",
+      "Text": "dancing are significant part of culture that could show to something that people believe"
+    },
+    {
+      "ID": "P6",
+      "Text": "I have seen many western movies that when a kingdom have visitor from another kingdom, king or queen would dance to show a splendid of their kingdom culture"
+    },
+    {
+      "ID": "P7",
+      "Text": "The way of movement, the way that they costume and also a music while they dance"
+    },
+    {
+      "ID": "P8",
+      "Text": "All this is a civilization of their culture"
+    },
+    {
+      "ID": "P9",
+      "Text": "many culture, people have many ways to entertain themselves"
+    },
+    {
+      "ID": "P10",
+      "Text": "Both people who see and dance also have a good time"
+    },
+    {
+      "ID": "P11",
+      "Text": "many event, such as christmas, last christmas I went to mall to buy gifts, and I was entertained by group of people in santa custom dancing in christmas song"
+    },
+    {
+      "ID": "P12",
+      "Text": "I felt that people around me happy and group of santas also happy to see people happy"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

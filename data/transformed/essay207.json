@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "I do not approve of this trend due to negative effects such as low quality of life and affecting the environment"
-  },
-  "Claims": {
-    "C1": "young people tend to study or work in urban areas",
-    "C2": "they move to big cities to pursue academic career and find jobs in order to have a higher standard of living",
-    "C3": "cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation"
-  },
-  "Premises": {
-    "P1": "these provide them many educational opportunities and career potentials",
-    "P2": "cities often offer more well-paid jobs and study chances compared to rural areas",
-    "P3": "many large companies and universities often locate in cities which are hailed as promising lands to develop their career",
-    "P4": "if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work, he could perhaps buy a house or his own car after a short time",
-    "P5": "the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities",
-    "P6": "it might put strain on the environment",
-    "P7": "If there are more people in the cities, there would be large numbers of vehicles on the road, which causes air pollution"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I do not approve of this trend due to negative effects such as low quality of life and affecting the environment"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "young people tend to study or work in urban areas"
+    },
+    {
+      "ID": "C2",
+      "Text": "they move to big cities to pursue academic career and find jobs in order to have a higher standard of living"
+    },
+    {
+      "ID": "C3",
+      "Text": "cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "these provide them many educational opportunities and career potentials"
+    },
+    {
+      "ID": "P2",
+      "Text": "cities often offer more well-paid jobs and study chances compared to rural areas"
+    },
+    {
+      "ID": "P3",
+      "Text": "many large companies and universities often locate in cities which are hailed as promising lands to develop their career"
+    },
+    {
+      "ID": "P4",
+      "Text": "if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work, he could perhaps buy a house or his own car after a short time"
+    },
+    {
+      "ID": "P5",
+      "Text": "the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities"
+    },
+    {
+      "ID": "P6",
+      "Text": "it might put strain on the environment"
+    },
+    {
+      "ID": "P7",
+      "Text": "If there are more people in the cities, there would be large numbers of vehicles on the road, which causes air pollution"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

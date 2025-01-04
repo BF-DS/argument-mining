@@ -1,21 +1,54 @@
 {
-  "MajorClaims": {
-    "MC1": "government should not pay for the university fees",
-    "MC2": "government should provide those education to their people; however, for the more higher education like university, the students or their parents should pay for the fees"
-  },
-  "Claims": {
-    "C1": "this will encourage all the parents to think of the way to help their children to achieve more in their lives",
-    "C2": "this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them",
-    "C3": "Some parents might not have enough money to pay for their children university fees",
-    "C4": "I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education",
-    "C5": "They will be more responsible with their studies when they pay the fees themselves"
-  },
-  "Premises": {
-    "P1": "they need to make some contribution too for their children future",
-    "P2": "It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education",
-    "P3": "students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it",
-    "P4": "the students will become more independent and it will build their characters in the marketplace as well"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "government should not pay for the university fees"
+    },
+    {
+      "ID": "MC2",
+      "Text": "government should provide those education to their people; however, for the more higher education like university, the students or their parents should pay for the fees"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "this will encourage all the parents to think of the way to help their children to achieve more in their lives"
+    },
+    {
+      "ID": "C2",
+      "Text": "this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them"
+    },
+    {
+      "ID": "C3",
+      "Text": "Some parents might not have enough money to pay for their children university fees"
+    },
+    {
+      "ID": "C4",
+      "Text": "I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education"
+    },
+    {
+      "ID": "C5",
+      "Text": "They will be more responsible with their studies when they pay the fees themselves"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "they need to make some contribution too for their children future"
+    },
+    {
+      "ID": "P2",
+      "Text": "It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education"
+    },
+    {
+      "ID": "P3",
+      "Text": "students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it"
+    },
+    {
+      "ID": "P4",
+      "Text": "the students will become more independent and it will build their characters in the marketplace as well"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

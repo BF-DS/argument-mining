@@ -1,25 +1,70 @@
 {
-  "MajorClaims": {
-    "MC1": "these various advertisements get people to buy products that are unnecessary and only look good on television",
-    "MC2": "The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers"
-  },
-  "Claims": {
-    "C1": "it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product",
-    "C2": "it plays and important role economically"
-  },
-  "Premises": {
-    "P1": "To boost their sales and win over customers, companies pour a great amount of money into advertising",
-    "P2": "huge cooperation hire celebrities as the face of their product",
-    "P3": "By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly",
-    "P4": "youngsters, as the target consumers, love celebrities",
-    "P5": "having these products shows their status",
-    "P6": "the quality obviously is not relatively important",
-    "P7": "they aim to grab your attention",
-    "P8": "They introduce new products, and provide various choices, not to mention they are often visually enjoyable",
-    "P9": "advertisements can be falseful and exaggerated",
-    "P10": "Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition",
-    "P11": "Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "these various advertisements get people to buy products that are unnecessary and only look good on television"
+    },
+    {
+      "ID": "MC2",
+      "Text": "The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product"
+    },
+    {
+      "ID": "C2",
+      "Text": "it plays and important role economically"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "To boost their sales and win over customers, companies pour a great amount of money into advertising"
+    },
+    {
+      "ID": "P2",
+      "Text": "huge cooperation hire celebrities as the face of their product"
+    },
+    {
+      "ID": "P3",
+      "Text": "By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly"
+    },
+    {
+      "ID": "P4",
+      "Text": "youngsters, as the target consumers, love celebrities"
+    },
+    {
+      "ID": "P5",
+      "Text": "having these products shows their status"
+    },
+    {
+      "ID": "P6",
+      "Text": "the quality obviously is not relatively important"
+    },
+    {
+      "ID": "P7",
+      "Text": "they aim to grab your attention"
+    },
+    {
+      "ID": "P8",
+      "Text": "They introduce new products, and provide various choices, not to mention they are often visually enjoyable"
+    },
+    {
+      "ID": "P9",
+      "Text": "advertisements can be falseful and exaggerated"
+    },
+    {
+      "ID": "P10",
+      "Text": "Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition"
+    },
+    {
+      "ID": "P11",
+      "Text": "Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

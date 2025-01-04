@@ -1,31 +1,94 @@
 {
-  "MajorClaims": {
-    "MC1": "it is necessary for us to be extraordinarily cautious",
-    "MC2": "it might not be the most beneficial move to our society"
-  },
-  "Claims": {
-    "C1": "rough work is intolerable when we want to stay competitive",
-    "C2": "we need to catch up with the pace of the world",
-    "C3": "fast pace may be the wise move to correspond with today's world",
-    "C4": "even when the world operates in fast pace, it still requires accuracy",
-    "C5": "Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients",
-    "C6": "Some work cannot tolerate any mistakes at all"
-  },
-  "Premises": {
-    "P1": "Even simple issues in our daily life like homework require accuracy",
-    "P2": "If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline",
-    "P3": "it only fulfills the work itself which is rather worthless",
-    "P4": "It is our capability of work that we should improve rather than holding the belief in completing it",
-    "P5": "it may take time to keep up with the others if w need to review our work multiple times",
-    "P6": "with consistent work soon enough we'll be able to bring up our speed in completion of work",
-    "P7": "We soon will be out of the picture even when we kept up with the pace",
-    "P8": "when the problem reveals itself we'll have to go back and fix the mistakes we have made",
-    "P9": "This might be even more costly and time consuming than a neat completion of work at the start",
-    "P10": "other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality",
-    "P11": "A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars",
-    "P12": "even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems",
-    "P13": "in official missions like the work done by NASA, a tiny mistake can be catastrophic"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "it is necessary for us to be extraordinarily cautious"
+    },
+    {
+      "ID": "MC2",
+      "Text": "it might not be the most beneficial move to our society"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "rough work is intolerable when we want to stay competitive"
+    },
+    {
+      "ID": "C2",
+      "Text": "we need to catch up with the pace of the world"
+    },
+    {
+      "ID": "C3",
+      "Text": "fast pace may be the wise move to correspond with today's world"
+    },
+    {
+      "ID": "C4",
+      "Text": "even when the world operates in fast pace, it still requires accuracy"
+    },
+    {
+      "ID": "C5",
+      "Text": "Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients"
+    },
+    {
+      "ID": "C6",
+      "Text": "Some work cannot tolerate any mistakes at all"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "Even simple issues in our daily life like homework require accuracy"
+    },
+    {
+      "ID": "P2",
+      "Text": "If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline"
+    },
+    {
+      "ID": "P3",
+      "Text": "it only fulfills the work itself which is rather worthless"
+    },
+    {
+      "ID": "P4",
+      "Text": "It is our capability of work that we should improve rather than holding the belief in completing it"
+    },
+    {
+      "ID": "P5",
+      "Text": "it may take time to keep up with the others if w need to review our work multiple times"
+    },
+    {
+      "ID": "P6",
+      "Text": "with consistent work soon enough we'll be able to bring up our speed in completion of work"
+    },
+    {
+      "ID": "P7",
+      "Text": "We soon will be out of the picture even when we kept up with the pace"
+    },
+    {
+      "ID": "P8",
+      "Text": "when the problem reveals itself we'll have to go back and fix the mistakes we have made"
+    },
+    {
+      "ID": "P9",
+      "Text": "This might be even more costly and time consuming than a neat completion of work at the start"
+    },
+    {
+      "ID": "P10",
+      "Text": "other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality"
+    },
+    {
+      "ID": "P11",
+      "Text": "A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars"
+    },
+    {
+      "ID": "P12",
+      "Text": "even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems"
+    },
+    {
+      "ID": "P13",
+      "Text": "in official missions like the work done by NASA, a tiny mistake can be catastrophic"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",

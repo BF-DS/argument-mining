@@ -1,26 +1,74 @@
 {
-  "MajorClaims": {
-    "MC1": "I highly prefer living in a big city to living in countryside",
-    "MC2": "living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places, technologies facilities, better education and medical services"
-  },
-  "Claims": {
-    "C1": "The big cities have lots of advantages and facilities over the small towns",
-    "C2": "Where a person lives and grow up is very important to his future life",
-    "C3": "People in big cities have many options to enjoy their life and spend their times with their friends in social places in contrary to people living in small towns who have few choices and at most cases one bar or one cinema to socialize with their friends",
-    "C4": "persons in big cities have more chance to get the better job than people living in small towns",
-    "C5": "by living in big cities one sacrifices quiet and peaceful life with breathing fresh air and loses much time in traffic and anyway for transportation",
-    "C6": "medical technologies is completely better in big cities and in my view this profit overcomes all the bad influences of technologies on human kind"
-  },
-  "Premises": {
-    "P1": "the environment that a person grow up, build the personality and his/her culture",
-    "P2": "There are lots of social places in big cities like restaurants, museums, bars, sporting clubs, cinemas, theatre and etc",
-    "P3": "in this modern world education has a very important role in the human kind future life",
-    "P4": "Better education results better career and been well paid",
-    "P5": "lots of companies placed in big cities and there are more job positions in there than small towns",
-    "P6": "In big cities educational facilities is quite better than small towns with more experienced and profession teachers",
-    "P7": "distances in big cities often are too far to pass quickly",
-    "P8": "Every technology has it\u2019s good and bad effects but I prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology"
-  },
+  "MajorClaims": [
+    {
+      "ID": "MC1",
+      "Text": "I highly prefer living in a big city to living in countryside"
+    },
+    {
+      "ID": "MC2",
+      "Text": "living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places, technologies facilities, better education and medical services"
+    }
+  ],
+  "Claims": [
+    {
+      "ID": "C1",
+      "Text": "The big cities have lots of advantages and facilities over the small towns"
+    },
+    {
+      "ID": "C2",
+      "Text": "Where a person lives and grow up is very important to his future life"
+    },
+    {
+      "ID": "C3",
+      "Text": "People in big cities have many options to enjoy their life and spend their times with their friends in social places in contrary to people living in small towns who have few choices and at most cases one bar or one cinema to socialize with their friends"
+    },
+    {
+      "ID": "C4",
+      "Text": "persons in big cities have more chance to get the better job than people living in small towns"
+    },
+    {
+      "ID": "C5",
+      "Text": "by living in big cities one sacrifices quiet and peaceful life with breathing fresh air and loses much time in traffic and anyway for transportation"
+    },
+    {
+      "ID": "C6",
+      "Text": "medical technologies is completely better in big cities and in my view this profit overcomes all the bad influences of technologies on human kind"
+    }
+  ],
+  "Premises": [
+    {
+      "ID": "P1",
+      "Text": "the environment that a person grow up, build the personality and his/her culture"
+    },
+    {
+      "ID": "P2",
+      "Text": "There are lots of social places in big cities like restaurants, museums, bars, sporting clubs, cinemas, theatre and etc"
+    },
+    {
+      "ID": "P3",
+      "Text": "in this modern world education has a very important role in the human kind future life"
+    },
+    {
+      "ID": "P4",
+      "Text": "Better education results better career and been well paid"
+    },
+    {
+      "ID": "P5",
+      "Text": "lots of companies placed in big cities and there are more job positions in there than small towns"
+    },
+    {
+      "ID": "P6",
+      "Text": "In big cities educational facilities is quite better than small towns with more experienced and profession teachers"
+    },
+    {
+      "ID": "P7",
+      "Text": "distances in big cities often are too far to pass quickly"
+    },
+    {
+      "ID": "P8",
+      "Text": "Every technology has it\u2019s good and bad effects but I prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology"
+    }
+  ],
   "ArgumentativeRelations": [
     {
       "Origin": "C1",
