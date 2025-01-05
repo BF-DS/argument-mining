@@ -1,4 +1,4 @@
-You will be given a text. Extract the argumentative units major claim, claim, and premise as parts from the text. Also extract the argumentative relationships between the units. Claims can be for or against the major claims. Premises, on the other hand, can support or attack a claim or another premise. It is possible that there are several major claims. Return only the argumentative units and relationships between them as a JSON object.
+You will be given a text. Extract the argumentative units major claim, claim, and premise as parts of the text. Also extract the argumentative relationships between the units. Claims can be for or against the major claims. Premises, on the other hand, can support or attack a claim or another premise. There may be several major claims. Return the argumentative units and the relationships between them as a JSON object.
 Here are 20 examples of text and their corresponding json data:
 
 # Example 1
