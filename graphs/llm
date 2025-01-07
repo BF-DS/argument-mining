@@ -1,5 +1,5 @@
 digraph {
-	rankdir=TB
+	rankdir=LR
 	subgraph cluster_orig_data {
 		style=dashed
 		orig_data_txt [label="Original Text Files" shape=record style=rounded]
@@ -12,6 +12,11 @@ digraph {
 	LLM [label="Large Language Model" shape=record style=rounded]
 	Evaluation [label=Evaluation shape=record style=rounded]
 	split [label="Train-Test Split" shape=record style=rounded]
+	blocks [label="Prompting Blocks" shape=record style=rounded]
+	mc [label="Major Claims" shape=record style=rounded]
+	c [label=Claims shape=record style=rounded]
+	p [label=Premises shape=record style=rounded]
+	r [label=Relations shape=record style=rounded]
 	orig_data_ann -> transformed_data_ann [label="change labels" color=blue]
 	transformed_data_ann -> transformed_data_JSON [label=convert color=blue]
 	transformed_data_JSON -> split [label="output examples" color=blue]
@@ -21,4 +26,9 @@ digraph {
 	split -> Template [label="training data" color=blue]
 	split -> Evaluation [label="test data" color=blue]
 	LLM -> LLM [label="batch API, bis zu 24h" color=blue]
+	Evaluation -> mc [label=extract color=blue]
+	Evaluation -> c [label=extract color=blue]
+	Evaluation -> p [label=extract color=blue]
+	Evaluation -> r [label=extract color=blue]
+	blocks -> Template [color=blue]
 }
