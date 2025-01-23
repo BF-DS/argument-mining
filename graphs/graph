@@ -1,22 +1,22 @@
 digraph {
-	MajorClaims [label="MajorClaim(s)" shape=record style=rounded]
+	Hauptaussage [label="Hauptaussage(n)" shape=record style=rounded]
 	subgraph cluster_claims {
 		style=dashed
-		"Claim 1" [label="Claim 1" shape=record style=rounded]
-		"Claim 2" [label="Claim 2" shape=record style=rounded]
-		label=Claims
+		"Behauptung 1" [label="Behauptung 1" shape=record style=rounded]
+		"Behauptung 2" [label="Behauptung 2" shape=record style=rounded]
+		label=Behauptungen
 	}
 	subgraph cluster_premises {
 		style=dashed
-		"Premise 1" [label="Premise 1" shape=record style=rounded]
-		"Premise 2" [label="Premise 2" shape=record style=rounded]
-		label=Premises
+		"Prämisse 1" [label="Prämisse 1" shape=record style=rounded]
+		"Prämisse 2" [label="Prämisse 2" shape=record style=rounded]
+		label="Prämissen"
 	}
 	rankdir=RL
-	"Claim 1" -> MajorClaims [label=against color=red]
-	"Claim 2" -> MajorClaims [label=for color=green]
-	"Premise 1" -> "Claim 1" [label=attack color=red]
-	"Premise 2" -> "Claim 1" [label=support color=green]
-	"Premise 1" -> "Premise 2" [label=attack color=red]
-	"Premise 2" -> "Premise 1" [label=support color=green]
+	"Behauptung 1" -> Hauptaussage [label=against color=red]
+	"Behauptung 2" -> Hauptaussage [label=for color=green]
+	"Prämisse 1" -> "Behauptung 1" [label=attack color=red]
+	"Prämisse 2" -> "Behauptung 1" [label=support color=green]
+	"Prämisse 1" -> "Prämisse 2" [label=attack color=red]
+	"Prämisse 2" -> "Prämisse 1" [label=support color=green]
 }
