@@ -13,10 +13,10 @@ digraph {
 		label="Prämissen"
 	}
 	rankdir=RL
-	"Behauptung 1" -> Hauptaussage [label=against color=red]
-	"Behauptung 2" -> Hauptaussage [label=for color=green]
-	"Prämisse 1" -> "Behauptung 1" [label=attack color=red]
-	"Prämisse 2" -> "Behauptung 1" [label=support color=green]
-	"Prämisse 1" -> "Prämisse 2" [label=attack color=red]
-	"Prämisse 2" -> "Prämisse 1" [label=support color=green]
+	"Behauptung 1" -> Hauptaussage [label=dagegen color=red]
+	"Behauptung 2" -> Hauptaussage [label="dafür" color=green]
+	"Prämisse 1" -> "Behauptung 1" [label="greift an" color=red]
+	"Prämisse 2" -> "Behauptung 1" [label="unterstützt" color=green]
+	"Prämisse 1" -> "Prämisse 2" [label="greift an" color=red]
+	"Prämisse 2" -> "Prämisse 1" [label="unterstützt" color=green]
 }
