@@ -1,0 +1,46 @@
+digraph {
+	rankdir=TB
+	subgraph cluster_orig_data {
+		style=dashed
+		orig_data_txt [label="originale Textdateien" shape=record style=rounded]
+		orig_data_ann [label="originale Annotationen" shape=record style=rounded]
+		label=Originaldaten
+	}
+	transformed_data_ann [label="transformierte Annotationen" shape=record style=rounded]
+	transformed_data_JSON [label="transformierte JSON-Dateien" shape=record style=rounded]
+	developer [label="Erstellung der Developer-Prompts" shape=record style=rounded]
+	user [label="Erstellung der User-Prompts" shape=record style=rounded]
+	prompts [label=Anfragen shape=record style=rounded]
+	LLM [label="Large Language Model" shape=record style=rounded]
+	Evaluation [label=Evaluation shape=record style=rounded]
+	split [label="Aufteilung in Trainings-und Testdatensatz " shape=record style=rounded]
+	blocks [label="Prompt-Bausteine" shape=record style=rounded]
+	mc [label=Hauptaussagen shape=record style=rounded]
+	c [label=Behauptungen shape=record style=rounded]
+	p [label="Prämissen" shape=record style=rounded]
+	r [label=Beziehungen shape=record style=rounded]
+	orig_data_ann -> transformed_data_ann [label="IDs ändern" color=black]
+	transformed_data_ann -> transformed_data_JSON [label=konvertieren color=black]
+	transformed_data_JSON -> split [label="Beispiele
+für Ausgabe" color=black]
+	developer -> prompts [color=black]
+	user -> prompts [color=black]
+	prompts -> LLM [label=Eingabe color=black]
+	LLM -> Evaluation [label=Ausgabe color=black]
+	orig_data_txt -> split [label="Beispiele
+für Eingabe" color=black]
+	split -> developer [label="Trainingsdaten
+(Text & Annotation)" color=black]
+	split -> user [label="Testdaten
+(Text)" color=black]
+	split -> Evaluation [label="Testdaten
+(Annotation)
+als
+Grundwahrheit" color=black]
+	LLM -> LLM [label="Verarbeitung bis zu 24h" color=black]
+	Evaluation -> mc [label=extrahieren color=black]
+	Evaluation -> c [label=extrahieren color=black]
+	Evaluation -> p [label=extrahieren color=black]
+	Evaluation -> r [label=extrahieren color=black]
+	blocks -> developer [color=black]
+}
