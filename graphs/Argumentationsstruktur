@@ -1,4 +1,7 @@
 digraph {
+	fontname=Arial fontsize=12 size="10,10!"
+	node [fontname=Arial]
+	edge [fontname=Arial]
 	Hauptaussage [label="Hauptaussage(n)" shape=record style=rounded]
 	subgraph cluster_claims {
 		style=dashed

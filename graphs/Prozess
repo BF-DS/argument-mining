@@ -1,5 +1,7 @@
 digraph {
-	rankdir=TB
+	fontname=Arial fontsize=13 rankdir=TB
+	node [fontname=Arial]
+	edge [fontname=Arial]
 	subgraph cluster_orig_data {
 		style=dashed
 		orig_data_txt [label="originale Textdateien" shape=record style=rounded]
