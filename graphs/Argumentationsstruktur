@@ -1,5 +1,5 @@
 digraph {
-	fontname=Arial fontsize=12 size="10,10!"
+	fontname=Arial fontsize=12 rankdir=RL size="10,10!"
 	node [fontname=Arial]
 	edge [fontname=Arial]
 	Hauptaussage [label="Hauptaussage(n)" shape=record style=rounded]
@@ -15,7 +15,6 @@ digraph {
 		"Prämisse 2" [label="Prämisse 2" shape=record style=rounded]
 		label="Prämissen"
 	}
-	rankdir=RL
 	"Behauptung 1" -> Hauptaussage [label=dagegen color=red]
 	"Behauptung 2" -> Hauptaussage [label="dafür" color=green]
 	"Prämisse 1" -> "Behauptung 1" [label="greift an" color=red]
