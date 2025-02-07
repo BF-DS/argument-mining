@@ -5,6 +5,13 @@ import pandas as pd
 from src.dataimport import load_text
 
 def update_ann_file(input_text):
+    """
+    Aktualisiert die IDs in einer .ann-Datei und gibt den aktualisierten Text zurück.
+    Args:
+        input_text (str): Der Text der .ann-Datei
+    Returns:
+        str: Der aktualisierte Text der .ann-Datei
+    """
     # Muster
     pattern_unit = r"^(T\d+)\s+(MajorClaim|Claim|Premise)" # ^ Anfang der Zeile, T\d+ T gefolgt von Ziffern, \s+ ein oder mehrere Leerzeichen, MajorClaim|Claim|Premise
     pattern_relation = r"^(R\d+)\s+\w+ Arg1:(T\d+) Arg2:(T\d+)" # ^ Anfang der Zeile, R\d+ R gefolgt von Ziffern, \s+ ein oder mehrere Leerzeichen, \w+ ein oder mehrere Buchstaben, Arg1 & Arg2 :T\d+ Arg1:T gefolgt von Ziffern
