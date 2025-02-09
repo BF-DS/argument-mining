@@ -172,7 +172,7 @@ def calculate_bleu_score(groundtruth, prediction):
 
 def calculate_confusion_matrix(actual_list, pred_list, threshold=0.75):
     """
-    Berechnung der Teile der Confusion Matrix (TP, FN, FP, TN) basierend auf der Ähnlichkeit der Texteabschnitte. 
+    Berechnung der Teile der Konfusionsmatrix (TP, FN, FP, TN) basierend auf der Ähnlichkeit der Texteabschnitte. 
     Als Ähnlichkeitsmaß wird der BLEU-Score verwendet. 
     Jeder Textabschnitt kann nur einmal zugeordnet werden. 
     Args:
@@ -241,7 +241,8 @@ def calculate_confusion_matrix(actual_list, pred_list, threshold=0.75):
 
 def get_confusion_matrix(row, ground_truth_col: list, prediction_col: list):
     """
-    Berechnet die Konfusionsmatrix für die Argumentationskomponenten Major Claims, Claims und Premises.
+    Berechnung der Teile der Konfusionsmatrix (TP, FN, FP, TN) anhand der Ähnlichkeit der Textabschnitte für die Argumentationskomponenten Major Claims, Claims und Premises.
+    Als Ähnlichkeitsmaß wird der BLEU-Score verwendet.
 
     Args:
         row: Zeile des Dataframes.
@@ -251,11 +252,11 @@ def get_confusion_matrix(row, ground_truth_col: list, prediction_col: list):
     Returns:
         pd.Series: Series mit den Werten für TP, FN, FP, TN und Ähnlichkeit für Major Claims, Claims und Premises
     """    
-    # Berechnung der Confusion Matrix das erste Paar von Spalten (Major Claims)
+    # Berechnung der Konfusionsmatrix für das erste Paar von Spalten (Major Claims)
     major_claims_tp, major_claims_fn, major_claims_fp, major_claims_tn, major_claims_sim = calculate_confusion_matrix(row[ground_truth_col[0]], row[prediction_col[0]])
-    # Berechnung der Confusion Matrix für das zweite Paar von Spalten (Claims)
+    # Berechnung der Konfusionsmatrix für das zweite Paar von Spalten (Claims)
     claims_tp, claims_fn, claims_fp, claims_tn, claims_sim = calculate_confusion_matrix(row[ground_truth_col[1]], row[prediction_col[1]])
-    # Berechnung der Confusion Matrix für das dritte Paar von Spalten (Premises)
+    # Berechnung der Konfusionsmatrix für das dritte Paar von Spalten (Premises)
     premises_tp, premises_fn, premises_fp, premises_tn, premises_sim = calculate_confusion_matrix(row[ground_truth_col[2]], row[prediction_col[2]])
           
     # Rückgabe der Werte als Series
@@ -338,9 +339,10 @@ def calculate_relations_confusion_matrix(actual_list, pred_list, threshold=0.75)
 
     return tp, fn, fp, tn, similarities
 
-def apply_relations_confusion_matrix(row, ground_truth_col: str, prediction_col: str):
+def get_relations_confusion_matrix(row, ground_truth_col: str, prediction_col: str):
     """
-    Berechnung der Konfusionsmatrix für die Argumentationsbeziehungen.
+    Berechnung der Teile der Konfusionsmatrix (TP, FN, FP, TN) anhand der Ähnlichkeit der Textabschnitte für die Argumentationskomponenten Major Claims, Claims und Premises.
+    Als Ähnlichkeitsmaß wird der BLEU-Score verwendet.
     Args:
         row: Zeile des Dataframes.
         ground_truth_col: Spaltenname für die Grundwahrheit der Beziehungen.
@@ -424,3 +426,110 @@ def plot_confusion_matrices(dataframe):
 
         plt.tight_layout()
         plt.show()
+
+
+def calc_mertics(dataframe: pd.DataFrame) -> pd.DataFrame:
+    """
+    Berechnung der Metriken Precision, Recall und F1-Score für die Argumentkomponenten und Beziehungen.
+    Args:
+        dataframe (pd.DataFrame): DataFrame mit den Werten der Konfusionsmatrix (TP, FN, FP, TN) für die Argumentkomponenten und Beziehungen.
+    Returns:
+        pd.DataFrame: DataFrame mit den berechneten Metriken Precision, Recall und F1-Score für die Argumentkomponenten und Beziehungen.
+
+    """
+    eval_metrics = []
+
+    for index, row in dataframe.iterrows():
+        total_tp_mc = row['MajorClaims_TP']
+        total_fn_mc = row['MajorClaims_FN']
+        total_fp_mc = row['MajorClaims_FP']
+        
+        total_tp_c = row['Claims_TP']
+        total_fn_c = row['Claims_FN']
+        total_fp_c = row['Claims_FP']
+        
+        total_tp_p = row['Premises_TP']
+        total_fn_p = row['Premises_FN']
+        total_fp_p = row['Premises_FP']
+        
+        total_tp_r = row['Relations_TP']
+        total_fn_r = row['Relations_FN']
+        total_fp_r = row['Relations_FP']
+        
+        # Berechnung der Metriken für Hauptaussagen
+        precision_mc = total_tp_mc / (total_tp_mc + total_fp_mc) if (total_tp_mc + total_fp_mc) != 0 else 0
+        recall_mc = total_tp_mc / (total_tp_mc + total_fn_mc) if (total_tp_mc + total_fn_mc) != 0 else 0
+        f1_score_mc = 2 * (precision_mc * recall_mc) / (precision_mc + recall_mc) if (precision_mc + recall_mc) != 0 else 0
+
+        # Berechnung der Metriken für Behauptungen
+        precision_c = total_tp_c / (total_tp_c + total_fp_c) if (total_tp_c + total_fp_c) != 0 else 0
+        recall_c = total_tp_c / (total_tp_c + total_fn_c) if (total_tp_c + total_fn_c) != 0 else 0
+        f1_score_c = 2 * (precision_c * recall_c) / (precision_c + recall_c) if (precision_c + recall_c) != 0 else 0
+        
+        # Berechnung der Metriken für Prämissen
+        precision_p = total_tp_p / (total_tp_p + total_fp_p) if (total_tp_p + total_fp_p) != 0 else 0
+        recall_p = total_tp_p / (total_tp_p + total_fn_p) if (total_tp_p + total_fn_p) != 0 else 0
+        f1_score_p = 2 * (precision_p * recall_p) / (precision_p + recall_p) if (precision_p + recall_p) != 0 else 0
+
+        # Berechnung der Metriken für Beziehungen
+        precision_r = total_tp_r / (total_tp_r + total_fp_r) if (total_tp_r + total_fp_r) != 0 else 0
+        recall_r = total_tp_r / (total_tp_r + total_fn_r) if (total_tp_r + total_fn_r) != 0 else 0
+        f1_score_r = 2 * (precision_r * recall_r) / (precision_r + recall_r) if (precision_r + recall_r) != 0 else 0
+
+        # Hinzufügen der berechneten Metriken zu einer Liste von Dictionaries, um daraus einen DataFrame zu erstellen
+        eval_metrics.append({
+            'Prompt': row['prompt'],
+            'Precision_MC': round(precision_mc, 2),
+            'Recall_MC': round(recall_mc, 2),
+            'F1_Score_MC': round(f1_score_mc, 2),
+            'Precision_C': round(precision_c, 2),
+            'Recall_C': round(recall_c, 2),
+            'F1_Score_C': round(f1_score_c, 2),
+            'Precision_P': round(precision_p, 2),
+            'Recall_P': round(recall_p, 2),
+            'F1_Score_P': round(f1_score_p, 2),
+            'Precision_R': round(precision_r, 2),
+            'Recall_R': round(recall_r, 2),
+            'F1_Score_R': round(f1_score_r, 2),
+        })
+    
+    df = pd.DataFrame(eval_metrics)
+
+    return df
+
+
+def filter_and_sample(df, component, threshold=0.75, sample_size=5, random_state=42):
+    """
+    Filtert die Zeilen aus einem DataFrame unterhalb des Ähnlichkeitswerts für eine Argumentationskomponente und gibt eine zufällige Stichprobe zurück.
+    Die Stichprobe besteht aus Listen mit Texten aus der Grundwahrheit, der LLM-Ausgabe und den Ähnlichkeitswerten. Kann zur Betrachtung von Fehlern in der LLM-Ausgabe verwendet werden.
+    Args:
+        df (pd.DataFrame): DataFrame mit den Daten zur Grundwahrheit, LLM-Ausgabe und Ähnlichkeitswerten
+        component (str): Name der Argumentationskomponente (MajorClaims, Claims, Premises)
+        threshold (float): Schwellenwert für die Ähnlichkeitsmetrik. Texte mit einem Ähnlichkeitswert unterhalb dieses Schwellenwerts werden ausgewählt.
+        sample_size (int): Anzahl der zufälligen Stichprobe
+        random_state (int): Seed für die Reproduzierbarkeit der Stichprobe
+    Returns:
+        pd.DataFrame: Zufällige Stichprobe von Texten aus der Grundwahrheit, LLM-Ausgabe und Ähnlichkeitswerten
+    """
+    similarity_col = f'{component}_Similarity'
+    truth_col = f'{component.lower()}_truth'
+    llm_col = f'{component.lower()}_llm'
+
+    # Filtern der Zeilen basierend auf dem Schwellenwert 
+    row_seperator = df[df[similarity_col].apply(lambda x: min(x) < threshold)]
+    col_seperator = [truth_col, llm_col, similarity_col]
+    filtered_df = df.loc[row_seperator.index, col_seperator]
+    print(f"Anzahl an betroffenen Zeilen: {filtered_df.shape[0]}\n")
+
+    sample = filtered_df.sample(sample_size, random_state=random_state)
+    sample_truth = sample[truth_col].values
+    sample_llm = sample[llm_col].values
+    sample_similarity = sample[similarity_col].values
+
+    for i in range(len(sample_truth)):
+        print(f"Grundwahrheit: {sample_truth[i]}")
+        print(f"LLM-Ausgabe: {sample_llm[i]}")
+        print(f"Änhlichkeitswerte: {sample_similarity[i]}")
+        print("\n")
+
+    return sample
