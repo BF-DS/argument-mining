@@ -65,6 +65,13 @@ def update_ann_file(input_text):
 
 
 def transform_ann_to_json(text):
+    """
+    Transformiert den Text der ann-Datei mit den angepassten IDs in ein JSON-Objekt.
+    Args:
+        text (str): Der Text der angepassten .ann-Datei
+    Returns:
+        str: Das JSON-Objekt als String
+    """
     data = {
         "MajorClaims": [],
         "Claims": [],
@@ -102,7 +109,6 @@ def transform_ann_to_json(text):
 
     return json.dumps(data, indent=2)   # dumps() überführt das Dictionary in ein JSON-Objekt
                                         # indent sorgt für eine Einrückung des JSON-Objekts
-
 
 
 def count_relation_types(json_data_dir_list):

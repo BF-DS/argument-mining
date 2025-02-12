@@ -5,7 +5,7 @@ import os
 
 def num_tokens_from_string(string: str, model_name: str) -> int:
     """
-    Gibt die Anzahl der Tokens zurück, die ein String für den Tokenzier eines bestimmten Modells hat.
+    Gibt die Anzahl der Tokens zurück, die ein String für den Tokenzier eines bestimmten Modells hat. Als Tokenizer wird tiktoken verwendet.
     Args:
         string (str): Der zu tokenisierende String
         model_name (str): Der Name des Modells, für das die Tokenisierung erfolgen soll

@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-
+# eigene Funktion
 from src.llmlib import num_tokens_from_string
 
 def calculate_txt_file_lengths(files_path_list, model_id):
@@ -33,12 +33,12 @@ def calculate_txt_file_lengths(files_path_list, model_id):
 
 def count_entities(files_list, model_id):
     """
-    Zählt die Anzahl der MajorClaims, Claims, Premises und Stances in einer Liste von .ann-Dateien.
+    Zählt die Anzahl der Hauptaussagen, Behauptungen, Prämissen und Beziehungen in einer Liste von .ann-Dateien.
     Args:
         files_list: Liste von Dateipfaden
         model_id: Modell-ID
     Returns:
-        DataFrame mit Dateinamen, Anzahl der MajorClaims, Claims, Premises, Stances und Relations
+        DataFrame mit Dateinamen, Anzahl der Hauptaussagen, Behauptungen, Prämissen, Beziehungen und insgesamt annotierten Tokens
     """
     data = []
     for file_path in files_list:
@@ -82,6 +82,10 @@ def count_entities(files_list, model_id):
 def load_ann_files(files_path_list):
     """
     Laden der .ann-Dateien in ein Pandas DataFrame mit den Spalten 'FileName' und 'Content'.
+    Args:
+        files_path_list: Liste von Dateipfaden
+    Returns:
+        DataFrame mit Dateinamen und Inhalt der .ann-Dateien
     """
     data = []
 
