@@ -35,11 +35,11 @@ $ pip install -r requirements.txt
 ## Verwendung des LLMs
 Das Large Language Model GPT-4o mini wird über die OpenAI Batch-API verwendet. Hierzu muss ein API-Key von OpenAI angefordert werden. Über den nachfolgenden Link gelangt man zu einer Anleitung zur Anforderung des API-Keys: https://www.geeksforgeeks.org/how-to-get-your-own-openai-api-key/#how-to-obtain-your-openai-api-key 
 
-In diesem Projekt ist es vorgesehen, dass der API-Key in einer .env-Datei unter der Variable `OPENAI_API_KEY`gespeichert wird. Diese Datei wird dann in den Notebooks geladen. Nach der Installation der Abhängigkeiten und dem Speichern des API-Keys in der .env-Datei kann der Code aus den Jupyter-Notebooks ausgeführt werden.
+In diesem Projekt ist es vorgesehen, dass der API-Key in einer .env-Datei unter der Variable `OPENAI_API_KEY` gespeichert wird. Diese Datei wird dann in den Notebooks geladen. Nach der Installation der Abhängigkeiten und dem Speichern des API-Keys in der .env-Datei kann der Code aus den Jupyter-Notebooks ausgeführt werden.
 
 ## Hinweis zur Sprache
 Die Kommentare und Beschriftungen sind in Deutsch zum besseren Verständnis der Arbeit. Der Code ist hingegen in Englisch, da die Bibliotheken und Dokumentationen meist in Englisch sind. 
 
 ## Kontakt
-Bei Fragen oder Anmerkungen wenden Sie sich bitte an:
+Bei Fragen wenden Sie sich bitte an:
 - benjamin.fels@student.dbuas.de
