@@ -9,7 +9,7 @@ Das Repository ist in folgende Ordner unterteilt. Die Jupyter-Notebooks 1-4 enth
 - `data/`: Enthält den originalen Datensatz und die verarbeiteten Daten
   - `original/`: Originaler Datensatz
   - `transformed/`: Verarbeitete Daten
-- `graphs/`: Visualisierungen inklusive dazugehöriger Jupyter-Notebooks
+- `graphs/`: Visualisierungen inklusive dazugehörigem Jupyter-Notebook
 - `prompts/`: Verwendete Prompts
   - `building-blocks/`: Prompt-Bausteine für die Erstellung der Prompts
   - `final-prompts/`: Prompt-Variationen zur Anwendung auf das Large Language Model
