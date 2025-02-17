@@ -18,11 +18,11 @@ Das Repository ist in folgende Ordner unterteilt. Die Jupyter-Notebooks 1-4 enth
 - `2.data-transformation.ipynb`: Jupyter-Notebook zur Transformation der ann-Dateien in JSON-Dateien
 - `3.llm.ipynb`: Jupyter-Notebook zur Erstellung der Prompts und Anfragen an das Large Language Model
 - `4.evaluation.ipynb`: Jupyter-Notebook zur Evaluation der Ausgaben des Large Language Models
-- `report/`: Enthält den datenbasierten Bericht zur Masterarbeit
+- `report/`: Enthält den datenbasierten Report zur Masterarbeit
 - `requirements.txt`: Abhängigkeiten für das Projekt
 
 ## Installation der Abhängigkeiten
-Zur Ausführung der Jupyter-Notebooks empfiehlt es sich die Abhängigkeiten in einer eigenen Umgebung wie beispielsweise Anaconda zu installieren. Die Abhängigkeiten können über die Datei requirements.txt installiert werden. Sofern Anaconda installiert ist, kann die Umgebung mit den folgenden Befehlen im Terminal aufgesetzt und aktiviert werden.
+Zur Ausführung der Jupyter-Notebooks empfiehlt es sich die Abhängigkeiten in einer eigenen Umgebung wie beispielsweise mittels Anaconda zu installieren. Die Abhängigkeiten können über die Datei requirements.txt installiert werden. Sofern Anaconda installiert ist, kann die Umgebung mit den folgenden Befehlen im Terminal aufgesetzt und aktiviert werden.
 
 ```bash
 $ conda create -n masterarbeit_bfels python=3.12.6 -y
@@ -35,7 +35,7 @@ $ pip install -r requirements.txt
 ## Verwendung des LLMs
 Das Large Language Model GPT-4o mini wird über die OpenAI Batch-API verwendet. Hierzu muss ein API-Key von OpenAI angefordert werden. Über den nachfolgenden Link gelangt man zu einer Anleitung zur Anforderung des API-Keys: https://www.geeksforgeeks.org/how-to-get-your-own-openai-api-key/#how-to-obtain-your-openai-api-key 
 
-In diesem Projekt ist es vorgesehen, dass der API-Key in einer .env-Datei unter der Variable `OPENAI_API_KEY` gespeichert wird. Diese Datei wird dann in den Notebooks geladen. Nach der Installation der Abhängigkeiten und dem Speichern des API-Keys in der .env-Datei kann der Code aus den Jupyter-Notebooks ausgeführt werden.
+In diesem Projekt ist es vorgesehen, dass der API-Key in einer .env-Datei unter der Variable `OPENAI_API_KEY` gespeichert wird. Diese Datei wird in den Jupyter-Notebooks geladen. Nach der Installation der Abhängigkeiten und dem Speichern des API-Keys in der .env-Datei kann der Code aus den Jupyter-Notebooks ausgeführt werden.
 
 ## Hinweis zur Sprache
 Die Kommentare und Beschriftungen sind in Deutsch zum besseren Verständnis der Arbeit. Der Code ist hingegen in Englisch, da die Bibliotheken und Dokumentationen meist in Englisch sind. 
