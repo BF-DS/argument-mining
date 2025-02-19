@@ -7,18 +7,18 @@ Das Repository ist in folgende Ordner unterteilt. Die Jupyter-Notebooks 1-4 enth
   - `input/`: Eingabedaten für die Batch-API
   - `output/`: Ausgabedaten der Batch-API
 - `data/`: Enthält den originalen Datensatz und die verarbeiteten Daten
-  - `original/`: Originaler Datensatz
+  - `original/`: Argument-Annotated-Essays-Datensatz (Version 2) von Stab und Gurevych (2017a), heruntergelden von https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2422
   - `transformed/`: Verarbeitete Daten
 - `graphs/`: Visualisierungen inklusive dazugehörigem Jupyter-Notebook
 - `prompts/`: Verwendete Prompts
   - `building-blocks/`: Prompt-Bausteine für die Erstellung der Prompts
   - `final-prompts/`: Prompt-Variationen zur Anwendung auf das Large Language Model
+- `report/`: Enthält den datenbasierten Report zur Masterarbeit
 - `src/`: Enthält Python-Dateien mit eigenen Funktionen zum Importieren in die Jupyter-Notebooks
 - `1.EDA.ipynb`: Jupyter-Notebook zur explorativen Datenanalyse
 - `2.data-transformation.ipynb`: Jupyter-Notebook zur Transformation der ann-Dateien in JSON-Dateien
 - `3.llm.ipynb`: Jupyter-Notebook zur Erstellung der Prompts und Anfragen an das Large Language Model
 - `4.evaluation.ipynb`: Jupyter-Notebook zur Evaluation der Ausgaben des Large Language Models
-- `report/`: Enthält den datenbasierten Report zur Masterarbeit
 - `requirements.txt`: Abhängigkeiten für das Projekt
 
 ## Installation der Abhängigkeiten
